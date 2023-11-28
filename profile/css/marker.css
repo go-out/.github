@@ -1,0 +1,113 @@
+#map .marker {
+    background: lemonchiffon;
+    border: lightskyblue solid 0.1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+}
+
+.mapboxgl-marker {
+    z-index: 5;
+}
+
+#map .goout {
+    border: none;
+    cursor: pointer;
+    height: 3.21rem;
+    width: 3.21rem;
+    background-image: url('../img/favicon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#map .pehu {
+    border: none;
+    cursor: pointer;
+    height: 3.21rem;
+    width: 3.21rem;
+}
+
+#map .pehu::before {
+    content: "∧°┐";
+    display: block;
+    font-size: 1.25rem;
+    text-align: center;
+    width: 100%;
+}
+
+#map .heard {
+    border: none;
+    cursor: pointer;
+    height: 3.21rem;
+    width: 3.21rem;
+}
+
+#map .heard::before {
+    content: "i (we)";
+    background-color: #CDCBCC;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+.mapboxgl-popup {
+    font-size: 0.75rem;
+    filter: invert(90%);
+}
+
+.mapboxgl-popup-content {
+    color: #000;
+    text-align: center;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.mapboxgl-popup a,
+.mapboxgl-popup p {
+    margin: 0;
+}
+
+.mapboxgl-popup a {
+    color: #000;
+    display: block;
+    font-size: 100%;
+    line-height: 125%;
+    padding: 1rem 0.5rem 0.5rem;
+    margin: 0;
+    outline: none;
+    font-family: 'Libre Baskerville', 'Zen Old Mincho', serif;
+}
+
+.mapboxgl-popup p {
+    font-size: 55%;
+    line-height: 200%;
+    padding: 0.5rem 1rem;
+}
+
+.mapboxgl-popup-close-button {
+    appearance: none;
+    background: transparent;
+    border: none;
+    font-size: 200%;
+    outline: none;
+}
+
+@media screen and (max-width: 550px) {
+    .mapboxgl-popup {
+        font-size: 3vw;
+        width: 55%;
+        min-width: 55%;
+        max-width: 55%;
+    }
+
+    .mapboxgl-popup h3 {
+        padding: 7.5vw 1vw 5.5vw;
+    }
+
+    .mapboxgl-popup p {
+        padding: 1vw 2vw;
+    }
+}

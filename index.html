@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <script src="profile/js/markers.js"></script>
+  <script src="profile/js/popups.js"></script>
+
+  <!--og:meta-->
+  <meta content="website" property="og:type">
+  <title>Go Out | 行ったことのない場所へ行く</title>
+  <meta content="Go Out | 行ったことのない場所へ行く" property="og:title">
+  <meta content="知っていることの 外へ わからないところまで 出かける" name="description">
+  <meta content="知っていることの 外へ わからないところまで 出かける" name="og:description">
+
+  <link rel="icon" href="profile/img/favicon.png">
+  <link rel="icon" href="profile/img/mobile.png" sizes="192x192">
+  <link rel="apple-touch-icon-precomposed" href="profile/img/mobile.png" sizes="180x180">
+
+  <!--for Twitter-->
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="https://creative-community.space/map/" property="og:url">
+  <meta content="https://creative-community.space/map/profile/img/card.png" property="og:image">
+  <meta content="https://creative-community.space/map/profile/img/card.png" name="twitter:image:src">
+
+  <link rel="stylesheet" href="profile/css/animation.css">
+  <link rel="stylesheet" href="profile/css/style.css">
+  <link rel="stylesheet" href="profile/css/index.css">
+  <link rel="stylesheet" href="profile/css/marker.css">
+
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+  <h1 id="title">
+    <strong class="goout">Go Out</strong>
+    <button type="button" class="goout">Let's have some fun</button>
+  </h1>
+
+  <header>
+    <h2 id="latlng" class="goout">
+      Life is precious. Every minute. And more precious with you in it.
+    </h2>
+    <address id="address" class="goout">
+      lyrics from "Jon Brion - Little Person"
+    </address>
+    <h3 id="datetime" class="relax">
+      <u>知っていることの</u>
+      <b>外へ</b>
+      <u>わからないところまで</u>
+      <b>出かける</b>
+    </h3>
+  </header>
+
+  <div id="map"></div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
+
+    let center = [135.50433479522678, 34.69699057458179],
+      css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
+      zoom = '1.75';
+
+    const map = new mapboxgl.Map({
+      container: 'map',
+      center: center,
+      style: css,
+      pitch: 0,
+      bearing: 0,
+      zoom: zoom,
+      scrollZoom: true,
+      attributionControl: false
+    });
+  </script>
+
+  <script src="profile/js/mapbox.js"></script>
+  <script src="profile/js/rotating.js"></script>
+  <footer class="goout" hidden>
+    creative-community.space
+  </footer>
+</body>
+
+</html>

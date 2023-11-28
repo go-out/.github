@@ -1,0 +1,148 @@
+body,
+header,
+#map {
+    position: fixed;
+}
+
+#title,
+#title button {
+    position: relative;
+}
+
+#title,
+#title button,
+header {
+    z-index: 1;
+}
+
+header,
+#title {
+    pointer-events: none;
+    user-select: none;
+}
+
+#title {
+    color: lightskyblue;
+}
+
+h2 {
+    color: lemonchiffon;
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+address {
+    background: lemonchiffon;
+    color: lightskyblue;
+}
+
+h3 b {
+    color: lemonchiffon;
+    background: lightskyblue;
+}
+
+h3 u {
+    color: #000;
+    text-decoration: lightskyblue wavy underline;
+}
+
+h3 b,
+h3 u {
+    line-height: 200%;
+}
+
+address {
+    display: inline-block;
+}
+
+header {
+    padding: 0.5rem;
+}
+
+address {
+    padding: 0;
+    margin: 0 0 0.5rem;
+}
+
+#title strong {
+    font-size: 300%;
+}
+
+#title {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 b {
+    font-size: 150%;
+}
+
+h3,
+h3 u {
+    font-size: 125%;
+}
+
+address {
+    font-size: 100%;
+}
+
+#title button,
+small {
+    font-size: 75%;
+}
+
+#title button,
+h3,
+h3 b,
+h3 u {
+    font-weight: 500;
+}
+
+#title strong {
+    line-height: 300%;
+}
+
+#title button {
+    background: #fff;
+    border: solid 0.15rem;
+    border-radius: 50%;
+    padding: 0.25rem 1rem;
+}
+
+body,
+#title {
+    display: grid;
+    place-items: center;
+}
+
+#title[hidden] {
+    display: none;
+}
+
+body,
+header,
+#map {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    max-height: -webkit-fill-available;
+}
+
+header {
+    width: calc(100% - 4.5rem);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}

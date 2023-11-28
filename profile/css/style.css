@@ -1,0 +1,168 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 2vw;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 3.21vw;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+#map {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+button,
+input[type="button"],
+textarea {
+    transition: 1s;
+    pointer-events: auto;
+    user-select: auto;
+}
+
+button,
+input[type="button"],
+textarea {
+    appearance: none;
+    color: #000;
+    outline: none;
+}
+
+button:hover,
+input[type="button"]:hover {
+    cursor: pointer;
+    filter: sepia(1);
+}
+
+@font-face {
+    font-family: "Kristina";
+    src: url("../fonts/Kristina-Bold.otf") format("opentype"),
+        url("../fonts/Kristina-Fine.otf") format("opentype");
+}
+
+.goout {
+    font-family: "Kristina", cursive;
+}
+
+.goout a {
+    color: lemonchiffon;
+    background-color: lightskyblue;
+}
+
+.goout a:hover {
+    color: lightskyblue;
+    background-color: lemonchiffon;
+}
+
+@font-face {
+    font-family: "DiaPro";
+    src: url("../fonts/DiaPro-Regular.eot") format("embedded-opentype"),
+        url("../fonts/DiaPro-Regular.otf") format("opentype"),
+        url("../fonts/DiaPro-Regular.woff") format("woff");
+}
+
+.relax {
+    font-family: "DiaPro", sans-serif;
+}
+
+.relax a {
+    color: #000;
+    background-color: #ebd809;
+}
+
+.relax a:hover {
+    color: #ebd809;
+    background-color: #000;
+}
+
+.sports {
+    font-weight: 500;
+    font-size: 75%;
+    font-family: "Gill Sans";
+    text-transform: uppercase;
+}
+
+.sports a {
+    animation: 2s linear infinite alternate sports;
+}
+
+.sports a:hover {
+    animation: .25s linear infinite alternate sports;
+}
+
+@keyframes sports {
+    0% {
+        color: #333;
+        background: #DCF7EE;
+    }
+
+    100% {
+        color: #DCF7EE;
+        background: #333;
+    }
+}
+
+@-webkit-keyframes sports {
+    0% {
+        color: #333;
+        background: #DCF7EE;
+    }
+
+    100% {
+        color: #DCF7EE;
+        background: #333;
+    }
+}
+
+.heard {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heard a {
+    background: #CDCBCC;
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.heard a:hover {
+    background: #fff;
+    color: #CDCBCC;
+}
+
+@font-face {
+    font-family: "MS Mincho";
+    src: url("https://pehu.creative-community.space/icon/font/MSMincho.ttc");
+}
+
+@font-face {
+    font-family: "SimSong";
+    src: url("https://pehu.creative-community.space/icon/font/SimSong.ttc");
+}
+
+.pehu {
+    font-family: "MS Mincho", "SimSong", serif;
+}
+
+.pehu a {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
