@@ -57,8 +57,9 @@ input[type="button"]:hover {
         url("../fonts/Kristina-Fine.otf") format("opentype");
 }
 
-.goout {
-    font-family: "Kristina", cursive;
+.goout,
+.mapboxgl-ctrl-attrib-inner {
+    font-family: "Kristina", 'Zen Maru Gothic', cursive;
 }
 
 .goout a {
