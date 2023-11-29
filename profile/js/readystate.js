@@ -46,6 +46,7 @@ document.addEventListener("readystatechange", (event) => {
             goout.style.pointerEvents = 'auto';
             goout.style.userSelect = 'auto';
             dialog.close();
+            csvtojson('profile/submit.csv')
         })
     }
 });
