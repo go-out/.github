@@ -1,2 +1,9 @@
-私たちは、このウェブサイトに投稿された位置情報を使って、様々な地図を作成します。
-トップページには、これまでに投稿された位置情報・私たちが作成した地図へのリンクなど が 表示されます。
+位置情報 API (Geolocation API)[^1] を使用して取得した現在位置などの情報を、ウェブストレージ API[^2] を使用してローカルストレージに記録
+
+[^1]: [位置情報 API の使用 - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API/Using_the_Geolocation_API)
+[^2]: [ウェブストレージ API の使用 - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+
+
+Mapbox[^4] を使って、このサイトに投稿された位置情報を集めたカスタム地図を作成
+
+[^4]: [Mapbox - デジタル地図の開発プラットフォーム](https://www.mapbox.jp/)

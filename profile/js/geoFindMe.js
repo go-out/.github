@@ -5,6 +5,7 @@ function geoFindMe() {
     const thisLatLng = document.querySelector('#latlng');
     const thisAddress = document.querySelector('#address');
     const thisDate = document.querySelector('#datetime');
+    const comment = document.querySelector('#comment').value;
     const goout = document.querySelector('#map');
 
     function success(position) {
@@ -12,10 +13,12 @@ function geoFindMe() {
         goout.style.pointerEvents = 'auto';
         goout.style.userSelect = 'auto';
 
+        let timestamp = new Date().toLocaleString();
+        thisDate.innerHTML = timestamp;
+
         // 緯度経度を変数に代入
         const latitude = position.coords.latitude;
         const longitude = position.coords.longitude;
-        const accuracy = position.coords.accuracy;
         thisLatLng.innerHTML = `
         <b id="longitude">${longitude}</b>,
         <b id="latitude">${latitude}</b>
@@ -26,8 +29,55 @@ function geoFindMe() {
         fetchData(uri).then(function (response) {
             return response.text().then(function (jsonStr) {
                 var data = JSON.parse(jsonStr);
-                var context = data.features[0].place_name.replace(/\,/g, "");
-                thisAddress.textContent = context;
+                var address = data.features[0].place_name.replace(/\,/g, "");
+                thisAddress.textContent = address;
+        
+                // localStorageから位置情報を取得
+                let array = JSON.parse(localStorage.getItem("goout")) || [];
+                const addData = (timestamp, latitude, longitude, address, comment) => {
+                    array.unshift({
+                        timestamp,
+                        latitude,
+                        longitude,
+                        address,
+                        comment
+                    })
+                    localStorage.setItem("goout", JSON.stringify(array))
+                    return { timestamp, latitude, longitude, address, comment }
+                }
+        
+                // localStorage に 最新の位置情報 を追加
+                addData(timestamp, latitude, longitude, thisAddress.textContent, comment)
+        
+                const currentLocation = {
+                    latitude: latitude,
+                    longitude: longitude,
+                    timestamp: timestamp,
+                    address: address,
+                    comment: comment
+                };
+
+                // PHPに現在地を送信
+                const gooutJSON = JSON.stringify(currentLocation);
+                let response = fetch('profile/submit.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json;charset=utf-8'
+                    },
+                    body: gooutJSON
+                })
+        
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data)
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    });
+        
+                setTimeout(() => {
+                    //
+                }, 1000);
             });
         }).catch(err => { console.log(err); });
         async function fetchData(_uri) {
@@ -42,20 +92,6 @@ function geoFindMe() {
             center: center,
             zoom: 11.11
         });
-
-        let timestamp = new Date().toLocaleString();
-        thisDate.innerHTML = timestamp;
-
-        // localStorageに現在地を保存
-        const geolocation = {
-            latitude: latitude,
-            longitude: longitude,
-            accuracy: accuracy,
-            timestamp: timestamp
-        };
-
-        const geoJSON = JSON.stringify(geolocation);
-        localStorage.setItem("geolocation", geoJSON);
     };
 
     function error() {

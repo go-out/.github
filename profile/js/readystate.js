@@ -14,8 +14,8 @@ document.addEventListener("readystatechange", (event) => {
         const thisAddress = document.querySelector('#address');
         const thisDate = document.querySelector('#datetime');
 
-        if (localStorage.getItem('geolocation')) {
-            const geoJSON = JSON.parse(localStorage.getItem('geolocation'));
+        if (localStorage.getItem('goout')) {
+            const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
             thisLatLng.innerHTML = `
             <small>Your device's last known location</small>
             `;

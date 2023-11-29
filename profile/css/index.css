@@ -64,7 +64,12 @@ address {
     display: inline-block;
 }
 
-dialog form button,
+#datetime,
+dialog div {
+    padding: 0;
+    margin: 0.25rem 0;
+}
+
 dialog form details textarea {
     padding: 0.25rem;
     margin: 0;
@@ -75,9 +80,8 @@ dialog form details summary {
     padding: 0.5rem;
 }
 
-address {
-    padding: 0;
-    margin: 0 0 0.5rem;
+#close {
+    padding: 0 0.5rem;
 }
 
 dialog form details {
@@ -89,13 +93,13 @@ dialog form details {
 }
 
 #title,
-#close,
 dialog form button {
     font-size: 250%;
 }
 
 h2,
 address strong,
+#close,
 dialog h3 {
     font-size: 200%;
 }
@@ -134,11 +138,6 @@ h3 u {
 
 #title strong {
     line-height: 250%;
-}
-
-h3 b,
-h3 u {
-    line-height: 200%;
 }
 
 #title button {

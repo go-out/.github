@@ -68,28 +68,35 @@
 
   <dialog>
     <input type="button" id="close" value="×">
-    <div class="goout"></div>
+    <details>
+      <summary class="relax">このウェブサイトについて</summary>
+      <div class="goout"></div>
+    </details>
+    <br>
+    <small class="goout">
+      このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。
+    </small>
     <h3 class="relax">
       We Create a
       <b>Map</b>
       of
-      <u>Where I（We）Were</u>.
+      <u>Where I（We）Were</u>
+      by location informations submit on this website.
       <br>
       <small class="relax">
-        Let's Submit Your Location Infomation by Click
+        You can add pins of your current locationon on this map by click
         <strong class="goout">I'm here !</strong>
       </small>
     </h3>
-    <br>
     <p class="goout">
-      「I'm here !」を クリックすると、あなたの現在地情報 が このウェブサイト に 記録されます。
+      <strong>I'm here !</strong>
+      を クリックすると、この地図に あなたの現在地情報 を 印す ピンが追加されます。
     </p>
     <form method="dialog">
       <button type="button" id="enter" class="goout">I'm here !</button>
       <details>
         <summary class="relax">Add A Comment コメントを追加</summary>
-        <textarea name="comment" id="comment" class="goout" rows="7.5"
-          placeholder="位置情報にコメントを追加する場合は、ここにコメントを入力ください。"></textarea>
+        <textarea name="comment" id="comment" class="goout" rows="7.5" placeholder="現在地情報にコメントを追加する場合は、ここにコメントを入力ください。"></textarea>
       </details>
     </form>
   </dialog>
