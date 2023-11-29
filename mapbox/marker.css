@@ -1,0 +1,29 @@
+.mapboxgl-marker {
+    cursor: pointer;
+    z-index: 5;
+}
+
+.mapboxgl-marker.goout {
+    border: none;
+    height: 3.21rem;
+    width: 3.21rem;
+    background-image: url('../profile/img/favicon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mapboxgl-marker.pehu {
+    border: none;
+    height: 3.21rem;
+    width: 3.21rem;
+}
+
+.mapboxgl-marker.pehu::before {
+    content: "∧°┐";
+    display: block;
+    font-size: 1.25rem;
+    text-align: center;
+    width: 100%;
+}
+

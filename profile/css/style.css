@@ -131,22 +131,6 @@ input[type="button"]:hover {
     }
 }
 
-.heard {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.heard a {
-    background: #CDCBCC;
-    color: #fff;
-    font-style: italic;
-    text-decoration: none;
-}
-
-.heard a:hover {
-    background: #fff;
-    color: #CDCBCC;
-}
-
 @font-face {
     font-family: "MS Mincho";
     src: url("https://pehu.creative-community.space/icon/font/MSMincho.ttc");

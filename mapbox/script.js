@@ -1,15 +1,3 @@
-const title = document.querySelector('#title')
-const enter = document.querySelector('#title button')
-
-enter.addEventListener('click', function () {
-    title.hidden = true
-    addMarkers();
-})
-
-map.on('load', () => {
-    //
-})
-
 map.addControl(
     new mapboxgl.GeolocateControl({
         positionOptions: {
