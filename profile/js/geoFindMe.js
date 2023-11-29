@@ -76,7 +76,7 @@ function geoFindMe() {
                     });
         
                 setTimeout(() => {
-                    //
+                    csvtojson('profile/submit.csv')
                 }, 1000);
             });
         }).catch(err => { console.log(err); });

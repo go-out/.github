@@ -8,8 +8,8 @@ $output = array(
     $data["timestamp"],
     $data["latitude"],
     $data["longitude"],
-    $data["address"],
-    $data["comment"],
+    '"'.$data["address"].'"',
+    '"'.$data["comment"].'"',
     $_SERVER["REMOTE_ADDR"]
 );
 $result = implode(',', $output);

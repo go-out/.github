@@ -3,6 +3,14 @@
     z-index: 5;
 }
 
+.mapboxgl-marker.submit {
+    width: 1rem;
+    height: 1rem;
+    background: lemonchiffon;
+    border: lightskyblue solid 0.1rem;
+    border-radius: 50%;
+}
+
 .mapboxgl-marker.goout {
     border: none;
     height: 3.21rem;
