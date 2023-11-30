@@ -5,7 +5,7 @@ let heaedJson = [
             'title': 'things that i (we) heard around OTO building',
             'address': '私（わたしたち）が 音ビル周辺で聞いた言葉',
             'date': 'Sun Jan 5 2020 - Sun May 22 2022',
-            'link': 'https://things-that-i-we-heard.github.io/otobuilding/'
+            'link': 'heard/otobuilding/'
         },
     },
     {
@@ -14,7 +14,7 @@ let heaedJson = [
             'title': 'things that i (we) heard around BnA Alter Museum',
             'address': '私（わたしたち）が 京都・河原町周辺で聞いた 55 の言葉',
             'date': 'Thu Jul 21 2022 - Mon Aug 15 2022',
-            'link': 'https://things-that-i-we-heard.github.io/bnaaltermuseum/'
+            'link': 'heard/bnaaltermuseum/'
         }
     }
 ]
