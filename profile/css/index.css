@@ -1,5 +1,6 @@
 body,
 header,
+footer,
 #map {
     position: fixed;
 }
@@ -9,15 +10,17 @@ header,
     position: relative;
 }
 
+header,
 #title,
 #title button,
-header {
+footer {
     z-index: 1;
 }
 
 header,
 #title,
-#map {
+#map,
+footer {
     pointer-events: none;
     user-select: none;
 }
@@ -27,7 +30,8 @@ header,
     color: lightskyblue;
 }
 
-h2 {
+h2,
+.shadow {
     color: lemonchiffon;
     text-shadow:
         0.1rem 0.1rem 0.1rem lightskyblue,
@@ -41,7 +45,7 @@ address {
 }
 
 h3 b,
-dialog form details summary {
+dialog form label {
     color: lemonchiffon;
     background: lightskyblue;
 }
@@ -64,28 +68,30 @@ address {
     display: inline-block;
 }
 
-#datetime,
+h3,
 dialog div {
     padding: 0;
     margin: 0.25rem 0;
 }
 
-dialog form details textarea {
+dialog form textarea {
     padding: 0.25rem;
-    margin: 0;
+    margin: 0 0 0.5rem;
 }
 
 header,
-dialog form details summary {
+footer,
+dialog form label {
     padding: 0.5rem;
 }
 
 #close {
-    padding: 0 0.5rem;
+    padding: 0;
+    margin: 0 0 0.5rem 0.5rem;
 }
 
-dialog form details {
-    margin: 1rem 0 0;
+dialog form button {
+    margin: 1rem 0 2rem;
 }
 
 #title strong {
@@ -111,7 +117,7 @@ h3 b {
 #datetime,
 h3 u,
 dialog strong,
-dialog form details summary {
+dialog form label {
     font-size: 125%;
 }
 
@@ -125,7 +131,7 @@ small {
     font-size: 75%;
 }
 
-dialog form details textarea {
+dialog form textarea {
     font-size: 16px;
 }
 
@@ -169,12 +175,33 @@ dialog form {
     place-items: center;
 }
 
-dialog form details,
-dialog form details textarea {
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+dialog form label,
+dialog form textarea,
+footer {
     border: none;
     width: 100%;
     min-width: 100%;
     max-width: 100%;
+}
+
+footer button {
+    background: transparent;
+    background-image: url(../img/mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
 }
 
 #title[hidden] {

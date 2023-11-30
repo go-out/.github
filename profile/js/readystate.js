@@ -32,21 +32,41 @@ document.addEventListener("readystatechange", (event) => {
         const dialog = document.querySelector("dialog");
         const enter = document.querySelector('dialog #enter')
         const close = document.querySelector('dialog #close')
+        const menu = document.querySelector('footer button')
+
+        if (localStorage.getItem("yourInfo")) {
+            userInteracting = !0;
+            goout.style.pointerEvents = 'auto';
+            goout.style.userSelect = 'auto';
+            title.hidden = true;
+            menu.hidden = false;
+            csvtojson('profile/submit.csv')
+        }
+
         readme.addEventListener('click', function () {
             title.hidden = true;
             dialog.showModal();
-            readmeMD('dialog div', 'profile/README.md')
         })
+
         enter.addEventListener('click', function () {
             geoFindMe()
             dialog.close();
+            menu.hidden = false;
         })
+
         close.addEventListener('click', function () {
             userInteracting = !0;
             goout.style.pointerEvents = 'auto';
             goout.style.userSelect = 'auto';
             dialog.close();
+            menu.hidden = false;
             csvtojson('profile/submit.csv')
         })
+        
+        menu.addEventListener('click', function () {
+            dialog.showModal();
+        })
+
+        readmeMD('dialog div', 'profile/README.md')
     }
 });

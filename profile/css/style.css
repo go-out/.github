@@ -131,16 +131,6 @@ input[type="button"]:hover {
     }
 }
 
-@font-face {
-    font-family: "MS Mincho";
-    src: url("https://pehu.creative-community.space/icon/font/MSMincho.ttc");
-}
-
-@font-face {
-    font-family: "SimSong";
-    src: url("https://pehu.creative-community.space/icon/font/SimSong.ttc");
-}
-
 .pehu {
     font-family: "MS Mincho", "SimSong", serif;
 }

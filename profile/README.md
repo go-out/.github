@@ -1,7 +1,8 @@
-位置情報 API (Geolocation API)[^1] を使用して取得した現在位置などの情報を、ウェブストレージ API[^2] を使用してローカルストレージに記録
+このウェブサイトでは、位置情報 API (Geolocation API)[^1] を使用して取得した現在位置などの情報を、ウェブストレージ API[^2] を使用してローカルストレージに記録・PHP[^3] を使用してCSVに記録します。
 
 [^1]: [位置情報 API の使用 - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API/Using_the_Geolocation_API)
 [^2]: [ウェブストレージ API の使用 - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+[^3]: [PHP: Hypertext Preprocessor](https://www.php.net/)
 
 
 Mapbox[^4] を使って、このサイトに投稿された位置情報を集めたカスタム地図を作成

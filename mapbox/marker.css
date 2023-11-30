@@ -4,10 +4,10 @@
 }
 
 .mapboxgl-marker.submit {
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background: lemonchiffon;
-    border: lightskyblue solid 0.1rem;
+    border: lightskyblue solid 0.15rem;
     border-radius: 50%;
 }
 
