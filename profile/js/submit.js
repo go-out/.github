@@ -48,8 +48,8 @@ function chengeHeader(currentFeature) {
     const thisLatLng = document.querySelector('#latlng');
     const thisAddress = document.querySelector('#address');
     const thisDate = document.querySelector('#datetime');
-    thisLatLng.textContent = currentFeature.properties.title;
-    thisAddress.textContent = currentFeature.properties.address;
+    thisLatLng.textContent = currentFeature.properties.address;
+    thisAddress.textContent = currentFeature.properties.timestamp;
     thisDate.className = currentFeature.properties.tags;
     thisDate.innerHTML = currentFeature.properties.date;
 }
