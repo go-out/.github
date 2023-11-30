@@ -24,7 +24,7 @@ document.addEventListener("readystatechange", (event) => {
             const yourInfo = JSON.parse(localStorage.getItem('yourInfo'));
             const h2 = document.querySelector('footer h2');
             h2.innerHTML = `
-            <b>IP ${yourInfo.ip}</b>
+            <b>IP ${yourInfo.ip}</b><br>
             <small>Posted by ${yourInfo.os}</small>
             `
             // localStorageから位置情報を取得
