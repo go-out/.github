@@ -78,7 +78,6 @@ document.addEventListener('readystatechange', e => {
             // localStorage に 最新の位置情報 を追加
             const latitude = document.querySelector('#latitude').textContent;
             const longitude = document.querySelector('#longitude').textContent;
-            const thisAddress = document.querySelector('#address').textContent;
             const timestamp = document.querySelector('#timestamp').value;
             const comment = document.querySelector('#comment').value;
             addData(timestamp, latitude, longitude, thisAddress, comment)
