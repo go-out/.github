@@ -93,6 +93,7 @@ input[type="button"]:hover {
 }
 
 .goout,
+header .submit,
 .mapboxgl-ctrl-attrib-inner {
     font-family: "Kristina", 'Zen Maru Gothic', cursive;
 }
