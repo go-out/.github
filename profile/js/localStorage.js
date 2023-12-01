@@ -38,17 +38,6 @@ document.addEventListener("readystatechange", (event) => {
                     const thisTimestamp = gooutJSON[i].timestamp;
                     const thisCenter = [thisLongitude, thisLatitude];
 
-                    const storageOl = document.querySelector('#localStorage');
-                    const storageLi = document.createElement('li');
-                    storageLi.id = `submit-${i}`;
-                    storageLi.innerHTML = `
-                    <span>
-                    <u class="goout">${thisTimestamp}</u>
-                    </span>
-                    <p class="goout">${thisLongitude}, ${thisLatitude}</p>
-                    `
-                    storageOl.appendChild(storageLi);
-
                     let yourMarker = {
                         'type': 'Feature',
                         'geometry': {
@@ -64,6 +53,17 @@ document.addEventListener("readystatechange", (event) => {
                         }
                     }
                     gooutArr.features.push(yourMarker);
+
+                    const storageOl = document.querySelector('#localStorage');
+                    const storageLi = document.createElement('li');
+                    storageLi.id = `submit-${i}`;
+                    storageLi.innerHTML = `
+                    <span>
+                    <u class="goout">${thisTimestamp}</u>
+                    </span>
+                    <p class="goout">${thisLongitude}, ${thisLatitude}</p>
+                    `
+                    storageOl.appendChild(storageLi);
 
                     // li 要素を クリックすると 投稿した位置に地図の中心が移動
                     const address = document.querySelector('#address');

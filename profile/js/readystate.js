@@ -25,6 +25,8 @@ document.addEventListener("readystatechange", (event) => {
             `;
             thisDate.textContent = geoJSON.timestamp;
         }
+        
+        readmeMD('dialog div', 'profile/README.md')
     } else if (event.target.readyState === "complete") {
         const title = document.querySelector('#title')
         const readme = document.querySelector('#title button')
@@ -66,7 +68,5 @@ document.addEventListener("readystatechange", (event) => {
         menu.addEventListener('click', function () {
             dialog.showModal();
         })
-
-        readmeMD('dialog div', 'profile/README.md')
     }
 });
