@@ -163,7 +163,7 @@ dialog {
 
 footer {
     height: 45vh;
-    min-height: 45vw;
+    min-height: 250px;
 }
 
 @media (orientation: portrait) {
