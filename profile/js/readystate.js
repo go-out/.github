@@ -17,7 +17,7 @@ document.addEventListener("readystatechange", (event) => {
         if (localStorage.getItem('goout')) {
             const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
             thisLatLng.innerHTML = `
-            <small>Your device's last known location</small>
+            <small>Your device's latest post</small>
             `;
             thisAddress.innerHTML = `
             <strong id="longitude">${geoJSON.longitude}</strong>,
