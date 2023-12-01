@@ -80,12 +80,13 @@ document.addEventListener('readystatechange', e => {
             const longitude = document.querySelector('#longitude').textContent;
             const timestamp = document.querySelector('#timestamp').value;
             const comment = document.querySelector('#comment').value;
-            addData(timestamp, latitude, longitude, thisAddress, comment)
+            const thisTime = new Date(timestamp).toLocaleString();
+            addData(thisTime, latitude, longitude, thisAddress, comment)
 
             const addLocation = {
                 latitude: latitude,
                 longitude: longitude,
-                timestamp: timestamp,
+                timestamp: thisTime,
                 address: address,
                 comment: comment
             };
