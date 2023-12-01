@@ -149,16 +149,16 @@ textarea {
     max-width: 100%;
 }
 
-#map {
-    height: 55vh;
-    min-height: 300px;
-}
-
 dialog {
     width: 75%;
     height: 75%;
     max-width: 550px;
     max-height: 550px;
+}
+
+#map {
+    height: 55vh;
+    min-height: 300px;
 }
 
 footer {
