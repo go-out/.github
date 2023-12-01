@@ -5,19 +5,10 @@ header {
     z-index: 1;
 }
 
-body,
 header {
     top: 0;
     left: 0;
     right: 0;
-}
-
-address {
-    display: inline-block;
-}
-
-body {
-    background: lemonchiffon;
 }
 
 footer ol li::marker {
@@ -25,18 +16,19 @@ footer ol li::marker {
 }
 
 h2,
-u {
+u,
+dialog form label {
     color: lemonchiffon;
     background: lightskyblue;
     text-decoration: none;
 }
 
-.shadow {
-    color: lemonchiffon;
-    text-shadow:
-        0.1rem 0.1rem 0.1rem lightskyblue,
-        0.2rem 0.2rem 0.2rem lightskyblue,
-        0.3rem 0.3rem 0.3rem lightskyblue;
+dialog form button {
+    background: #fff;
+    border: solid 0.15rem;
+    border-radius: 50%;
+    color: #000;
+    padding: 0 1rem;
 }
 
 footer ol li::marker {
@@ -44,8 +36,14 @@ footer ol li::marker {
 }
 
 body,
-footer {
+footer,
+dialog[open],
+dialog form {
     display: grid;
+}
+
+dialog h2 {
+    place-self: start;
 }
 
 footer h2 {
@@ -53,15 +51,9 @@ footer h2 {
 }
 
 header,
-footer ol li {
+footer ol li,
+dialog form label {
     padding: 0.5rem;
-}
-
-h2 b,
-h2 small {
-    display: inline-block;
-    padding: 0;
-    margin: 0.25rem 0.5rem;
 }
 
 footer ol {
@@ -72,6 +64,46 @@ footer ol {
 footer p {
     padding: 0;
     margin: 0;
+}
+
+#geocoder,
+dialog p {
+    margin: 0.5rem 0;
+}
+
+dialog form button {
+    margin: 1rem 0 0;
+}
+
+h2 b,
+h2 small {
+    display: inline-block;
+    padding: 0;
+    margin: 0.25rem 0.5rem;
+}
+
+dialog form textarea {
+    border: none;
+    font-size: 16px;
+    padding: 0.25rem;
+    margin: 0 0;
+}
+
+#timestamp {
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 0.5rem;
+}
+
+#close {
+    font-size: 350%;
+}
+
+dialog form button {
+    font-size: 250%;
 }
 
 h1 {
@@ -86,6 +118,10 @@ footer p {
 h2,
 b {
     font-size: 125%;
+}
+
+#timestamp {
+    font-size: 100%;
 }
 
 h2 small {
@@ -108,21 +144,31 @@ footer ol {
     width: 100%;
 }
 
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+}
+
 #map {
     height: 55vh;
+    min-height: 300px;
+}
+
+dialog {
+    width: 75%;
+    height: 75%;
+    max-width: 550px;
+    max-height: 550px;
 }
 
 footer {
     height: 45vh;
+    min-height: 250px;
 }
 
 @media (orientation: portrait) {
     #map {
-        height: 100vw;
-    }
-
-    footer {
-        height: 75vw;
+        min-height: 55vh;
     }
 }
 
@@ -156,9 +202,18 @@ footer button {
     height: 4.5rem;
 }
 
+#close,
 footer button {
     position: fixed;
-    bottom: 0;
     right: 0;
     margin: 0.5rem;
+}
+
+#close {
+    top: 0;
+    padding: 0 1rem;
+}
+
+footer button {
+    bottom: 0;
 }

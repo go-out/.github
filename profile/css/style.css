@@ -27,6 +27,37 @@ h2,
     margin: 0;
 }
 
+address {
+    display: inline-block;
+}
+
+body,
+dialog {
+    background: lemonchiffon;
+}
+
+#title,
+#close {
+    color: lightskyblue;
+}
+
+.shadow {
+    color: lemonchiffon;
+    text-shadow:
+        0.1rem 0.1rem 0.1rem lightskyblue,
+        0.2rem 0.2rem 0.2rem lightskyblue,
+        0.3rem 0.3rem 0.3rem lightskyblue;
+}
+
+address {
+    background: lemonchiffon;
+    color: lightskyblue;
+}
+
+dialog {
+    border: solid 0.25rem lightskyblue;
+}
+
 a,
 button,
 input[type="button"],
@@ -42,6 +73,11 @@ textarea {
     appearance: none;
     color: #000;
     outline: none;
+}
+
+#close {
+    background: transparent;
+    border: none;
 }
 
 button:hover,

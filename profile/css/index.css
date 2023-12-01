@@ -25,25 +25,6 @@ footer {
     user-select: none;
 }
 
-#title,
-#close {
-    color: lightskyblue;
-}
-
-h2,
-.shadow {
-    color: lemonchiffon;
-    text-shadow:
-        0.1rem 0.1rem 0.1rem lightskyblue,
-        0.2rem 0.2rem 0.2rem lightskyblue,
-        0.3rem 0.3rem 0.3rem lightskyblue;
-}
-
-address {
-    background: lemonchiffon;
-    color: lightskyblue;
-}
-
 h3 b,
 dialog form label {
     color: lemonchiffon;
@@ -56,16 +37,8 @@ h3 u {
 }
 
 dialog {
-    background: lemonchiffon;
-    border: solid 0.25rem lightskyblue;
-    color: #000;
-    font-family: 'Libre Baskerville', 'Zen Old Mincho', serif;
     width: calc(100% - 2em);
     max-width: 550px;
-}
-
-address {
-    display: inline-block;
 }
 
 h3,
@@ -131,10 +104,6 @@ small {
     font-size: 75%;
 }
 
-dialog form textarea {
-    font-size: 16px;
-}
-
 #title button,
 h3,
 h3 b,
@@ -162,8 +131,6 @@ dialog form button {
 }
 
 #close {
-    background: transparent;
-    border: none;
     display: block;
     float: right;
 }
@@ -183,11 +150,26 @@ footer {
     flex-flow: row-reverse;
 }
 
+body,
+#map,
 dialog form label,
-dialog form textarea,
-footer {
-    border: none;
+dialog form textarea {
     width: 100%;
+}
+
+body,
+#map {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+}
+
+header {
+    width: calc(100% - 4.5rem);
+}
+
+dialog form textarea {
+    font-size: 16px;
+    border: none;
     min-width: 100%;
     max-width: 100%;
 }
@@ -214,19 +196,4 @@ header,
     top: 0;
     left: 0;
     right: 0;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    max-height: -webkit-fill-available;
-}
-
-header {
-    width: calc(100% - 4.5rem);
-}
-
-#map {
-    width: 100%;
-    height: 100%;
 }

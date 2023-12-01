@@ -38,15 +38,15 @@ const map = new mapboxgl.Map({
 
 ### [マップの開始位置の座標 = [lng(経度), lat(緯度)]](https://docs.mapbox.com/help/glossary/lat-lon/)
 
-| [ズームレベル](https://docs.mapbox.com/jp/help/glossary/zoom-level/)[^4]  | 見える範囲 |
-|:------------|:---------|
-| ***0***     | 地球 |
-| ***3***     | 大陸 |
-| ***4***     | 大きな島 |
-| ***6***     | 	大きな川 |
-| ***10***     | 幹線道路 |
-| ***15***     | ビル |
-| ***22***     | 最も高いズームレベル |
+| [ズームレベル](https://docs.mapbox.com/jp/help/glossary/zoom-level/)[^4] | 見える範囲           |
+| :----------------------------------------------------------------------- | :------------------- |
+| ***0***                                                                  | 地球                 |
+| ***3***                                                                  | 大陸                 |
+| ***4***                                                                  | 大きな島             |
+| ***6***                                                                  | 大きな川             |
+| ***10***                                                                 | 幹線道路             |
+| ***15***                                                                 | ビル                 |
+| ***22***                                                                 | 最も高いズームレベル |
 
 [^4]: 地図上に表示される世界の範囲を決定する23段階の値
 
@@ -128,3 +128,13 @@ map.on("mousedown", () => { userInteracting = !0 }),
   spinGlobe()
 ```
 [Create a rotating globe](https://docs.mapbox.com/mapbox-gl-js/example/globe-spin/)
+
+```
+// Add the control to the map.
+map.addControl(
+    new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+    }), 'bottom-right'
+);
+```

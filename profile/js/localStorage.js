@@ -81,6 +81,7 @@ document.addEventListener("readystatechange", (event) => {
         if (localStorage.getItem("goout")) {
             addMarker()
         }
+
         function addMarker() {
             for (const marker of gooutArr.features) {
                 const el = document.createElement('div');
@@ -92,5 +93,15 @@ document.addEventListener("readystatechange", (event) => {
                     .addTo(map)
             };
         };
+
+        const dialog = document.querySelector("dialog")
+        const open = document.querySelector('#open')
+        const close = document.querySelector('#close')
+        open.addEventListener('click', function () {
+            dialog.showModal()
+        })
+        close.addEventListener('click', function () {
+            dialog.close()
+        })
     }
 });

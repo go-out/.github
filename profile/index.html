@@ -35,6 +35,11 @@
   <!-- Mapbox -->
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+
+  <script
+    src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
+  <link rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
 </head>
 
 <body>
@@ -47,19 +52,44 @@
     </h1>
   </header>
 
+  <dialog>
+    <input type="button" id="close" value="×">
+    <h2>
+      <b class="goout">Add A Location to Your Collection</b><br>
+      <small class="relax">あなたがいた場所をコレクションに追加する</small>
+    </h2>
+    <div id="geocoder">
+      <small class="relax">
+        ※ この入力欄から場所を検索すると、地図上に移動可能ピンが追加されます。<br>
+        ピンの場所に誤差がある場合は、コレクションに追加したい場所へピンを移動してください。
+      </small>
+    </div>
+    <form post="post">
+      <p class="relax">
+        <small>あなたがここにいた日時を選択してください</small><br>
+        <input type="datetime-local" id="timestamp" class="goout" required>
+      </p>
+
+      <label class="relax" for="comment">Add A Comment コメントを追加</label>
+      <textarea name="comment" id="comment" class="goout" rows="7.5"></textarea>
+
+      <button type="submit" id="enter" class="goout">Submit</button>
+    </form>
+  </dialog>
+
   <div id="map"></div>
 
   <footer>
     <ol id="localStorage"></ol>
     <h2 class="goout"></h2>
-    <button type="button" onclick="history.back()"></button>
+    <button type="button" id="open"></button>
   </footer>
 
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
 
     let center = [135.50433479522678, 34.69699057458179],
-      css = 'mapbox://styles/mapbox/satellite-v9',
+      css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
       zoom = '1.75';
 
     const map = new mapboxgl.Map({
@@ -73,7 +103,7 @@
     });
   </script>
 
-  <script src="../mapbox/script.js"></script>
+  <script src="../mapbox/geocoder.js"></script>
   <script src="../mapbox/rotating.js"></script>
   <script src="js/localStorage.js"></script>
 </body>
