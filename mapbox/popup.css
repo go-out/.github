@@ -1,3 +1,12 @@
+.mapboxgl-popup.goout {
+    font-size: 150%;
+}
+
+.mapboxgl-popup-content strong {
+    display: inline-block;
+    margin: 0.25rem 0;
+}
+
 .mapboxgl-popup.heard {
     font-family: 'Libre Baskerville', 'Zen Maru Gothic', serif;
     font-size: 0.75rem;
@@ -29,11 +38,13 @@
     margin: 0;
 }
 
-.heard .mapboxgl-popup-close-button {
+.mapboxgl-popup-close-button {
     appearance: none;
     background: transparent;
     border: none;
     outline: none;
+    padding: 0 0.5rem;
+    margin: 0;
     font-size: 200%;
 }
 
@@ -43,5 +54,9 @@
         width: 55%;
         min-width: 55%;
         max-width: 55%;
+    }
+
+    .mapboxgl-popup.goout {
+        font-size: 4.5vw;
     }
 }

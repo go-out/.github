@@ -53,9 +53,14 @@ map.on('load', () => {
   });
 
   map.on('click', 'fillPolygon', (e) => {
-    new mapboxgl.Popup()
+    new mapboxgl.Popup({
+      className: "goout"
+    })
       .setLngLat(e.lngLat)
-      .setHTML(`<strong>${e.features[0].properties.title}</strong><p>${e.features[0].properties.date}</p>`)
+      .setHTML(`
+      <strong>${e.features[0].properties.title}</strong><br>
+      ${e.features[0].properties.date}
+      `)
       .addTo(map);
     map.flyTo({
       center: e.lngLat
