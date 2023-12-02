@@ -133,12 +133,25 @@
       attributionControl: false
     });
 
+    map.addControl(
+      new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true
+        },
+        // デバイスの位置の変更に応じて位置情報を更新
+        trackUserLocation: true,
+        // デバイスが向いている方向を矢印で描画
+        showUserHeading: true
+      })
+    );
+    map.addControl(new mapboxgl.NavigationControl());
+    map.addControl(new mapboxgl.FullscreenControl());
+
     const now = new Date();
     const year = now.getFullYear();
     document.querySelector('#copy time').innerHTML = year;
   </script>
 
-  <script src="mapbox/script.js"></script>
   <script src="mapbox/popup.js"></script>
   <script src="mapbox/heard.js"></script>
   <script src="mapbox/polygon.js"></script>

@@ -23,7 +23,8 @@ map.on('load', () => {
           },
           'properties': {
             'title': 'やるぞ ‼',
-            'date': '<a href="https://go-out.github.io/do/" target="_blank" rel="nofollow noreferrer">go-out.github.io/do/</a>',
+            'date': 'go-out.github.io/do/',
+            'link': 'https://go-out.github.io/do/'
           }
         }
       ]
@@ -59,7 +60,9 @@ map.on('load', () => {
       .setLngLat(e.lngLat)
       .setHTML(`
       <strong>${e.features[0].properties.title}</strong><br>
+      <a href="${e.features[0].properties.link}" target="_blank">
       ${e.features[0].properties.date}
+      </a>
       `)
       .addTo(map);
     map.flyTo({
