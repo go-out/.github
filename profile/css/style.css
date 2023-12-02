@@ -56,6 +56,7 @@ address {
 
 dialog {
     border: solid 0.25rem lightskyblue;
+    overflow-x: hidden;
 }
 
 a,
