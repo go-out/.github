@@ -27,7 +27,7 @@ let submitJson = {
             'properties': {
                 'title': '135.47306292634534, 34.62458544610712',
                 'address': '日本, 大阪府大阪市住之江区北加賀屋5丁目5-1',
-                'date': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">音ビル</a>',
+                'date': '<strong class="goout"><a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">音ビル</a></strong>',
                 'timestamp': '4.2.2019 - 3.30.2022 | OTO Building',
                 'tags': 'otubuil',
             }
