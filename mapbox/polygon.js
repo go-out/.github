@@ -23,7 +23,7 @@ map.on('load', () => {
           },
           'properties': {
             'title': 'やるぞ ‼',
-            'date': '<a href="https://go-out-mapbox.github.io/do/" target="_blank" rel="nofollow noreferrer">go-out-mapbox.github.io/do/</a>',
+            'date': '<a href="https://go-out.github.io/do/" target="_blank" rel="nofollow noreferrer">go-out.github.io/do/</a>',
           }
         }
       ]
