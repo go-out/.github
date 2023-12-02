@@ -38,7 +38,6 @@
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
 
-  <script src="mapbox/popup.js"></script>
   <script src="profile/js/geoFindMe.js"></script>
   <script src="profile/js/submit.js"></script>
   <script src="profile/js/index.js"></script>
@@ -134,16 +133,13 @@
       attributionControl: false
     });
 
-    map.on('load', () => {
-      heardPopup()
-    })
-
     const now = new Date();
     const year = now.getFullYear();
     document.querySelector('#copy time').innerHTML = year;
   </script>
 
   <script src="mapbox/script.js"></script>
+  <script src="mapbox/heard.js"></script>
   <script src="mapbox/rotating.js"></script>
 
   <footer>

@@ -6,7 +6,7 @@ let heaedJson = [
             'address': '私（わたしたち）が 音ビル周辺で聞いた言葉',
             'date': 'Sun Jan 5 2020 - Sun May 22 2022',
             'link': 'heard/otobuilding/'
-        },
+        }
     },
     {
         'LngLat': [135.76854055131543, 35.00017558944718],
@@ -20,7 +20,7 @@ let heaedJson = [
 ]
 
 // 地図にポップアップを追加
-function heardPopup() {
+map.on('load', () => {
     for (const heaed of heaedJson) {
         new mapboxgl.Popup({
             closeOnClick: false,
@@ -34,9 +34,8 @@ function heardPopup() {
             <p>
             ${heaed.html.date}<br>
             ${heaed.html.address}
-            </a>
             </p>
             `)
             .addTo(map)
     };
-};
+});
