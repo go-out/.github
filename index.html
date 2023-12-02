@@ -39,9 +39,9 @@
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
 
   <script src="mapbox/popup.js"></script>
-  <script src="profile/js/submit.js"></script>
   <script src="profile/js/geoFindMe.js"></script>
-  <script src="profile/js/readystate.js"></script>
+  <script src="profile/js/submit.js"></script>
+  <script src="profile/js/index.js"></script>
 </head>
 
 <body>
@@ -91,7 +91,7 @@
     <br>
     <p class="goout">
       <strong>I'm here !</strong>
-      を クリックすると、この地図に あなたの現在地情報 を 印す ピンが追加されます。
+      を クリックすると、地図上に あなたの現在地情報 を 印す ピンが追加されます。
     </p>
     <form method="dialog">
       <button type="button" id="enter" class="goout">I'm here !</button>
@@ -99,7 +99,7 @@
       <textarea name="comment" id="comment" class="goout" rows="7.5"
         placeholder="現在地情報にコメントを追加する場合は、ここにコメントを入力ください。"></textarea>
       <p class="goout">
-        This Website Created by
+        Site Development by
         <strong>
           <a href="https://creative-community.space/">creative-community.space</a>
         </strong>
@@ -112,10 +112,16 @@
 
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
-
-    let center = [135.50433479522678, 34.69699057458179],
+    let center,
       css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
       zoom = '1.75';
+
+    if (localStorage.getItem('goout')) {
+      const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
+      center = [geoJSON.longitude, geoJSON.latitude]
+    } else {
+      center = [135.50433479522678, 34.69699057458179]
+    }
 
     const map = new mapboxgl.Map({
       container: 'map',

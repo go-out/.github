@@ -1,5 +1,26 @@
 'use strict'
 
+// CSVファイルの情報をJSONに追加
+let submitJson = {
+    'type': 'FeatureCollection',
+    'features': [
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50433479522678, 34.69699057458179]
+            },
+            'properties': {
+                'title': '135.50433479522678, 34.69699057458179',
+                'address': '日本, 大阪府大阪市北区西天満4丁目8番1',
+                'date': '<a href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
+                'timestamp': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 2019 - Sun 15 Sep 2019',
+                'tags': 'pehu',
+            }
+        }
+    ]
+}
+
 async function csvtojson(csv) {
     const response = await fetch(csv);
     const text = await response.text();
@@ -44,39 +65,20 @@ function addMarker() {
     };
 };
 
-function chengeHeader(currentFeature) {
+// ヘッダーにクリックされたマーカーの位置情報を表示
+function chengeHeader(e) {
     const thisLatLng = document.querySelector('#latlng');
     const thisAddress = document.querySelector('#address');
     const thisDate = document.querySelector('#datetime');
-    thisLatLng.textContent = currentFeature.properties.address;
-    thisAddress.textContent = currentFeature.properties.timestamp;
-    thisDate.className = currentFeature.properties.tags;
-    thisDate.innerHTML = currentFeature.properties.date;
+    thisLatLng.textContent = e.properties.address;
+    thisAddress.textContent = e.properties.timestamp;
+    thisDate.className = e.properties.tags;
+    thisDate.innerHTML = e.properties.date;
 }
 
-function flyToCenter(currentFeature) {
+function flyToCenter(e) {
     map.flyTo({
-        center: currentFeature.geometry.coordinates,
+        center: e.geometry.coordinates,
         zoom: 15
     })
-}
-
-let submitJson = {
-    'type': 'FeatureCollection',
-    'features': [
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.50433479522678, 34.69699057458179]
-            },
-            'properties': {
-                'title': '135.50433479522678, 34.69699057458179',
-                'address': '日本, 大阪府大阪市北区西天満4丁目8番1',
-                'date': '<a href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
-                'timestamp': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 2019 - Sun 15 Sep 2019',
-                'tags': 'pehu',
-            }
-        }
-    ]
 }

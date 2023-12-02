@@ -5,16 +5,32 @@ function geoFindMe() {
     const thisLatLng = document.querySelector('#latlng');
     const thisAddress = document.querySelector('#address');
     const thisDate = document.querySelector('#datetime');
-    const comment = document.querySelector('#comment').value;
+    const thisComment = document.querySelector('#comment');
     const goout = document.querySelector('#map');
+    goout.style.pointerEvents = 'auto';
+    goout.style.userSelect = 'auto';
 
+    let timestamp = new Date().toLocaleString();
+    thisDate.innerHTML = timestamp;
+
+    if (!navigator.geolocation) {
+        thisLatLng.textContent = 'Geolocation API is not supported by your browser';
+        thisAddress.textContent = 'このブラウザは位置情報サービスがサポートされていません';
+    } else {
+        thisLatLng.textContent = 'Locating…';
+        thisAddress.textContent = '現在地を取得中';
+        navigator.geolocation.getCurrentPosition(success, error);
+    }
+
+    // 現在地の取得に失敗した場合
+    function error() {
+        thisLatLng.textContent = 'Unable to retrieve your location';
+        thisAddress.textContent = '現在地を取得できませんでした';
+    };
+
+    // 現在地の取得に成功した場合
     function success(position) {
         userInteracting = !0;
-        goout.style.pointerEvents = 'auto';
-        goout.style.userSelect = 'auto';
-
-        let timestamp = new Date().toLocaleString();
-        thisDate.innerHTML = timestamp;
 
         // 緯度経度を変数に代入
         const latitude = position.coords.latitude;
@@ -31,7 +47,7 @@ function geoFindMe() {
                 var data = JSON.parse(jsonStr);
                 var address = data.features[0].place_name.replace(/\,/g, "");
                 thisAddress.textContent = address;
-        
+
                 // localStorageから位置情報を取得
                 let array = JSON.parse(localStorage.getItem("goout")) || [];
                 const addData = (timestamp, latitude, longitude, address, comment) => {
@@ -45,19 +61,18 @@ function geoFindMe() {
                     localStorage.setItem("goout", JSON.stringify(array))
                     return { timestamp, latitude, longitude, address, comment }
                 }
-        
-                // localStorage に 最新の位置情報 を追加
-                addData(timestamp, latitude, longitude, thisAddress.textContent, comment)
-        
+
+                // localStorageに最新の位置情報を追加
+                addData(timestamp, latitude, longitude, address, thisComment.value)
+
+                // PHPに最新の位置情報を送信
                 const currentLocation = {
                     latitude: latitude,
                     longitude: longitude,
                     timestamp: timestamp,
                     address: address,
-                    comment: comment
+                    comment: thisComment.value
                 };
-
-                // PHPに現在地を送信
                 const gooutJSON = JSON.stringify(currentLocation);
                 let response = fetch('profile/submit.php', {
                     method: 'POST',
@@ -66,7 +81,7 @@ function geoFindMe() {
                     },
                     body: gooutJSON
                 })
-        
+
                     .then(response => response.json())
                     .then(data => {
                         console.log(data)
@@ -74,7 +89,7 @@ function geoFindMe() {
                     .catch(error => {
                         console.log(error)
                     });
-        
+
                 setTimeout(() => {
                     csvtojson('profile/submit.csv')
                 }, 1000);
@@ -93,18 +108,4 @@ function geoFindMe() {
             zoom: 11.11
         });
     };
-
-    function error() {
-        thisLatLng.textContent = 'Unable to retrieve your location';
-        thisAddress.textContent = '現在地を取得できませんでした';
-    };
-
-    if (!navigator.geolocation) {
-        thisLatLng.textContent = 'Geolocation API is not supported by your browser';
-        thisAddress.textContent = 'このブラウザは位置情報サービスがサポートされていません';
-    } else {
-        thisLatLng.textContent = 'Locating…';
-        thisAddress.textContent = '現在地を取得中';
-        navigator.geolocation.getCurrentPosition(success, error);
-    }
 };

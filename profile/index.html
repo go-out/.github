@@ -36,9 +36,9 @@
   <link rel="stylesheet"
     href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
 
+  <link rel="stylesheet" href="../mapbox/marker.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/profile.css">
-  <link rel="stylesheet" href="../mapbox/marker.css">
 </head>
 
 <body>
@@ -59,8 +59,8 @@
     </h2>
     <p>
       <small class="relax">
-        ※ この入力欄から場所を検索すると、地図上に移動可能ピンが追加されます。<br>
-        ピンの場所に誤差がある場合は、コレクションに追加したい場所へピンを移動してください。
+        ※ 入力欄から場所を検索すると、地図上に移動可能ピンが追加されます。<br>
+        場所に誤差がある場合は、コレクションに追加したい正しい場所へピンを移動してください。
       </small>
     </p>
     <div id="geocoder"></div>
@@ -84,15 +84,18 @@
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
 
-    let center = [135.50433479522678, 34.69699057458179],
-      css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-      zoom = '1.75';
+    if (localStorage.getItem('goout')) {
+      const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
+      let center = [geoJSON.longitude, geoJSON.latitude]
+    } else {
+      let center = [135.50433479522678, 34.69699057458179]
+    }
 
     const map = new mapboxgl.Map({
       container: 'map',
       center: center,
-      style: css,
-      zoom: zoom,
+      style: 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
+      zoom: '1.75',
       scrollZoom: true,
       projection: 'globe',
       attributionControl: false

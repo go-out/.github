@@ -24,7 +24,6 @@ document.addEventListener("readystatechange", (event) => {
             const yourInfo = JSON.parse(localStorage.getItem('yourInfo'));
             const h2 = document.querySelector('footer h2');
             h2.innerHTML = `
-            <b>IP ${yourInfo.ip}</b><br>
             <small>Posted by ${yourInfo.os}</small>
             `
             // localStorageから位置情報を取得
@@ -56,7 +55,6 @@ document.addEventListener("readystatechange", (event) => {
 
                     const storageOl = document.querySelector('#localStorage');
                     const storageLi = document.createElement('li');
-                    storageLi.id = `submit-${i}`;
                     storageLi.innerHTML = `
                     <span>
                     <u class="goout">${thisTimestamp}</u>
@@ -69,19 +67,15 @@ document.addEventListener("readystatechange", (event) => {
                     const address = document.querySelector('#address');
                     const latlng = document.querySelector('#latlng');
                     storageLi.addEventListener('click', () => {
-                        address.textContent = thisAddress
-                        latlng.textContent = thisComment
                         flyToCenter(thisCenter)
+                        address.textContent = thisAddress;
+                        latlng.textContent = thisComment;
                     })
                 }
             }
         }
     } else if (event.target.readyState === 'complete') {
         // 地図にマーカーを追加
-        if (localStorage.getItem("goout")) {
-            addMarker()
-        }
-
         function addMarker() {
             for (const marker of gooutArr.features) {
                 const el = document.createElement('div');
@@ -91,8 +85,15 @@ document.addEventListener("readystatechange", (event) => {
                 })
                     .setLngLat(marker.geometry.coordinates)
                     .addTo(map)
+                el.addEventListener('click', () => {
+                    flyToCenter(marker.geometry.coordinates);
+                })
             };
         };
+
+        if (localStorage.getItem("goout")) {
+            addMarker()
+        }
 
         const dialog = document.querySelector("dialog")
         const open = document.querySelector('#open')

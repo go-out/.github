@@ -1,6 +1,6 @@
 'use strict'
 
-let userInteracting = 0;
+let userInteracting
 
 function spinGlobe() {
   const zoom = map.getZoom();

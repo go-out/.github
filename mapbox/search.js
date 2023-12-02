@@ -75,7 +75,7 @@ document.addEventListener('readystatechange', e => {
                 return { timestamp, latitude, longitude, address, comment }
             }
 
-            // localStorage に 最新の位置情報 を追加
+            // localStorage に 位置情報 を追加
             const timestamp = document.querySelector('#timestamp').value;
             const latitude = document.querySelector('#latitude').textContent;
             const longitude = document.querySelector('#longitude').textContent;
@@ -92,7 +92,7 @@ document.addEventListener('readystatechange', e => {
                 comment: comment
             };
 
-            // PHPに現在地を送信
+            // PHPに位置情報を送信
             const gooutJSON = JSON.stringify(addLocation);
             let response = fetch('submit.php', {
                 method: 'POST',
