@@ -112,14 +112,16 @@
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
     let center,
-      css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-      zoom = '1.75';
+      zoom,
+      css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17';
 
     if (localStorage.getItem('goout')) {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
+      zoom = '2.5';
     } else {
       center = [135.50433479522678, 34.69699057458179]
+      zoom = '1.75';
     }
 
     const map = new mapboxgl.Map({
