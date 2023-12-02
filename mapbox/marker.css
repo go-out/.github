@@ -35,3 +35,13 @@
     width: 100%;
 }
 
+.mapboxgl-marker.otubuil {
+    border: none;
+    height: 3.21rem;
+    width: 3.21rem;
+    background-image: url('https://vg.pe.hu/2019-2021/img/favicon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

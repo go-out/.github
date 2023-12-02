@@ -17,6 +17,20 @@ let submitJson = {
                 'timestamp': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 2019 - Sun 15 Sep 2019',
                 'tags': 'pehu',
             }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47306292634534, 34.62458544610712]
+            },
+            'properties': {
+                'title': '135.47306292634534, 34.62458544610712',
+                'address': '日本, 大阪府大阪市住之江区北加賀屋5丁目5-1',
+                'date': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">音ビル</a>',
+                'timestamp': '4.2.2019 - 3.30.2022 | OTO Building',
+                'tags': 'otubuil',
+            }
         }
     ]
 }

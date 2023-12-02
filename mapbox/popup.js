@@ -1,6 +1,6 @@
 let heaedJson = [
     {
-        'LngLat': [135.47306292634534, 34.62458544610712],
+        'LngLat': [135.4827971, 34.6096113],
         'html': {
             'title': 'things that i (we) heard around OTO building',
             'address': '私（わたしたち）が 音ビル周辺で聞いた言葉',
