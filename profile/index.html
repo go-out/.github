@@ -29,8 +29,9 @@
     rel="stylesheet">
 
   <!-- Mapbox -->
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css' rel='stylesheet' />
+  
   <script
     src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
   <link rel="stylesheet"
@@ -95,7 +96,7 @@
     const map = new mapboxgl.Map({
       container: 'map',
       center: center,
-      style: 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
+      style: 'mapbox://styles/mapbox/standard',
       zoom: '1.75',
       scrollZoom: true,
       projection: 'globe',
