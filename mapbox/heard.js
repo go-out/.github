@@ -123,7 +123,7 @@ map.on('load', () => {
         'layout': {},
         'paint': {
             'line-color': '#fff',
-            'line-width': 2
+            'line-width': 2.5
         }
     });
 
