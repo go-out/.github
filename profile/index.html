@@ -93,11 +93,11 @@
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
       userInteracting = !0
-      zoom = '1.75'
+      zoom = '7.5'
     } else {
       center = [135.50433479522678, 34.69699057458179]
       userInteracting = 0
-      zoom = '7.5'
+      zoom = '1.75'
     }
 
     const map = new mapboxgl.Map({
