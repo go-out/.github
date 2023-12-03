@@ -87,6 +87,8 @@
     
     let center;
     let zoom;
+    let userInteracting;
+    
     if (localStorage.getItem('goout')) {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
