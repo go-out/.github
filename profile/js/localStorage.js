@@ -5,12 +5,18 @@ let gooutArr = {
     'features': []
 }
 
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
 // マップの移動
 function flyToCenter(center) {
     map.flyTo({
         center: center,
         bearing: 0,
-        pitch: 60,
+        pitch: getRandomInt(0, 100),
         zoom: 17.5,
         essential: true
     });
