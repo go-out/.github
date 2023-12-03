@@ -86,18 +86,23 @@
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
     
     let center;
+    let zoom;
     if (localStorage.getItem('goout')) {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
+      userInteracting = !0
+      zoom = '1.75'
     } else {
       center = [135.50433479522678, 34.69699057458179]
+      userInteracting = 0
+      zoom = '7.5'
     }
 
     const map = new mapboxgl.Map({
       container: 'map',
-      center: center,
       style: 'mapbox://styles/mapbox/standard',
-      zoom: '1.75',
+      center: center,
+      zoom: zoom,
       scrollZoom: true,
       projection: 'mercator',
       attributionControl: false
