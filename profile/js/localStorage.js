@@ -15,7 +15,7 @@ function getRandomInt(min, max) {
 function flyToCenter(center) {
     map.flyTo({
         center: center,
-        bearing: getRandomInt(0, 360),
+        bearing: 0,
         pitch: getRandomInt(0, 75),
         zoom: 17.5,
         essential: true
