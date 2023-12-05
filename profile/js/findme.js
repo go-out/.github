@@ -71,7 +71,7 @@ function geoFindMe() {
                     longitude: longitude,
                     timestamp: timestamp,
                     address: address,
-                    comment: thisComment.value.split('\n')
+                    comment: thisComment.value
                 };
 
                 const gooutJSON = JSON.stringify(currentLocation)
