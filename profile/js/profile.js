@@ -81,7 +81,7 @@ document.addEventListener("readystatechange", (event) => {
         const by = document.createElement('p')
         credit.appendChild(by)
 
-        if (localStorage.getItem("yourInfo")) {
+        if (localStorage.getItem("goout")) {
             const yourInfo = JSON.parse(localStorage.getItem('yourInfo'))
             by.innerHTML = "<strong>" + yourInfo.os + "</strong>";
         } else {
