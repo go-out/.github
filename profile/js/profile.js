@@ -83,7 +83,7 @@ document.addEventListener("readystatechange", (event) => {
 
         if (localStorage.getItem("goout")) {
             const yourInfo = JSON.parse(localStorage.getItem('yourInfo'))
-            by.innerHTML = "<strong>" + yourInfo.os + "</strong>";
+            by.innerHTML = yourInfo.os;
         } else {
             by.innerHTML = "<strong>The Location where you were that saved in Local Storage.</strong>";
             const readme = document.createElement('div')
