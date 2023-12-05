@@ -1,6 +1,5 @@
 'use strict'
 
-// CSVファイルの情報をJSONに追加
 let submitJson = {
     'type': 'FeatureCollection',
     'features': [
@@ -27,7 +26,7 @@ let submitJson = {
             'properties': {
                 'title': '135.47306292634534, 34.62458544610712',
                 'address': '日本, 大阪府大阪市住之江区北加賀屋5丁目5-1',
-                'date': '<strong class="goout"><a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">音ビル</a></strong>',
+                'date': '<b class="goout"><a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">音ビル</a></b>',
                 'timestamp': '4.2.2019 - 3.30.2022 | OTO Building',
                 'tags': 'otubuil',
             }
@@ -35,13 +34,14 @@ let submitJson = {
     ]
 }
 
+// CSVファイルの情報をJSONに追加
 async function csvtojson(csv) {
-    const response = await fetch(csv);
-    const text = await response.text();
+    const response = await fetch(csv)
+    const text = await response.text()
     const data = text.trim().split('\n')
         .map(line => line.split(',').map(x => x.trim()))
         .map(marker => {
-            let thisMarker = {
+            let markerEach = {
                 'type': 'Feature',
                 'geometry': {
                     'type': 'Point',
@@ -49,22 +49,21 @@ async function csvtojson(csv) {
                 },
                 'properties': {
                     'title': `${marker[2]},${marker[1]}`,
-                    'address': marker[3].replace(/"/g,''),
-                    'date': marker[4].replace(/"/g,''),
+                    'address': marker[3].replace(/"/g, ''),
+                    'date': marker[4].replace(/"/g, ''),
                     'timestamp': marker[0],
                     'tags': 'submit',
                 }
             }
-            submitJson.features.push(thisMarker)
+            submitJson.features.push(markerEach)
         })
-    console.log(submitJson.features)
     addMarker()
 }
 
 // 地図にマーカーを追加
 function addMarker() {
     for (const marker of submitJson.features) {
-        const el = document.createElement('div');
+        const el = document.createElement('div')
         el.className = marker.properties.tags;
         new mapboxgl.Marker(el, {
             offset: [0, 0]
@@ -73,17 +72,17 @@ function addMarker() {
             .addTo(map)
 
         el.addEventListener('click', () => {
-            chengeHeader(marker);
-            flyToCenter(marker);
+            chengeHeader(marker)
+            flyToCenter(marker)
         })
     };
 };
 
-// ヘッダーにクリックされたマーカーの位置情報を表示
+// クリックされたマーカーの位置情報をヘッダーに表示
 function chengeHeader(e) {
-    const thisLatLng = document.querySelector('#latlng');
-    const thisAddress = document.querySelector('#address');
-    const thisDate = document.querySelector('#datetime');
+    const thisLatLng = document.querySelector('#latlng')
+    const thisAddress = document.querySelector('#address')
+    const thisDate = document.querySelector('#datetime')
     thisLatLng.textContent = e.properties.address;
     thisAddress.textContent = e.properties.timestamp;
     thisDate.className = e.properties.tags;
@@ -93,6 +92,7 @@ function chengeHeader(e) {
 function flyToCenter(e) {
     map.flyTo({
         center: e.geometry.coordinates,
+        essential: true,
         zoom: 15
     })
 }

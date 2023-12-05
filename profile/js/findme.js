@@ -2,15 +2,15 @@
 
 // 現在地を取得する
 function geoFindMe() {
-    const thisLatLng = document.querySelector('#latlng');
-    const thisAddress = document.querySelector('#address');
-    const thisDate = document.querySelector('#datetime');
-    const thisComment = document.querySelector('#comment');
-    const goout = document.querySelector('#map');
+    const thisLatLng = document.querySelector('#latlng')
+    const thisAddress = document.querySelector('#address')
+    const thisDate = document.querySelector('#datetime')
+    const thisComment = document.querySelector('#comment')
+    const goout = document.querySelector('#map')
     goout.style.pointerEvents = 'auto';
     goout.style.userSelect = 'auto';
 
-    let timestamp = new Date().toLocaleString();
+    let timestamp = new Date().toLocaleString()
     thisDate.innerHTML = timestamp;
 
     if (!navigator.geolocation) {
@@ -19,7 +19,7 @@ function geoFindMe() {
     } else {
         thisLatLng.textContent = 'Locating…';
         thisAddress.textContent = '現在地を取得中';
-        navigator.geolocation.getCurrentPosition(success, error);
+        navigator.geolocation.getCurrentPosition(success, error)
     }
 
     // 現在地の取得に失敗した場合
@@ -44,8 +44,8 @@ function geoFindMe() {
         let uri = `https://api.mapbox.com/geocoding/v5/mapbox.places/${longitude},${latitude}.json?language=ja&access_token=${mapboxgl.accessToken}`;
         fetchData(uri).then(function (response) {
             return response.text().then(function (jsonStr) {
-                var data = JSON.parse(jsonStr);
-                var address = data.features[0].place_name.replace(/\,/g, "");
+                var data = JSON.parse(jsonStr)
+                var address = data.features[0].place_name.replace(/\,/g, "")
                 thisAddress.textContent = address;
 
                 // localStorageから位置情報を取得
@@ -73,7 +73,8 @@ function geoFindMe() {
                     address: address,
                     comment: thisComment.value
                 };
-                const gooutJSON = JSON.stringify(currentLocation);
+
+                const gooutJSON = JSON.stringify(currentLocation)
                 let response = fetch('profile/submit.php', {
                     method: 'POST',
                     headers: {
@@ -81,7 +82,6 @@ function geoFindMe() {
                     },
                     body: gooutJSON
                 })
-
                     .then(response => response.json())
                     .then(data => {
                         console.log(data)
@@ -94,9 +94,9 @@ function geoFindMe() {
                     csvtojson('profile/submit.csv')
                 }, 1000);
             });
-        }).catch(err => { console.log(err); });
+        }).catch(err => { console.log(err) })
         async function fetchData(_uri) {
-            const res = await fetch(_uri);
+            const res = await fetch(_uri)
             const data = await res;
             return data;
         };
@@ -105,6 +105,7 @@ function geoFindMe() {
         let center = [longitude, latitude];
         map.flyTo({
             center: center,
+            essential: true,
             zoom: 11.11
         });
     };

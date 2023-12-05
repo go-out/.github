@@ -66,7 +66,8 @@ map.on('load', () => {
       `)
       .addTo(map);
     map.flyTo({
-      center: e.lngLat
+      center: e.lngLat,
+      essential: true
     });
   });
 

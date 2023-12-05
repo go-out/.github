@@ -1,4 +1,4 @@
-let heaedJson = [
+let popupJson = [
     {
         'LngLat': [133.91774108127242, 34.66596367986325],
         'html': {
@@ -11,16 +11,16 @@ let heaedJson = [
 
 // 地図にポップアップを追加
 map.on('load', () => {
-    for (const heaed of heaedJson) {
+    for (const popup of popupJson) {
         new mapboxgl.Popup({
             closeOnClick: false,
             className: "goout"
         })
-            .setLngLat(heaed.LngLat)
+            .setLngLat(popup.LngLat)
             .setHTML(`
-            <strong>${heaed.html.title}</strong><br>
-            <a href="${heaed.html.link}" target="_blank">
-            ${heaed.html.date}
+            <strong>${popup.html.title}</strong><br>
+            <a href="${popup.html.link}" target="_blank">
+            ${popup.html.date}
             </a>
             `)
             .addTo(map)

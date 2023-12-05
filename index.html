@@ -26,8 +26,6 @@
   <link rel="stylesheet" href="profile/css/animation.css">
   <link rel="stylesheet" href="profile/css/style.css">
   <link rel="stylesheet" href="profile/css/index.css">
-  <link rel="stylesheet" href="mapbox/marker.css">
-  <link rel="stylesheet" href="mapbox/popup.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,9 +36,12 @@
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
 
-  <script src="profile/js/geoFindMe.js"></script>
-  <script src="profile/js/submit.js"></script>
+  <link rel="stylesheet" href="mapbox/marker/style.css">
+  <link rel="stylesheet" href="mapbox/popup/style.css">
+
   <script src="profile/js/index.js"></script>
+  <script src="profile/js/findme.js"></script>
+  <script src="profile/js/submit.js"></script>
 </head>
 
 <body>
@@ -119,7 +120,7 @@
     if (localStorage.getItem('goout')) {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
-      zoom = '6.66';
+      zoom = '5.55';
     } else {
       center = [135.50433479522678, 34.69699057458179]
       zoom = '1.75';
@@ -156,9 +157,9 @@
     document.querySelector('#copy time').innerHTML = year;
   </script>
 
-  <script src="mapbox/popup.js"></script>
-  <script src="mapbox/heard.js"></script>
-  <script src="mapbox/polygon.js"></script>
+  <script src="mapbox/popup/index.js"></script>
+  <script src="mapbox/polygon/heard.js"></script>
+  <script src="mapbox/polygon/index.js"></script>
   <script src="mapbox/rotating.js"></script>
 
   <footer>

@@ -46,10 +46,6 @@ dialog h2 {
     place-self: start;
 }
 
-footer h2 {
-    place-self: end;
-}
-
 header,
 footer ol li,
 dialog form label {
@@ -73,6 +69,10 @@ dialog p {
 
 dialog form button {
     margin: 1rem 0 0;
+}
+
+footer div {
+    word-break: break-all;
 }
 
 h2 b,
@@ -111,12 +111,14 @@ h1 {
 }
 
 footer ol li::marker,
-footer p {
+footer p,
+footer p strong {
     font-size: 150%;
 }
 
 h2,
-b {
+b,
+footer div {
     font-size: 125%;
 }
 
@@ -124,12 +126,17 @@ b {
     font-size: 100%;
 }
 
-h2 small {
+h2 small,
+footer ol li.goout {
     font-size: 75%;
 }
 
 footer ol li {
     line-height: 200%;
+}
+
+footer p strong {
+    font-weight: 500;
 }
 
 header {
@@ -190,6 +197,10 @@ footer ol li {
     height: 100%;
 }
 
+footer ol li.goout::marker {
+    content: "This Collection is created by";
+}
+
 footer button {
     background: transparent;
     background-image: url(../img/mobile.png);
@@ -205,17 +216,17 @@ footer button {
 #close,
 footer button {
     position: fixed;
-    right: 0;
+    bottom: 0;
     margin: 0.5rem;
 }
 
 #close {
-    top: 0;
     padding: 0 1rem;
+    right: 0;
 }
 
 footer button {
-    bottom: 0;
+    left: 0;
 }
 
 @media screen and (max-width: 350px) {

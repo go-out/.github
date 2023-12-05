@@ -16,7 +16,7 @@ function spinGlobe() {
   }
 }
 
-map.on("mousedown", () => { userInteracting = !0 }),
-  map.on("dragstart", () => { userInteracting = !0 }),
-  map.on("moveend", () => { spinGlobe() }),
-  spinGlobe()
+map.on("mousedown", () => { userInteracting = !0 })
+map.on("dragstart", () => { userInteracting = !0 })
+map.on("moveend", () => { spinGlobe() })
+spinGlobe()

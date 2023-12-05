@@ -1,138 +1,137 @@
-# [Mapbox GL JS に マーカー と ポップアップ を追加する](https://docs.mapbox.com/jp/help/tutorials/custom-markers-gl-js/)
+# Mapboxを用いて、カスタムデザイン地図をウェブページに表示する
 
-基本
-* [地図にマーカーを追加する](https://docs.mapbox.com/mapbox-gl-js/api/markers/)
-```
-const marker = new mapboxgl.Marker()
-    .setLngLat([マーカーの座標])
-    .addTo(map);
-```
+[クイックスタート](https://docs.mapbox.com/jp/mapbox-gl-js/overview/)
+* [Mapboxアカウント](https://account.mapbox.com/) を作成し、アクセストークン [^1] と スタイルURL [^2] を取得
+* HTMLファイル の head に、JavaScript と CSS を設定
+* HTMLファイルの BODY内に次のコードを記述
 
-* マーカーの色指定 と [ドラッグ可能マーカー](https://docs.mapbox.com/jp/mapbox-gl-js/example/drag-a-marker/)
+## [マップを表示](https://docs.mapbox.com/jp/mapbox-gl-js/example/simple-map/)
 ```
-const marker = new mapboxgl.Marker({
-    color: "色コード",
-    draggable: true
-})
-    .setLngLat([マーカーの座標])
-    .addTo(map);
-```
+<div id="map"></div>
 
-* [ポップアップを表示](https://docs.mapbox.com/jp/mapbox-gl-js/example/popup/)
-```
-const popup = new mapboxgl.Popup({ closeOnClick: false })
-.setLngLat([ポップアップの座標])
-.setHTML('<p>ポップアップに表示するHTML</p>')
-.addTo(map);
+<script>
+mapboxgl.accessToken = 'アクセストークン';
 
-```
-___
+const css = 'スタイルURL',
+    center = [マップの開始位置の座標],
+    zoom = '初期に表示する地図のズームレベル';
 
-## JSONデータ[^1]　を読み込み、地図に複数のマーカーを追加
-[^1]: JSONデータが大きい場合は、外部ソースとして読み込むことを推奨されています。
-
-マーカー・ポップアップの詳細を設定するJSONデータ
-```
-const geojson = {
-  type: 'FeatureCollection',
-  features: [
-    {
-      type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [-77.032, 38.913]
-      },
-      properties: {
-        title: 'Mapbox',
-        description: 'Washington, D.C.'
-      }
-    },
-    {
-      type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [-122.414, 37.776]
-      },
-      properties: {
-        title: 'Mapbox',
-        description: 'San Francisco, California'
-      }
-    }
-  ]
-};
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: css,
+    center: center,
+    pitch: 0,
+    bearing: 0,
+    zoom: 'zoom',
+    scrollZoom: true,
+    attributionControl: false
+});
+</script>
 ```
 
-地図にマーカーを追加するJavaScript
-```
-for (const marker of geojson.features) {
-  const el = document.createElement('div');
-  el.className = 'marker';
+[^1]: [はじめてのMapbox](https://docs.mapbox.com/jp/help/getting-started/)
+[^2]: [Styles API](https://docs.mapbox.com/api/maps/styles/)
 
-  new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
-}
-```
-___
+### [マップの開始位置の座標 = [lng(経度), lat(緯度)]](https://docs.mapbox.com/help/glossary/lat-lon/)
 
-* [マーカーのスタイル設定に必要なCSSを追加](https://docs.mapbox.com/jp/mapbox-gl-js/example/custom-marker-icons/)[^2]
-[^2]: .marker の background-image としてマーカーに使用する画像ファイルを追加する など
+| ズームレベル[^3] | 見える範囲           |
+| :--------------- | :------------------- |
+| ***0***          | 地球                 |
+| ***3***          | 大陸                 |
+| ***4***          | 大きな島             |
+| ***6***          | 大きな川             |
+| ***10***         | 幹線道路             |
+| ***15***         | ビル                 |
+| ***22***         | 最も高いズームレベル |
+
+[^3]: [地図上に表示される世界の範囲を決定する23段階の値](https://docs.mapbox.com/jp/help/glossary/zoom-level/)
+
+### [ピッチとベアリングの設定](https://docs.mapbox.com/jp/mapbox-gl-js/example/set-perspective/)
 
 ***
 
-### ポップアップの設定に必要な JavaScript[^3] と CSS[^4] を追加
-[^3]: new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
-を地図にポップアップを追加するJavaScriptに書き換える
+### [アトリビューションコントロールの既定値を変更](https://docs.mapbox.com/jp/mapbox-gl-js/example/attribution-position/)[^4]
+[^4]: [Markers and controls](https://docs.mapbox.com/mapbox-gl-js/api/markers/)
 
-地図にポップアップを追加するJavaScript
 ```
-new mapboxgl.Marker(el)
-.setLngLat(marker.geometry.coordinates)
-.setPopup(
-  new mapboxgl.Popup({ offset: 25 })
-  .setHTML(`
-    <h3>${marker.properties.title}</h3>
-    <p>${marker.properties.description}</p>
-    `
-  )
-)
-.addTo(map);
+attributionControl: false
 ```
 
-[^4]: 例)
-.mapboxgl-popup {
-  max-width: 200px;
+カスタムAttributionを表示
+```
+map.addControl(new mapboxgl.AttributionControl({
+    customAttribution: 'Map design by me'
+}));
+```
+コントロールの既定位置を変更
+```
+map.addControl(new mapboxgl.AttributionControl(), 'bottom-left');
+```
+
+[マップナビゲーションコントロールの表示](https://docs.mapbox.com/jp/mapbox-gl-js/example/navigation/)
+```
+map.addControl(new mapboxgl.NavigationControl());
+```
+
+[現在ビューと全画面表示モードを切り替える](https://docs.mapbox.com/jp/mapbox-gl-js/example/fullscreen/)
+```
+map.addControl(new mapboxgl.FullscreenControl());
+```
+
+[現在位置を取得し、マップ上での現在位置を追跡](https://docs.mapbox.com/jp/mapbox-gl-js/example/locate-user/)
+```
+map.addControl(
+  new mapboxgl.GeolocateControl({
+    positionOptions: {
+      enableHighAccuracy: true
+    },
+    // デバイスの位置の変更に応じて位置情報を更新
+    trackUserLocation: true,
+    // デバイスが向いている方向を矢印で描画
+    showUserHeading: true
+  })
+);
+```
+___
+
+[スクロールズームの無効化](https://docs.mapbox.com/jp/mapbox-gl-js/example/disable-scroll-zoom/)
+```
+map.scrollZoom.disable();
+```
+
+地図に回転するアニメーションエフェクトを設定する
+```
+let userInteracting = 0;
+
+function spinGlobe() {
+  const zoom = map.getZoom();
+  if (!userInteracting && zoom < 5) {
+    let e = 5;
+    if (zoom > 3) {
+      e *= (5 - zoom) / 2
+    }
+    const lng = map.getCenter();
+    lng.lng += e,
+      map.easeTo({
+        center: lng,
+        easing: zoom => zoom
+      })
+  }
 }
-.mapboxgl-popup-content {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-}
-
----
-
-マーカーにクリックイベントを追加
+map.on("mousedown", () => { userInteracting = !0 }),
+  map.on("dragstart", () => { userInteracting = !0 }),
+  map.on("moveend", () => { spinGlobe() }),
+  spinGlobe()
 ```
-el.addEventListener('click', (e) => {
-  map.flyTo({
-    center: marker.geometry.coordinates,
-    zoom: 3,
-    bearing: 0,
 
-    // These options control the flight curve, making it move
-    // slowly and zoom out almost completely before starting
-    // to pan.
-    speed: 0.75, // make the flying slow
-    curve: 1, // change the speed at which it zooms out
+[Create a rotating globe](https://docs.mapbox.com/mapbox-gl-js/example/globe-spin/)
 
-    // This can be any easing function: it takes a number between
-    // 0 and 1 and returns another number between 0 and 1.
-    easing: (t) => t,
-
-    // this animation is considered essential with respect to prefers-reduced-motion
-    essential: true
-  });
-})
 ```
-マーカーをクリックした時、地図の中心がマーカーの座標に移動する
-* [場所に飛ぶ](https://docs.mapbox.com/jp/mapbox-gl-js/example/flyto/)
-* [場所にゆっくり飛ぶ](https://docs.mapbox.com/jp/mapbox-gl-js/example/flyto-options/)
-
-https://docs.mapbox.com/mapbox-gl-js/api/sources/
+// Add the control to the map.
+map.addControl(
+    new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+    }), 'bottom-right'
+);
+```

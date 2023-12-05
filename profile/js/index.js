@@ -10,23 +10,6 @@ async function readmeMD(query, url) {
 
 document.addEventListener("readystatechange", (event) => {
     if (event.target.readyState === "interactive") {
-        const goout = document.querySelector('#map')
-        const title = document.querySelector('#title')
-        const menu = document.querySelector('footer button')
-
-        if (localStorage.getItem("yourInfo")) {
-            userInteracting = !0;
-            goout.style.pointerEvents = 'auto';
-            goout.style.userSelect = 'auto';
-            title.hidden = true;
-            menu.hidden = false;
-            csvtojson('profile/submit.csv')
-        } else {
-            userInteracting = 0;
-        }
-
-        readmeMD('dialog div', 'profile/README.md')
-        
         // ヘッダーに最新の投稿を表示
         const thisLatLng = document.querySelector('#latlng')
         const thisAddress = document.querySelector('#address')
@@ -42,6 +25,8 @@ document.addEventListener("readystatechange", (event) => {
             `;
             thisDate.textContent = geoJSON.timestamp;
         }
+
+        readmeMD('dialog div', 'README.md')
     } else if (event.target.readyState === "complete") {
         const goout = document.querySelector('#map')
         const title = document.querySelector('#title')
@@ -50,6 +35,17 @@ document.addEventListener("readystatechange", (event) => {
         const enter = document.querySelector('dialog #enter')
         const close = document.querySelector('dialog #close')
         const menu = document.querySelector('footer button')
+        
+        if (localStorage.getItem("yourInfo")) {
+            userInteracting = !0;
+            goout.style.pointerEvents = 'auto';
+            goout.style.userSelect = 'auto';
+            title.hidden = true;
+            menu.hidden = false;
+            csvtojson('profile/submit.csv')
+        } else {
+            userInteracting = 0;
+        }
 
         readme.addEventListener('click', function () {
             title.hidden = true;
@@ -57,9 +53,9 @@ document.addEventListener("readystatechange", (event) => {
         })
 
         enter.addEventListener('click', function () {
+            menu.hidden = false;
             dialog.close()
             geoFindMe()
-            menu.hidden = false;
         })
 
         close.addEventListener('click', function () {

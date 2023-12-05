@@ -1,30 +1,30 @@
 .mapboxgl-marker {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     cursor: pointer;
     z-index: 5;
 }
 
 .mapboxgl-marker.submit {
-    width: 1.5rem;
-    height: 1.5rem;
     background: lemonchiffon;
     border: lightskyblue solid 0.15rem;
     border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .mapboxgl-marker.goout {
-    border: none;
-    height: 3.21rem;
-    width: 3.21rem;
     background-image: url('../profile/img/favicon.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    border: none;
+    width: 3.21rem;
+    height: 3.21rem;
 }
 
 .mapboxgl-marker.pehu {
     border: none;
-    height: 3.21rem;
     width: 3.21rem;
+    height: 3.21rem;
 }
 
 .mapboxgl-marker.pehu::before {
@@ -36,12 +36,9 @@
 }
 
 .mapboxgl-marker.otubuil {
-    border: none;
-    height: 3.21rem;
-    width: 3.21rem;
     background-image: url('https://vg.pe.hu/2019-2021/img/favicon.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    border: none;
+    width: 3.21rem;
+    height: 3.21rem;
 }
 

@@ -8,10 +8,10 @@
 
   <!--og:meta-->
   <meta content="website" property="og:type">
-  <title>The Collection of Your Location | Go Out</title>
-  <meta content="The Collection of Your Location | Go Out" property="og:title">
-  <meta content="あなたがいた場所のコレクション" name="description">
-  <meta content="あなたがいた場所のコレクション" name="og:description">
+  <title>あなたがいた場所のコレクション</title>
+  <meta content="あなたがいた場所のコレクション" property="og:title">
+  <meta content="The Collection of Your Location" name="description">
+  <meta content="The Collection of Your Location" name="og:description">
 
   <link rel="icon" href="img/favicon.png">
   <link rel="icon" href="img/mobile.png" sizes="192x192">
@@ -28,18 +28,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
     rel="stylesheet">
 
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/profile.css">
+
   <!-- Mapbox -->
   <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css' rel='stylesheet' />
-  
+
+  <style>
+    .mapboxgl-marker.submit {
+      background: lemonchiffon;
+      border: lightskyblue solid 0.15rem;
+      border-radius: 50%;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  </style>
+
   <script
     src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
   <link rel="stylesheet"
-    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
-
-  <link rel="stylesheet" href="../mapbox/marker.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/profile.css">
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css"
+    type="text/css" />
 </head>
 
 <body>
@@ -61,7 +71,7 @@
     <p>
       <small class="relax">
         ※ 入力欄から場所を検索すると、地図上に移動可能ピンが追加されます。<br>
-        場所に誤差がある場合は、コレクションに追加したい正しい場所へピンを移動してください。
+        コレクションに追加したい場所とピンに誤差がある場合は、正しい場所へピンを移動してください。
       </small>
     </p>
     <div id="geocoder"></div>
@@ -78,17 +88,20 @@
 
   <footer>
     <ol id="localStorage"></ol>
-    <h2 class="goout"></h2>
     <button type="button" id="open"></button>
   </footer>
 
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
-    
+
     let center;
     let zoom;
     let userInteracting;
-    
+
+    if (localStorage.getItem("yourInfo")) {
+      location.replace('../')
+    }
+
     if (localStorage.getItem('goout')) {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
@@ -111,8 +124,8 @@
     });
   </script>
 
-  <script src="../mapbox/search.js"></script>
   <script src="../mapbox/rotating.js"></script>
+  <script src="../mapbox/search.js"></script>
   <script src="js/localStorage.js"></script>
 </body>
 

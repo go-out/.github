@@ -1,9 +1,10 @@
-# This is a Collection of Locations where visitors have visited this website.
+# 'll play first and tell what it is later
 
-このウェブサイトに投稿[^1] された位置情報など を ウェブストレージ[^2] と CSV に保存し、このウェブサイトを訪れたみなさんがいた場所のコレクションを制作します。
+* Mapbox[^1] を用いて カスタムデザイン地図[^2] を ウェブページに表示
+* 地図に、マーカー・ポップアップ・ポリゴンなどのオブジェクトを追加
 
-[^1]: トップページ の「I'm Here !」をクリックすると [位置情報 API](https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API) が、あなたの位置情報を取得します。
-[^2]: [ウェブストレージ API](https://developer.mozilla.org/ja/docs/Web/API/Web_Storage_API) は、ユーザーのローカル環境(ブラウザ)にデータを保存する仕組みです。
-ブラウザがプライベートモード・シークレットウインドウの場合や、閲覧履歴（キャッシュ）を消去した場合などは、ウェブストレージに保存されたデータは削除されます。
 
----
+[^1]: [Mapbox](https://www.mapbox.jp/) は、デジタル地図の開発プラットフォームです。  
+アカウントを作成し、アクセストークンとスタイルURL を取得すると、JavaScriptライブラリ [Mapbox GL JS](https://docs.mapbox.com/jp/mapbox-gl-js/overview/) を用いて、2次元および3次元のインタラクティブマップ（地図上に自由にオブジェクトを表示できるマップ）を生成できます。
+[^2] Mapboxがデザインした [Styles API](https://docs.mapbox.com/api/maps/styles/) からスタイルを選択  
+または、[Mapbox Studio](https://www.mapbox.jp/mapbox-studio) を使用して独自のスタイルを作成できます。

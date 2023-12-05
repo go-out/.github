@@ -231,6 +231,7 @@ function chengeHeader(currentFeature) {
 function flyToCenter(currentFeature) {
     map.flyTo({
         center: currentFeature.geometry.coordinates,
+        essential: true,
         zoom: 15
     })
 }

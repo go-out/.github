@@ -129,7 +129,8 @@ map.on('load', () => {
 
     map.on('click', 'heardFill', (e) => {
         map.flyTo({
-            center: e.lngLat
+            center: e.lngLat,
+            essential: true
         });
 
         const thisLatLng = document.querySelector('#latlng');
@@ -139,13 +140,5 @@ map.on('load', () => {
         thisAddress.textContent = e.features[0].properties.date;
         thisDate.innerHTML = e.features[0].properties.address;
         thisDate.className = 'goout';
-    });
-
-    map.on('mouseenter', 'heardFill', () => {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-    map.on('mouseleave', 'heardFill', () => {
-        map.getCanvas().style.cursor = '';
     });
 });
