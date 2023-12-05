@@ -12,5 +12,5 @@
 ___
 
 * [トップページのコンテンツを動的に生成](profile/js/index.js)
-* [現在位置の地理座標・位置情報を取得](profile/js/geoFindMe.js)
+* [現在位置の地理座標・位置情報を取得](profile/js/findme.js)
 * [CSVファイルの情報をJSONに追加し、地図上にマーカーを追加](profile/js/submit.js)
