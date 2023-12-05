@@ -5,7 +5,7 @@ function geoFindMe() {
     const thisLatLng = document.querySelector('#latlng')
     const thisAddress = document.querySelector('#address')
     const thisDate = document.querySelector('#datetime')
-    const thisComment = document.querySelector('#comment')
+    const thisComment = document.querySelector('#comment').value
     const goout = document.querySelector('#map')
     goout.style.pointerEvents = 'auto';
     goout.style.userSelect = 'auto';
@@ -63,7 +63,7 @@ function geoFindMe() {
                 }
 
                 // localStorageに最新の位置情報を追加
-                addData(timestamp, latitude, longitude, address, thisComment.value)
+                addData(timestamp, latitude, longitude, address, thisComment)
 
                 // PHPに最新の位置情報を送信
                 const currentLocation = {
@@ -71,7 +71,7 @@ function geoFindMe() {
                     longitude: longitude,
                     timestamp: timestamp,
                     address: address,
-                    comment: thisComment.value
+                    comment: thisComment.replace(/\r?\n/g, '<br>')
                 };
 
                 const gooutJSON = JSON.stringify(currentLocation)
