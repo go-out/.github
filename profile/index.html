@@ -98,19 +98,27 @@
     let zoom;
     let userInteracting;
 
-    if (localStorage.getItem("yourInfo")) {
+    if (!localStorage.getItem("yourInfo")) {
       location.replace('../')
     }
 
-    if (localStorage.getItem('goout')) {
+    function getRandomInt(min, max) {
+        min = Math.ceil(min)
+        max = Math.floor(max)
+        return Math.floor(Math.random() * (max - min) + min)
+    }
+
+    if (!localStorage.getItem('goout')) {
+      let lng = getRandomInt(0, 180)
+      let lat = getRandomInt(0, 90)
+      center = [lng, lat]
+      userInteracting = 0
+      zoom = '1.75'
+    } else {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
       userInteracting = !0
       zoom = '7.5'
-    } else {
-      center = [135.50433479522678, 34.69699057458179]
-      userInteracting = 0
-      zoom = '1.75'
     }
 
     const map = new mapboxgl.Map({
