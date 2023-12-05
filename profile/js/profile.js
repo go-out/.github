@@ -161,7 +161,7 @@ document.addEventListener("readystatechange", (event) => {
                 longitude: longitude,
                 timestamp: thisTime,
                 address: thisAddress,
-                comment: comment
+                comment: comment.split('\n')
             };
 
             // PHPに位置情報を送信
