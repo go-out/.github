@@ -75,8 +75,8 @@ function addMarker() {
             chengeHeader(marker)
             flyToCenter(marker)
         })
-    };
-};
+    }
+}
 
 // クリックされたマーカーの位置情報をヘッダーに表示
 function chengeHeader(e) {
