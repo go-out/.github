@@ -117,13 +117,22 @@
       userInteracting,
       css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17';
 
-    if (localStorage.getItem('goout')) {
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min)
+        max = Math.floor(max)
+        return Math.floor(Math.random() * (max - min) + min)
+    }
+
+    if (!localStorage.getItem('goout')) {
+      let lng = getRandomInt(0, 180)
+      let lat = getRandomInt(0, 90)
+      center = [lng, lat]
+      zoom = '1.23';
+    } else {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
       zoom = '5.55';
-    } else {
-      center = [135.50433479522678, 34.69699057458179]
-      zoom = '1.75';
     }
 
     const map = new mapboxgl.Map({
