@@ -145,7 +145,7 @@
       scrollZoom: true,
       projection: 'globe',
       attributionControl: false
-    });
+    })
 
     map.addControl(
       new mapboxgl.GeolocateControl({
@@ -157,7 +157,7 @@
         // デバイスが向いている方向を矢印で描画
         showUserHeading: true
       })
-    );
+    )
     map.addControl(new mapboxgl.NavigationControl());
     map.addControl(new mapboxgl.FullscreenControl());
 
