@@ -36,12 +36,12 @@ let submitJson = {
 
 // CSVファイルの情報をJSONに追加
 async function csvtojson(csv) {
-    const response = await fetch(csv)
-    const text = await response.text()
+    const response = await fetch(csv);
+    const text = await response.text();
     const data = text.trim().split('\n')
         .map(line => line.split(',').map(x => x.trim()))
         .map(marker => {
-            let markerEach = {
+            let thisMarker = {
                 'type': 'Feature',
                 'geometry': {
                     'type': 'Point',
@@ -49,14 +49,15 @@ async function csvtojson(csv) {
                 },
                 'properties': {
                     'title': `${marker[2]},${marker[1]}`,
-                    'address': marker[3].replace(/"/g, ''),
-                    'date': marker[4].replace(/"/g, ''),
+                    'address': marker[3].replace(/"/g,''),
+                    'date': marker[4].replace(/"/g,''),
                     'timestamp': marker[0],
                     'tags': 'submit',
                 }
             }
-            submitJson.features.push(markerEach)
+            submitJson.features.push(thisMarker)
         })
+    console.log(submitJson.features)
     addMarker()
 }
 
