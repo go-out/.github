@@ -69,7 +69,7 @@ document.addEventListener("readystatechange", (event) => {
                 const latlng = document.querySelector('#latlng')
                 storageLi.addEventListener('click', () => {
                     address.textContent = thisAddress;
-                    latlng.textContent = thisComment.replace(/\n/g, '<br>');
+                    latlng.innerHTML = thisComment.replace(/\n/g, '<br>');
                     flyToCenter(thisCenter)
                 })
             }
