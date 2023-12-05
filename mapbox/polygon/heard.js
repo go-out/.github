@@ -12,7 +12,7 @@ let heaedPopup = [
         'LngLat': [135.76854055131543, 35.00017558944718],
         'html': {
             'title': 'things that i (we) heard around BnA Alter Museum',
-            'address': '私（わたしたち）が 京都・河原町周辺で聞いた 55 の言葉',
+            'address': '私（わたしたち）が 京都・河原町周辺で聞いた言葉',
             'date': 'Thu Jul 21 2022 - Mon Aug 15 2022',
             'link': 'heard/bnaaltermuseum/'
         }
@@ -97,7 +97,7 @@ map.on('load', () => {
                     },
                     'properties': {
                         'title': 'things that i (we) heard around BnA Alter Museum',
-                        'address': '<a href="heard/bnaaltermuseum/">私（わたしたち）が 京都・河原町周辺で聞いた 55 の言葉</a>',
+                        'address': '<a href="heard/bnaaltermuseum/">私（わたしたち）が 京都・河原町周辺で聞いた言葉</a>',
                         'date': 'Thu Jul 21 2022 - Mon Aug 15 2022'
                     }
                 }
