@@ -58,43 +58,4 @@ async function csvtojson(csv) {
             }
             submitJson.features.push(thisMarker)
         })
-    console.log(submitJson.features)
-    addMarker()
-}
-
-// 地図にマーカーを追加
-function addMarker() {
-    for (const marker of submitJson.features) {
-        const el = document.createElement('div')
-        el.className = marker.properties.tags;
-        new mapboxgl.Marker(el, {
-            offset: [0, 0]
-        })
-            .setLngLat(marker.geometry.coordinates)
-            .addTo(map)
-
-        el.addEventListener('click', () => {
-            flyToCenter(marker)
-            chengeHeader(marker)
-        })
-    }
-}
-
-function flyToCenter(e) {
-    map.flyTo({
-        center: e.geometry.coordinates,
-        essential: true,
-        zoom: 15
-    })
-}
-
-// クリックされたマーカーの位置情報をヘッダーに表示
-function chengeHeader(e) {
-    const thisLatLng = document.querySelector('#latlng')
-    const thisAddress = document.querySelector('#address')
-    const thisDate = document.querySelector('#datetime')
-    thisLatLng.textContent = e.properties.address;
-    thisAddress.textContent = e.properties.timestamp;
-    thisDate.className = e.properties.tags;
-    thisDate.innerHTML = e.properties.date;
 }
