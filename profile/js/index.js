@@ -76,7 +76,7 @@ function chengeHeader(e) {
     thisLatLng.textContent = e.properties.address;
     thisAddress.textContent = e.properties.timestamp;
     thisDate.className = e.properties.tags;
-    thisDate.innerHTML = e.properties.date;
+    thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
 }
 
 document.addEventListener("readystatechange", (event) => {
