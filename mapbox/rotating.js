@@ -1,5 +1,7 @@
 'use strict'
 
+let userInteracting;
+
 function spinGlobe() {
   const zoom = map.getZoom();
   if (!userInteracting && zoom < 5) {

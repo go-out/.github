@@ -66,15 +66,16 @@
 
   <dialog>
     <input type="button" id="close" value="×">
-    <details>
-      <summary class="relax">このウェブサイトについて</summary>
-      <div class="goout"></div>
+    <details class="goout">
+      <summary>このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。</summary>
+      <div></div>
+      <p>
+        Site Development
+        <strong>
+          <a href="https://creative-community.space/">creative-community.space</a>
+        </strong>
+      </p>
     </details>
-    <p>
-      <small class="goout">
-        このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。
-      </small>
-    </p>
     <h3 class="relax">
       We Create a
       <b>Map</b>
@@ -87,7 +88,6 @@
         <strong class="goout">I'm here !</strong>
       </small>
     </h3>
-    <br>
     <p class="goout">
       <strong>I'm here !</strong>
       を クリックすると、地図上に あなたの現在地情報 を 印す ピンが追加されます。
@@ -97,12 +97,6 @@
       <label class="relax" for="comment">Add A Comment コメントを追加</label>
       <textarea name="comment" id="comment" class="goout" rows="7.5"
         placeholder="現在地情報にコメントを追加する場合は、ここにコメントを入力ください。"></textarea>
-      <p class="goout">
-        Site Development
-        <strong>
-          <a href="https://creative-community.space/">creative-community.space</a>
-        </strong>
-      </p>
       <small id="copy" class="goout">Copyright © 2021 - <time></time> You. All Rights Reserved.</small>
     </form>
   </dialog>
@@ -114,7 +108,6 @@
 
     let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
       center,
-      userInteracting,
       zoom;
 
     function getRandomInt(min, max) {

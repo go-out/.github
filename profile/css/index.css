@@ -41,10 +41,14 @@ dialog {
     max-width: 550px;
 }
 
-h3,
-dialog div {
+header h3 {
     padding: 0;
     margin: 0.25rem 0;
+}
+
+dialog div {
+    padding: 0;
+    margin: 0.5rem 0;
 }
 
 dialog form textarea {

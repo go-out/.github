@@ -5,7 +5,7 @@ function geoFindMe() {
     const thisLatLng = document.querySelector('#latlng');
     const thisAddress = document.querySelector('#address');
     const thisComment = document.querySelector('#comment').value;
-    let timestamp = new Date().toLocaleString()
+    let timestamp = new Date().toLocaleString();
 
     if (!navigator.geolocation) {
         thisLatLng.textContent = 'Geolocation API is not supported by your browser';
@@ -13,7 +13,7 @@ function geoFindMe() {
     } else {
         thisLatLng.textContent = 'Locating…';
         thisAddress.textContent = '現在地を取得中';
-        navigator.geolocation.getCurrentPosition(success, error)
+        navigator.geolocation.getCurrentPosition(success, error);
     }
 
     // 現在地の取得に失敗した場合
@@ -24,8 +24,6 @@ function geoFindMe() {
 
     // 現在地の取得に成功した場合
     function success(position) {
-        userInteracting = !0;
-
         // 緯度経度を変数に代入
         const latitude = position.coords.latitude;
         const longitude = position.coords.longitude;
@@ -34,8 +32,8 @@ function geoFindMe() {
         let uri = `https://api.mapbox.com/geocoding/v5/mapbox.places/${longitude},${latitude}.json?language=ja&access_token=${mapboxgl.accessToken}`;
         fetchData(uri).then(function (response) {
             return response.text().then(function (jsonStr) {
-                var data = JSON.parse(jsonStr)
-                var address = data.features[0].place_name.replace(/\,/g, "")
+                var data = JSON.parse(jsonStr);
+                var address = data.features[0].place_name.replace(/\,/g, "");
 
                 // localStorageから位置情報を取得
                 let array = JSON.parse(localStorage.getItem("goout")) || [];
@@ -47,7 +45,7 @@ function geoFindMe() {
                         address,
                         comment
                     })
-                    localStorage.setItem("goout", JSON.stringify(array))
+                    localStorage.setItem("goout", JSON.stringify(array));
                     return { timestamp, latitude, longitude, address, comment }
                 }
 
@@ -63,7 +61,7 @@ function geoFindMe() {
                     comment: thisComment.replace(/\r?\n/g, '<br>')
                 };
 
-                const gooutJSON = JSON.stringify(currentLocation)
+                const gooutJSON = JSON.stringify(currentLocation);
                 let response = fetch('profile/submit.php', {
                     method: 'POST',
                     headers: {
@@ -83,9 +81,10 @@ function geoFindMe() {
                     location.replace("profile/")
                 }, 1000);
             });
-        }).catch(err => { console.log(err) })
+        }).catch(err => { console.log(err) });
+
         async function fetchData(_uri) {
-            const res = await fetch(_uri)
+            const res = await fetch(_uri);
             const data = await res;
             return data;
         }
