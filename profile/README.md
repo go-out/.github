@@ -1,4 +1,4 @@
-# 'll play first and tell what it is later
+# I'll play it first and tell you what it is later.
 
 * Mapbox[^1] を用いて カスタムデザイン地図[^2] を ウェブページに表示
 * 地図に、マーカー・ポップアップ・ポリゴンなどのオブジェクトを追加
