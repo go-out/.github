@@ -11,7 +11,8 @@ header {
     right: 0;
 }
 
-footer ol li::marker {
+footer ol li::marker,
+footer ol li.goout::before {
     color: lightskyblue;
 }
 
@@ -111,6 +112,7 @@ h1 {
 }
 
 footer ol li::marker,
+footer ol li.goout::before,
 footer p,
 footer p strong {
     font-size: 150%;
@@ -197,8 +199,13 @@ footer ol li {
     height: 100%;
 }
 
-footer ol li.goout::marker {
+footer ol li.goout {
+    list-style: none inside;
+}
+
+footer ol li.goout::before {
     content: "This Collection is created by";
+    display: block;
 }
 
 footer button {

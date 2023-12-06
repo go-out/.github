@@ -98,7 +98,7 @@
       center,
       zoom;
 
-    if (!localStorage.getItem("yourInfo")) {
+    if (localStorage.getItem("yourInfo")) {
       location.replace('../')
     }
 
