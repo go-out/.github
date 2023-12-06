@@ -43,8 +43,8 @@ async function readmeMD(query, url) {
 }
 
 // 地図にマーカーを追加
-function addMarker(arr) {
-    for (const marker of arr) {
+function addMarker() {
+    for (const marker of gooutArr.features) {
         const el = document.createElement('div');
         el.className = marker.properties.tags;
         new mapboxgl.Marker(el, {
@@ -112,7 +112,7 @@ document.addEventListener("readystatechange", (event) => {
             goout.style.userSelect = 'auto';
             title.hidden = true;
             menu.hidden = false;
-            addMarker(gooutArr.features)
+            addMarker()
         } else {
             userInteracting = 0;
         }
