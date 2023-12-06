@@ -1,6 +1,38 @@
 'use strict'
 
 // index.html のコンテンツを動的に生成
+let gooutArr = {
+    'type': 'FeatureCollection',
+    'features': []
+}
+
+if (localStorage.getItem("goout")) {
+    // localStorageから位置情報を取得
+    const gooutJSON = JSON.parse(localStorage.getItem('goout'));
+    for (let i = 0; i < gooutJSON.length; i++) {
+        const thisLongitude = gooutJSON[i].longitude;
+        const thisLatitude = gooutJSON[i].latitude;
+        const thisAddress = gooutJSON[i].address;
+        const thisComment = gooutJSON[i].comment;
+        const thisTimestamp = gooutJSON[i].timestamp;
+        const thisCenter = [thisLongitude, thisLatitude];
+        let yourMarker = {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': thisCenter,
+            },
+            'properties': {
+                'title': `${thisLongitude}, ${thisLatitude}`,
+                'address': thisAddress,
+                'date': thisComment,
+                'timestamp': thisTimestamp,
+                'tags': 'submit',
+            }
+        }
+        gooutArr.features.push(yourMarker)
+    }
+}
 
 async function readmeMD(query, url) {
     fetch(url)
@@ -10,14 +42,51 @@ async function readmeMD(query, url) {
         });
 }
 
+// 地図にマーカーを追加
+function addMarker(arr) {
+    for (const marker of arr) {
+        const el = document.createElement('div');
+        el.className = marker.properties.tags;
+        new mapboxgl.Marker(el, {
+            offset: [0, 0]
+        })
+            .setLngLat(marker.geometry.coordinates);
+        .addTo(map);
+        
+        el.addEventListener('click', () => {
+            flyToCenter(marker);
+            chengeHeader(marker);
+        })
+    }
+}
+
+function flyToCenter(e) {
+    map.flyTo({
+        center: e.geometry.coordinates,
+        essential: true,
+        zoom: 15
+    })
+}
+
+// クリックされたマーカーの位置情報をヘッダーに表示
+function chengeHeader(e) {
+    const thisLatLng = document.querySelector('#latlng');
+    const thisAddress = document.querySelector('#address');
+    const thisDate = document.querySelector('#datetime');
+    thisLatLng.textContent = e.properties.address;
+    thisAddress.textContent = e.properties.timestamp;
+    thisDate.className = e.properties.tags;
+    thisDate.innerHTML = e.properties.date;
+}
+
 document.addEventListener("readystatechange", (event) => {
     if (event.target.readyState === "interactive") {
         // ヘッダーに最新の投稿を表示
-        const thisLatLng = document.querySelector('#latlng')
-        const thisAddress = document.querySelector('#address')
-        const thisDate = document.querySelector('#datetime')
+        const thisLatLng = document.querySelector('#latlng');
+        const thisAddress = document.querySelector('#address');
+        const thisDate = document.querySelector('#datetime');
         if (localStorage.getItem('goout')) {
-            const geoJSON = JSON.parse(localStorage.getItem('goout'))[0]
+            const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
             thisLatLng.innerHTML = `
             <small>Your device's latest post</small>
             `;
@@ -43,7 +112,7 @@ document.addEventListener("readystatechange", (event) => {
             goout.style.userSelect = 'auto';
             title.hidden = true;
             menu.hidden = false;
-            csvtojson('profile/submit.csv')
+            addMarker(gooutArr.features)
         } else {
             userInteracting = 0;
         }
@@ -64,7 +133,6 @@ document.addEventListener("readystatechange", (event) => {
             goout.style.userSelect = 'auto';
             menu.hidden = false;
             dialog.close()
-            csvtojson('profile/submit.csv')
         })
 
         menu.addEventListener('click', function () {
