@@ -19,4 +19,9 @@ function spinGlobe() {
 map.on("mousedown", () => { userInteracting = !0 })
 map.on("dragstart", () => { userInteracting = !0 })
 map.on("moveend", () => { spinGlobe() })
-spinGlobe()
+
+if (localStorage.getItem("goout")) {
+  userInteracting = !0
+} else {
+  spinGlobe()
+}

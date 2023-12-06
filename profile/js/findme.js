@@ -2,13 +2,9 @@
 
 // 現在位置の地理座標・位置情報を取得
 function geoFindMe() {
-    const thisLatLng = document.querySelector('#latlng')
-    const thisAddress = document.querySelector('#address')
-    const thisComment = document.querySelector('#comment').value
-    const goout = document.querySelector('#map')
-    goout.style.pointerEvents = 'auto';
-    goout.style.userSelect = 'auto';
-
+    const thisLatLng = document.querySelector('#latlng');
+    const thisAddress = document.querySelector('#address');
+    const thisComment = document.querySelector('#comment').value;
     let timestamp = new Date().toLocaleString()
 
     if (!navigator.geolocation) {
@@ -24,8 +20,7 @@ function geoFindMe() {
     function error() {
         thisLatLng.textContent = 'Unable to retrieve your location';
         thisAddress.textContent = '現在地を取得できませんでした';
-        csvtojson('profile/submit.csv')
-    };
+    }
 
     // 現在地の取得に成功した場合
     function success(position) {
@@ -93,6 +88,10 @@ function geoFindMe() {
             const res = await fetch(_uri)
             const data = await res;
             return data;
-        };
-    };
-};
+        }
+    }
+    
+    const goout = document.querySelector('#map');
+    goout.style.pointerEvents = 'auto';
+    goout.style.userSelect = 'auto';
+}

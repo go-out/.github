@@ -43,19 +43,19 @@ async function readmeMD(query, url) {
 }
 
 // 地図にマーカーを追加
-function addMarker() {
-    for (const marker of gooutArr.features) {
+function addMarker(arr) {
+    for (const marker of arr) {
         const el = document.createElement('div');
         el.className = marker.properties.tags;
         new mapboxgl.Marker(el, {
             offset: [0, 0]
         })
-            .setLngLat(marker.geometry.coordinates);
-        .addTo(map);
-        
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map)
+
         el.addEventListener('click', () => {
-            flyToCenter(marker);
-            chengeHeader(marker);
+            flyToCenter(marker)
+            chengeHeader(marker)
         })
     }
 }
@@ -105,16 +105,13 @@ document.addEventListener("readystatechange", (event) => {
         const enter = document.querySelector('dialog #enter')
         const close = document.querySelector('dialog #close')
         const menu = document.querySelector('footer button')
-        
+
         if (localStorage.getItem("goout")) {
-            userInteracting = !0;
             goout.style.pointerEvents = 'auto';
             goout.style.userSelect = 'auto';
             title.hidden = true;
             menu.hidden = false;
-            addMarker()
-        } else {
-            userInteracting = 0;
+            addMarker(gooutArr.features)
         }
 
         readme.addEventListener('click', function () {
