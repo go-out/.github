@@ -105,7 +105,7 @@ function chengeHeader(e) {
     thisLatLng.textContent = e.properties.address;
     thisAddress.textContent = e.properties.timestamp;
     thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
-    thisDate.className = "goout";
+    thisDate.className = e.properties.tags;
 }
 
 document.addEventListener("readystatechange", (event) => {
