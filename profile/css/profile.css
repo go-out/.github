@@ -222,7 +222,7 @@ footer button {
 }
 
 #close {
-    padding: 0 1rem;
+    padding: 0 1.25rem;
 }
 
 @media screen and (max-width: 350px) {
