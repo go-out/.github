@@ -90,7 +90,7 @@ function geoFindMe() {
             return data;
         }
     }
-    
+
     const goout = document.querySelector('#map');
     goout.style.pointerEvents = 'auto';
     goout.style.userSelect = 'auto';
