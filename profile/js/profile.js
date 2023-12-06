@@ -165,7 +165,7 @@ document.addEventListener("readystatechange", (event) => {
 
             // PHPに位置情報を送信
             const gooutJSON = JSON.stringify(addLocation)
-            let response = fetch('submit.php', {
+            let response = fetch('../submit.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json;charset=utf-8'

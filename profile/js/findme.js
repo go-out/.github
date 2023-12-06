@@ -62,7 +62,7 @@ function geoFindMe() {
                 };
 
                 const gooutJSON = JSON.stringify(currentLocation);
-                let response = fetch('profile/submit.php', {
+                let response = fetch('submit.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json;charset=utf-8'
