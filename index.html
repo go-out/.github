@@ -113,10 +113,9 @@
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
     let center,
-      zoom,
+      css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
       userInteracting,
-      css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17';
-
+      zoom;
 
     function getRandomInt(min, max) {
         min = Math.ceil(min)
@@ -158,11 +157,11 @@
         showUserHeading: true
       })
     )
-    map.addControl(new mapboxgl.NavigationControl());
-    map.addControl(new mapboxgl.FullscreenControl());
+    map.addControl(new mapboxgl.NavigationControl())
+    map.addControl(new mapboxgl.FullscreenControl())
 
-    const now = new Date();
-    const year = now.getFullYear();
+    const now = new Date()
+    const year = now.getFullYear()
     document.querySelector('#copy time').innerHTML = year;
   </script>
 

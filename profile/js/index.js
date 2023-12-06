@@ -36,7 +36,7 @@ document.addEventListener("readystatechange", (event) => {
         const close = document.querySelector('dialog #close')
         const menu = document.querySelector('footer button')
         
-        if (localStorage.getItem("yourInfo")) {
+        if (localStorage.getItem("goout")) {
             userInteracting = !0;
             goout.style.pointerEvents = 'auto';
             goout.style.userSelect = 'auto';

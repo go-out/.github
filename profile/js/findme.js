@@ -4,7 +4,6 @@
 function geoFindMe() {
     const thisLatLng = document.querySelector('#latlng')
     const thisAddress = document.querySelector('#address')
-    const thisDate = document.querySelector('#datetime')
     const thisComment = document.querySelector('#comment').value
     const goout = document.querySelector('#map')
     goout.style.pointerEvents = 'auto';
