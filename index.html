@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="mapbox/marker/style.css">
   <link rel="stylesheet" href="mapbox/popup/style.css">
 
-  <script src="profile/js/submit.js"></script>
+  <script src="profile/js/csvtojson.js"></script>
   <script src="profile/js/index.js"></script>
   <script src="profile/js/findme.js"></script>
 </head>
@@ -118,14 +118,14 @@
       zoom;
 
     function getRandomInt(min, max) {
-        min = Math.ceil(min)
-        max = Math.floor(max)
-        return Math.floor(Math.random() * (max - min) + min)
+      min = Math.ceil(min)
+      max = Math.floor(max)
+      return Math.floor(Math.random() * (max - min) + min)
     }
 
     if (!localStorage.getItem('goout')) {
-      let lng = getRandomInt(0, 180)
-      let lat = getRandomInt(0, 90)
+      let lng = getRandomInt(-180, 180)
+      let lat = getRandomInt(-90, 90)
       center = [lng, lat]
       zoom = '1.23';
     } else {
@@ -138,8 +138,6 @@
       container: 'map',
       center: center,
       style: css,
-      pitch: 0,
-      bearing: 0,
       zoom: zoom,
       scrollZoom: true,
       projection: 'globe',

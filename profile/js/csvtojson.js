@@ -1,5 +1,6 @@
 'use strict'
 
+// CSVファイルの情報をJSONに追加し、地図上にマーカーを追加
 let submitJson = {
     'type': 'FeatureCollection',
     'features': [
@@ -73,10 +74,18 @@ function addMarker() {
             .addTo(map)
 
         el.addEventListener('click', () => {
-            chengeHeader(marker)
             flyToCenter(marker)
+            chengeHeader(marker)
         })
     }
+}
+
+function flyToCenter(e) {
+    map.flyTo({
+        center: e.geometry.coordinates,
+        essential: true,
+        zoom: 15
+    })
 }
 
 // クリックされたマーカーの位置情報をヘッダーに表示
@@ -88,12 +97,4 @@ function chengeHeader(e) {
     thisAddress.textContent = e.properties.timestamp;
     thisDate.className = e.properties.tags;
     thisDate.innerHTML = e.properties.date;
-}
-
-function flyToCenter(e) {
-    map.flyTo({
-        center: e.geometry.coordinates,
-        essential: true,
-        zoom: 15
-    })
 }

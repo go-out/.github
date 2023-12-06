@@ -1,6 +1,6 @@
 'use strict'
 
-// 現在地を取得する
+// 現在位置の地理座標・位置情報を取得
 function geoFindMe() {
     const thisLatLng = document.querySelector('#latlng')
     const thisAddress = document.querySelector('#address')

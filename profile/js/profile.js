@@ -29,7 +29,6 @@ document.addEventListener("readystatechange", (event) => {
         document.querySelector('#timestamp').value = now.toISOString().slice(0, -5)
 
         const storageOl = document.querySelector('#localStorage')
-
         if (localStorage.getItem("goout")) {
             // localStorageから位置情報を取得
             const gooutJSON = JSON.parse(localStorage.getItem('goout'))
@@ -151,7 +150,7 @@ document.addEventListener("readystatechange", (event) => {
             const timestamp = document.querySelector('#timestamp').value;
             const latitude = document.querySelector('#latitude').textContent;
             const longitude = document.querySelector('#longitude').textContent;
-            const thisAddress = document.querySelector('#address').textContent;;
+            const thisAddress = document.querySelector('#address').textContent;
             const comment = document.querySelector('#comment').value;
             const thisTime = new Date(timestamp).toLocaleString();
             addData(thisTime, latitude, longitude, thisAddress, comment)

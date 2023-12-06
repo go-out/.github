@@ -1,5 +1,7 @@
 'use strict'
 
+// index.html のコンテンツを動的に生成
+
 async function readmeMD(query, url) {
     fetch(url)
         .then(response => response.text())
@@ -25,7 +27,6 @@ document.addEventListener("readystatechange", (event) => {
             `;
             thisDate.textContent = geoJSON.timestamp;
         }
-
         readmeMD('dialog div', 'README.md')
     } else if (event.target.readyState === "complete") {
         const goout = document.querySelector('#map')
