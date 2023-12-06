@@ -127,11 +127,11 @@
       let lng = getRandomInt(0, 180)
       let lat = getRandomInt(0, 90)
       center = [lng, lat]
-      zoom = '1.11';
+      zoom = '1.23';
     } else {
       const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
       center = [geoJSON.longitude, geoJSON.latitude]
-      zoom = '2.22';
+      zoom = '3.21';
     }
 
     const map = new mapboxgl.Map({
