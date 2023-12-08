@@ -63,12 +63,20 @@ if (localStorage.getItem("goout")) {
     }
 }
 
+async function fetchHTML(query, url) {
+    fetch(url)
+        .then(response => response.text())
+        .then(html => {
+            document.querySelector(query).innerHTML = html
+        })
+}
+
 async function readmeMD(query, url) {
     fetch(url)
         .then(response => response.text())
         .then(innerText => {
             document.querySelector(query).innerText = innerText;
-        });
+        })
 }
 
 // 地図にマーカーを追加
@@ -114,6 +122,7 @@ document.addEventListener("readystatechange", (event) => {
         const thisLatLng = document.querySelector('#latlng');
         const thisAddress = document.querySelector('#address');
         const thisDate = document.querySelector('#datetime');
+
         if (localStorage.getItem('goout')) {
             const geoJSON = JSON.parse(localStorage.getItem('goout'))[0];
             thisLatLng.innerHTML = `
@@ -125,7 +134,8 @@ document.addEventListener("readystatechange", (event) => {
             `;
             thisDate.textContent = geoJSON.timestamp;
         }
-        readmeMD('dialog div', 'README.md')
+
+        fetchHTML('dialog ul', 'date.html');
     } else if (event.target.readyState === "complete") {
         const goout = document.querySelector('#map');
         const title = document.querySelector('#title');
@@ -164,5 +174,5 @@ document.addEventListener("readystatechange", (event) => {
         menu.addEventListener('click', function () {
             dialog.showModal();
         })
-    };
-});
+    }
+})

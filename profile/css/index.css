@@ -26,7 +26,8 @@ footer {
 }
 
 h3 b,
-dialog form label {
+dialog form label,
+dialog ul li small {
     color: lemonchiffon;
     background: lightskyblue;
 }
@@ -46,9 +47,24 @@ header h3 {
     margin: 0.25rem 0;
 }
 
-dialog div {
+dialog ul,
+dialog form button {
+    padding: 0;
+    margin: 1rem 0;
+}
+
+dialog div,
+dialog ul li {
     padding: 0;
     margin: 0.5rem 0;
+}
+
+dialog ul {
+    list-style: inside none;
+}
+
+dialog form label {
+    margin: 1rem 0 0;
 }
 
 dialog form textarea {
@@ -65,10 +81,6 @@ dialog form label {
 #close {
     padding: 0;
     margin: 0 0 0.5rem 0.5rem;
-}
-
-dialog form button {
-    margin: 1rem 0 2rem;
 }
 
 #title strong {
@@ -98,6 +110,11 @@ dialog form label {
     font-size: 125%;
 }
 
+dialog ul li {
+    font-size: 111%;
+}
+
+dialog ul,
 address {
     font-size: 100%;
 }
