@@ -220,7 +220,6 @@ footer button {
     height: 4.5rem;
 }
 
-#close,
 footer button {
     position: fixed;
     bottom: 0;
@@ -229,7 +228,9 @@ footer button {
 }
 
 #close {
+    float: right;
     padding: 0 1.25rem;
+    margin: 0.5rem;
 }
 
 @media screen and (max-width: 350px) {
