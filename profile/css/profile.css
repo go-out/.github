@@ -99,10 +99,7 @@ dialog form textarea {
     padding: 0.5rem;
 }
 
-#close {
-    font-size: 350%;
-}
-
+#close,
 dialog form button {
     font-size: 250%;
 }
