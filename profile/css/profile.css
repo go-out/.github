@@ -228,6 +228,7 @@ footer button {
 }
 
 #close {
+    display: block;
     float: right;
     padding: 0 1.25rem;
     margin: 0.5rem;
