@@ -227,9 +227,9 @@ footer button {
 #close {
     display: block;
     float: right;
-    filter: grayscale(1);
     padding: 0 1.25rem;
     margin: 0.5rem;
+    mix-blend-mode: difference;
 }
 
 @media screen and (max-width: 350px) {
