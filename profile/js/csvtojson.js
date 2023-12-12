@@ -6,6 +6,8 @@ let submitJson = {
     'features': []
 }
 
+csvtojson('2023.csv')
+
 // CSVファイルの情報をJSONに追加
 async function csvtojson(csv) {
     const response = await fetch(csv);
@@ -17,10 +19,10 @@ async function csvtojson(csv) {
                 'type': 'Feature',
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [marker[2], marker[1]]
+                    'coordinates': [marker[1], marker[2]]
                 },
                 'properties': {
-                    'title': `${marker[2]},${marker[1]}`,
+                    'title': `${marker[1]},${marker[2]}`,
                     'address': marker[3].replace(/"/g, ''),
                     'date': marker[4].replace(/"/g, ''),
                     'timestamp': marker[0],

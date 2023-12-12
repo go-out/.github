@@ -26,14 +26,17 @@ footer {
 }
 
 h3 b,
-dialog form label,
-dialog ul li small {
+dialog form label {
     color: lemonchiffon;
     background: lightskyblue;
 }
 
-h3 u {
-    color: #000;
+dialog ul li small {
+    color: lightskyblue;
+}
+
+h3 u,
+dialog ul li small {
     text-decoration: lightskyblue wavy underline;
 }
 

@@ -150,7 +150,6 @@ document.addEventListener("readystatechange", (event) => {
             goout.style.userSelect = 'auto';
             title.hidden = true;
             menu.hidden = false;
-            addMarker(gooutArr.features);
         }
 
         readme.addEventListener('click', function () {
@@ -174,5 +173,8 @@ document.addEventListener("readystatechange", (event) => {
         menu.addEventListener('click', function () {
             dialog.showModal();
         })
+
+        addMarker(gooutArr.features);
+        addMarker(submitJson.features);
     }
 })
