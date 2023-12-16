@@ -11,7 +11,7 @@ const zenyoku = {
                 'title': 'あさひ湯',
                 'address': '日本, 大阪府大阪市西成区橘3-12-20',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.23rem', '1.23rem'],
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
                 'zoom': 17.5,
             }
         },
@@ -25,7 +25,7 @@ const zenyoku = {
                 'title': 'ゆぽぽ 大運橋温泉',
                 'address': '日本, 大阪府大阪市大正区南恩加島6-5-5',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.23rem', '1.23rem'],
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
                 'zoom': 17.5,
             }
         },
@@ -39,7 +39,7 @@ const zenyoku = {
                 'title': '姫松温泉',
                 'address': '日本, 大阪府大阪市住之江区御崎2-5-1',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.23rem', '1.23rem'],
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
                 'zoom': 17.5,
             }
         },
@@ -53,7 +53,7 @@ const zenyoku = {
                 'title': '浜口温泉',
                 'address': '日本, 大阪府大阪市住吉区清水丘1-31-15',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.23rem', '1.23rem'],
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
                 'zoom': 17.5,
             }
         },
@@ -67,7 +67,7 @@ const zenyoku = {
                 'title': 'つるが丘温泉',
                 'address': '日本, 大阪府大阪市東住吉区山坂5-4-13',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.23rem', '1.23rem'],
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
                 'zoom': 17.5,
             }
         },
@@ -81,7 +81,7 @@ const zenyoku = {
                 'title': '錦温泉',
                 'address': '日本, 大阪府大阪市住吉区苅田8-10-27',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.23rem', '1.23rem'],
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
                 'zoom': 17.5,
             }
         }
