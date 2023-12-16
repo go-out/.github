@@ -56,6 +56,34 @@ const zenyoku = {
                 'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
                 'zoom': 17.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51862000030746, 34.617429478559885]
+            },
+            'properties': {
+                'title': 'つるが丘温泉',
+                'address': '日本, 大阪府大阪市東住吉区山坂5-4-13',
+                'tags': 'sento',
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51974776637041, 34.597437761470644]
+            },
+            'properties': {
+                'title': '錦温泉',
+                'address': '日本, 大阪府大阪市住吉区苅田8-10-27',
+                'tags': 'sento',
+                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'zoom': 17.5,
+            }
         }
     ]
 };
