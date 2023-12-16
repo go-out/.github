@@ -109,7 +109,7 @@ map.on('load', () => {
             'address': '住之江公園駅からほぼまっすぐ、南港南の西の果てまでGo Out',
             'tags': 'goout',
             'id': 'tinBEuiKqzU',
-            'zoom': 13.25
+            'zoom': 13
           }
         }
       ]
