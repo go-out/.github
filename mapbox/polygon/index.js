@@ -24,7 +24,8 @@ map.on('load', () => {
           'properties': {
             'title': 'やるぞ ‼',
             'date': 'go-out.github.io/do/',
-            'link': 'https://go-out.github.io/do/'
+            'link': 'https://go-out.github.io/do/',
+            'zoom': 14
           }
         }
       ]
@@ -49,7 +50,7 @@ map.on('load', () => {
     'layout': {},
     'paint': {
       'line-color': 'lightskyblue',
-      'line-width': 4
+      'line-width': 5
     }
   });
 
@@ -67,7 +68,8 @@ map.on('load', () => {
       .addTo(map);
     map.flyTo({
       center: e.lngLat,
-      essential: true
+      essential: true,
+      zoom: e.features[0].properties.zoom
     });
   });
 

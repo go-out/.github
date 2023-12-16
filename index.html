@@ -40,8 +40,20 @@
   <link rel="stylesheet" href="mapbox/popup/style.css">
 
   <script src="profile/js/index.js"></script>
-  <script src="profile/js/csvtojson.js"></script>
   <script src="profile/js/findme.js"></script>
+  <script src="profile/js/csvtojson.js"></script>
+  <script src="mapbox/marker/index.js"></script>
+  <script src="youtube/index.js"></script>
+
+  <script>
+    // CSVファイルの情報をJSONに追加 (csvtojson.js)
+    csvtojson('2023.csv');
+
+    window.addEventListener("load", () => {
+      addMarker(submitJson.features);
+      addIcons(playlist.features);
+    });
+  </script>
 </head>
 
 <body>
@@ -158,10 +170,11 @@
     document.querySelector('#copy time').innerHTML = year;
   </script>
 
+  <script src="mapbox/rotating.js"></script>
   <script src="mapbox/popup/index.js"></script>
   <script src="mapbox/polygon/heard.js"></script>
   <script src="mapbox/polygon/index.js"></script>
-  <script src="mapbox/rotating.js"></script>
+  <script src="mapbox/line/index.js"></script>
 
   <footer>
     <button type="button" hidden></button>

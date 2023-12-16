@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="format-detection" content="telephone=no" />
 
+  <script>
+    if (!localStorage.getItem("yourInfo")) {
+      location.replace('../')
+    }
+  </script>
+
   <!--og:meta-->
   <meta content="website" property="og:type">
   <title>あなたがいた場所のコレクション</title>
@@ -97,10 +103,6 @@
     let css = 'mapbox://styles/mapbox/standard',
       center,
       zoom;
-
-    if (!localStorage.getItem("yourInfo")) {
-      location.replace('../')
-    }
 
     function getRandomInt(min, max) {
       min = Math.ceil(min)

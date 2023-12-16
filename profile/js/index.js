@@ -12,10 +12,12 @@ let gooutArr = {
             },
             'properties': {
                 'title': '135.50433479522678, 34.69699057458179',
-                'address': '日本, 大阪府大阪市北区西天満4丁目8番1',
-                'date': '<a href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
-                'timestamp': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 - Sun 15 Sep 2019',
-                'tags': 'pehu',
+                'address': '<a href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
+                'date': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 - Sun 15 Sep 2019',
+                'timestamp': '日本, 大阪府大阪市北区西天満4丁目8番1',
+                'iconSize': ['https://pehu.creative-community.space/icon/favicon.png', '3.21rem', '3.21rem'],
+                'tags': 'goout',
+                'zoom': 20,
             }
         },
         {
@@ -26,41 +28,60 @@ let gooutArr = {
             },
             'properties': {
                 'title': '135.47306292634534, 34.62458544610712',
-                'address': '日本, 大阪府大阪市住之江区北加賀屋5丁目5-1',
-                'date': '<b class="goout"><a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">音ビル</a></b>',
-                'timestamp': '4.2.2019 - 3.30.2022 | OTO Building',
-                'tags': 'otubuil',
+                'address': '音ビル',
+                'date': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">日本, 大阪府大阪市住之江区北加賀屋5丁目5-1</a>',
+                'timestamp': 'OTO Building | 4.2.2019 - 3.30.2022',
+                'iconSize': ['https://vg.pe.hu/2019-2021/img/favicon.png', '3.21rem', '3.21rem'],
+                'tags': 'goout',
+                'zoom': 17.5,
             }
         }
     ]
 }
 
-if (localStorage.getItem("goout")) {
-    // localStorageから位置情報を取得
-    const gooutJSON = JSON.parse(localStorage.getItem('goout'));
-    for (let i = 0; i < gooutJSON.length; i++) {
-        const thisLongitude = gooutJSON[i].longitude;
-        const thisLatitude = gooutJSON[i].latitude;
-        const thisAddress = gooutJSON[i].address;
-        const thisComment = gooutJSON[i].comment;
-        const thisTimestamp = gooutJSON[i].timestamp;
-        const thisCenter = [thisLongitude, thisLatitude];
-        let yourMarker = {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': thisCenter,
-            },
-            'properties': {
-                'title': `${thisLongitude}, ${thisLatitude}`,
-                'address': thisAddress,
-                'date': thisComment,
-                'timestamp': thisTimestamp,
-                'tags': 'submit',
-            }
+// 地図にマーカーを追加
+function addMarker(arr) {
+    for (const marker of arr) {
+        const el = document.createElement('div');
+        el.className = marker.properties.tags;
+
+        if (marker.properties.iconSize) {
+            const url = marker.properties.iconSize[0];
+            el.style.width = marker.properties.iconSize[1];
+            el.style.height = marker.properties.iconSize[2];
+            el.style.backgroundImage = `url(${url})`;
         }
-        gooutArr.features.push(yourMarker);
+
+        new mapboxgl.Marker(el, {
+            offset: [0, 0]
+        })
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map)
+
+        el.addEventListener('click', () => {
+            flyToCenter(marker);
+            chengeHeader(marker);
+        })
     }
+}
+
+function flyToCenter(e) {
+    map.flyTo({
+        center: e.geometry.coordinates,
+        essential: true,
+        zoom: e.properties.zoom
+    })
+}
+
+// クリックされたマーカーの位置情報をヘッダーに表示
+function chengeHeader(e) {
+    const thisLatLng = document.querySelector('#latlng');
+    const thisAddress = document.querySelector('#address');
+    const thisDate = document.querySelector('#datetime');
+    thisLatLng.innerHTML = e.properties.address;
+    thisAddress.innerHTML = e.properties.timestamp;
+    thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
+    thisDate.className = e.properties.tags;
 }
 
 async function fetchHTML(query, url) {
@@ -77,43 +98,6 @@ async function readmeMD(query, url) {
         .then(innerText => {
             document.querySelector(query).innerText = innerText;
         })
-}
-
-// 地図にマーカーを追加
-function addMarker(arr) {
-    for (const marker of arr) {
-        const el = document.createElement('div');
-        el.className = marker.properties.tags;
-        new mapboxgl.Marker(el, {
-            offset: [0, 0]
-        })
-            .setLngLat(marker.geometry.coordinates)
-            .addTo(map)
-
-        el.addEventListener('click', () => {
-            flyToCenter(marker)
-            chengeHeader(marker)
-        })
-    }
-}
-
-function flyToCenter(e) {
-    map.flyTo({
-        center: e.geometry.coordinates,
-        essential: true,
-        zoom: 15
-    })
-}
-
-// クリックされたマーカーの位置情報をヘッダーに表示
-function chengeHeader(e) {
-    const thisLatLng = document.querySelector('#latlng');
-    const thisAddress = document.querySelector('#address');
-    const thisDate = document.querySelector('#datetime');
-    thisLatLng.textContent = e.properties.address;
-    thisAddress.textContent = e.properties.timestamp;
-    thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
-    thisDate.className = e.properties.tags;
 }
 
 document.addEventListener("readystatechange", (event) => {
@@ -133,9 +117,7 @@ document.addEventListener("readystatechange", (event) => {
             <strong id="latitude">${geoJSON.latitude}</strong>
             `;
             thisDate.textContent = geoJSON.timestamp;
-        }
-
-        fetchHTML('dialog ul', 'date.html');
+        };
     } else if (event.target.readyState === "complete") {
         const goout = document.querySelector('#map');
         const title = document.querySelector('#title');
@@ -175,6 +157,5 @@ document.addEventListener("readystatechange", (event) => {
         })
 
         addMarker(gooutArr.features);
-        addMarker(submitJson.features);
     }
 })

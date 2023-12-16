@@ -15,30 +15,13 @@
 }
 
 .mapboxgl-marker.goout {
-    background-image: url('../profile/img/favicon.png');
-    border: none;
+    background-image: url('../../profile/img/favicon.png');
     width: 3.21rem;
     height: 3.21rem;
 }
 
-.mapboxgl-marker.pehu {
-    border: none;
-    width: 3.21rem;
-    height: 3.21rem;
-}
-
-.mapboxgl-marker.pehu::before {
-    content: "∧°┐";
-    display: block;
-    font-size: 1.25rem;
-    text-align: center;
-    width: 100%;
-}
-
-.mapboxgl-marker.otubuil {
-    background-image: url('https://vg.pe.hu/2019-2021/img/favicon.png');
-    border: none;
-    width: 3.21rem;
-    height: 3.21rem;
+.mapboxgl-marker.relax {
+    width: 2.22rem;
+    height: 2.22rem;
 }
 

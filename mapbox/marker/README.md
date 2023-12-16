@@ -16,15 +16,6 @@ const marker = new mapboxgl.Marker({
     .setLngLat([マーカーの座標])
     .addTo(map);
 ```
-
-* [ポップアップを表示](https://docs.mapbox.com/jp/mapbox-gl-js/example/popup/)
-```
-const popup = new mapboxgl.Popup({ closeOnClick: false })
-.setLngLat([ポップアップの座標])
-.setHTML('<p>ポップアップに表示するHTML</p>')
-.addTo(map);
-
-```
 ___
 
 ## JSONデータ[^1]　を読み込み、地図に複数のマーカーを追加

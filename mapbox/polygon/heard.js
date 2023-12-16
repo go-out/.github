@@ -116,23 +116,7 @@ map.on('load', () => {
         }
     });
 
-    map.addLayer({
-        'id': 'heardLine',
-        'type': 'line',
-        'source': 'heardPolygon',
-        'layout': {},
-        'paint': {
-            'line-color': '#fff',
-            'line-width': 2.5
-        }
-    });
-
     map.on('click', 'heardFill', (e) => {
-        map.flyTo({
-            center: e.lngLat,
-            essential: true
-        });
-
         const thisLatLng = document.querySelector('#latlng');
         const thisAddress = document.querySelector('#address');
         const thisDate = document.querySelector('#datetime');
@@ -140,5 +124,13 @@ map.on('load', () => {
         thisAddress.textContent = e.features[0].properties.date;
         thisDate.innerHTML = e.features[0].properties.address;
         thisDate.className = 'goout';
+    });
+
+    map.on('mouseenter', 'heardFill', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    map.on('mouseleave', 'heardFill', () => {
+        map.getCanvas().style.cursor = '';
     });
 });
