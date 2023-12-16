@@ -1,4 +1,4 @@
-const playlist = {
+const youtube = {
     'type': 'FeatureCollection',
     'features': [
         {

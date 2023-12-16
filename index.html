@@ -44,6 +44,7 @@
   <script src="profile/js/csvtojson.js"></script>
   <script src="mapbox/marker/index.js"></script>
   <script src="youtube/index.js"></script>
+  <script src="1010/index.js"></script>
 
   <script>
     // CSVファイルの情報をJSONに追加 (csvtojson.js)
@@ -51,7 +52,8 @@
 
     window.addEventListener("load", () => {
       addMarker(submitJson.features);
-      addIcons(playlist.features);
+      addIcons(zenyoku.features);
+      addIcons(youtube.features);
     });
   </script>
 </head>
