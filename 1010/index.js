@@ -10,8 +10,9 @@ const zenyoku = {
             'properties': {
                 'title': 'あさひ湯',
                 'address': '日本, 大阪府大阪市西成区橘3-12-20',
+                'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -24,8 +25,9 @@ const zenyoku = {
             'properties': {
                 'title': 'ゆぽぽ 大運橋温泉',
                 'address': '日本, 大阪府大阪市大正区南恩加島6-5-5',
+                'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -38,8 +40,9 @@ const zenyoku = {
             'properties': {
                 'title': '姫松温泉',
                 'address': '日本, 大阪府大阪市住之江区御崎2-5-1',
+                'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -52,8 +55,39 @@ const zenyoku = {
             'properties': {
                 'title': '浜口温泉',
                 'address': '日本, 大阪府大阪市住吉区清水丘1-31-15',
+                'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51014569221712, 34.59519291015667]
+            },
+            'properties': {
+                'title': '玉乃湯',
+                'address': '日本, 大阪府大阪市住吉区杉本1-4-29',
+                'date': '',
+                'tags': 'sento',
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51587845381397, 34.62115421399076]
+            },
+            'properties': {
+                'title': 'いりふね温泉',
+                'address': '日本, 大阪府大阪市阿倍野区西田辺町1-2-22',
+                'date': '',
+                'tags': 'sento',
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -66,8 +100,9 @@ const zenyoku = {
             'properties': {
                 'title': 'つるが丘温泉',
                 'address': '日本, 大阪府大阪市東住吉区山坂5-4-13',
+                'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -80,8 +115,9 @@ const zenyoku = {
             'properties': {
                 'title': '錦温泉',
                 'address': '日本, 大阪府大阪市住吉区苅田8-10-27',
+                'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '1.5rem', '1.5rem'],
+                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         }

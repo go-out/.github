@@ -11,10 +11,9 @@ let gooutArr = {
                 'coordinates': [135.50433479522678, 34.69699057458179]
             },
             'properties': {
-                'title': '135.50433479522678, 34.69699057458179',
-                'address': '<a href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
+                'title': '<a href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
+                'address': '日本, 大阪府大阪市北区西天満4丁目8番1',
                 'date': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 - Sun 15 Sep 2019',
-                'timestamp': '日本, 大阪府大阪市北区西天満4丁目8番1',
                 'iconSize': ['https://pehu.creative-community.space/icon/favicon.png', '3.21rem', '3.21rem'],
                 'tags': 'goout',
                 'zoom': 20,
@@ -27,10 +26,9 @@ let gooutArr = {
                 'coordinates': [135.47306292634534, 34.62458544610712]
             },
             'properties': {
-                'title': '135.47306292634534, 34.62458544610712',
-                'address': '音ビル',
+                'title': '音ビル',
+                'address': 'OTO Building | 4.2.2019 - 3.30.2022',
                 'date': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">日本, 大阪府大阪市住之江区北加賀屋5丁目5-1</a>',
-                'timestamp': 'OTO Building | 4.2.2019 - 3.30.2022',
                 'iconSize': ['https://vg.pe.hu/2019-2021/img/favicon.png', '3.21rem', '3.21rem'],
                 'tags': 'goout',
                 'zoom': 17.5,
@@ -78,10 +76,9 @@ function chengeHeader(e) {
     const thisLatLng = document.querySelector('#latlng');
     const thisAddress = document.querySelector('#address');
     const thisDate = document.querySelector('#datetime');
-    thisLatLng.innerHTML = e.properties.address;
-    thisAddress.innerHTML = e.properties.timestamp;
+    thisLatLng.innerHTML = e.properties.title;
+    thisAddress.innerHTML = e.properties.address;
     thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
-    thisDate.className = e.properties.tags;
 }
 
 async function fetchHTML(query, url) {
@@ -116,6 +113,7 @@ document.addEventListener("readystatechange", (event) => {
             <strong id="longitude">${geoJSON.longitude}</strong>,
             <strong id="latitude">${geoJSON.latitude}</strong>
             `;
+            thisDate.className = 'goout';
             thisDate.textContent = geoJSON.timestamp;
         };
     } else if (event.target.readyState === "complete") {

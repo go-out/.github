@@ -123,7 +123,6 @@ map.on('load', () => {
         thisLatLng.textContent = e.features[0].properties.title;
         thisAddress.textContent = e.features[0].properties.date;
         thisDate.innerHTML = e.features[0].properties.address;
-        thisDate.className = 'goout';
     });
 
     map.on('mouseenter', 'heardFill', () => {

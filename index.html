@@ -52,8 +52,12 @@
 
     window.addEventListener("load", () => {
       addMarker(submitJson.features);
-      addIcons(zenyoku.features);
+      addMarker(zenyoku.features);
       addIcons(youtube.features);
+
+      const now = new Date()
+      const year = now.getFullYear()
+      document.querySelector('#copy time').innerHTML = year;
     });
   </script>
 </head>
@@ -166,10 +170,6 @@
     )
     map.addControl(new mapboxgl.NavigationControl())
     map.addControl(new mapboxgl.FullscreenControl())
-
-    const now = new Date()
-    const year = now.getFullYear()
-    document.querySelector('#copy time').innerHTML = year;
   </script>
 
   <script src="mapbox/rotating.js"></script>
