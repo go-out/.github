@@ -84,7 +84,7 @@ map.on('load', () => {
             'address': 'ニュートラム（トレードセンター前⇄住之江公園）',
             'tags': 'goout',
             'id': 'jDv57WWjJ58',
-            'zoom': 12.345
+            'zoom': 12.5
           }
         },
         {
@@ -109,7 +109,7 @@ map.on('load', () => {
             'address': '住之江公園駅からほぼまっすぐ、南港南の西の果てまでGo Out',
             'tags': 'goout',
             'id': 'tinBEuiKqzU',
-            'zoom': 12.5
+            'zoom': 12.75
           }
         }
       ]
