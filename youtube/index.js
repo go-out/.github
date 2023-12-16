@@ -12,6 +12,7 @@ const playlist = {
                 'address': '日本, 大阪府大阪市北区角田町８−７',
                 'tags': 'relax',
                 'id': 'qzIy_qtpNh8',
+                'iconSize': ['https://i.ytimg.com/vi/qzIy_qtpNh8/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 17.5,
             }
         },
@@ -26,6 +27,7 @@ const playlist = {
                 'address': '日本, 大阪府大阪市大正区南恩加島 - 西成区南津守',
                 'tags': 'goout',
                 'id': 'SNw7eE2K0c0',
+                'iconSize': ['https://i.ytimg.com/vi/SNw7eE2K0c0/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 16,
             }
         },
@@ -39,7 +41,8 @@ const playlist = {
                 'title': '木津川渡船場',
                 'address': '日本, 大阪府大阪市住之江区平林北 - 大正区船町',
                 'tags': 'goout',
-                'src': 'JDQjc70a1T8',
+                'id': 'JDQjc70a1T8',
+                'iconSize': ['https://i.ytimg.com/vi/JDQjc70a1T8/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 16,
             }
         },
@@ -54,7 +57,8 @@ const playlist = {
                 'address': '日本, 大阪府大阪市大正区船町 大正区鶴町',
                 'date': '船町（ふなまち）渡船場は、令和2年度現在、1日平均約163人に利用されています。',
                 'tags': 'goout',
-                'src': 'Z8Von0j_br8',
+                'id': 'Z8Von0j_br8',
+                'iconSize': ['https://i.ytimg.com/vi/Z8Von0j_br8/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 17,
             }
         },
@@ -69,6 +73,7 @@ const playlist = {
                 'address': '大きな空と海を一望できる気持ちのいい場所。',
                 'tags': 'relax',
                 'id': '9DRiQ5CVcjE',
+                'iconSize': ['https://i.ytimg.com/vi/9DRiQ5CVcjE/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 15.5,
             }
         },
@@ -82,7 +87,8 @@ const playlist = {
                 'title': '住吉大社の堀の端',
                 'address': '日本, 大阪府大阪市住之江区粉浜西３丁目１',
                 'tags': 'relax',
-                'src': 'wbOguTvuV0Q',
+                'id': 'wbOguTvuV0Q',
+                'iconSize': ['https://i.ytimg.com/vi/wbOguTvuV0Q/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 16.5,
             }
         },
@@ -96,7 +102,8 @@ const playlist = {
                 'title': '住吉公園 心字池',
                 'address': '日本, 大阪府大阪市住之江区浜口東１丁目１',
                 'tags': 'relax',
-                'src': 'mkioDOspLbs',
+                'id': 'mkioDOspLbs',
+                'iconSize': ['https://i.ytimg.com/vi/mkioDOspLbs/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 17.25,
             }
         },
@@ -110,7 +117,8 @@ const playlist = {
                 'title': '住吉公園 花と水の広場',
                 'address': '日本, 大阪府大阪市住之江区浜口東１丁目１',
                 'tags': 'relax',
-                'src': 'gfwP_viCeZg',
+                'id': 'gfwP_viCeZg',
+                'iconSize': ['https://i.ytimg.com/vi/gfwP_viCeZg/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 17.5,
             }
         },
@@ -124,7 +132,8 @@ const playlist = {
                 'title': 'シーサイドコスモ',
                 'address': '日本, 大阪府大阪市住之江区南港北１丁目３２',
                 'tags': 'relax',
-                'src': 'EoFg1eMWADg',
+                'id': 'EoFg1eMWADg',
+                'iconSize': ['https://i.ytimg.com/vi/EoFg1eMWADg/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 15,
             }
         },
@@ -138,7 +147,8 @@ const playlist = {
                 'title': '南港ポートタウン',
                 'address': '日本, 大阪府大阪市住之江区南港中４丁目',
                 'tags': 'goout',
-                'src': '8az_VW2ssbs',
+                'id': '8az_VW2ssbs',
+                'iconSize': ['https://i.ytimg.com/vi/8az_VW2ssbs/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 15.5,
             }
         },
@@ -152,7 +162,8 @@ const playlist = {
                 'title': 'ATC（アジア太平洋トレードセンター）',
                 'address': '何をする訳でもなく、ただぼーっと過ごした記録映像（25分36秒）',
                 'tags': 'relax',
-                'src': 'O84LelQJNbA',
+                'id': 'O84LelQJNbA',
+                'iconSize': ['https://i.ytimg.com/vi/O84LelQJNbA/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 16.5,
             }
         },
@@ -166,7 +177,8 @@ const playlist = {
                 'title': 'コスモタワー',
                 'address': '日本, 大阪府大阪市住之江区南港北１丁目１４−１６',
                 'tags': 'relax',
-                'src': '9E8UZio4SJM',
+                'id': '9E8UZio4SJM',
+                'iconSize': ['https://i.ytimg.com/vi/9E8UZio4SJM/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 17.25,
             }
         },
@@ -180,7 +192,8 @@ const playlist = {
                 'title': '咲洲コンテナターミナル',
                 'address': '日本, 大阪府大阪市住之江区南港東９丁目１',
                 'tags': 'goout',
-                'src': 'rlfyH_v-fTk',
+                'id': 'rlfyH_v-fTk',
+                'iconSize': ['https://i.ytimg.com/vi/rlfyH_v-fTk/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 14.5,
             }
         },
@@ -195,7 +208,8 @@ const playlist = {
                 'address': '日本, 大阪府大阪市住吉区万代３丁目７',
                 'date': '大きな池の周りには遊歩道があり、みなさんがウォーキングしたり、ジョギングしたりしています。　公園もあり、ベンチもいっぱいあるのでみんなの憩いの場という雰囲気です。',
                 'tags': 'relax',
-                'src': '-7DEl_jxuW8',
+                'id': '-7DEl_jxuW8',
+                'iconSize': ['https://i.ytimg.com/vi/-7DEl_jxuW8/hqdefault.jpg', '4.5rem', '3.33rem'],
                 'zoom': 16.5,
             }
         }

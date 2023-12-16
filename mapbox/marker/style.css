@@ -1,5 +1,5 @@
 .mapboxgl-marker {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -12,12 +12,6 @@
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
-}
-
-.mapboxgl-marker.goout {
-    background-image: url('../../profile/img/favicon.png');
-    width: 3.21rem;
-    height: 3.21rem;
 }
 
 .mapboxgl-marker.relax {
