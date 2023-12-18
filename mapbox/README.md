@@ -52,7 +52,8 @@ const map = new mapboxgl.Map({
     pitch: 0,
     bearing: 0,
     zoom: 'zoom',
-    scrollZoom: true,
+    scrollZoom: false,
+    projection: 'mercator',
     attributionControl: false
 });
 </script>
@@ -90,6 +91,11 @@ ___
 | ***15***     | ビル                 |
 | ***22***     | 最も高いズームレベル |
 ***
+
+[プロジェクション](https://docs.mapbox.com/jp/mapbox-gl-js/style-spec/projection/)  
+
+マップがどのプロジェクションでレンダリングされるかを設定します。
+___
 
 [ピッチとベアリングの設定](https://docs.mapbox.com/jp/mapbox-gl-js/example/set-perspective/)
 

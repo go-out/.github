@@ -115,21 +115,4 @@ map.on('load', () => {
             'fill-opacity': 0.75
         }
     });
-
-    map.on('click', 'heardFill', (e) => {
-        const thisLatLng = document.querySelector('#latlng');
-        const thisAddress = document.querySelector('#address');
-        const thisDate = document.querySelector('#datetime');
-        thisLatLng.textContent = e.features[0].properties.title;
-        thisAddress.textContent = e.features[0].properties.date;
-        thisDate.innerHTML = e.features[0].properties.address;
-    });
-
-    map.on('mouseenter', 'heardFill', () => {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-    map.on('mouseleave', 'heardFill', () => {
-        map.getCanvas().style.cursor = '';
-    });
 });

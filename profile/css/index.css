@@ -1,20 +1,42 @@
-body,
-header,
-footer,
-#map {
+#title,
+footer {
     position: fixed;
 }
 
-#title,
+header,
+main,
+main::after {
+    position: absolute;
+}
+
 #title button {
     position: relative;
 }
 
 header,
+main {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main::after {
+    content: "×";
+    display: block;
+    bottom: 0;
+    left: 0;
+    font-weight: 900;
+}
+
 #title,
 #title button,
+header,
 footer {
-    z-index: 1;
+    z-index: 100;
+}
+
+main {
+    z-index: 50;
 }
 
 header,
@@ -27,11 +49,12 @@ footer {
 
 h3 b,
 dialog form label {
-    color: lemonchiffon;
     background: lightskyblue;
+    color: lemonchiffon;
 }
 
-dialog ul li small {
+dialog ul li small,
+main::after {
     color: lightskyblue;
 }
 
@@ -40,14 +63,14 @@ dialog ul li small {
     text-decoration: lightskyblue wavy underline;
 }
 
-dialog {
-    width: calc(100% - 2em);
-    max-width: 550px;
-}
-
 header h3 {
     padding: 0;
     margin: 0.25rem 0;
+}
+
+main::after {
+    padding: 0 0.5rem;
+    margin: 0;
 }
 
 dialog ul,
@@ -86,7 +109,8 @@ dialog form label {
     margin: 0 0 0.5rem 0.5rem;
 }
 
-#title strong {
+#title strong,
+main::after {
     font-size: 300%;
 }
 
@@ -161,9 +185,14 @@ dialog form button {
 
 body,
 #title,
+main,
 dialog form {
     display: grid;
     place-items: center;
+}
+
+[hidden] {
+    display: none;
 }
 
 footer {
@@ -176,19 +205,25 @@ footer {
 
 body,
 #map,
+article,
 dialog form label,
 dialog form textarea {
     width: 100%;
 }
 
-body,
-#map {
-    height: 100vh;
-    max-height: -webkit-fill-available;
-}
-
 header {
     width: calc(100% - 4.5rem);
+}
+
+dialog {
+    width: calc(100% - 2em);
+    max-width: 550px;
+}
+
+#map,
+main {
+    height: 100vh;
+    max-height: -webkit-fill-available;
 }
 
 dialog form textarea {
@@ -196,6 +231,13 @@ dialog form textarea {
     border: none;
     min-width: 100%;
     max-width: 100%;
+}
+
+#player {
+    width: 90vw;
+    max-width: 1000px;
+    height: 52.5vw;
+    max-height: 575px;
 }
 
 footer button {

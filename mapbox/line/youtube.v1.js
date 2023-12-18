@@ -1,5 +1,5 @@
 map.on('load', () => {
-  map.addSource('drive', {
+  map.addSource('addLine', {
     'type': 'geojson',
     'data': {
       'type': 'FeatureCollection',
@@ -20,6 +20,7 @@ map.on('load', () => {
           'properties': {
             'title': 'Osaka Castle Park to Fukushima 🇯🇵 Osaka Loop Line',
             'address': '大阪JR環状線（大阪城公園駅→福島駅）',
+            'date': '',
             'tags': 'goout',
             'id': 'Fkiq6MvW868',
             'zoom': 13
@@ -39,6 +40,7 @@ map.on('load', () => {
           'properties': {
             'title': '16 Minute Virtual Bike Ride | Taisho',
             'address': '木津川渡船場と千本松渡船場を自転車で往復',
+            'date': '',
             'tags': 'goout',
             'id': 'ro1iQcEl2m8',
             'zoom': 14.5
@@ -60,6 +62,7 @@ map.on('load', () => {
           'properties': {
             'title': 'Tennoji ⇄ Morinomiya 🇯🇵 Osaka Loop Line',
             'address': '大阪JR環状線（天王寺⇄森ノ宮）',
+            'date': '',
             'tags': 'goout',
             'id': 'tOOHtkKQVnM',
             'zoom': 12.5
@@ -82,6 +85,7 @@ map.on('load', () => {
           'properties': {
             'title': 'Trade Center mae ⇄ Suminoekouen 🇯🇵 New Tram',
             'address': 'ニュートラム（トレードセンター前⇄住之江公園）',
+            'date': '',
             'tags': 'goout',
             'id': 'jDv57WWjJ58',
             'zoom': 13
@@ -107,6 +111,7 @@ map.on('load', () => {
           'properties': {
             'title': '21 Minute Virtual Bike Ride | Suminoe Park to Nanko Fishing Port',
             'address': '住之江公園駅からほぼまっすぐ、南港南の西の果てまでGo Out',
+            'date': '',
             'tags': 'goout',
             'id': 'tinBEuiKqzU',
             'zoom': 13
@@ -117,9 +122,9 @@ map.on('load', () => {
   });
 
   map.addLayer({
-    'id': 'route',
+    'id': 'line',
     'type': 'line',
-    'source': 'drive',
+    'source': 'addLine',
     'layout': {
       'line-join': 'round',
       'line-cap': 'round'
@@ -131,18 +136,30 @@ map.on('load', () => {
   });
 });
 
-map.on('mouseenter', 'route', () => {
+map.on('mouseenter', 'line', () => {
   map.getCanvas().style.cursor = 'pointer';
 });
 
-map.on('mouseleave', 'route', () => {
+map.on('mouseleave', 'line', () => {
   map.getCanvas().style.cursor = '';
 });
 
-map.on('click', 'route', (e) => {
+map.on('click', 'line', (e) => {
   map.flyTo({
     center: e.lngLat,
     essential: true,
     zoom: e.features[0].properties.zoom
   });
+
+  const main = document.querySelector('main');
+  main.hidden = false;
+
+  player.loadVideoById({ videoId: e.features[0].properties.id });
+
+  const thisLatLng = document.querySelector('#latlng');
+  const thisAddress = document.querySelector('#address');
+  const thisDate = document.querySelector('#datetime');
+  thisLatLng.innerHTML = e.features[0].properties.title;
+  thisAddress.innerHTML = e.features[0].properties.address;
+  thisDate.innerHTML = e.features[0].properties.date;
 });

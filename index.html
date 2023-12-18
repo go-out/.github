@@ -33,8 +33,8 @@
     rel="stylesheet">
 
   <!-- Mapbox -->
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="mapbox/marker/style.css">
   <link rel="stylesheet" href="mapbox/popup/style.css">
@@ -43,20 +43,24 @@
   <script src="profile/js/findme.js"></script>
   <script src="profile/js/csvtojson.js"></script>
 
-  <script src="mapbox/marker/index.js"></script>
-
-  <!-- JSONを読み込む -->
-  <script src="youtube/index.js"></script>
-  <script src="1010/index.js"></script>
-
   <script>
     // CSVファイルの情報をJSONに追加 (csvtojson.js)
     csvtojson('2023.csv');
 
     window.addEventListener("load", () => {
       addMarker(submitJson.features);
-      addMarker(zenyoku.features);
-      addIcons(youtube.features);
+
+      // mapbox/marker/index.js
+      // 1010/index.js
+      // addIcons(zenyoku.features);
+
+      fetchHTML('dialog ul', 'date.html');
+
+      const main = document.querySelector('main');
+      main.addEventListener('click', function () {
+        main.hidden = true;
+        player.pauseVideo();
+      })
 
       const now = new Date()
       const year = now.getFullYear()
@@ -86,19 +90,31 @@
     </h3>
   </header>
 
+  <div id="map"></div>
+
+  <main hidden>
+    <div id="player"></div>
+  </main>
+
+  <footer>
+    <button type="button" hidden></button>
+  </footer>
+
   <dialog>
     <input type="button" id="close" value="×">
     <details class="goout">
-      <summary>このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。</summary>
+      <summary>
+        <small>このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。</small>
+      </summary>
       <ul></ul>
-      <div></div>
-      <p>
-        Site Development
+      <small>
+        Site Development by
         <strong>
           <a href="https://creative-community.space/">creative-community.space</a>
         </strong>
-      </p>
+      </small>
     </details>
+
     <h3 class="relax">
       We Create a
       <b>Map</b>
@@ -111,20 +127,25 @@
         <strong class="goout">I'm here !</strong>
       </small>
     </h3>
+
     <p class="goout">
       <strong>I'm here !</strong>
       を クリックすると、地図上に あなたの現在地情報 を 印す ピンが追加されます。
     </p>
+
     <form method="dialog">
       <button type="button" id="enter" class="goout">I'm here !</button>
       <label class="relax" for="comment">Add A Comment コメントを追加</label>
       <textarea name="comment" id="comment" class="goout" rows="7.5"
         placeholder="現在地情報にコメントを追加する場合は、ここにコメントを入力ください。"></textarea>
-      <small id="copy" class="goout">Copyright © 2021 - <time></time> You. All Rights Reserved.</small>
+
+      <small id="copy" class="goout">
+        Copyright © 2021 -
+        <time></time>
+        You. All Rights Reserved.
+      </small>
     </form>
   </dialog>
-
-  <div id="map"></div>
 
   <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
@@ -176,14 +197,11 @@
   </script>
 
   <script src="mapbox/rotating.js"></script>
-  <script src="mapbox/popup/index.js"></script>
-  <script src="mapbox/polygon/heard.js"></script>
-  <script src="mapbox/polygon/index.js"></script>
-  <script src="mapbox/line/index.js"></script>
-
-  <footer>
-    <button type="button" hidden></button>
-  </footer>
+  <script src="mapbox/popup/index.v1.js"></script>
+  <script src="mapbox/polygon/heard.v2.js"></script>
+  <script src="mapbox/polygon/index.v1.js"></script>
+  <script src="mapbox/line/youtube.v1.js"></script>
+  <script src="mapbox/marker/youtube.v1.js"></script>
 </body>
 
 </html>

@@ -15,7 +15,7 @@ let gooutArr = {
                 'address': '日本, 大阪府大阪市北区西天満4丁目8番1',
                 'date': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 - Sun 15 Sep 2019',
                 'iconSize': ['https://pehu.creative-community.space/icon/favicon.png', '3.21rem', '3.21rem'],
-                'tags': 'goout',
+                'tags': '',
                 'zoom': 20,
             }
         },
@@ -27,10 +27,10 @@ let gooutArr = {
             },
             'properties': {
                 'title': '音ビル',
-                'address': 'OTO Building | 4.2.2019 - 3.30.2022',
-                'date': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">日本, 大阪府大阪市住之江区北加賀屋5丁目5-1</a>',
+                'address': '日本, 大阪府大阪市住之江区北加賀屋5丁目5-1',
+                'date': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">OTO Building | 4.2.2019 - 3.30.2022</a>',
                 'iconSize': ['https://vg.pe.hu/2019-2021/img/favicon.png', '3.21rem', '3.21rem'],
-                'tags': 'goout',
+                'tags': '',
                 'zoom': 17.5,
             }
         }
@@ -138,6 +138,8 @@ document.addEventListener("readystatechange", (event) => {
         })
 
         enter.addEventListener('click', function () {
+            const thisDate = document.querySelector('#datetime');
+            thisDate.className = 'goout';
             menu.hidden = false;
             dialog.close();
             geoFindMe();
