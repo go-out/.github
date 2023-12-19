@@ -59,6 +59,10 @@ dialog {
     overflow-x: hidden;
 }
 
+header a {
+    text-decoration: none;
+}
+
 a,
 button,
 input[type="button"],
@@ -171,10 +175,4 @@ header .submit,
 
 .pehu {
     font-family: "MS Mincho", "SimSong", serif;
-}
-
-.pehu a {
-    background: #fff;
-    color: #000;
-    text-decoration: none;
 }

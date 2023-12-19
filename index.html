@@ -47,25 +47,26 @@
     // CSVファイルの情報をJSONに追加 (csvtojson.js)
     csvtojson('2023.csv');
 
-    window.addEventListener("load", () => {
-      addMarker(submitJson.features);
+    document.addEventListener("readystatechange", (event) => {
+      if (event.target.readyState === "interactive") {
+        // mapbox/marker/index.js
+        // 1010/index.js
+        // addIcons(zenyoku.features);
 
-      // mapbox/marker/index.js
-      // 1010/index.js
-      // addIcons(zenyoku.features);
+        addMarker(submitJson.features);
+        fetchHTML('dialog ul', 'date.html');
 
-      fetchHTML('dialog ul', 'date.html');
-
-      const main = document.querySelector('main');
-      main.addEventListener('click', function () {
-        main.hidden = true;
-        player.pauseVideo();
-      })
-
-      const now = new Date()
-      const year = now.getFullYear()
-      document.querySelector('#copy time').innerHTML = year;
-    });
+        const now = new Date();
+        const year = now.getFullYear();
+        document.querySelector('#copy time').innerHTML = year;
+      } else if (event.target.readyState === "complete") {
+        const main = document.querySelector('main');
+        main.addEventListener('click', function () {
+          main.hidden = true;
+          player.pauseVideo();
+        });
+      }
+    })
   </script>
 </head>
 

@@ -11,7 +11,7 @@ let gooutArr = {
                 'coordinates': [135.50433479522678, 34.69699057458179]
             },
             'properties': {
-                'title': '<a href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
+                'title': '<a class="pehu" href="https://vg.pe.hu/jp/" target="_blank" rel="noopener">∧°┐ | creative, community space</a>',
                 'address': '日本, 大阪府大阪市北区西天満4丁目8番1',
                 'date': 'Sat Dec 16 2017 - Sun Apr 29 2018 | Sun Jan 6 - Sun 15 Sep 2019',
                 'iconSize': ['https://pehu.creative-community.space/icon/favicon.png', '3.21rem', '3.21rem'],

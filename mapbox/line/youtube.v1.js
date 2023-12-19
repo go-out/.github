@@ -18,10 +18,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': 'Osaka Castle Park to Fukushima 🇯🇵 Osaka Loop Line',
+            'title': 'View from the Window',
             'address': '大阪JR環状線（大阪城公園駅→福島駅）',
-            'date': '',
-            'tags': 'goout',
+            'date': 'Osaka Castle Park to Fukushima 🇯🇵 Osaka Loop Line',
             'id': 'Fkiq6MvW868',
             'zoom': 13
           }
@@ -38,10 +37,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': '16 Minute Virtual Bike Ride | Taisho',
-            'address': '木津川渡船場と千本松渡船場を自転車で往復',
-            'date': '',
-            'tags': 'goout',
+            'title': '16 Minute Cycling View',
+            'address': '木津川渡船場⇄千本松渡船場',
+            'date': 'Taisho 🇯🇵 Osaka, Japan',
             'id': 'ro1iQcEl2m8',
             'zoom': 14.5
           }
@@ -60,10 +58,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': 'Tennoji ⇄ Morinomiya 🇯🇵 Osaka Loop Line',
+            'title': 'View from the Window',
             'address': '大阪JR環状線（天王寺⇄森ノ宮）',
-            'date': '',
-            'tags': 'goout',
+            'date': 'Tennoji ⇄ Morinomiya 🇯🇵 Osaka Loop Line',
             'id': 'tOOHtkKQVnM',
             'zoom': 12.5
           }
@@ -83,10 +80,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': 'Trade Center mae ⇄ Suminoekouen 🇯🇵 New Tram',
+            'title': 'View from the Window',
             'address': 'ニュートラム（トレードセンター前⇄住之江公園）',
-            'date': '',
-            'tags': 'goout',
+            'date': 'New Tram (Osaka, Japan) 🇯🇵 Trade Center mae ⇄ Suminoekouen',
             'id': 'jDv57WWjJ58',
             'zoom': 13
           }
@@ -109,10 +105,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': '21 Minute Virtual Bike Ride | Suminoe Park to Nanko Fishing Port',
-            'address': '住之江公園駅からほぼまっすぐ、南港南の西の果てまでGo Out',
-            'date': '',
-            'tags': 'goout',
+            'title': '21 Minute Cycling View',
+            'address': '住之江公園駅から南港南の西の果てまで',
+            'date': 'Suminoe Park to Nanko Fishing Port 🇯🇵 Osaka, Japan',
             'id': 'tinBEuiKqzU',
             'zoom': 13
           }

@@ -1,10 +1,11 @@
-#title,
-footer {
+body,
+#map,
+main {
     position: fixed;
 }
 
 header,
-main,
+footer,
 main::after {
     position: absolute;
 }
@@ -13,9 +14,17 @@ main::after {
     position: relative;
 }
 
+body,
 header,
-main {
+main,
+#map {
     top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    bottom: 0;
     left: 0;
     right: 0;
 }
@@ -53,8 +62,11 @@ dialog form label {
     color: lemonchiffon;
 }
 
-dialog ul li small,
 main::after {
+    color: lemonchiffon;
+}
+
+dialog ul li small {
     color: lightskyblue;
 }
 
@@ -69,7 +81,7 @@ header h3 {
 }
 
 main::after {
-    padding: 0 0.5rem;
+    padding: 0 1.25rem;
     margin: 0;
 }
 
@@ -109,8 +121,11 @@ dialog form label {
     margin: 0 0 0.5rem 0.5rem;
 }
 
-#title strong,
 main::after {
+    font-size: 500%;
+}
+
+#title strong {
     font-size: 300%;
 }
 
@@ -191,21 +206,14 @@ dialog form {
     place-items: center;
 }
 
-[hidden] {
-    display: none;
-}
-
 footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     flex-flow: row-reverse;
 }
 
 body,
 #map,
-article,
+main,
 dialog form label,
 dialog form textarea {
     width: 100%;
@@ -220,6 +228,7 @@ dialog {
     max-width: 550px;
 }
 
+body,
 #map,
 main {
     height: 100vh;
@@ -234,10 +243,10 @@ dialog form textarea {
 }
 
 #player {
-    width: 90vw;
+    width: 92.5vw;
     max-width: 1000px;
     height: 52.5vw;
-    max-height: 575px;
+    max-height: 565px;
 }
 
 footer button {
@@ -252,14 +261,7 @@ footer button {
     height: 4.5rem;
 }
 
+[hidden],
 #title[hidden] {
     display: none;
-}
-
-body,
-header,
-#map {
-    top: 0;
-    left: 0;
-    right: 0;
 }

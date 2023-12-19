@@ -9,6 +9,12 @@ rlfyH_v-fTk
 メガオペレーターである夢洲コンテナターミナル（株）が
 一体運営するC10、C11、C12の計9バースが稼働しています。
 
+http://www.osakaport.co.jp/container_berth.html
+
+https://osakakaikon.blog.ss-blog.jp/
+https://www.google.com/maps/d/viewer?mid=103R8MAP5pTHhgtBdJ7zSw_TN_9c&hl=en_US&usp=sharing
+
+
 ___
 
 港大橋臨港緑地
@@ -19,3 +25,11 @@ ___
 
 設備工事のため閉鎖します。
 https://www.city.osaka.lg.jp/port/page/0000553564.html
+
+___
+
+最寄りのHELLO CYCLINGステーション
+https://www.hellocycling.jp/map/
+
+ＡＴＣトレードセンター前駅 (https://maps.app.goo.gl/9VVdpSeU43wdv4Vs5)
+クインテッサホテル大阪ベイ (https://maps.app.goo.gl/gF4zS3DZLk8ua2t56)

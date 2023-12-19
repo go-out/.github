@@ -12,7 +12,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市西成区橘3-12-20',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -27,7 +26,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市大正区南恩加島6-5-5',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -42,7 +40,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市住之江区御崎2-5-1',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -57,7 +54,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市住吉区清水丘1-31-15',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -72,7 +68,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市住吉区杉本1-4-29',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -87,7 +82,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市阿倍野区西田辺町1-2-22',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -102,7 +96,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市東住吉区山坂5-4-13',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         },
@@ -117,7 +110,6 @@ const zenyoku = {
                 'address': '日本, 大阪府大阪市住吉区苅田8-10-27',
                 'date': '',
                 'tags': 'sento',
-                'iconSize': ['1010/icon.png', '2rem', '2rem'],
                 'zoom': 17.5,
             }
         }
