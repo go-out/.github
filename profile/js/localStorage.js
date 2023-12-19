@@ -6,7 +6,6 @@ let gooutArr = {
 }
 
 /* localStorageから位置情報を取得 */
-
 if (localStorage.getItem("goout")) {
     const gooutJSON = JSON.parse(localStorage.getItem('goout'));
     for (let i = 0; i < gooutJSON.length; i++) {
