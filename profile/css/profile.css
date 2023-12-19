@@ -1,14 +1,9 @@
 header {
     position: absolute;
-    pointer-events: none;
-    user-select: none;
-    z-index: 1;
-}
-
-header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 footer ol li::marker,
@@ -21,7 +16,6 @@ u,
 dialog form label {
     color: lemonchiffon;
     background: lightskyblue;
-    text-decoration: none;
 }
 
 dialog form button {
@@ -34,6 +28,10 @@ dialog form button {
 
 footer ol li::marker {
     font-family: "Kristina", 'Zen Maru Gothic', cursive;
+}
+
+u {
+    text-decoration: none;
 }
 
 body,
@@ -91,7 +89,7 @@ dialog form textarea {
 }
 
 #timestamp {
-    box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
     background-color: #fff;
     border: 0;
     border-radius: 4px;
