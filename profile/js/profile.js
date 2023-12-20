@@ -45,6 +45,13 @@ document.addEventListener("readystatechange", (event) => {
         if (localStorage.getItem("goout")) {
             const gooutJSON = JSON.parse(localStorage.getItem('goout'));
             for (let i = 0; i < gooutJSON.length; i++) {
+                const thisLongitude = gooutJSON[i].longitude;
+                const thisLatitude = gooutJSON[i].latitude;
+                const thisAddress = gooutJSON[i].address;
+                const thisComment = gooutJSON[i].comment;
+                const thisTimestamp = gooutJSON[i].timestamp;
+                const thisCenter = [thisLongitude, thisLatitude];
+                
                 const storageLi = document.createElement('li');
                 storageLi.innerHTML = `
                 <u class="goout">${thisTimestamp}</u><br>
