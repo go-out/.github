@@ -7,22 +7,20 @@
     <meta name="format-detection" content="telephone=no">
     <script src="index.js"></script>
     <script>
-        // ?area=名前&place=名前
-
+        // ?area=名前&id=名前&name=名前
         const urlParam = location.search.substring(1)
         if (urlParam) {
-            let paramArray = [],
+            let paramArr = [],
                 param = urlParam.split('&')
             for (arr = 0; arr < param.length; arr++) {
                 var paramItem = param[arr].split('=')
-                paramArray[paramItem[0]] = paramItem[1]
+                paramArr[paramItem[0]] = paramItem[1]
             }
-
-            indexJSON(paramArray.area + "/" + paramArray.place + '.json')
+            const json = paramArr.id + "/" + paramArr.name + '.json'
+            indexJSON(paramArr.area + "/" + json)
         } else {
-            indexJSON('index.json');
+            indexJSON('index.json')
         }
-
     </script>
 
     <!--og:meta-->
@@ -43,6 +41,10 @@
     <meta content="/relax/card.png" name="twitter:image:src">
 
     <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 </head>
 
 <body class="start">
@@ -64,6 +66,9 @@
     </main>
 
     <footer>
+        <a href="?area=osaka&id=legacy&name=abenojinjya">阿倍野神社</a>
+        <a href="?area=osaka&id=legacy&name=tenjinnomori">天神ノ森天満宮</a>
+        <a href="?area=osaka&id=park&name=tengachaya">天下茶屋公園</a>
     </footer>
 </body>
 

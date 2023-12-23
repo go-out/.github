@@ -9,13 +9,24 @@ async function indexJSON(requestURL) {
     playThis(index);
 }
 
+function shuffle(arrays) {
+    const array = arrays.slice();
+    for (let i = array.length - 1; i >= 0; i--) {
+        const shuffleArr = Math.floor(Math.random() * (i + 1));
+        [array[i], array[shuffleArr]] = [array[shuffleArr], array[i]];
+    }
+    return array;
+}
+
 function videoAll(obj) {
     const main = document.querySelector('main');
 
-    const playAll = obj.play;
+    const playAll = shuffle(obj.play);
     for (let i = 0; i < playAll.length; i++) {
         const video = document.createElement('video');
         video.setAttribute('playsinline', 'true');
+        video.style.width = obj.width
+        video.style.height = obj.height
         main.appendChild(video);
 
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {

@@ -7,27 +7,26 @@
     <meta name="format-detection" content="telephone=no">
     <script src="index.js"></script>
     <script>
-        // ?id=名前
-
+        // ?id=名前&area=名前&name=名前
         const urlParam = location.search.substring(1)
         if (urlParam) {
-            let paramArray = [],
+            let paramArr = [],
                 param = urlParam.split('&')
             for (arr = 0; arr < param.length; arr++) {
                 var paramItem = param[arr].split('=')
-                paramArray[paramItem[0]] = paramItem[1]
+                paramArr[paramItem[0]] = paramItem[1]
             }
-            indexJSON(paramArray.id + '.json')
+            const json = paramArr.area + "/" + paramArr.name + '.json'
+            indexJSON(paramArr.id + "/" + json)
         } else {
             indexJSON('index.json');
         }
-
     </script>
 
     <!--og:meta-->
     <meta content="website" property="og:type">
-    <title>Fancy and Relaxin' in Osaka</title>
-    <meta content="Fancy and Relaxin' in Osaka" property="og:title">
+    <title>VR</title>
+    <meta content="VR" property="og:title">
     <meta content="Video" name="description">
     <meta content="Video" property="og:description">
 
@@ -42,24 +41,29 @@
     <meta content="/vr/card.png" name="twitter:image:src">
 
     <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 </head>
 
 <body class="start">
     <header>
+        <small id="year"></small>
         <h1>
             <strong>Go Out</strong>
-            <small id="year"></small>
         </h1>
-        <button id="play" type="button"></button>
         <h2>
             <strong id="month"></strong>
             <strong id="day"></strong>
         </h2>
+        <button id="play" type="button"></button>
     </header>
 
     <main></main>
 
     <footer>
+        <a href="?id=bike&area=osaka&name=tezukayama">帝塚山</a>
     </footer>
 </body>
 

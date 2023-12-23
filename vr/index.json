@@ -5,11 +5,19 @@
     "month": "MM",
     "day": "DD",
     "directory": "",
+    "width": "100%",
+    "height": "50%",
     "play": [
         {
             "id": "one",
             "src": [
-                ""
+                "https://ia801208.us.archive.org/25/items/tengachaya-park/000.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "src": [
+                "https://ia801208.us.archive.org/25/items/abenojinjya/000.mp4"
             ]
         }
     ]

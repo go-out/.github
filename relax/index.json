@@ -1,6 +1,6 @@
 {
-    "title": "題名",
-    "description": "説明文",
+    "title": "Fancy and Relaxin' Spot",
+    "description": "優雅にリラックスできる場所",
     "year": "YYYY",
     "month": "MM",
     "day": "DD",
@@ -11,7 +11,13 @@
         {
             "id": "one",
             "src": [
-                ""
+                "https://ia801208.us.archive.org/25/items/tengachaya-park/000.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "src": [
+                "https://ia801208.us.archive.org/25/items/abenojinjya/000.mp4"
             ]
         }
     ]

@@ -18,45 +18,65 @@ h1 {
         url("../profile/fonts/Kristina-Fine.otf") format("opentype");
 }
 
-header h1,
-header h2,
-header button {
-    font-family: "DiaPro", sans-serif;
+header {
+    font-family: "Kristina", 'Zen Maru Gothic', cursive;
 }
 
-header h1 {
-    font-size: 222%;
+header h1,
+header h1 strong {
+    font-size: 250%;
+}
+
+header h2 strong {
+    font-size: 150%
+}
+
+#year,
+header h2 {
+    font-size: 111%;
+}
+
+header h1,
+header h1 strong {
+    font-weight: 777;
 }
 
 header h2 {
-    font-size: 250%
+    margin: 5rem 0 2.5rem;
+}
+
+h1,
+h2 {
+    pointer-events: none;
+    user-select: none;
+}
+
+main {
+    background: lemonchiffon;
 }
 
 header h1 strong,
-header h2 strong {
-    font-size: 333%;
-}
-
-header h1,
-header h1 strong {
-    font-weight: 555;
-}
-
-header h1 strong {
-    line-height: 100%;
-}
-
-header h2 {
-    line-height: 250%;
+header h2 strong::after {
+    color: lightskyblue;
 }
 
 header h2 strong {
     color: lemonchiffon;
 }
 
+#play {
+    background: #fff;
+    color: #000;
+}
+
+header h1 strong {
+    display: block;
+    padding: 4.5rem 0 1.25rem;
+    transform: scale(1, 2.5);
+}
+
 header h2 strong::after {
-    color: lightskyblue;
-    font-size: 25%;
+    font-size: 55%;
     padding: 0 1rem;
 }
 
@@ -69,20 +89,25 @@ header h2 strong#day::after {
 }
 
 header button {
+    font-family: inherit;
     font-size: inherit;
 }
 
-main {
-    background: lemonchiffon;
+header {
     display: grid;
     place-items: center;
-    position: relative;
     width: 100%;
-    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 body.stop h1,
 body.stop h2,
+body.stop #year,
 main fieldset input {
     display: none;
 }
@@ -92,6 +117,7 @@ main fieldset input {
         font-size: 20px;
     }
 
+    header,
     main {
         height: 100vh;
     }
@@ -102,6 +128,7 @@ main fieldset input {
         font-size: 2.5vw;
     }
 
+    header,
     main {
         height: 100vh;
         max-height: -webkit-fill-available;
@@ -109,8 +136,9 @@ main fieldset input {
 }
 
 header {
-    position: fixed;
-    padding: 1rem;
+    position: absolute;
+    padding: 2.5rem;
+    text-align: center;
     z-index: 100;
 }
 
@@ -121,7 +149,14 @@ main {
     right: 0;
 }
 
-header h1,
+#year {
+    place-self: start right;
+}
+
+#play {
+    place-self: end center;
+}
+
 main fieldset {
     display: flex;
     justify-content: space-between;
@@ -133,7 +168,7 @@ header button {
     border: none;
     border-radius: 2.5rem;
     color: #000;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 1rem 0.25rem;
     outline: none;
 }
