@@ -1,0 +1,16 @@
+{
+    "title": "題名",
+    "description": "説明文",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "directory": "",
+    "play": [
+        {
+            "id": "one",
+            "src": [
+                ""
+            ]
+        }
+    ]
+}

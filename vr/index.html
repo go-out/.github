@@ -7,7 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <script src="index.js"></script>
     <script>
-        // ?area=名前&place=名前
+        // ?id=名前
 
         const urlParam = location.search.substring(1)
         if (urlParam) {
@@ -17,8 +17,7 @@
                 var paramItem = param[arr].split('=')
                 paramArray[paramItem[0]] = paramItem[1]
             }
-
-            indexJSON(paramArray.area + "/" + paramArray.place + '.json')
+            indexJSON(paramArray.id + '.json')
         } else {
             indexJSON('index.json');
         }
@@ -27,8 +26,8 @@
 
     <!--og:meta-->
     <meta content="website" property="og:type">
-    <title>Fancy and Relaxin' Spot</title>
-    <meta content="Fancy and Relaxin' Spot" property="og:title">
+    <title>Fancy and Relaxin' in Osaka</title>
+    <meta content="Fancy and Relaxin' in Osaka" property="og:title">
     <meta content="Video" name="description">
     <meta content="Video" property="og:description">
 
@@ -38,9 +37,9 @@
 
     <!--for Twitter-->
     <meta content="summary_large_image" name="twitter:card">
-    <meta content="/relax/" property="og:url">
-    <meta content="/relax/card.png" property="og:image">
-    <meta content="/relax/card.png" name="twitter:image:src">
+    <meta content="/vr/" property="og:url">
+    <meta content="/vr/card.png" property="og:image">
+    <meta content="/vr/card.png" name="twitter:image:src">
 
     <link rel="stylesheet" href="index.css">
 </head>
@@ -48,7 +47,7 @@
 <body class="start">
     <header>
         <h1>
-            <strong>Fancy and Relaxin'</strong>
+            <strong>Go Out</strong>
             <small id="year"></small>
         </h1>
         <button id="play" type="button"></button>
@@ -58,10 +57,7 @@
         </h2>
     </header>
 
-    <main>
-        <canvas></canvas>
-        <fieldset id="randomdraggable"></fieldset>
-    </main>
+    <main></main>
 
     <footer>
     </footer>
