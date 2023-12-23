@@ -79,15 +79,16 @@ function videoAll(obj) {
 
 function playThis(obj) {
     const playBtn = document.querySelector("#play");
+    const description = document.querySelector("meta[name='description']").content;
     playBtn.textContent = document.title;
 
     playBtn.addEventListener('click', function () {
-        playBtn.className = playBtn.className === "start" ? "stop" : "start";
-        if (playBtn.className === "start") {
-            playBtn.textContent = "PLAY"
+        document.body.className = document.body.className === "start" ? "stop" : "start";
+        if (document.body.className === "start") {
+            playBtn.textContent = document.title
             stop();
-        } else if (playBtn.className === "stop") {
-            playBtn.textContent = "PAUSE"
+        } else if (document.body.className === "stop") {
+            playBtn.textContent = description
             start();
         }
     });

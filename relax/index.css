@@ -85,6 +85,8 @@ main {
     overflow: hidden;
 }
 
+body.stop h1,
+body.stop h2,
 main fieldset input {
     display: none;
 }

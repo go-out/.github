@@ -1,0 +1,29 @@
+{
+    "directory": "https://ia801208.us.archive.org/25/items/tengachaya-park/",
+    "width": "0.5625",
+    "height": "1",
+    "play": [
+        {
+            "id": "one",
+            "src": [
+                "000.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "src": [
+                "001.mp4",
+                "002.mp4",
+                "003.mp4",
+                "004.mp4",
+                "005.mp4",
+                "006.mp4",
+                "007.mp4",
+                "008.mp4",
+                "009.mp4",
+                "010.mp4",
+                "011.mp4"
+            ]
+        }
+    ]
+}
