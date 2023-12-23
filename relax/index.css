@@ -25,7 +25,12 @@ h1 {
         url("../profile/fonts/DiaPro-Regular.woff") format("woff");
 }
 
-header h1 {
+header h2 {
+    font-family: "Kristina", 'Zen Maru Gothic', cursive;
+}
+
+header h1,
+header button {
     font-family: "DiaPro", sans-serif;
 }
 
@@ -59,10 +64,6 @@ header h2 {
     line-height: 250%;
 }
 
-header h2 {
-    font-family: "Kristina", 'Zen Maru Gothic', cursive;
-}
-
 header h2 strong {
     color: lemonchiffon;
 }
@@ -73,7 +74,6 @@ header h2 small {
 
 header button {
     font-size: inherit;
-    font-family: inherit;
 }
 
 main {
