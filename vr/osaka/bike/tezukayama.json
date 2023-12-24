@@ -1,0 +1,40 @@
+{
+    "title": "帝塚山",
+    "description": "大阪市阿倍野区南西部から住吉区北西部の地域の名称",
+    "year": "2023",
+    "month": "12",
+    "day": "21",
+    "directory": "https://ia601303.us.archive.org/35/items/tezukayama/",
+    "width": "50%",
+    "height": "50%",
+    "play": [
+        {
+            "id": "one",
+            "src": [
+                "000.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "src": [
+                "001A.mp4",
+                "001B.mp4"
+            ]
+        },
+        {
+            "id": "three",
+            "src": [
+                "002A.mp4",
+                "002B.mp4"
+            ]
+        },
+        {
+            "id": "four",
+            "src": [
+                "003A.mp4",
+                "003B.mp4",
+                "003C.mp4"
+            ]
+        }
+    ]
+}
