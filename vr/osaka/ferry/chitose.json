@@ -10,6 +10,7 @@
     "video": [
         {
             "id": "one",
+            "poster": "chitose.thumbs/001_000001.jpg",
             "src": [
                 "003.mp4",
                 "002.ia.mp4",
@@ -19,6 +20,7 @@
         },
         {
             "id": "two",
+            "poster": "chitose.thumbs/004_000001.jpg",
             "src": [
                 "004.mp4"
             ]

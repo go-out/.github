@@ -25,6 +25,7 @@ function videoAll(obj) {
     for (let i = 0; i < playAll.length; i++) {
         const video = document.createElement('video');
         video.setAttribute('playsinline', 'true');
+        video.setAttribute('poster', obj.directory + playAll[i].poster);
         video.style.width = obj.width
         video.style.height = obj.height
         main.appendChild(video);

@@ -9,16 +9,18 @@
     "height": "50%",
     "video": [
         {
-            "id": "one",
+            "id": "bike",
+            "poster": "https://ia601303.us.archive.org/35/items/tezukayama/tezukayama.thumbs/000_000001.jpg",
             "src": [
                 "https://ia601303.us.archive.org/35/items/tezukayama/001A.mp4"
             ]
         },
         {
-            "id": "two",
+            "id": "ferry",
+            "poster": "https://ia601303.us.archive.org/27/items/Tempozan/Tempozan.thumbs/103_000010.jpg",
             "src": [
-                "https://ia601201.us.archive.org/22/items/chitose/004.mp4",
-                "https://ia601300.us.archive.org/4/items/ochiaikami/000.mp4"
+                "https://ia601303.us.archive.org/27/items/Tempozan/201.mp4",
+                "https://ia601201.us.archive.org/22/items/chitose/004.mp4"
             ]
         }
     ],
