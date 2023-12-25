@@ -21,7 +21,7 @@ function shuffle(arrays) {
 function videoAll(obj) {
     const main = document.querySelector('main');
 
-    const playAll = shuffle(obj.play);
+    const playAll = shuffle(obj.video);
     for (let i = 0; i < playAll.length; i++) {
         const video = document.createElement('video');
         video.setAttribute('playsinline', 'true');
@@ -67,12 +67,12 @@ function playThis(obj) {
     const day = document.querySelector("#day");
     day.textContent = obj.day;
 
+    document.title = obj.title;
     const playBtn = document.querySelector("#play");
-    document.title = obj.title
-    document.querySelector("meta[name='description']").content = obj.description
-
-    const description = document.querySelector("meta[name='description']").content;
     playBtn.textContent = document.title;
+
+    const description = document.querySelector("meta[name='description']");
+    description.content = obj.description;
 
     playBtn.addEventListener('click', function () {
         document.body.className = document.body.className === "start" ? "stop" : "start";
@@ -80,7 +80,7 @@ function playThis(obj) {
             playBtn.textContent = document.title
             stop();
         } else if (document.body.className === "stop") {
-            playBtn.textContent = description
+            playBtn.textContent = description.content
             start();
         }
     });

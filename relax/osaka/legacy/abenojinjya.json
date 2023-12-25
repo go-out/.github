@@ -1,13 +1,18 @@
 {
     "title": "阿倍野神社",
-    "description": "大阪府大阪市阿倍野区北畠3-7-20",
+    "description": "",
+    "info": {
+        "address": "大阪府大阪市阿倍野区北畠３丁目７−２０",
+        "google": "https://maps.app.goo.gl/ZpJKANDNitRQvjHF8",
+        "website": "https://www.abenojinjya.com/"
+    },
     "year": "2023",
     "month": "12",
     "day": "21",
     "directory": "https://ia801208.us.archive.org/25/items/abenojinjya/",
     "width": "0.5625",
     "height": "1",
-    "play": [
+    "video": [
         {
             "id": "one",
             "src": [

@@ -7,13 +7,13 @@
     "directory": "https://ia601201.us.archive.org/22/items/chitose/",
     "width": "100%",
     "height": "50%",
-    "play": [
+    "video": [
         {
             "id": "one",
             "src": [
-                "001.mp4",
-                "002.ia.mp4",
                 "003.mp4",
+                "002.ia.mp4",
+                "001.mp4",
                 "005.mp4"
             ]
         },

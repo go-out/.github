@@ -12,7 +12,7 @@ async function indexJSON(requestURL) {
 function videoAll(obj) {
     const randomdRaggable = document.querySelector('main fieldset');
 
-    const playAll = obj.play;
+    const playAll = obj.video;
     for (let i = 0; i < playAll.length; i++) {
         const input = document.createElement('input');
         input.setAttribute('type', 'radio');
@@ -84,20 +84,20 @@ function playThis(obj) {
     const day = document.querySelector("#day");
     day.textContent = obj.day;
 
+    document.title = obj.title;
     const playBtn = document.querySelector("#play");
-    document.title = obj.title
-    document.querySelector("meta[name='description']").content = obj.description
-
-    const description = document.querySelector("meta[name='description']").content;
     playBtn.textContent = document.title;
+
+    const description = document.querySelector("meta[name='description']");
+    description.content = obj.description;
 
     playBtn.addEventListener('click', function () {
         document.body.className = document.body.className === "start" ? "stop" : "start";
         if (document.body.className === "start") {
-            playBtn.textContent = document.title
+            playBtn.textContent = document.title;
             stop();
         } else if (document.body.className === "stop") {
-            playBtn.textContent = description
+            playBtn.textContent = description.content;
             start();
         }
     });

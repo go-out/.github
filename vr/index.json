@@ -1,24 +1,31 @@
 {
-    "title": "題名",
-    "description": "説明文",
+    "title": "Watch The Video",
+    "description": "知っていることの外へ、わからないところまで出かける",
     "year": "YYYY",
     "month": "MM",
     "day": "DD",
     "directory": "",
     "width": "100%",
     "height": "50%",
-    "play": [
+    "video": [
         {
             "id": "one",
             "src": [
-                "https://ia801208.us.archive.org/25/items/tengachaya-park/000.mp4"
+                "https://ia601303.us.archive.org/35/items/tezukayama/001A.mp4"
             ]
         },
         {
             "id": "two",
             "src": [
-                "https://ia801208.us.archive.org/25/items/abenojinjya/000.mp4"
+                "https://ia601201.us.archive.org/22/items/chitose/004.mp4",
+                "https://ia601300.us.archive.org/4/items/ochiaikami/000.mp4"
             ]
+        }
+    ],
+    "track": [
+        {
+            "time" :"0:00",
+            "sub" :"知っていることの外へ、わからないところまで出かける"
         }
     ]
 }

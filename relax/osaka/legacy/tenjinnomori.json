@@ -1,13 +1,18 @@
 {
     "title": "天神ノ森天満宮",
-    "description": "大阪府大阪市西成区岸里東２丁目３−１９",
+    "description": "",
+    "info": {
+        "address": "大阪府大阪市西成区岸里東２丁目３−１９",
+        "google": "https://maps.app.goo.gl/Du3c8iQgECQSGZ5t5",
+        "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%A5%9E%E3%83%8E%E6%A3%AE%E5%A4%A9%E6%BA%80%E5%AE%AE"
+    },
     "year": "2022",
     "month": "6",
     "day": "30",
     "directory": "https://ia601300.us.archive.org/22/items/tenjinnomori/",
     "width": "0.5625",
     "height": "1",
-    "play": [
+    "video": [
         {
             "id": "one",
             "src": [

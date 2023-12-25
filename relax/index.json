@@ -1,23 +1,24 @@
 {
-    "title": "Fancy and Relaxin' Spot",
-    "description": "優雅にリラックスできる場所",
+    "title": "優雅にリラックスできる場所",
+    "description": "Fancy and Relaxin' Spot",
     "year": "YYYY",
     "month": "MM",
     "day": "DD",
     "directory": "",
     "width": "0.5625",
     "height": "1",
-    "play": [
+    "video": [
         {
-            "id": "one",
+            "id": "legacy",
             "src": [
-                "https://ia801208.us.archive.org/25/items/tengachaya-park/000.mp4"
+                "https://ia801208.us.archive.org/25/items/abenojinjya/021.mp4",
+                "https://ia601300.us.archive.org/22/items/tenjinnomori/002.mp4"
             ]
         },
         {
-            "id": "two",
+            "id": "park",
             "src": [
-                "https://ia801208.us.archive.org/25/items/abenojinjya/000.mp4"
+                "https://ia801208.us.archive.org/25/items/tengachaya-park/010.mp4"
             ]
         }
     ]

@@ -1,13 +1,19 @@
 {
     "title": "天下茶屋公園",
-    "description": "大阪府大阪市西成区岸里東１丁目１５−１８",
+    "description": "",
+    "info": {
+        "address": "大阪府大阪市西成区岸里東１丁目１５−１８",
+        "google": "https://maps.app.goo.gl/Du3c8iQgECQSGZ5t5",
+        "website": "https://www.city.osaka.lg.jp/nishinari/page/0000000741.html#13",
+        "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E4%B8%8B%E8%8C%B6%E5%B1%8B%E5%85%AC%E5%9C%92"
+    },
     "year": "2023",
     "month": "12",
     "day": "21",
     "directory": "https://ia801208.us.archive.org/25/items/tengachaya-park/",
     "width": "0.5625",
     "height": "1",
-    "play": [
+    "video": [
         {
             "id": "one",
             "src": [

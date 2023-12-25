@@ -1,1 +1,0 @@
-https://archive.org/details/@creative_community_space_
