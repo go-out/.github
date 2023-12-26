@@ -1,12 +1,12 @@
 {
-    "title": "帝塚山",
-    "description": "大阪市阿倍野区南西部から住吉区北西部の地域の名称",
+    "title": "帝塚山 ⇄ 北畠 サイクリング映像",
+    "description": "阿倍野区帝塚山1丁目 ⇄ 北畠1・2・3丁目 へ Go Out",
     "year": "2023",
     "month": "12",
     "day": "21",
     "directory": "https://ia601303.us.archive.org/35/items/tezukayama/",
-    "width": "50%",
-    "height": "50%",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "one",

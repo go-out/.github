@@ -5,8 +5,8 @@
     "month": "10",
     "day": "20",
     "directory": "https://ia601300.us.archive.org/4/items/ochiaikami/",
-    "width": "100%",
-    "height": "50%",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "one",

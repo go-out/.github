@@ -22,12 +22,18 @@ function videoAll(obj) {
     const main = document.querySelector('main');
 
     const playAll = shuffle(obj.video);
+    const mediaQueryList = window.matchMedia('(orientation: landscape)');
+    if (mediaQueryList.matches) {
+        /* orientation は landscape（現在ビューポートは横長） */
+        main.style.gridTemplateColumns = obj.landscape;
+    } else {
+        /* orientation は landscape ではない（現在ビューポートは縦長） */
+        main.style.gridTemplateColumns = obj.portrait;
+    }
     for (let i = 0; i < playAll.length; i++) {
         const video = document.createElement('video');
         video.setAttribute('playsinline', 'true');
         video.setAttribute('poster', obj.directory + playAll[i].poster);
-        video.style.width = obj.width
-        video.style.height = obj.height
         main.appendChild(video);
 
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {

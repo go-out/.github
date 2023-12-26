@@ -5,8 +5,8 @@
     "month": "MM",
     "day": "DD",
     "directory": "",
-    "width": "100%",
-    "height": "50%",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "bike",
