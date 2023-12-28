@@ -17,10 +17,10 @@
                 var paramItem = param[arr].split('=')
                 paramArr[paramItem[0]] = paramItem[1]
             }
-            const json = paramArr.area + '/' + paramArr.name + '.json'
+            let json = paramArr.area + '/' + paramArr.name + '.json'
             indexJSON(json)
         } else {
-            const json = 'index.json'
+            let json = 'index.json'
             indexJSON(json)
         }
     </script>
