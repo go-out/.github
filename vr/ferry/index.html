@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <script src="../index.js"></script>
+    <script>
+        // ?area=名前&id=名前&name=名前
+        const urlParam = location.search.substring(1)
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+            const json = paramArr.area + '/' + paramArr.name + '.json'
+            indexJSON(json)
+        } else {
+            const json = 'index.json'
+            indexJSON(json)
+        }
+    </script>
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title>Go Out | 渡し船に乗ろう</title>
+    <meta content="Go Out | 渡し船に乗ろう" property="og:title">
+    <meta content="Osaka Ferry Virtual Cruise" name="description">
+    <meta content="Osaka Ferry Virtual Cruise" property="og:description">
+
+    <link rel="icon" href="../../profile/img/favicon.png">
+    <link rel="icon" href="../../profile/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../../../profile/img/mobile.png" sizes="180x180">
+
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://creative-community.space/map/vr/ferry/" property="og:url">
+    <meta content="https://creative-community.space/map/vr/ferry/index.png" property="og:image">
+    <meta content="https://creative-community.space/map/vr/ferry/index.png" name="twitter:image:src">
+
+    <link rel="stylesheet" href="../index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body class="start">
+    <main>
+        <header>
+            <small id="year"></small>
+            <h1>
+                <strong>Go Out</strong>
+            </h1>
+            <h2>
+                <strong id="month"></strong>
+                <strong id="day"></strong>
+            </h2>
+            <button id="play" type="button"></button>
+        </header>
+    </main>
+
+    <footer>
+        <select name="ferry" id="osaka">
+            <option selected value="">大阪市渡船一覧</option>
+            <option value="?area=osaka&name=tempozan">天保山渡船</option>
+            <option value="?area=osaka&name=zonbee">甚兵衛渡船</option>
+            <option value="?area=osaka&name=chitose">千歳渡船</option>
+            <option value="?area=osaka&name=ochiaikami">落合上渡船</option>
+            <option value="?area=osaka&name=ochiaishimo">落合下渡船</option>
+            <option value="?area=osaka&name=senbonmatsu">千本松渡船</option>
+            <option value="?area=osaka&name=funamachi">船町渡船</option>
+            <option value="?area=osaka&name=kizugawa">木津川渡船</option>
+        </select>
+        <h3 id="info"></h3>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

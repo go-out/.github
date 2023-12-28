@@ -1,0 +1,64 @@
+{
+    "title": "渡し船に乗ろう",
+    "description": "大阪市南西部には、河川や運河を行き来する市営の渡船が残っています。",
+    "directory": "",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "chitose",
+            "poster": "https://ia601201.us.archive.org/22/items/chitose/chitose.thumbs/001_000001.jpg",
+            "src": [
+                "https://ia601201.us.archive.org/22/items/chitose/004.mp4",
+                "https://ia601201.us.archive.org/22/items/chitose/005.mp4"
+            ]
+        },
+        {
+            "id": "ochiaikami",
+            "poster": "https://ia601300.us.archive.org/4/items/ochiaikami/ochiaikami.thumbs/000_000044.jpg",
+            "src": [
+                "https://ia601300.us.archive.org/4/items/ochiaikami/000.mp4"
+            ]
+        },
+        {
+            "id": "Tempozan",
+            "poster": "https://ia601303.us.archive.org/27/items/Tempozan/Tempozan.thumbs/103_000010.jpg",
+            "src": [
+                "https://ia601303.us.archive.org/27/items/Tempozan/201.mp4",
+                "https://ia601303.us.archive.org/27/items/Tempozan/202.mp4"
+            ]
+        },
+        {
+            "id": "zinbee",
+            "poster": "https://ia601204.us.archive.org/0/items/zinbee/zinbee.thumbs/107_000008.jpg",
+            "src": [
+                "https://ia601204.us.archive.org/0/items/zinbee/102.ia.mp4",
+                "https://ia601204.us.archive.org/0/items/zinbee/103.ia.mp4",
+                "https://ia601204.us.archive.org/0/items/zinbee/104.ia.mp4"
+            ]
+        }
+    ],
+    "track": [
+        {
+            "time" : 10,
+            "sub" :"現在でも運航する渡船は8か所。15隻の船が地域の人々に利用されています。"
+        },
+        {
+            "time" : 20,
+            "sub" :"運航時間は、概ね午前6時台から午後9時台。歩行者および自転車のみ、無料で乗船できます。"
+        },
+        {
+            "time" : 30,
+            "sub" :"繁華街や観光地では見られない大阪に触れることができるスポットとして、静かな人気を呼んでいます。"
+        },
+        {
+            "time" : 40,
+            "sub" :"〰️ Osaka Ferry Virtual Cruise 〰️"
+        }
+    ],
+    "info": [
+        "渡し船（わたしぶね）は、港湾・河川・湖沼などで両岸を往復して客や荷物を運ぶ船及び航路",
+        "「比較的狭い距離の対岸同士を渡し、庶民の日常の交通手段や観光に利用され、公共性の高いもの」",
+        "道路または架橋の代替（または補完）として運航されており、無料で利用可能な航路も存在する。"
+    ]
+}

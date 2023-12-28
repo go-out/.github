@@ -18,7 +18,8 @@ h1 {
         url("../profile/fonts/Kristina-Fine.otf") format("opentype");
 }
 
-header {
+header,
+footer {
     font-family: "Kristina", 'Zen Maru Gothic', cursive;
 }
 
@@ -31,14 +32,28 @@ header h2 strong {
     font-size: 150%
 }
 
+select {
+    font-size: 125%;
+}
+
 #year,
-header h2 {
+header h2,
+footer h3,
+footer p a {
     font-size: 111%;
 }
 
 header h1,
 header h1 strong {
     font-weight: 777;
+}
+
+footer h3 {
+    font-weight: 500;
+}
+
+footer p a {
+    text-decoration: none;
 }
 
 header h2 {
@@ -51,12 +66,13 @@ h2 {
     user-select: none;
 }
 
-main {
+body {
     background: lemonchiffon;
 }
 
 header h1 strong,
-header h2 strong::after {
+header h2 strong::after,
+footer a {
     color: lightskyblue;
 }
 
@@ -103,6 +119,10 @@ main {
     width: 100%;
 }
 
+main:hover {
+    cursor: pointer;
+}
+
 header {
     position: absolute;
     text-align: center;
@@ -112,7 +132,19 @@ header {
 }
 
 main video {
-    max-width: 100%;
+    transition: all 1s;
+    width: 100%;
+}
+
+.start main:hover video {
+    filter: brightness(1.23);
+}
+
+#player {
+    border: none;
+    width: 100%;
+    height: 100vh;
+    max-height: -webkit-fill-available;
 }
 
 body.stop h1,
@@ -132,7 +164,8 @@ main fieldset input {
     }
 
     main video {
-        max-height: 50vh;
+        max-width: 750px;
+        max-height: 75vh;
     }
 }
 
@@ -175,4 +208,21 @@ header button {
     padding: 0.5rem 1rem;
     margin: 1rem 0.25rem;
     outline: none;
+}
+
+footer h3,
+footer p {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+footer p {
+    display: flex;
+    flex-flow: wrap;
+    gap: 0.5rem;
+}
+
+footer select {
+    padding: 0.5rem;
+    margin: 0.5rem;
 }

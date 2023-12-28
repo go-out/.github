@@ -1,0 +1,41 @@
+{
+    "title": "落合下渡船場",
+    "description": "大正区平尾1丁目と西成区津守2丁目（岸壁間138メートル）間を運航",
+    "directory": "https://ia601202.us.archive.org/28/items/ochiaishimo/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "ochiaishimo.thumbs/000_000001.jpg",
+            "src": [
+                "000.mp4",
+                "100.mp4",
+                "101.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "ochiaishimo.thumbs/001_000001.jpg",
+            "src": [
+                "001.mp4",
+                "002.mp4",
+                "003.mp4"
+            ]
+        }
+    ],
+    "contrib": [
+        {
+            "name": "Nobbys !",
+            "id": "102190853684383269486"
+        },
+        {
+            "name": "折り紙",
+            "id": "101690638844944204788"
+        },
+        {
+            "name": "S H",
+            "id": "107303680538801367687"
+        }
+    ]
+}
