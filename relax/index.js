@@ -165,7 +165,7 @@ function videoAll(obj) {
             })
         }
     } else if (obj.img) {
-        const imgAll = obj.img;
+        const imgAll = shuffle(obj.img);
         for (let i = 0; i < imgAll.length; i++) {
             const input = document.createElement('input');
             input.setAttribute('type', 'radio');

@@ -34,7 +34,8 @@ header button {
     font-family: "DiaPro", sans-serif;
 }
 
-main {
+main,
+main fieldset label {
     background: #111;
 }
 
@@ -197,7 +198,8 @@ main fieldset {
 main fieldset label {
     border: solid 0.2rem transparent;
     border-radius: 0.5rem;
-    display: block;
+    flex: auto;
+    text-align: center;
     height: 17.5vw;
     max-height: 7.5rem;
     transition: 0.5s;
@@ -209,12 +211,12 @@ main fieldset input:checked+label {
 }
 
 main fieldset input:checked+label {
-    border: solid 0.2rem #000;
+    border: solid 0.2rem #fff;
 }
 
 main fieldset img,
 main fieldset video {
     border-radius: 0.25rem;
-    width: 100%;
+    width: auto;
     height: 100%;
 }
