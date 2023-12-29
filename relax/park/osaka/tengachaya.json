@@ -16,12 +16,14 @@
     "video": [
         {
             "id": "one",
+            "poster": "tengachaya-park.thumbs/000_000001.jpg",
             "src": [
                 "000.mp4"
             ]
         },
         {
             "id": "two",
+            "poster": "tengachaya-park.thumbs/008_000001.jpg",
             "src": [
                 "011.mp4",
                 "009.mp4",

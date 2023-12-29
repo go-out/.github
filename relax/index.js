@@ -100,10 +100,13 @@ function videoAll(obj) {
 
             const label = document.createElement('label');
             label.setAttribute('for', playAll[i].id);
+            label.style.width = `calc(17.5vw / ${obj.width})`;
+            label.style.maxWidth = `calc(7.5rem / ${obj.width})`;
             randomdRaggable.appendChild(label);
 
             const video = document.createElement('video');
             video.setAttribute('playsinline', 'true');
+            video.setAttribute('poster', obj.directory + playAll[i].poster);
             label.appendChild(video);
 
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -145,6 +148,7 @@ function videoAll(obj) {
 
             if (i === 0) {
                 canvasUpdate();
+                canvas.style.backgroundImage = `url(${obj.directory}${playAll[i].poster})`;
             }
 
             video.addEventListener('click', function () {
@@ -163,19 +167,18 @@ function videoAll(obj) {
 
             const label = document.createElement('label');
             label.setAttribute('for', `img${i}`);
+            label.style.width = `calc(17.5vw / ${obj.width})`;
+            label.style.maxWidth = `calc(7.5rem / ${obj.width})`;
             randomdRaggable.appendChild(label);
 
             const img = document.createElement('img');
-            img.src = imgAll[i]
+            img.src = obj.directory + imgAll[i]
             label.appendChild(img);
 
             const canvas = document.querySelector("main canvas");
 
             function bgImg(src) {
                 canvas.style.backgroundImage = `url(${src})`;
-                canvas.style.backgroundPosition = 'center';
-                canvas.style.backgroundRepeat = 'no-repeat';
-                canvas.style.backgroundSize = 'contain';
             };
 
             if (i === 0) {

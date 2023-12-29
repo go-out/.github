@@ -15,6 +15,7 @@
     "video": [
         {
             "id": "one",
+            "poster": "tenjinnomori.thumbs/001_000001.jpg",
             "src": [
                 "001.mp4",
                 "002.mp4",
@@ -26,6 +27,7 @@
         },
         {
             "id": "two",
+            "poster": "tenjinnomori.thumbs/004_000001.jpg",
             "src": [
                 "004.mp4",
                 "005.mp4",

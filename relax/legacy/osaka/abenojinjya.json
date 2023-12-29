@@ -15,6 +15,7 @@
     "video": [
         {
             "id": "one",
+            "poster": "abenojinjya.thumbs/000_000001.jpg",
             "src": [
                 "000.mp4",
                 "005.mp4",
@@ -36,6 +37,7 @@
         },
         {
             "id": "two",
+            "poster": "abenojinjya.thumbs/001_000001.jpg",
             "src": [
                 "001.mp4",
                 "002.mp4",
