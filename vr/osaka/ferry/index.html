@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <script src="../index.js"></script>
+    <script src="../../index.js"></script>
     <script>
-        // ?area=名前&id=名前&name=名前
+        // ?name=名前
 
         const urlParam = location.search.substring(1)
         if (urlParam) {
@@ -17,7 +17,7 @@
                 var paramItem = param[arr].split('=')
                 paramArr[paramItem[0]] = paramItem[1]
             }
-            let json = paramArr.area + '/' + paramArr.name + '.json'
+            let json = paramArr.name + '.json'
             indexJSON(json)
         } else {
             let json = 'index.json'
@@ -32,17 +32,17 @@
     <meta content="Osaka Ferry Virtual Cruise" name="description">
     <meta content="Osaka Ferry Virtual Cruise" property="og:description">
 
-    <link rel="icon" href="../../profile/img/favicon.png">
-    <link rel="icon" href="../../profile/img/mobile.png" sizes="192x192">
+    <link rel="icon" href="../../../profile/img/favicon.png">
+    <link rel="icon" href="../../../profile/img/mobile.png" sizes="192x192">
     <link rel="apple-touch-icon-precomposed" href="../../../profile/img/mobile.png" sizes="180x180">
 
     <!--for Twitter-->
     <meta content="summary_large_image" name="twitter:card">
-    <meta content="https://creative-community.space/map/vr/ferry/" property="og:url">
-    <meta content="https://creative-community.space/map/vr/ferry/index.png" property="og:image">
-    <meta content="https://creative-community.space/map/vr/ferry/index.png" name="twitter:image:src">
+    <meta content="https://creative-community.space/map/vr/osaka/ferry/" property="og:url">
+    <meta content="https://creative-community.space/map/vr/osaka/ferry/index.png" property="og:image">
+    <meta content="https://creative-community.space/map/vr/osaka/ferry/index.png" name="twitter:image:src">
 
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../../index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,19 +66,32 @@
 
     <footer>
         <select name="ferry" id="osaka">
-            <option selected value="">大阪市渡船一覧</option>
-            <option value="?area=osaka&name=tempozan">天保山渡船</option>
-            <option value="?area=osaka&name=zonbee">甚兵衛渡船</option>
-            <option value="?area=osaka&name=chitose">千歳渡船</option>
-            <option value="?area=osaka&name=ochiaikami">落合上渡船</option>
-            <option value="?area=osaka&name=ochiaishimo">落合下渡船</option>
-            <option value="?area=osaka&name=senbonmatsu">千本松渡船</option>
-            <option value="?area=osaka&name=funamachi">船町渡船</option>
-            <option value="?area=osaka&name=kizugawa">木津川渡船</option>
+            <option selected disabled>大阪市渡船一覧</option>
+            <option value="?name=tempozan">天保山渡船</option>
+            <option value="?name=zonbee">甚兵衛渡船</option>
+            <option value="?name=chitose">千歳渡船</option>
+            <option value="?name=ochiaikami">落合上渡船</option>
+            <option value="?name=ochiaishimo">落合下渡船</option>
+            <option value="?name=senbonmatsu">千本松渡船</option>
+            <option value="?name=funamachi">船町渡船</option>
+            <option value="?name=kizugawa">木津川渡船</option>
         </select>
-        <h3 id="info"></h3>
+        <h3 id="description"></h3>
+        <p id="info"></p>
     </footer>
-    <script src="index.js"></script>
+    <script>
+        function valueChange(e) {
+            // イベントが発生した時の処理
+            e.preventDefault();
+            let url = this.value;
+            location.assign(url)
+        }
+
+        let selectAll = document.querySelectorAll('select');
+        selectAll.forEach((select) => {
+            select.addEventListener('change', valueChange);
+        });
+    </script>
 </body>
 
 </html>

@@ -34,6 +34,17 @@ header button {
     font-family: "DiaPro", sans-serif;
 }
 
+main {
+    background: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer {
+    background: #ebd809;
+}
+
 header h1 strong {
     color: #ebd809;
 }

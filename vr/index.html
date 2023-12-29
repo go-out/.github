@@ -7,7 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <script src="index.js"></script>
     <script>
-        // ?area=名前&id=名前&name=名前
+        // ?area=エリア&name=名前
         const urlParam = location.search.substring(1)
         if (urlParam) {
             let paramArr = [],
@@ -16,8 +16,8 @@
                 var paramItem = param[arr].split('=')
                 paramArr[paramItem[0]] = paramItem[1]
             }
-            const json = paramArr.id + "/" + paramArr.name + '.json'
-            indexJSON(paramArr.area + "/" + json)
+            const json = paramArr.area + "/" + paramArr.name + '.json'
+            indexJSON(json)
         } else {
             indexJSON('index.json');
         }
@@ -27,8 +27,8 @@
     <meta content="website" property="og:type">
     <title>Go Out | 行ったことのない場所へ行く</title>
     <meta content="Go Out | 行ったことのない場所へ行く" property="og:title">
-    <meta content="知っていることの外へ、わからないところまで出かける" name="description">
-    <meta content="知っていることの外へ、わからないところまで出かける" property="og:description">
+    <meta content="🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹" name="description">
+    <meta content="🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹" property="og:description">
 
     <link rel="icon" href="../profile/img/favicon.png">
     <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
@@ -36,9 +36,9 @@
 
     <!--for Twitter-->
     <meta content="summary_large_image" name="twitter:card">
-    <meta content="/vr/" property="og:url">
-    <meta content="/vr/card.png" property="og:image">
-    <meta content="/vr/card.png" name="twitter:image:src">
+    <meta content="https://creative-community.space/map/vr/" property="og:url">
+    <meta content="https://creative-community.space/map/vr/card.png" property="og:image">
+    <meta content="https://creative-community.space/map/vr/card.png" name="twitter:image:src">
 
     <link rel="stylesheet" href="index.css">
 
@@ -63,12 +63,29 @@
     </main>
 
     <footer>
-        <a href="?area=osaka&id=bike&name=tezukayama">帝塚山</a>
-        <a href="?area=osaka&id=ferry&name=chitose">千歳渡船場</a>
-        <a href="?area=osaka&id=ferry&name=ochiaikami">落合上渡船場</a>
-        <a href="?area=osaka&id=ferry&name=tempozan">天保山渡船</a>
-        <a href="?area=osaka&id=ferry&name=zonbee">甚兵衛渡船</a>
+        <h3 id="description"></h3>
+        <p id="info"></p>
+        <select name="cycling" id="cycling">
+            <option selected value="">サイクリング映像</option>
+            <option value="?area=osaka&name=tezukayama">帝塚山 ⇄ 北畠</option>
+            <option value="?area=osaka&name=nanko-minami">住之江公園駅から南港南の西の果てまで</option>
+            <option value="?area=osaka&name=port-town">南港ポートタウン</option>
+            <option value="?area=osaka&name=taisho">木津川渡船場 ⇄ 千本松渡船場</option>
+        </select>
     </footer>
+    <script>
+        function valueChange(e) {
+            // イベントが発生した時の処理
+            e.preventDefault();
+            let url = this.value;
+            location.assign(url)
+        }
+
+        let selectAll = document.querySelectorAll('select');
+        selectAll.forEach((select) => {
+            select.addEventListener('change', valueChange);
+        });
+    </script>
 </body>
 
 </html>

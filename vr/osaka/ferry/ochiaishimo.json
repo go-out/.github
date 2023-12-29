@@ -1,5 +1,5 @@
 {
-    "title": "落合下渡船場",
+    "title": "落合下（おちあいしも）渡船場",
     "description": "木津川（大正区平尾1丁目と西成区津守2丁目）を 10 ~ 15分毎 運航",
     "directory": "https://ia601202.us.archive.org/28/items/ochiaishimo/",
     "landscape": "repeat(1, 1fr)",
@@ -43,5 +43,9 @@
             "time": 30,
             "sub": "岸壁間138メートル。小型船「さざなみ」「みどり丸」が就航"
         }
+    ],
+    "info": [
+        "岸壁間138メートル。小型船「さざなみ」「みどり丸」が就航",
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011256.html' target='_blank'>大阪市公式サイト</a>"
     ]
 }

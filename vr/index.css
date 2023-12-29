@@ -107,7 +107,7 @@ header button {
     font-family: inherit;
     font-size: inherit;
     text-align: left;
-    max-width: 75%;
+    max-width: 95%;
 }
 
 main,
@@ -146,7 +146,7 @@ main video {
     border: none;
     width: 100%;
     height: 100vh;
-    max-height: -webkit-fill-available;
+    max-height: 56vw;
 }
 
 body.stop h1,
@@ -167,7 +167,6 @@ main fieldset input {
 
     main video {
         max-width: 750px;
-        max-height: 75vh;
     }
 }
 
@@ -178,6 +177,10 @@ main fieldset input {
 
     header {
         padding: 5vw;
+    }
+
+    main video {
+        max-height: 75vh;
     }
 }
 
@@ -216,12 +219,6 @@ footer h3,
 footer p {
     padding: 0.5rem;
     margin: 0;
-}
-
-footer p {
-    display: flex;
-    flex-flow: wrap;
-    gap: 0.5rem;
 }
 
 footer select {

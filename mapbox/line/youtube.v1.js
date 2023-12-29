@@ -38,7 +38,7 @@ map.on('load', () => {
           },
           'properties': {
             'title': '16 Minute Cycling View',
-            'address': '木津川渡船場⇄千本松渡船場',
+            'address': '木津川渡船場 ⇄ 千本松渡船場',
             'date': 'Taisho 🇯🇵 Osaka, Japan',
             'id': 'ro1iQcEl2m8',
             'zoom': 14.5

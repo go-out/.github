@@ -1,9 +1,6 @@
 {
-    "title": "Watch The Video",
-    "description": "知っていることの外へ、わからないところまで出かける",
-    "year": "YYYY",
-    "month": "MM",
-    "day": "DD",
+    "title": "行ったことのない場所へ行く",
+    "description": "🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹",
     "directory": "",
     "landscape": "repeat(1, 1fr)",
     "portrait": "repeat(1, 1fr)",
@@ -24,10 +21,7 @@
             ]
         }
     ],
-    "track": [
-        {
-            "time" :"0:00",
-            "sub" :"知っていることの外へ、わからないところまで出かける"
-        }
+    "info": [
+        ""
     ]
 }

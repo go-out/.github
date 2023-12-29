@@ -7,7 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <script src="index.js"></script>
     <script>
-        // ?area=名前&id=名前&name=名前
+        // ?id=名前&area=名前&name=名前
         const urlParam = location.search.substring(1)
         if (urlParam) {
             let paramArr = [],
@@ -16,8 +16,8 @@
                 var paramItem = param[arr].split('=')
                 paramArr[paramItem[0]] = paramItem[1]
             }
-            const json = paramArr.id + "/" + paramArr.name + '.json'
-            indexJSON(paramArr.area + "/" + json)
+            const json = paramArr.area + "/" + paramArr.name + '.json'
+            indexJSON(paramArr.id + "/" + json)
         } else {
             indexJSON('index.json')
         }
@@ -66,9 +66,10 @@
     </main>
 
     <footer>
-        <a href="?area=osaka&id=legacy&name=abenojinjya">阿倍野神社</a>
-        <a href="?area=osaka&id=legacy&name=tenjinnomori">天神ノ森天満宮</a>
-        <a href="?area=osaka&id=park&name=tengachaya">天下茶屋公園</a>
+        <a href="?id=legacy&area=osaka&name=abenojinjya">阿倍野神社</a>
+        <a href="?id=legacy&area=osaka&name=tenjinnomori">天神ノ森天満宮</a>
+        <a href="?id=park&area=osaka&name=tengachaya">天下茶屋公園</a>
+        <a href="?id=park&area=osaka&name=mandaiike">万代池公園</a>
     </footer>
 </body>
 

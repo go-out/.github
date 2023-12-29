@@ -36,8 +36,10 @@ function playThis(obj) {
     const playBtn = document.querySelector("#play");
     playBtn.textContent = document.title;
 
-    const description = document.querySelector("meta[name='description']");
-    description.content = obj.description;
+    const metaContent = document.querySelector("meta[name='description']");
+    metaContent.content = obj.description;
+    const description = document.querySelector("#description");
+    description.textContent = obj.description;
 
     header.addEventListener('click', function () {
         document.body.className = document.body.className === "start" ? "stop" : "start";
@@ -45,7 +47,7 @@ function playThis(obj) {
             playBtn.textContent = document.title
             stop();
         } else if (document.body.className === "stop") {
-            playBtn.textContent = description.content
+            playBtn.textContent = obj.description
             start();
         }
     });
