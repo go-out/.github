@@ -36,9 +36,6 @@ header button {
 
 main {
     background: #111;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 footer {
@@ -64,6 +61,10 @@ header h2 {
 header h1 strong,
 header h2 strong {
     font-size: 333%;
+}
+
+header button {
+    font-size: 125%;
 }
 
 header h1,
@@ -97,10 +98,6 @@ header h2 strong#day::after {
     content: "日";
 }
 
-header button {
-    font-size: inherit;
-}
-
 main {
     background: #000;
     display: grid;
@@ -116,7 +113,8 @@ main fieldset input {
     display: none;
 }
 
-main canvas {
+main canvas,
+#vr {
     position: absolute;
     background-size: contain;
     background-position: center;
@@ -125,6 +123,12 @@ main canvas {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
+}
+
+#vr {
+    border: none;
+    width: 100%;
+    height: 100%;
 }
 
 @media (orientation: landscape) {
@@ -199,9 +203,13 @@ main fieldset label {
     transition: 0.5s;
 }
 
+main fieldset label:hover,
+main fieldset input:checked+label {
+    filter: brightness(1.5);
+}
+
 main fieldset input:checked+label {
     border: solid 0.2rem #000;
-    filter: brightness(1.5);
 }
 
 main fieldset img,

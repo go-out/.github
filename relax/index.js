@@ -85,11 +85,20 @@ function playThis(obj) {
     windowScreen();
 }
 
+function shuffle(arrays) {
+    const array = arrays.slice();
+    for (let i = array.length - 1; i >= 0; i--) {
+        const shuffleArr = Math.floor(Math.random() * (i + 1));
+        [array[i], array[shuffleArr]] = [array[shuffleArr], array[i]];
+    }
+    return array;
+}
+
 function videoAll(obj) {
     const randomdRaggable = document.querySelector('main fieldset');
 
     if (obj.video) {
-        const playAll = obj.video;
+        const playAll = shuffle(obj.video);
         for (let i = 0; i < playAll.length; i++) {
             const input = document.createElement('input');
             input.setAttribute('type', 'radio');
@@ -182,13 +191,22 @@ function videoAll(obj) {
             };
 
             if (i === 0) {
-                bgImg(imgAll[i]);
+                bgImg(obj.directory + imgAll[i]);
             }
 
             img.addEventListener('click', function () {
                 bgImg(img.src);
             })
         }
+    } else if (obj.vr) {
+        const main = document.querySelector("main");
+        const iframe = document.createElement('iframe');
+        iframe.src = obj.vr;
+        iframe.id = "vr"
+        iframe.setAttribute("allowfullscreen", "")
+        iframe.setAttribute("loading", "lazy")
+        iframe.setAttribute("referrerpolicy", "no-referrer-when-downgrade")
+        main.appendChild(iframe);
     }
 }
 

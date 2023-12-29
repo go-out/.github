@@ -1,6 +1,6 @@
 {
     "title": "天神ノ森天満宮",
-    "description": "",
+    "description": "2022年6月30日 の 天神ノ森天満宮 夏越祭 の あと",
     "info": {
         "address": "大阪府大阪市西成区岸里東２丁目３−１９",
         "google": "https://maps.app.goo.gl/Du3c8iQgECQSGZ5t5",
@@ -15,7 +15,7 @@
     "video": [
         {
             "id": "one",
-            "poster": "tenjinnomori.thumbs/001_000001.jpg",
+            "poster": "tenjinnomori.thumbs/003_000001.jpg",
             "src": [
                 "001.mp4",
                 "002.mp4",
@@ -39,7 +39,7 @@
         },
         {
             "id": "three",
-            "poster": "tenjinnomori.thumbs/013_000001.jpg",
+            "poster": "tenjinnomori.thumbs/006_000001.jpg",
             "src": [
                 "006.mp4",
                 "007.mp4",
