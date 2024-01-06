@@ -27,7 +27,7 @@ const youtube = {
             'properties': {
                 'title': '千本松渡船場',
                 'address': '日本, 大阪府大阪市大正区南恩加島 - 西成区南津守',
-                'date': 'スマートフォンのブラウザでは、360°映像が正しく再生されません。<br>VR動画を見るには、YouTubeアプリのダウンロードが必須です。',
+                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'vr',
                 'id': 'SNw7eE2K0c0',
                 'zoom': 16,
@@ -42,7 +42,7 @@ const youtube = {
             'properties': {
                 'title': '木津川渡船場',
                 'address': '日本, 大阪府大阪市住之江区平林北 - 大正区船町',
-                'date': 'スマートフォンのブラウザでは、360°映像が正しく再生されません。<br>VR動画を見るには、YouTubeアプリのダウンロードが必須です。',
+                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'vr',
                 'id': 'JDQjc70a1T8',
                 'zoom': 16,
@@ -57,7 +57,7 @@ const youtube = {
             'properties': {
                 'title': '船町渡船場',
                 'address': '日本, 大阪府大阪市大正区船町 大正区鶴町',
-                'date': 'スマートフォンのブラウザでは、360°映像が正しく再生されません。<br>VR動画を見るには、YouTubeアプリのダウンロードが必須です。',
+                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'vr',
                 'id': 'Z8Von0j_br8',
                 'zoom': 17,
@@ -192,7 +192,7 @@ const youtube = {
             'properties': {
                 'title': '大阪港コンテナターミナル',
                 'address': '日本, 大阪府大阪市住之江区南港東９丁目',
-                'date': '専用コンテナターミナル(C8、C9)',
+                'date': '',
                 'tags': 'vr',
                 'id': 'rlfyH_v-fTk',
                 'zoom': 14.5,
@@ -207,7 +207,7 @@ const youtube = {
             'properties': {
                 'title': '万代池公園',
                 'address': '日本, 大阪府大阪市住吉区万代３丁目７',
-                'date': 'スマートフォンのブラウザでは、360°映像が正しく再生されません。<br>VR動画を見るには、YouTubeアプリのダウンロードが必須です。',
+                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'relax',
                 'id': '-7DEl_jxuW8',
                 'zoom': 16.5,

@@ -18,9 +18,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': 'View from the Window',
+            'title': 'Osaka Castle Park to Fukushima 🇯🇵 Osaka Loop Line',
             'address': '大阪JR環状線（大阪城公園駅→福島駅）',
-            'date': 'Osaka Castle Park to Fukushima 🇯🇵 Osaka Loop Line',
+            'date': '',
             'id': 'Fkiq6MvW868',
             'zoom': 13
           }
@@ -37,9 +37,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': '16 Minute Cycling View',
+            'title': '16 Minute Cycling in Taisho 🇯🇵 Osaka, Japan',
             'address': '木津川渡船場 ⇄ 千本松渡船場',
-            'date': 'Taisho 🇯🇵 Osaka, Japan',
+            'date': '',
             'id': 'ro1iQcEl2m8',
             'zoom': 14.5
           }
@@ -58,9 +58,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': 'View from the Window',
+            'title': 'Tennoji ⇄ Morinomiya 🇯🇵 Osaka Loop Line',
             'address': '大阪JR環状線（天王寺⇄森ノ宮）',
-            'date': 'Tennoji ⇄ Morinomiya 🇯🇵 Osaka Loop Line',
+            'date': '',
             'id': 'tOOHtkKQVnM',
             'zoom': 12.5
           }
@@ -80,9 +80,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': 'View from the Window',
+            'title': 'New Tram (Osaka, Japan) 🇯🇵 Trade Center mae ⇄ Suminoekouen',
             'address': 'ニュートラム（トレードセンター前⇄住之江公園）',
-            'date': 'New Tram (Osaka, Japan) 🇯🇵 Trade Center mae ⇄ Suminoekouen',
+            'date': '',
             'id': 'jDv57WWjJ58',
             'zoom': 13
           }
@@ -105,9 +105,9 @@ map.on('load', () => {
             ]
           },
           'properties': {
-            'title': '21 Minute Cycling View',
+            'title': '21 Minute Cycling Suminoe Park to Nanko Fishing Port 🇯🇵 Osaka, Japan',
             'address': '住之江公園駅から南港南の西の果てまで',
-            'date': 'Suminoe Park to Nanko Fishing Port 🇯🇵 Osaka, Japan',
+            'date': '',
             'id': 'tinBEuiKqzU',
             'zoom': 13
           }

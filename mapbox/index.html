@@ -27,12 +27,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 
   <!-- Mapbox -->
   <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css' rel='stylesheet' />
+
+  <script src="marker/index.js"></script>
+  <script src="marker/mikunigaoka.js"></script>
 </head>
 
 <body>
@@ -83,9 +85,9 @@
       attributionControl: false
     })
     const popup = new mapboxgl.Popup()
-        .setLngLat(center)
-        .setHTML(`<p>${center}</p>`)
-        .addTo(map);
+      .setLngLat(center)
+      .setHTML(`<p>${center}</p>`)
+      .addTo(map);
 
     map.on("click", (e) => {
       let thisLngLat = [e.lngLat.lng, e.lngLat.lat]
@@ -108,6 +110,9 @@
     )
     map.addControl(new mapboxgl.NavigationControl())
     map.addControl(new mapboxgl.FullscreenControl())
+  </script>
+  <script>
+    addIcons(mikunigaoka.features);
   </script>
 </body>
 

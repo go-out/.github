@@ -96,6 +96,8 @@ new mapboxgl.Marker(el)
   font-family: 'Open Sans', sans-serif;
 }
 
+https://commons.wikimedia.org/wiki/Category:Ionicons
+
 ---
 
 マーカーにクリックイベントを追加
