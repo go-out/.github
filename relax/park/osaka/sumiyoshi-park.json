@@ -1,0 +1,38 @@
+{
+    "title": "住吉公園",
+    "description": "花と水の広場・心字池",
+    "info": {
+        "address": "住之江区浜口東１丁目１",
+        "google": "https://maps.app.goo.gl/sFmoBJrfXsijoX3P9"
+    },
+    "directory": "https://lh3.googleusercontent.com/",
+    "width": "0.5625",
+    "height": "1",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipMH8p6sULLOSiCiPRDt8UY3DXLtxLEFTkp4U87K",
+            "src": [
+                "ggs/AF1QipMH8p6sULLOSiCiPRDt8UY3DXLtxLEFTkp4U87K=m18",
+                "ggs/AF1QipOQ6EmYlqFZBS6t_B98QNi1ehEBIp4KYSp5yFl7=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipOdHmoiVrqVHvZUfj6eFNlzjRuiwB-Ce0jm8out",
+            "src": [
+                "ggs/AF1QipOdHmoiVrqVHvZUfj6eFNlzjRuiwB-Ce0jm8out=m18",
+                "ggs/AF1QipM8317oW2a97xyKtmpxXVxNsSiAZsJznjPVVh1V=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipNCiy_jSMjIINu0H2YLRujnBSJ61lHaoX4R5zTA",
+            "src": [
+                "ggs/AF1QipNCiy_jSMjIINu0H2YLRujnBSJ61lHaoX4R5zTA=m18",
+                "ggs/AF1QipM6JytpSenVUekKCl5_53A4UNOlhsC-AxhYxq6h=m18",
+                "ggs/AF1QipMjGWfzF2QjxUeXXJWWnF2hw-ozZZIespxguJTp=m18"
+            ]
+        }
+    ]
+}

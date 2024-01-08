@@ -2,15 +2,48 @@
     "title": "万代池公園",
     "description": "Fancy and Relaxin'",
     "info": {
-        "address": "大阪府大阪市浪速区恵美須東２丁目４−１４",
-        "google": "https://maps.app.goo.gl/rApVZzgiDrQPYX2o6",
-        "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%87%E4%BB%A3%E6%B1%A0"
+        "address": "大阪府大阪市住吉区万代３丁目７",
+        "google": "https://maps.app.goo.gl/Z7cHwJ6sWmo5Q9EV8"
     },
-    "directory": "https://lh5.googleusercontent.com/p/",
-    "width": "0.75",
+    "directory": "https://lh3.googleusercontent.com/",
+    "width": "0.5625",
     "height": "1",
-    "img": [
-        "AF1QipOwTJa-5_13iTVlGRAwoeIUeQF0dwug57-2wALs",
-        "AF1QipN3JqgPu0lwcJ1x9DqbAjgIUuDS_YvrfTzBL5CB"
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipPFf2ajYEfEOx1jXWsiTj0cxcSsR3vhfAz-TDsf",
+            "src": [
+                "ggs/AF1QipPFf2ajYEfEOx1jXWsiTj0cxcSsR3vhfAz-TDsf=m18",
+                "ggs/AF1QipNltNcH7R7qgPBPYPAn37xDMFf1Vu3DVN2SfrLQ=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipOPZYyFMcWJdrfhwH2BFZmDsVKFAPcIWFEsehLW",
+            "src": [
+                "ggs/AF1QipOPZYyFMcWJdrfhwH2BFZmDsVKFAPcIWFEsehLW=m18",
+                "ggs/AF1QipNSAa16DruWmPCwyGSHYZqtTB1TEWe7R2SVeMlQ=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipNUjZYOgAjtET2OUlXJKRF3L4JGJHD3TLCzXMh_",
+            "src": [
+                "ggs/AF1QipNUjZYOgAjtET2OUlXJKRF3L4JGJHD3TLCzXMh_=m18",
+                "ggs/AF1QipNNIYKZy-FXAZV9JlOl42_iHM_z13zyySKAhUF6=m18"
+            ]
+        }
     ]
 }
+/*
+<p>
+    地図上で見つけたときは、ただ大きな池と思っていたんですが、池の周りには遊歩道があり、みなさんがウォーキングしたり、ジョギングしたりしています。
+    公園もあり、ベンチもいっぱいあるので、帝塚山セレブの憩いの場という雰囲気です。
+</p>
+<p>
+    池の真ん中には小島があって、両側から橋でわたることができます。小島には小さな神社があります。<br>
+    橋をわたっている時、池の中に無数の亀がいることにびっくりするでしょう。いっぱいいました。日向ぼっこをしている亀たちもいました。
+</p>
+<p>広大だけど綺麗に手入れされていて、とても居心地がよく、夜は夜で、住宅街の綺麗な照明が池を照らしていて幻想的です。</p>
+
+*/

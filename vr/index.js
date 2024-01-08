@@ -57,21 +57,6 @@ function playThis(obj) {
         all.forEach((iii) => {
             iii.play();
         })
-
-        if (obj.track) {
-            let cnt = 0;
-            let trackAll = obj.track;
-            let timerId = setInterval(function () {
-                cnt++
-                for (let i = 0; i < trackAll.length; i++) {
-                    if (cnt === trackAll[i].time) {
-                        playBtn.textContent = trackAll[i].sub;
-                    } else if (cnt === trackAll[trackAll.length - 1].time) {
-                        clearInterval(timerId);
-                    }
-                }
-            }, 1000);
-        }
     }
 
     function stop() {
