@@ -1,10 +1,57 @@
 {
     "title": "千本松（せんぼんまつ）渡船場",
     "description": "木津川（大正区南恩加島1丁目と西成区南津守2丁目）を 10 ~ 15分毎 運航",
-    "year": "2022",
-    "month": "2",
-    "day": "7",
-    "youtube": "SNw7eE2K0c0",
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-",
+            "src": [
+                "ggms/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipPgsZ3t0_7r7FRSo0zobiesmrEVZITfhigGjsy7",
+            "src": [
+                "ggs/AF1QipPgsZ3t0_7r7FRSo0zobiesmrEVZITfhigGjsy7=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipPQsejw21O94u7yR7sJUAt0XuK9XxDhJ7f2wX5c",
+            "src": [
+                "ggs/AF1QipPQsejw21O94u7yR7sJUAt0XuK9XxDhJ7f2wX5c=m18"
+            ]
+        },
+        {
+            "id": "four",
+            "poster": "p/AF1QipMD8c0C6Ji7HWzBBkYmM7y2iDA808pldwg7gyFb",
+            "src": [
+                "ggs/AF1QipMD8c0C6Ji7HWzBBkYmM7y2iDA808pldwg7gyFb=m18"
+            ]
+        }
+    ],
+    "contrib": [
+        {
+            "name": "384plus",
+            "id": "112236404055655919974"
+        },
+        {
+            "name": "a‿a",
+            "id": "115024876236625115482"
+        },
+        {
+            "name": "* D-sk_t",
+            "id": "114679658805930690862"
+        },
+        {
+            "name": "Hirohito KATAOKA",
+            "id": "108498131473774770896"
+        }
+    ],
     "info": [
         "千本松大橋の補完として、渡船「はるかぜ」「ちづる」が就航",
         "岸壁間230メートル。利用者は1日平均871人",

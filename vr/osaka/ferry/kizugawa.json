@@ -1,10 +1,54 @@
 {
     "title": "木津川（きづがわ）渡船場",
     "description": "木津川（大正区船町1丁目と住之江区平林北1丁目）を 10 ~ 45分毎 運航",
-    "year": "2022",
-    "month": "2",
-    "day": "7",
-    "youtube": "JDQjc70a1T8",
+    "directory": "https://lh3.googleusercontent.com/",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipMAG4m_6scBTCEh9YjZeKUQMKCDNWM-R7oVDCsn",
+            "src": [
+                "ggs/AF1QipMAG4m_6scBTCEh9YjZeKUQMKCDNWM-R7oVDCsn=m18",
+                "ggs/AF1QipNNKw4sehHxTTRJjF4I52kX48Dj5D91edWp5zDg=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipMLjoIa7YkLcED9LpaxvVqZ9ixZgwLA4ZueiKeQ",
+            "src": [
+                "ggs/AF1QipMLjoIa7YkLcED9LpaxvVqZ9ixZgwLA4ZueiKeQ=m18",
+                "ggs/AF1QipPFfPQ5onQEWSjJiC1hXDxWQkpbe1uRvUQWTLl4=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipOtlEQKBBxl_vR2QhrMBvvTuUkw5IlN6fFWKrQy",
+            "src": [
+                "ggs/AF1QipOtlEQKBBxl_vR2QhrMBvvTuUkw5IlN6fFWKrQy=m18",
+                "ggs/AF1QipM1UyqDm5khgY05qF0ds4-vUFt9-kWdm_ehBEhK=m18",
+                "ggs/AF1QipNHUWN2kindU6ao8LdHnGYO3GkXv-kdVZzLYV8X=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipOs44Co4ZI_1tGUUX1a-j7l5oYY6LHNzLG2ry5V",
+            "src": [
+                "ggs/AF1QipOs44Co4ZI_1tGUUX1a-j7l5oYY6LHNzLG2ry5V=m18",
+                "ggs/AF1QipNWsekrLzoyoBz09PvdQkqhrud-KXwLeyH0FM6X=m18"
+            ]
+        }
+    ],
+    "contrib": [
+        {
+            "name": "Nobbys !",
+            "id": "102190853684383269486"
+        },
+        {
+            "name": "折り紙",
+            "id": "101690638844944204788"
+        }
+    ],
     "info": [
         "新木津川大橋の補完として、渡船「松丸」「第二松丸」が就航",
         "岸壁間238メートル。唯一の港湾局管理の渡船",

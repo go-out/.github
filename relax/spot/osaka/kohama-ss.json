@@ -1,0 +1,42 @@
+{
+    "title": "粉浜本通商店街",
+    "description": "Kohama Shopping Street",
+    "info": {
+        "address": "大阪市住之江区粉浜2-1-15",
+        "google": "https://maps.app.goo.gl/65u1sik8gLs1cZvv6",
+        "website": "https://kohama-ss.com/"
+    },
+    "directory": "https://lh3.googleusercontent.com/",
+    "width": "1.725",
+    "height": "1",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipNtl9GdivhypJBqa43PMFN30whrurRJm6pq0Vju",
+            "src": [
+                "ggms/AF1QipNtl9GdivhypJBqa43PMFN30whrurRJm6pq0Vju=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipOxmP9WItTlFGw9FIsIvBQHZdNTZ7oLlAPJ79xR",
+            "src": [
+                "ggms/AF1QipOxmP9WItTlFGw9FIsIvBQHZdNTZ7oLlAPJ79xR=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipOlQDMru3IuNmTlx_iLixemaz7j-_rdR8I4xEVw",
+            "src": [
+                "ggms/AF1QipOlQDMru3IuNmTlx_iLixemaz7j-_rdR8I4xEVw=m18"
+            ]
+        },
+        {
+            "id": "four",
+            "poster": "p/AF1QipPmZopLfOoJvdYb1rItsYyHphp0X70d3hjWVtst",
+            "src": [
+                "ggms/AF1QipPmZopLfOoJvdYb1rItsYyHphp0X70d3hjWVtst=m18"
+            ]
+        }
+    ]
+}
