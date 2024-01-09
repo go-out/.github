@@ -44,14 +44,23 @@
 
         .mapboxgl-popup-content {
             font-family: "Kristina", 'Zen Maru Gothic', cursive;
-            font-size: 1.25rem;
+            font-size: 1rem;
+            line-height: 150%;
         }
 
-        .mapboxgl-popup-content a {
+        .mapboxgl-popup-content strong {
             background: lightskyblue;
             color: lemonchiffon;
-            font-size: 150%;
             padding: 0.25rem;
+        }
+
+        .mapboxgl-popup-content strong,
+        .mapboxgl-popup-close-button {
+            font-size: 150%;
+        }
+
+        .mapboxgl-popup-close-button {
+            color: lightskyblue;
             outline: none;
         }
 
@@ -61,6 +70,19 @@
             background-repeat: no-repeat;
             cursor: pointer;
             z-index: 5;
+        }
+
+        .mapboxgl-marker.vr {
+            background-image: url(icon.png);
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .mapboxgl-marker.hello {
+            background-image: url(../../icon/hello.jpg);
+            border-radius: 50%;
+            width: 2rem;
+            height: 2rem;
         }
     </style>
 
@@ -119,12 +141,12 @@
 
     <div id="map"></div>
 
-    <script src="../../../mapbox/marker/osaka-ferry.js"></script>
+    <script src="index.js"></script>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
 
         let css = 'mapbox://styles/mapbox/standard',
-            center = [135.44973996365718, 34.644085215197634],
+            center = [135.45453372484548, 34.64442238709225],
             zoom = 12.345;
 
         const bounds = [
@@ -163,20 +185,16 @@
                 const el = document.createElement('div');
                 el.className = marker.properties.tags;
 
-                el.style.backgroundImage = `url(icon.png)`;
-                el.style.width = '2rem';
-                el.style.height = '2rem';
-
                 new mapboxgl.Marker(el, {
                     offset: [0, 0]
                 })
                     .setLngLat(marker.geometry.coordinates)
                     .setPopup(
                         new mapboxgl.Popup({
-                            offset: 12.5
+                            offset: 12
                         })
                             .setHTML(`
-                            <p>${marker.properties.title}</p>
+                            <p><strong>${marker.properties.title}</strong></p>
                             ${marker.properties.address}
                             `
                             )

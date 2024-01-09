@@ -11,7 +11,7 @@ const youtube = {
             },
             'properties': {
                 'title': '阪急百貨店梅田店コンコース',
-                'address': '日本, 大阪府大阪市北区角田町８−７',
+                'address': 'ここにいるのにいないような気持ちになれる場所',
                 'date': '',
                 'tags': 'relax',
                 'id': 'qzIy_qtpNh8',
@@ -26,7 +26,7 @@ const youtube = {
             },
             'properties': {
                 'title': '南港魚つり園護岸',
-                'address': '大きな空と海を一望できる気持ちのいい場所。',
+                'address': '大きな空と海を一望できる気持ちのいい場所',
                 'date': '',
                 'tags': 'relax',
                 'id': '9DRiQ5CVcjE',
@@ -41,7 +41,7 @@ const youtube = {
             },
             'properties': {
                 'title': '<a href="relax/?id=legacy&area=osaka&name=sumiyoshitaisha">住吉大社</a>',
-                'address': '日本, 大阪府大阪市住之江区粉浜西３丁目１',
+                'address': '全国に2300社ある住吉神社の総本社',
                 'date': '',
                 'tags': 'relax',
                 'id': 'wbOguTvuV0Q',
@@ -56,7 +56,7 @@ const youtube = {
             },
             'properties': {
                 'title': '住吉公園 心字池',
-                'address': '日本, 大阪府大阪市住之江区浜口東１丁目１',
+                'address': 'Sumiyoshi Park, Osaka, Japan',
                 'date': '',
                 'tags': 'park',
                 'id': 'mkioDOspLbs',
@@ -71,7 +71,7 @@ const youtube = {
             },
             'properties': {
                 'title': '住吉公園 花と水の広場',
-                'address': '日本, 大阪府大阪市住之江区浜口東１丁目１',
+                'address': 'Sumiyoshi Park, Osaka, Japan',
                 'date': '',
                 'tags': 'park',
                 'id': 'gfwP_viCeZg',
@@ -86,7 +86,7 @@ const youtube = {
             },
             'properties': {
                 'title': 'シーサイドコスモ (コスモスクエア海浜緑地)',
-                'address': '日本, 大阪府大阪市住之江区南港北１丁目３２',
+                'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺',
                 'date': '',
                 'tags': 'park',
                 'id': 'EoFg1eMWADg',
@@ -101,7 +101,7 @@ const youtube = {
             },
             'properties': {
                 'title': '南港ポートタウン',
-                'address': '日本, 大阪府大阪市住之江区南港中４丁目',
+                'address': '大阪南港の人工島「咲洲（さきしま）」の中央部に位置する高層住宅地、ニュータウン',
                 'date': '',
                 'tags': 'park',
                 'id': '8az_VW2ssbs',
@@ -131,7 +131,7 @@ const youtube = {
             },
             'properties': {
                 'title': '大阪府咲洲庁舎（さきしまコスモタワー）',
-                'address': '日本, 大阪府大阪市住之江区南港北１丁目１４−１６',
+                'address': '南港北（咲洲）にある高さ256.0m、地上55階・地下3階建ての超高層ビル',
                 'date': '',
                 'tags': 'relax',
                 'id': '9E8UZio4SJM',
@@ -146,7 +146,7 @@ const youtube = {
             },
             'properties': {
                 'title': '大阪港コンテナターミナル',
-                'address': '日本, 大阪府大阪市住之江区南港東９丁目',
+                'address': '咲洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるらしい',
                 'date': '',
                 'tags': 'vr',
                 'id': 'rlfyH_v-fTk',
@@ -161,7 +161,7 @@ const youtube = {
             },
             'properties': {
                 'title': '<a href="relax/?id=park&area=osaka&name=mandaiike">万代池公園</a>',
-                'address': '日本, 大阪府大阪市住吉区万代３丁目７',
+                'address': 'まんだいいけこうえん、ばんだいいけこうえん',
                 'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'park',
                 'id': '-7DEl_jxuW8',

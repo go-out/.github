@@ -103,7 +103,7 @@ footer select {
 }
 
 footer u,
-footer h3 strong {
+footer strong {
     background: lightskyblue;
     color: lemonchiffon;
 }
@@ -246,6 +246,7 @@ footer div {
 }
 
 footer a,
+footer strong,
 footer select,
 footer h3 strong {
     padding: 0.25rem;
@@ -274,8 +275,8 @@ footer a {
 }
 
 footer div h3 {
-    border-top: double 0.125rem lightskyblue;
-    border-bottom: double 0.125rem lightskyblue;
+    border-top: double 0.25rem lightskyblue;
+    border-bottom: double 0.25rem lightskyblue;
 }
 
 #contrib a {

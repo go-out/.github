@@ -26,9 +26,9 @@ let gooutArr = {
                 'coordinates': [135.47306292634534, 34.62458544610712]
             },
             'properties': {
-                'title': '音ビル',
+                'title': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">音ビル</a>',
                 'address': '日本, 大阪府大阪市住之江区北加賀屋5丁目5-1',
-                'date': '<a href="https://vg.pe.hu/2019-2021/" target="_blank" rel="noopener">OTO Building | 4.2.2019 - 3.30.2022</a>',
+                'date': 'OTO Building | 4.2.2019 - 3.30.2022',
                 'iconSize': ['https://vg.pe.hu/2019-2021/img/favicon.png', '3.21rem', '3.21rem'],
                 'tags': '',
                 'zoom': 17.5,
@@ -155,7 +155,5 @@ document.addEventListener("readystatechange", (event) => {
         menu.addEventListener('click', function () {
             dialog.showModal();
         })
-
-        addMarker(gooutArr.features);
     }
 })
