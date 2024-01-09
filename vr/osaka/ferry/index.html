@@ -36,6 +36,34 @@
     <link rel="icon" href="../../../profile/img/mobile.png" sizes="192x192">
     <link rel="apple-touch-icon-precomposed" href="../../../profile/img/mobile.png" sizes="180x180">
 
+    <style>
+        #map {
+            width: 100%;
+            height: 75vh;
+        }
+
+        .mapboxgl-popup-content {
+            font-family: "Kristina", 'Zen Maru Gothic', cursive;
+            font-size: 1.25rem;
+        }
+
+        .mapboxgl-popup-content a {
+            background: lightskyblue;
+            color: lemonchiffon;
+            font-size: 150%;
+            padding: 0.25rem;
+            outline: none;
+        }
+
+        .mapboxgl-marker {
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            z-index: 5;
+        }
+    </style>
+
     <!--for Twitter-->
     <meta content="summary_large_image" name="twitter:card">
     <meta content="https://creative-community.space/map/vr/osaka/ferry/" property="og:url">
@@ -47,6 +75,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body class="start">
@@ -84,9 +115,37 @@
         <div id="links" hidden>
             <h3>関連ページ Related Pages</h3>
         </div>
-        <button onclick="location.assign('/map/')"></button>
     </footer>
+
+    <div id="map"></div>
+
+    <script src="../../../mapbox/marker/osaka-ferry.js"></script>
     <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
+
+        let css = 'mapbox://styles/mapbox/standard',
+            center = [135.44973996365718, 34.644085215197634],
+            zoom = 12.345;
+
+        const bounds = [
+            [135.42248421844891, 34.6203606793859], // 南西座標
+            [135.48900940376654, 34.66828729206459] // 北東座標
+        ];
+
+        const map = new mapboxgl.Map({
+            container: 'map',
+            center: center,
+            style: css,
+            pitch: 0,
+            bearing: 0,
+            zoom: zoom,
+            maxBounds: bounds,
+            scrollZoom: false,
+            projection: 'globe',
+            attributionControl: false
+        })
+        map.addControl(new mapboxgl.NavigationControl())
+
         function valueChange(e) {
             // イベントが発生した時の処理
             e.preventDefault();
@@ -97,6 +156,40 @@
         let selectAll = document.querySelectorAll('select');
         selectAll.forEach((select) => {
             select.addEventListener('change', valueChange);
+        });
+
+        map.on('load', () => {
+            for (const marker of osakaFerry.features) {
+                const el = document.createElement('div');
+                el.className = marker.properties.tags;
+
+                el.style.backgroundImage = `url(icon.png)`;
+                el.style.width = '2rem';
+                el.style.height = '2rem';
+
+                new mapboxgl.Marker(el, {
+                    offset: [0, 0]
+                })
+                    .setLngLat(marker.geometry.coordinates)
+                    .setPopup(
+                        new mapboxgl.Popup({
+                            offset: 12.5
+                        })
+                            .setHTML(`
+                            <p>${marker.properties.title}</p>
+                            ${marker.properties.address}
+                            `
+                            )
+                    )
+                    .addTo(map)
+
+                el.addEventListener('click', (e) => {
+                    map.flyTo({
+                        center: marker.geometry.coordinates,
+                        essential: true
+                    })
+                })
+            };
         });
     </script>
 </body>

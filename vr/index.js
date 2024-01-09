@@ -165,7 +165,7 @@ function videoAll(obj) {
                 a.setAttribute("target", "_blank")
                 p.appendChild(a);
             }
-        }Ï
+        }
     }
 }
 

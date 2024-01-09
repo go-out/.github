@@ -30,7 +30,7 @@ header h1 strong {
 
 header h2 strong,
 footer h3 {
-    font-size: 150%
+    font-size: 150%;
 }
 
 select,
@@ -278,7 +278,7 @@ footer div h3 {
     border-bottom: double 0.125rem lightskyblue;
 }
 
-footer p a {
+#contrib a {
     float: left;
 }
 
@@ -294,4 +294,8 @@ footer button {
     float: right;
     width: 7.5rem;
     height: 7.5rem;
+}
+
+.mapboxgl-popup {
+    z-index: 100;
 }
