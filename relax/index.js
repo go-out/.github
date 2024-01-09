@@ -39,7 +39,7 @@ function playThis(obj) {
     description.content = obj.description;
 
     if (obj.video) {
-        playBtn.addEventListener('click', function () {
+        document.querySelector("header").addEventListener('click', function () {
             document.body.className = document.body.className === "start" ? "stop" : "start";
             if (document.body.className === "start") {
                 playBtn.textContent = document.title;

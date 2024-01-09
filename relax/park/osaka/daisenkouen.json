@@ -1,0 +1,60 @@
+{
+    "title": "大仙公園 だいせんこうえん",
+    "description": "世界文化遺産に登録された百舌鳥古墳群（もずこふんぐん）の一角、世界最大の墳墓である仁徳天皇（にんとくてんのう）の墓「大仙陵古墳（だいせんりょうこふん）」の南に位置する総合公園",
+    "info": {
+        "address": "大阪府堺市堺区百舌鳥夕雲町２丁２０４",
+        "google": "https://maps.app.goo.gl/rUdGMRawVskWoRgo6",
+        "website": "https://www.city.sakai.lg.jp/kurashi/koen/shokai/daisenkouen.html"
+    },
+    "year": "2024",
+    "month": "1",
+    "day": "7",
+    "directory": "https://lh3.googleusercontent.com/",
+    "width": "0.575",
+    "height": "1",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipOSLfaCUeKeouBuVgrMkugfBwGyPw4MkAmFNftl",
+            "src": [
+                "ggms/AF1QipNmj9EZ_jgDl3dL867jEikXg8pwwGi56EBKuT3l=m18",
+                "ggms/AF1QipMK_ALBrJrv95_zrCycC6DrTKIX78c1wmv7IOm8=m18",
+                "ggms/AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E=m18",
+                "ggms/AF1QipNAFy-HwpSjsMEtNJnIV7WJpxpJUpjS_6T0a3s4=m18",
+                "ggms/AF1QipOSLfaCUeKeouBuVgrMkugfBwGyPw4MkAmFNftl=m18",
+                "ggms/AF1QipOnxUNrGJVo01iAdfHS1m_zBIztc7Y-m-Zb5rIx=m18",
+                "ggms/AF1QipPViwVOZJaRI_LNdJi6ZZU2fPyM7HDh3US3xgOg=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipMUbYLy3UR8rQHO7TQj5n-LYjEYl4yALKVvmukc",
+            "src": [
+                "ggms/AF1QipMUbYLy3UR8rQHO7TQj5n-LYjEYl4yALKVvmukc=m18",
+                "ggms/AF1QipPl484AVhFmj4ypjqbWpV2M75X_g2G6d7rheetH=m18",
+                "ggms/AF1QipNjSS5ZenJCOXm8BQ2deHq6aC7TsWY1GCU018qu=m18",
+                "ggms/AF1QipP0qbtPI9xQr-fHkWBrA6xkgOMPMRMrUYd1nfoT=m18",
+                "ggms/AF1QipOwGVRa1mA0GXsvnbdzeOn7fenfqh-tsVX4l-q4=m18",
+                "ggms/AF1QipPKINnTOiRD7hOK_9up01F-EWrjwUFIhnswFYbh=m18",
+                "ggms/AF1QipPX5sWT3w0vTjLUYWaA9Po3ej0DzGF3tbDf-zHR=m18",
+                "ggms/AF1QipMSDdR0Th2X_G1TYvhUBGieNdS2D5P4ILjnaJF_=m18",
+                "ggms/AF1QipMrqwwmUYPiDKClX8gXmvOJkaQoKvbjreWiN1Hg=m18",
+                "ggms/AF1QipPbDkr4BPtQ0aPw0N_vekhi3OpQ0AtX5hi3f1nq=m18",
+                "ggms/AF1QipMr_PrqCgDVhVKIiVgxfxpSqVR2FcxKQgk9Z9Iw=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipPZAN89JkRi3KepDf4ggnbKL5IwTGsZ2axoNkP5",
+            "src": [
+                "ggms/AF1QipPZAN89JkRi3KepDf4ggnbKL5IwTGsZ2axoNkP5=m18",
+                "ggms/AF1QipPFumjGLEzoR1wWkUTepw3IHo154j9dBy1aKa2o=m18",
+                "ggms/AF1QipNJI-4NWmOzTiglAF3G1HJJQY1hoEode5nrA745=m18",
+                "ggms/AF1QipPjPyKytwK4FhUTPZC7cWVqqa27M-WfRmNivmbZ=m18",
+                "ggms/AF1QipNeH6O_vexj5oNcQPdZRJFJS6WrDmZtlVgYxnnh=m18",
+                "ggms/AF1QipNHKNtFSDixnABeowqMySl9IJUOSVdp9HcUsD65=m18",
+                "ggms/AF1QipMsmL86vpaZJJrBJq0jYZh5qNXBH4lCXgbQpsNL=m18"
+            ]
+        }
+    ]
+}

@@ -1,9 +1,25 @@
 {
     "title": "甚兵衛（じんべえ）渡船場",
-    "description": "尻無川（大正区泉尾7丁目と港区福崎1丁目）を 随時 ~ 15分毎 運航",
-    "year": "2021",
+    "description": "大正区泉尾（たいしょうくいずお）⇄ 港区福崎（みなとくふくざき）",
+    "year": "2022",
     "month": "10",
     "day": "20",
+    "info": [
+        "尻無川（大正区泉尾7丁目 ⇄ 港区福崎1丁目）を 随時 ~ 15分毎 運航",
+        "岸壁間94メートル。小型船「すずかぜ」「きよかぜ」が就航しています。",
+        "利用者は1日平均1000人。現在運航している渡船の中で、最も利用客の多い渡船です。<br><small>周辺に高等学校があるため通学での利用が多く、朝のラッシュ時には船が2隻体制となります。</small>",
+        "<br>",
+        "<u>所在地</u>",
+        "泉尾側 <u>大阪市大正区泉尾7丁目13-32</u>",
+        "福崎側 <u>大阪市港区福崎1丁目3-50</u>",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/dTY69LFq8SGzP85B9' target='_blank'>セブンイレブン　大阪磯路2丁目店</a> <a href='https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9' target='_blank'>セブンイレブン　大阪三軒家東4丁目店</a>"
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011251.html' target='_blank'>大阪市：2.甚兵衛（じんべえ）渡船場 （…>川・橋>渡船場）</a>",
+        "<a href='https://maps.app.goo.gl/P7nLoHUnYrk2t9Kf6' target='_blank'>甚兵衛渡船場（大正区泉尾側） - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/bhYCLdEyn9oHftZ79' target='_blank'>甚兵衛渡船場（港区福崎側） - Google マップ</a>"
+    ],
     "directory": "https://ia601204.us.archive.org/0/items/zinbee/",
     "landscape": "repeat(1, 1fr)",
     "portrait": "repeat(1, 1fr)",
@@ -29,29 +45,5 @@
                 "107.ia.mp4"
             ]
         }
-    ],
-    "track": [
-        {
-            "time": 10,
-            "sub": "現在運航している渡船の中で、最も利用客の多い渡船"
-        },
-        {
-            "time": 20,
-            "sub": "岸壁間94メートル。小型船「すずかぜ」「きよかぜ」が就航"
-        },
-        {
-            "time": 30,
-            "sub": "周辺に高等学校があるため、通学での利用が多い"
-        },
-        {
-            "time": 40,
-            "sub": "朝のラッシュ時には船が2隻体制となり、多数運航します。"
-        }
-    ],
-    "info": [
-        "現在運航している渡船の中で、最も利用客の多い渡船",
-        "岸壁間94メートル。小型船「すずかぜ」「きよかぜ」が就航",
-        "周辺に高等学校があるため、通学での利用が多く、朝のラッシュ時には船が2隻体制となります。",
-        "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000011251.html' target='_blank'>大阪市公式サイト</a>"
     ]
 }

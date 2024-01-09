@@ -1,9 +1,14 @@
 {
-    "title": "万代池公園",
-    "description": "Fancy and Relaxin'",
+    "title": "万代池 まんだいいけ、ばんだいいけ",
+    "description": "地図上で見つけたときは、ただ大きな池かと思ったのですが、池の周りには公園・遊歩道があり、みなさんが散歩したり、ジョギングしたり、帝塚山セレブの憩いの場という雰囲気です。",
     "info": {
         "address": "大阪府大阪市住吉区万代３丁目７",
-        "google": "https://maps.app.goo.gl/Z7cHwJ6sWmo5Q9EV8"
+        "google": "https://maps.app.goo.gl/Z7cHwJ6sWmo5Q9EV8",
+        "text": [
+            "池の真ん中には小島があって、両側から橋でわたることができます。小島には小さな神社があります。",
+            "橋をわたっている時、池の中に無数の亀がいることにびっくりするでしょう。いっぱいいました。日向ぼっこをしている亀たちもいました。",
+            "広大だけど綺麗に手入れされていて、とても居心地がよく、夜は夜で、住宅街の綺麗な照明が池を照らしていて幻想的です。"
+        ]
     },
     "directory": "https://lh3.googleusercontent.com/",
     "width": "0.5625",
@@ -29,21 +34,9 @@
             "id": "three",
             "poster": "p/AF1QipNUjZYOgAjtET2OUlXJKRF3L4JGJHD3TLCzXMh_",
             "src": [
-                "ggs/AF1QipNUjZYOgAjtET2OUlXJKRF3L4JGJHD3TLCzXMh_=m18",
-                "ggs/AF1QipNNIYKZy-FXAZV9JlOl42_iHM_z13zyySKAhUF6=m18"
+                "ggs/AF1QipNNIYKZy-FXAZV9JlOl42_iHM_z13zyySKAhUF6=m18",
+                "ggs/AF1QipNUjZYOgAjtET2OUlXJKRF3L4JGJHD3TLCzXMh_=m18"
             ]
         }
     ]
 }
-/*
-<p>
-    地図上で見つけたときは、ただ大きな池と思っていたんですが、池の周りには遊歩道があり、みなさんがウォーキングしたり、ジョギングしたりしています。
-    公園もあり、ベンチもいっぱいあるので、帝塚山セレブの憩いの場という雰囲気です。
-</p>
-<p>
-    池の真ん中には小島があって、両側から橋でわたることができます。小島には小さな神社があります。<br>
-    橋をわたっている時、池の中に無数の亀がいることにびっくりするでしょう。いっぱいいました。日向ぼっこをしている亀たちもいました。
-</p>
-<p>広大だけど綺麗に手入れされていて、とても居心地がよく、夜は夜で、住宅街の綺麗な照明が池を照らしていて幻想的です。</p>
-
-*/

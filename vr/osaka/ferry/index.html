@@ -76,8 +76,15 @@
             <option value="?name=funamachi">船町渡船</option>
             <option value="?name=kizugawa">木津川渡船</option>
         </select>
-        <h3 id="description"></h3>
-        <p id="info"></p>
+        <h3>
+            <strong id="title"></strong><br>
+            <small id="description"></small>
+        </h3>
+        <section id="info"></section>
+        <div id="links" hidden>
+            <h3>関連ページ Related Pages</h3>
+        </div>
+        <button onclick="location.assign('/map/')"></button>
     </footer>
     <script>
         function valueChange(e) {

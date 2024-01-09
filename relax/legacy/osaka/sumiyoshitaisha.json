@@ -10,21 +10,24 @@
     "month": "12",
     "day": "30",
     "directory": "https://lh3.googleusercontent.com/",
-    "width": "0.5625",
+    "width": "0.575",
     "height": "1",
     "video": [
         {
             "id": "one",
-            "poster": "p/AF1QipNICtQP02ra6LidM4epVq80BhcwJgQapCCrxeR_",
+            "poster": "p/AF1QipM0Q4KhPsDt5L9PJCy3lLJWU2uMqEZOHfuzJYML",
             "src": [
+                "ggms/AF1QipO6MiOWJKWgClmV51xNxo4vNnJrzgL2i1fh-sIS=m18",
+                "ggms/AF1QipOw6eI9XW7X3lPmYZbF3WczgVWPAe1-BTIqSyZN=m18",
                 "ggms/AF1QipNICtQP02ra6LidM4epVq80BhcwJgQapCCrxeR_=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "p/AF1QipPk28YRu-BPx5zH-sOG0lvKAphW6g5Uyziaxh_1",
+            "poster": "p/AF1QipNICtQP02ra6LidM4epVq80BhcwJgQapCCrxeR_",
             "src": [
-                "ggms/AF1QipPk28YRu-BPx5zH-sOG0lvKAphW6g5Uyziaxh_1=m18"
+                "ggms/AF1QipNvOjirCuOQFh9L6WmHjCCxowU5fPb3JcYQYElM=m18",
+                "ggms/AF1QipN1o__SGebyiTzIQ9SDvulEq2Ma77hlLV_eknMV=m18"
             ]
         }
     ]

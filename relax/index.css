@@ -32,6 +32,7 @@ header h2 {
 header h1,
 header button {
     font-family: "DiaPro", sans-serif;
+    text-align: left;
 }
 
 main,

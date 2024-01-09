@@ -22,14 +22,14 @@ const youtube = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.47569470365949, 34.631793416745694]
+                'coordinates': [135.43109856854932,34.658746822143925]
             },
             'properties': {
-                'title': '千本松渡船場',
-                'address': '日本, 大阪府大阪市大正区南恩加島 - 西成区南津守',
-                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
+                'title': '<a href="vr/osaka/ferry/?name=tempozan">天保山渡船場</a>',
+                'address': '日本, 大阪府大阪市港区築港 ⇄ 此花区桜島',
+                'date': '',
                 'tags': 'vr',
-                'id': 'SNw7eE2K0c0',
+                'id': 'SS-vlvgb8ic',
                 'zoom': 16,
             }
         },
@@ -37,14 +37,74 @@ const youtube = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.46177705603935, 34.62555875027091]
+                'coordinates': [135.46246523088013,34.656554003191715]
             },
             'properties': {
-                'title': '木津川渡船場',
-                'address': '日本, 大阪府大阪市住之江区平林北 - 大正区船町',
-                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
+                'title': '<a href="vr/osaka/ferry/?name=zonbee">甚兵衛渡船場</a>',
+                'address': '日本, 大阪府大阪市大正区泉尾 ⇄ 港区福崎',
+                'date': '',
                 'tags': 'vr',
-                'id': 'JDQjc70a1T8',
+                'id': 'erky9l9h0KQ',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.45854569618052,34.646324348745]
+            },
+            'properties': {
+                'title': '<a href="vr/osaka/ferry/?name=chitose">千歳渡船場</a>',
+                'address': '日本, 大阪府大阪市大正区鶴町 ⇄ 大正区北恩加島',
+                'date': '',
+                'tags': 'vr',
+                'id': 'pHLZszPeUEQ',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47882918904605,34.64972048487182]
+            },
+            'properties': {
+                'title': '<a href="vr/osaka/ferry/?name=ochiaikami">落合上渡船場</a>',
+                'address': '日本, 大阪府大阪市大正区千島 ⇄ 西成区北津守',
+                'date': '',
+                'tags': 'vr',
+                'id': 'tkVySMeh9Js',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47911523706694,34.643336261453044]
+            },
+            'properties': {
+                'title': '<a href="vr/osaka/ferry/?name=ochiaishimo">落合下渡船場</a>',
+                'address': '日本, 大阪府大阪市大正区平尾 ⇄ 西成区津守',
+                'date': '',
+                'tags': 'vr',
+                'id': 'OmS0ifSabJo',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47569470365949, 34.631793416745694]
+            },
+            'properties': {
+                'title': '<a href="vr/osaka/ferry/?name=senbonmatsu">千本松渡船場</a>',
+                'address': '日本, 大阪府大阪市大正区南恩加島 ⇄ 西成区南津守',
+                'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
+                'tags': 'vr',
+                'id': 'SNw7eE2K0c0',
                 'zoom': 16,
             }
         },
@@ -55,12 +115,27 @@ const youtube = {
                 'coordinates': [135.45798171771384, 34.632950453586275]
             },
             'properties': {
-                'title': '船町渡船場',
-                'address': '日本, 大阪府大阪市大正区船町 大正区鶴町',
-                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
+                'title': '<a href="vr/osaka/ferry/?name=funamachi">船町渡船場</a>',
+                'address': '日本, 大阪府大阪市大正区船町 ⇄ 大正区鶴町',
+                'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'vr',
                 'id': 'Z8Von0j_br8',
                 'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46177705603935, 34.62555875027091]
+            },
+            'properties': {
+                'title': '<a href="vr/osaka/ferry/?name=kizugawa">木津川渡船場</a>',
+                'address': '日本, 大阪府大阪市住之江区平林北 ⇄ 大正区船町',
+                'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
+                'tags': 'vr',
+                'id': 'JDQjc70a1T8',
+                'zoom': 16,
             }
         },
         {
@@ -85,7 +160,7 @@ const youtube = {
                 'coordinates': [135.49237250787706, 34.6129733697545]
             },
             'properties': {
-                'title': '住吉大社の堀の端',
+                'title': '<a href="relax/?id=legacy&area=osaka&name=sumiyoshitaisha">住吉大社</a>',
                 'address': '日本, 大阪府大阪市住之江区粉浜西３丁目１',
                 'date': '',
                 'tags': 'relax',
@@ -103,7 +178,7 @@ const youtube = {
                 'title': '住吉公園 心字池',
                 'address': '日本, 大阪府大阪市住之江区浜口東１丁目１',
                 'date': '',
-                'tags': 'relax',
+                'tags': 'park',
                 'id': 'mkioDOspLbs',
                 'zoom': 17.25,
             }
@@ -118,7 +193,7 @@ const youtube = {
                 'title': '住吉公園 花と水の広場',
                 'address': '日本, 大阪府大阪市住之江区浜口東１丁目１',
                 'date': '',
-                'tags': 'relax',
+                'tags': 'park',
                 'id': 'gfwP_viCeZg',
                 'zoom': 17.5,
             }
@@ -130,10 +205,10 @@ const youtube = {
                 'coordinates': [135.41478295447018, 34.64411832595768]
             },
             'properties': {
-                'title': 'シーサイドコスモ',
+                'title': 'シーサイドコスモ (コスモスクエア海浜緑地)',
                 'address': '日本, 大阪府大阪市住之江区南港北１丁目３２',
                 'date': '',
-                'tags': 'relax',
+                'tags': 'park',
                 'id': 'EoFg1eMWADg',
                 'zoom': 15,
             }
@@ -148,7 +223,7 @@ const youtube = {
                 'title': '南港ポートタウン',
                 'address': '日本, 大阪府大阪市住之江区南港中４丁目',
                 'date': '',
-                'tags': 'vr',
+                'tags': 'park',
                 'id': '8az_VW2ssbs',
                 'zoom': 15.5,
             }
@@ -175,7 +250,7 @@ const youtube = {
                 'coordinates': [135.41497842130116, 34.63819701597478]
             },
             'properties': {
-                'title': 'コスモタワー',
+                'title': '大阪府咲洲庁舎（さきしまコスモタワー）',
                 'address': '日本, 大阪府大阪市住之江区南港北１丁目１４−１６',
                 'date': '',
                 'tags': 'relax',
@@ -205,10 +280,10 @@ const youtube = {
                 'coordinates': [135.50183216544207, 34.61987240976515]
             },
             'properties': {
-                'title': '万代池公園',
+                'title': '<a href="relax/?id=park&area=osaka&name=mandaiike">万代池公園</a>',
                 'address': '日本, 大阪府大阪市住吉区万代３丁目７',
-                'date': '<small>スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small>VR動画を見るには、YouTubeアプリを使用してください。</small>',
-                'tags': 'relax',
+                'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
+                'tags': 'park',
                 'id': '-7DEl_jxuW8',
                 'zoom': 16.5,
             }
@@ -270,6 +345,17 @@ map.on('load', () => {
             thisLatLng.innerHTML = marker.properties.title;
             thisAddress.innerHTML = marker.properties.address;
             thisDate.innerHTML = marker.properties.date;
+
+            const mobileAll = document.querySelectorAll('.mobile');
+            for (const mobile of mobileAll) {
+                mobile.hidden = true;
+            }
+
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                for (const mobile of mobileAll) {
+                    mobile.hidden = false;
+                }
+            }
         })
     };
 });

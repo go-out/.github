@@ -35,6 +35,8 @@ function playThis(obj) {
     const header = document.querySelector("main header");
     const playBtn = document.querySelector("#play");
     playBtn.textContent = document.title;
+    const title = document.querySelector("#title");
+    title.textContent = obj.title;
 
     const metaContent = document.querySelector("meta[name='description']");
     metaContent.content = obj.description;
@@ -136,23 +138,34 @@ function videoAll(obj) {
         main.appendChild(iframe);
     }
 
-    if (obj.contrib) {
-        const p = document.createElement('p');
-        p.textContent = "Video Posted by"
-        document.querySelector("footer").appendChild(p);
-        for (const contrib of obj.contrib) {
-            const a = document.createElement('a');
-            a.innerHTML = contrib.name;
-            a.href = "https://www.google.com/maps/contrib/" + contrib.id + "/";
-            a.setAttribute("target", "_blank")
-            p.appendChild(a);
+    if (obj.info) {
+        for (const infoP of obj.info) {
+            const info = document.querySelector("#info");
+            const p = document.createElement('p');
+            p.innerHTML = infoP;
+            info.appendChild(p);
         }
     }
 
-    if (obj.info) {
-        for (const info of obj.info) {
-            document.querySelector("#info").innerHTML += info + "<br>";
+    if (obj.links) {
+        const links = document.querySelector("#links");
+        links.hidden = false;
+        for (const link of obj.links) {
+            links.innerHTML += link;
         }
+
+        if (obj.contrib) {
+            const p = document.createElement('p');
+            p.id = "contrib";
+            links.appendChild(p);
+            for (const contrib of obj.contrib) {
+                const a = document.createElement('a');
+                a.innerHTML = contrib.name;
+                a.href = "https://www.google.com/maps/contrib/" + contrib.id + "/";
+                a.setAttribute("target", "_blank")
+                p.appendChild(a);
+            }
+        }Ï
     }
 }
 

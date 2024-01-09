@@ -28,19 +28,29 @@ header h1 strong {
     font-size: 250%;
 }
 
-header h2 strong {
+header h2 strong,
+footer h3 {
     font-size: 150%
 }
 
-select {
+select,
+footer strong,
+footer a {
     font-size: 125%;
 }
 
 #year,
 header h2,
-footer h3,
-footer a {
+#contrib::before {
     font-size: 111%;
+}
+
+footer u {
+    font-size: 90%;
+}
+
+footer small {
+    font-size: 75%;
 }
 
 header h1,
@@ -52,8 +62,12 @@ footer h3 {
     font-weight: 500;
 }
 
-footer a {
-    text-decoration: none;
+footer h3 {
+    text-align: center;
+}
+
+footer address {
+    font-style: normal;
 }
 
 header h2 {
@@ -82,6 +96,16 @@ header h2 strong {
 
 #year {
     color: #fff;
+}
+
+footer select {
+    color: #000;
+}
+
+footer u,
+footer h3 strong {
+    background: lightskyblue;
+    color: lemonchiffon;
 }
 
 header h1 strong {
@@ -215,14 +239,59 @@ header button {
     outline: none;
 }
 
-footer h3,
-footer p {
-    padding: 0.5rem;
-    margin: 0;
+footer address,
+footer section,
+footer div {
+    padding: 1rem;
 }
 
-footer select {
-    color: #000;
-    padding: 0.5rem;
-    margin: 0.5rem;
+footer a,
+footer select,
+footer h3 strong {
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+footer h3,
+footer section,
+footer div,
+footer address {
+    line-height: 175%;
+    margin: 1rem auto;
+    max-width: 1000px;
+}
+
+#contrib::before {
+    content: "Video by";
+    clear: both;
+    display: block;
+    margin: 1.5rem 0.5rem 0;
+}
+
+footer a {
+    display: block;
+    text-decoration: dashed underline;
+}
+
+footer div h3 {
+    border-top: double 0.125rem lightskyblue;
+    border-bottom: double 0.125rem lightskyblue;
+}
+
+footer p a {
+    float: left;
+}
+
+footer button {
+    background: transparent;
+    background-image: url(../profile/img/mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    border: none;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    width: 7.5rem;
+    height: 7.5rem;
 }
