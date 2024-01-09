@@ -40,8 +40,6 @@ function playThis(obj) {
 
     const metaContent = document.querySelector("meta[name='description']");
     metaContent.content = obj.description;
-    const description = document.querySelector("#description");
-    description.textContent = obj.description;
 
     header.addEventListener('click', function () {
         document.body.className = document.body.className === "start" ? "stop" : "start";
