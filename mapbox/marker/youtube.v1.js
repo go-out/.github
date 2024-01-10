@@ -198,8 +198,8 @@ map.on('load', () => {
 
         const url = `https://i.ytimg.com/vi/${marker.properties.id}/default.jpg`;
         el.style.backgroundImage = `url(${url})`;
-        el.style.width = '4.5rem';
-        el.style.height = '3.33rem';
+        el.style.width = '5.5rem';
+        el.style.height = '4rem';
 
         new mapboxgl.Marker(el, {
             offset: [0, 0]
