@@ -1,10 +1,13 @@
 {
-    "title": "行ったことのない場所へ行く",
-    "description": "🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹",
+    "title": "🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹",
+    "description": "【VR】ドライブ・サイクリング映像 | #車窓動画 #画面分割",
     "info": [
         "Road (Rd.): 道・道路・鉄道・街道<br>Way: roadから外れた小さな脇道。",
         "Street (St.): 街路・通り・…街・（歩道と区別した）車道<br>Avenue (Ave.): 並木道・（都市の）大街路・大通り<br>Boulevard (Blvd.): 広い並木街路・大通り（通常は真ん中に中央分離帯が通っている）<br>Lane (Ln.): 都市部でよくみられる狭い道（基本的にはBoulevardの反義語）",
         "Drive (Dr.): 車道・まわりの環境にあわせて作られた、長く曲がった道（湖や山にある道など）<br>Path: （人に踏まれてできた）小道・細道・（公園内の）歩道・通り道・通路<br>Sidewalk: （舗装された）側道・歩道"
+    ],
+    "links": [
+        "<a href='osaka/ferry/'>【大阪・日本】 渡し船に乗ろう 〰️ Osaka Ferry Virtual Cruise 〰️ </a>"
     ],
     "directory": "",
     "landscape": "repeat(1, 1fr)",

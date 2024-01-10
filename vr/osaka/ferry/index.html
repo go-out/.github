@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
+    <script src="index.js"></script>
     <script src="../../index.js"></script>
     <script>
         // ?name=名前
@@ -32,9 +33,9 @@
     <meta content="Osaka Ferry Virtual Cruise" name="description">
     <meta content="Osaka Ferry Virtual Cruise" property="og:description">
 
-    <link rel="icon" href="../../../profile/img/favicon.png">
-    <link rel="icon" href="../../../profile/img/mobile.png" sizes="192x192">
-    <link rel="apple-touch-icon-precomposed" href="../../../profile/img/mobile.png" sizes="180x180">
+    <link rel="icon" href="icon.png">
+    <link rel="icon" href="icon.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="icon.png" sizes="180x180">
 
     <style>
         #map {
@@ -98,8 +99,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 
-    <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
 </head>
 
 <body class="start">
@@ -118,6 +119,13 @@
     </main>
 
     <footer>
+        <h3>
+            <strong id="title"></strong>
+        </h3>
+        <section id="info"></section>
+        <div id="links" hidden>
+            <h3>関連ページ Related Pages</h3>
+        </div>
         <select name="ferry" id="osaka">
             <option selected disabled>大阪市渡船一覧</option>
             <option value="?name=tempozan">天保山渡船</option>
@@ -129,18 +137,10 @@
             <option value="?name=funamachi">船町渡船</option>
             <option value="?name=kizugawa">木津川渡船</option>
         </select>
-        <h3>
-            <strong id="title"></strong>
-        </h3>
-        <section id="info"></section>
-        <div id="links" hidden>
-            <h3>関連ページ Related Pages</h3>
-        </div>
     </footer>
 
     <div id="map"></div>
 
-    <script src="index.js"></script>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
 
@@ -149,8 +149,8 @@
             zoom = 12.345;
 
         const bounds = [
-            [135.42248421844891, 34.6203606793859], // 南西座標
-            [135.48900940376654, 34.66828729206459] // 北東座標
+            [135.4297410995881, 34.61891585103439], // 南西座標
+            [135.48662746795293, 34.6699098318323] // 北東座標
         ];
 
         const map = new mapboxgl.Map({
@@ -166,18 +166,6 @@
             attributionControl: false
         })
         map.addControl(new mapboxgl.NavigationControl())
-
-        function valueChange(e) {
-            // イベントが発生した時の処理
-            e.preventDefault();
-            let url = this.value;
-            location.assign(url)
-        }
-
-        let selectAll = document.querySelectorAll('select');
-        selectAll.forEach((select) => {
-            select.addEventListener('change', valueChange);
-        });
 
         map.on('load', () => {
             for (const marker of osakaFerry.features) {
@@ -207,6 +195,18 @@
                     })
                 })
             };
+        });
+
+        function valueChange(e) {
+            // イベントが発生した時の処理
+            e.preventDefault();
+            let url = this.value;
+            location.assign(url)
+        }
+
+        let selectAll = document.querySelectorAll('select');
+        selectAll.forEach((select) => {
+            select.addEventListener('change', valueChange);
         });
     </script>
 </body>

@@ -16,7 +16,7 @@
                 var paramItem = param[arr].split('=')
                 paramArr[paramItem[0]] = paramItem[1]
             }
-            const json = paramArr.area + "/" + paramArr.name + '.json'
+            const json = paramArr.area + "/" + paramArr.id + "/" + paramArr.name + '.json'
             indexJSON(json)
         } else {
             indexJSON('index.json');
@@ -25,10 +25,10 @@
 
     <!--og:meta-->
     <meta content="website" property="og:type">
-    <title>Go Out | 行ったことのない場所へ行く</title>
-    <meta content="Go Out | 行ったことのない場所へ行く" property="og:title">
-    <meta content="🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹" name="description">
-    <meta content="🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹" property="og:description">
+    <title>🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹</title>
+    <meta content="🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹" property="og:title">
+    <meta content="【VR】 ドライブ映像 | 車窓動画" name="description">
+    <meta content="【VR】 ドライブ映像 | 車窓動画" property="og:description">
 
     <link rel="icon" href="../profile/img/favicon.png">
     <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
@@ -65,11 +65,12 @@
     <footer>
         <select name="cycling" id="cycling">
             <option selected value="">サイクリング映像</option>
-            <option value="?area=osaka&name=tezukayama">帝塚山 ⇄ 北畠</option>
-            <option value="?area=osaka&name=container_berth">咲洲コンテナターミナル</option>
-            <option value="?area=osaka&name=nanko-minami">住之江公園駅から南港南の西の果てまで</option>
-            <option value="?area=osaka&name=port-town">南港ポートタウン</option>
-            <option value="?area=osaka&name=taisho">木津川渡船場 ⇄ 千本松渡船場</option>
+            <option value="?area=osaka&id=cycling&name=tezukayama">帝塚山 ⇄ 北畠</option>
+            <option value="?area=osaka&id=cycling&name=container_berth">咲洲コンテナターミナル</option>
+            <option value="?area=osaka&id=cycling&name=port-town">南港ポートタウン</option>
+            <option value="?area=osaka&id=cycling&name=seaside-cosmo">シーサイドコスモ（コスモスクエア海浜緑地）</option>
+            <option value="?area=osaka&id=cycling&name=nanko-minami">住之江公園駅から南港南の西の果てまで</option>
+            <option value="?area=osaka&id=cycling&name=taisho">木津川渡船場（船町） ⇄ 千本松渡船場（南恩加島）</option>
         </select>
         <h3>
             <strong id="title"></strong>
@@ -78,7 +79,7 @@
         <div id="links" hidden>
             <h3>関連ページ Related Pages</h3>
         </div>
-        <button onclick="location.assign('/map/')"></button>
+        <button onclick="location.assign('../')"></button>
     </footer>
     <script>
         function valueChange(e) {

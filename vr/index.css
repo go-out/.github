@@ -103,7 +103,7 @@ footer select {
 }
 
 footer u,
-footer strong {
+footer h3 strong {
     background: lightskyblue;
     color: lemonchiffon;
 }
@@ -180,6 +180,10 @@ main fieldset input {
     display: none;
 }
 
+.mapboxgl-popup {
+    z-index: 100;
+}
+
 @media (orientation: landscape) {
     html {
         font-size: 20px;
@@ -196,7 +200,7 @@ main fieldset input {
 
 @media (orientation: portrait) {
     html {
-        font-size: 3.33vw;
+        font-size: 3.21vw;
     }
 
     header {
@@ -242,11 +246,10 @@ header button {
 footer address,
 footer section,
 footer div {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 footer a,
-footer strong,
 footer select,
 footer h3 strong {
     padding: 0.25rem;
@@ -258,7 +261,7 @@ footer section,
 footer div,
 footer address {
     line-height: 175%;
-    margin: 1rem auto;
+    margin: 2rem auto;
     max-width: 1000px;
 }
 
@@ -270,8 +273,11 @@ footer address {
 }
 
 footer a {
-    display: block;
     text-decoration: dashed underline;
+}
+
+footer div a {
+    display: block;
 }
 
 footer div h3 {
@@ -295,8 +301,4 @@ footer button {
     float: right;
     width: 7.5rem;
     height: 7.5rem;
-}
-
-.mapboxgl-popup {
-    z-index: 100;
 }

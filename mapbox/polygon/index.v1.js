@@ -23,7 +23,7 @@ map.on('load', () => {
           },
           'properties': {
             'title': 'やるぞ ‼',
-            'date': 'go-out.github.io/do/',
+            'date': '大阪ヘルスバンクニュース掲示板',
             'link': 'https://go-out.github.io/do/',
             'zoom': 14
           }

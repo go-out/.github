@@ -22,6 +22,36 @@ const youtube = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.41478295447018, 34.64411832595768]
+            },
+            'properties': {
+                'title': '<a href="vr/?area=osaka&id=cycling&name=seaside-cosmo">シーサイドコスモ (コスモスクエア海浜緑地)</a>',
+                'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道',
+                'date': '',
+                'tags': 'park',
+                'id': 'EoFg1eMWADg',
+                'zoom': 15,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.42081655887517, 34.633723800118446]
+            },
+            'properties': {
+                'title': '<a href="vr/?area=osaka&id=cycling&name=port-town">南港ポートタウン</a>',
+                'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にある住宅地、ニュータウン。',
+                'date': '',
+                'tags': 'park',
+                'id': '8az_VW2ssbs',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.4016286962231, 34.61486617414742]
             },
             'properties': {
@@ -40,7 +70,7 @@ const youtube = {
                 'coordinates': [135.49237250787706, 34.6129733697545]
             },
             'properties': {
-                'title': '<a href="relax/?id=legacy&area=osaka&name=sumiyoshitaisha">住吉大社</a>',
+                'title': '住吉大社',
                 'address': '全国に2300社ある住吉神社の総本社',
                 'date': '',
                 'tags': 'relax',
@@ -82,45 +112,15 @@ const youtube = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.41478295447018, 34.64411832595768]
+                'coordinates': [135.42955864449175, 34.6402632345294]
             },
             'properties': {
-                'title': 'シーサイドコスモ (コスモスクエア海浜緑地)',
-                'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺',
+                'title': '<a href="vr/?area=osaka&id=cycling&name=container_berth">咲洲コンテナターミナル</a>',
+                'address': '咲洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
                 'date': '',
-                'tags': 'park',
-                'id': 'EoFg1eMWADg',
-                'zoom': 15,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.42081655887517, 34.633723800118446]
-            },
-            'properties': {
-                'title': '南港ポートタウン',
-                'address': '大阪南港の人工島「咲洲（さきしま）」の中央部に位置する高層住宅地、ニュータウン',
-                'date': '',
-                'tags': 'park',
-                'id': '8az_VW2ssbs',
-                'zoom': 15.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.41350734785573, 34.63624539461653]
-            },
-            'properties': {
-                'title': 'ATC（アジア太平洋トレードセンター）',
-                'address': '何をする訳でもなく、ただぼーっと過ごした記録映像（25分36秒）',
-                'date': '',
-                'tags': 'relax',
-                'id': 'O84LelQJNbA',
-                'zoom': 16.5,
+                'tags': 'vr',
+                'id': 'rlfyH_v-fTk',
+                'zoom': 14.5,
             }
         },
         {
@@ -142,15 +142,15 @@ const youtube = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.42955864449175, 34.6402632345294]
+                'coordinates': [135.41350734785573, 34.63624539461653]
             },
             'properties': {
-                'title': '大阪港コンテナターミナル',
-                'address': '咲洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるらしい',
+                'title': 'ATC（アジア太平洋トレードセンター）',
+                'address': '何をする訳でもなく、ただぼーっと過ごした記録映像（25分36秒）',
                 'date': '',
-                'tags': 'vr',
-                'id': 'rlfyH_v-fTk',
-                'zoom': 14.5,
+                'tags': 'relax',
+                'id': 'O84LelQJNbA',
+                'zoom': 16.5,
             }
         },
         {
@@ -160,7 +160,7 @@ const youtube = {
                 'coordinates': [135.50183216544207, 34.61987240976515]
             },
             'properties': {
-                'title': '<a href="relax/?id=park&area=osaka&name=mandaiike">万代池公園</a>',
+                'title': '万代池公園',
                 'address': 'まんだいいけこうえん、ばんだいいけこうえん',
                 'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'park',

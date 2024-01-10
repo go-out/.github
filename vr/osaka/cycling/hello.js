@@ -1,18 +1,18 @@
 'use strict'
 
-const osakaFerry = {
+const helloOsaka = {
     'type': 'FeatureCollection',
     'features': [
         {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.41211700419336,34.63846096663957]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': '天保山公園',
-                'date': '<a href="https://maps.app.goo.gl/WqFtKxV9TmNxHGyP8" target="_blank">Google Map</a>',
+                'address': 'ＡＴＣトレードセンター前駅',
+                'date': '<a href="https://maps.app.goo.gl/9VVdpSeU43wdv4Vs5" target="_blank">Google Map</a>',
                 'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
@@ -22,12 +22,12 @@ const osakaFerry = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.43561508622975, 34.65327525828587]
+                'coordinates': [135.41696194075013,34.63727855892222]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'URポートサイド築港',
-                'date': '<a href="https://maps.app.goo.gl/em8HimmESzew7NK66" target="_blank">Google Map</a>',
+                'address': 'クインテッサホテル大阪ベイ',
+                'date': '<a href="https://maps.app.goo.gl/gF4zS3DZLk8ua2t56" target="_blank">Google Map</a>',
                 'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
@@ -37,27 +37,12 @@ const osakaFerry = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.43109856854932, 34.658746822143925]
-            },
-            'properties': {
-                'title': '天保山渡船場',
-                'address': '安治川（港区築港3丁目 ⇄ 此花区桜島3丁目）を 15 ~ 30分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=tempozan">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
-                'tags': 'vr',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.46042671655556,34.66982106364067]
+                'coordinates': [135.42741951618729,34.631533632615216]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': '大阪ベイタワー',
-                'date': '<a href="https://maps.app.goo.gl/dFgQiP7XdzFyKsLs6" target="_blank">Google Map</a>',
+                'address': 'ポートタウン東駅',
+                'date': '<a href="https://maps.app.goo.gl/C81sHdqUXkJCrBLA9" target="_blank">Google Map</a>',
                 'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
@@ -67,12 +52,12 @@ const osakaFerry = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4612218445896,34.67107463855454]
+                'coordinates': [135.47221377885813,34.608269969684926]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'べんてんひろば駐輪場',
-                'date': '<a href="https://maps.app.goo.gl/FyM356NmJnVWw1q36" target="_blank">Google Map</a>',
+                'address': 'オスカードリーム',
+                'date': '<a href="https://maps.app.goo.gl/Ag9iDnUYHhQeC4jB7" target="_blank">Google Map</a>',
                 'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
@@ -82,12 +67,12 @@ const osakaFerry = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4793856742926, 34.66324891101114]
+                'coordinates': [135.46725355689932,34.610006958967475]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'セブンイレブン　大阪三軒家東4丁目店',
-                'date': '<a href="https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9" target="_blank">Google Map</a>',
+                'address': 'マグスミノエ',
+                'date': '<a href="https://maps.app.goo.gl/1vBg6XB9JP2hBiNUA" target="_blank">Google Map</a>',
                 'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,

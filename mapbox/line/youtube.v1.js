@@ -38,8 +38,8 @@ map.on('load', () => {
           },
           'properties': {
             'title': '16 Minute Cycling in Taisho 🇯🇵 Osaka, Japan',
-            'address': '木津川渡船場 ⇄ 千本松渡船場',
-            'date': '',
+            'address': '木津川渡船場（船町）⇄ 千本松渡船場（南恩加島）',
+            'date': '<a href="vr/?area=osaka&id=cycling&name=taisho">More Info</a>',
             'id': 'ro1iQcEl2m8',
             'zoom': 14.5
           }
@@ -107,7 +107,7 @@ map.on('load', () => {
           'properties': {
             'title': '21 Minute Cycling Suminoe Park to Nanko Fishing Port 🇯🇵 Osaka, Japan',
             'address': '住之江公園駅から南港南の西の果てまで',
-            'date': '',
+            'date': '<a href="vr/?area=osaka&id=cycling&name=nanko-minami">More Info</a>',
             'id': 'tinBEuiKqzU',
             'zoom': 13
           }
