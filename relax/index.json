@@ -4,21 +4,7 @@
     "directory": "",
     "width": "0.5625",
     "height": "1",
-    "video": [
-        {
-            "id": "legacy",
-            "poster": "https://ia801208.us.archive.org/25/items/abenojinjya/abenojinjya.thumbs/021_000001.jpg",
-            "src": [
-                "https://ia801208.us.archive.org/25/items/abenojinjya/021.mp4",
-                "https://ia601300.us.archive.org/22/items/tenjinnomori/002.mp4"
-            ]
-        },
-        {
-            "id": "park",
-            "poster": "https://ia801208.us.archive.org/25/items/tengachaya-park/tengachaya-park.thumbs/000_000001.jpg",
-            "src": [
-                "https://ia801208.us.archive.org/25/items/tengachaya-park/010.mp4"
-            ]
-        }
+    "img": [
+        "https://i.ytimg.com/vi/qzIy_qtpNh8/maxresdefault.jpg"
     ]
 }

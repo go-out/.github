@@ -39,15 +39,19 @@
   <link rel="stylesheet" href="mapbox/marker/style.css">
   <link rel="stylesheet" href="mapbox/popup/style.css">
 
-  <script src="vr/osaka/ferry/index.js"></script>
-  <script src="vr/osaka/cycling/hello.js"></script>
   <script src="profile/js/index.js"></script>
   <script src="profile/js/findme.js"></script>
   <script src="profile/js/csvtojson.js"></script>
 
   <script>
+    const today = new Date();
+    let year = today.getFullYear();
+    let month = today.getMonth() + 1;
+    let day = today.getDate();
+
     // CSVファイルの情報をJSONに追加 (csvtojson.js)
     csvtojson('202312.csv')
+    csvtojson(year + month + '.csv')
 
     document.addEventListener("readystatechange", (event) => {
       if (event.target.readyState === "interactive") {
@@ -57,12 +61,6 @@
         const year = now.getFullYear();
         document.querySelector('#copy time').innerHTML = year;
       } else if (event.target.readyState === "complete") {
-        // mapbox/marker/index.js
-        // 1010/index.js
-        // addIcons(zenyoku.features)
-
-        addMarker(helloOsaka.features)
-        addMarker(osakaFerry.features)
         addMarker(gooutArr.features)
         addMarker(submitJson.features)
 
@@ -204,11 +202,6 @@
   </script>
 
   <script src="mapbox/rotating.js"></script>
-  <script src="mapbox/popup/index.v1.js"></script>
-  <script src="mapbox/polygon/heard.v2.js"></script>
-  <script src="mapbox/polygon/index.v1.js"></script>
-  <script src="mapbox/marker/youtube.v1.js"></script>
-  <script src="mapbox/line/youtube.v1.js"></script>
 </body>
 
 </html>
