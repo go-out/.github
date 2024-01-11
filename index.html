@@ -46,12 +46,12 @@
   <script>
     const today = new Date();
     let year = today.getFullYear();
-    let month = today.getMonth() + 1;
+    let month = ('0' + (today.getMonth() + 1)).slice(-2);
     let day = today.getDate();
 
     // CSVファイルの情報をJSONに追加 (csvtojson.js)
     csvtojson('202312.csv')
-    csvtojson(year + month + '.csv')
+    csvtojson(`${year}${month}.csv`)
 
     document.addEventListener("readystatechange", (event) => {
       if (event.target.readyState === "interactive") {
