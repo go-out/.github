@@ -12,12 +12,12 @@
     "month": "1",
     "day": "11",
     "directory": "https://lh3.googleusercontent.com/",
-    "width": "0.75",
+    "width": "0.7525",
     "height": "1",
     "video": [
         {
             "id": "one",
-            "poster": "p/AF1QipMkVLg16FmvBNlZWWXZWyJg1ol6UFHGOJXdKdVB",
+            "poster": "ggms/AF1QipMkVLg16FmvBNlZWWXZWyJg1ol6UFHGOJXdKdVB",
             "src": [
                 "ggms/AF1QipMkVLg16FmvBNlZWWXZWyJg1ol6UFHGOJXdKdVB=m18",
                 "ggms/AF1QipPnKSK6kKfms1JeTaxhKZg7CSvBToZicdRD98q3=m18",
@@ -28,7 +28,7 @@
         },
         {
             "id": "two",
-            "poster": "p/AF1QipNv3bDsWxmt-sHRjMjhZbNKDnukDrTyg9nyQxPj",
+            "poster": "ggms/AF1QipNv3bDsWxmt-sHRjMjhZbNKDnukDrTyg9nyQxPj",
             "src": [
                 "ggms/AF1QipNv3bDsWxmt-sHRjMjhZbNKDnukDrTyg9nyQxPj=m18",
                 "ggms/AF1QipPZKRUo_lg--NxincSesB53rMvhP5RCfstz10Oh=m18",
@@ -40,7 +40,7 @@
         },
         {
             "id": "three",
-            "poster": "p/AF1QipOj3yebfqOWH6vYIpcT4Dq_2Ea-LrJumBlKakCf",
+            "poster": "ggms/AF1QipOj3yebfqOWH6vYIpcT4Dq_2Ea-LrJumBlKakCf",
             "src": [
                 "ggms/AF1QipOj3yebfqOWH6vYIpcT4Dq_2Ea-LrJumBlKakCf=m18",
                 "ggms/AF1QipMNhkNTvHIwpbgtGFxw-plKgKL0cxPmVk5ubSro=m18",
@@ -48,7 +48,8 @@
                 "ggms/AF1QipPtIQupM78XZ4GFHcbAU2g3GeGo4apEYihyxqMi=m18",
                 "ggms/AF1QipMt9zBSk1X_EAoN4OzVEfe7T1Q3TcHga3Mo1Xdp=m18",
                 "ggms/AF1QipNzJ3bj_qfb58shl7keKm1fFcJQOBTDZwF55axm=m18",
-                "ggms/AF1QipORUSeYHIl9Ptx9XF-qirG4eKDqHn9hDVHk2dep=m18"
+                "ggms/AF1QipORUSeYHIl9Ptx9XF-qirG4eKDqHn9hDVHk2dep=m18",
+                "ggms/AF1QipP3eZ_JO26fi-Mil663M1P1V2TK3qXMhX23CmrW=m18"
             ]
         }
     ]
