@@ -5,39 +5,25 @@
     "month": "12",
     "day": "21",
     "directory": "https://ia601303.us.archive.org/35/items/tezukayama/",
-    "landscape": "repeat(2, 1fr)",
+    "landscape": "repeat(1, 1fr)",
     "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "one",
             "poster": "tezukayama.thumbs/000_000001.jpg",
             "src": [
-                "000.mp4"
-            ]
-        },
-        {
-            "id": "two",
-            "poster": "tezukayama.thumbs/001A_000001.jpg",
-            "src": [
-                "001A.mp4",
-                "001B.mp4"
-            ]
-        },
-        {
-            "id": "three",
-            "poster": "tezukayama.thumbs/002A_000001.jpg",
-            "src": [
-                "002A.mp4",
+                "000.mp4",
+                "001B.mp4",
                 "002B.mp4"
             ]
         },
         {
-            "id": "four",
+            "id": "two",
             "poster": "tezukayama.thumbs/003A_000009.jpg",
             "src": [
-                "003A.mp4",
-                "003B.mp4",
-                "003C.mp4"
+                "001A.mp4",
+                "002A.mp4",
+                "003A.mp4"
             ]
         }
     ]
