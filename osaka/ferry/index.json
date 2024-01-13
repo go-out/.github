@@ -15,8 +15,8 @@
         "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E5%B8%82%E3%81%AE%E5%85%AC%E5%96%B6%E6%B8%A1%E8%88%B9' target='_blank'>大阪市の公営渡船 - Wikipedia</a>"
     ],
     "directory": "",
-    "landscape": "repeat(2, 1fr)",
-    "portrait": "repeat(1, 1fr)",
+    "landscape": "repeat(3, 1fr)",
+    "portrait": "repeat(2, 1fr)",
     "video": [
         {
             "id": "chitose",
@@ -27,6 +27,22 @@
             ]
         },
         {
+            "id": "funamachi",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipM7O7oCl4zhryZqFbhTR4_G7kemJqo8lEmsJhLT",
+            "src": [
+                "https://lh3.googleusercontent.com/ggs/AF1QipM7O7oCl4zhryZqFbhTR4_G7kemJqo8lEmsJhLT=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipPMeKiSU0BU2QERaG7LB7MRNOeVIy762HEKQjT6=m18"
+            ]
+        },
+        {
+            "id": "kizugawa",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipMLjoIa7YkLcED9LpaxvVqZ9ixZgwLA4ZueiKeQ",
+            "src": [
+                "https://lh3.googleusercontent.com/ggs/AF1QipMLjoIa7YkLcED9LpaxvVqZ9ixZgwLA4ZueiKeQ=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipNNKw4sehHxTTRJjF4I52kX48Dj5D91edWp5zDg=m18"
+            ]
+        },
+        {
             "id": "ochiaikami",
             "poster": "https://ia601300.us.archive.org/4/items/ochiaikami/ochiaikami.thumbs/000_000044.jpg",
             "src": [
@@ -34,7 +50,23 @@
             ]
         },
         {
-            "id": "Tempozan",
+            "id": "ochiaishimo",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipPws8xxpbciKTfwmCpWmRA81Ayy1SiBz4IZeWT4",
+            "src": [
+                "https://lh3.googleusercontent.com/ggs/AF1QipPws8xxpbciKTfwmCpWmRA81Ayy1SiBz4IZeWT4=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipOLCWkFqmOCOwgy7-7nMYRcLdH4CjaUUoShbxeF=m18"
+            ]
+        },
+        {
+            "id": "senbonmatsu",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-",
+            "src": [
+                "https://lh3.googleusercontent.com/ggs/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipPQsejw21O94u7yR7sJUAt0XuK9XxDhJ7f2wX5c=m18"
+            ]
+        },
+        {
+            "id": "tempozan",
             "poster": "https://ia601303.us.archive.org/27/items/Tempozan/Tempozan.thumbs/103_000010.jpg",
             "src": [
                 "https://ia601303.us.archive.org/27/items/Tempozan/201.mp4",

@@ -14,15 +14,15 @@ h1 {
 
 @font-face {
     font-family: "Kristina";
-    src: url("../fonts/Kristina-Bold.otf") format("opentype"),
-        url("../fonts/Kristina-Fine.otf") format("opentype");
+    src: url("../profile/fonts/Kristina-Bold.otf") format("opentype"),
+        url("../profile/fonts/Kristina-Fine.otf") format("opentype");
 }
 
 @font-face {
     font-family: "DiaPro";
-    src: url("../fonts/DiaPro-Regular.eot") format("embedded-opentype"),
-        url("../fonts/DiaPro-Regular.otf") format("opentype"),
-        url("../fonts/DiaPro-Regular.woff") format("woff");
+    src: url("../profile/fonts/DiaPro-Regular.eot") format("embedded-opentype"),
+        url("../profile/fonts/DiaPro-Regular.otf") format("opentype"),
+        url("../profile/fonts/DiaPro-Regular.woff") format("woff");
 }
 
 header h2 {

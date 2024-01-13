@@ -13,12 +13,18 @@
     <meta content="優雅にリラックスできる場所" name="description">
     <meta content="優雅にリラックスできる場所" property="og:description">
 
-    <link rel="icon" href="profile/img/favicon.png">
-    <link rel="icon" href="profile/img/mobile.png" sizes="192x192">
-    <link rel="apple-touch-icon-precomposed" href="profile/img/mobile.png" sizes="180x180">
-    <link rel="stylesheet" href="profile/css/relax.css">
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://creative-community.space/map/relax/" property="og:url">
+    <meta content="https://creative-community.space/map/relax/index.png" property="og:image">
+    <meta content="https://creative-community.space/map/relax/index.png" name="twitter:image:src">
 
-    <script src="profile/js/relax.js"></script>
+    <link rel="icon" href="../profile/img/favicon.png">
+    <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../profile/img/mobile.png" sizes="180x180">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js"></script>
     <script>
         // ?area=エリア&id=ID&name=名前
         const urlParam = location.search.substring(1)
@@ -29,18 +35,12 @@
                 var paramItem = param[arr].split('=')
                 paramArr[paramItem[0]] = paramItem[1]
             }
-            const json = paramArr.id + "/" + paramArr.name + '.json'
-            indexJSON(paramArr.area + "/" + json)
+            const json = paramArr.area + "/" + paramArr.name + '.json'
+            indexJSON(paramArr.id + "/" + json)
         } else {
-            indexJSON('profile/relax.json')
+            indexJSON('index.json')
         }
     </script>
-
-    <!--for Twitter-->
-    <meta content="summary_large_image" name="twitter:card">
-    <meta content="https://creative-community.space/map/relax.html" property="og:url">
-    <meta content="https://creative-community.space/map/profile/img/card.png" property="og:image">
-    <meta content="https://creative-community.space/map/profile/img/card.png" name="twitter:image:src">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,18 +66,16 @@
     </main>
 
     <footer>
-        <a href="?area=osaka&id=alps&name=shoutenyama">聖天山</a>
+        <a href="?id=legacy&area=osaka&name=abenojinjya">阿倍野神社</a>
+        <a href="?id=legacy&area=osaka&name=tenjinnomori">天神ノ森天満宮</a>
 
-        <a href="?area=osaka&id=legacy&name=abenojinjya">阿倍野神社</a>
-        <a href="?area=osaka&id=legacy&name=tenjinnomori">天神ノ森天満宮</a>
+        <a href="?id=park&area=osaka&name=shoutenyama">聖天山</a>
+        <a href="?id=park&area=osaka&name=daisenkouen">大仙公園</a>
+        <a href="?id=park&area=osaka&name=momogaike">桃ヶ池公園</a>
+        <a href="?id=park&area=osaka&name=tengachaya">天下茶屋公園</a>
 
-        <a href="?area=osaka&id=park&name=daisenkouen">大仙公園</a>
-        <a href="?area=osaka&id=park&name=momogaike">桃ヶ池公園</a>
-        <a href="?area=osaka&id=park&name=tengachaya">天下茶屋公園</a>
-
-        <a href="?area=osaka&id=spot&name=kohama-ss">粉浜本通商店街</a>
-        <a href="?area=osaka&id=spot&name=sainvarierkanaoka">金岡団地スターハウスメモリアル</a>
-        <a href="?area=osaka&id=spot&name=yao-airport">八尾空港</a>
+        <a href="?id=spot&area=osaka&name=sainvarierkanaoka">金岡団地スターハウスメモリアル</a>
+        <a href="?id=spot&area=osaka&name=yao-airport">八尾空港</a>
     </footer>
 </body>
 
