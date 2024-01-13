@@ -1,0 +1,62 @@
+{
+    "title": "聖天山（しょうてんやま）",
+    "description": "「大阪五低山」の一つ、標高14mの低山「聖天山（海照山）」の頂上にある真言宗単立の寺院「正圓寺（しょうえんじ）」",
+    "info": {
+        "address": "大阪府大阪市阿倍野区松虫通３丁目２−２",
+        "google": "https://maps.app.goo.gl/DSsMiw6UeU5d3LWr7",
+        "website": "https://shoenji.jp/"
+    },
+    "year": "2024",
+    "month": "1",
+    "day": "11",
+    "directory": "https://ia601206.us.archive.org/29/items/shoutenyama/",
+    "width": "0.7525",
+    "height": "1",
+    "video": [
+        {
+            "id": "one",
+            "poster": "",
+            "src": [
+                "000.mp4",
+                "001.mp4",
+                "002.mp4",
+                "003.mp4",
+                "004.mp4",
+                "005.mp4",
+                "006.mp4",
+                "007.mp4",
+                "008.mp4"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "",
+            "src": [
+                "010.mp4",
+                "011.mp4",
+                "012.mp4",
+                "013.mp4",
+                "014.mp4",
+                "015.mp4",
+                "016.mp4",
+                "017.mp4"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "",
+            "src": [
+                "020.mp4",
+                "021.mp4",
+                "022.mp4",
+                "023.mp4",
+                "024.mp4",
+                "025.mp4",
+                "026.mp4",
+                "027.mp4",
+                "028.mp4",
+                "029.mp4"
+            ]
+        }
+    ]
+}
