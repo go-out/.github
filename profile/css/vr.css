@@ -14,8 +14,8 @@ h1 {
 
 @font-face {
     font-family: "Kristina";
-    src: url("../profile/fonts/Kristina-Bold.otf") format("opentype"),
-        url("../profile/fonts/Kristina-Fine.otf") format("opentype");
+    src: url("../fonts/Kristina-Bold.otf") format("opentype"),
+        url("../fonts/Kristina-Fine.otf") format("opentype");
 }
 
 header,
@@ -291,7 +291,7 @@ footer div h3 {
 
 footer button {
     background: transparent;
-    background-image: url(../profile/img/mobile.png);
+    background-image: url(../img/mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;

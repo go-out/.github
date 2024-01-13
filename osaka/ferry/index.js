@@ -13,7 +13,7 @@ const osakaFerry = {
                 'title': 'HELLO CYCLING',
                 'address': '天保山公園',
                 'date': '<a href="https://maps.app.goo.gl/WqFtKxV9TmNxHGyP8" target="_blank">Google Map</a>',
-                'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
+                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -28,7 +28,7 @@ const osakaFerry = {
                 'title': 'HELLO CYCLING',
                 'address': 'URポートサイド築港',
                 'date': '<a href="https://maps.app.goo.gl/em8HimmESzew7NK66" target="_blank">Google Map</a>',
-                'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
+                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -42,8 +42,8 @@ const osakaFerry = {
             'properties': {
                 'title': '天保山渡船場',
                 'address': '安治川（港区築港3丁目 ⇄ 此花区桜島3丁目）を 15 ~ 30分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=tempozan">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=tempozan">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'zoom': 16,
             }
@@ -58,7 +58,7 @@ const osakaFerry = {
                 'title': 'HELLO CYCLING',
                 'address': '大阪ベイタワー',
                 'date': '<a href="https://maps.app.goo.gl/dFgQiP7XdzFyKsLs6" target="_blank">Google Map</a>',
-                'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
+                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -73,7 +73,7 @@ const osakaFerry = {
                 'title': 'HELLO CYCLING',
                 'address': 'べんてんひろば駐輪場',
                 'date': '<a href="https://maps.app.goo.gl/FyM356NmJnVWw1q36" target="_blank">Google Map</a>',
-                'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
+                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -88,7 +88,7 @@ const osakaFerry = {
                 'title': 'HELLO CYCLING',
                 'address': 'セブンイレブン　大阪三軒家東4丁目店',
                 'date': '<a href="https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9" target="_blank">Google Map</a>',
-                'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
+                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -102,8 +102,8 @@ const osakaFerry = {
             'properties': {
                 'title': '甚兵衛渡船場',
                 'address': '尻無川（大正区泉尾7丁目 ⇄ 港区福崎1丁目）を 随時 ~ 15分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=zonbee">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=zonbee">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'id': 'erky9l9h0KQ',
                 'zoom': 16.5,
@@ -118,8 +118,8 @@ const osakaFerry = {
             'properties': {
                 'title': '千歳渡船場',
                 'address': '大正内港（大正区鶴町4丁目 ⇄ 同区北恩加島2丁目）を 10 ~ 20分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=chitose">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=chitose">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'id': 'pHLZszPeUEQ',
                 'zoom': 16,
@@ -135,7 +135,7 @@ const osakaFerry = {
                 'title': 'HELLO CYCLING',
                 'address': '千島ガーデンモール',
                 'date': '<a href="https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8" target="_blank">Google Map</a>',
-                'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
+                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -149,8 +149,8 @@ const osakaFerry = {
             'properties': {
                 'title': '落合上渡船場',
                 'address': '木津川（大正区千島1丁目 ⇄ 西成区北津守4丁目）を 10 ~ 15分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=ochiaikami">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=ochiaikami">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'id': 'tkVySMeh9Js',
                 'zoom': 16.5,
@@ -165,8 +165,8 @@ const osakaFerry = {
             'properties': {
                 'title': '落合下渡船場',
                 'address': '木津川（大正区平尾1丁目 ⇄ 西成区津守2丁目）を 10 ~ 15分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=ochiaishimo">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=ochiaishimo">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'id': 'OmS0ifSabJo',
                 'zoom': 16.5,
@@ -182,7 +182,7 @@ const osakaFerry = {
                 'title': 'HELLO CYCLING',
                 'address': 'サイクルベースあさひ北加賀屋店',
                 'date': '<a href="https://maps.app.goo.gl/H4ngonKhXimYdKEM6" target="_blank">Google Map</a>',
-                'iconSize': ['vr/icon/hello.jpg', '2.5rem', '2.5rem'],
+                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -196,8 +196,8 @@ const osakaFerry = {
             'properties': {
                 'title': '千本松渡船場',
                 'address': '木津川（大正区南恩加島1丁目 ⇄ 西成区南津守2丁目）を 10 ~ 15分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=senbonmatsu">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=senbonmatsu">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'id': 'SNw7eE2K0c0',
                 'zoom': 16,
@@ -212,8 +212,8 @@ const osakaFerry = {
             'properties': {
                 'title': '船町渡船場',
                 'address': '木津川運河（大正区鶴町1丁目 ⇄ 同区船町1丁目）を 10 ~ 20分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=funamachi">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=funamachi">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'id': 'Z8Von0j_br8',
                 'zoom': 17,
@@ -228,8 +228,8 @@ const osakaFerry = {
             'properties': {
                 'title': '木津川渡船場',
                 'address': '木津川（大正区船町1丁目 ⇄ 住之江区平林北1丁目）を 10 ~ 45分毎 運航',
-                'date': '<a href="vr/osaka/ferry/?name=kizugawa">more info</a>',
-                'iconSize': ['vr/osaka/ferry/icon.png', '2rem', '2rem'],
+                'date': '<a href="osaka/ferry/?name=kizugawa">more info</a>',
+                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
                 'tags': 'vr',
                 'id': 'JDQjc70a1T8',
                 'zoom': 16,

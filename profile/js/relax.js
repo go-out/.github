@@ -45,7 +45,7 @@ function playThis(obj) {
                 playBtn.textContent = document.title;
                 stop();
             } else if (document.body.className === "stop") {
-                playBtn.textContent = description.content;
+                playBtn.innerHTML = description.content;
                 start();
             }
         });
