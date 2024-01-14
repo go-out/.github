@@ -33,6 +33,7 @@
 
     <script src="../profile/js/index.js"></script>
     <script src="alps/index.js"></script>
+    <script src="cycling/index.js"></script>
     <script src="ferry/index.js"></script>
     <script>
         document.addEventListener("readystatechange", (event) => {
@@ -40,6 +41,7 @@
                 //
             } else if (event.target.readyState === "complete") {
                 addMarker(osakaAlps.features)
+                addMarker(osakaCycling.features)
                 addMarker(osakaFerry.features)
 
                 const main = document.querySelector('main')
