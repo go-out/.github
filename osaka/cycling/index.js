@@ -1,6 +1,6 @@
 'use strict'
 
-const osakaAlps = {
+const osakaCycling = {
     'type': 'FeatureCollection',
     'features': [
         {
