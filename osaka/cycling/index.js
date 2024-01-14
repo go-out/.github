@@ -127,7 +127,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.5865722694698,34.62047374959826]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
@@ -142,7 +142,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.5893347684929,34.612073306971425]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
