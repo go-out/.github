@@ -68,6 +68,9 @@ function addMarker(arr) {
             chengeHeader(marker);
 
             if (marker.properties.youtube) {
+                const main = document.querySelector('main');
+                main.hidden = false;
+
                 player.loadVideoById({ videoId: marker.properties.youtube });
             }
         })

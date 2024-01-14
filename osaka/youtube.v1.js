@@ -25,9 +25,9 @@ const youtube = {
                 'coordinates': [135.41478295447018, 34.64411832595768]
             },
             'properties': {
-                'title': '<a href="vr/?area=osaka&id=cycling&name=seaside-cosmo">シーサイドコスモ (コスモスクエア海浜緑地)</a>',
+                'title': 'シーサイドコスモ（コスモスクエア海浜緑地）',
                 'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道',
-                'date': '',
+                'date': '<a href="../vr/?id=cycling&area=osaka&name=seaside-cosmo">More Info</a>',
                 'tags': 'park',
                 'youtube': 'EoFg1eMWADg',
                 'zoom': 15,
@@ -40,9 +40,9 @@ const youtube = {
                 'coordinates': [135.42081655887517, 34.633723800118446]
             },
             'properties': {
-                'title': '<a href="vr/?area=osaka&id=cycling&name=port-town">南港ポートタウン</a>',
+                'title': '南港ポートタウン',
                 'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にある住宅地、ニュータウン。',
-                'date': '',
+                'date': '<a href="../vr/?id=cycling&area=osaka&name=port-town">More Info</a>',
                 'tags': 'park',
                 'youtube': '8az_VW2ssbs',
                 'zoom': 15.5,
@@ -115,9 +115,9 @@ const youtube = {
                 'coordinates': [135.42955864449175, 34.6402632345294]
             },
             'properties': {
-                'title': '<a href="vr/?area=osaka&id=cycling&name=container_berth">咲洲コンテナターミナル</a>',
+                'title': '咲洲コンテナターミナル',
                 'address': '咲洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
-                'date': '',
+                'date': '<a href="../vr/?id=cycling&area=osaka&name=container_berth">More Info</a>',
                 'tags': 'vr',
                 'youtube': 'rlfyH_v-fTk',
                 'zoom': 14.5,
