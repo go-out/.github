@@ -39,6 +39,7 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
 
   <script src="profile/js/index.js"></script>
+  <script src="profile/js/mapbox.js"></script>
   <script src="profile/js/findme.js"></script>
   <script src="profile/js/csvtojson.js"></script>
 
@@ -57,14 +58,7 @@
         fetchHTML('dialog ul', 'date.html')
         document.querySelector('#copy time').innerHTML = year;
       } else if (event.target.readyState === "complete") {
-        addMarker(gooutArr.features)
         addMarker(submitJson.features)
-
-        const main = document.querySelector('main')
-        main.addEventListener('click', function () {
-          main.hidden = true;
-          player.pauseVideo()
-        });
       }
     })
   </script>

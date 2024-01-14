@@ -31,18 +31,55 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css' rel='stylesheet' />
 
-    <script src="../profile/js/index.js"></script>
+    <script src="../profile/js/mapbox.js"></script>
     <script src="alps/index.js"></script>
     <script src="cycling/index.js"></script>
     <script src="ferry/index.js"></script>
     <script>
+        // IFrame Player API の読み込み
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/player_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+        var videoId;
+
+        function onYouTubePlayerAPIReady() {
+            player = new YT.Player('player', {
+                playerVars: {
+                    'playsinline': 1,
+                    'autoplay': 1,
+                    'controls': 0,
+                    'rel': 0
+                }
+            });
+        };
+
         document.addEventListener("readystatechange", (event) => {
             if (event.target.readyState === "interactive") {
-                //
-            } else if (event.target.readyState === "complete") {
+                addMarker(gooutArr.features)
                 addMarker(osakaAlps.features)
                 addMarker(osakaCycling.features)
                 addMarker(osakaFerry.features)
+            } else if (event.target.readyState === "complete") {
+                const goout = document.querySelector('#map');
+                const title = document.querySelector('#title');
+                const dialog = document.querySelector("dialog");
+                const close = document.querySelector('dialog #close');
+                const menu = document.querySelector('footer button');
+                goout.style.pointerEvents = 'auto';
+                goout.style.userSelect = 'auto';
+                title.hidden = true;
+                menu.hidden = false;
+
+                menu.addEventListener('click', function () {
+                    dialog.showModal();
+                })
+
+                close.addEventListener('click', function () {
+                    dialog.close();
+                })
 
                 const main = document.querySelector('main')
                 main.addEventListener('click', function () {
@@ -61,18 +98,9 @@
     </h1>
 
     <header>
-        <h2 id="latlng" class="goout shadow">
-            Life is precious. Every minute. And more precious with you in it.
-        </h2>
-        <address id="address" class="goout">
-            lyrics from "Jon Brion - Little Person"
-        </address>
-        <h3 id="datetime" class="relax">
-            <u>知っていることの</u>
-            <b>外へ</b>
-            <u>わからないところまで</u>
-            <b>出かける</b>
-        </h3>
+        <h2 id="latlng" class="goout shadow"></h2>
+        <address id="address" class="goout"></address>
+        <h3 id="datetime" class="goout"></h3>
     </header>
 
     <div id="map"></div>
@@ -105,17 +133,13 @@
                 <strong class="goout">I'm here !</strong>
             </small>
         </h3>
-        <button type="button" id="enter" class="goout" hidden>I'm here !</button>
     </dialog>
 
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
 
         let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-            center,
-            zoom;
-
-        center = [135.50216018269685, 34.693815199983845]
+            center = [135.50216018269685, 34.693815199983845];
 
         const map = new mapboxgl.Map({
             container: 'map',
@@ -141,6 +165,7 @@
         map.addControl(new mapboxgl.NavigationControl())
         map.addControl(new mapboxgl.FullscreenControl())
     </script>
+    <script src="line.v1.js"></script>
 </body>
 
 </html>
