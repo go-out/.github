@@ -43,6 +43,13 @@ function addMarker(arr) {
         const el = document.createElement('div');
         el.className = marker.properties.tags;
 
+        if (marker.properties.youtube) {
+            const url = `https://i.ytimg.com/vi/${marker.properties.youtube}/default.jpg`;
+            el.style.backgroundImage = `url(${url})`;
+            el.style.width = '5.5rem';
+            el.style.height = '4rem';
+        }
+
         if (marker.properties.iconSize) {
             const url = marker.properties.iconSize[0];
             el.style.width = marker.properties.iconSize[1];
@@ -59,6 +66,10 @@ function addMarker(arr) {
         el.addEventListener('click', () => {
             flyToCenter(marker);
             chengeHeader(marker);
+
+            if (marker.properties.youtube) {
+                player.loadVideoById({ videoId: marker.properties.youtube });
+            }
         })
     }
 }

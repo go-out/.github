@@ -14,7 +14,7 @@ const youtube = {
                 'address': 'ここにいるのにいないような気持ちになれる場所',
                 'date': '',
                 'tags': 'relax',
-                'id': 'qzIy_qtpNh8',
+                'youtube': 'qzIy_qtpNh8',
                 'zoom': 17.5,
             }
         },
@@ -29,7 +29,7 @@ const youtube = {
                 'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道',
                 'date': '',
                 'tags': 'park',
-                'id': 'EoFg1eMWADg',
+                'youtube': 'EoFg1eMWADg',
                 'zoom': 15,
             }
         },
@@ -44,7 +44,7 @@ const youtube = {
                 'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にある住宅地、ニュータウン。',
                 'date': '',
                 'tags': 'park',
-                'id': '8az_VW2ssbs',
+                'youtube': '8az_VW2ssbs',
                 'zoom': 15.5,
             }
         },
@@ -59,7 +59,7 @@ const youtube = {
                 'address': '大きな空と海を一望できる気持ちのいい場所',
                 'date': '',
                 'tags': 'relax',
-                'id': '9DRiQ5CVcjE',
+                'youtube': '9DRiQ5CVcjE',
                 'zoom': 15.5,
             }
         },
@@ -74,7 +74,7 @@ const youtube = {
                 'address': '全国に2300社ある住吉神社の総本社',
                 'date': '',
                 'tags': 'relax',
-                'id': 'wbOguTvuV0Q',
+                'youtube': 'wbOguTvuV0Q',
                 'zoom': 16.5,
             }
         },
@@ -89,7 +89,7 @@ const youtube = {
                 'address': 'Sumiyoshi Park, Osaka, Japan',
                 'date': '',
                 'tags': 'park',
-                'id': 'mkioDOspLbs',
+                'youtube': 'mkioDOspLbs',
                 'zoom': 17.25,
             }
         },
@@ -104,7 +104,7 @@ const youtube = {
                 'address': 'Sumiyoshi Park, Osaka, Japan',
                 'date': '',
                 'tags': 'park',
-                'id': 'gfwP_viCeZg',
+                'youtube': 'gfwP_viCeZg',
                 'zoom': 17.5,
             }
         },
@@ -119,7 +119,7 @@ const youtube = {
                 'address': '咲洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
                 'date': '',
                 'tags': 'vr',
-                'id': 'rlfyH_v-fTk',
+                'youtube': 'rlfyH_v-fTk',
                 'zoom': 14.5,
             }
         },
@@ -134,7 +134,7 @@ const youtube = {
                 'address': '南港北（咲洲）にある高さ256.0m、地上55階・地下3階建ての超高層ビル',
                 'date': '',
                 'tags': 'relax',
-                'id': '9E8UZio4SJM',
+                'youtube': '9E8UZio4SJM',
                 'zoom': 17.25,
             }
         },
@@ -149,7 +149,7 @@ const youtube = {
                 'address': '何をする訳でもなく、ただぼーっと過ごした記録映像（25分36秒）',
                 'date': '',
                 'tags': 'relax',
-                'id': 'O84LelQJNbA',
+                'youtube': 'O84LelQJNbA',
                 'zoom': 16.5,
             }
         },
@@ -164,78 +164,9 @@ const youtube = {
                 'address': 'まんだいいけこうえん、ばんだいいけこうえん',
                 'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
                 'tags': 'park',
-                'id': '-7DEl_jxuW8',
+                'youtube': '-7DEl_jxuW8',
                 'zoom': 16.5,
             }
         }
     ]
 };
-
-// IFrame Player API の読み込み
-const tag = document.createElement('script');
-tag.src = "https://www.youtube.com/player_api";
-const firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-var player;
-var videoId;
-
-function onYouTubePlayerAPIReady() {
-    player = new YT.Player('player', {
-        playerVars: {
-            'playsinline': 1,
-            'autoplay': 1,
-            'controls': 0,
-            'rel': 0
-        }
-    });
-};
-
-map.on('load', () => {
-    for (const marker of youtube.features) {
-        const el = document.createElement('div');
-        el.className = marker.properties.tags;
-
-        const url = `https://i.ytimg.com/vi/${marker.properties.id}/default.jpg`;
-        el.style.backgroundImage = `url(${url})`;
-        el.style.width = '5.5rem';
-        el.style.height = '4rem';
-
-        new mapboxgl.Marker(el, {
-            offset: [0, 0]
-        })
-            .setLngLat(marker.geometry.coordinates)
-            .addTo(map)
-
-        el.addEventListener('click', (e) => {
-            map.flyTo({
-                center: marker.geometry.coordinates,
-                essential: true,
-                zoom: marker.properties.zoom
-            })
-
-            const main = document.querySelector('main');
-            main.hidden = false;
-
-            player.loadVideoById({ videoId: marker.properties.id });
-
-            const thisLatLng = document.querySelector('#latlng');
-            const thisAddress = document.querySelector('#address');
-            const thisDate = document.querySelector('#datetime');
-            thisLatLng.innerHTML = marker.properties.title;
-            thisAddress.innerHTML = marker.properties.address;
-            thisDate.innerHTML = marker.properties.date;
-
-            const mobileAll = document.querySelectorAll('.mobile');
-            for (const mobile of mobileAll) {
-                mobile.hidden = true;
-            }
-
-            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                for (const mobile of mobileAll) {
-                    mobile.hidden = false;
-                }
-            }
-        })
-    };
-});
