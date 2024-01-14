@@ -52,6 +52,21 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.4955860387543,34.63590749270175]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'テニススクール・ノア　大阪天下茶屋校',
+                'date': '<a href="https://maps.app.goo.gl/gXENm43Zp6DUvQrn9" target="_blank">Google Map</a>',
+                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
+                'tags': 'hello',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.51465136083283,34.62886872201646]
             },
             'properties': {
@@ -247,7 +262,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.5280508928695,34.65858488743922]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
@@ -262,7 +277,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.52277104745752,34.64716788403719]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
@@ -277,7 +292,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.53863644418288,34.654900982093494]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
@@ -292,7 +307,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.46904806616828,34.58122148528713]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
@@ -307,7 +322,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4327054373283, 34.65756057444443]
+                'coordinates': [135.46836173079623,34.5818294292086]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
