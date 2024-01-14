@@ -1,23 +1,8 @@
 'use strict'
 
-const osakaFerry = {
+const osakaAlps = {
     'type': 'FeatureCollection',
     'features': [
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.43561508622975, 34.65327525828587]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'URポートサイド築港',
-                'date': '<a href="https://maps.app.goo.gl/em8HimmESzew7NK66" target="_blank">Google Map</a>',
-                'iconSize': ['profile/img/hello.jpg', '2.5rem', '2.5rem'],
-                'tags': 'hello',
-                'zoom': 16,
-            }
-        },
         {
             'type': 'Feature',
             'geometry': {
@@ -26,24 +11,9 @@ const osakaFerry = {
             },
             'properties': {
                 'title': '天保山',
-                'address': '天保山公園にある人工的に土を積み上げて造られた山（築山）。標高4.53m（15尺）',
-                'date': '<a href="?id=park&area=osaka&name=tempozan">more info</a>',
-                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
-                'tags': 'vr',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.50286230415117, 34.63547074276174]
-            },
-            'properties': {
-                'title': '聖天山',
-                'address': '標高14mの低山。頂上には、真言宗単立の寺院「正圓寺（しょうえんじ）」があります。',
-                'date': '<a href="?id=legacy&area=osaka&name=shoutenyama">more info</a>',
-                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
+                'address': '天保山公園にある人工的に土を積み上げて造られた山（築山）。標高4.53m。',
+                'date': '<a href="?id=spot&area=osaka&name=tempozan">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
                 'tags': 'vr',
                 'zoom': 16,
             }
@@ -56,10 +26,10 @@ const osakaFerry = {
             },
             'properties': {
                 'title': '御勝山',
-                'address': '御勝山古墳、後円部の墳丘。標高14m。古墳の中央を勝山通が貫き、前方部は崩されて「御勝山南公園」になっています。',
-                'date': '<a href="?id=legacy&area=osaka&name=okachiyama">more info</a>',
-                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
-                'tags': 'vr',
+                'address': '御勝山古墳の後円部。標高14mの墳丘。古墳の中央を勝山通が貫き、前方部は崩されて「御勝山南公園」になっています。',
+                'date': '<a href="?id=park&area=osaka&name=okachiyama">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'park',
                 'zoom': 16,
             }
         },
@@ -73,8 +43,8 @@ const osakaFerry = {
                 'title': '帝塚山',
                 'address': '帝塚山古墳の墳丘。標高19.88m。 ※古墳内への立ち入りには、「財団法人住吉村常盤会」への申請が必要です。',
                 'date': '<a href="?id=legacy&area=osaka&name=tezukayama">more info</a>',
-                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
-                'tags': 'vr',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'legacy',
                 'zoom': 16,
             }
         },
@@ -87,9 +57,69 @@ const osakaFerry = {
             'properties': {
                 'title': '茶臼山',
                 'address': '天王寺公園にある茶臼山古墳の墳丘。標高26m。古墳も公園の一部として遊歩道が整備されています。',
-                'date': '<a href="?id=legacy&area=osaka&name=tezukayama">more info</a>',
-                'iconSize': ['osaka/ferry/icon.png', '2rem', '2rem'],
-                'tags': 'vr',
+                'date': '<a href="?id=legacy&area=osaka&name=chausuyama">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'legacy',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50286230415117, 34.63547074276174]
+            },
+            'properties': {
+                'title': '聖天山',
+                'address': '標高14mの低山。頂上には、真言宗単立の寺院「正圓寺（しょうえんじ）」があります。',
+                'date': '<a href="?id=legacy&area=osaka&name=shoutenyama">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'legacy',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4740969357722, 34.64892520164277]
+            },
+            'properties': {
+                'title': '昭和山',
+                'address': '千島公園にある築山。標高33m。昭和山・千島公園一帯には、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物などが植えられています。',
+                'date': '<a href="?id=park&area=osaka&name=chisima">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'park',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.57953104285798,34.71552805310158]
+            },
+            'properties': {
+                'title': '鶴見新山',
+                'address': '鶴見緑地にある築山。標高39m。ゴミ焼却場から出た残灰を積み上げてできた、大阪最高峰の人工の山（築山）です。',
+                'date': '<a href="?id=park&area=osaka&name=tsurumiryokuchi">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'park',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46153265821147, 34.57987841383567]
+            },
+            'properties': {
+                'title': '蘇鉄山',
+                'address': '大浜公園内にある築山。標高6.97m。山頂付近にソテツが植えられています。',
+                'date': '<a href="?id=park&area=osaka&name=ohama">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'park',
                 'zoom': 16,
             }
         }

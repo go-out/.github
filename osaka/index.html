@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title></title>
+    <meta content="" property="og:title">
+    <meta content="" name="description">
+    <meta content="" name="og:description">
+
+    <link rel="icon" href="../profile/img/favicon.png">
+    <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../profile/img/mobile.png" sizes="180x180">
+
+    <link rel="stylesheet" href="../profile/css/animation.css">
+    <link rel="stylesheet" href="../profile/css/style.css">
+    <link rel="stylesheet" href="../profile/css/index.css">
+    <link rel="stylesheet" href="../mapbox/marker/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+
+    <!-- Mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css' rel='stylesheet' />
+
+    <script src="../profile/js/index.js"></script>
+    <script src="alps/index.js"></script>
+    <script src="ferry/index.js"></script>
+    <script>
+        document.addEventListener("readystatechange", (event) => {
+            if (event.target.readyState === "interactive") {
+                //
+            } else if (event.target.readyState === "complete") {
+                addMarker(osakaAlps.features)
+                addMarker(osakaFerry.features)
+
+                const main = document.querySelector('main')
+                main.addEventListener('click', function () {
+                    main.hidden = true;
+                    player.pauseVideo()
+                });
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <h1 id="title">
+        <strong class="goout">Go Out</strong>
+        <button type="button" class="goout">Let's have some fun</button>
+    </h1>
+
+    <header>
+        <h2 id="latlng" class="goout shadow">
+            Life is precious. Every minute. And more precious with you in it.
+        </h2>
+        <address id="address" class="goout">
+            lyrics from "Jon Brion - Little Person"
+        </address>
+        <h3 id="datetime" class="relax">
+            <u>知っていることの</u>
+            <b>外へ</b>
+            <u>わからないところまで</u>
+            <b>出かける</b>
+        </h3>
+    </header>
+
+    <div id="map"></div>
+
+    <main hidden>
+        <div id="player"></div>
+    </main>
+
+    <footer>
+        <button type="button" hidden></button>
+    </footer>
+
+    <dialog>
+        <input type="button" id="close" value="×">
+        <details class="goout">
+            <summary>
+                <small>このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。</small>
+            </summary>
+        </details>
+
+        <h3 class="relax">
+            We Create a
+            <b>Map</b>
+            of
+            <u>Where I（We）Were</u>
+            by location informations submit on this website.
+            <br>
+            <small class="relax">
+                You can add pins of your current locationon on this map by click
+                <strong class="goout">I'm here !</strong>
+            </small>
+        </h3>
+        <button type="button" id="enter" class="goout" hidden>I'm here !</button>
+    </dialog>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
+
+        let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
+            center,
+            zoom;
+
+        center = [135.50216018269685, 34.693815199983845]
+
+        const map = new mapboxgl.Map({
+            container: 'map',
+            center: center,
+            style: css,
+            zoom: 9.87654321,
+            scrollZoom: true,
+            projection: 'globe',
+            attributionControl: false
+        })
+
+        map.addControl(
+            new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                // デバイスの位置の変更に応じて位置情報を更新
+                trackUserLocation: true,
+                // デバイスが向いている方向を矢印で描画
+                showUserHeading: true
+            })
+        )
+        map.addControl(new mapboxgl.NavigationControl())
+        map.addControl(new mapboxgl.FullscreenControl())
+    </script>
+</body>
+
+</html>
