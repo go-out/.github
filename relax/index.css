@@ -25,6 +25,27 @@ h1 {
         url("../profile/fonts/DiaPro-Regular.woff") format("woff");
 }
 
+.relax,
+article h3 {
+    font-family: "DiaPro", sans-serif;
+}
+
+.relax a {
+    padding: 0.25rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.relax a {
+    color: #ebd809;
+    background-color: #000;
+}
+
+.relax a:hover {
+    color: #000;
+    background-color: #ebd809;
+}
+
 header h2 {
     font-family: "Kristina", 'Zen Maru Gothic', cursive;
 }
@@ -40,6 +61,7 @@ main fieldset label {
     background: #111;
 }
 
+article,
 footer {
     background: #ebd809;
 }
@@ -52,7 +74,8 @@ header h1 small {
     color: #fff;
 }
 
-header h1 {
+header h1,
+article h3 {
     font-size: 222%;
 }
 
@@ -70,7 +93,8 @@ header button {
 }
 
 header h1,
-header h1 strong {
+header h1 strong,
+article h3 {
     font-weight: 555;
 }
 
@@ -116,6 +140,7 @@ main fieldset input {
 }
 
 main canvas,
+#player,
 #vr {
     position: absolute;
     background-size: contain;
@@ -127,6 +152,7 @@ main canvas,
     z-index: 0;
 }
 
+#player,
 #vr {
     border: none;
     width: 100%;
@@ -139,7 +165,13 @@ main canvas,
     }
 
     main {
-        height: 100vh;
+        height: 97.5vh;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 2vw;
     }
 }
 
@@ -149,7 +181,7 @@ main canvas,
     }
 
     main {
-        height: 100vh;
+        height: 97.5vh;
         max-height: -webkit-fill-available;
     }
 }
@@ -173,6 +205,11 @@ main fieldset {
     justify-content: space-between;
 }
 
+article {
+    display: grid;
+    place-items: center;
+}
+
 header button {
     appearance: none;
     background: #fff;
@@ -185,12 +222,13 @@ header button {
 }
 
 main fieldset {
-    place-self: end center;
+    flex-direction: row;
     border: none;
+    gap: 0.5rem;
     padding: 0.5rem;
-    margin: 0;
     overflow: auto;
     width: 100%;
+    place-self: end center;
     position: relative;
     z-index: 10;
 }
@@ -198,7 +236,6 @@ main fieldset {
 main fieldset label {
     border: solid 0.2rem transparent;
     border-radius: 0.5rem;
-    flex: auto;
     text-align: center;
     height: 17.5vw;
     max-height: 7.5rem;

@@ -1,16 +1,17 @@
 {
     "title": "八尾空港 やおくうこう",
     "description": "2023年12月31日 の 八尾空港",
-    "info": {
-        "address": "大阪府八尾市空港２丁目１２",
-        "google": "https://maps.app.goo.gl/hvTZ89jZ8Lj6KQvE6"
-    },
     "year": "2023",
     "month": "12",
     "day": "31",
-    "directory": "https://lh3.googleusercontent.com/",
+    "info": {
+        "title": "Yao Airport 🇯🇵 Osaka, Japan",
+        "address": "大阪府八尾市空港２丁目１２",
+        "google": "https://maps.app.goo.gl/hvTZ89jZ8Lj6KQvE6"
+    },
     "width": "0.575",
     "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",

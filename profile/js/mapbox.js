@@ -47,7 +47,7 @@ function addMarker(arr) {
             const url = `https://i.ytimg.com/vi/${marker.properties.youtube}/default.jpg`;
             el.style.backgroundImage = `url(${url})`;
             el.style.width = '5.5rem';
-            el.style.height = '4rem';
+            el.style.height = '3.75rem';
         }
 
         if (marker.properties.iconSize) {

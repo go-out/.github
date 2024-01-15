@@ -1,17 +1,20 @@
 {
     "title": "阿倍野神社 あべのじんじゃ",
     "description": "2023年12月21日 の 阿倍野神社",
-    "info": {
-        "address": "大阪府大阪市阿倍野区北畠３丁目７−２０",
-        "google": "https://maps.app.goo.gl/ZpJKANDNitRQvjHF8",
-        "website": "https://www.abenojinjya.com/"
-    },
     "year": "2023",
     "month": "12",
     "day": "21",
-    "directory": "https://ia801208.us.archive.org/25/items/abenojinjya/",
+    "info": {
+        "title": "Abenojinja 🇯🇵 Osaka, Japan",
+        "address": "大阪府大阪市阿倍野区北畠３丁目７−２０",
+        "google": "https://maps.app.goo.gl/ZpJKANDNitRQvjHF8"
+    },
+    "links": [
+        "<a href='https://www.abenojinjya.com/' target='_blank'>Website</a>"
+    ],
     "width": "0.575",
     "height": "1",
+    "directory": "https://ia801208.us.archive.org/25/items/abenojinjya/",
     "video": [
         {
             "id": "one",

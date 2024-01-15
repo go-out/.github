@@ -35,6 +35,21 @@ function playThis(obj) {
     const playBtn = document.querySelector("#play");
     playBtn.textContent = document.title;
 
+    const article = document.querySelector("article");
+    const h3 = document.querySelector("#title");
+    h3.textContent = obj.info.title;
+
+    if (obj.info.address) {
+        const address = document.createElement('p');
+        const google = document.createElement('a');
+        address.className = "relax";
+        google.textContent = obj.info.address;
+        google.href = obj.info.google;
+        google.setAttribute('target', '_blank')
+        article.appendChild(address);
+        address.appendChild(google);
+    }
+
     const description = document.querySelector("meta[name='description']");
     description.content = obj.description;
 
@@ -198,6 +213,15 @@ function videoAll(obj) {
                 bgImg(img.src);
             })
         }
+    } else if (obj.youtube) {
+        const main = document.querySelector("main");
+        const header = document.querySelector("header");
+        header.remove();
+
+        const iframe = document.createElement('iframe');
+        iframe.id = "player";
+        iframe.src = "https://www.youtube.com/embed/" + obj.youtube
+        main.appendChild(iframe);
     } else if (obj.vr) {
         const main = document.querySelector("main");
         const iframe = document.createElement('iframe');

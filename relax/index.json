@@ -2,9 +2,9 @@
     "title": "優雅にリラックスできる場所",
     "description": "Fancy and Relaxin'",
     "directory": "",
+    "info": {
+        "title": "優雅にリラックスできる場所"
+    },
     "width": "0.5625",
-    "height": "1",
-    "img": [
-        "https://i.ytimg.com/vi/qzIy_qtpNh8/maxresdefault.jpg"
-    ]
+    "height": "1"
 }

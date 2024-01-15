@@ -23,7 +23,11 @@
     <link rel="stylesheet" href="../mapbox/marker/style.css">
 
     <style>
-        header a {
+        header address a {
+            font-size: 150%;
+        }
+
+        header h3 a {
             font-size: 200%;
         }
     </style>
@@ -41,7 +45,7 @@
     <script src="alps/index.js"></script>
     <script src="cycling/index.js"></script>
     <script src="ferry/index.js"></script>
-    <script src="youtube.v1.js"></script>
+    <script src="index.js"></script>
     <script>
         // IFrame Player API の読み込み
         const tag = document.createElement('script');
@@ -66,7 +70,7 @@
         document.addEventListener("readystatechange", (event) => {
             if (event.target.readyState === "interactive") {
                 addMarker(gooutArr.features)
-                addMarker(youtube.features)
+                addMarker(osakaSpot.features)
                 addMarker(osakaAlps.features)
                 addMarker(osakaCycling.features)
                 addMarker(osakaFerry.features)
@@ -147,7 +151,12 @@
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
 
         let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-            center = [135.50216018269685, 34.693815199983845];
+            center = [135.5020763952882, 34.69376772507822];
+
+        const bounds = [
+            [135.0590791040609, 34.256820829045935], // 南西座標
+            [135.78320173410242, 35.061027592581866] // 北東座標
+        ]
 
         const map = new mapboxgl.Map({
             container: 'map',
@@ -156,7 +165,8 @@
             zoom: 9.87654321,
             scrollZoom: true,
             projection: 'globe',
-            attributionControl: false
+            attributionControl: false,
+            maxBounds: bounds
         })
 
         map.addControl(

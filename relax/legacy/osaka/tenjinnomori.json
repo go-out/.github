@@ -1,17 +1,20 @@
 {
     "title": "天神ノ森天満宮 てんじんのもりてんまんぐう",
     "description": "2022年6月30日 の 天神ノ森天満宮 夏越祭 の あと",
-    "info": {
-        "address": "大阪府大阪市西成区岸里東２丁目３−１９",
-        "google": "https://maps.app.goo.gl/Du3c8iQgECQSGZ5t5",
-        "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%A5%9E%E3%83%8E%E6%A3%AE%E5%A4%A9%E6%BA%80%E5%AE%AE"
-    },
     "year": "2022",
     "month": "6",
     "day": "30",
-    "directory": "https://ia601300.us.archive.org/22/items/tenjinnomori/",
+    "info": {
+        "title": "Tenjinnomori Tenmangu 🇯🇵 Osaka, Japan",
+        "address": "大阪府大阪市西成区岸里東２丁目３−１９",
+        "google": "https://maps.app.goo.gl/g7dM3koRFhA7Uxbp6"
+    },
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%A5%9E%E3%83%8E%E6%A3%AE%E5%A4%A9%E6%BA%80%E5%AE%AE' target='_blank'>Wikipedia</a>"
+    ],
     "width": "0.575",
     "height": "1",
+    "directory": "https://ia601300.us.archive.org/22/items/tenjinnomori/",
     "video": [
         {
             "id": "one",

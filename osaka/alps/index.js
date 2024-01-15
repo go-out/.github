@@ -67,15 +67,15 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.50286230415117, 34.63547074276174]
+                'coordinates': [135.50286441145153, 34.635475975126724]
             },
             'properties': {
                 'title': '聖天山',
-                'address': '標高14mの低山。頂上には、真言宗単立の寺院「正圓寺（しょうえんじ）」があります。',
-                'date': '<a href="../relax/?id=legacy&area=osaka&name=shoutenyama">more info</a>',
-                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'address': '「大阪五低山」の一つ、標高14mの低山。頂上は、天下茶屋の聖天さん「正圓寺（しょうえんじ）」',
+                'date': '<a href="../relax/?id=legacy&area=osaka&name=shoutenyama">More Info</a>',
                 'tags': 'legacy',
-                'zoom': 16,
+                'youtube': 'KbfZTxipYFQ',
+                'zoom': 16.5,
             }
         },
         {
@@ -97,7 +97,7 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.57953104285798,34.71552805310158]
+                'coordinates': [135.57953104285798, 34.71552805310158]
             },
             'properties': {
                 'title': '鶴見新山',

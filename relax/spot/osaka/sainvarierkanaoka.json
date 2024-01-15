@@ -1,17 +1,20 @@
 {
     "title": "金岡団地スターハウスメモリアル",
-    "description": "UR賃貸住宅（建設当時は日本住宅公団）の 第1号となった｢金岡団地（かなおかだんち）｣ の “花形”として人気を博した、三角形の階段室を中心に各階3つの住戸を配する スターハウス（星型住棟）の 基礎部分を活かし、外形と間取りを再現した広場",
-    "info": {
-        "address": "大阪府堺市北区東三国ヶ丘町２丁１−２３",
-        "google": "https://maps.app.goo.gl/BjWesdsqzCq8T66D7",
-        "website": "https://karigurashi.net/vidanchi/sainvarierkanaoka01/"
-    },
+    "description": "UR賃貸住宅（建設当時は日本住宅公団）の 第1号となった｢金岡団地（かなおかだんち）｣ の “花形”として人気を博した、三角形の階段室を中心に 各階3つの住戸を配する「スターハウス（星型住棟）」の 基礎部分を活かし、外形と間取りを再現した場所「スターハウスメモリアル」",
     "year": "2024",
     "month": "1",
     "day": "7",
-    "directory": "https://lh3.googleusercontent.com/",
+    "info": {
+        "title": "Sainvarier Kanaoka 🇯🇵 Sakai Osaka, Japan",
+        "address": "大阪府堺市北区東三国ヶ丘町２丁１−２３",
+        "google": "https://maps.app.goo.gl/BjWesdsqzCq8T66D7"
+    },
+    "links": [
+        "<a href='https://karigurashi.net/vidanchi/sainvarierkanaoka01/' target='_blank'>Website</a>"
+    ],
     "width": "0.575",
     "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",

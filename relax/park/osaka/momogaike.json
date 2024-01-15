@@ -1,19 +1,23 @@
 {
     "title": "桃ヶ池公園 ももがいけこうえん",
     "description": "2024年1月11日 の 桃ヶ池公園",
-    "info": {
-        "address": "大阪市阿倍野区桃ヶ池町1丁目",
-        "google": "https://maps.app.goo.gl/SuLwWA4kcaJLoPxTA",
-        "text": [
-            "https://ja.wikipedia.org/wiki/%E6%A1%83%E3%83%B6%E6%B1%A0%E5%85%AC%E5%9C%92"
-        ]
-    },
     "year": "2024",
     "month": "1",
     "day": "11",
-    "directory": "https://lh3.googleusercontent.com/",
+    "info": {
+        "title": "Momogaike Park 🇯🇵 Osaka, Japan",
+        "address": "大阪市阿倍野区桃ヶ池町1丁目",
+        "google": "https://maps.app.goo.gl/SuLwWA4kcaJLoPxTA",
+        "text": [
+            ""
+        ]
+    },
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E6%A1%83%E3%83%B6%E6%B1%A0%E5%85%AC%E5%9C%92' target='_blank'>Wikipedia</a>"
+    ],
     "width": "0.7525",
     "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",

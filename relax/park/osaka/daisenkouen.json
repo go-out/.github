@@ -2,17 +2,22 @@
     "title": "大仙公園 だいせんこうえん",
     "description": "2024年1月7日 の 大仙公園",
     "info": {
-        "text": "世界文化遺産に登録された百舌鳥古墳群（もずこふんぐん）の一角、世界最大の墳墓である仁徳天皇（にんとくてんのう）の墓「大仙陵古墳（だいせんりょうこふん）」の南に位置する総合公園",
+        "title": "Daisen Park 🇯🇵 Sakai Osaka, Japan",
         "address": "大阪府堺市堺区百舌鳥夕雲町２丁２０４",
         "google": "https://maps.app.goo.gl/rUdGMRawVskWoRgo6",
-        "website": "https://www.city.sakai.lg.jp/kurashi/koen/shokai/daisenkouen.html"
+        "text": [
+            "世界文化遺産に登録された百舌鳥古墳群（もずこふんぐん）の一角、世界最大の墳墓である仁徳天皇（にんとくてんのう）の墓「大仙陵古墳（だいせんりょうこふん）」の南に位置する総合公園"
+        ]
     },
+    "links": [
+        "<a href='https://www.city.sakai.lg.jp/kurashi/koen/shokai/daisenkouen.html' target='_blank'>Website</a>"
+    ],
     "year": "2024",
     "month": "1",
     "day": "7",
-    "directory": "https://lh3.googleusercontent.com/",
     "width": "0.575",
     "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",
