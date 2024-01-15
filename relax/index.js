@@ -39,6 +39,14 @@ function playThis(obj) {
     const h3 = document.querySelector("#title");
     h3.textContent = obj.info.title;
 
+    if (obj.info.text) {
+        const text = document.createElement('p');
+        for (const texteach of obj.info.text) {
+            text.innerHTML += texteach + '<br/>';
+        }
+        article.appendChild(text);
+    }
+
     if (obj.info.address) {
         const address = document.createElement('p');
         const google = document.createElement('a');
