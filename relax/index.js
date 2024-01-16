@@ -37,7 +37,15 @@ function playThis(obj) {
 
     const article = document.querySelector("article");
     const h3 = document.querySelector("#title");
-    h3.textContent = obj.info.title;
+    h3.innerHTML = obj.info.title + "<br>";
+
+    if (obj.info.address) {
+        const google = document.createElement('a');
+        google.textContent = obj.info.address;
+        google.href = obj.info.google;
+        google.setAttribute('target', '_blank')
+        h3.appendChild(google);
+    }
 
     if (obj.info.text) {
         const text = document.createElement('p');
@@ -47,15 +55,13 @@ function playThis(obj) {
         article.appendChild(text);
     }
 
-    if (obj.info.address) {
-        const address = document.createElement('p');
-        const google = document.createElement('a');
-        address.className = "relax";
-        google.textContent = obj.info.address;
-        google.href = obj.info.google;
-        google.setAttribute('target', '_blank')
-        article.appendChild(address);
-        address.appendChild(google);
+    if (obj.links) {
+        const links = document.createElement('section');
+        links.innerHTML += '<u>関連ページ Related Pages</u><br/>';
+        article.appendChild(links);
+        for (const eachA of obj.links) {
+            links.innerHTML += eachA;
+        }
     }
 
     const description = document.querySelector("meta[name='description']");

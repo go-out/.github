@@ -12,12 +12,30 @@
     "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
+            "id": "legacy",
+            "poster": "ggms/AF1QipMI9Aa-Xz_uEhxn6XcgjqadZsOjLuBpbH2R_eeK",
+            "src": [
+                "ggms/AF1QipMI9Aa-Xz_uEhxn6XcgjqadZsOjLuBpbH2R_eeK=m18",
+                "ggms/AF1QipOtLwrX6vzAXT1PjZcPhK4TlOuv0Xl0jIWFzzGZ=m18",
+                "ggms/AF1QipN1xnuvbDsDbLrPIrMMtt9RfI-IPmMyvuRRqZje=m18"
+            ]
+        },
+        {
             "id": "park",
             "poster": "ggms/AF1QipOSLfaCUeKeouBuVgrMkugfBwGyPw4MkAmFNftl",
             "src": [
                 "ggms/AF1QipNmj9EZ_jgDl3dL867jEikXg8pwwGi56EBKuT3l=m18",
                 "ggms/AF1QipMUbYLy3UR8rQHO7TQj5n-LYjEYl4yALKVvmukc=m18",
                 "ggms/AF1QipPZAN89JkRi3KepDf4ggnbKL5IwTGsZ2axoNkP5=m18"
+            ]
+        },
+        {
+            "id": "spot",
+            "poster": "ggms/AF1QipPTUm1GHZQ4dgy9DUV6AGJ5zPXOdD13zAavueM1",
+            "src": [
+                "ggms/AF1QipN2kjzp3qTiAbf6cSWxa0kEbV9xl3nki9QIKRfy=m18",
+                "ggms/AF1QipOTPQR-TLg1i1YOkCM03z3Je0zKw8zL6_8T-xv4=m18",
+                "ggms/AF1QipMgCoEksGiwckfoPEZfFDStDm_Y1fUUR2FKa3dJ=m18"
             ]
         }
     ]

@@ -19,7 +19,7 @@ h1 {
 }
 
 header,
-footer {
+article {
     font-family: "Kristina", 'Zen Maru Gothic', cursive;
 }
 
@@ -29,13 +29,13 @@ header h1 strong {
 }
 
 header h2 strong,
-footer h3 {
+article h3 {
     font-size: 150%;
 }
 
 select,
-footer strong,
-footer a {
+article strong,
+article a {
     font-size: 125%;
 }
 
@@ -45,11 +45,11 @@ header h2,
     font-size: 111%;
 }
 
-footer u {
+article u {
     font-size: 90%;
 }
 
-footer small {
+article small {
     font-size: 75%;
 }
 
@@ -58,16 +58,21 @@ header h1 strong {
     font-weight: 777;
 }
 
-footer h3 {
+article h3 {
     font-weight: 500;
 }
 
-footer h3 {
+article h3 {
     text-align: center;
 }
 
-footer address {
+article address {
     font-style: normal;
+}
+
+article u {
+    padding: 0.25rem;
+    text-decoration: none;
 }
 
 header h2 {
@@ -86,7 +91,7 @@ body {
 
 header h1 strong,
 header h2 strong::after,
-footer a {
+article a {
     color: lightskyblue;
 }
 
@@ -102,8 +107,8 @@ footer select {
     color: #000;
 }
 
-footer u,
-footer h3 strong {
+article u,
+article h3 strong {
     background: lightskyblue;
     color: lemonchiffon;
 }
@@ -243,23 +248,28 @@ header button {
     outline: none;
 }
 
-footer address,
-footer section,
-footer div {
+article,
+article address,
+article section,
+article div {
+    padding: 1rem;
+}
+
+footer {
     padding: 0.5rem;
 }
 
-footer a,
-footer select,
-footer h3 strong {
+article a,
+article h3 strong,
+footer select {
     padding: 0.25rem;
     margin: 0.25rem;
 }
 
-footer h3,
-footer section,
-footer div,
-footer address {
+article h3,
+article section,
+article div,
+article address {
     line-height: 175%;
     margin: 2rem auto;
     max-width: 1000px;
@@ -272,15 +282,15 @@ footer address {
     margin: 1.5rem 0.5rem 0;
 }
 
-footer a {
+article a {
     text-decoration: dashed underline;
 }
 
-footer div a {
+article div a {
     display: block;
 }
 
-footer div h3 {
+article div h3 {
     border-top: double 0.25rem lightskyblue;
     border-bottom: double 0.25rem lightskyblue;
 }
@@ -291,14 +301,19 @@ footer div h3 {
 
 footer button {
     background: transparent;
-    background-image: url(../profile/img/logo.png);
+    background-image: url(../profile/img/mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
     border: none;
     border-radius: 50%;
+    transition: filter 1s;
     display: block;
     float: right;
     width: 7.5rem;
     height: 7.5rem;
+}
+
+footer button:hover {
+    filter: brightness(1.25);
 }

@@ -261,6 +261,10 @@ footer button {
     height: 4.5rem;
 }
 
+header address {
+    display: inline;
+}
+
 [hidden],
 #title[hidden] {
     display: none;

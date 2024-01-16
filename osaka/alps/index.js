@@ -37,21 +37,6 @@ const osakaAlps = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49682232943638, 34.621565133427865]
-            },
-            'properties': {
-                'title': '帝塚山',
-                'address': '帝塚山古墳の墳丘。標高19.88m。 ※古墳内への立ち入りには、「財団法人住吉村常盤会」への申請が必要です。',
-                'date': '<a href="../relax/?id=legacy&area=osaka&name=tezukayama">more info</a>',
-                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
-                'tags': 'legacy',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.51234003447854, 34.651695429506546]
             },
             'properties': {
@@ -61,21 +46,6 @@ const osakaAlps = {
                 'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
                 'tags': 'legacy',
                 'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.50286441145153, 34.635475975126724]
-            },
-            'properties': {
-                'title': '聖天山',
-                'address': '「大阪五低山」の一つ、標高14mの低山。頂上は、天下茶屋の聖天さん「正圓寺（しょうえんじ）」',
-                'date': '<a href="../relax/?id=legacy&area=osaka&name=shoutenyama">More Info</a>',
-                'tags': 'legacy',
-                'youtube': 'KbfZTxipYFQ',
-                'zoom': 16.5,
             }
         },
         {
@@ -121,6 +91,36 @@ const osakaAlps = {
                 'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
                 'tags': 'park',
                 'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49682232943638, 34.621565133427865]
+            },
+            'properties': {
+                'title': '帝塚山',
+                'address': '「大阪五低山」の一つ、帝塚山古墳に由来する関西を代表する高級住宅街。<br>（帝塚山古墳の墳丘の標高は19.88m）',
+                'date': '<a href="../vr/?id=cycling&area=osaka&name=tezukayama">more info</a>',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'legacy',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50286441145153, 34.635475975126724]
+            },
+            'properties': {
+                'title': '聖天山',
+                'address': '「大阪五低山」の一つ、標高14mの低山。<br>頂上には、天下茶屋の聖天さん「正圓寺（しょうえんじ）」があります。',
+                'date': '<a href="../relax/?id=legacy&area=osaka&name=shoutenyama">More Info</a>',
+                'tags': 'legacy',
+                'youtube': 'KbfZTxipYFQ',
+                'zoom': 16.5,
             }
         }
     ]

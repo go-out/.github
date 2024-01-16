@@ -7,8 +7,7 @@ html {
 }
 
 body,
-h1,
-article h3 {
+h1 {
     padding: 0;
     margin: 0;
 }
@@ -26,41 +25,72 @@ article h3 {
         url("../profile/fonts/DiaPro-Regular.woff") format("woff");
 }
 
-.relax,
-article h3 {
-    font-family: "DiaPro", sans-serif;
-}
-
-.relax a {
-    padding: 0.25rem;
-    text-decoration: none;
-    transition: all 1s;
-}
-
-.relax a {
-    color: #ebd809;
-    background-color: #000;
-}
-
-.relax a:hover {
-    color: #000;
-    background-color: #ebd809;
-}
-
-header h2 {
+header h2,
+article p {
     font-family: "Kristina", 'Zen Maru Gothic', cursive;
 }
 
 .relax,
 header h1,
 header button,
-article h3 {
+article address,
+article p a,
+article section {
     font-family: "DiaPro", sans-serif;
+}
+
+#title a,
+article p u,
+article section a {
+    padding: 0.25rem;
+    text-decoration: none;
+}
+
+article section a,
+article section u {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+article p a {
+    text-decoration: underline dotted;
+}
+
+#title a,
+article p a,
+article section a {
+    transition: all 1s;
+}
+
+#title a,
+article p u,
+article section a:hover {
+    color: #ebd809;
+    background-color: #111;
+}
+
+#title a:hover,
+article p a:hover {
+    color: #111;
+    background-color: #ebd809;
+}
+
+article section a {
+    background: #fff;
+    color: #111;
+}
+
+article p a {
+    color: #111;
 }
 
 header h1,
 header button {
     text-align: left;
+}
+
+article address {
+    text-align: center;
 }
 
 main,
@@ -82,8 +112,12 @@ header h1 small {
     color: #fff;
 }
 
+article p {
+    background: #fff;
+}
+
 header h1,
-article h3 {
+article address {
     font-size: 222%;
 }
 
@@ -96,18 +130,38 @@ header h2 strong {
     font-size: 333%;
 }
 
-header button {
+header button,
+article section u {
     font-size: 125%;
+}
+
+article p a,
+article p b,
+article p strong,
+article section a {
+    font-size: 111%;
+}
+
+article p u {
+    font-size: 90%;
+}
+
+#title a {
+    font-size: 50%;
 }
 
 header h1,
 header h1 strong,
-article h3 {
+article address {
     font-weight: 555;
 }
 
 header h1 strong {
     line-height: 100%;
+}
+
+article p {
+    line-height: 200%;
 }
 
 header h2 {
@@ -132,10 +186,20 @@ header h2 strong#day::after {
     content: "日";
 }
 
-main {
-    background: #000;
+main,
+article {
     display: grid;
     place-items: center;
+}
+
+header h1,
+main fieldset {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background: #000;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -208,17 +272,6 @@ main {
     right: 0;
 }
 
-header h1,
-main fieldset {
-    display: flex;
-    justify-content: space-between;
-}
-
-article {
-    display: grid;
-    place-items: center;
-}
-
 header button {
     appearance: none;
     background: #fff;
@@ -263,6 +316,21 @@ main fieldset input:checked+label {
 main fieldset img,
 main fieldset video {
     border-radius: 0.25rem;
-    width: auto;
+    width: 100%;
     height: 100%;
+}
+
+article address,
+article p {
+    padding: 1rem;
+}
+
+article p {
+    border-radius: 1rem;
+    max-width: 1000px;
+}
+
+article section {
+    margin-top: 1.25rem;
+    width: 100%;
 }

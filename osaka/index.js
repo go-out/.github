@@ -232,7 +232,7 @@ const osakaSpot = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.52145684370322,34.63083649199136]
+                'coordinates': [135.52145684370322, 34.63083649199136]
             },
             'properties': {
                 'title': '桃ヶ池公園',

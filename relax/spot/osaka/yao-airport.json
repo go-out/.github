@@ -7,7 +7,12 @@
     "info": {
         "title": "Yao Airport 🇯🇵 Osaka, Japan",
         "address": "大阪府八尾市空港２丁目１２",
-        "google": "https://maps.app.goo.gl/hvTZ89jZ8Lj6KQvE6"
+        "google": "https://maps.app.goo.gl/hvTZ89jZ8Lj6KQvE6",
+        "text": [
+            "<strong>定期便の就航はない「その他の空港」に位置づけられる国管理空港</strong>",
+            "Osaka Metro 谷町線の終点駅「八尾南（やおみなみ Yao-minami）」の北側 2番出口から徒歩約15分。",
+            "主として航空宣伝・写真測量・操縦訓練などの事業用や自家用の小型航空機やヘリコプターの発着に利用されています。"
+        ]
     },
     "width": "0.575",
     "height": "1",

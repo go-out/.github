@@ -62,12 +62,7 @@
         </header>
     </main>
 
-    <footer>
-        <select name="cycling" data-area="osaka">
-            <option disabled selected>サイクリング映像</option>
-            <option value="abeno-nantou">阿倍野区南東部</option>
-            <option value="abeno-tezukayama">帝塚山 ⇄ 北畠</option>
-        </select>
+    <article>
         <h3>
             <strong id="title"></strong>
         </h3>
@@ -75,7 +70,14 @@
         <div id="links" hidden>
             <h3>関連ページ Related Pages</h3>
         </div>
-        <button onclick="location.assign('../')"></button>
+    </article>
+    <footer>
+        <select name="cycling" data-area="osaka">
+            <option disabled selected>サイクリング映像</option>
+            <option value="tezukayama">帝塚山 ⇄ 北畠</option>
+            <option value="abeno-nantou">阿倍野区南東部</option>
+        </select>
+        <button onclick="history.back()"></button>
     </footer>
     <script>
         function valueChange(e) {
