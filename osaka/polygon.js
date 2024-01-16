@@ -98,7 +98,7 @@ map.on('load', () => {
                     },
                     'properties': {
                         'title': '咲洲コンテナターミナル',
-                        'date': '洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
+                        'date': '咲洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
                         'link': '../vr/?id=cycling&area=osaka&name=container_berth',
                         'zoom': 14
                     }
