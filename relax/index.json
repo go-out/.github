@@ -1,13 +1,24 @@
 {
     "title": "優雅にリラックスできる場所",
     "description": "Fancy and Relaxin'",
-    "directory": "",
     "info": {
         "title": "優雅にリラックスできる場所",
         "text": [
             "aaa"
         ]
     },
-    "width": "0.5625",
-    "height": "1"
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "park",
+            "poster": "ggms/AF1QipOSLfaCUeKeouBuVgrMkugfBwGyPw4MkAmFNftl",
+            "src": [
+                "ggms/AF1QipNmj9EZ_jgDl3dL867jEikXg8pwwGi56EBKuT3l=m18",
+                "ggms/AF1QipMUbYLy3UR8rQHO7TQj5n-LYjEYl4yALKVvmukc=m18",
+                "ggms/AF1QipPZAN89JkRi3KepDf4ggnbKL5IwTGsZ2axoNkP5=m18"
+            ]
+        }
+    ]
 }

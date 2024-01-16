@@ -160,6 +160,7 @@ main canvas,
     z-index: 0;
 }
 
+header,
 #player,
 #vr {
     border: none;
@@ -197,7 +198,7 @@ main canvas,
 header {
     position: absolute;
     padding: 1rem;
-    z-index: 100;
+    z-index: 1;
 }
 
 header,
