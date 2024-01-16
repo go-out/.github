@@ -14,21 +14,19 @@ function playThis(obj) {
     if (obj.year) {
         year.textContent = obj.year;
     } else {
-        year.hidden = true;
+        year.remove()
     }
 
     const month = document.querySelector("#month");
     if (obj.month) {
         month.textContent = obj.month;
     } else {
-        month.hidden = true;
+        document.querySelector("header h2").remove()
     }
 
     const day = document.querySelector("#day");
     if (obj.day) {
         day.textContent = obj.day;
-    } else {
-        day.hidden = true;
     }
 
     document.title = obj.title;

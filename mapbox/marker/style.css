@@ -18,3 +18,11 @@
 .mapboxgl-marker.hello {
     border-radius: 50%;
 }
+
+.mapboxgl-popup {
+    z-index: 11;
+}
+
+.mapboxgl-popup strong {
+    font-size: 125%;
+}

@@ -7,7 +7,8 @@ html {
 }
 
 body,
-h1 {
+h1,
+header h2 {
     padding: 0;
     margin: 0;
 }
@@ -75,10 +76,6 @@ article u {
     text-decoration: none;
 }
 
-header h2 {
-    margin: 5rem 0 2.5rem;
-}
-
 h1,
 h2 {
     pointer-events: none;
@@ -115,8 +112,9 @@ article h3 strong {
 
 header h1 strong {
     display: block;
-    padding: 4.5rem 0 1.25rem;
+    padding: 0;
     transform: scale(1, 2.5);
+    line-height: 125%;
 }
 
 header h2 strong::after {
@@ -163,8 +161,8 @@ header {
 }
 
 main video {
-    transition: all 1s;
     width: 100%;
+    transition: all 1s;
 }
 
 .start main:hover video {
@@ -211,10 +209,6 @@ main fieldset input {
     header {
         padding: 5vw;
     }
-
-    main video {
-        max-height: 75vh;
-    }
 }
 
 header,
@@ -226,6 +220,11 @@ main {
 
 #year {
     place-self: start right;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    place-self: end center;
 }
 
 #play {

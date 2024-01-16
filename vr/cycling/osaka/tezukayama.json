@@ -12,8 +12,8 @@
         "<a href='http://sumiyoshimuratokiwakai.or.jp/word/word03.html' target='_blank'>一般財団法人　住吉村常盤会</a>"
     ],
     "directory": "https://ia601303.us.archive.org/35/items/tezukayama/",
-    "landscape": "repeat(2, 1fr)",
-    "portrait": "repeat(1, 1fr)",
+    "landscape": "repeat(3, 1fr)",
+    "portrait": "repeat(3, 1fr)",
     "video": [
         {
             "id": "kitabatake1",
@@ -32,19 +32,62 @@
         },
         {
             "id": "seimeioka",
-            "poster": "tezukayama.thumbs/001B_000001.jpg",
+            "poster": "tezukayama.thumbs/001A_000001.jpg",
             "src": [
                 "001B.mp4",
                 "001A.mp4"
             ]
         },
         {
-            "id": "tezukayama0",
+            "id": "tezukayama1",
             "poster": "tezukayama.thumbs/003B_000001.jpg",
             "src": [
                 "003B.mp4",
                 "003C.mp4",
                 "003A.mp4"
+            ]
+        },
+        {
+            "id": "tezukayama2",
+            "poster": "tezukayama.thumbs/004A_000024.jpg",
+            "src": [
+                "004A.ia.mp4",
+                "004B.ia.mp4",
+                "004C.ia.mp4"
+            ]
+        },
+        {
+            "id": "higashi1",
+            "poster": "tezukayama.thumbs/higashi/001_000033.jpg",
+            "src": [
+                "higashi/001.ia.mp4",
+                "higashi/002.ia.mp4",
+                "higashi/003.ia.mp4"
+            ]
+        },
+        {
+            "id": "higashi2",
+            "poster": "tezukayama.thumbs/higashi/101_000014.jpg",
+            "src": [
+                "higashi/101.ia.mp4",
+                "higashi/102.ia.mp4"
+            ]
+        },
+        {
+            "id": "naka",
+            "poster": "tezukayama.thumbs/naka/001_000001.jpg",
+            "src": [
+                "naka/001.ia.mp4",
+                "naka/002.ia.mp4"
+            ]
+        },
+        {
+            "id": "nishi",
+            "poster": "tezukayama.thumbs/nishi/001_000014.jpg",
+            "src": [
+                "nishi/001.ia.mp4",
+                "nishi/002.ia.mp4",
+                "nishi/003.ia.mp4"
             ]
         }
     ]
