@@ -1,6 +1,6 @@
 {
     "title": "住吉区南部",
-    "description": "墨江・清水丘・遠里小野・千躰・殿辻・南住吉・山之内",
+    "description": "墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内",
     "year": "2024",
     "month": "1",
     "day": "17",
@@ -16,7 +16,7 @@
                 "ggms/AF1QipMMEUQYmHTkGgW3U1T-U8DL2ZrnHzuUV15IUcwX=m18",
               "ggms/AF1QipMphXulZK2ETDETxb5jgGa_O97OA7-2QwOHS9qM=m18",
               "ggms/AF1QipPruDGtdLtb9STefsMC3HmH7LA9ZdQD6_Y56ZzS=m18",
-                "ggms/AF1QipMR21jl0KfORO2lIKbUg32GdsFe5MYxE9KsGcWW=m18",
+                "ggms/AF1QipOSUvP23BrEUXP7v2cEx8gi5ZFA3iUU4Jrpsr0J=m18",
               "ggms/AF1QipNeu8otJwm6qHH-cLav7rNlb5M_yvYAjeN8dI9o=m18"
             ]
         },
@@ -55,13 +55,13 @@
             "poster": "ggms/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE",
             "src": [
                 "ggms/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE=m18",
-              "ggms/AF1QipOXhVJtX5eD13FHmXRGFb7G1ttUGGy8LJyU-B9m=m18",
-              "ggms/AF1QipMDBVlHwHj8UcFnSu-h8CYoVNyD-IBmxfDcDt1a=m18"
+              "ggms/AF1QipMdq6HWj403cNvQiiN3Q-q_XR0DtjOsAa1PJ0VJ=m18",
+              "ggms/AF1QipOXhVJtX5eD13FHmXRGFb7G1ttUGGy8LJyU-B9m=m18"
             ]
         },
         {
-            "id": "sawanomachi",
-            "poster": "ggms/AF1QipOmPRZc1uG2YFxQUPGiXW-cvzqS8UH5cJkxd2_W",
+            "id": "minamisumiyoshi-tonotsuji",
+            "poster": "ggms/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC",
             "src": [
                 "ggms/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC=m18",
                 "ggms/AF1QipMKiyCj094HNYj7vOqQSmY-XIC2J3ix6rXqshzj=m18",
