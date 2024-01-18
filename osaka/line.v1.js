@@ -232,12 +232,6 @@ map.on('mouseleave', 'line', () => {
 });
 
 map.on('click', 'line', (e) => {
-  map.flyTo({
-    center: e.lngLat,
-    essential: true,
-    zoom: e.features[0].properties.zoom
-  });
-
   const thisLatLng = document.querySelector('#latlng');
   const thisAddress = document.querySelector('#address');
   const thisDate = document.querySelector('#datetime');
@@ -245,6 +239,7 @@ map.on('click', 'line', (e) => {
   thisAddress.innerHTML = e.features[0].properties.address;
 
   if (e.features[0].properties.href) {
+    thisDate.innerHTML = "";
     const a = document.createElement('a');
     a.href = directory + e.features[0].properties.href;
     a.textContent = e.features[0].properties.date;
@@ -265,4 +260,10 @@ map.on('click', 'line', (e) => {
       player.loadVideoById({ videoId: e.features[0].properties.youtube });
     }
   }
+  
+  map.flyTo({
+    center: e.lngLat,
+    essential: true,
+    zoom: e.features[0].properties.zoom
+  });
 });
