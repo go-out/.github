@@ -92,9 +92,9 @@ function chengeHeader(e) {
     const thisDate = document.querySelector('#datetime');
     thisLatLng.innerHTML = e.properties.title;
     thisAddress.innerHTML = e.properties.address;
-    thisDate.innerHTML = "";
 
     if (e.properties.href) {
+        thisDate.innerHTML = "";
         const a = document.createElement('a');
         a.href = directory + e.properties.href;
         a.innerHTML = e.properties.date.replace(/\n/g, '<br>');
