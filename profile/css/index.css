@@ -145,6 +145,10 @@ h3 b {
     font-size: 150%;
 }
 
+address strong {
+    word-break: all;
+}
+
 #datetime,
 h3 u,
 dialog strong,
