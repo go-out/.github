@@ -92,6 +92,7 @@ function chengeHeader(e) {
     const thisDate = document.querySelector('#datetime');
     thisLatLng.innerHTML = e.properties.title;
     thisAddress.innerHTML = e.properties.address;
+    thisAddress.innerHTML = "";
 
     if (e.properties.href) {
         const a = document.createElement('a');
