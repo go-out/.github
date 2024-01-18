@@ -22,6 +22,12 @@
     height: 2.5rem;
 }
 
+.mapboxgl-marker.yu {
+    background-image: url(../../profile/img/1010.jpg);
+    width: 3rem;
+    height: 3rem;
+}
+
 .mapboxgl-popup {
     z-index: 11;
 }
