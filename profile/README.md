@@ -1,7 +1,5 @@
-# I'll play it first and tell you what it is later.
+# Mapbox[^1] を用いて カスタムデザイン地図[^2] を 作成する
 
-* Mapbox[^1] を用いて カスタムデザイン地図[^2] を ウェブページに表示
-* 地図に、マーカー・ポップアップ・ポリゴンなどのオブジェクトを追加
 ___
 
 [^1]: [Mapbox](https://www.mapbox.jp/) は、デジタル地図の開発プラットフォームです。  
