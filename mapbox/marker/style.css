@@ -16,7 +16,10 @@
 }
 
 .mapboxgl-marker.hello {
+    background-image: url(../../profile/img/hello.jpg);
     border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .mapboxgl-popup {
