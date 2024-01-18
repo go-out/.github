@@ -242,6 +242,21 @@ const osakaSpot = {
                 'youtube': 'vnlglP-gvtg',
                 'zoom': 15.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50119561890824, 34.604218960856684]
+            },
+            'properties': {
+                'title': '住吉区南部',
+                'address': '墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内',
+                'date': '<a href="../vr/?id=cycling&area=osaka&name=sumiyoshi">More Info</a>',
+                'tags': 'vr',
+                'youtube': 'qksuhA1aBi4',
+                'zoom': 14.5,
+            }
         }
     ]
 };

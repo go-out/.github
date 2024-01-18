@@ -4,7 +4,6 @@
     "year": "2022",
     "month": "2",
     "day": "7",
-    "youtube": "ro1iQcEl2m8",
     "info": [
         "<strong>「私（わたしたち）が聞いた言葉」を集めるため、自転車で渡し船に乗ってGo Out</strong>",
         "言葉集めのためだけの時間を作るのはこの日が初めてだった。1日でどれくらいの言葉を集められるだろう。",
@@ -47,5 +46,7 @@
     "links": [
         "<a href='https://creative-community.space/map/heard/otobuilding/' target='_blank'>大阪市住之江区全域と大正区・西成区の一部で聞いた 81 の言葉</a>",
         "<a href='../osaka/ferry/' target='_blank'>渡し船に乗ろう</a>"
-    ]
+    ],
+    "height": "1.75",
+    "youtube": "ro1iQcEl2m8"
 }

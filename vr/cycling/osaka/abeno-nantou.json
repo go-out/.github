@@ -4,6 +4,23 @@
     "year": "2024",
     "month": "1",
     "day": "11",
+    "info": [
+        "<u>撮影地</u>",
+        "阿倍野元町 <small>（阿倍王子神社・安倍晴明神社）</small>",
+        "王子町 <small>（あべの王子商店街・むつみ商店街）</small>",
+        "阪南町 <small>（２・５丁目）</small>",
+        "昭和町 <small>（昭和等中通）</small>",
+        "文の里 <small>（文の里明浄通商店街）</small>",
+        "長池町 <small>（長池公園）</small>"
+    ],
+    "links": [
+        "<a href='https://abeouji.tonosama.jp/' target='_blank'>阿倍王子神社</a>",
+        "<a href='https://abeouji.tonosama.jp/abeseimeijinja/' target='_blank'>安倍晴明神社</a>",
+        "<a href='https://maps.app.goo.gl/Qxh4GZ91eKQGVAt79' target='_blank'>あべの王子商店街 - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/DNfyaWFXSxbkXWD96' target='_blank'>むつみ商店街 - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/ZAMRrujcSQDdswh46' target='_blank'>文の里明浄通商店街 - Google マップ</a>",
+        "<a href='https://maps.app.goo.gl/pT45XQbo1KCmREu58' target='_blank'>長池公園 - Google マップ</a>"
+    ],
     "directory": "https://ia601206.us.archive.org/24/items/abeno-osaka/",
     "landscape": "repeat(4, 1fr)",
     "portrait": "repeat(3, 1fr)",
@@ -111,5 +128,7 @@
                 "nagaike/005.mp4"
             ]
         }
-    ]
+    ],
+    "height": "0.57",
+    "youtube": "dWeIDI9cJXA"
 }

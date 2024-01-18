@@ -4,7 +4,6 @@
     "year": "2022",
     "month": "4",
     "day": "28",
-    "youtube": "tinBEuiKqzU",
     "info": [
         "<strong>「私（わたしたち）が聞いた言葉」を集めるため Go Out</strong>",
         "開始してから30分くらい、平林の貯木場を抜けるまで言葉は全く集まらず、言葉集めとサイクリング映像撮影とを同時に行うなんてちょっと欲張りだったのかもって反省。<br /> 行きはサイクリングと映像撮影を楽しんで、帰りに言葉集めに集中して、集まらなかってもそれはそれで仕方ないという心持ちで楽しまなきゃと気を張る。",
@@ -35,5 +34,7 @@
     ],
     "links": [
         "<a href='https://creative-community.space/map/heard/otobuilding/' target='_blank'>大阪市住之江区全域と大正区・西成区の一部で聞いた 81 の言葉</a>"
-    ]
+    ],
+    "height": "0.75",
+    "youtube": "tinBEuiKqzU"
 }

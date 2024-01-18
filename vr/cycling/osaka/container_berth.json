@@ -4,7 +4,6 @@
     "year": "2022",
     "month": "6",
     "day": "8",
-    "youtube": "rlfyH_v-fTk",
     "info": [
         "大阪南港の人工島「咲洲（さきしま）」の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい。<br><small>コンテナ埠頭は、咲洲・夢洲（ゆめしま）に位置し、咲洲では専用コンテナターミナル(C1～4、C8、C9)が稼働しています。</small>",
         "通沿いには、大量に積み上げられた巨大なコンテナしかない。自分の小ささを痛感できる圧巻の景色。",
@@ -14,5 +13,7 @@
     "links": [
         "<a href='http://www.osakaport.co.jp/container_berth.html' target='_blank'>[コンテナ埠頭]：大阪港埠頭株式会社</a>",
         "<a href='https://www.google.com/maps/d/viewer?mid=103R8MAP5pTHhgtBdJ7zSw_TN_9c&hl=ja&usp=sharing' target='_blank'>大阪南港コンテナターミナル - Google マイマップ</a>"
-    ]
+    ],
+    "height": "0.75",
+    "youtube": "rlfyH_v-fTk"
 }

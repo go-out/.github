@@ -103,8 +103,8 @@ const osakaAlps = {
                 'title': '帝塚山',
                 'address': '「大阪五低山」の一つ、帝塚山古墳に由来する関西を代表する高級住宅街。<br>（帝塚山古墳の墳丘の標高は19.88m）',
                 'date': '<a href="../vr/?id=cycling&area=osaka&name=tezukayama">more info</a>',
-                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
                 'tags': 'legacy',
+                'youtube': 'KuYJ3IW7z4k',
                 'zoom': 16,
             }
         },

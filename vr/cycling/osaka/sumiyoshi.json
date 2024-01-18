@@ -1,72 +1,90 @@
 {
-    "title": "住吉区南部",
-    "description": "墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内",
-    "year": "2024",
-    "month": "1",
-    "day": "17",
-    "directory": "https://lh3.googleusercontent.com/",
-    "landscape": "repeat(3, 1fr)",
-    "portrait": "repeat(2, 1fr)",
-    "video": [
-        {
-            "id": "anguu",
-            "poster": "ggms/AF1QipO1CvJ8Rokvv07fXrskW8sri_8GrW9tgoe9HCB4",
-            "src": [
-                "ggms/AF1QipO1CvJ8Rokvv07fXrskW8sri_8GrW9tgoe9HCB4=m18",
-                "ggms/AF1QipMMEUQYmHTkGgW3U1T-U8DL2ZrnHzuUV15IUcwX=m18",
-              "ggms/AF1QipMphXulZK2ETDETxb5jgGa_O97OA7-2QwOHS9qM=m18",
-              "ggms/AF1QipPruDGtdLtb9STefsMC3HmH7LA9ZdQD6_Y56ZzS=m18",
-                "ggms/AF1QipOSUvP23BrEUXP7v2cEx8gi5ZFA3iUU4Jrpsr0J=m18",
-              "ggms/AF1QipNeu8otJwm6qHH-cLav7rNlb5M_yvYAjeN8dI9o=m18"
-            ]
-        },
-        {
-            "id": "sumieoka-sawanomachi",
-            "poster": "ggms/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j",
-            "src": [
-                "ggms/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j=m18",
-                "ggms/AF1QipOHawy_vNG3IPDUdOiJvwzKTegUf3ZdNg91nsaN=m18",
-              "ggms/AF1QipNQtahGcdP9terxdpi_gRPbHipIB1gKm9dVWbEY=m18",
-                "ggms/AF1QipNMMafjmDyKehFGkAFr8723ce6RF_rOz_wrEkkd=m18",
-              "ggms/AF1QipO0AwGq0grZG510q_wNZ2yTJiQ2bI4wJX0qIdpq=m18"
-            ]
-        },
-        {
-            "id": "simizuoka",
-            "poster": "ggms/AF1QipNi9wdMVMEgAScsHGjdXoeDoEuSsuoY6vfNtbEv",
-            "src": [
-                "ggms/AF1QipNi9wdMVMEgAScsHGjdXoeDoEuSsuoY6vfNtbEv=m18",
-                "ggms/AF1QipMsuPoD4TSkPEGaxnyt_4C7VIJkNkmlzyzrNVV7=m18",
-                "ggms/AF1QipM6mnYsvIoQ7i_Dga_l65nHiCHNjqD97EhPUNFV=m18"
-            ]
-        },
-        {
-            "id": "oriono",
-            "poster": "ggms/AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr",
-            "src": [
-              "ggms/AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr=m18",
-              "ggms/AF1QipP5kf-43a9epWNXDt6ei2kMYIDlt2nOBMdYIHxq=m18",
-                "ggms/AF1QipPZdscbBpMUxHw7-4WiqcsgNWzuaAm_JT8xlq9C=m18",
-                "ggms/AF1QipPm4Rkk-ZEWZLPNYnsdMt1ddwVq7vFmRF2tVF3j=m18"
-            ]
-        },
-        {
-            "id": "yamanouchi",
-            "poster": "ggms/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE",
-            "src": [
-                "ggms/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE=m18",
-              "ggms/AF1QipMdq6HWj403cNvQiiN3Q-q_XR0DtjOsAa1PJ0VJ=m18",
-              "ggms/AF1QipOXhVJtX5eD13FHmXRGFb7G1ttUGGy8LJyU-B9m=m18"
-            ]
-        },
-        {
-            "id": "minamisumiyoshi-tonotsuji",
-            "poster": "ggms/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC",
-            "src": [
-                "ggms/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC=m18",
-                "ggms/AF1QipMKiyCj094HNYj7vOqQSmY-XIC2J3ix6rXqshzj=m18",
-                "ggms/AF1QipOmPRZc1uG2YFxQUPGiXW-cvzqS8UH5cJkxd2_W=m18"
-            ]
-        }
-    ]
+  "title": "住吉区南部",
+  "description": "墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内",
+  "year": "2024",
+  "month": "1",
+  "day": "17",
+  "info": [
+    "<u>撮影地</u>",
+    "墨江 <small>（住吉行宮跡・墨江丘公園・大阪市立墨江丘中学校）</small>",
+    "清水丘 <small>（清水丘商店街）</small>",
+    "遠里小野 <small>（沢ノ町駅）</small>",
+    "沢之町 <small>（止止呂支比賣命神社）</small>",
+    "南住吉 <small>（住吉区役所・沢之町公園）</small>",
+    "山之内 <small>（山之内公園・ナニワ工務店）</small>"
+  ],
+  "links": [
+    "<a href='https://www.city.osaka.lg.jp/sumiyoshi/' target='_blank'>大阪市住吉区：トップページ</a>",
+    "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000009359.html' target='_blank'>大阪市：23．住吉行宮（あんぐう）跡　史跡 （…>文化・スポーツ・生涯学習>生涯学習）</a>",
+    "<a href='https://wakamatsujinja.sakura.ne.jp/' target='_blank'>止止呂支比賣命神社[若松神社]</a>",
+    "<a href='https://maps.app.goo.gl/czNJSjkGfuVJqLTWA' target='_blank'>清水丘商店街 - Google マップ</a>",
+    "<a href='https://maps.app.goo.gl/3tYsaMdHHs9FUoEK8' target='_blank'>山之内公園 - Google マップ</a>"
+  ],
+  "directory": "https://lh3.googleusercontent.com/",
+  "landscape": "repeat(3, 1fr)",
+  "portrait": "repeat(2, 1fr)",
+  "video": [
+    {
+      "id": "anguu",
+      "poster": "ggms/AF1QipO1CvJ8Rokvv07fXrskW8sri_8GrW9tgoe9HCB4",
+      "src": [
+        "ggms/AF1QipO1CvJ8Rokvv07fXrskW8sri_8GrW9tgoe9HCB4=m18",
+        "ggms/AF1QipMMEUQYmHTkGgW3U1T-U8DL2ZrnHzuUV15IUcwX=m18",
+        "ggms/AF1QipMphXulZK2ETDETxb5jgGa_O97OA7-2QwOHS9qM=m18",
+        "ggms/AF1QipPruDGtdLtb9STefsMC3HmH7LA9ZdQD6_Y56ZzS=m18",
+        "ggms/AF1QipOSUvP23BrEUXP7v2cEx8gi5ZFA3iUU4Jrpsr0J=m18",
+        "ggms/AF1QipNeu8otJwm6qHH-cLav7rNlb5M_yvYAjeN8dI9o=m18"
+      ]
+    },
+    {
+      "id": "sumieoka-sawanomachi",
+      "poster": "ggms/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j",
+      "src": [
+        "ggms/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j=m18",
+        "ggms/AF1QipOHawy_vNG3IPDUdOiJvwzKTegUf3ZdNg91nsaN=m18",
+        "ggms/AF1QipNQtahGcdP9terxdpi_gRPbHipIB1gKm9dVWbEY=m18",
+        "ggms/AF1QipNMMafjmDyKehFGkAFr8723ce6RF_rOz_wrEkkd=m18",
+        "ggms/AF1QipO0AwGq0grZG510q_wNZ2yTJiQ2bI4wJX0qIdpq=m18"
+      ]
+    },
+    {
+      "id": "simizuoka",
+      "poster": "ggms/AF1QipNi9wdMVMEgAScsHGjdXoeDoEuSsuoY6vfNtbEv",
+      "src": [
+        "ggms/AF1QipNi9wdMVMEgAScsHGjdXoeDoEuSsuoY6vfNtbEv=m18",
+        "ggms/AF1QipMsuPoD4TSkPEGaxnyt_4C7VIJkNkmlzyzrNVV7=m18",
+        "ggms/AF1QipM6mnYsvIoQ7i_Dga_l65nHiCHNjqD97EhPUNFV=m18"
+      ]
+    },
+    {
+      "id": "oriono",
+      "poster": "ggms/AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr",
+      "src": [
+        "ggms/AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr=m18",
+        "ggms/AF1QipP5kf-43a9epWNXDt6ei2kMYIDlt2nOBMdYIHxq=m18",
+        "ggms/AF1QipPZdscbBpMUxHw7-4WiqcsgNWzuaAm_JT8xlq9C=m18",
+        "ggms/AF1QipPm4Rkk-ZEWZLPNYnsdMt1ddwVq7vFmRF2tVF3j=m18"
+      ]
+    },
+    {
+      "id": "yamanouchi",
+      "poster": "ggms/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE",
+      "src": [
+        "ggms/AF1QipMOtQ4VGGnJNRwNvtwmdtz5L5biFmo-gJiwVHcE=m18",
+        "ggms/AF1QipMdq6HWj403cNvQiiN3Q-q_XR0DtjOsAa1PJ0VJ=m18",
+        "ggms/AF1QipOXhVJtX5eD13FHmXRGFb7G1ttUGGy8LJyU-B9m=m18"
+      ]
+    },
+    {
+      "id": "minamisumiyoshi-tonotsuji",
+      "poster": "ggms/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC",
+      "src": [
+        "ggms/AF1QipPAK9H1xxrJkO-TbZG8CiLFYQZApXPZtGOja8hC=m18",
+        "ggms/AF1QipMKiyCj094HNYj7vOqQSmY-XIC2J3ix6rXqshzj=m18",
+        "ggms/AF1QipOmPRZc1uG2YFxQUPGiXW-cvzqS8UH5cJkxd2_W=m18"
+      ]
+    }
+  ],
+  "height": "0.375",
+  "youtube": "qksuhA1aBi4"
 }

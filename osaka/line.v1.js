@@ -51,7 +51,7 @@ map.on('load', () => {
           'properties': {
             'title': '16 Minute Cycling in Taisho 🇯🇵 Osaka, Japan',
             'address': '木津川渡船場（船町）⇄ 千本松渡船場（南恩加島）',
-            'date': '<a href="../vr/?id=cycling&area=osaka&name=taisho">More Info</a>',
+            'date': '<a href="../vr/?id=cycling&area=osaka&name=taisho-minami">More Info</a>',
             'youtube': 'ro1iQcEl2m8',
             'zoom': 14.5
           }
@@ -124,6 +124,27 @@ map.on('load', () => {
             'address': '住之江公園駅から南港南の西の果てまで',
             'date': '<a href="../vr/?id=cycling&area=osaka&name=nanko-minami">More Info</a>',
             'youtube': 'tinBEuiKqzU',
+            'zoom': 13
+          }
+        },
+        {
+          'type': 'Feature',
+          'geometry': {
+            'type': 'LineString',
+            'coordinates': [
+              [135.49127079351257, 34.6175381365812],
+              [135.49071982435572, 34.61763976670055],
+              [135.4908124441697, 34.61742673419286],
+              [135.49088588041127, 34.617335534638784],
+              [135.4908977547467, 34.617250516832144],
+              [135.49088756069222, 34.61685689830988]
+            ]
+          },
+          'properties': {
+            'title': '粉浜本通商店街',
+            'address': 'Kohama Shopping Street',
+            'date': '<a href="../vr/?id=walking&area=osaka&name=kohama-ss">More Info</a>',
+            'youtube': '2vcbqsYiEy8',
             'zoom': 13
           }
         },
