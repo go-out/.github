@@ -201,7 +201,7 @@ footer ol li.goout {
 }
 
 footer ol li.goout::before {
-    content: "This Collection is created by";
+    content: "This Collection created by";
     display: block;
 }
 
