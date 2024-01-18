@@ -68,6 +68,8 @@ document.addEventListener("readystatechange", (event) => {
                     flyToCenter(thisCenter);
                 })
             }
+        } else {
+            location.replace('../')
         }
 
         const credit = document.createElement('li');
@@ -79,18 +81,6 @@ document.addEventListener("readystatechange", (event) => {
         if (localStorage.getItem("goout")) {
             const yourInfo = JSON.parse(localStorage.getItem('yourInfo'));
             by.innerHTML = yourInfo.os;
-        } else {
-            by.innerHTML = "<strong>The Location where you were that saved in Local Storage.</strong>";
-            const readme = document.createElement('div');
-            credit.appendChild(readme);
-            async function readmeMD(url) {
-                fetch(url)
-                    .then(response => response.text())
-                    .then(innerText => {
-                        readme.innerText = innerText;
-                    });
-            }
-            readmeMD('README.md');
         }
 
         const dialog = document.querySelector("dialog");
