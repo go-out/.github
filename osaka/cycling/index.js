@@ -13,7 +13,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'UR住吉',
                 'date': '<a href="https://maps.app.goo.gl/YNMYuvsVnkeVjNGa8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -28,7 +27,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'サイクルベースあさひ北加賀屋店',
                 'date': '<a href="https://maps.app.goo.gl/H4ngonKhXimYdKEM6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -43,7 +41,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '天保山公園',
                 'date': '<a href="https://maps.app.goo.gl/WqFtKxV9TmNxHGyP8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -58,7 +55,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'URポートサイド築港',
                 'date': '<a href="https://maps.app.goo.gl/em8HimmESzew7NK66" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -73,7 +69,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'セブンイレブン　大阪三軒家東4丁目店',
                 'date': '<a href="https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -88,7 +83,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '千島ガーデンモール',
                 'date': '<a href="https://maps.app.goo.gl/HYWBuQFTiZQwQKdb8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -103,7 +97,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'クインテッサホテル大阪ベイ',
                 'date': '<a href="https://maps.app.goo.gl/229xDuaS9qcHudK59" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -118,7 +111,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'ＡＴＣトレードセンター前駅',
                 'date': '<a href="https://maps.app.goo.gl/LFR62FUnr95u3H1n6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -133,7 +125,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'ポートタウン東駅',
                 'date': '<a href="https://maps.app.goo.gl/8PbipacEXy2v2Uot5" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -148,7 +139,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'マグスミノエ',
                 'date': '<a href="https://maps.app.goo.gl/1vBg6XB9JP2hBiNUA" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -163,7 +153,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'オスカードリーム',
                 'date': '<a href="https://maps.app.goo.gl/Ag9iDnUYHhQeC4jB7" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -178,7 +167,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '大阪ベイタワー',
                 'date': '<a href="https://maps.app.goo.gl/dFgQiP7XdzFyKsLs6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -193,7 +181,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'べんてんひろば駐輪場',
                 'date': '<a href="https://maps.app.goo.gl/FyM356NmJnVWw1q36" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -208,7 +195,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'テニススクール・ノア　大阪天下茶屋校',
                 'date': '<a href="https://maps.app.goo.gl/gXENm43Zp6DUvQrn9" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -223,7 +209,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'セブンイレブン　大阪岸里東1丁目店',
                 'date': '<a href="https://maps.app.goo.gl/SnNhUDPND4mH6hdZ7" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -238,7 +223,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'セブンイレブン　大阪阪南町3丁目店',
                 'date': '<a href="https://maps.app.goo.gl/4BKzNrmPHvirX9jk6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -253,7 +237,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'セブンイレブン　大阪長居東4丁目店',
                 'date': '<a href="https://maps.app.goo.gl/wQSeH9pv7a86eEJ7A" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -268,7 +251,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'サイクルベースあさひ長居公園通り店',
                 'date': '<a href="https://maps.app.goo.gl/YGNRTYi49YfiFBBW9" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -283,7 +265,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'セブンイレブン　喜連瓜破駅南店',
                 'date': '<a href="https://maps.app.goo.gl/1Uuk26hwqQHzRhqt5" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -298,7 +279,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'セブンイレブン　大阪平野駅前店',
                 'date': '<a href="https://maps.app.goo.gl/1rMBaMcyUPCF4eYc7" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -313,7 +293,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '八尾市立病院',
                 'date': '<a href="https://maps.app.goo.gl/cPMi84pzEN8Aja7o7" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -328,7 +307,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '八尾市立龍華コミュニティセンター',
                 'date': '<a href="https://maps.app.goo.gl/uGdepFVWGdyYAjxU6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -343,7 +321,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '八尾市立大正コミュニティセンター',
                 'date': '<a href="https://maps.app.goo.gl/barPe9Gf98fZXqbe6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -358,7 +335,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'ARROW志紀駅前店',
                 'date': '<a href="https://maps.app.goo.gl/bMxLpuqMP9W3VWhN8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -373,7 +349,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'JR桃谷駅',
                 'date': '<a href="https://maps.app.goo.gl/eciKKoLQ1XvUqMd39" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -388,7 +363,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'JR寺田町駅南出口',
                 'date': '<a href="https://maps.app.goo.gl/vFqiCz4SJVxGJEus5" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -403,7 +377,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'あでらんてカフェZen205',
                 'date': '<a href="https://maps.app.goo.gl/2bui7BeZDVWy5ndD8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -418,7 +391,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '堺市役所前',
                 'date': '<a href="https://maps.app.goo.gl/nxY5QJtYERvoKKTbA" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -433,7 +405,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '大仙公園いこいの広場',
                 'date': '<a href="https://maps.app.goo.gl/aFxtbQwRaBVhdFFi6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -448,7 +419,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '堺市立健康福祉プラザ',
                 'date': '<a href="https://maps.app.goo.gl/Hv7PahqNWz6Jug7v9" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -463,7 +433,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '長塚古墳',
                 'date': '<a href="https://maps.app.goo.gl/xAgTpuHGed88JAGX6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -478,7 +447,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '三国ヶ丘駅前西第１自転車駐車場',
                 'date': '<a href="https://maps.app.goo.gl/4hKwbBQRdmbiNBRp9" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -493,7 +461,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'サンヴァリエ金岡②',
                 'date': '<a href="https://maps.app.goo.gl/kos7LLkq8i7nDi4a8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -508,7 +475,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'サンヴァリエ金岡③',
                 'date': '<a href="https://maps.app.goo.gl/gNovc7ujzj9jTMET8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -523,7 +489,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '堺駅前地下自転車駐車場',
                 'date': '<a href="https://maps.app.goo.gl/nwLSRWFf8S9oiMFdA" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -538,7 +503,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'ポルタス堺（堺駅西口）',
                 'date': '<a href="https://maps.app.goo.gl/2mLHWHsbMph1sPYX6" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -553,7 +517,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '新金岡第一①',
                 'date': '<a href="https://maps.app.goo.gl/QomRbkD2NeZtZM6t8" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -568,7 +531,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '新金岡第一②',
                 'date': '<a href="https://maps.app.goo.gl/RqDRgidQ7VsD4e5L7" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -583,7 +545,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '中百舌鳥駅前東第１駐輪場',
                 'date': '<a href="https://maps.app.goo.gl/Tj9SRdkyBr7WjMJJA" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
@@ -598,7 +559,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': '堺市立のびやか健康館',
                 'date': '<a href="https://maps.app.goo.gl/f3JhNmdNbPL2cJh6A" target="_blank">Google Map</a>',
-                'iconSize': ['../profile/img/hello.jpg', '2.5rem', '2.5rem'],
                 'tags': 'hello',
                 'zoom': 16,
             }
