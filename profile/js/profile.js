@@ -43,6 +43,15 @@ document.addEventListener("readystatechange", (event) => {
 
         // localStorageから位置情報を取得
         if (localStorage.getItem("goout")) {
+            const credit = document.createElement('li');
+            credit.className = "goout";
+            storageOl.appendChild(credit);
+            const by = document.createElement('p');
+            credit.appendChild(by);
+            
+            const yourInfo = JSON.parse(localStorage.getItem('yourInfo'));
+            by.innerHTML = yourInfo.os;
+            
             const gooutJSON = JSON.parse(localStorage.getItem('goout'));
             for (let i = 0; i < gooutJSON.length; i++) {
                 const thisLongitude = gooutJSON[i].longitude;
@@ -70,17 +79,6 @@ document.addEventListener("readystatechange", (event) => {
             }
         } else {
             location.replace('../')
-        }
-
-        const credit = document.createElement('li');
-        credit.className = "goout";
-        storageOl.appendChild(credit);
-        const by = document.createElement('p');
-        credit.appendChild(by);
-
-        if (localStorage.getItem("goout")) {
-            const yourInfo = JSON.parse(localStorage.getItem('yourInfo'));
-            by.innerHTML = yourInfo.os;
         }
 
         const dialog = document.querySelector("dialog");
