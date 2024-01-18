@@ -51,7 +51,8 @@ map.on('load', () => {
           'properties': {
             'title': '16 Minute Cycling in Taisho 🇯🇵 Osaka, Japan',
             'address': '木津川渡船場（船町）⇄ 千本松渡船場（南恩加島）',
-            'date': '<a href="../vr/?id=cycling&area=osaka&name=taisho-minami">More Info</a>',
+            'date': 'More Info',
+            'href': 'vr/?id=cycling&area=osaka&name=taisho-minami',
             'youtube': 'ro1iQcEl2m8',
             'zoom': 14.5
           }
@@ -122,7 +123,8 @@ map.on('load', () => {
           'properties': {
             'title': '21 Minute Cycling Suminoe Park to Nanko Fishing Port 🇯🇵 Osaka, Japan',
             'address': '住之江公園駅から南港南の西の果てまで',
-            'date': '<a href="../vr/?id=cycling&area=osaka&name=nanko-minami">More Info</a>',
+            'date': 'More Info',
+            'href': 'vr/?id=cycling&area=osaka&name=nanko-minami',
             'youtube': 'tinBEuiKqzU',
             'zoom': 13
           }
@@ -143,8 +145,8 @@ map.on('load', () => {
           'properties': {
             'title': '粉浜本通商店街',
             'address': 'Kohama Shopping Street',
-            'date': '<a href="../vr/?id=walking&area=osaka&name=kohama-ss">More Info</a>',
-            'youtube': '2vcbqsYiEy8',
+            'date': 'More Info',
+            'href': 'vr/?id=walking&area=osaka&name=kohama-ss',
             'zoom': 13
           }
         },
@@ -197,7 +199,8 @@ map.on('load', () => {
           'properties': {
             'title': '阿倍野区南東部',
             'address': '阿倍野元町・王子町・阪南町・昭和町・文の里・長池町',
-            'date': '<a href="../vr/?id=cycling&area=osaka&name=abeno-nantou">More Info</a>',
+            'date': 'More Info',
+            'href': 'vr/?id=cycling&area=osaka&name=abeno-nantou',
             'zoom': 14.5
           }
         }
@@ -235,17 +238,31 @@ map.on('click', 'line', (e) => {
     zoom: e.features[0].properties.zoom
   });
 
-  if (e.features[0].properties.youtube) {
-    const main = document.querySelector('main');
-    main.hidden = false;
-
-    player.loadVideoById({ videoId: e.features[0].properties.youtube });
-  }
-
   const thisLatLng = document.querySelector('#latlng');
   const thisAddress = document.querySelector('#address');
   const thisDate = document.querySelector('#datetime');
   thisLatLng.innerHTML = e.features[0].properties.title;
   thisAddress.innerHTML = e.features[0].properties.address;
-  thisDate.innerHTML = e.features[0].properties.date;
+
+  if (e.features[0].properties.href) {
+    const a = document.createElement('a');
+    a.href = directory + e.features[0].properties.href;
+    a.textContent = e.features[0].properties.date;
+
+    if (e.features[0].properties.targt) {
+      a.setAttribute('targt', e.features[0].properties.targt);
+    }
+
+    thisDate.appendChild(a);
+  } else {
+    thisDate.innerHTML = e.features[0].properties.date;
+  }
+
+  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    if (e.features[0].properties.youtube) {
+      const main = document.querySelector('main');
+      main.hidden = false;
+      player.loadVideoById({ videoId: e.features[0].properties.youtube });
+    }
+  }
 });

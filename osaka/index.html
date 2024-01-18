@@ -8,10 +8,16 @@
 
     <!--og:meta-->
     <meta content="website" property="og:type">
-    <title></title>
-    <meta content="" property="og:title">
+    <title>Osaka Map | 大阪観光マップ</title>
+    <meta content="Osaka Map | 大阪観光マップ" property="og:title">
     <meta content="" name="description">
     <meta content="" name="og:description">
+
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://creative-community.space/map/osaka/" property="og:url">
+    <meta content="https://creative-community.space/map/osaka/img/card.png" property="og:image">
+    <meta content="https://creative-community.space/map/osaka/img/card.png" name="twitter:image:src">
 
     <link rel="icon" href="../profile/img/favicon.png">
     <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
@@ -47,25 +53,29 @@
     <script src="ferry/index.js"></script>
     <script src="index.js"></script>
     <script>
+        let directory = "../"
+
         // IFrame Player API の読み込み
-        const tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/player_api";
-        const firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            const tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/player_api";
+            const firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-        var player;
-        var videoId;
+            var player;
+            var videoId;
 
-        function onYouTubePlayerAPIReady() {
-            player = new YT.Player('player', {
-                playerVars: {
-                    'playsinline': 1,
-                    'autoplay': 1,
-                    'controls': 0,
-                    'rel': 0
-                }
-            });
-        };
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('player', {
+                    playerVars: {
+                        'playsinline': 1,
+                        'autoplay': 1,
+                        'controls': 0,
+                        'rel': 0
+                    }
+                });
+            };
+        }
 
         document.addEventListener("readystatechange", (event) => {
             if (event.target.readyState === "interactive") {
@@ -93,11 +103,19 @@
                     dialog.close();
                 })
 
-                const main = document.querySelector('main')
-                main.addEventListener('click', function () {
-                    main.hidden = true;
-                    player.pauseVideo()
-                });
+                if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                    const main = document.querySelector('main')
+                    const thisLatLng = document.querySelector('#latlng');
+                    const thisAddress = document.querySelector('#address');
+                    const thisDate = document.querySelector('#datetime');
+                    main.addEventListener('click', function () {
+                        main.hidden = true;
+                        thisLatLng.textContent = "";
+                        thisAddress.textContent = "";
+                        thisDate.textContent = "";
+                        player.pauseVideo()
+                    });
+                }
             }
         })
     </script>

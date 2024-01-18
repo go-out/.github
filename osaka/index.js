@@ -7,6 +7,21 @@ const osakaSpot = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.49882344601633, 34.70251955199873]
+            },
+            'properties': {
+                'title': '阪急百貨店梅田店コンコース',
+                'address': 'ここにいるのにいないような気持ちになれる場所',
+                'date': '',
+                'tags': 'spot',
+                'youtube': 'qzIy_qtpNh8',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.4883216199499, 34.611700718642865]
             },
             'properties': {
@@ -42,7 +57,8 @@ const osakaSpot = {
             'properties': {
                 'title': '住吉大社',
                 'address': '全国に2300社ある住吉神社の総本社',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
                 'tags': 'legacy',
                 'youtube': 'wbOguTvuV0Q',
                 'zoom': 16.5,
@@ -57,7 +73,8 @@ const osakaSpot = {
             'properties': {
                 'title': 'シーサイドコスモ（コスモスクエア海浜緑地）',
                 'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道',
-                'date': '<a href="../relax/?id=park&area=osaka&name=seaside-cosmo">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=seaside-cosmo',
                 'tags': 'park',
                 'youtube': 'EoFg1eMWADg',
                 'zoom': 16.5,
@@ -72,7 +89,8 @@ const osakaSpot = {
             'properties': {
                 'title': '南港ポートタウン',
                 'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にある住宅地、ニュータウン。',
-                'date': '<a href="../relax/?id=spot&area=osaka&name=port-town">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=port-town',
                 'tags': 'spot',
                 'youtube': '8az_VW2ssbs',
                 'zoom': 15.5,
@@ -87,7 +105,8 @@ const osakaSpot = {
             'properties': {
                 'title': '大阪府咲洲庁舎（さきしまコスモタワー）',
                 'address': '南港北（咲洲）にある高さ256.0m、地上55階・地下3階建ての超高層ビル',
-                'date': '<a href="../relax/?id=spot&area=osaka&name=wtc-cosmotower">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=wtc-cosmotower',
                 'tags': 'spot',
                 'youtube': '9E8UZio4SJM',
                 'zoom': 17.5,
@@ -132,7 +151,8 @@ const osakaSpot = {
             'properties': {
                 'title': '天神ノ森天満宮',
                 'address': '6月30日「夏越祭（なごしまつり）」<br>1年の前半の穢れを清めて災厄を払う神事「茅の輪くぐり」が行われます。',
-                'date': '<a href="../relax/?id=legacy&area=osaka&name=tenjinnomori">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=tenjinnomori',
                 'tags': 'legacy',
                 'youtube': 'dZRBkoIMVg0',
                 'zoom': 18,
@@ -147,7 +167,7 @@ const osakaSpot = {
             'properties': {
                 'title': '万代池公園',
                 'address': 'まんだいいけこうえん、ばんだいいけこうえん',
-                'date': '<small class="mobile">スマートフォンのブラウザでは、360°映像が正しく再生されません。</small><br><small class="mobile">VR動画を見るには、YouTubeアプリを使用してください。</small>',
+                'date': '',
                 'tags': 'park',
                 'youtube': '-7DEl_jxuW8',
                 'zoom': 16.5,
@@ -162,7 +182,8 @@ const osakaSpot = {
             'properties': {
                 'title': '天下茶屋公園',
                 'address': '大きな樹木が茂る林に覆われた大阪市営公園。春は桜、秋にはハギの花が美しく咲く。',
-                'date': '<a href="../relax/?id=park&area=osaka&name=tengachaya">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=tengachaya',
                 'tags': 'park',
                 'youtube': 'T3dnf2uGUw0',
                 'zoom': 17.5,
@@ -177,7 +198,8 @@ const osakaSpot = {
             'properties': {
                 'title': '阿倍野神社',
                 'address': '境内にあるお茶室「中今亭庭園」とそのお庭が、毎月第1・第3日曜日に限定公開されます。',
-                'date': '<a href="../relax/?id=legacy&area=osaka&name=abenojinja">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=abenojinja',
                 'tags': 'legacy',
                 'youtube': 'Ctf_xTeaNFM',
                 'zoom': 17.5,
@@ -192,7 +214,8 @@ const osakaSpot = {
             'properties': {
                 'title': '八尾空港',
                 'address': '定期便の就航はない「その他の空港」に位置づけられる国管理空港',
-                'date': '<a href="../relax/?id=spot&area=osaka&name=yao-airport">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=yao-airport',
                 'tags': 'spot',
                 'youtube': 'geqXiPdwMvw',
                 'zoom': 15,
@@ -207,7 +230,8 @@ const osakaSpot = {
             'properties': {
                 'title': '大仙公園',
                 'address': '世界最大の墳墓「大仙陵古墳（だいせんりょうこふん）」の南に位置する総合公園',
-                'date': '<a href="../relax/?id=park&area=osaka&name=daisenkouen">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=daisenkouen',
                 'tags': 'park',
                 'youtube': 'wLRVVM-xAmg',
                 'zoom': 15,
@@ -222,7 +246,8 @@ const osakaSpot = {
             'properties': {
                 'title': '金岡団地スターハウスメモリアル',
                 'address': 'UR賃貸住宅（建設当時は日本住宅公団）の 第1号となった｢金岡団地（かなおかだんち）｣ の 記念碑',
-                'date': '<a href="../relax/?id=spot&area=osaka&name=sainvarierkanaoka">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=sainvarierkanaoka',
                 'tags': 'spot',
                 'youtube': 'UhG3l8F5rE4',
                 'zoom': 19,
@@ -237,7 +262,8 @@ const osakaSpot = {
             'properties': {
                 'title': '桃ヶ池公園',
                 'address': '桃ケ池とその周りの遊歩道、幼児向け遊具で構成された地区公園。ハナモモや桜の名所。',
-                'date': '<a href="../relax/?id=park&area=osaka&name=momogaike">More Info</a>',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=momogaike',
                 'tags': 'park',
                 'youtube': 'vnlglP-gvtg',
                 'zoom': 15.5,
@@ -252,7 +278,8 @@ const osakaSpot = {
             'properties': {
                 'title': '住吉区南部',
                 'address': '墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内',
-                'date': '<a href="../vr/?id=cycling&area=osaka&name=sumiyoshi">More Info</a>',
+                'date': 'More Info',
+                'href': 'vr/?id=cycling&area=osaka&name=sumiyoshi',
                 'tags': 'vr',
                 'youtube': 'qksuhA1aBi4',
                 'zoom': 14.5,

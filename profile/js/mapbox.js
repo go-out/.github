@@ -43,14 +43,12 @@ function addMarker(arr) {
         const el = document.createElement('div');
         el.className = marker.properties.tags;
 
-        if (marker.properties.youtube) {
+        if (!marker.properties.iconSize && marker.properties.youtube) {
             const url = `https://i.ytimg.com/vi/${marker.properties.youtube}/default.jpg`;
             el.style.backgroundImage = `url(${url})`;
             el.style.width = '5.5rem';
             el.style.height = '3.75rem';
-        }
-
-        if (marker.properties.iconSize) {
+        } else if (marker.properties.iconSize) {
             const url = marker.properties.iconSize[0];
             el.style.width = marker.properties.iconSize[1];
             el.style.height = marker.properties.iconSize[2];
@@ -67,11 +65,13 @@ function addMarker(arr) {
             flyToCenter(marker);
             chengeHeader(marker);
 
-            if (marker.properties.youtube) {
-                const main = document.querySelector('main');
-                main.hidden = false;
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                if (marker.properties.youtube) {
+                    const main = document.querySelector('main');
+                    main.hidden = false;
 
-                player.loadVideoById({ videoId: marker.properties.youtube });
+                    player.loadVideoById({ videoId: marker.properties.youtube });
+                }
             }
         })
     }
@@ -92,5 +92,18 @@ function chengeHeader(e) {
     const thisDate = document.querySelector('#datetime');
     thisLatLng.innerHTML = e.properties.title;
     thisAddress.innerHTML = e.properties.address;
-    thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
+
+    if (e.properties.href) {
+        const a = document.createElement('a');
+        a.href = directory + e.properties.href;
+        a.innerHTML = e.properties.date.replace(/\n/g, '<br>');
+
+        if (e.properties.targt) {
+            a.setAttribute('targt', e.properties.targt);
+        }
+
+        thisDate.appendChild(a);
+    } else {
+        thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
+    }
 }
