@@ -32,14 +32,25 @@ function playThis(obj) {
     }
 
     document.title = obj.title;
+    const description = document.querySelector("meta[name='description']");
+    description.content = obj.description;
+
+    const strong = document.querySelector("header h1 strong");
     const playBtn = document.querySelector("#play");
-    playBtn.textContent = document.title;
+
+    if (obj.video && !obj.img) {
+        playBtn.textContent = document.title;
+    } else if (!obj.video && obj.img) {
+        strong.textContent = document.title;
+        strong.style.fontSize = "150%";
+        playBtn.textContent = obj.description;
+    }
 
     const article = document.querySelector("article");
     const h3 = document.querySelector("#title");
     h3.innerHTML = obj.info.title + "<br>";
 
-    if (obj.info.address) {
+    if (obj.info.address && obj.info.google) {
         const google = document.createElement('a');
         google.textContent = obj.info.address;
         google.href = obj.info.google;
@@ -58,14 +69,11 @@ function playThis(obj) {
     if (obj.links) {
         const links = document.createElement('section');
         links.innerHTML += '<u>関連ページ Related Pages</u><br/>';
-        article.appendChild(links);
         for (const eachA of obj.links) {
             links.innerHTML += eachA;
         }
+        article.appendChild(links);
     }
-
-    const description = document.querySelector("meta[name='description']");
-    description.content = obj.description;
 
     if (obj.video) {
         document.querySelector("header").addEventListener('click', function () {
@@ -126,7 +134,7 @@ function shuffle(arrays) {
 function videoAll(obj) {
     const randomdRaggable = document.querySelector('main fieldset');
 
-    if (obj.video) {
+    if (obj.video && !obj.img) {
         const playAll = shuffle(obj.video);
         for (let i = 0; i < playAll.length; i++) {
             const input = document.createElement('input');
@@ -193,7 +201,7 @@ function videoAll(obj) {
                 canvasUpdate();
             })
         }
-    } else if (obj.img) {
+    } else if (!obj.video && obj.img) {
         const imgAll = shuffle(obj.img);
         for (let i = 0; i < imgAll.length; i++) {
             const input = document.createElement('input');
