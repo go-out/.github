@@ -55,7 +55,6 @@
 
     document.addEventListener("readystatechange", (event) => {
       if (event.target.readyState === "interactive") {
-        fetchHTML('dialog ul', 'date.html')
         document.querySelector('#copy time').innerHTML = year;
       } else if (event.target.readyState === "complete") {
         addMarker(submitJson.features)
