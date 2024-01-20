@@ -119,19 +119,19 @@
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
 
-        let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-            center = [135.5020763952882, 34.69376772507822];
+        let css = 'mapbox://styles/mapbox/standard',
+            center = [138.45771366695845, 36.49919838567996];
 
         const bounds = [
-            [135.0590791040609, 34.256820829045935], // 南西座標
-            [135.78320173410242, 35.061027592581866] // 北東座標
+            [122.26435698487535, 23.24028755602758], // 南西座標
+            [155.15191816980064, 49.928032116735665] // 北東座標
         ]
 
         const map = new mapboxgl.Map({
             container: 'map',
             center: center,
             style: css,
-            zoom: 9.87654321,
+            zoom: 7.5,
             scrollZoom: true,
             projection: 'globe',
             attributionControl: false,
