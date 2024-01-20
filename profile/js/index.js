@@ -34,6 +34,10 @@ document.addEventListener("readystatechange", (event) => {
             `;
             thisDate.className = 'goout';
             thisDate.textContent = geoJSON.timestamp;
+            
+            fetchHTML('dialog ul', 'date.html')
+        } else {
+            readmeMD('dialog ul', 'README.md')
         };
     } else if (event.target.readyState === "complete") {
         const goout = document.querySelector('#map');
