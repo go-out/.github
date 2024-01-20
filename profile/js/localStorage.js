@@ -1,6 +1,6 @@
 'use strict'
 
-let gooutArr = {
+let yourJSON = {
     'type': 'FeatureCollection',
     'features': []
 }
@@ -31,6 +31,6 @@ if (localStorage.getItem("goout")) {
             }
         }
 
-        gooutArr.features.push(yourMarker);
+        yourJSON.features.push(yourMarker);
     }
 }
