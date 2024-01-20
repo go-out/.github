@@ -17,6 +17,10 @@ function addMarker() {
             .setLngLat(marker.geometry.coordinates)
             .addTo(map)
         el.addEventListener('click', () => {
+            const address = document.querySelector('#address');
+            const latlng = document.querySelector('#latlng');
+            address.textContent = el.properties.address;
+            latlng.innerHTML = el.properties.comment.replace(/\n/g, '<br>');
             flyToCenter(marker.geometry.coordinates)
         })
     }
