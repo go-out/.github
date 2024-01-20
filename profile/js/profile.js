@@ -16,6 +16,7 @@ function addMarker() {
         })
             .setLngLat(marker.geometry.coordinates)
             .addTo(map)
+        
         el.addEventListener('click', () => {
             const thisAddress = marker.properties.address;
             const thisComment = marker.properties.date;
