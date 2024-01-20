@@ -8,6 +8,12 @@
   <script src="js/localStorage.js"></script>
   <script src="js/profile.js"></script>
 
+  <script>
+    if (!localStorage.getItem("yourInfo")) {
+      location.replace('../')
+    }
+  </script>
+
   <!--og:meta-->
   <meta content="website" property="og:type">
   <title>あなたがいた場所のコレクション</title>
