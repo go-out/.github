@@ -8,7 +8,7 @@ function getRandomInt(min, max) {
 
 // 地図にマーカーを追加
 function addMarker() {
-    for (const marker of gooutArr.features) {
+    for (const marker of yourJSON.features) {
         const el = document.createElement('div');
         el.className = marker.properties.tags;
         new mapboxgl.Marker(el, {
