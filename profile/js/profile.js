@@ -18,7 +18,7 @@ function addMarker() {
             .addTo(map)
         el.addEventListener('click', () => {
             const thisAddress = marker.properties.address;
-            const thisComment = marker.properties.comment;
+            const thisComment = marker.properties.date;
             document.querySelector('#address').textContent = thisAddress;
             document.querySelector('#latlng').innerHTML = thisComment.replace(/\n/g, '<br>');
             flyToCenter(marker.geometry.coordinates)
