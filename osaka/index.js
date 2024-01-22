@@ -284,6 +284,22 @@ const osakaSpot = {
                 'youtube': 'qksuhA1aBi4',
                 'zoom': 14.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49671014738038,34.66147827438952]
+            },
+            'properties': {
+                'title': '難波八阪神社',
+                'address': '難波一帯の産土神。大きな獅子の頭の形をした舞台「獅子殿（ししでん）」が有名。',
+                'date': 'More Info',
+                'href': 'vr/?id=legacy&area=osaka&name=nambayasaka',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'tags': 'legacy',
+                'zoom': 14.5,
+            }
         }
     ]
 };
