@@ -1,0 +1,59 @@
+{
+    "annual": [
+        {
+            "month": "January",
+            "events": [
+                {
+                    "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
+                    "venue": "難波八阪神社 Nambayasaka Shrine",
+                    "date": "毎年一月第三日曜日 Third Sunday of January every year",
+                    "link": "tsunahiki-shingi/"
+                }
+            ]
+        },
+        {
+            "month": "February",
+            "events": []
+        },
+        {
+            "month": "March",
+            "events": []
+        },
+        {
+            "month": "April",
+            "events": []
+        },
+        {
+            "month": "May",
+            "events": []
+        },
+        {
+            "month": "June",
+            "events": []
+        },
+        {
+            "month": "July",
+            "events": []
+        },
+        {
+            "month": "August",
+            "events": []
+        },
+        {
+            "month": "September",
+            "events": []
+        },
+        {
+            "month": "October",
+            "events": []
+        },
+        {
+            "month": "November",
+            "events": []
+        },
+        {
+            "month": "December",
+            "events": []
+        }
+    ]
+}
