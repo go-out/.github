@@ -60,6 +60,9 @@ dialog {
 }
 
 header a {
+    display: inline-block;
+    border-radius: 2.5rem;
+    padding: 0.25rem 0.5rem;
     text-decoration: none;
 }
 
@@ -97,10 +100,17 @@ input[type="button"]:hover {
         url("../fonts/Kristina-Fine.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "KikaiChokoku";
+    src: url("../fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
+        url("../fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
+        url("../fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
+}
+
 .goout,
 header .submit,
 .mapboxgl-ctrl-attrib-inner {
-    font-family: "Kristina", 'Zen Maru Gothic', cursive;
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
 }
 
 .goout a {

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>綱引神事 🇯🇵 Tsunahiki Shinji (Great Tug-of-War Festival) ⛩️ 難波八阪神社</title>
+    <meta name="description" content="毎年一月第三日曜日 午前八時 から 正午頃 | Date: Third Sunday of January on 8AM to Around Noon">
+
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../video_track.js"></script>
+    <script>
+        indexJSON("index.json")
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <input type="button" data-playing="false" role="switch" value="▶️ 2024.1.21 8AM - 2PM" />
+        <button type="button" id="menu" onclick="changeHidden()"></button>
+    </nav>
+
+    <article id="cover">
+        <section>
+            <h1></h1>
+            <h2></h2>
+        </section>
+    </article>
+    <article id="readme" hidden>
+        <header></header>
+        <section></section>
+    </article>
+
+    <video id="video" preload="auto" muted playsinline>
+        <source id="mp4" type="video/mp4" />
+        <track id="captions" srclang="ja" kind="captions" default />
+    </video>
+</body>
+
+</html>

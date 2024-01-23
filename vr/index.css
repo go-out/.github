@@ -19,9 +19,16 @@ header h2 {
         url("../profile/fonts/Kristina-Fine.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "KikaiChokoku";
+    src: url("../profile/fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
+        url("../profile/fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
+        url("../profile/fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
+}
+
 header,
 article {
-    font-family: "Kristina", 'Zen Maru Gothic', cursive;
+    font-family: "Kristina", "KikaiChokoku", sans-serif;
 }
 
 header h1,
@@ -87,7 +94,6 @@ body {
 }
 
 header h1 strong,
-header h2 strong::after,
 article a {
     color: lightskyblue;
 }
@@ -96,12 +102,15 @@ header h2 strong {
     color: lemonchiffon;
 }
 
-#year {
+#year,
+header h2 strong::after {
     color: #fff;
 }
 
-footer select {
+select {
     color: #000;
+    font-family: inherit;
+    padding: 0.25rem 0;
 }
 
 article u,

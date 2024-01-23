@@ -1,0 +1,165 @@
+{
+    "title": [
+        "<u>綱引神事 ⛩️ 難波八阪神社</u><br>",
+        "<strong>Tsunahiki Shinji <small>(Great Tug-of-War Festival)</small></strong>"
+    ],
+    "description": [
+        "毎年一月第三日曜日 午前八時 から 正午頃<br>",
+        "<small>Date: Third Sunday of January every year on 8AM to Around Noon</small>"
+    ],
+    "id": "../tsunahiki-shingi/",
+    "cover": "nambayasaka.thumbs/20240121/0001_000001.jpg",
+    "directory": "https://ia601301.us.archive.org/3/items/nambayasaka/",
+    "video": [
+        {
+            "title": "綱引神事",
+            "src": "20240121/0000.ia.mp4",
+            "track": "track/0000.vtt"
+        },
+        {
+            "title": "毎年一月第三日曜日",
+            "src": "20240121/0001.ia.mp4",
+            "track": "track/0001.vtt"
+        },
+        {
+            "title": "午前八時",
+            "src": "20240121/0820.ia.mp4",
+            "track": "track/0820.vtt"
+        },
+        {
+            "title": "午前八時半",
+            "src": "20240121/0830.ia.mp4",
+            "track": "track/0830.vtt"
+        },
+        {
+            "title": "午前八時半",
+            "src": "20240121/0840.ia.mp4",
+            "track": "track/0840.vtt"
+        },
+        {
+            "title": "午前八時半",
+            "src": "20240121/0850.ia.mp4",
+            "track": "track/0850.vtt"
+        },
+        {
+            "title": "御中",
+            "src": "20240121/0855.ia.mp4",
+            "track": "track/0855.vtt"
+        },
+        {
+            "title": "12本の縄",
+            "src": "20240121/0900.ia.mp4",
+            "track": "track/0900.vtt"
+        },
+        {
+            "title": "綱練り",
+            "src": "20240121/1000.mp4",
+            "track": "track/1000.vtt"
+        },
+        {
+            "title": "大綱",
+            "src": "20240121/1100.ia.mp4",
+            "track": "track/1100.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1110.ia.mp4",
+            "track": "track/1110.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1120.ia.mp4",
+            "track": "track/1120.vtt"
+        },
+        {
+            "title": "三本の大綱",
+            "src": "20240121/1130.ia.mp4",
+            "track": "track/1130.vtt"
+        },
+        {
+            "title": "極太大綱",
+            "src": "20240121/1200.ia.mp4",
+            "track": "track/1200.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1230.ia.mp4",
+            "track": "track/1230.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1235.ia.mp4",
+            "track": "track/1235.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1240.ia.mp4",
+            "track": "track/1240.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1250.ia.mp4",
+            "track": "track/1250.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1300.ia.mp4",
+            "track": "track/1300.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1305.ia.mp4",
+            "track": "track/1305.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1310.ia.mp4",
+            "track": "track/1310.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1315.ia.mp4",
+            "track": "track/1315.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1320.ia.mp4",
+            "track": "track/1320.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1330.ia.mp4",
+            "track": "track/1330.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1340.ia.mp4",
+            "track": "track/1340.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1350.ia.mp4",
+            "track": "track/1350.vtt"
+        },
+        {
+            "title": "綱引き",
+            "src": "20240121/1400.ia.mp4",
+            "track": "track/1400.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1410.ia.mp4",
+            "track": "track/1410.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1420.ia.mp4",
+            "track": "track/1420.vtt"
+        },
+        {
+            "title": "",
+            "src": "20240121/1430.ia.mp4",
+            "track": "track/1430.vtt"
+        }
+    ]
+}

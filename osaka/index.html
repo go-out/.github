@@ -35,7 +35,8 @@
         }
 
         header h3 a {
-            font-size: 200%;
+            margin-top: 1rem;
+            font-size: 175%;
         }
     </style>
 
@@ -119,6 +120,10 @@
                         player.pauseVideo()
                     });
                 }
+
+                const today = new Date();
+                let year = today.getFullYear();
+                document.querySelector('#copy time').innerHTML = year;
             }
         })
     </script>
@@ -149,23 +154,23 @@
     <dialog>
         <input type="button" id="close" value="×">
         <details class="goout">
-            <summary>
-                <small>このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。</small>
-            </summary>
+            <summary>???</summary>
         </details>
 
-        <h3 class="relax">
-            We Create a
-            <b>Map</b>
-            of
-            <u>Where I（We）Were</u>
-            by location informations submit on this website.
-            <br>
-            <small class="relax">
-                You can add pins of your current locationon on this map by click
-                <strong class="goout">I'm here !</strong>
-            </small>
+        <h3 class="goout">
+            ???
+            <b>???</b>
+            ???
+            <u>???</u>
         </h3>
+
+        <form>
+            <small id="copy" class="goout">
+                Copyright &copy; 2021 -
+                <time></time>
+                creative-community.space
+            </small>
+        </form>
     </dialog>
 
     <script>
