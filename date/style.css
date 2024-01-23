@@ -90,7 +90,8 @@ article {
 }
 
 #cover h1 {
-    padding: 1.25rem;
+    margin: 0;
+    padding: 2rem 1.25rem 1.25rem;
     width: 75%;
 }
 

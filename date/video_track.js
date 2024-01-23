@@ -18,22 +18,12 @@ async function readmeMD(query, url) {
 }
 
 function playThis(obj) {
-    const h1 = document.querySelector("#cover h1");
-    for (const titleEach of obj.title) {
-        h1.innerHTML += titleEach
-    }
-
-    const h2 = document.querySelector("#cover h2");
-    for (const descriptionEach of obj.description) {
-        h2.innerHTML += descriptionEach
-    }
-
     const video = document.querySelector('#video');
     video.setAttribute('poster', obj.directory + obj.cover);
     const mp4 = document.querySelector('#mp4');
     mp4.src = obj.directory + obj.video[0].src;
     const captions = document.querySelector('#captions');
-    captions.src = obj.id + obj.video[0].track;
+    captions.src = obj.video[0].track;
     video.load();
 
     readmeMD("#readme header", "README.md")
