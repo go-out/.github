@@ -38,6 +38,27 @@ function videoAll(obj) {
     const mp4 = document.querySelector('#mp4');
     const captions = document.querySelector('#captions');
 
+    const chapter = document.querySelector('#readme section');
+    const ol = document.createElement('ol');
+
+    chapter.appendChild(ol);
+    for (let i = 0; i < obj.video.length; i++) {
+        const li = document.createElement('li');
+        li.textContent = obj.video[i].title;
+        ol.appendChild(li);
+        li.addEventListener('click', function () {
+            cover.style.opacity = "0";
+            playBtn.dataset.playing = 'true';
+            playBtn.value = '⏸️ Pause';
+            mp4.src = obj.directory + obj.video[i].src;
+            captions.src = obj.directory + obj.video[i].track;
+            video.muted = false;
+            video.load();
+            video.play();
+            n = i;
+        }, false);
+    }
+
     video.addEventListener('ended', () => {
         if (n >= obj.video.length - 1) {
             n = 0;
