@@ -9,6 +9,11 @@
                     "date": "一月十日"
                 },
                 {
+                    "title": "修正会結願法要「どやどや」",
+                    "venue": "四天王寺　南大門広場",
+                    "date": " 毎年1月14日 14時〜15:30頃"
+                },
+                {
                     "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
                     "venue": "難波八阪神社 Nambayasaka Shrine",
                     "date": "毎年一月第三日曜日 Third Sunday of January every year",
@@ -20,9 +25,24 @@
             "month": "February",
             "events": [
                 {
+                    "title": "飛鳥坐神社おんだ祭",
+                    "venue": "飛鳥坐神社",
+                    "date": "例年2月第1日曜日 午後2時頃"
+                },
+                {
                     "title": "節分やくよけ星まつり祈願祭",
                     "venue": "聖天山正圓寺 Shoenji",
                     "date": "毎年二月一日 から 十日"
+                },
+                {
+                    "title": "節分やくよけ星まつり祈願祭",
+                    "venue": "聖天山正圓寺 Shoenji",
+                    "date": "毎年二月一日 から 十日"
+                },
+                {
+                    "title": "だだおし",
+                    "venue": "長谷寺境内 本堂",
+                    "date": "2月14日　16:00〜18:30"
                 }
             ]
         },
@@ -46,15 +66,48 @@
         },
         {
             "month": "June",
-            "events": []
+            "events": [
+                {
+                    "title": "愛染まつり",
+                    "venue": "愛染堂勝鬘院",
+                    "date": "毎年6月30日から7月2日"
+                }
+            ]
         },
         {
             "month": "July",
-            "events": []
+            "events": [
+                {
+                    "title": "愛染まつり",
+                    "venue": "愛染堂勝鬘院",
+                    "date": "毎年6月30日から7月2日"
+                },
+                {
+                    "title": "生國魂祭",
+                    "venue": "生國魂神社",
+                    "date": "7月11日　16:30ごろ～22：0０ごろ | 7月12日　8:00ごろ～22：0０ごろ"
+                },
+                {
+                    "title": "夏祭",
+                    "venue": "杭全神社",
+                    "date": "１１日・１４日には神輿と太鼓台、１２日・１３日にはだんじり が街を練り歩く"
+                },
+                {
+                    "title": "那智の扇祭り",
+                    "venue": "熊野那智大社",
+                    "date": "7月14日 10:00 ~ 15:30"
+                }
+            ]
         },
         {
             "month": "August",
-            "events": []
+            "events": [
+                {
+                    "title": "御霊祭",
+                    "venue": "大阪護国神社",
+                    "date": "毎年八月十四、十五日の二日間 午後６時半から献灯みたま祭り（７時から奉納民謡大会）"
+                }
+            ]
         },
         {
             "month": "September",
@@ -62,7 +115,13 @@
         },
         {
             "month": "October",
-            "events": []
+            "events": [
+                {
+                    "title": "笑い祭",
+                    "venue": "丹生神社 和歌山県日高郡日高川町江川1956",
+                    "date": "毎年「体育の日」直前の日曜日"
+                }
+            ]
         },
         {
             "month": "November",
