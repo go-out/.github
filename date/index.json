@@ -4,6 +4,11 @@
             "month": "January",
             "events": [
                 {
+                    "title": "十日戎　本えびす",
+                    "venue": "今宮戎神社",
+                    "date": "一月十日"
+                },
+                {
                     "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
                     "venue": "難波八阪神社 Nambayasaka Shrine",
                     "date": "毎年一月第三日曜日 Third Sunday of January every year",
@@ -13,7 +18,13 @@
         },
         {
             "month": "February",
-            "events": []
+            "events": [
+                {
+                    "title": "節分やくよけ星まつり祈願祭",
+                    "venue": "聖天山正圓寺 Shoenji",
+                    "date": "毎年二月一日 から 十日"
+                }
+            ]
         },
         {
             "month": "March",
@@ -25,7 +36,13 @@
         },
         {
             "month": "May",
-            "events": []
+            "events": [
+                {
+                    "title": "万部おねり",
+                    "venue": "大念佛寺",
+                    "date": "毎年5月1日から5日"
+                }
+            ]
         },
         {
             "month": "June",
