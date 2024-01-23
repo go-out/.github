@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+    font-size: 20px;
     height: -webkit-fill-available;
 }
 
@@ -97,7 +97,7 @@ article {
 #cover h1 {
     margin: 0;
     padding: 2rem 1.25rem 1.25rem;
-    width: 75%;
+    width: 90%;
 }
 
 @media (orientation: landscape) {
@@ -135,9 +135,12 @@ article {
     line-height: 150%;
 }
 
-#cover h1,
-#readme section ol {
+#cover h1 {
     font-size: 222%;
+}
+
+#readme section ol {
+    font-size: 200%;
 }
 
 nav input,
