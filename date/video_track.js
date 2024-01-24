@@ -49,9 +49,9 @@ function videoAll(obj) {
         li.addEventListener('click', function () {
             cover.style.opacity = "0";
             playBtn.dataset.playing = 'true';
-            playBtn.value = '⏸️ Pause';
+            playBtn.value = '⏸️ ' + obj.video[i].title;
             mp4.src = obj.directory + obj.video[i].src;
-            captions.src = obj.directory + obj.video[i].track;
+            captions.src = obj.video[i].track;
             video.muted = false;
             video.load();
             video.play();
@@ -67,29 +67,44 @@ function videoAll(obj) {
         }
 
         mp4.src = obj.directory + obj.video[n].src;
-        captions.src = obj.id + obj.video[n].track;
+        captions.src = obj.video[n].track;
         video.load();
         video.play();
+        playBtn.value = '▶️ ' + obj.video[n].title;
     }, false);
 
     playBtn.addEventListener('click', function () {
         if (playBtn.dataset.playing == 'false') {
             cover.style.opacity = "0";
             playBtn.dataset.playing = 'true';
-            playBtn.value = '⏸️ Pause';
+            playBtn.value = '⏸️ ' + obj.video[n].title;
 
             video.play();
             video.muted = false;
         } else {
-            cover.style.opacity = "0";
+            cover.style.opacity = "1";
             playBtn.dataset.playing = 'false';
-            playBtn.value = '▶️ Play';
+            playBtn.value = '▶️ ' + convertTime(video.currentTime);
 
             video.pause();
             video.muted = true;
         }
     }, false);
 }
+
+const convertTime = function (time_position) {
+    time_position = Math.floor(time_position);
+    let res = null;
+
+    if (60 <= time_position) {
+        res = Math.floor(time_position / 60);
+        res += ":" + Math.floor(time_position % 60).toString().padStart(2, '0');
+    } else {
+        res = "0:" + Math.floor(time_position % 60).toString().padStart(2, '0');
+    }
+
+    return res;
+};
 
 function changeHidden() {
     const articleAll = document.querySelectorAll('article');

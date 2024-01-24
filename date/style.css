@@ -29,6 +29,11 @@ nav {
     cursor: pointer;
 }
 
+#cover {
+    pointer-events: none;
+    user-select: none;
+}
+
 @font-face {
     font-family: "Kristina";
     src: url("../profile/fonts/Kristina-Bold.otf") format("opentype"),
