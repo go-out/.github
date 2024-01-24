@@ -1,0 +1,64 @@
+{
+    "annual": [
+        {
+            "month": "January",
+            "events": [
+            ]
+        },
+        {
+            "month": "February",
+            "events": [
+                {
+                    "title": "飛鳥坐神社おんだ祭",
+                    "venue": "飛鳥坐神社",
+                    "date": "例年2月第1日曜日 午後2時頃"
+                },
+                {
+                    "title": "だだおし",
+                    "venue": "長谷寺境内 本堂",
+                    "date": "2月14日　16:00〜18:30"
+                }
+            ]
+        },
+        {
+            "month": "March",
+            "events": []
+        },
+        {
+            "month": "April",
+            "events": []
+        },
+        {
+            "month": "May",
+            "events": []
+        },
+        {
+            "month": "June",
+            "events": []
+        },
+        {
+            "month": "July",
+            "events": []
+        },
+        {
+            "month": "August",
+            "events": []
+        },
+        {
+            "month": "September",
+            "events": []
+        },
+        {
+            "month": "October",
+            "events": []
+        },
+        {
+            "month": "November",
+            "events": []
+        },
+        {
+            "month": "December",
+            "events": []
+        }
+    ]
+}
