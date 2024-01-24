@@ -1,0 +1,11 @@
+WEBVTT
+
+STYLE
+::cue {
+  color: lemonchiffon;
+  font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
+00:00:01.000 --> 00:00:11.000
+地車に<ruby>八岐大蛇<rt>やまたのおろち</rt></ruby>を乗せて、無事完成
+今年の恵方<ruby>東北東やや東<rt>とうほくとうややひがし</rt></ruby>に頭を向け、ついに綱引神事です。
