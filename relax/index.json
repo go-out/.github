@@ -13,11 +13,10 @@
     "video": [
         {
             "id": "legacy",
-            "poster": "ggms/AF1QipMI9Aa-Xz_uEhxn6XcgjqadZsOjLuBpbH2R_eeK",
+            "poster": "ggms/AF1QipPWpIDAV6PK0VO1GBnHYQG9G5UAimNNVyjy520l",
             "src": [
-                "ggms/AF1QipMI9Aa-Xz_uEhxn6XcgjqadZsOjLuBpbH2R_eeK=m18",
-                "ggms/AF1QipOtLwrX6vzAXT1PjZcPhK4TlOuv0Xl0jIWFzzGZ=m18",
-                "ggms/AF1QipN1xnuvbDsDbLrPIrMMtt9RfI-IPmMyvuRRqZje=m18"
+                "ggms/AF1QipPWpIDAV6PK0VO1GBnHYQG9G5UAimNNVyjy520l=m18",
+                "ggms/AF1QipMSDdR0Th2X_G1TYvhUBGieNdS2D5P4ILjnaJF_=m18"
             ]
         },
         {
@@ -33,9 +32,9 @@
             "id": "spot",
             "poster": "ggms/AF1QipPTUm1GHZQ4dgy9DUV6AGJ5zPXOdD13zAavueM1",
             "src": [
-                "ggms/AF1QipN2kjzp3qTiAbf6cSWxa0kEbV9xl3nki9QIKRfy=m18",
-                "ggms/AF1QipOTPQR-TLg1i1YOkCM03z3Je0zKw8zL6_8T-xv4=m18",
-                "ggms/AF1QipMgCoEksGiwckfoPEZfFDStDm_Y1fUUR2FKa3dJ=m18"
+                "ggms/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-=m18",
+                "ggms/AF1QipMjGWfzF2QjxUeXXJWWnF2hw-ozZZIespxguJTp=m18",
+                "ggms/AF1QipPlzap0fO0WdJrt2FqJeTvf8h8H0zklItG3-Yir=m18"
             ]
         }
     ]
