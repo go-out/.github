@@ -30,7 +30,6 @@ const osakaFerry = {
                 'date': '<a href="ferry/?name=zonbee">more info</a>',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
                 'tags': 'vr',
-                'id': 'erky9l9h0KQ',
                 'zoom': 16.5,
             }
         },
@@ -46,7 +45,6 @@ const osakaFerry = {
                 'date': '<a href="ferry/?name=chitose">more info</a>',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
                 'tags': 'vr',
-                'id': 'pHLZszPeUEQ',
                 'zoom': 16,
             }
         },
@@ -62,7 +60,6 @@ const osakaFerry = {
                 'date': '<a href="ferry/?name=ochiaikami">more info</a>',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
                 'tags': 'vr',
-                'id': 'tkVySMeh9Js',
                 'zoom': 16.5,
             }
         },
@@ -78,7 +75,6 @@ const osakaFerry = {
                 'date': '<a href="ferry/?name=ochiaishimo">more info</a>',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
                 'tags': 'vr',
-                'id': 'OmS0ifSabJo',
                 'zoom': 16.5,
             }
         },
@@ -94,7 +90,7 @@ const osakaFerry = {
                 'date': '<a href="ferry/?name=senbonmatsu">more info</a>',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
                 'tags': 'vr',
-                'id': 'SNw7eE2K0c0',
+                'youtube': 'SNw7eE2K0c0',
                 'zoom': 16,
             }
         },
@@ -110,7 +106,7 @@ const osakaFerry = {
                 'date': '<a href="ferry/?name=funamachi">more info</a>',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
                 'tags': 'vr',
-                'id': 'Z8Von0j_br8',
+                'youtube': 'Z8Von0j_br8',
                 'zoom': 17,
             }
         },
@@ -126,7 +122,7 @@ const osakaFerry = {
                 'date': '<a href="ferry/?name=kizugawa">more info</a>',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
                 'tags': 'vr',
-                'id': 'JDQjc70a1T8',
+                'youtube': 'JDQjc70a1T8',
                 'zoom': 16,
             }
         }
