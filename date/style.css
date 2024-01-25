@@ -29,7 +29,8 @@ nav {
     cursor: pointer;
 }
 
-#cover {
+#cover,
+#video {
     pointer-events: none;
     user-select: none;
 }
@@ -131,6 +132,7 @@ article {
     #video {
         width: auto;
         height: 100%;
+        max-width: 100vh;
         max-height: 100vw;
         transform: translate(-50%, -50%) rotate(90deg);
     }
