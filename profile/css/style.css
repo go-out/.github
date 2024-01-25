@@ -61,9 +61,12 @@ dialog {
 
 header a {
     display: inline-block;
+    text-decoration: none;
+}
+
+#datetime a {
     border-radius: 2.5rem;
     padding: 0.25rem 0.5rem;
-    text-decoration: none;
 }
 
 a,

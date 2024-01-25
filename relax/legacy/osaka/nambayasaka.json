@@ -1,16 +1,20 @@
 {
     "title": "難波八阪神社 なんばやさかじんじゃ",
-    "description": "難波一帯の産土神。大きな獅子の頭の形をした舞台「獅子殿（ししでん）」が有名。",
+    "description": "大きな獅子の頭の形をした舞台「獅子殿（ししでん）」で知られる難波一帯の産土神",
     "year": "2024",
     "month": "1",
     "day": "21",
     "info": {
         "title": "Nambayasaka Shrine 🇯🇵 Osaka, Japan",
         "address": "大阪府大阪市浪速区元町２丁目９−１９",
-        "google": "https://maps.app.goo.gl/HWeDDZYxWiMNCbYE7"
+        "google": "https://maps.app.goo.gl/HWeDDZYxWiMNCbYE7",
+        "text": [
+            ""
+        ]
     },
     "links": [
-        "<a href='https://nambayasaka.jp/' target='_blank'>難波八阪神社公式ホームページ</a>"
+        "<a href='https://nambayasaka.jp/' target='_blank'>難波八阪神社公式ホームページ</a>",
+        "<a href='https://creative-community.space/map/date/tsunahiki-shingi/'>綱引神事 🇯🇵 毎年一月第三日曜日</a>"
     ],
     "width": "0.575",
     "height": "1",

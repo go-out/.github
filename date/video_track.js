@@ -56,6 +56,10 @@ function videoAll(obj) {
             video.load();
             video.play();
             n = i;
+
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                document.documentElement.requestFullscreen();
+            }
         }, false);
     }
 
@@ -81,6 +85,10 @@ function videoAll(obj) {
 
             video.play();
             video.muted = false;
+
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                document.documentElement.requestFullscreen();
+            }
         } else {
             cover.style.opacity = "1";
             playBtn.dataset.playing = 'false';
@@ -88,6 +96,10 @@ function videoAll(obj) {
 
             video.pause();
             video.muted = true;
+
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                document.exitFullscreen();
+            }
         }
     }, false);
 }

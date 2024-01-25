@@ -150,7 +150,7 @@ const osakaSpot = {
             },
             'properties': {
                 'title': '天神ノ森天満宮',
-                'address': '6月30日「夏越祭（なごしまつり）」<br>1年の前半の穢れを清めて災厄を払う神事「茅の輪くぐり」が行われます。',
+                'address': '楠木（クスノキ）の大樹が生い茂る境内は、「紹鴎（じょうおう）の森」とも呼ばれています。',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=tenjinnomori',
                 'tags': 'legacy',
@@ -293,11 +293,11 @@ const osakaSpot = {
             },
             'properties': {
                 'title': '難波八阪神社',
-                'address': '難波一帯の産土神。大きな獅子の頭の形をした舞台「獅子殿（ししでん）」が有名。',
+                'address': '大きな獅子の頭の形をした舞台「獅子殿（ししでん）」で知られる難波一帯の産土神',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
-                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
                 'tags': 'legacy',
+                'youtube': 'OO_7X8aM9BQ',
                 'zoom': 14.5,
             }
         }
