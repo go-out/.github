@@ -145,6 +145,10 @@ h3 b {
     font-size: 150%;
 }
 
+dialog ul li a {
+    font-size: 125%;
+}
+
 address strong {
     word-break: all;
 }
