@@ -25,9 +25,16 @@ h1 {
         url("../profile/fonts/DiaPro-Regular.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Kikai";
+    src: url("../profile/fonts/KikaiChokokuJIS-CnKn.otf") format("opentype"),
+        url("../profile/fonts/KikaiChokokuJIS-Md.otf") format("opentype"),
+        url("../profile/fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
+}
+
 header h2,
 article p {
-    font-family: "Kristina", 'Zen Maru Gothic', cursive;
+    font-family: "Kristina", 'Kikai', 'Zen Maru Gothic', cursive;
 }
 
 .relax,
