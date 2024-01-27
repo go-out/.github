@@ -58,7 +58,7 @@ const osaka268 = {
                 'title': '浜口温泉',
                 'address': '営業時間 13:30~24:00 | 定休日 木曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=268&area=osaka&name=hamaguchionsen',
+                'href': 'relax/?id=268&area=osaka&name=hamaguchi-onsen',
                 'tags': 'yu',
                 'zoom': 17,
             }
