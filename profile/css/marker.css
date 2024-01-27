@@ -28,6 +28,13 @@
     height: 2.5rem;
 }
 
+.mapboxgl-marker.onsen {
+    background-image: url(../img/onsen.png);
+    border-radius: 50%;
+    width: 2.22rem;
+    height: 2.22rem;
+}
+
 .mapboxgl-popup {
     z-index: 11;
 }
