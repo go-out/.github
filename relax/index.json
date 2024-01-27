@@ -3,9 +3,7 @@
     "description": "Fancy and Relaxin'",
     "info": {
         "title": "優雅にリラックスできる場所",
-        "text": [
-            "aaa"
-        ]
+        "markdown": "README.md"
     },
     "width": "0.575",
     "height": "1",
