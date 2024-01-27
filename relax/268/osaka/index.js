@@ -82,6 +82,21 @@ const osaka268 = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.43268008593316, 34.66123908022925]
+            },
+            'properties': {
+                'title': 'リバーサイドスパ',
+                'address': '営業時間 6:00~24:00(金土日祝 25:00) | 通常料金 ￥2,000+入湯税（￥150）',
+                'date': 'More Info',
+                'href': 'relax/?id=268&area=osaka&name=riverside-spa',
+                'tags': 'onsen',
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.51980129329303, 34.59733330978709]
             },
             'properties': {
@@ -112,14 +127,14 @@ const osaka268 = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.43268008593316, 34.66123908022925]
+                'coordinates': [135.50906767737246, 34.60605473126556]
             },
             'properties': {
-                'title': 'リバーサイドスパ',
-                'address': '営業時間 6:00~24:00(金土日祝 25:00) | 通常料金 ￥2,000+入湯税（￥150）',
+                'title': '花里温泉',
+                'address': '営業時間 8:00~23:00 | 定休日 土曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=268&area=osaka&name=riverside-spa',
-                'tags': 'onsen',
+                'href': 'relax/?id=268&area=osaka&name=hanazono-onsen',
+                'tags': 'yu',
                 'zoom': 17,
             }
         },
