@@ -112,6 +112,21 @@ const osaka268 = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.43268008593316, 34.66123908022925]
+            },
+            'properties': {
+                'title': 'リバーサイドスパ',
+                'address': '営業時間 6:00~24:00(金土日祝 25:00) | 通常料金 ￥2,000+入湯税（￥150）',
+                'date': 'More Info',
+                'href': 'relax/?id=268&area=osaka&name=riverside-spa',
+                'tags': 'onsen',
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.51589014458102, 34.621186349484475]
             },
             'properties': {
