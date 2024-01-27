@@ -28,7 +28,7 @@ header h2 {
 
 header,
 article {
-    font-family: "Kristina", "KikaiChokoku", sans-serif;
+    font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
 }
 
 header h1,
@@ -37,7 +37,8 @@ header h1 strong {
 }
 
 header h2 strong,
-article h3 {
+article h3,
+article b {
     font-size: 150%;
 }
 
@@ -66,8 +67,13 @@ header h1 strong {
     font-weight: 777;
 }
 
-article h3 {
+article h3,
+article b {
     font-weight: 500;
+}
+
+article b {
+    line-height: 150%;
 }
 
 article h3 {

@@ -9,6 +9,14 @@ async function indexJSON(requestURL) {
     videoAll(index);
 }
 
+async function readmeMD(query, url) {
+    fetch(url)
+        .then(response => response.text())
+        .then(innerText => {
+            document.querySelector(query).innerText = innerText;
+        })
+}
+
 function playThis(obj) {
     const year = document.querySelector("#year");
     if (obj.year) {
@@ -161,13 +169,15 @@ function videoAll(obj) {
         });
     }
 
-    if (obj.info) {
+    if (obj.info && !obj.markdown) {
         for (const infoP of obj.info) {
             const info = document.querySelector("#info");
             const p = document.createElement('p');
             p.innerHTML = infoP;
             info.appendChild(p);
         }
+    } else if (obj.markdown && !obj.info) {
+        readmeMD("#info", obj.markdown)
     }
 
     if (obj.links) {
