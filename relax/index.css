@@ -12,6 +12,13 @@ h1 {
     margin: 0;
 }
 
+#randomdraggable button {
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: all 1s;
+}
+
 @font-face {
     font-family: "Kristina";
     src: url("../profile/fonts/Kristina-Bold.otf") format("opentype"),
@@ -42,7 +49,8 @@ header h1,
 header button,
 article address,
 article p a,
-article section {
+article section,
+#randomdraggable button {
     font-family: "DiaPro", sans-serif;
 }
 
@@ -91,6 +99,11 @@ article p a {
     color: #111;
 }
 
+#randomdraggable button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
 header h1,
 header button {
     text-align: left;
@@ -111,7 +124,8 @@ footer {
     padding: 1rem;
 }
 
-header h1 strong {
+header h1 strong,
+#randomdraggable button {
     color: #ebd809;
 }
 
@@ -128,7 +142,8 @@ article address {
     font-size: 222%;
 }
 
-header h2 {
+header h2,
+#randomdraggable button {
     font-size: 250%
 }
 

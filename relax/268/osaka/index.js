@@ -13,7 +13,7 @@ const osaka268 = {
                 'title': 'ゆぽぽ大運橋温泉',
                 'address': '営業時間 14:00~23:00 | 定休日 木曜日（祝日の場合も休み）',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=yupopo',
+                'href': 'relax/?id=268&area=osaka&name=yupopo',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -28,7 +28,7 @@ const osaka268 = {
                 'title': '天然温泉ＪＯＹ大正',
                 'address': '営業時間 14:00~22:00（受付は21時まで）| 定休日 土曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=joy-taisho',
+                'href': 'relax/?id=268&area=osaka&name=joy-taisho',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -43,7 +43,7 @@ const osaka268 = {
                 'title': 'あさひ湯',
                 'address': '営業時間 13:30~24:00 | 定休日 木曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=asahiyu',
+                'href': 'relax/?id=268&area=osaka&name=asahiyu',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -58,7 +58,7 @@ const osaka268 = {
                 'title': '浜口温泉',
                 'address': '営業時間 13:30~24:00 | 定休日 木曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=hamaguchionsen',
+                'href': 'relax/?id=268&area=osaka&name=hamaguchionsen',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -73,7 +73,7 @@ const osaka268 = {
                 'title': 'ニュー浴ハウスウェルネス',
                 'address': '営業時間 14:00~24:00 | 定休日 火曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=wellness',
+                'href': 'relax/?id=268&area=osaka&name=wellness',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -88,7 +88,7 @@ const osaka268 = {
                 'title': '錦温泉',
                 'address': '営業時間 14:00~24:30 | 土曜日：オールナイト営業',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=nishiki',
+                'href': 'relax/?id=268&area=osaka&name=nishiki',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -103,7 +103,7 @@ const osaka268 = {
                 'title': '玉乃湯',
                 'address': '営業時間 14:30~25:00 | 日曜日のみ 6:00~12:00も営業',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=tamanoyu',
+                'href': 'relax/?id=268&area=osaka&name=tamanoyu',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -118,7 +118,7 @@ const osaka268 = {
                 'title': 'いりふね温泉',
                 'address': '営業時間 15:00~23:30 | 定休日 火曜日・第一月曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=irihune',
+                'href': 'relax/?id=268&area=osaka&name=irihune',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -133,7 +133,7 @@ const osaka268 = {
                 'title': 'つるが丘温泉',
                 'address': '営業時間 15:00~23:00 | 定休日 金曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=tsurugaoka',
+                'href': 'relax/?id=268&area=osaka&name=tsurugaoka',
                 'tags': 'yu',
                 'zoom': 17,
             }
@@ -148,7 +148,7 @@ const osaka268 = {
                 'title': 'みどり温泉',
                 'address': '営業時間 14:00~24:00 | 定休日 水曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=1010&area=osaka&name=midori-onsen',
+                'href': 'relax/?id=268&area=osaka&name=midori-onsen',
                 'tags': 'yu',
                 'zoom': 17,
             }

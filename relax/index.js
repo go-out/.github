@@ -88,7 +88,7 @@ function playThis(obj) {
         article.appendChild(links);
     }
 
-    if (obj.video) {
+    if (obj.video && !obj.img) {
         document.querySelector("header").addEventListener('click', function () {
             document.body.className = document.body.className === "start" ? "stop" : "start";
             if (document.body.className === "start") {
@@ -215,39 +215,47 @@ function videoAll(obj) {
             })
         }
     } else if (!obj.video && obj.img) {
-        const imgAll = shuffle(obj.img);
-        for (let i = 0; i < imgAll.length; i++) {
-            const input = document.createElement('input');
-            input.setAttribute('type', 'radio');
-            input.setAttribute('name', 'img');
-            input.id = `img${i}`;
-            input.value = `img${i}`;
-            randomdRaggable.appendChild(input);
+        const pre = document.createElement('button');
+        pre.setAttribute('type', 'button');
+        pre.textContent = '←';
+        randomdRaggable.appendChild(pre);
 
-            const label = document.createElement('label');
-            label.setAttribute('for', `img${i}`);
-            label.style.width = `calc(17.5vw / ${obj.width})`;
-            label.style.maxWidth = `calc(7.5rem / ${obj.width})`;
-            randomdRaggable.appendChild(label);
+        const next = document.createElement('button');
+        next.setAttribute('type', 'button');
+        next.textContent = '→';
+        randomdRaggable.appendChild(next);
 
-            const img = document.createElement('img');
-            img.src = obj.directory + imgAll[i]
-            label.appendChild(img);
+        const canvas = document.querySelector("main canvas");
 
-            const canvas = document.querySelector("main canvas");
+        function bgImg(src) {
+            canvas.style.backgroundImage = `url(${src})`;
+        };
 
-            function bgImg(src) {
-                canvas.style.backgroundImage = `url(${src})`;
-            };
 
-            if (i === 0) {
-                bgImg(obj.directory + imgAll[i]);
+        let n = 0;
+        bgImg(obj.directory + obj.img[n]);
+
+        pre.addEventListener('click', function () {
+            if (n == 0) {
+                n = obj.img.length - 1;
+            } else if (n < obj.img.length - 1) {
+                n--;
+            } else if (n == obj.img.length - 1) {
+                n--;
             }
+            bgImg(obj.directory + obj.img[n]);
+        }, false)
 
-            img.addEventListener('click', function () {
-                bgImg(img.src);
-            })
-        }
+        next.addEventListener('click', function () {
+            if (n == 0) {
+                n++;
+            } else if (n < obj.img.length - 1) {
+                n++;
+            } else if (n == obj.img.length - 1) {
+                n = 0;
+            }
+            bgImg(obj.directory + obj.img[n]);
+        }, false)
     } else if (obj.youtube) {
         const main = document.querySelector("main");
         const header = document.querySelector("header");

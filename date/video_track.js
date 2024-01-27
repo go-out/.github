@@ -27,6 +27,20 @@ function playThis(obj) {
     video.load();
 
     readmeMD("#readme header", "README.md")
+
+    if (obj.link) {
+        const footer = document.querySelector('footer');
+        const u = document.createElement('u');
+        u.textContent = '関連ページ Related Pages'
+        footer.appendChild(u);
+        for (const linkEach of obj.link) {
+            const a = document.createElement('a');
+            a.href = linkEach.url;
+            a.textContent = linkEach.text;
+            a.setAttribute('target', '_blank')
+            footer.appendChild(a);
+        }
+    }
 }
 
 function videoAll(obj) {

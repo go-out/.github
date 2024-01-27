@@ -289,7 +289,7 @@ const osakaSpot = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49671014738038,34.66147827438952]
+                'coordinates': [135.49671014738038, 34.66147827438952]
             },
             'properties': {
                 'title': '難波八阪神社',

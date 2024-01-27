@@ -102,7 +102,8 @@ const osakaAlps = {
             'properties': {
                 'title': '帝塚山',
                 'address': '「大阪五低山」の一つ、帝塚山古墳に由来する関西を代表する高級住宅街。<br>（帝塚山古墳の墳丘の標高は19.88m）',
-                'date': '<a href="../vr/?id=cycling&area=osaka&name=tezukayama">more info</a>',
+                'date': 'more info',
+                'href': 'relax/?id=cycling&area=osaka&name=tezukayama',
                 'tags': 'legacy',
                 'youtube': 'KuYJ3IW7z4k',
                 'zoom': 16,
@@ -117,7 +118,8 @@ const osakaAlps = {
             'properties': {
                 'title': '聖天山',
                 'address': '「大阪五低山」の一つ、標高14mの低山。<br>頂上には、天下茶屋の聖天さん「正圓寺（しょうえんじ）」があります。',
-                'date': '<a href="../relax/?id=legacy&area=osaka&name=shoutenyama">More Info</a>',
+                'date': 'more info',
+                'href': 'relax/?id=legacy&area=osaka&name=shoutenyama',
                 'tags': 'legacy',
                 'youtube': 'KbfZTxipYFQ',
                 'zoom': 16.5,
