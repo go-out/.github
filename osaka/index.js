@@ -93,6 +93,7 @@ const osakaSpot = {
                 'href': 'relax/?id=spot&area=osaka&name=port-town',
                 'tags': 'spot',
                 'youtube': '8az_VW2ssbs',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5,
             }
         },
@@ -282,6 +283,7 @@ const osakaSpot = {
                 'href': 'vr/?id=cycling&area=osaka&name=sumiyoshi',
                 'tags': 'vr',
                 'youtube': 'qksuhA1aBi4',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14.5,
             }
         },
