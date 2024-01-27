@@ -106,6 +106,7 @@ const osakaAlps = {
                 'href': 'relax/?id=cycling&area=osaka&name=tezukayama',
                 'tags': 'legacy',
                 'youtube': 'KuYJ3IW7z4k',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 16,
             }
         },
