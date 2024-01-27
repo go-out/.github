@@ -133,7 +133,7 @@ const osaka268 = {
                 'title': '花里温泉',
                 'address': '営業時間 8:00~23:00 | 定休日 土曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=268&area=osaka&name=hanazono-onsen',
+                'href': 'relax/?id=268&area=osaka&name=hanazato-onsen',
                 'tags': 'yu',
                 'zoom': 17,
             }
