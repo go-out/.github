@@ -16,7 +16,7 @@ function addMarker() {
         })
             .setLngLat(marker.geometry.coordinates)
             .addTo(map)
-        
+
         el.addEventListener('click', () => {
             const thisAddress = marker.properties.address;
             const thisComment = marker.properties.date;
@@ -56,7 +56,7 @@ document.addEventListener("readystatechange", (event) => {
                 const thisComment = gooutJSON[i].comment;
                 const thisTimestamp = gooutJSON[i].timestamp;
                 const thisCenter = [thisLongitude, thisLatitude];
-                
+
                 const storageLi = document.createElement('li');
                 storageLi.innerHTML = `
                 <u class="goout">${thisTimestamp}</u><br>
@@ -73,13 +73,17 @@ document.addEventListener("readystatechange", (event) => {
                     flyToCenter(thisCenter);
                 })
             }
-            
+        }
+
+        // localStorageからyourInfoを取得
+        if (localStorage.getItem("yourInfo")) {
             const credit = document.createElement('li');
             credit.className = "goout";
             storageOl.appendChild(credit);
+
             const by = document.createElement('p');
             credit.appendChild(by);
-            
+
             const yourInfo = JSON.parse(localStorage.getItem('yourInfo'));
             by.innerHTML = yourInfo.os;
         } else {
