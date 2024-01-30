@@ -82,7 +82,7 @@ document.addEventListener("readystatechange", (event) => {
                 })
             }
         } else {
-            const readme = document.createElement('div');
+            const readme = document.createElement('section');
             readme.id = 'readme'
             storageOl.appendChild(readme);
             readmeMD('#readme', '../README.md')
