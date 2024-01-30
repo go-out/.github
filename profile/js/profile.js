@@ -85,7 +85,7 @@ document.addEventListener("readystatechange", (event) => {
             const readme = document.createElement('section');
             readme.id = 'readme'
             storageOl.appendChild(readme);
-            readmeMD('#readme', 'README.md')
+            readmeMD('#readme', '../README.md')
         }
 
         // localStorageからyourInfoを取得
