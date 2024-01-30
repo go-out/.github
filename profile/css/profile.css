@@ -28,7 +28,8 @@ dialog form button {
     padding: 0 1rem;
 }
 
-footer ol li::marker {
+footer ol li::marker,
+footer section {
     font-family: "Kristina", "KikaiChokoku", cursive;
 }
 
@@ -49,6 +50,7 @@ dialog h2 {
 
 header,
 footer ol li,
+footer section,
 dialog form label {
     padding: 0.5rem;
 }
