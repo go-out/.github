@@ -38,6 +38,14 @@ function flyToCenter(center) {
     }, false)
 }
 
+async function readmeMD(query, url) {
+    fetch(url)
+        .then(response => response.text())
+        .then(innerText => {
+            document.querySelector(query).innerText = innerText;
+        })
+}
+
 document.addEventListener("readystatechange", (event) => {
     if (event.target.readyState === "interactive") {
         const now = new Date()
@@ -73,6 +81,10 @@ document.addEventListener("readystatechange", (event) => {
                     flyToCenter(thisCenter);
                 })
             }
+        } else {
+            const readme = document.createElement('section');
+            storageOl.appendChild(readme);
+            readmeMD(readme, '../README.md')
         }
 
         // localStorageからyourInfoを取得
