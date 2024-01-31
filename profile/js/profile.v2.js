@@ -8,21 +8,30 @@ function getRandomInt(min, max) {
 
 // 地図にマーカーを追加
 function addMarker() {
-    for (const marker of yourJSON.features) {
-        const el = document.createElement('div');
-        el.className = marker.properties.tags;
+    let marker = yourJSON.features;
+    for (let i = 0; i < marker.length; i++) {
+        const el = document.createElement('div')
+        el.className = marker[i].properties.tags;
         new mapboxgl.Marker(el, {
             offset: [0, 0]
         })
-            .setLngLat(marker.geometry.coordinates)
+            .setLngLat(marker[i].geometry.coordinates)
             .addTo(map)
 
         el.addEventListener('click', () => {
-            const thisAddress = marker.properties.address;
-            const thisComment = marker.properties.date;
+            const thisAddress = marker[i].properties.address;
+            const thisComment = marker[i].properties.date;
             document.querySelector('#address').textContent = thisAddress;
             document.querySelector('#latlng').innerHTML = thisComment.replace(/\n/g, '<br>');
-            flyToCenter(marker.geometry.coordinates)
+            flyToCenter(marker[i].geometry.coordinates)
+
+            const gooutJSON = JSON.parse(localStorage.getItem('goout'))
+            let result = window.confirm('この位置情報をコレクションから削除します。 \r\n Remove This from Your Collection.')
+            if (result) {
+                gooutJSON.splice(i, 1)
+                localStorage.setItem('goout', JSON.stringify(gooutJSON))
+                location.reload()
+            }
         })
     }
 }
