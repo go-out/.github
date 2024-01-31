@@ -19,18 +19,18 @@ function addMarker() {
             .addTo(map)
 
         el.addEventListener('click', () => {
-            const thisAddress = marker[i].properties.address;
-            const thisComment = marker[i].properties.date;
-            document.querySelector('#address').textContent = thisAddress;
-            document.querySelector('#latlng').innerHTML = thisComment.replace(/\n/g, '<br>');
-            flyToCenter(marker[i].geometry.coordinates)
-
             const gooutJSON = JSON.parse(localStorage.getItem('goout'))
             let result = window.confirm('この位置情報をコレクションから削除します。 \r\n Remove This from Your Collection.')
             if (result) {
                 gooutJSON.splice(i, 1)
                 localStorage.setItem('goout', JSON.stringify(gooutJSON))
                 location.reload()
+            } else {
+                const thisAddress = marker[i].properties.address;
+                const thisComment = marker[i].properties.date;
+                document.querySelector('#address').textContent = thisAddress;
+                document.querySelector('#latlng').innerHTML = thisComment.replace(/\n/g, '<br>');
+                flyToCenter(marker[i].geometry.coordinates)
             }
         })
     }
