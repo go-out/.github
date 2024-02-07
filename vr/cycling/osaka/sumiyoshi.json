@@ -1,24 +1,38 @@
 {
   "title": "住吉区南部",
-  "description": "墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内",
+  "description": "墨江・清水丘・遠里小野・千躰・殿辻・沢之町・南住吉・山之内・山之内元町・我孫子・我孫子西・我孫子東・苅田・杉本・浅香・庭井",
   "year": "2024",
   "month": "1",
   "day": "17",
   "info": [
-    "<u>撮影地</u>",
-    "墨江 <small>（住吉行宮跡・墨江丘公園・大阪市立墨江丘中学校）</small>",
-    "清水丘 <small>（清水丘商店街）</small>",
-    "遠里小野 <small>（沢ノ町駅）</small>",
-    "沢之町 <small>（止止呂支比賣命神社）</small>",
-    "南住吉 <small>（住吉区役所・沢之町公園）</small>",
-    "山之内 <small>（山之内公園・ナニワ工務店）</small>"
+    "大阪市の最南部、大和川を隔てて堺市と隣接する住吉区の南部",
+    "長居公園通沿いの小川（細江川）のせせらぎや浅香中央公園の水辺には、住吉区の花「かきつばた（杜若）」が咲く（5月中旬頃が見頃）",
+    "",
+    "JR阪和線「我孫子町」近くに、大阪・関西の次世代銭湯を創造するナニワ工務店があり、御堂筋線「あびこ」駅近くには、ナニワ施工による傑作銭湯「錦温泉」「玉乃湯」があります。",
+    "",
+    "<u>最寄りのHELLO CYCLING</u>",
+    "<a href='https://maps.app.goo.gl/wQSeH9pv7a86eEJ7A' target='_blank'>セブンイレブン 大阪長居東4丁目店</a> <small>JR阪和線・Osaka Metro 御堂筋線「長居」から徒歩約5分<small>",
+    "<a href='https://maps.app.goo.gl/rHig1fyKotAg6R7YA' target='_blank'>あびこ駅前ビル</a> <small>Osaka Metro 御堂筋線「あびこ」から徒歩すぐ<small>",
+    "",
+    "<u>Google マップ</u>",
+    "墨江 <small>（<a href='https://maps.app.goo.gl/kWfis2fysnKSdajcA' target='_blank'>住吉行宮跡</a>）</small>",
+    "清水丘 <small>（<a href='https://maps.app.goo.gl/czNJSjkGfuVJqLTWA' target='_blank'>清水丘商店街</a>）</small>",
+    "・遠里小野 <small>（<a href='https://maps.app.goo.gl/YeaRHPXVphVZDg3u8' target='_blank'>開発公園</a>）</small>",
+    "・千躰 <small>（はやし源・鳥まさ）</small>",
+    "殿辻 <small>（<a href='https://maps.app.goo.gl/SvZxhwTsmhVrZLWXA' target='_blank'>沢ノ町駅</a>）</small>",
+    "沢之町 <small>（<a href='https://maps.app.goo.gl/bjsfHDQZX2DLiq9f7' target='_blank'>止止呂支比賣命神社（若松神社）</a>）</small>",
+    "南住吉 <small>（細江川のせせらぎ・<a href='https://maps.app.goo.gl/MxKbT49NFBAYTQGb6' target='_blank'>沢之町公園</a>）</small>",
+    "山之内<small>（<a href='https://maps.app.goo.gl/3tYsaMdHHs9FUoEK8' target='_blank'>山之内公園</a>・<a href='https://maps.app.goo.gl/HfJowqvqsKU629Eb9' target='_blank'>ナニワ工務店</a>）</small>",
+    "・我孫子・我孫子西・我孫子東 <small>（大聖観音寺）</small>",
+    "・苅田 <small>（あびこ駅・錦温泉）</small>",
+    "・杉本 <small>（大阪公立大学 杉本キャンパス・玉乃湯）</small>",
+    "・浅香 <small>（浅香中央公園・住吉スポーツセンター）</small>",
+    "・庭井 <small>（大依羅神社）</small>"
   ],
   "links": [
+    "<a href='https://ja.wikipedia.org/wiki/%E4%BD%8F%E5%90%89%E5%8C%BA' target='_blank'>住吉区 - Wikipedia</a>",
     "<a href='https://www.city.osaka.lg.jp/sumiyoshi/' target='_blank'>大阪市住吉区：トップページ</a>",
-    "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000009359.html' target='_blank'>大阪市：23．住吉行宮（あんぐう）跡　史跡 （…>文化・スポーツ・生涯学習>生涯学習）</a>",
-    "<a href='https://wakamatsujinja.sakura.ne.jp/' target='_blank'>止止呂支比賣命神社[若松神社]</a>",
-    "<a href='https://maps.app.goo.gl/czNJSjkGfuVJqLTWA' target='_blank'>清水丘商店街 - Google マップ</a>",
-    "<a href='https://maps.app.goo.gl/3tYsaMdHHs9FUoEK8' target='_blank'>山之内公園 - Google マップ</a>"
+    "<a href='https://kknaniwa.co.jp/' target='_blank'>株式会社 ナニワ工務店</a>"
   ],
   "directory": "https://lh3.googleusercontent.com/",
   "landscape": "repeat(3, 1fr)",
@@ -37,7 +51,7 @@
       ]
     },
     {
-      "id": "sumieoka-sawanomachi",
+      "id": "sumie-sawanomachi",
       "poster": "ggms/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j",
       "src": [
         "ggms/AF1QipN6SCTTf1uwMO3d3VdBud9sOIHAblcBsg46lf9j=m18",

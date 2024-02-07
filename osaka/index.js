@@ -274,7 +274,7 @@ const osakaSpot = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.50119561890824, 34.604218960856684]
+                'coordinates': [135.5020826573068, 34.600576317924755]
             },
             'properties': {
                 'title': '住吉区南部',
@@ -283,7 +283,6 @@ const osakaSpot = {
                 'href': 'vr/?id=cycling&area=osaka&name=sumiyoshi',
                 'tags': 'vr',
                 'youtube': 'qksuhA1aBi4',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14.5,
             }
         },

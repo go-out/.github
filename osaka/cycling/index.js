@@ -259,6 +259,20 @@ const osakaCycling = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.51296774737094, 34.59932319672176]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'あびこ駅前ビル',
+                'date': '<a href="https://maps.app.goo.gl/rHig1fyKotAg6R7YA" target="_blank">Google Map</a>',
+                'tags': 'hello',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.55281641918594, 34.60802022487452]
             },
             'properties': {
