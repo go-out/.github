@@ -9,11 +9,13 @@
         "address": "大阪市阿倍野区桃ヶ池町1丁目",
         "google": "https://maps.app.goo.gl/SuLwWA4kcaJLoPxTA",
         "text": [
-            ""
+            "桃ケ池とその周りの遊歩道、幼児向け遊具と広場で構成された地区公園。ハナモモや桜の名所。<br><small>桃ヶ池はハス（蓮）の花の名所だったらしいのですが、2023年に姿を消したらしい。</small>",
+            "",
+            "<u>アクセス</u><br>Osaka Metro 谷町線「田辺」から西へ約400m<br>Osaka Metro 御堂筋線「昭和町」から東へ約500m<br>JR阪和線「南田辺」 北へ約500m"
         ]
     },
     "links": [
-        "<a href='https://ja.wikipedia.org/wiki/%E6%A1%83%E3%83%B6%E6%B1%A0%E5%85%AC%E5%9C%92' target='_blank'>Wikipedia</a>"
+        "<a href='https://ja.wikipedia.org/wiki/%E6%A1%83%E3%83%B6%E6%B1%A0%E5%85%AC%E5%9C%92' target='_blank'>桃ヶ池公園 - Wikipedia</a>"
     ],
     "width": "0.7525",
     "height": "1",

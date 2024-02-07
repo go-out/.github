@@ -258,16 +258,17 @@ const osakaSpot = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.52145684370322, 34.63083649199136]
+                'coordinates': [135.51504980889422, 34.63029823255289]
             },
             'properties': {
-                'title': '桃ヶ池公園',
-                'address': '桃ケ池とその周りの遊歩道、幼児向け遊具で構成された地区公園。ハナモモや桜の名所。',
+                'title': '阿倍野区南東部',
+                'address': '阿倍野元町・王子町・阪南町・昭和町・文の里・桃ケ池町・長池町',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=momogaike',
-                'tags': 'park',
-                'youtube': 'vnlglP-gvtg',
-                'zoom': 15.5,
+                'href': 'vr/?id=cycling&area=osaka&name=abeno-nantou',
+                'tags': 'vr',
+                'youtube': 'dWeIDI9cJXA',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
+                'zoom': 14.5,
             }
         },
         {
@@ -283,6 +284,7 @@ const osakaSpot = {
                 'href': 'vr/?id=cycling&area=osaka&name=sumiyoshi',
                 'tags': 'vr',
                 'youtube': 'qksuhA1aBi4',
+                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
                 'zoom': 14.5,
             }
         },
@@ -299,7 +301,7 @@ const osakaSpot = {
                 'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
                 'tags': 'legacy',
                 'youtube': 'OO_7X8aM9BQ',
-                'zoom': 14.5,
+                'zoom': 15.5,
             }
         }
     ]

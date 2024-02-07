@@ -417,7 +417,7 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': '大仙公園いこいの広場',
+                'address': '大仙公園（いこいの広場）',
                 'date': '<a href="https://maps.app.goo.gl/aFxtbQwRaBVhdFFi6" target="_blank">Google Map</a>',
                 'tags': 'hello',
                 'zoom': 16,
@@ -427,12 +427,26 @@ const osakaCycling = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.47655559396617, 34.55697266799528]
+                'coordinates': [135.48097306439752, 34.55997540272989]
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': '堺市立健康福祉プラザ',
-                'date': '<a href="https://maps.app.goo.gl/Hv7PahqNWz6Jug7v9" target="_blank">Google Map</a>',
+                'address': '大仙公園（日本庭園前）',
+                'date': '<a href="https://maps.app.goo.gl/VTJUhyj13fZq8URP7" target="_blank">Google Map</a>',
+                'tags': 'hello',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48064008585237, 34.55615312950495]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': '大仙公園（第2駐車場前）',
+                'date': '<a href="https://maps.app.goo.gl/4QLtEF3G4BxZZVVw6" target="_blank">Google Map</a>',
                 'tags': 'hello',
                 'zoom': 16,
             }
