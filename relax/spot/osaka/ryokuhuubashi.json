@@ -4,7 +4,12 @@
     "info": {
         "title": "Ryokuhuubashi 🇯🇵 Osaka, Japan",
         "address": "阪急電鉄 下新庄駅 およそ400m 徒歩5分",
-        "google": "https://maps.app.goo.gl/dHDjFr5F1LMmMRpeA"
+        "google": "https://maps.app.goo.gl/dHDjFr5F1LMmMRpeA",
+        "text": [
+            "神崎川にかかる小さな橋。夜になると緑色のきれいなライトがつきます。",
+            "橋からは、神崎川を一望できて、夕日などもすごくきれいです。",
+            "<small>阪急京都線・千里線（淡路駅付近）連続立体交差事業にともなう工事で整備されて、より一層綺麗になりました。</small>"
+        ]
     },
     "links": [
         "<a href='https://www.city.osaka.lg.jp/kensetsu/page/0000029608.html' target='_blank'>大阪市：緑風橋（りょくふうばし） （…>橋>橋の紹介）</a>"
@@ -13,10 +18,10 @@
     "height": "1",
     "directory": "https://lh3.googleusercontent.com/p/",
     "img": [
-        "AF1QipPK3NnhM96B5tkC27PB6vGs21-y0Map1Vl7MgET=s0",
         "AF1QipM7dcnfwj5nz7VWoJV7PY0CeGhiv7OzRFLq0ceC=s0",
-        "AF1QipOhcwHcIOmqBTI55URA5I_m5ydiOkPcECyFAXJG=s0",
+        "AF1QipPK3NnhM96B5tkC27PB6vGs21-y0Map1Vl7MgET=s0",
         "AF1QipNoDhfLqqEHFSOfCfrNYYtVXBx4ivHS5AE4QVSm=s0",
-        "AF1QipNbPyPCAXPVAIgq--56aoHZiqbGHFa8mlNHKwrX=s0"
+        "AF1QipNbPyPCAXPVAIgq--56aoHZiqbGHFa8mlNHKwrX=s0",
+        "AF1QipOhcwHcIOmqBTI55URA5I_m5ydiOkPcECyFAXJG=s0"
     ]
 }

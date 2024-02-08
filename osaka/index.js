@@ -246,7 +246,7 @@ const osakaSpot = {
             },
             'properties': {
                 'title': '金岡団地スターハウスメモリアル',
-                'address': 'UR賃貸住宅（建設当時は日本住宅公団）の 第1号となった｢金岡団地（かなおかだんち）｣ の 記念碑',
+                'address': 'UR賃貸住宅の第1号となった｢金岡団地｣の跡地にある記念碑',
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=sainvarierkanaoka',
                 'tags': 'spot',

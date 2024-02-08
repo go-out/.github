@@ -1,25 +1,19 @@
 {
-    "title": "大阪府咲洲庁舎（さきしまコスモタワー）",
-    "description": "1階広場「フェスパ」",
+    "title": "さきしまコスモタワー",
+    "description": "大阪府咲洲庁舎",
     "info": {
         "title": "Cosmo Tower 🇯🇵 Osaka, Japan",
         "address": "住之江区南港北１丁目１４−１６",
-        "google": "https://maps.app.goo.gl/PFDc8uYZWHnjKVbY7"
+        "google": "https://maps.app.goo.gl/PFDc8uYZWHnjKVbY7",
+        "text": [
+            "1階の広場にある幾何学的なデザインの木製ベンチ・憩い場「フェスパ」は、grafによる企画・設計らしい。",
+            "",
+            "<u>アクセス</u><br>ニュートラム「トレードセンター前」から徒歩約5分"
+        ]
     },
     "links": [
         "<a href='http://www.wtc-cosmotower.com/' target='_blank'>コスモタワー｜大阪コスモスクウェアの展望台・商業複合施設｜COSMO TOWER</a>",
         "<a href='https://www.graf-d3.com/works/osakafu-sakishimachosha/' target='_blank'>大阪府咲洲庁舎1F フェスパ</a>"
     ],
-    "width": "0.75",
-    "height": "1",
-    "directory": "https://lh3.googleusercontent.com/p/",
-    "img": [
-        "AF1QipNITeC0iDPXTykypNiZihNRV87S3yQaA8OteueS=s1360-w1360-h1020",
-        "AF1QipN57MDDk7U-QkxMKKXZyFF7loctYW9gFJNaqmg1=s1360-w1360-h1020",
-        "AF1QipMEjmuLfvgOk6XWMJI3gF3PBT-9g6ZCeOktAF_s=s1360-w1360-h1020",
-        "AF1QipNwLMIKr9W5mNB6OOZ_RAVGu5uc4UgXmc4Tlxmz=s1360-w1360-h1020",
-        "AF1QipPOoScOr0OUlHIwxsBx9L-L_QgGLKgtIVXr9h-y=s1360-w1360-h1020",
-        "AF1QipN90TznIcCeCcwZuw7tbcnJfUo1E-90bOUIOLrV=s1360-w1360-h1020",
-        "AF1QipNVJzG9QveqcO4p9h3-t2fopHCbOidDVa8vuUgw=s1360-w1360-h1020"
-    ]
+    "youtube": "9E8UZio4SJM"
 }
