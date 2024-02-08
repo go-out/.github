@@ -152,7 +152,7 @@ map.on('load', () => {
             'address': '南海本線沿い「粉浜」から「住吉大社」まで',
             'date': 'More Info',
             'href': 'osaka/vr/?area=sumiyoshi&name=kohama-ss',
-            'zoom': 13
+            'zoom': 15
           }
         }
       ]

@@ -202,7 +202,7 @@ const osakaSpot = {
                 'href': 'relax/?id=spot&area=osaka&name=yao-airport',
                 'tags': 'spot',
                 'youtube': 'geqXiPdwMvw',
-                'zoom': 15,
+                'zoom': 14.5,
             }
         },
         {
@@ -250,7 +250,7 @@ const osakaSpot = {
                 'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
                 'tags': 'legacy',
                 'youtube': 'OO_7X8aM9BQ',
-                'zoom': 15.5,
+                'zoom': 17.5,
             }
         }
     ]

@@ -34,7 +34,7 @@ const osakaVR = {
                 'tags': 'vr',
                 'youtube': 'dWeIDI9cJXA',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 14.5,
+                'zoom': 14,
             }
         },
         {
@@ -51,7 +51,7 @@ const osakaVR = {
                 'tags': 'vr',
                 'youtube': 'qksuhA1aBi4',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 14.5,
+                'zoom': 13.5,
             }
         }
     ]
