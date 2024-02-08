@@ -50,9 +50,9 @@ map.on('load', () => {
           },
           'properties': {
             'title': '16 Minute Cycling in Taisho 🇯🇵 Osaka, Japan',
-            'address': '木津川渡船場（船町）⇄ 千本松渡船場（南恩加島）',
+            'address': '新木津川大橋 ⇄ 千本松大橋',
             'date': 'More Info',
-            'href': 'vr/?id=cycling&area=osaka&name=taisho-minami',
+            'href': 'osaka/vr/?area=bayarea&name=taisho-minami',
             'youtube': 'ro1iQcEl2m8',
             'zoom': 14.5
           }
@@ -124,7 +124,7 @@ map.on('load', () => {
             'title': '21 Minute Cycling Suminoe Park to Nanko Fishing Port 🇯🇵 Osaka, Japan',
             'address': '住之江公園駅から南港南の西の果てまで',
             'date': 'More Info',
-            'href': 'vr/?id=cycling&area=osaka&name=nanko-minami',
+            'href': 'osaka/vr/?area=bayarea&name=nanko-minami',
             'youtube': 'tinBEuiKqzU',
             'zoom': 13
           }
@@ -139,14 +139,17 @@ map.on('load', () => {
               [135.4908124441697, 34.61742673419286],
               [135.49088588041127, 34.617335534638784],
               [135.4908977547467, 34.617250516832144],
-              [135.49088756069222, 34.61685689830988]
+              [135.49088756069222, 34.61685689830988],
+              [135.49087748076687, 34.6160174820988],
+              [135.4905154610807, 34.61470897913085],
+              [135.49033879023614, 34.61388147763974]
             ]
           },
           'properties': {
-            'title': '粉浜本通商店街',
-            'address': 'Kohama Shopping Street',
+            'title': '粉浜商店街・粉浜本通商店街',
+            'address': '南海本線沿い「粉浜」から「住吉大社」まで',
             'date': 'More Info',
-            'href': 'vr/?id=walking&area=osaka&name=kohama-ss',
+            'href': 'osaka/vr/?area=sumiyoshi&name=kohama-ss',
             'zoom': 13
           }
         }
@@ -206,7 +209,7 @@ map.on('click', 'line', (e) => {
       player.loadVideoById({ videoId: e.features[0].properties.youtube });
     }
   }
-  
+
   map.flyTo({
     center: e.lngLat,
     essential: true,

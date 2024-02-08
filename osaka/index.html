@@ -52,6 +52,7 @@
     <script src="../profile/js/mapbox.js"></script>
     <script src="alps.js"></script>
     <script src="ferry/index.js"></script>
+    <script src="vr/index.js"></script>
     <script src="hellocycling.js"></script>
     <script src="../relax/268/osaka/index.js"></script>
     <script src="index.js"></script>
@@ -84,6 +85,7 @@
             if (event.target.readyState === "interactive") {
                 addMarker(gooutArr.features)
                 addMarker(osakaSpot.features)
+                addMarker(osakaVR.features)
                 // addMarker(osakaAlps.features)
                 addMarker(osakaCycling.features)
                 addMarker(osakaFerry.features)
@@ -209,8 +211,8 @@
         map.addControl(new mapboxgl.NavigationControl())
         map.addControl(new mapboxgl.FullscreenControl())
     </script>
-    <script src="line.v1.js"></script>
-    <script src="polygon.js"></script>
+    <script src="line.v2.js"></script>
+    <script src="polygon.v1.js"></script>
 </body>
 
 </html>

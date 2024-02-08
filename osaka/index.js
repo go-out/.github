@@ -22,52 +22,6 @@ const osakaSpot = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4883216199499, 34.611700718642865]
-            },
-            'properties': {
-                'title': '住吉公園 心字池',
-                'address': 'Sumiyoshi Park, Osaka, Japan',
-                'date': '',
-                'tags': 'park',
-                'youtube': 'mkioDOspLbs',
-                'zoom': 17.25,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.48969770207242, 34.61317201110916]
-            },
-            'properties': {
-                'title': '住吉公園 花と水の広場',
-                'address': 'Sumiyoshi Park, Osaka, Japan',
-                'date': '',
-                'tags': 'park',
-                'youtube': 'gfwP_viCeZg',
-                'zoom': 17.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49237250787706, 34.6129733697545]
-            },
-            'properties': {
-                'title': '住吉大社',
-                'address': '全国に2300社ある住吉神社の総本社',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
-                'tags': 'legacy',
-                'youtube': 'wbOguTvuV0Q',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.41478295447018, 34.64411832595768]
             },
             'properties': {
@@ -78,23 +32,6 @@ const osakaSpot = {
                 'tags': 'park',
                 'youtube': 'EoFg1eMWADg',
                 'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.42081655887517, 34.633723800118446]
-            },
-            'properties': {
-                'title': '南港ポートタウン',
-                'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にある住宅地、ニュータウン。',
-                'date': 'More Info',
-                'href': 'osaka/vr/?area=bayarea&name=port-town',
-                'tags': 'spot',
-                'youtube': '8az_VW2ssbs',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 15.5,
             }
         },
         {
@@ -147,11 +84,57 @@ const osakaSpot = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.4883216199499, 34.611700718642865]
+            },
+            'properties': {
+                'title': '住吉公園 心字池',
+                'address': 'Sumiyoshi Park, Osaka, Japan',
+                'date': '',
+                'tags': 'park',
+                'youtube': 'mkioDOspLbs',
+                'zoom': 17.25,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48969770207242, 34.61317201110916]
+            },
+            'properties': {
+                'title': '住吉公園 花と水の広場',
+                'address': 'Sumiyoshi Park, Osaka, Japan',
+                'date': '',
+                'tags': 'park',
+                'youtube': 'gfwP_viCeZg',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49237250787706, 34.6129733697545]
+            },
+            'properties': {
+                'title': '住吉大社',
+                'address': '全国に2300社ある住吉神社の総本社',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
+                'tags': 'legacy',
+                'youtube': 'wbOguTvuV0Q',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.49782230114397, 34.62993304358395]
             },
             'properties': {
                 'title': '天神ノ森天満宮',
-                'address': '楠木（クスノキ）の大樹が生い茂る境内は、「紹鴎（じょうおう）の森」とも呼ばれています。',
+                'address': '樹齢七百年ともいわれる楠木の大樹が境内に生い茂る、神聖な空気が漂う小さな天満宮。',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=tenjinnomori',
                 'tags': 'legacy',
@@ -252,40 +235,6 @@ const osakaSpot = {
                 'tags': 'spot',
                 'youtube': 'UhG3l8F5rE4',
                 'zoom': 19,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51504980889422, 34.63029823255289]
-            },
-            'properties': {
-                'title': '阿倍野区南東部',
-                'address': '阿倍野元町・王子町・阪南町・昭和町・文の里・桃ケ池町・長池町',
-                'date': 'More Info',
-                'href': 'osaka/vr/?area=tennoji&name=abeno-nantou',
-                'tags': 'vr',
-                'youtube': 'dWeIDI9cJXA',
-                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
-                'zoom': 14.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5020826573068, 34.600576317924755]
-            },
-            'properties': {
-                'title': '住吉区南部',
-                'address': '墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内',
-                'date': 'More Info',
-                'href': 'osaka/vr/?area=sumiyoshi&name=sumiyoshi',
-                'tags': 'vr',
-                'youtube': 'qksuhA1aBi4',
-                'iconSize': ['../profile/img/favicon.png', '4rem', '4rem'],
-                'zoom': 14.5,
             }
         },
         {
