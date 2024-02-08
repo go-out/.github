@@ -273,9 +273,13 @@ footer {
     padding: 0.5rem;
 }
 
-article a,
+article a {
+    padding: 0.25rem 0;
+}
+
 article h3 strong,
-footer select {
+footer select,
+#links a {
     padding: 0.25rem;
     margin: 0.25rem;
 }
@@ -315,12 +319,9 @@ article div h3 {
 
 footer button {
     background: transparent;
-    background-image: url(../profile/img/mobile.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 75%;
     border: none;
     border-radius: 50%;
+    font-size: 450%;
     transition: filter 1s;
     display: block;
     float: right;

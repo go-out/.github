@@ -260,7 +260,7 @@ header,
     }
 
     main {
-        height: 97.5vh;
+        height: 100vh;
     }
 }
 
@@ -276,7 +276,7 @@ header,
     }
 
     main {
-        height: 97.5vh;
+        height: 100vh;
         max-height: -webkit-fill-available;
     }
 }

@@ -73,38 +73,8 @@
     </article>
 
     <footer>
-        <select name="cycling" data-area="osaka">
-            <option disabled selected>サイクリング映像</option>
-            <option value="taisho-minami">木津川渡船場 ⇄ 千本松渡船場</option>
-            <option value="container_berth">咲洲コンテナターミナル</option>
-            <option value="nanko-minami">住之江公園駅から南港南の西の果てまで</option>
-            <option value="tezukayama">帝塚山</option>
-            <option value="abeno-nantou">阿倍野区南東部</option>
-            <option value="sumiyoshi">住吉区南部</option>
-        </select>
-        <br>
-        <select name="walking" data-area="osaka">
-            <option disabled selected>Virtual Walk</option>
-            <option value="kohama-ss">粉浜本通商店街</option>
-        </select>
-        <button onclick="history.back()"></button>
+        <button onclick="history.back()">↩︎</button>
     </footer>
-
-    <script>
-        function valueChange(e) {
-            // イベントが発生した時の処理
-            e.preventDefault();
-            let id = this.getAttribute('name');
-            let area = this.dataset.area;
-            let url = `?id=${id}&area=${area}&name=${this.value}`
-            location.assign(url)
-        }
-
-        let selectAll = document.querySelectorAll('select');
-        selectAll.forEach((select) => {
-            select.addEventListener('change', valueChange);
-        });
-    </script>
 </body>
 
 </html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <script src="../../vr/index.js"></script>
+    <script>
+        // ?area=エリア&name=名前
+        const urlParam = location.search.substring(1)
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+            let json = paramArr.area + '/' + paramArr.name + '.json'
+            indexJSON(json)
+        } else {
+            let json = 'index.json'
+            indexJSON(json)
+        }
+    </script>
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title>Osaka | 🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹</title>
+    <meta content="Osaka | 🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹" property="og:title">
+    <meta content="【VR】 ドライブ映像 | 車窓動画" name="description">
+    <meta content="【VR】 ドライブ映像 | 車窓動画" property="og:description">
+
+    <link rel="icon" href="../../profile/img/favicon.png">
+    <link rel="icon" href="../../profile/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../../profile/img/mobile.png" sizes="180x180">
+
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://creative-community.space/map/osaka/cycling/" property="og:url">
+    <meta content="https://creative-community.space/map/osaka/cycling/index.png" property="og:image">
+    <meta content="https://creative-community.space/map/osaka/cycling/index.png" name="twitter:image:src">
+
+    <link rel="stylesheet" href="../../vr/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body class="start">
+    <main>
+        <header>
+            <small id="year"></small>
+            <h1>
+                <strong>Go Out</strong>
+            </h1>
+            <h2>
+                <strong id="month"></strong>
+                <strong id="day"></strong>
+            </h2>
+            <button id="play" type="button"></button>
+        </header>
+    </main>
+
+    <article>
+        <h3>
+            <strong id="title"></strong>
+        </h3>
+        <section id="info"></section>
+        <div id="links" hidden>
+            <h3>関連ページ Related Pages</h3>
+        </div>
+    </article>
+
+    <footer>
+        <select name="vr" id="kita" hidden>
+            <option disabled selected>梅田・淀川エリア</option>
+        </select>
+        <select name="vr" id="chuo" hidden>
+            <option disabled selected>大阪城・難波・心斎橋エリア</option>
+        </select>
+        <select name="vr" id="tennoji">
+            <option disabled selected>天王寺・西成エリア</option>
+            <option value="abeno-nantou">阿倍野区南東部</option>
+        </select>
+        <select name="vr" id="sumiyoshi">
+            <option disabled selected>住吉・長居エリア</option>
+            <option value="tezukayama">帝塚山</option>
+            <option value="sumiyoshi">住吉区南部</option>
+            <option value="kohama-ss">粉浜本通商店街</option>
+        </select>
+        <select name="vr" id="bayarea">
+            <option disabled selected>大阪ベイエリア</option>
+            <option value="taisho-minami">新木津川大橋 ⇄ 千本松大橋</option>
+            <option value="port-town">南港ポートタウン</option>
+            <option value="container_berth">咲洲コンテナターミナル</option>
+            <option value="nanko-minami">住之江公園駅から南港南の西の果てまで</option>
+        </select>
+        <select name="vr" id="higashi" hidden>
+            <option disabled selected>城北・城東・コリアタウン</option>
+        </select>
+        <select name="vr" id="sakai" hidden>
+            <option disabled selected>堺・泉北エリア</option>
+        </select>
+        <select name="vr" id="kawachi" hidden>
+            <option disabled selected>河内長野エリア</option>
+        </select>
+        <select name="vr" id="toyono" hidden>
+            <option disabled selected>豊能・三島エリア</option>
+        </select>
+        <select name="vr" id="senshu" hidden>
+            <option disabled selected>泉州エリア</option>
+        </select>
+        <button onclick="history.back()">↩︎</button>
+    </footer>
+
+    <script>
+        function valueChange(e) {
+            // イベントが発生した時の処理
+            e.preventDefault();
+            let url = `?area=${this.id}&name=${this.value}`;
+            location.assign(url)
+        }
+
+        let selectAll = document.querySelectorAll('select');
+        selectAll.forEach((select) => {
+            select.addEventListener('change', valueChange);
+        });
+    </script>
+</body>
+
+</html>
