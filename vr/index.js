@@ -76,18 +76,16 @@ function playThis(obj) {
 function videoAll(obj) {
     const main = document.querySelector('main');
 
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    if (obj.youtube && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         const header = document.querySelector("main header");
         header.remove();
 
-        if (obj.youtube) {
-            const iframe = document.createElement('iframe');
-            iframe.id = "player";
-            iframe.src = "https://www.youtube.com/embed/" + obj.youtube;
-            iframe.style.height = `calc(100vw * ${obj.height})`;
-            iframe.style.maxWidth = `calc(100vh / ${obj.height})`;
-            main.appendChild(iframe);
-        }
+        const iframe = document.createElement('iframe');
+        iframe.id = "player";
+        iframe.src = "https://www.youtube.com/embed/" + obj.youtube;
+        iframe.style.height = `calc(100vw * ${obj.height})`;
+        iframe.style.maxWidth = `calc(100vh / ${obj.height})`;
+        main.appendChild(iframe);
     } else {
         if (obj.video) {
             const playAll = shuffle(obj.video);
@@ -140,7 +138,7 @@ function videoAll(obj) {
             }
 
             pageResize();
-        } else {
+        } else if (obj.youtube && !obj.video) {
             const header = document.querySelector("main header");
             header.remove();
 
