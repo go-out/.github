@@ -12,7 +12,7 @@ h1 {
     margin: 0;
 }
 
-#randomdraggable button {
+fieldset button {
     background: transparent;
     border: none;
     outline: none;
@@ -99,7 +99,7 @@ article p a {
     color: #111;
 }
 
-#randomdraggable button:hover {
+fieldset button:hover {
     color: #fff;
     cursor: pointer;
 }
@@ -125,7 +125,7 @@ footer {
 }
 
 header h1 strong,
-#randomdraggable button {
+fieldset button {
     color: #ebd809;
 }
 
@@ -143,7 +143,7 @@ article address {
 }
 
 header h2,
-#randomdraggable button {
+fieldset button {
     font-size: 250%
 }
 

@@ -10,9 +10,10 @@ const osakaSpot = {
                 'coordinates': [135.49882344601633, 34.70251955199873]
             },
             'properties': {
-                'title': '阪急百貨店梅田店コンコース',
-                'address': 'ここにいるのにいないような気持ちになれる場所',
-                'date': '',
+                'title': '阪急梅田コンコース',
+                'address': '阪急うめだ本店の阪急電車側、人々が行き交うコンコースを眺められる場所。',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=hankyu-umeda',
                 'tags': 'spot',
                 'youtube': 'qzIy_qtpNh8',
                 'zoom': 17.5,
@@ -74,7 +75,8 @@ const osakaSpot = {
             'properties': {
                 'title': '南港魚つり園護岸',
                 'address': '大きな空と海を一望できる気持ちのいい場所',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=nankou-uotsuri-en',
                 'tags': 'spot',
                 'youtube': '9DRiQ5CVcjE',
                 'zoom': 16,
