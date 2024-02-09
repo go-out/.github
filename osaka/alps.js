@@ -11,7 +11,7 @@ const osakaAlps = {
             },
             'properties': {
                 'title': '天保山',
-                'address': '天保山公園にある人工的に土を積み上げて造られた山（築山）。標高4.53m。',
+                'address': '日本一低い山として知られる築山。標高4.53m。<br>周辺は、海遊館・大観覧車・遊覧船などがあるベイエリアを代表する観光スポット。',
                 'date': '',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'tags': 'vr',
@@ -26,7 +26,7 @@ const osakaAlps = {
             },
             'properties': {
                 'title': '御勝山',
-                'address': '御勝山古墳の後円部。標高14mの墳丘。古墳の中央を勝山通が貫き、前方部は崩されて「御勝山南公園」になっています。',
+                'address': '御勝山（おかちやま）古墳の後円部。標高14mの墳丘。<br>古墳の中央を勝山通が貫き、前方部は崩されて「御勝山南公園」になっています。',
                 'date': '',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'tags': 'park',
@@ -41,55 +41,10 @@ const osakaAlps = {
             },
             'properties': {
                 'title': '茶臼山',
-                'address': '天王寺公園にある茶臼山古墳の墳丘。標高26m。古墳も公園の一部として遊歩道が整備されています。',
+                'address': '天王寺（てんのうじ）公園にある茶臼山（ちゃうすやま）古墳の墳丘。標高26m。<br>古墳も公園の一部として遊歩道が整備されています。',
                 'date': '',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'tags': 'legacy',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4740969357722, 34.64892520164277]
-            },
-            'properties': {
-                'title': '昭和山',
-                'address': '千島公園にある築山。標高33m。昭和山・千島公園一帯には、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物などが植えられています。',
-                'date': '',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'tags': 'park',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.57953104285798, 34.71552805310158]
-            },
-            'properties': {
-                'title': '鶴見新山',
-                'address': '鶴見緑地にある築山。標高39m。ゴミ焼却場から出た残灰を積み上げてできた、大阪最高峰の人工の山（築山）です。',
-                'date': '',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'tags': 'park',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.46153265821147, 34.57987841383567]
-            },
-            'properties': {
-                'title': '蘇鉄山',
-                'address': '大浜公園内にある築山。標高6.97m。山頂付近にソテツが植えられています。',
-                'date': '',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'tags': 'park',
                 'zoom': 16,
             }
         },

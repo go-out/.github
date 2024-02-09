@@ -2,8 +2,7 @@
     "annual": [
         {
             "month": "January",
-            "events": [
-            ]
+            "events": []
         },
         {
             "month": "February",
@@ -17,6 +16,11 @@
                     "title": "だだおし",
                     "venue": "長谷寺境内 本堂",
                     "date": "2月14日　16:00〜18:30"
+                },
+                {
+                    "title": "信貴山寅まつり",
+                    "venue": "朝護孫子寺",
+                    "date": "2月下旬土日"
                 }
             ]
         },
