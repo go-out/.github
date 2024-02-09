@@ -269,7 +269,6 @@ function videoAll(obj) {
         iframe.id = "player";
         iframe.src = "https://www.youtube.com/embed/" + obj.youtube;
         main.style.height = `calc(100vw * ${obj.height})`;
-        main.style.maxWidth = `calc(100vh / ${obj.height})`;
         main.appendChild(iframe);
     } else if (obj.vr) {
         const main = document.querySelector("main");
