@@ -18,6 +18,10 @@ async function readmeMD(query, url) {
 }
 
 function playThis(obj) {
+    document.title = obj.title;
+    const description = document.querySelector("meta[name='description']");
+    description.content = obj.description;
+
     const year = document.querySelector("#year");
     if (obj.year) {
         year.textContent = obj.year;
@@ -37,21 +41,6 @@ function playThis(obj) {
         day.textContent = obj.day;
     } else {
         day.remove()
-    }
-
-    document.title = obj.title;
-    const description = document.querySelector("meta[name='description']");
-    description.content = obj.description;
-
-    const strong = document.querySelector("header h1 strong");
-    const playBtn = document.querySelector("#play");
-
-    if (obj.video && !obj.img) {
-        playBtn.textContent = document.title;
-    } else if (!obj.video && obj.img) {
-        strong.textContent = document.title;
-        strong.style.fontSize = "150%";
-        playBtn.textContent = obj.description;
     }
 
     const article = document.querySelector("article");
@@ -86,6 +75,21 @@ function playThis(obj) {
             links.innerHTML += eachA;
         }
         article.appendChild(links);
+    }
+
+    const strong = document.querySelector("header h1 strong");
+    const playBtn = document.querySelector("#play");
+
+    if (obj.video && !obj.img) {
+        playBtn.textContent = document.title;
+    } else if (!obj.video && obj.img) {
+        strong.textContent = document.title;
+        strong.style.fontSize = "150%";
+        playBtn.textContent = obj.description;
+    } else {
+        strong.textContent = document.title;
+        strong.style.fontSize = "150%";
+        playBtn.remove();
     }
 
     if (obj.video && !obj.img) {
@@ -263,7 +267,9 @@ function videoAll(obj) {
 
         const iframe = document.createElement('iframe');
         iframe.id = "player";
-        iframe.src = "https://www.youtube.com/embed/" + obj.youtube
+        iframe.src = "https://www.youtube.com/embed/" + obj.youtube;
+        main.style.height = `calc(100vw * ${obj.height})`;
+        main.style.maxWidth = `calc(100vh / ${obj.height})`;
         main.appendChild(iframe);
     } else if (obj.vr) {
         const main = document.querySelector("main");
