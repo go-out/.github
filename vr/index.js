@@ -95,7 +95,8 @@ function videoAll(obj) {
                 video.setAttribute('poster', obj.directory + playAll[i].poster);
                 main.appendChild(video);
                 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                    video.muted;
+                    video.muted = true;
+                    video.setAttribute('muted', 'true');
                 }
                 if (playAll[i].src) {
                     let ii = 0;
