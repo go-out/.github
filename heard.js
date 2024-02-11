@@ -100,9 +100,11 @@ map.on('load', () => {
         })
             .setLngLat(e.lngLat)
             .setHTML(`
-            <strong>${e.features[0].properties.title}</strong><br>
             ${e.features[0].properties.address}
+            <p>
+            ${e.features[0].properties.title}<br>
             ${e.features[0].properties.date}
+            </p>
             `)
             .addTo(map);
         map.flyTo({
