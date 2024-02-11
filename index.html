@@ -42,8 +42,9 @@
   <script src="profile/js/mapbox.js"></script>
   <script src="profile/js/findme.js"></script>
   <script src="profile/js/csvtojson.js"></script>
-
   <script>
+    let directory = "../"
+
     const today = new Date();
     let year = today.getFullYear();
     let month = ('0' + (today.getMonth() + 1)).slice(-2);
@@ -57,6 +58,7 @@
       if (event.target.readyState === "interactive") {
         document.querySelector('#copy time').innerHTML = year;
       } else if (event.target.readyState === "complete") {
+        addMarker(gooutArr.features)
         addMarker(submitJson.features)
       }
     })
@@ -190,6 +192,8 @@
     map.addControl(new mapboxgl.FullscreenControl())
   </script>
 
+  <script src="heard.js"></script>
+  <script src="popup.js"></script>
   <script src="profile/js/rotating.js"></script>
 </body>
 

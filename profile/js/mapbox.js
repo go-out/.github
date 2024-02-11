@@ -1,6 +1,5 @@
 'use strict'
 
-// index.html のコンテンツを動的に生成
 let gooutArr = {
     'type': 'FeatureCollection',
     'features': [

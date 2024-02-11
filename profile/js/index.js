@@ -1,5 +1,6 @@
 'use strict'
 
+// index.html のコンテンツを動的に生成
 async function fetchHTML(query, url) {
     fetch(url)
         .then(response => response.text())
@@ -34,7 +35,7 @@ document.addEventListener("readystatechange", (event) => {
             `;
             thisDate.className = 'goout';
             thisDate.textContent = geoJSON.timestamp;
-            
+
             fetchHTML('dialog ul', 'date.html')
         } else {
             readmeMD('dialog ul', 'README.md')
