@@ -1,43 +1,4 @@
-let heaedPopup = [
-    {
-        'LngLat': [135.4827971, 34.6096113],
-        'html': {
-            'title': 'things that i (we) heard around OTO building',
-            'address': '私（わたしたち）が 音ビル周辺で聞いた言葉',
-            'date': 'Sun Jan 5 2020 - Sun May 22 2022',
-            'link': 'heard/otobuilding/'
-        }
-    },
-    {
-        'LngLat': [135.76854055131543, 35.00017558944718],
-        'html': {
-            'title': 'things that i (we) heard around BnA Alter Museum',
-            'address': '私（わたしたち）が 京都・河原町周辺で聞いた言葉',
-            'date': 'Thu Jul 21 2022 - Mon Aug 15 2022',
-            'link': 'heard/bnaaltermuseum/'
-        }
-    }
-]
-
 map.on('load', () => {
-    for (const heaed of heaedPopup) {
-        new mapboxgl.Popup({
-            closeOnClick: false,
-            className: "heard"
-        })
-            .setLngLat(heaed.LngLat)
-            .setHTML(`
-            <a href="${heaed.html.link}" target="_blank">
-            ${heaed.html.title}
-            </a>
-            <p>
-            ${heaed.html.date}<br>
-            ${heaed.html.address}
-            </p>
-            `)
-            .addTo(map)
-    };
-
     // Add a data source containing GeoJSON data.
     map.addSource('heardPolygon', {
         'type': 'geojson',
@@ -90,7 +51,8 @@ map.on('load', () => {
                     'properties': {
                         'title': 'things that i (we) heard around OTO building',
                         'address': '<a href="heard/otobuilding/">私（わたしたち）が 音ビル周辺で聞いた言葉</a>',
-                        'date': 'Sun Jan 5 2020 - Sun May 22 2022'
+                        'date': 'Sun Jan 5 2020 - Sun May 22 2022',
+                        'zoom': 12
                     }
                 },
                 {
@@ -113,7 +75,8 @@ map.on('load', () => {
                     'properties': {
                         'title': 'things that i (we) heard around BnA Alter Museum',
                         'address': '<a href="heard/bnaaltermuseum/">私（わたしたち）が 京都・河原町周辺で聞いた言葉</a>',
-                        'date': 'Thu Jul 21 2022 - Mon Aug 15 2022'
+                        'date': 'Thu Jul 21 2022 - Mon Aug 15 2022',
+                        'zoom': 13.5
                     }
                 }
             ]
@@ -129,5 +92,23 @@ map.on('load', () => {
             'fill-color': '#CDCBCC',
             'fill-opacity': 0.75
         }
+    });
+
+    map.on('click', 'heardFill', (e) => {
+        new mapboxgl.Popup({
+            className: "heard"
+        })
+            .setLngLat(e.lngLat)
+            .setHTML(`
+            <strong>${e.features[0].properties.title}</strong><br>
+            ${e.features[0].properties.address}
+            ${e.features[0].properties.date}
+            `)
+            .addTo(map);
+        map.flyTo({
+            center: e.lngLat,
+            essential: true,
+            zoom: e.features[0].properties.zoom
+        });
     });
 });

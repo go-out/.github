@@ -102,11 +102,11 @@ map.on('load', () => {
         })
             .setLngLat(e.lngLat)
             .setHTML(`
-        <strong>${e.features[0].properties.title}</strong><br>
-        <a href="${e.features[0].properties.link}">
-        ${e.features[0].properties.date}
-        </a>
-        `)
+            <strong>${e.features[0].properties.title}</strong><br>
+            <a href="${e.features[0].properties.link}">
+            ${e.features[0].properties.date}
+            </a>
+            `)
             .addTo(map);
         map.flyTo({
             center: e.lngLat,
