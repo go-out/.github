@@ -94,8 +94,8 @@ map.on('load', () => {
                         ]
                     },
                     'properties': {
-                        'title': 'things that i (we) heard around OTO building',
-                        'address': '<a href="heard/otobuilding/">私（わたしたち）が 音ビル周辺で聞いた言葉</a>',
+                        'title': 'things that i (we) heard in southeast osaka',
+                        'address': '<a href="heard/osaka/#2nd">私（わたしたち）が 大阪市南東部で聞いた言葉</a>',
                         'date': 'Sun Jan 5 2020 - Sun May 22 2022',
                         'zoom': 12
                     }
