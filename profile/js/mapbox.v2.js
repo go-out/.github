@@ -68,7 +68,7 @@ function addMarker(arr) {
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `
-                ${marker.properties.title}<br>
+                <strong>${marker.properties.title}</strong><br>
                 <small>${marker.properties.address}</small>
                 `;
             }
@@ -86,7 +86,7 @@ function addMarker(arr) {
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `
-                ${marker.properties.title}<br>
+                <strong>${marker.properties.title}</strong><br>
                 <small>${marker.properties.address}</small>
                 `;
             }
@@ -104,7 +104,7 @@ function addMarker(arr) {
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `
-                ${marker.properties.title}<br>
+                <strong>${marker.properties.title}</strong><br>
                 <small>${marker.properties.address}</small>
                 `;
             }
@@ -122,7 +122,7 @@ function addMarker(arr) {
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `
-                ${marker.properties.title}<br>
+                <strong>${marker.properties.title}</strong><br>
                 <small>${marker.properties.address}</small>
                 `;
             }
@@ -140,7 +140,7 @@ function addMarker(arr) {
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `
-                ${marker.properties.title}<br>
+                <strong>${marker.properties.title}</strong><br>
                 <small>${marker.properties.address}</small>
                 `;
             }
@@ -158,7 +158,7 @@ function addMarker(arr) {
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `
-                ${marker.properties.title}<br>
+                <strong>${marker.properties.title}</strong><br>
                 <small>${marker.properties.address}</small>
                 `;
             }

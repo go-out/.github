@@ -5,7 +5,7 @@ const osakaFerry = {
     'features': [
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.43109856854932, 34.658746822143925]
@@ -21,7 +21,7 @@ const osakaFerry = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.46246523088013, 34.656554003191715]
@@ -37,7 +37,7 @@ const osakaFerry = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.45854569618052, 34.646324348745]
@@ -53,7 +53,7 @@ const osakaFerry = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47882918904605, 34.64972048487182]
@@ -69,7 +69,7 @@ const osakaFerry = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47911523706694, 34.643336261453044]
@@ -85,7 +85,7 @@ const osakaFerry = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47569470365949, 34.631793416745694]
@@ -102,7 +102,7 @@ const osakaFerry = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.45798171771384, 34.632950453586275]
@@ -119,7 +119,7 @@ const osakaFerry = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.46177705603935, 34.62555875027091]

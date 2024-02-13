@@ -5,7 +5,7 @@ const osakaKawachi = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'spot',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.5883465686772, 34.59656084272247]
