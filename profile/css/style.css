@@ -121,13 +121,13 @@ article {
 }
 
 .goout a,
-article section a {
+article section a:hover {
     color: lemonchiffon;
     background-color: lightskyblue;
 }
 
 .goout a:hover,
-article section a:hover {
+article section a {
     color: lightskyblue;
     background-color: lemonchiffon;
 }
