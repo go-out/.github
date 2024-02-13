@@ -9,11 +9,6 @@ header {
     position: absolute;
 }
 
-article h3 {
-    position: sticky;
-    top: 0;
-}
-
 #title button {
     position: relative;
 }
@@ -93,7 +88,6 @@ main::after {
     margin: 0;
 }
 
-article h3,
 article p,
 article section {
     padding: 0.5rem;
@@ -196,10 +190,6 @@ h3 u {
     font-weight: 500;
 }
 
-article h3 {
-    text-align: center;
-}
-
 address strong {
     word-break: all;
 }
@@ -237,8 +227,16 @@ dialog form {
     place-items: center;
 }
 
+article,
 footer {
     display: flex;
+}
+
+article {
+    overflow: auto;
+}
+
+footer {
     flex-flow: row-reverse;
 }
 
@@ -262,6 +260,13 @@ dialog {
 #map {
     height: calc(100vh - 4rem);
     max-height: 125vw;
+}
+
+article section {
+    width: 75%;
+    max-width: 300px;
+    height: 100%;
+    overflow: auto;
 }
 
 #title,
