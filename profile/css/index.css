@@ -227,13 +227,8 @@ dialog form {
     place-items: center;
 }
 
-#index,
 footer {
     display: flex;
-}
-
-#index {
-    overflow: auto;
 }
 
 footer {
@@ -262,16 +257,8 @@ dialog {
     max-height: 125vw;
 }
 
-article section {
-    width: 75%;
-    max-width: 300px;
-    height: 100%;
-    overflow: auto;
-}
-
 #title,
-main,
-article {
+main {
     height: 100vh;
     max-height: -webkit-fill-available;
 }

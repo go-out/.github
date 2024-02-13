@@ -21,7 +21,7 @@ async function csvtojson(csv) {
                     'coordinates': [marker[1], marker[2]]
                 },
                 'properties': {
-                    'title': `${marker[1]},${marker[2]}`,
+                    'title': `${marker[1]}, ${marker[2]}`,
                     'address': marker[3].replace(/"/g, ''),
                     'date': marker[4].replace(/"/g, ''),
                     'timestamp': marker[0],
