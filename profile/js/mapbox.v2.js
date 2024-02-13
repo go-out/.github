@@ -54,45 +54,27 @@ function addMarker(arr) {
             el.style.backgroundImage = `url(${url})`;
         }
 
-        if (marker.tags === 'park') {
+        if (marker.tags === 'spot') {
+            const h4 = document.createElement('h4');
+            document.querySelector('#spot').appendChild(h4);
+            if (marker.properties.href) {
+                const moreinfo = document.createElement('a');
+                moreinfo.href = directory + marker.properties.href;
+                moreinfo.innerText = marker.properties.title;
+                h4.appendChild(moreinfo);
+                h4.appendChild(document.createElement('br'));
+                const address = document.createElement('small');
+                address.innerText = marker.properties.address;
+                h4.appendChild(address);
+            } else {
+                h4.innerHTML = `
+                ${marker.properties.title}<br>
+                <small>${marker.properties.address}</small>
+                `;
+            }
+        } else if (marker.tags === 'park') {
             const h4 = document.createElement('h4');
             document.querySelector('#park').appendChild(h4);
-            if (marker.properties.href) {
-                const moreinfo = document.createElement('a');
-                moreinfo.href = directory + marker.properties.href;
-                moreinfo.innerText = marker.properties.title;
-                h4.appendChild(moreinfo);
-                h4.appendChild(document.createElement('br'));
-                const address = document.createElement('small');
-                address.innerText = marker.properties.address;
-                h4.appendChild(address);
-            } else {
-                h4.innerHTML = `
-                ${marker.properties.title}<br>
-                <small>${marker.properties.address}</small>
-                `;
-            }
-        } else if (marker.tags === 'spot') {
-            const h4 = document.createElement('h4');
-            document.querySelector('#spot').appendChild(h4);
-            if (marker.properties.href) {
-                const moreinfo = document.createElement('a');
-                moreinfo.href = directory + marker.properties.href;
-                moreinfo.innerText = marker.properties.title;
-                h4.appendChild(moreinfo);
-                h4.appendChild(document.createElement('br'));
-                const address = document.createElement('small');
-                address.innerText = marker.properties.address;
-                h4.appendChild(address);
-            } else {
-                h4.innerHTML = `
-                ${marker.properties.title}<br>
-                <small>${marker.properties.address}</small>
-                `;
-            }
-        } else if (marker.tags === 'vr') {
-            const h4 = document.createElement('h4');
-            document.querySelector('#spot').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
                 moreinfo.href = directory + marker.properties.href;
@@ -111,6 +93,42 @@ function addMarker(arr) {
         } else if (marker.tags === 'legacy') {
             const h4 = document.createElement('h4');
             document.querySelector('#legacy').appendChild(h4);
+            if (marker.properties.href) {
+                const moreinfo = document.createElement('a');
+                moreinfo.href = directory + marker.properties.href;
+                moreinfo.innerText = marker.properties.title;
+                h4.appendChild(moreinfo);
+                h4.appendChild(document.createElement('br'));
+                const address = document.createElement('small');
+                address.innerText = marker.properties.address;
+                h4.appendChild(address);
+            } else {
+                h4.innerHTML = `
+                ${marker.properties.title}<br>
+                <small>${marker.properties.address}</small>
+                `;
+            }
+        } else if (marker.tags === 'yu') {
+            const h4 = document.createElement('h4');
+            document.querySelector('#yu').appendChild(h4);
+            if (marker.properties.href) {
+                const moreinfo = document.createElement('a');
+                moreinfo.href = directory + marker.properties.href;
+                moreinfo.innerText = marker.properties.title;
+                h4.appendChild(moreinfo);
+                h4.appendChild(document.createElement('br'));
+                const address = document.createElement('small');
+                address.innerText = marker.properties.address;
+                h4.appendChild(address);
+            } else {
+                h4.innerHTML = `
+                ${marker.properties.title}<br>
+                <small>${marker.properties.address}</small>
+                `;
+            }
+        } else if (marker.tags === 'onsen') {
+            const h4 = document.createElement('h4');
+            document.querySelector('#yu').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
                 moreinfo.href = directory + marker.properties.href;
