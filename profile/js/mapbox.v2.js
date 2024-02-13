@@ -132,11 +132,11 @@ function addMarker(arr) {
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
                 moreinfo.href = directory + marker.properties.href;
-                moreinfo.innerText = marker.properties.title;
+                moreinfo.innerText = marker.properties.address;
                 h4.appendChild(moreinfo);
                 h4.appendChild(document.createElement('br'));
                 const address = document.createElement('small');
-                address.innerText = marker.properties.address;
+                address.innerText = marker.properties.date;
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `
