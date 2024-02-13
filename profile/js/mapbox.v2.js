@@ -92,7 +92,7 @@ function addMarker(arr) {
             }
         } else if (marker.tags === 'vr') {
             const h4 = document.createElement('h4');
-            document.querySelector('#vr').appendChild(h4);
+            document.querySelector('#spot').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
                 moreinfo.href = directory + marker.properties.href;
