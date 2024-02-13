@@ -15,6 +15,7 @@ async function csvtojson(csv) {
         .map(marker => {
             let thisMarker = {
                 'type': 'Feature',
+                'tags': 'submit',
                 'geometry': {
                     'type': 'Point',
                     'coordinates': [marker[1], marker[2]]
@@ -24,7 +25,6 @@ async function csvtojson(csv) {
                     'address': marker[3].replace(/"/g, ''),
                     'date': marker[4].replace(/"/g, ''),
                     'timestamp': marker[0],
-                    'tags': 'submit',
                     'zoom': 17.5,
                 }
             };

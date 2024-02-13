@@ -126,6 +126,24 @@ function addMarker(arr) {
                 <small>${marker.properties.address}</small>
                 `;
             }
+        } else if (marker.tags === 'submit') {
+            const h4 = document.createElement('h4');
+            document.querySelector('#list').appendChild(h4);
+            if (marker.properties.href) {
+                const moreinfo = document.createElement('a');
+                moreinfo.href = marker.properties.href;
+                moreinfo.innerText = marker.properties.title;
+                h4.appendChild(moreinfo);
+                h4.appendChild(document.createElement('br'));
+                const address = document.createElement('small');
+                address.innerText = marker.properties.address;
+                h4.appendChild(address);
+            } else {
+                h4.innerHTML = `
+                ${marker.properties.title}<br>
+                <small>${marker.properties.address}</small>
+                `;
+            }
         }
 
         new mapboxgl.Marker(el, {
