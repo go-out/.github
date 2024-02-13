@@ -88,6 +88,7 @@ main::after {
     margin: 0;
 }
 
+article h3,
 article p,
 article section {
     padding: 0.5rem;
