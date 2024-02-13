@@ -227,12 +227,12 @@ dialog form {
     place-items: center;
 }
 
-article,
+#index,
 footer {
     display: flex;
 }
 
-article {
+#index {
     overflow: auto;
 }
 
