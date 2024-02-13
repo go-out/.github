@@ -233,6 +233,12 @@ main {
     right: 0;
 }
 
+footer hr {
+    border: none;
+    clear: both;
+    margin: 2.5rem;
+}
+
 #year {
     place-self: start right;
     margin-bottom: 1rem;

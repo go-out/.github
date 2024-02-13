@@ -116,6 +116,10 @@ header .submit,
     font-family: "Kristina", "KikaiChokoku", "Zen Maru Gothic", sans-serif;
 }
 
+article {
+    font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
+}
+
 .goout a {
     color: lemonchiffon;
     background-color: lightskyblue;

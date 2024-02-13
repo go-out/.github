@@ -5,6 +5,7 @@ const osakaFerry = {
     'features': [
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.43109856854932, 34.658746822143925]
@@ -15,12 +16,12 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=tempozan',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'zoom': 16,
             }
         },
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.46246523088013, 34.656554003191715]
@@ -31,12 +32,12 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=zonbee',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'zoom': 16.5,
             }
         },
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.45854569618052, 34.646324348745]
@@ -47,12 +48,12 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=chitose',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'zoom': 16,
             }
         },
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47882918904605, 34.64972048487182]
@@ -63,12 +64,12 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=ochiaikami',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'zoom': 16.5,
             }
         },
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47911523706694, 34.643336261453044]
@@ -79,12 +80,12 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=ochiaishimo',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'zoom': 16.5,
             }
         },
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47569470365949, 34.631793416745694]
@@ -95,13 +96,13 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=senbonmatsu',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'youtube': 'SNw7eE2K0c0',
                 'zoom': 16,
             }
         },
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.45798171771384, 34.632950453586275]
@@ -112,13 +113,13 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=funamachi',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'youtube': 'Z8Von0j_br8',
                 'zoom': 17,
             }
         },
         {
             'type': 'Feature',
+            'tags': '',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.46177705603935, 34.62555875027091]
@@ -129,7 +130,6 @@ const osakaFerry = {
                 'date': 'More Info',
                 'href': 'osaka/ferry/?name=kizugawa',
                 'iconSize': ['ferry/icon.png', '2.5rem', '2.5rem'],
-                'tags': 'vr',
                 'youtube': 'JDQjc70a1T8',
                 'zoom': 16,
             }

@@ -20,10 +20,11 @@
     "video": [
         {
             "id": "chitose",
-            "poster": "https://ia601201.us.archive.org/22/items/chitose/chitose.thumbs/001_000001.jpg",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipPDDjfQ24KzXwAHP0INel8NNQ_B0e63Fv1EJTEp",
             "src": [
-                "https://ia601201.us.archive.org/22/items/chitose/004.mp4",
-                "https://ia601201.us.archive.org/22/items/chitose/005.mp4"
+                "https://lh3.googleusercontent.com/ggs/AF1QipPDDjfQ24KzXwAHP0INel8NNQ_B0e63Fv1EJTEp=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipN7T31NtfNuupuEXrss2krZZWj4rhha1AeAPzxH=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipPgH96ObaW87Bt7G800j8szi55R3LF_gNKMexfZ=m18"
             ]
         },
         {
@@ -44,9 +45,12 @@
         },
         {
             "id": "ochiaikami",
-            "poster": "https://ia601300.us.archive.org/4/items/ochiaikami/ochiaikami.thumbs/000_000044.jpg",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipOOkY9S4OQWs5DQgSuvkOY2gOCeB1jCnRq5WbPK",
             "src": [
-                "https://ia601300.us.archive.org/4/items/ochiaikami/000.mp4"
+                "https://lh3.googleusercontent.com/ggs/AF1QipOOkY9S4OQWs5DQgSuvkOY2gOCeB1jCnRq5WbPK=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipOQ_uk7oR3aO8Z8oFKmyZ3Bb1w1VdyyjRLoaEyh=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipMgZ2qlqEDKEFj8MUuys9JboIttssnL2jfeBW6q=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipM5QifsUZb5JZt8eCILQVh-LkJQG0QPrrIOrS0Y=m18"
             ]
         },
         {
@@ -67,42 +71,39 @@
         },
         {
             "id": "tempozan",
-            "poster": "https://ia601303.us.archive.org/27/items/Tempozan/Tempozan.thumbs/103_000010.jpg",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipP8H0UDVGdo3jZ4I2_9fdx0OUXKW8kfASdRWKVH",
             "src": [
-                "https://ia601303.us.archive.org/27/items/Tempozan/201.mp4",
-                "https://ia601303.us.archive.org/27/items/Tempozan/202.mp4"
+                "https://lh3.googleusercontent.com/ggs/AF1QipP8H0UDVGdo3jZ4I2_9fdx0OUXKW8kfASdRWKVH=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipPwqyjVO7mxM0HmRQ8_c5FAxClB_CX54aA-rfMq=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipOBhGCwlj2Bx1y6Q10AG7FuqjPi1CYbYvRlA6eb=m18"
             ]
         },
         {
             "id": "zinbee",
-            "poster": "https://ia601204.us.archive.org/0/items/zinbee/zinbee.thumbs/107_000008.jpg",
+            "poster": "https://lh3.googleusercontent.com/ggs/AF1QipMEt89FqQvLGZgEVcdAq3NKsEdxIKusNTXd55xV",
             "src": [
-                "https://ia601204.us.archive.org/0/items/zinbee/102.ia.mp4",
-                "https://ia601204.us.archive.org/0/items/zinbee/103.ia.mp4",
-                "https://ia601204.us.archive.org/0/items/zinbee/104.ia.mp4"
+                "https://lh3.googleusercontent.com/ggs/AF1QipMEt89FqQvLGZgEVcdAq3NKsEdxIKusNTXd55xV=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipMH3iD8j5ne75rpuZ5YU_RXud-Tt8GdKKYSvpZg=m18",
+                "https://lh3.googleusercontent.com/ggs/AF1QipMVyCNlYMJnwvdwPcrDNxmdvFh-O3QPomDPdTdK=m18"
             ]
         }
     ],
     "contrib": [
         {
-            "name": "Nobbys !",
-            "id": "102190853684383269486"
+            "name": "上田俊英",
+            "id": "107529620447641005180"
         },
         {
             "name": "折り紙",
             "id": "101690638844944204788"
         },
         {
-            "name": "S H",
-            "id": "107303680538801367687"
+            "name": "コレクションRe-",
+            "id": "112833367291878517556"
         },
         {
             "name": "ほっかいしまえび",
             "id": "104637536159833639481"
-        },
-        {
-            "name": "上田俊英",
-            "id": "107529620447641005180"
         },
         {
             "name": "384plus",
@@ -119,8 +120,18 @@
         {
             "name": "Hirohito KATAOKA",
             "id": "108498131473774770896"
+        },
+        {
+            "name": "Nobbys !",
+            "id": "102190853684383269486"
+        },
+        {
+            "name": "S H",
+            "id": "107303680538801367687"
+        },
+        {
+            "name": "yunocky",
+            "id": "114041566317225788134"
         }
-    ],
-    "height": "0.57",
-    "youtube": "rp5ret_HtdA"
+    ]
 }

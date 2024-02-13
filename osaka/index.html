@@ -50,14 +50,158 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
 
     <script src="../profile/js/mapbox.js"></script>
-    <script src="alps.js"></script>
     <script src="ferry/index.js"></script>
-    <script src="vr/index.js"></script>
-    <script src="hellocycling.js"></script>
-    <script src="../relax/268/osaka/index.js"></script>
-    <script src="index.js"></script>
+    <script src="bayarea/index.js"></script>
+    <script src="chuo/index.js"></script>
+    <script src="higashi/index.js"></script>
+    <script src="hokusetsu/index.js"></script>
+    <script src="kawachi/index.js"></script>
+    <script src="kita/index.js"></script>
+    <script src="namba/index.js"></script>
+    <script src="sakai/index.js"></script>
+    <script src="senshu/index.js"></script>
+    <script src="sumiyoshi/index.js"></script>
+
     <script>
-        let directory = "../"
+        // ?area=エリア
+        const urlParam = location.search.substring(1)
+        let directory = "../",
+            center,
+            bounds,
+            zoom;
+
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+
+            if (paramArr.area === 'bayarea') {
+                center = [135.42872404242706, 34.65462309365647];
+                bounds = [
+                    [135.3437243596614, 34.60829846093506], // 南西座標
+                    [135.48218612903673, 34.68547442174669] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaBayarea.features)
+                    addMarker(osakaFerry.features)
+                });
+            } else if (paramArr.area === 'chuo') {
+                center = [135.50987338526778, 34.681187142064886];
+                bounds = [
+                    [135.47958780746262, 34.667871638990064], // 南西座標
+                    [135.535959773211, 34.69576884875232] // 北東座標
+                ]
+                zoom = 14.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaChuo.features)
+                });
+            } else if (paramArr.area === 'higashi') {
+                center = [135.5598338602805, 34.68751557507677];
+                bounds = [
+                    [135.52373491013066, 34.63311462122401], // 南西座標
+                    [135.60260767024874, 34.742944833281726] // 北東座標
+                ]
+                zoom = 14;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaHigashi.features)
+                });
+            } else if (paramArr.area === 'hokusetsu') {
+                center = [135.55905251463872, 34.830078046438615];
+                bounds = [
+                    [135.35370889521238, 34.736950169429704], // 南西座標
+                    [135.75098775184136, 35.0571626749845] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaHokusetsu.features)
+                });
+            } else if (paramArr.area === 'kawachi') {
+                center = [135.65072330853974, 34.66994460100712];
+                bounds = [
+                    [135.58371367188641, 34.571122022], // 南西座標
+                    [135.74940772762903, 34.89676688490299] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaKawachi.features)
+                });
+            } else if (paramArr.area === 'kita') {
+                center = [135.49768172955453, 34.703197524345484];
+                bounds = [
+                    [135.40982161628477, 34.670631768604935], // 南西座標
+                    [135.56077328151952, 34.7573560429971] // 北東座標
+                ]
+                zoom = 13.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaKita.features)
+                });
+            } else if (paramArr.area === 'namba') {
+                center = [135.5062480893037, 34.652403484554824];
+                bounds = [
+                    [135.47596673180095, 34.620797469125364], // 南西座標
+                    [135.53350023221066, 34.67560335965379] // 北東座標
+                ]
+                zoom = 14.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaNamba.features)
+                });
+            } else if (paramArr.area === 'sakai') {
+                center = [135.50012524849802, 34.5239972993108];
+                bounds = [
+                    [135.38526278033711, 34.40613068725279], // 南西座標
+                    [135.57458389988736, 34.61841500845924] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaSakai.features)
+                });
+            } else if (paramArr.area === 'senshu') {
+                center = [135.31714877542356, 34.41112732960826];
+                bounds = [
+                    [135.06326983760727, 34.263980093855025], // 南西座標
+                    [135.67799380900885, 34.52583422863785] // 北東座標
+                ]
+                zoom = 11.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaSenshu.features)
+                });
+            } else if (paramArr.area === 'sumiyoshi') {
+                center = [135.52014912493667, 34.61246680749784];
+                bounds = [
+                    [135.4632947758127, 34.58751531219775], // 南西座標
+                    [135.58565488963143, 34.645628700753576] // 北東座標
+                ]
+                zoom = 13.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaSumiyoshi.features)
+                });
+            }
+        } else {
+            center = [135.5020763952882, 34.69376772507822];
+            bounds = [
+                [135.06326983760727, 34.263980093855025], // 南西座標
+                [135.75098775184136, 35.0571626749845] // 北東座標
+            ]
+            zoom = 10.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                addMarker(gooutArr.features)
+                addMarker(osakaBayarea.features)
+                addMarker(osakaChuo.features)
+                addMarker(osakaHigashi.features)
+                addMarker(osakaHokusetsu.features)
+                addMarker(osakaKawachi.features)
+                addMarker(osakaKita.features)
+                addMarker(osakaNamba.features)
+                addMarker(osakaSakai.features)
+                addMarker(osakaSenshu.features)
+                addMarker(osakaSumiyoshi.features)
+                addMarker(osakaFerry.features)
+            });
+        }
 
         // IFrame Player API の読み込み
         if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -81,54 +225,48 @@
             };
         }
 
-        document.addEventListener("readystatechange", (event) => {
-            if (event.target.readyState === "interactive") {
-                addMarker(gooutArr.features)
-                addMarker(osakaSpot.features)
-                addMarker(osakaVR.features)
-                // addMarker(osakaAlps.features)
-                addMarker(osakaCycling.features)
-                addMarker(osakaFerry.features)
-                addMarker(osaka268.features)
-            } else if (event.target.readyState === "complete") {
-                const goout = document.querySelector('#map');
-                const title = document.querySelector('#title');
-                const dialog = document.querySelector("dialog");
-                const close = document.querySelector('dialog #close');
-                const menu = document.querySelector('footer button');
-                goout.style.pointerEvents = 'auto';
-                goout.style.userSelect = 'auto';
-                title.hidden = true;
-                menu.hidden = false;
+        window.addEventListener("load", () => {
+            const goout = document.querySelector('#map');
+            const title = document.querySelector('#title');
+            const dialog = document.querySelector("dialog");
+            const close = document.querySelector('dialog #close');
+            const menu = document.querySelector('footer button');
 
-                menu.addEventListener('click', function () {
-                    dialog.showModal();
-                })
+            goout.style.pointerEvents = 'auto';
+            goout.style.userSelect = 'auto';
+            title.hidden = true;
+            menu.hidden = false;
 
-                close.addEventListener('click', function () {
-                    dialog.close();
-                })
+            menu.addEventListener('click', function () {
+                dialog.showModal();
+            })
 
-                if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                    const main = document.querySelector('main')
-                    const thisLatLng = document.querySelector('#latlng');
-                    const thisAddress = document.querySelector('#address');
-                    const thisDate = document.querySelector('#datetime');
-                    main.addEventListener('click', function () {
-                        main.hidden = true;
-                        thisLatLng.textContent = "";
-                        thisAddress.textContent = "";
-                        thisDate.textContent = "";
-                        player.pauseVideo()
-                    });
-                }
+            close.addEventListener('click', function () {
+                dialog.close();
+            })
 
-                const today = new Date();
-                let year = today.getFullYear();
-                document.querySelector('#copy time').innerHTML = year;
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                const main = document.querySelector('main')
+                const thisLatLng = document.querySelector('#latlng');
+                const thisAddress = document.querySelector('#address');
+                const thisDate = document.querySelector('#datetime');
+                main.addEventListener('click', function () {
+                    main.hidden = true;
+                    thisLatLng.textContent = "";
+                    thisAddress.textContent = "";
+                    thisDate.textContent = "";
+                    player.pauseVideo()
+                });
             }
-        })
+
+            const today = new Date();
+            let year = today.getFullYear();
+            document.querySelector('#copy time').innerHTML = year;
+        });
     </script>
+
+    <script src="hellocycling.js"></script>
+    <script src="../relax/268/osaka/index.js"></script>
 </head>
 
 <body>
@@ -144,6 +282,13 @@
     </header>
 
     <div id="map"></div>
+    <article>
+        <h3>Index</h3>
+        <section id="spot"></section>
+        <section id="legacy"></section>
+        <section id="park"></section>
+        <section id="vr"></section>
+    </article>
 
     <main hidden>
         <div id="player"></div>
@@ -156,7 +301,19 @@
     <dialog>
         <input type="button" id="close" value="×">
         <details class="goout">
-            <summary>???</summary>
+            <summary>エリアを選択する Select a Area of Map</summary>
+            <p>
+                <a href="?area=kita">梅田・中之島・淀川エリア</a>
+                <a href="?area=chuo">心斎橋・本町・大阪城エリア</a>
+                <a href="?area=namba">なんば・天王寺・西成エリア</a>
+                <a href="?area=sumiyoshi">住吉・長居エリア</a>
+                <a href="?area=bayarea">大阪ベイエリア</a>
+                <a href="?area=higashi">城北・城東・コリアンエリア</a>
+                <a href="?area=sakai">堺・泉北エリア</a>
+                <a href="?area=kawachi">河内長野エリア</a>
+                <a href="?area=hokusetsu">北摂エリア</a>
+                <a href="?area=senshu">泉州エリア</a>
+            </p>
         </details>
 
         <h3 class="goout">
@@ -177,20 +334,13 @@
 
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
-
-        let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17',
-            center = [135.5020763952882, 34.69376772507822];
-
-        const bounds = [
-            [135.0590791040609, 34.256820829045935], // 南西座標
-            [135.78320173410242, 35.061027592581866] // 北東座標
-        ]
+        let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17';
 
         const map = new mapboxgl.Map({
             container: 'map',
             center: center,
             style: css,
-            zoom: 9.87654321,
+            zoom: zoom,
             scrollZoom: true,
             projection: 'globe',
             attributionControl: false,

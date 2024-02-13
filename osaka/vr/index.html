@@ -5,24 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <script src="../../vr/index.js"></script>
-    <script>
-        // ?area=エリア&name=名前
-        const urlParam = location.search.substring(1)
-        if (urlParam) {
-            let paramArr = [],
-                param = urlParam.split('&')
-            for (arr = 0; arr < param.length; arr++) {
-                var paramItem = param[arr].split('=')
-                paramArr[paramItem[0]] = paramItem[1]
-            }
-            let json = paramArr.area + '/' + paramArr.name + '.json'
-            indexJSON(json)
-        } else {
-            let json = 'index.json'
-            indexJSON(json)
-        }
-    </script>
 
     <!--og:meta-->
     <meta content="website" property="og:type">
@@ -37,12 +19,30 @@
 
     <!--for Twitter-->
     <meta content="summary_large_image" name="twitter:card">
-    <meta content="https://creative-community.space/map/osaka/cycling/" property="og:url">
-    <meta content="https://creative-community.space/map/osaka/cycling/index.png" property="og:image">
-    <meta content="https://creative-community.space/map/osaka/cycling/index.png" name="twitter:image:src">
+    <meta content="https://creative-community.space/map/osaka/vr/" property="og:url">
+    <meta content="https://creative-community.space/map/osaka/vr/index.png" property="og:image">
+    <meta content="https://creative-community.space/map/osaka/vr/index.png" name="twitter:image:src">
+
+    <script src="../../vr/index.js"></script>
+    <script>
+        // ?area=エリア&name=名前
+        const urlParam = location.search.substring(1)
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+            let json = '../' + paramArr.area + '/' + paramArr.name + '.json'
+            indexJSON(json)
+        } else {
+            let json = 'index.json'
+            indexJSON(json)
+        }
+    </script>
 
     <link rel="stylesheet" href="../../vr/index.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
@@ -75,13 +75,13 @@
 
     <footer>
         <select name="vr" id="kita" hidden>
-            <option disabled selected>梅田・淀川エリア</option>
+            <option disabled selected>梅田・中之島・淀川エリア</option>
         </select>
         <select name="vr" id="chuo" hidden>
-            <option disabled selected>大阪城・難波・心斎橋エリア</option>
+            <option disabled selected>心斎橋・本町・大阪城エリア</option>
         </select>
-        <select name="vr" id="tennoji">
-            <option disabled selected>天王寺・西成エリア</option>
+        <select name="vr" id="namba">
+            <option disabled selected>なんば・天王寺・西成エリア</option>
             <option value="abeno-nantou">阿倍野区南東部</option>
         </select>
         <select name="vr" id="sumiyoshi">
@@ -98,7 +98,7 @@
             <option value="nanko-minami">住之江公園駅から南港南の西の果てまで</option>
         </select>
         <select name="vr" id="higashi" hidden>
-            <option disabled selected>城北・城東・コリアタウン</option>
+            <option disabled selected>城北・城東・コリアンエリア</option>
         </select>
         <select name="vr" id="sakai" hidden>
             <option disabled selected>堺・泉北エリア</option>
@@ -106,7 +106,7 @@
         <select name="vr" id="kawachi" hidden>
             <option disabled selected>河内長野エリア</option>
         </select>
-        <select name="vr" id="toyono" hidden>
+        <select name="vr" id="hokusetsu" hidden>
             <option disabled selected>北摂エリア</option>
         </select>
         <select name="vr" id="senshu" hidden>
