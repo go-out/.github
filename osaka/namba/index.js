@@ -79,7 +79,7 @@ const osakaNamba = {
                 'title': '阿倍野区南東部',
                 'address': '阿倍野元町・王子町・阪南町・昭和町・文の里・桃ケ池町・長池町',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=tennoji&name=abeno-nantou',
+                'href': 'osaka/vr/?area=namba&name=abeno-nantou',
                 'youtube': 'dWeIDI9cJXA',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14,
