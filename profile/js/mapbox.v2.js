@@ -59,7 +59,7 @@ function addMarker(arr) {
             document.querySelector('#park').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
-                moreinfo.href = marker.properties.href;
+                moreinfo.href = directory + marker.properties.href;
                 moreinfo.innerText = marker.properties.title;
                 h4.appendChild(moreinfo);
                 h4.appendChild(document.createElement('br'));
@@ -77,7 +77,7 @@ function addMarker(arr) {
             document.querySelector('#spot').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
-                moreinfo.href = marker.properties.href;
+                moreinfo.href = directory + marker.properties.href;
                 moreinfo.innerText = marker.properties.title;
                 h4.appendChild(moreinfo);
                 h4.appendChild(document.createElement('br'));
@@ -95,7 +95,7 @@ function addMarker(arr) {
             document.querySelector('#vr').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
-                moreinfo.href = marker.properties.href;
+                moreinfo.href = directory + marker.properties.href;
                 moreinfo.innerText = marker.properties.title;
                 h4.appendChild(moreinfo);
                 h4.appendChild(document.createElement('br'));
@@ -113,7 +113,7 @@ function addMarker(arr) {
             document.querySelector('#legacy').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
-                moreinfo.href = marker.properties.href;
+                moreinfo.href = directory + marker.properties.href;
                 moreinfo.innerText = marker.properties.title;
                 h4.appendChild(moreinfo);
                 h4.appendChild(document.createElement('br'));
@@ -131,7 +131,7 @@ function addMarker(arr) {
             document.querySelector('#list').appendChild(h4);
             if (marker.properties.href) {
                 const moreinfo = document.createElement('a');
-                moreinfo.href = marker.properties.href;
+                moreinfo.href = directory + marker.properties.href;
                 moreinfo.innerText = marker.properties.title;
                 h4.appendChild(moreinfo);
                 h4.appendChild(document.createElement('br'));
