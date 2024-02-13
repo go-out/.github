@@ -120,12 +120,14 @@ article {
     font-family: "KikaiChokoku", "Zen Maru Gothic", sans-serif;
 }
 
-.goout a {
+.goout a,
+article section a {
     color: lemonchiffon;
     background-color: lightskyblue;
 }
 
-.goout a:hover {
+.goout a:hover,
+article section a:hover {
     color: lightskyblue;
     background-color: lemonchiffon;
 }

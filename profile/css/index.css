@@ -13,6 +13,11 @@ header {
     position: relative;
 }
 
+article h3 {
+    position: sticky;
+    top: 0;
+}
+
 #title,
 header,
 main {
@@ -71,6 +76,10 @@ main::after {
 
 dialog ul li small {
     color: lightskyblue;
+}
+
+article section a {
+    text-decoration: none;
 }
 
 h3 u,
