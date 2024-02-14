@@ -3,7 +3,7 @@
 場所：難波八阪神社 ⛩️ Nambayasaka Shrine
 
 実施日：毎年一月第三日曜日 午前八時 から 正午頃
-Third Sunday of January every year on 8AM to Around Noon
+Third Sunday of January every year at 8AM to Around Noon
 
 
 縄を綯り合わせて八頭八尾の「八岐大蛇」形の綱をつくり、人々の生業安定・家内安全・商売繁盛を祈り、その年の恵方に綱を引き合う。

@@ -162,12 +162,19 @@
     ],
     "link": [
         {
+            "text": "難波八阪神社 ⛩ Nambayasaka Shrine",
+            "url": "../../relax/?id=legacy&area=osaka&name=nambayasaka",
+            "target": "_self"
+        },
+        {
             "text": "綱引神事(大阪市指定 無形民俗文化財)",
-            "url": "https://nambayasaka.jp/?page_id=145"
+            "url": "https://nambayasaka.jp/?page_id=145",
+            "target": "_blank"
         },
         {
             "text": "綱引神事 - 大阪市",
-            "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008885.html"
+            "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008885.html",
+            "target": "_blank"
         }
     ]
 }

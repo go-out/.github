@@ -56,31 +56,40 @@
         },
         {
             "title": "二〇二四年 二月十二日",
-            "src": "20240212/010.mp4",
+            "src": "20240212/010.ia.mp4",
             "track": "track/010.vtt"
         },
         {
             "title": "ひょこタン",
-            "src": "20240212/003.mp4",
+            "src": "20240212/003.ia.mp4",
             "track": "track/003.vtt"
         }
     ],
     "link": [
         {
-            "text": "瓢箪山稲荷神社 ⛩ Hyoutan-yama Inari 🇯🇵 Higashi Osaka, Japan",
-            "url": "../../relax/?id=legacy&area=osaka&name=hyotanyama-inari"
+            "text": "瓢箪山稲荷神社 ⛩ Hyoutan-yama Inari",
+            "url": "../../relax/?id=legacy&area=osaka&name=hyotanyama-inari",
+            "target": "_self"
         },
         {
             "text": "初午 - Wikipedia",
-            "url": "https://ja.wikipedia.org/wiki/%E5%88%9D%E5%8D%88"
-        },
-        {
-            "text": "【公式】ひょこタン音頭の踊り方レクチャー動画",
-            "url": "https://youtu.be/MiNRfK2mGeo"
+            "url": "https://ja.wikipedia.org/wiki/%E5%88%9D%E5%8D%88",
+            "target": "_blank"
         },
         {
             "text": "ジンジャモール瓢箪山 : ひょこタン音頭ができたよ♪",
-            "url": "http://blog.livedoor.jp/jinjamall/archives/9409344.html"
+            "url": "http://blog.livedoor.jp/jinjamall/archives/9409344.html",
+            "target": "_blank"
+        },
+        {
+            "text": "【公式】ひょこタン音頭の踊り方レクチャー動画",
+            "url": "https://youtu.be/MiNRfK2mGeo",
+            "target": "_blank"
+        },
+        {
+            "text": "初午大祭で民踊を踊りました",
+            "url": "https://youtu.be/AN-8Qu8fPfs",
+            "target": "_blank"
         }
     ]
 }

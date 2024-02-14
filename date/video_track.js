@@ -37,7 +37,7 @@ function playThis(obj) {
             const a = document.createElement('a');
             a.href = linkEach.url;
             a.textContent = linkEach.text;
-            a.setAttribute('target', '_blank')
+            a.setAttribute('target', linkEach.target)
             footer.appendChild(a);
         }
     }

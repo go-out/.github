@@ -1,0 +1,25 @@
+{
+    "name": "___",
+    "date": {
+        "year": 0,
+        "month": 0,
+        "date": "DD",
+        "time": "時 から 時"
+    },
+    "cover": "___.jpg",
+    "directory": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "track/0000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "リンク",
+            "url": "___",
+            "target": "_self"
+        }
+    ]
+}
