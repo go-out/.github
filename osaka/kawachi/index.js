@@ -21,7 +21,7 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
-            'tags': '',
+            'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.64199593817986, 34.66071942897367]
