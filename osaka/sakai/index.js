@@ -21,7 +21,7 @@ const osakaSakai = {
         },
         {
             'type': 'Feature',
-            'tags': 'spot',
+            'tags': 'park',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49816992929948, 34.5701282072159]
@@ -30,7 +30,7 @@ const osakaSakai = {
                 'title': '金岡団地スターハウスメモリアル',
                 'address': 'UR賃貸住宅の第1号となった｢金岡団地｣の跡地にある記念碑',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=sainvarierkanaoka',
+                'href': 'relax/?id=park&area=osaka&name=sainvarierkanaoka',
                 'youtube': 'UhG3l8F5rE4',
                 'zoom': 19,
             }

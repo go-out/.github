@@ -13,7 +13,7 @@ header {
     position: relative;
 }
 
-article h3 {
+article nav {
     position: sticky;
     top: 0;
 }
@@ -87,6 +87,10 @@ dialog ul li small {
     text-decoration: lightskyblue wavy underline;
 }
 
+article section h3 {
+    text-align: center;
+}
+
 header h3 {
     padding: 0;
     margin: 0.25rem 0;
@@ -97,9 +101,9 @@ main::after {
     margin: 0;
 }
 
+article nav,
 article h3,
-article p,
-article section {
+article p {
     padding: 0.5rem;
     margin: 0;
 }
@@ -114,10 +118,6 @@ dialog div,
 dialog ul li {
     padding: 0;
     margin: 0.5rem 0;
-}
-
-article h4 {
-    margin: 1rem;
 }
 
 dialog form label {
@@ -158,12 +158,13 @@ dialog form button {
 }
 
 h2,
-h3,
+nav,
 address strong,
 #close {
     font-size: 200%;
 }
 
+h3,
 h3 b,
 article h4 {
     font-size: 150%;
@@ -239,12 +240,29 @@ dialog form {
     place-items: center;
 }
 
+article section,
 footer {
     display: flex;
 }
 
 footer {
     flex-flow: row-reverse;
+}
+
+article section {
+    flex-flow: row-reverse wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+article section h3 {
+    width: 100%;
+}
+
+article section h4 {
+    flex: 1 300px;
+    margin: 0;
 }
 
 #map,
