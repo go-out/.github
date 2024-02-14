@@ -18,6 +18,21 @@ const osakaKawachi = {
                 'youtube': 'geqXiPdwMvw',
                 'zoom': 14.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': '',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.64199593817986, 34.66071942897367]
+            },
+            'properties': {
+                'title': '瓢箪山稲荷神社',
+                'address': '瓢箪形の古墳を背にまつられた稲荷社。辻占の総本山。',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=hyotanyama-inari',
+                'zoom': 17.5,
+            }
         }
     ]
 }
