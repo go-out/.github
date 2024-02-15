@@ -302,34 +302,6 @@ const osakaCycling = {
             'tags': 'hello',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5865722694698, 34.62047374959826]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '八尾市立病院',
-                'date': '<a href="https://maps.app.goo.gl/cPMi84pzEN8Aja7o7" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5893347684929, 34.612073306971425]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '八尾市立龍華コミュニティセンター',
-                'date': '<a href="https://maps.app.goo.gl/uGdepFVWGdyYAjxU6" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.5839654806607, 34.59279024468816]
             },
             'properties': {
