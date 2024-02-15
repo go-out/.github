@@ -16,6 +16,20 @@ const osakaSakai = {
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=daisenkouen',
                 'youtube': 'wLRVVM-xAmg',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48621562578305, 34.560012607362495]
+            },
+            'properties': {
+                'title': '堺観光レンタサイクル 大仙公園観光案内所',
+                'address': '普通:500円、電動アシスト:1000円 営業時間 9:00~17:30',
+                'date': '',
                 'zoom': 15,
             }
         },
@@ -47,21 +61,7 @@ const osakaSakai = {
                 'address': '大泉緑地公園管理事務所',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=oizumi',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.48621562578305, 34.560012607362495]
-            },
-            'properties': {
-                'title': '堺観光レンタサイクル 大仙公園観光案内所',
-                'address': '普通:500円、電動アシスト:1000円 営業時間 9:00~17:30',
-                'date': '',
-                'zoom': 16.5,
+                'zoom': 14.5,
             }
         },
         {
@@ -89,7 +89,7 @@ const osakaSakai = {
                 'title': '浜寺公園 無料レンタサイクル 堺駅観光案内所',
                 'address': '営業時間 9:00~17:00 ※自転車のご利用は園内利用に限ります。',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 14,
             }
         }
     ]
