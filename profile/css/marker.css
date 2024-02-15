@@ -15,6 +15,12 @@
     z-index: 10;
 }
 
+.mapboxgl-marker.bicycle {
+    background-image: url(../img/bicycle.png);
+    width: 3.33rem;
+    height: 3.33rem;
+}
+
 .mapboxgl-marker.hello {
     background-image: url(../img/hello.jpg);
     border-radius: 50%;

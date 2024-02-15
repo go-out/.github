@@ -34,6 +34,21 @@ const osakaKawachi = {
                 'youtube': '20slOEsjpt0',
                 'zoom': 17.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.57828087232733, 34.63003991196236]
+            },
+            'properties': {
+                'title': '無料レンタサイクル',
+                'address': '久宝寺緑地 管理事務所',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=kyuhouji',
+                'zoom': 16.5,
+            }
         }
     ]
 }

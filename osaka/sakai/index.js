@@ -34,6 +34,21 @@ const osakaSakai = {
                 'youtube': 'UhG3l8F5rE4',
                 'zoom': 19,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52456658471112, 34.5665251332222]
+            },
+            'properties': {
+                'title': '無料レンタサイクル',
+                'address': '大泉緑地公園管理事務所',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=oizumi',
+                'zoom': 16.5,
+            }
         }
     ]
 }

@@ -170,6 +170,21 @@ const osaka268 = {
         },
         {
             'type': 'Feature',
+            'tags': 'onsen',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.56867114551738, 34.664600084206]
+            },
+            'properties': {
+                'title': 'なにわ健康ランド湯～トピア',
+                'address': '24時間営業 年中無休（施設点検日は除く）| 入館料金 1,380円',
+                'date': 'More Info',
+                'href': 'relax/?id=268&area=osaka&name=naniwa-utopia',
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'yu',
             'geometry': {
                 'type': 'Point',
@@ -180,6 +195,21 @@ const osaka268 = {
                 'address': '営業時間 14:00~24:00 | 定休日 水曜日',
                 'date': 'More Info',
                 'href': 'relax/?id=268&area=osaka&name=midori-onsen',
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'onsen',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.63503968540863, 34.67267079813112]
+            },
+            'properties': {
+                'title': '花園温泉sauna kukka',
+                'address': '2F温泉 10:00~25:00 | 3Fサウナ 10:00~24:30',
+                'date': 'More Info',
+                'href': 'relax/?id=268&area=osaka&name=sauna-kukka',
                 'zoom': 17,
             }
         }

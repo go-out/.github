@@ -5,35 +5,41 @@
         "title": "私（わたしたち）の好きな場所",
         "address": "creative, community space ∧° ┐",
         "google": "https://www.google.com/maps/contrib/104493917977768716042/",
-        "markdown": "README.md"
+        "text": []
     },
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
     "video": [
         {
-            "id": "legacy",
-            "poster": "ggms/AF1QipPWpIDAV6PK0VO1GBnHYQG9G5UAimNNVyjy520l",
+            "id": "1010",
+            "poster": "AF1QipPM-9MRl9SxwlvXLkTOSIp0QtAM8QSxqTxiakzz",
             "src": [
-                "ggms/AF1QipPWpIDAV6PK0VO1GBnHYQG9G5UAimNNVyjy520l=m18",
-                "ggms/AF1QipMSDdR0Th2X_G1TYvhUBGieNdS2D5P4ILjnaJF_=m18"
+                "AF1QipPM-9MRl9SxwlvXLkTOSIp0QtAM8QSxqTxiakzz=m18"
+            ]
+        },
+        {
+            "id": "legacy",
+            "poster": "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y",
+            "src": [
+                "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y=m18",
+                "AF1QipPSS49Mg6luEzE9OmxLYoeEW8_z0R1nirlMwdrV=m18"
             ]
         },
         {
             "id": "park",
-            "poster": "ggms/AF1QipMK_ALBrJrv95_zrCycC6DrTKIX78c1wmv7IOm8",
+            "poster": "AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr",
             "src": [
-                "ggms/AF1QipMK_ALBrJrv95_zrCycC6DrTKIX78c1wmv7IOm8=m18",
-                "ggms/AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E=m18",
-                "ggms/AF1QipMjGWfzF2QjxUeXXJWWnF2hw-ozZZIespxguJTp=m18"
+                "AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr=m18",
+                "AF1QipOlC0XPv0aFtOnypH-8neLFBAi1loFLJcUC40SG=m18"
             ]
         },
         {
             "id": "spot",
-            "poster": "ggms/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-",
+            "poster": "AF1QipPKoE95sPgSmaZ5pnusxACGIlNTAEkTrUZeBwLh",
             "src": [
-                "ggms/AF1QipMXrmILD3FILYdsCzqMriallFdPEB2zygHJnrP-=m18",
-                "ggms/AF1QipPlzap0fO0WdJrt2FqJeTvf8h8H0zklItG3-Yir=m18"
+                "AF1QipPKoE95sPgSmaZ5pnusxACGIlNTAEkTrUZeBwLh=m18",
+                "AF1QipMI9Aa-Xz_uEhxn6XcgjqadZsOjLuBpbH2R_eeK=m18"
             ]
         }
     ]
