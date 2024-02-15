@@ -44,7 +44,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '住吉大社',
-                'address': '全国に2300社ある住吉神社の総本社',
+                'address': '全国に2300社ある住吉神社の総本社であり、摂津国一の宮',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
                 'youtube': 'wbOguTvuV0Q',
@@ -90,8 +90,8 @@ const osakaSumiyoshi = {
                 'coordinates': [135.48928655561215, 34.61264254499003]
             },
             'properties': {
-                'title': '無料レンタサイクル',
-                'address': '住吉公園管理事務所',
+                'title': '住吉公園 無料レンタサイクル',
+                'address': '貸出時間:午前8時30分から午後5時',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
                 'zoom': 16.5,
@@ -105,8 +105,8 @@ const osakaSumiyoshi = {
                 'coordinates': [135.47405834443256, 34.61232291557338]
             },
             'properties': {
-                'title': '無料レンタサイクル',
-                'address': '住之江公園管理事務所',
+                'title': '住之江公園 無料レンタサイクル',
+                'address': '貸出時間:午前8時30分から午後5時',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=suminoe',
                 'zoom': 15.5,

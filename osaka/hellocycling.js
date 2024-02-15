@@ -134,6 +134,20 @@ const osakaCycling = {
             'tags': 'hello',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.40136318459807, 34.66735012807329]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': '此花区北港緑地２丁目１',
+                'date': '<a href="https://maps.app.goo.gl/ufcnxmZU34VCQejk6" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.4672181579083, 34.60992977398145]
             },
             'properties': {
@@ -154,6 +168,20 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'オスカードリーム',
                 'date': '<a href="https://maps.app.goo.gl/Ag9iDnUYHhQeC4jB7" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46571318314668, 34.682470008700115]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': '阪神西九条駅東棟B駐輪場',
+                'date': '<a href="https://maps.app.goo.gl/6yFMNfBWfFFQqAWP8" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
         },
