@@ -51,6 +51,7 @@
     let day = today.getDate();
 
     // CSVファイルの情報をJSONに追加 (csvtojson.js)
+    csvtojson('profile/2023.csv')
     csvtojson('profile/2024.csv')
 
     document.addEventListener("readystatechange", (event) => {
