@@ -21,7 +21,7 @@ JSON
     "links": [
         "<a href='___' target='_blank'>リンク</a>"
     ],
-    "width": "0.7525",
+    "width": "0.575",
     "height": "1",
     "directory": "___",
     "video": [

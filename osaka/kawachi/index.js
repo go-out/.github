@@ -31,6 +31,7 @@ const osakaKawachi = {
                 'address': '瓢箪形の古墳を背にまつられた稲荷社。辻占の総本山。',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=hyotanyama-inari',
+                'youtube': '20slOEsjpt0',
                 'zoom': 17.5,
             }
         }
