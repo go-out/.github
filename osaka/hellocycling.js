@@ -302,34 +302,6 @@ const osakaCycling = {
             'tags': 'hello',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5839654806607, 34.59279024468816]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '八尾市立大正コミュニティセンター',
-                'date': '<a href="https://maps.app.goo.gl/barPe9Gf98fZXqbe6" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.61577956080436, 34.600953801566334]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'ARROW志紀駅前店',
-                'date': '<a href="https://maps.app.goo.gl/bMxLpuqMP9W3VWhN8" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.5280508928695, 34.65858488743922]
             },
             'properties': {
@@ -476,34 +448,6 @@ const osakaCycling = {
                 'title': 'HELLO CYCLING',
                 'address': 'サンヴァリエ金岡③',
                 'date': '<a href="https://maps.app.goo.gl/gNovc7ujzj9jTMET8" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.46904806616828, 34.58122148528713]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '堺駅前地下自転車駐車場',
-                'date': '<a href="https://maps.app.goo.gl/nwLSRWFf8S9oiMFdA" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.46836173079623, 34.5818294292086]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'ポルタス堺（堺駅西口）',
-                'date': '<a href="https://maps.app.goo.gl/2mLHWHsbMph1sPYX6" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
         },

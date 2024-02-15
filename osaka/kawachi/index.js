@@ -49,6 +49,48 @@ const osakaKawachi = {
                 'href': 'relax/?id=park&area=osaka&name=kyuhouji',
                 'zoom': 16.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.59846163994365, 34.61704064962767]
+            },
+            'properties': {
+                'title': 'ＪＲ八尾駅東自転車駐車場 レンタサイクル',
+                'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.61630828316626, 34.600687149404806]
+            },
+            'properties': {
+                'title': '志紀駅前自転車駐車場 レンタサイクル',
+                'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.58380755983578, 34.598111951563794]
+            },
+            'properties': {
+                'title': '地下鉄八尾南駅北自転車駐車場 レンタサイクル',
+                'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
+                'date': '',
+                'zoom': 16.5,
+            }
         }
     ]
 }
