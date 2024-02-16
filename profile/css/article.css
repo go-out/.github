@@ -12,6 +12,10 @@ article nav strong {
     color: lightskyblue;
 }
 
+article nav strong {
+    text-decoration: lightskyblue wavy underline;
+}
+
 article h4 {
     font-size: 150%;
 }
