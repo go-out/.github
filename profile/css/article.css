@@ -37,8 +37,8 @@ article h3 {
 
 article nav,
 article section {
-    padding: 1rem;
-    margin: 0;
+    padding: 0;
+    margin: 1rem;
 }
 
 article h3,
