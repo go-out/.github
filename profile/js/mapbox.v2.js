@@ -65,11 +65,6 @@ function addMarker(arr) {
         }
 
         if (marker.feature) {
-            const season = document.createElement('section');
-            season.classList.add('ja')
-            season.id = 'season';
-            document.querySelector('article').appendChild(season);
-
             for (const peak of marker.feature) {
                 const p = document.createElement('p');
                 if (peak.month === thismonth) {
@@ -78,7 +73,7 @@ function addMarker(arr) {
                     <small>${marker.properties.title}</small><br>
                     ${marker.properties.address}
                     `;
-                    season.appendChild(p);
+                    document.querySelector('#season').appendChild(p);
                 }
             }
         }
