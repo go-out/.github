@@ -32,6 +32,10 @@ footer {
     right: 0;
 }
 
+main {
+    background-color: rgba(135, 206, 235, 0.75);
+}
+
 main::after {
     content: "×";
     display: block;
@@ -65,6 +69,7 @@ footer {
 }
 
 h3 b,
+#list u,
 dialog form label {
     background: lightskyblue;
     color: lemonchiffon;
@@ -78,6 +83,7 @@ dialog ul li small {
     color: lightskyblue;
 }
 
+#list u,
 article section a {
     text-decoration: none;
 }
@@ -166,7 +172,8 @@ address strong,
 
 h3,
 h3 b,
-article h4 {
+article h4,
+article section p strong {
     font-size: 150%;
 }
 
@@ -201,6 +208,10 @@ h3,
 h3 b,
 h3 u {
     font-weight: 500;
+}
+
+article section p {
+    line-height: 200%;
 }
 
 address strong {
@@ -250,14 +261,26 @@ footer {
 }
 
 article section {
-    flex-flow: row-reverse wrap-reverse;
     gap: 1rem;
     padding: 0.5rem;
-    margin: 1rem 0;
+    margin: 0;
+}
+
+article section:not(#list) {
+    flex-flow: row-reverse wrap;
+}
+
+article #list {
+    flex-flow: row-reverse wrap-reverse;
 }
 
 article section h3 {
     width: 100%;
+}
+
+article section p {
+    flex: 1 450px;
+    margin: 0;
 }
 
 article section h4 {
@@ -282,12 +305,16 @@ dialog {
     max-width: 550px;
 }
 
+#title {
+    height: 100vh;
+    max-height: 125vw;
+}
+
 #map {
     height: calc(100vh - 4rem);
     max-height: 125vw;
 }
 
-#title,
 main {
     height: 100vh;
     max-height: -webkit-fill-available;
@@ -301,6 +328,8 @@ dialog form textarea {
 }
 
 #player {
+    border: 0.25rem solid lemonchiffon;
+    border-radius: 1rem;
     width: 92.5vw;
     max-width: 1000px;
     height: 52.5vw;
@@ -315,8 +344,8 @@ footer button {
     background-size: contain;
     border: none;
     border-radius: 50%;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 header address {

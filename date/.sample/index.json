@@ -1,9 +1,9 @@
 {
-    "date": "___",
-    "url": "___/",
+    "date": "YYYY.MM.DD (WEEK)",
+    "url": ".sample/",
     "youtube": "___",
     "directory": "",
-    "cover": "___.jpg",
+    "cover": "",
     "video": [
         {
             "title": "チャプタータイトル",

@@ -5,19 +5,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="format-detection" content="telephone=no" />
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="creative-community.space">
 
-    <!--og:meta-->
-    <meta content="website" property="og:type">
     <title>Osaka Map | 大阪観光マップ</title>
-    <meta content="Osaka Map | 大阪観光マップ" property="og:title">
-    <meta content="" name="description">
-    <meta content="" name="og:description">
+    <meta property="og:title" content="___">
+    <meta name="twitter:title" content="___">
 
-    <!--for Twitter-->
-    <meta content="summary_large_image" name="twitter:card">
-    <meta content="https://creative-community.space/map/osaka/" property="og:url">
-    <meta content="https://creative-community.space/map/osaka/img/card.png" property="og:image">
-    <meta content="https://creative-community.space/map/osaka/img/card.png" name="twitter:image:src">
+    <meta name="description" content="___">
+    <meta property="og:description" content="___">
+    <meta name="twitter:description" content="___">
+
+    <meta property="og:url" content="https://creative-community.space/map/osaka/">
+    <meta property="twitter:url" content="https://creative-community.space/map/osaka/">
+    <meta property="og:image" content="https://creative-community.space/map/osaka/img/card.png">
+    <meta name="twitter:image:src" content="https://creative-community.space/map/osaka/img/card.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
 
     <link rel="icon" href="../profile/img/favicon.png">
     <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
@@ -45,11 +53,6 @@
             font-size: 175%;
         }
     </style>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
-        rel="stylesheet">
 
     <!-- Mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
@@ -289,10 +292,8 @@
 
     <div id="map"></div>
     <article>
-        <nav>優雅にゆっくり憩える場所</nav>
-        <section id="spot"></section>
-        <section id="park"></section>
-        <section id="legacy"></section>
+        <nav class="ja">優雅にゆっくり憩える場所</nav>
+        <section class="ja" id="spot"></section>
     </article>
 
     <main hidden>

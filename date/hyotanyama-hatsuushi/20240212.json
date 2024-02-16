@@ -1,68 +1,64 @@
 {
-    "name": "hyotanyama-hatsuushi",
-    "date": {
-        "year": 2024,
-        "month": 2,
-        "date": "初牛",
-        "time": "正午過ぎ から 午後三時頃"
-    },
-    "cover": "hyotanyama.inari.thumbs/20240212/000_000054.jpg",
+    "date": "2024.2.12 (Mon)",
+    "url": "hyotanyama-hatsuushi/",
+    "youtube": "20slOEsjpt0",
     "directory": "https://ia601308.us.archive.org/4/items/hyotanyama.inari/",
+    "cover": "hyotanyama.inari.thumbs/20240212/000_000054.jpg",
     "video": [
         {
             "title": "ひょこタン音頭",
             "src": "20240212/000.ia.mp4",
-            "track": "track/000.vtt"
+            "track": "20240212/000.vtt"
         },
         {
             "title": "振る舞い餅・厄除甘酒",
             "src": "20240212/001.ia.mp4",
-            "track": "track/001.vtt"
+            "track": "20240212/001.vtt"
         },
         {
             "title": "先着１０００個",
             "src": "20240212/002.ia.mp4",
-            "track": "track/002.vtt"
+            "track": "20240212/002.vtt"
         },
         {
             "title": "神事",
             "src": "20240212/004.ia.mp4",
-            "track": "track/004.vtt"
+            "track": "20240212/004.vtt"
         },
         {
             "title": "午後一時",
             "src": "20240212/005.ia.mp4",
-            "track": "track/005.vtt"
+            "track": "20240212/005.vtt"
         },
         {
             "title": "宮司のご挨拶",
             "src": "20240212/006.ia.mp4",
-            "track": "track/006.vtt"
+            "track": "20240212/006.vtt"
         },
         {
             "title": "福餅まき",
             "src": "20240212/007.ia.mp4",
-            "track": "track/007.vtt"
+            "track": "20240212/007.vtt"
         },
         {
             "title": "福はうち",
             "src": "20240212/008.ia.mp4",
-            "track": "track/008.vtt"
+            "track": "20240212/008.vtt"
         },
         {
             "title": "午後一時過ぎ",
             "src": "20240212/009.ia.mp4",
-            "track": "track/009.vtt"
+            "track": "20240212/009.vtt"
         },
         {
             "title": "二〇二四年 二月十二日",
             "src": "20240212/010.ia.mp4",
-            "track": "track/010.vtt"
+            "track": "20240212/010.vtt"
         },
         {
             "title": "ひょこタン",
             "src": "20240212/003.ia.mp4",
-            "track": "track/003.vtt"
+            "track": "20240212/003.vtt"
         }
     ],
     "link": [

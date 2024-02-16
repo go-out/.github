@@ -45,8 +45,9 @@ function addMarker(arr) {
         if (!marker.properties.iconSize && marker.properties.youtube) {
             const url = `https://i.ytimg.com/vi/${marker.properties.youtube}/default.jpg`;
             el.style.backgroundImage = `url(${url})`;
-            el.style.width = '5.5rem';
-            el.style.height = '3.75rem';
+            el.style.borderRadius = '0.5rem';
+            el.style.width = '5.55rem';
+            el.style.height = '4.2rem';
         } else if (marker.properties.iconSize) {
             const url = marker.properties.iconSize[0];
             el.style.width = marker.properties.iconSize[1];
@@ -54,7 +55,14 @@ function addMarker(arr) {
             el.style.backgroundImage = `url(${url})`;
         }
 
-        if (marker.tags === 'spot') {
+        if (marker.tags === 'submit') {
+            const p = document.createElement('p');
+            document.querySelector('#list').appendChild(p);
+            p.innerHTML = `
+            <u>${marker.properties.title}</u><br>
+            <strong>${marker.properties.date}</strong>
+            `;
+        } else if (marker.tags === 'spot') {
             const h4 = document.createElement('h4');
             document.querySelector('#spot').appendChild(h4);
             if (marker.properties.href) {
@@ -65,60 +73,6 @@ function addMarker(arr) {
                 h4.appendChild(document.createElement('br'));
                 const address = document.createElement('small');
                 address.innerText = marker.properties.address;
-                h4.appendChild(address);
-            } else {
-                h4.innerHTML = `
-                <strong>${marker.properties.title}</strong><br>
-                <small>${marker.properties.address}</small>
-                `;
-            }
-        } else if (marker.tags === 'park') {
-            const h4 = document.createElement('h4');
-            document.querySelector('#park').appendChild(h4);
-            if (marker.properties.href) {
-                const moreinfo = document.createElement('a');
-                moreinfo.href = directory + marker.properties.href;
-                moreinfo.innerText = marker.properties.title;
-                h4.appendChild(moreinfo);
-                h4.appendChild(document.createElement('br'));
-                const address = document.createElement('small');
-                address.innerText = marker.properties.address;
-                h4.appendChild(address);
-            } else {
-                h4.innerHTML = `
-                <strong>${marker.properties.title}</strong><br>
-                <small>${marker.properties.address}</small>
-                `;
-            }
-        } else if (marker.tags === 'legacy') {
-            const h4 = document.createElement('h4');
-            document.querySelector('#legacy').appendChild(h4);
-            if (marker.properties.href) {
-                const moreinfo = document.createElement('a');
-                moreinfo.href = directory + marker.properties.href;
-                moreinfo.innerText = marker.properties.title;
-                h4.appendChild(moreinfo);
-                h4.appendChild(document.createElement('br'));
-                const address = document.createElement('small');
-                address.innerText = marker.properties.address;
-                h4.appendChild(address);
-            } else {
-                h4.innerHTML = `
-                <strong>${marker.properties.title}</strong><br>
-                <small>${marker.properties.address}</small>
-                `;
-            }
-        } else if (marker.tags === 'submit') {
-            const h4 = document.createElement('h4');
-            document.querySelector('#list').appendChild(h4);
-            if (marker.properties.href) {
-                const moreinfo = document.createElement('a');
-                moreinfo.href = directory + marker.properties.href;
-                moreinfo.innerText = marker.properties.address;
-                h4.appendChild(moreinfo);
-                h4.appendChild(document.createElement('br'));
-                const address = document.createElement('small');
-                address.innerText = marker.properties.date;
                 h4.appendChild(address);
             } else {
                 h4.innerHTML = `

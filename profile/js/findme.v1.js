@@ -50,7 +50,7 @@ function geoFindMe() {
                 }
 
                 // localStorageに最新の位置情報を追加
-                addData(timestamp, latitude, longitude, address, thisComment)
+                addData(timestamp, latitude, longitude, address, thisComment.replace(/\r?\n/g, '<br>'))
 
                 // PHPに最新の位置情報を送信
                 const currentLocation = {

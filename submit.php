@@ -4,14 +4,14 @@ mb_internal_encoding("UTF-8");
 
 $month = date("Ym");
 
-$source_file = $month.'.csv';
+$source_file = 'profile/date/' . $month . '.csv';
 $data = json_decode(file_get_contents("php://input"), true);
 $output = array(
-    $data["timestamp"],
+    '"' . $data["timestamp"] . '"',
     $data["longitude"],
     $data["latitude"],
-    '"'.$data["address"].'"',
-    '"'.$data["comment"].'"',
+    '"' . $data["address"] . '"',
+    '"' . $data["comment"] . '"',
     $_SERVER["REMOTE_ADDR"]
 );
 $result = implode(',', $output);

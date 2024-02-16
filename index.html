@@ -40,7 +40,7 @@
 
   <script src="profile/js/index.js"></script>
   <script src="profile/js/mapbox.v2.js"></script>
-  <script src="profile/js/findme.js"></script>
+  <script src="profile/js/findme.v1.js"></script>
   <script src="profile/js/csvtojson.v1.js"></script>
   <script>
     let directory = ""
@@ -51,8 +51,8 @@
     let day = today.getDate();
 
     // CSVファイルの情報をJSONに追加 (csvtojson.js)
-    csvtojson('profile/2023.csv')
-    csvtojson('profile/2024.csv')
+    csvtojson('profile/date/2023.csv')
+    csvtojson('profile/date/2024.csv')
 
     document.addEventListener("readystatechange", (event) => {
       if (event.target.readyState === "interactive") {
@@ -87,9 +87,10 @@
   </header>
 
   <div id="map"></div>
+
   <article>
-    <h3>私（わたしたち）がいた場所</h3>
-    <section id="list"></section>
+    <nav class="ja">私（わたしたち）がいた場所</nav>
+    <section id="list" class="goout"></section>
   </article>
 
   <main hidden>
