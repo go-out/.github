@@ -87,8 +87,8 @@ function addMarker(arr) {
                 if (peak.month === thismonth) {
                     const p = document.createElement('p');
                     p.innerHTML = `
-                    <small>${marker.title}</small><br>
-                    ${marker.address}
+                    <small>${marker.properties.title}</small><br>
+                    ${marker.properties.address}
                     `;
                     document.querySelector('#present').appendChild(p);
                 }
