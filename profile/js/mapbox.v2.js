@@ -66,7 +66,7 @@ function addMarker(arr) {
 
         if (marker.feature) {
             const season = document.createElement('section');
-            season.osaka('ja')
+            season.classList.add('ja')
             season.id = 'season';
             document.querySelector('article').appendChild(season);
 
