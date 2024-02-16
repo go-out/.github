@@ -54,13 +54,13 @@ article p {
     margin: 0;
 }
 
+hr,
 article u {
     padding: 0.25rem;
 }
 
 hr {
     border: none;
-    padding: 0.5rem;
 }
 
 article #season {
