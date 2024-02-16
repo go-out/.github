@@ -80,6 +80,7 @@ article section p {
 }
 
 article #list p,
+article #past p,
 article section h4 {
     flex: 1 450px;
 }
