@@ -99,6 +99,24 @@ const osakaBayarea = {
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 4 },
+                { 'month': 5 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4740969357722, 34.64892520164277]
+            },
+            'properties': {
+                'title': '千島公園',
+                'address': '公園内の築山「昭和山」の一帯には、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物などが植えられています。',
+                'date': '',
+                'zoom': 16,
+            }
         }
     ]
 }

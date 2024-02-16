@@ -1,8 +1,5 @@
 'use strict'
 
-const now = new Date();
-let thismonth = now.getMonth() + 1;
-
 for (const eachMonth of annual) {
     if (eachMonth.month === thismonth + 1) {
         for (const next of eachMonth.events) {

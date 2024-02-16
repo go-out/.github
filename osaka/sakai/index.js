@@ -51,6 +51,25 @@ const osakaSakai = {
         },
         {
             'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 2 },
+                { 'month': 4 },
+                { 'month': 5 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49799894418132, 34.58891905129147]
+            },
+            'properties': {
+                'title': '浅香山緑道',
+                'address': '浅香山公園と大和川公園を結ぶ緑道。例年4月下旬~5月頃、約2500株の堺市の花木「つつじ」が見ごろを迎えます。',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',

@@ -73,6 +73,9 @@
     <script src="sumiyoshi/index.js"></script>
 
     <script>
+        const now = new Date();
+        let thismonth = now.getMonth() + 1;
+
         // ?area=エリア
         const urlParam = location.search.substring(1)
         let directory = "../",

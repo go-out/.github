@@ -7,34 +7,6 @@ const osakaPark = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49799894418132, 34.58891905129147]
-            },
-            'properties': {
-                'title': '浅香山緑道',
-                'address': '樹齢約80年を超えるツツジと、新しく植えたツツジの合計2500株が見ごろ（4月後半）',
-                'date': '',
-                'tags': 'park',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4740969357722, 34.64892520164277]
-            },
-            'properties': {
-                'title': '千島公園',
-                'address': '公園内の築山「昭和山」の一帯には、大正区の花「ツツジ（見頃は4月中旬～5月下旬頃）」やソテツをはじめとした亜熱帯植物などが植えられています。標高33m。',
-                'date': '',
-                'tags': 'park',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.4259890914081, 34.82966840145135]
             },
             'properties': {

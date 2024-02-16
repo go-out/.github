@@ -82,6 +82,19 @@ function addMarker(arr) {
             }
         }
 
+        if (marker.feature) {
+            for (const peak of marker.feature) {
+                if (peak.month === thismonth) {
+                    const p = document.createElement('p');
+                    p.innerHTML = `
+                    <small>${peak.title}</small><br>
+                    ${peak.address}
+                    `;
+                    document.querySelector('#present').appendChild(p);
+                }
+            }
+        }
+
         new mapboxgl.Marker(el, {
             offset: [0, 0]
         })
