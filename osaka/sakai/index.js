@@ -53,7 +53,6 @@ const osakaSakai = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 2 },
                 { 'month': 4 },
                 { 'month': 5 }
             ],

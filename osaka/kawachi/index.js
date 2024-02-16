@@ -37,6 +37,24 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 2 },
+                { 'month': 3 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.64995701713357, 34.66888318745667]
+            },
+            'properties': {
+                'title': '枚岡神社',
+                'address': '太古の聖域 河内国一宮。枚岡梅林（かおり風景100選）は、2月中旬から3月中旬が見頃。',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',

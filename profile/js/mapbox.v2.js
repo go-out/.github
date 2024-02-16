@@ -62,35 +62,22 @@ function addMarker(arr) {
             <u>${marker.properties.title}</u><br>
             <strong>${marker.properties.date}</strong>
             `;
-        } else if (marker.tags === 'spot') {
-            const h4 = document.createElement('h4');
-            document.querySelector('#spot').appendChild(h4);
-            if (marker.properties.href) {
-                const moreinfo = document.createElement('a');
-                moreinfo.href = directory + marker.properties.href;
-                moreinfo.innerText = marker.properties.title;
-                h4.appendChild(moreinfo);
-                h4.appendChild(document.createElement('br'));
-                const address = document.createElement('small');
-                address.innerText = marker.properties.address;
-                h4.appendChild(address);
-            } else {
-                h4.innerHTML = `
-                <strong>${marker.properties.title}</strong><br>
-                <small>${marker.properties.address}</small>
-                `;
-            }
         }
 
         if (marker.feature) {
+            const season = document.createElement('section');
+            season.id = 'season';
+            document.querySelector('article').appendChild(season);
+
             for (const peak of marker.feature) {
+                const p = document.createElement('p');
                 if (peak.month === thismonth) {
                     const p = document.createElement('p');
                     p.innerHTML = `
                     <small>${marker.properties.title}</small><br>
                     ${marker.properties.address}
                     `;
-                    document.querySelector('#present').appendChild(p);
+                    season.appendChild(p);
                 }
             }
         }

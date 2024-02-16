@@ -5,6 +5,26 @@ const osakaPark = {
     'features': [
         {
             'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 5 },
+                { 'month': 6 },
+                { 'month': 7 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46153265821147, 34.57987841383567]
+            },
+            'properties': {
+                'title': '大浜公園',
+                'address': '山頂付近にソテツ（花は、5～7月ごろに開花）が植えられている築山「蘇鉄山」がある。',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4259890914081, 34.82966840145135]
@@ -13,35 +33,6 @@ const osakaPark = {
                 'title': '五月山公園',
                 'address': 'ウォンバットやワラビーがいる動物園を併設する総合公園。<br>近くには五月山緑地都市緑化植物園も。',
                 'date': '',
-                'tags': 'park',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.46153265821147, 34.57987841383567]
-            },
-            'properties': {
-                'title': '大浜公園',
-                'address': '山頂付近にソテツ（花は、5～7月ごろに開花）が植えられている築山「蘇鉄山」がある。標高6.97m。',
-                'date': '',
-                'tags': 'park',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49860047791276, 34.81030253347209]
-            },
-            'properties': {
-                'title': '千里東町公園',
-                'address': '千里の竹林（大阪みどりの百選）は、5月下旬～6月上旬に新旧の葉が入れ替わる。',
-                'date': '',
-                'tags': 'park',
                 'zoom': 16,
             }
         },
