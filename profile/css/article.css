@@ -67,11 +67,12 @@ article #list {
     flex-flow: row-reverse wrap-reverse;
 }
 
-article h3 {
+article h3,
+article section p {
     width: 100%;
 }
 
-article section p,
+article #list p,
 article section h4 {
     flex: 1 450px;
 }
