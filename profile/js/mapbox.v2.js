@@ -66,7 +66,6 @@ function addMarker(arr) {
 
         if (marker.feature) {
             for (const peak of marker.feature) {
-                const p = document.createElement('p');
                 if (peak.month === thismonth) {
                     const p = document.createElement('p');
                     p.innerHTML = `
