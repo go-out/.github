@@ -69,7 +69,7 @@ function addMarker(arr) {
                 if (peak.month === thismonth) {
                     const p = document.createElement('p');
                     p.innerHTML = `
-                    <a>${marker.properties.title}</a><br>
+                    ${marker.properties.title}<br>
                     <strong>${marker.properties.address}</strong>
                     `;
                     document.querySelector('#season').appendChild(p);
