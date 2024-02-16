@@ -21,8 +21,7 @@ article h4 {
 }
 
 article section p,
-article section h3,
-article strong,
+article p strong,
 article a {
     font-size: 125%;
 }
