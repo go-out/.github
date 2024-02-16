@@ -58,6 +58,11 @@ article u {
     padding: 0.25rem;
 }
 
+hr {
+    border: none;
+    padding: 0.5rem;
+}
+
 article #season {
     background: #fff;
     border-radius: 1rem;
