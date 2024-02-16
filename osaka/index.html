@@ -13,7 +13,7 @@
     <meta property="og:title" content="___">
     <meta name="twitter:title" content="___">
 
-    <meta name="description" content="___">
+    <meta name="description" content="優雅にゆっくり憩える場所 | This is the Collection of Fancy and Relaxin' Spot in Osaka">
     <meta property="og:description" content="___">
     <meta name="twitter:description" content="___">
 
@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="../profile/css/index.css">
     <link rel="stylesheet" href="../profile/css/marker.css">
     <link rel="stylesheet" href="../profile/css/popup.css">
+    <link rel="stylesheet" href="../profile/css/article.css">
 
     <style>
         #title strong {
@@ -285,15 +286,24 @@
     </h1>
 
     <header>
-        <h2 id="latlng" class="goout shadow">Osaka Map</h2>
-        <address id="address" class="goout">大阪観光マップ</address>
+        <h2 id="latlng" class="goout shadow">This is a Collection of Our Favorite Spots in Osaka</h2>
+        <address id="address" class="goout">私（わたしたち）のお気に入りの場所</address>
         <h3 id="datetime" class="goout"></h3>
     </header>
 
     <div id="map"></div>
     <article>
-        <nav class="ja">優雅にゆっくり憩える場所</nav>
-        <section class="ja" id="spot"></section>
+        <nav class="goout">
+            <u>What will Happen in Osaka, Japan</u><br>
+            <strong>最近 と もうすぐ の 出来事</strong>
+        </nav>
+        <h3 class="ja" id="now"></h3>
+        <section class="ja" id="next"></section>
+        <section class="ja" id="present"></section>
+        <section class="ja" id="past"></section>
+        <section class="ja" id="spot" hidden></section>
+        <script src="../date/annual/osaka.js"></script>
+        <script src="../date/annual/index.js"></script>
     </article>
 
     <main hidden>

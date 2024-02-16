@@ -13,11 +13,6 @@ header {
     position: relative;
 }
 
-article nav {
-    position: sticky;
-    top: 0;
-}
-
 #title,
 header,
 main {
@@ -69,7 +64,6 @@ footer {
 }
 
 h3 b,
-#list u,
 dialog form label {
     background: lightskyblue;
     color: lemonchiffon;
@@ -83,18 +77,9 @@ dialog ul li small {
     color: lightskyblue;
 }
 
-#list u,
-article section a {
-    text-decoration: none;
-}
-
 h3 u,
 dialog ul li small {
     text-decoration: lightskyblue wavy underline;
-}
-
-article section h3 {
-    text-align: center;
 }
 
 header h3 {
@@ -104,13 +89,6 @@ header h3 {
 
 main::after {
     padding: 0 1.25rem;
-    margin: 0;
-}
-
-article nav,
-article h3,
-article p {
-    padding: 0.5rem;
     margin: 0;
 }
 
@@ -132,6 +110,9 @@ dialog form label {
 
 dialog form textarea {
     padding: 0.25rem;
+}
+
+dialog form textarea {
     margin: 0 0 0.5rem;
 }
 
@@ -171,9 +152,7 @@ address strong,
 }
 
 h3,
-h3 b,
-article h4,
-article section p strong {
+h3 b {
     font-size: 150%;
 }
 
@@ -181,8 +160,6 @@ article section p strong {
 dialog ul li a,
 dialog strong,
 dialog form label,
-article h4 strong,
-article h4 a,
 h3 u {
     font-size: 125%;
 }
@@ -208,10 +185,6 @@ h3,
 h3 b,
 h3 u {
     font-weight: 500;
-}
-
-article section p {
-    line-height: 200%;
 }
 
 address strong {
@@ -251,41 +224,12 @@ dialog form {
     place-items: center;
 }
 
-article section,
 footer {
     display: flex;
 }
 
 footer {
     flex-flow: row-reverse;
-}
-
-article section {
-    gap: 1rem;
-    padding: 0.5rem;
-    margin: 0;
-}
-
-article section:not(#list) {
-    flex-flow: row-reverse wrap;
-}
-
-article #list {
-    flex-flow: row-reverse wrap-reverse;
-}
-
-article section h3 {
-    width: 100%;
-}
-
-article section p {
-    flex: 1 450px;
-    margin: 0;
-}
-
-article section h4 {
-    flex: 1 300px;
-    margin: 0;
 }
 
 #map,
@@ -328,7 +272,6 @@ dialog form textarea {
 }
 
 #player {
-    border: 0.25rem solid lemonchiffon;
     border-radius: 1rem;
     width: 92.5vw;
     max-width: 1000px;

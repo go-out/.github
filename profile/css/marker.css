@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
-    z-index: 5;
+    z-index: 1;
 }
 
 .mapboxgl-marker.submit {
@@ -12,7 +12,7 @@
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
-    z-index: 10;
+    z-index: 2;
 }
 
 .mapboxgl-marker.bicycle {

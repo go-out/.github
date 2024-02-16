@@ -2,7 +2,7 @@
 
 場所：瓢箪山稲荷神社 ⛩️ Hyoutan-yama Inari
 
-実施日：毎年二月初午（2024年2月12日 月曜日）
+実施日：毎年二月初午
 Day of the horse in February (Hatsuuma) at Noon to 3PM
 
 午前十時「福餅つき開始」
@@ -14,4 +14,5 @@ Day of the horse in February (Hatsuuma) at Noon to 3PM
 
 初午（はつうま）は、稲荷社の祭の日。
 2月の最初の午の日。日付・曜日は、年ごとに異なります。
-（2025年は2月6日 木曜日、2026年は2月1日 日曜日。）
+
+※ 2024年は12日(月)、2025年は6日(木)、2026年は1日(日)

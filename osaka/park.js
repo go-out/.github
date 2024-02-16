@@ -119,7 +119,7 @@ const osakaPark = {
             'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.48558280674766, 
+                'coordinates': [135.48558280674766,
                     34.47509394406207]
             },
             'properties': {
