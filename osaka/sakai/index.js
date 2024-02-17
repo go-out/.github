@@ -51,7 +51,7 @@ const osakaSakai = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 4 },
                 { 'month': 5 }
@@ -69,7 +69,7 @@ const osakaSakai = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.46153265821147, 34.57987841383567]
@@ -126,7 +126,7 @@ const osakaSakai = {
         },
         {
             'type': 'Feature',
-            'tags': 'legacy',
+            'tags': 'draft',
             'feature': [
                 { 'month': 9 }
             ],

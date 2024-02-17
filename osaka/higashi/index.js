@@ -5,7 +5,7 @@ const osakaHigashi = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 6 }
             ],
@@ -37,7 +37,7 @@ const osakaHigashi = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 11 },
                 { 'month': 12 }

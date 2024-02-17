@@ -6,6 +6,7 @@
     z-index: 1;
 }
 
+.mapboxgl-marker.draft,
 .mapboxgl-marker.submit {
     background: lemonchiffon;
     border: lightskyblue solid 0.15rem;

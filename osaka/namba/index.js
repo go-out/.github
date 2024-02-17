@@ -53,7 +53,7 @@ const osakaNamba = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 3 },
                 { 'month': 4 }

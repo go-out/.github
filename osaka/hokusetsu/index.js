@@ -33,7 +33,7 @@ const osakaHokusetsu = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 5 },
                 { 'month': 6 }
@@ -51,7 +51,7 @@ const osakaHokusetsu = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4259890914081, 34.82966840145135]
@@ -65,7 +65,7 @@ const osakaHokusetsu = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 6 }
             ],
@@ -96,7 +96,7 @@ const osakaHokusetsu = {
         },
         {
             'type': 'Feature',
-            'tags': 'legacy',
+            'tags': 'draft',
             'feature': [
                 { 'month': 9 }
             ],

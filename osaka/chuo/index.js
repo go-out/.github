@@ -5,7 +5,7 @@ const osakaChuo = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'feature': [
                 { 'month': 2 }
             ],
@@ -22,7 +22,7 @@ const osakaChuo = {
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'feature': [
                 { 'month': 2 }
             ],

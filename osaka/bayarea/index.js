@@ -102,7 +102,7 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 4 },
                 { 'month': 5 }
@@ -120,7 +120,7 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 4 },
                 { 'month': 5 }

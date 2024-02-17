@@ -21,7 +21,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'feature': [
                 { 'month': 3 },
                 { 'month': 4 }
@@ -39,7 +39,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'feature': [
                 { 'month': 3 },
                 { 'month': 4 }
@@ -71,7 +71,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'feature': [
                 { 'month': 4 }
             ],
@@ -88,7 +88,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 5 },
                 { 'month': 10 },

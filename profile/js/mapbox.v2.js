@@ -53,12 +53,6 @@ function addMarker(arr) {
             el.style.width = marker.properties.iconSize[1];
             el.style.height = marker.properties.iconSize[2];
             el.style.backgroundImage = `url(${url})`;
-        } else if (!marker.properties.iconSize && !marker.properties.youtube) {
-            el.style.background = 'lemonchiffon';
-            el.style.border = 'lightskyblue solid 0.15rem';
-            el.style.borderRadius = '50%';
-            el.style.width = '1.5rem';
-            el.style.height = '1.5rem';
         }
 
         if (marker.tags === 'submit') {

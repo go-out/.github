@@ -37,7 +37,7 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'draft',
             'feature': [
                 { 'month': 2 },
                 { 'month': 3 }
@@ -97,7 +97,7 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'feature': [
                 { 'month': 10 },
                 { 'month': 11 }
@@ -115,7 +115,7 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'feature': [
                 { 'month': 11 }
             ],
