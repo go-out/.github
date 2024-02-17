@@ -101,7 +101,7 @@ const osakaKita = {
                 'title': '福島区野田',
                 'address': '福島区の花「のだふじ」は、例年4月中旬に見頃を迎えます。 ',
                 'date': '',
-                'iconSize': ['kita/icon/fukushima.gif', '2.5rem', '2.5rem'],
+                'iconSize': ['kita/icon/fukushima.gif', '3.21rem', '3.21rem'],
                 'zoom': 14,
             }
         },
@@ -121,7 +121,7 @@ const osakaKita = {
                 'title': '中之島公園',
                 'address': 'バラ園の見頃は、5月中旬~下旬・10月中旬~11月上旬',
                 'date': '',
-                'iconSize': ['kita/icon/kita.gif', '2.5rem', '2.5rem'],
+                'iconSize': ['kita/icon/kita.gif', '3.21rem', '3.21rem'],
                 'zoom': 14,
             }
         }

@@ -108,10 +108,10 @@ const osakaSumiyoshi = {
                 'coordinates': [135.5011012270029, 34.60917300907834]
             },
             'properties': {
-                'title': '住之江公園',
+                'title': '細江川のせせらぎ',
                 'address': '５月中旬頃、住吉区の花「カキツバタ」が見られる',
                 'date': '',
-                'iconSize': ['sumiyoshi/icon/sumiyoshi.gif', '2.5rem', '2.5rem'],
+                'iconSize': ['sumiyoshi/icon/sumiyoshi.gif', '3.21rem', '3.21rem'],
                 'zoom': 15.5,
             }
         },
@@ -126,10 +126,10 @@ const osakaSumiyoshi = {
                 'coordinates': [135.50961775825405, 34.59109016669457]
             },
             'properties': {
-                'title': '住之江公園',
+                'title': '浅香中央公園',
                 'address': '５月中旬頃、住吉区の花「カキツバタ」が見られる',
                 'date': '',
-                'iconSize': ['sumiyoshi/icon/sumiyoshi.gif', '2.5rem', '2.5rem'],
+                'iconSize': ['sumiyoshi/icon/sumiyoshi.gif', '3.21rem', '3.21rem'],
                 'zoom': 15.5,
             }
         },
@@ -148,7 +148,7 @@ const osakaSumiyoshi = {
                 'title': '住之江公園',
                 'address': '住之江区の花「さざんか」や椿など、冬の花の名所。さざぴー',
                 'date': '',
-                'iconSize': ['sumiyoshi/icon/suminoe.gif', '2.5rem', '2.5rem'],
+                'iconSize': ['sumiyoshi/icon/suminoe.gif', '3.21rem', '3.21rem'],
                 'zoom': 15.5,
             }
         },

@@ -109,12 +109,13 @@ const osakaBayarea = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.47983788186522, 34.68980343022029]
+                'coordinates': [135.38899180018413, 34.666380844084934]
             },
             'properties': {
                 'title': '大阪まいしまシーサイドパーク',
                 'address': '4～5月に開催される「ネモフィラ祭り」 此花区の区の花「チューリップ」',
                 'date': '',
+                'iconSize': ['bayarea/icon/konohana.gif', '3.21rem', '3.21rem'],
                 'zoom': 14,
             }
         },
@@ -133,7 +134,7 @@ const osakaBayarea = {
                 'title': '千島公園',
                 'address': '公園内の築山「昭和山」の一帯には、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物などが植えられています。',
                 'date': '',
-                'iconSize': ['bayarea/icon/taisho.gif', '2.5rem', '2.5rem'],
+                'iconSize': ['bayarea/icon/taisho.gif', '3.21rem', '3.21rem'],
                 'zoom': 16,
             }
         }
