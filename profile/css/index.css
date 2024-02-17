@@ -28,7 +28,7 @@ footer {
 }
 
 main {
-    background-color: rgba(135, 206, 235, 0.75);
+    background-color: rgba(135, 206, 235, 0.55);
 }
 
 main::after {
@@ -44,15 +44,15 @@ main::after {
         -4px 4px 0 skyblue;
 }
 
+main {
+    z-index: 50;
+}
+
 #title,
 #title button,
 header,
 footer {
     z-index: 100;
-}
-
-main {
-    z-index: 50;
 }
 
 header,
