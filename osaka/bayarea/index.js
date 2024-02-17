@@ -109,6 +109,24 @@ const osakaBayarea = {
             ],
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.47983788186522, 34.68980343022029]
+            },
+            'properties': {
+                'title': '大阪まいしまシーサイドパーク',
+                'address': '4～5月に開催される「ネモフィラ祭り」 此花区の区の花「チューリップ」',
+                'date': '',
+                'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 4 },
+                { 'month': 5 }
+            ],
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.4740969357722, 34.64892520164277]
             },
             'properties': {

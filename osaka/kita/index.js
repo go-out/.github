@@ -68,6 +68,42 @@ const osakaKita = {
                 'date': '',
                 'zoom': 16.5,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                { 'month': 4 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47983788186522, 34.68980343022029]
+            },
+            'properties': {
+                'title': '福島区野田',
+                'address': '福島区の花「のだふじ」は、例年4月中旬に見頃を迎えます。 ',
+                'date': '',
+                'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 5 },
+                { 'month': 10 },
+                { 'month': 11 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50788864110478, 34.692395405365495]
+            },
+            'properties': {
+                'title': '中之島公園',
+                'address': 'バラ園の見頃は、5月中旬~下旬・10月中旬~11月上旬',
+                'date': '',
+                'zoom': 14,
+            }
         }
     ]
 }
