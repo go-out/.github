@@ -85,7 +85,7 @@ const osakaHokusetsu = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.53800408403114, 34.728795961757776]
+                'coordinates': [135.44057194230854, 34.81712639592502]
             },
             'properties': {
                 'title': '水月公園',
