@@ -52,20 +52,6 @@ const osakaSakai = {
         {
             'type': 'Feature',
             'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.6033951996587, 34.479123978611675]
-            },
-            'properties': {
-                'title': '佐備神社',
-                'address': '浪速神楽の伝承と指導',
-                'date': '',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
             'feature': [
                 { 'month': 4 },
                 { 'month': 5 }
@@ -136,23 +122,6 @@ const osakaSakai = {
                 'address': '営業時間 9:00~17:00 ※自転車のご利用は園内利用に限ります。',
                 'date': '',
                 'zoom': 14,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'feature': [
-                { 'month': 9 }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.48558280674766, 34.47509394406207]
-            },
-            'properties': {
-                'title': '美多彌神社',
-                'address': 'シリブカガシの森（大阪みどりの百選）の花は9月頃に開花',
-                'date': '',
-                'zoom': 16,
             }
         }
     ]

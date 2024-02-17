@@ -8,6 +8,20 @@ const osakaSenshu = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.6033951996587, 34.479123978611675]
+            },
+            'properties': {
+                'title': '佐備神社',
+                'address': '浪速神楽の伝承と指導',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.34349543057837, 34.37376766776334]
             },
             'properties': {
@@ -15,6 +29,23 @@ const osakaSenshu = {
                 'address': '',
                 'date': '',
                 'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'feature': [
+                { 'month': 9 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48558280674766, 34.47509394406207]
+            },
+            'properties': {
+                'title': '美多彌神社',
+                'address': 'シリブカガシの森（大阪みどりの百選）の花は9月頃に開花',
+                'date': '',
+                'zoom': 16,
             }
         },
         {
