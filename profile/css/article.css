@@ -88,6 +88,10 @@ article #list {
     flex-flow: row-reverse wrap-reverse;
 }
 
+article #season {
+    flex-flow: wrap;
+}
+
 article h3,
 article #season p {
     width: 100%;
