@@ -33,13 +33,17 @@ article u {
     font-size: 75%;
 }
 
-article u,
-article section a {
-    text-decoration: none;
+article #list p {
+    line-height: 200%;
 }
 
 article h3 {
     text-align: center;
+}
+
+article u,
+article section a {
+    text-decoration: none;
 }
 
 article nav,
@@ -85,7 +89,7 @@ article #list {
 }
 
 article h3,
-article section p {
+article #season p {
     width: 100%;
 }
 
