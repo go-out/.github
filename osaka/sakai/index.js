@@ -69,6 +69,20 @@ const osakaSakai = {
         },
         {
             'type': 'Feature',
+            'tags': 'park',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46153265821147, 34.57987841383567]
+            },
+            'properties': {
+                'title': '大浜公園',
+                'address': '山頂付近にソテツが植えられている築山「蘇鉄山」がある。',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
@@ -108,6 +122,23 @@ const osakaSakai = {
                 'address': '営業時間 9:00~17:00 ※自転車のご利用は園内利用に限ります。',
                 'date': '',
                 'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'legacy',
+            'feature': [
+                { 'month': 9 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48558280674766, 34.47509394406207]
+            },
+            'properties': {
+                'title': '美多彌神社',
+                'address': 'シリブカガシの森（大阪みどりの百選）の花は9月頃に開花',
+                'date': '',
+                'zoom': 16,
             }
         }
     ]

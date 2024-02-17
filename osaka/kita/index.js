@@ -21,6 +21,42 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                { 'month': 3 },
+                { 'month': 4 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52089606493735, 34.71124351717242]
+            },
+            'properties': {
+                'title': '飛翔橋',
+                'address': '大川（旧淀川）に架かる歩行者専用の橋。周辺は桜並木。',
+                'date': '',
+                'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                { 'month': 3 },
+                { 'month': 4 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5213657152636, 34.7023205956932]
+            },
+            'properties': {
+                'title': '大阪ふれあいの水辺',
+                'address': 'ピクニックで人気の川岸の草地。春になると桜並木が咲き誇る。',
+                'date': '',
+                'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',

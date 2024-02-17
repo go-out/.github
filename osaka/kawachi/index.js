@@ -58,21 +58,6 @@ const osakaKawachi = {
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.57828087232733, 34.63003991196236]
-            },
-            'properties': {
-                'title': '無料レンタサイクル',
-                'address': '久宝寺緑地 管理事務所',
-                'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=kyuhouji',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.59846163994365, 34.61704064962767]
             },
             'properties': {
@@ -108,6 +93,41 @@ const osakaKawachi = {
                 'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
                 'date': '',
                 'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                { 'month': 10 },
+                { 'month': 11 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.55114031534507, 34.3734676593833]
+            },
+            'properties': {
+                'title': '岩湧山',
+                'address': '特に秋のススキの穂が広がる風景は大阪屈指の名スポット（9月下旬〜11月上旬）',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                { 'month': 11 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.59857453053274, 34.5349739218227]
+            },
+            'properties': {
+                'title': '大阪府立環境農林水産総合研究所',
+                'address': '農林技術センターのイチョウ並木（大阪みどりの百選）',
+                'date': '',
+                'zoom': 17.5,
             }
         }
     ]

@@ -53,6 +53,25 @@ const osakaNamba = {
         },
         {
             'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 3 },
+                { 'month': 4 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52144594855437, 34.63073779442691]
+            },
+            'properties': {
+                'title': '桃ヶ池公園',
+                'address': 'JR阪和線の列車の車窓からも見ることができるハナモモやサクラの名所（3月中旬~4月上旬）',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=momogaike',
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
