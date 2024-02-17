@@ -5,6 +5,20 @@ const osakaHokusetsu = {
     'features': [
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6563300094346, 34.8544115728934]
+            },
+            'properties': {
+                'title': '鵜殿のヨシ原',
+                'address': '「大阪みどりの百選」、「関西自然に親しむ風景100選」',
+                'date': '',
+                'zoom': 14.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',

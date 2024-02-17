@@ -98,6 +98,34 @@ const osakaKawachi = {
         {
             'type': 'Feature',
             'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.64415797733582, 34.71874238862553]
+            },
+            'properties': {
+                'title': '慈眼寺（野崎観音）',
+                'address': '',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6526689836174, 34.63463845963249]
+            },
+            'properties': {
+                'title': '玉祖神社',
+                'address': '',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
             'feature': [
                 { 'month': 10 },
                 { 'month': 11 }

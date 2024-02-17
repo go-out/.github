@@ -36,6 +36,20 @@ const osakaChuo = {
                 'date': '',
                 'zoom': 16,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4999269853856, 34.67872004066121]
+            },
+            'properties': {
+                'title': '難波神社',
+                'address': '',
+                'date': '',
+                'zoom': 16,
+            }
         }
     ]
 }

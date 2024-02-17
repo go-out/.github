@@ -52,6 +52,20 @@ const osakaSakai = {
         {
             'type': 'Feature',
             'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6033951996587, 34.479123978611675]
+            },
+            'properties': {
+                'title': '佐備神社',
+                'address': '浪速神楽の伝承と指導',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
             'feature': [
                 { 'month': 4 },
                 { 'month': 5 }

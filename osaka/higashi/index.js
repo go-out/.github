@@ -6,6 +6,20 @@ const osakaHigashi = {
         {
             'type': 'Feature',
             'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.55051227356563, 34.627310959994205]
+            },
+            'properties': {
+                'title': '大念佛寺',
+                'address': '',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
             'feature': [
                 { 'month': 6 }
             ],
@@ -16,6 +30,20 @@ const osakaHigashi = {
             'properties': {
                 'title': '城北公園',
                 'address': '城北菖蒲園の見ごろは6月初旬頃',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.55489133439792, 34.628774773082284]
+            },
+            'properties': {
+                'title': '杭全神社',
+                'address': '',
                 'date': '',
                 'zoom': 16,
             }

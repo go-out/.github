@@ -103,6 +103,34 @@ const osakaNamba = {
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51651619863247, 34.6544783382806]
+            },
+            'properties': {
+                'title': '四天王寺',
+                'address': '',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4901974536033, 34.62603263000701]
+            },
+            'properties': {
+                'title': '生根神社',
+                'address': '',
+                'date': '',
+                'zoom': 16.5,
+            }
         }
     ]
 }
