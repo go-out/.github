@@ -67,7 +67,7 @@
     <script src="hokusetsu/index.js"></script>
     <script src="kawachi/index.js"></script>
     <script src="kita/index.js"></script>
-    <script src="namba/index.js"></script>
+    <script src="minami/index.js"></script>
     <script src="sakai/index.js"></script>
     <script src="senshu/index.js"></script>
     <script src="sumiyoshi/index.js"></script>
@@ -152,7 +152,7 @@
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(osakaKita.features)
                 });
-            } else if (paramArr.area === 'namba') {
+            } else if (paramArr.area === 'minami') {
                 center = [135.5062480893037, 34.652403484554824];
                 bounds = [
                     [135.47596673180095, 34.620797469125364], // 南西座標
@@ -160,7 +160,7 @@
                 ]
                 zoom = 14.5;
                 window.addEventListener("DOMContentLoaded", () => {
-                    addMarker(osakaNamba.features)
+                    addMarker(osakaMinami.features)
                 });
             } else if (paramArr.area === 'sakai') {
                 center = [135.50012524849802, 34.5239972993108];
@@ -208,7 +208,7 @@
                 addMarker(osakaHokusetsu.features)
                 addMarker(osakaKawachi.features)
                 addMarker(osakaKita.features)
-                addMarker(osakaNamba.features)
+                addMarker(osakaMinami.features)
                 addMarker(osakaSakai.features)
                 addMarker(osakaSenshu.features)
                 addMarker(osakaSumiyoshi.features)
@@ -326,7 +326,7 @@
             <p>
                 <a href="?area=kita">梅田・中之島・淀川エリア</a>
                 <a href="?area=chuo">心斎橋・本町・大阪城エリア</a>
-                <a href="?area=namba">なんば・天王寺・西成エリア</a>
+                <a href="?area=minami">なんば・天王寺・西成エリア</a>
                 <a href="?area=sumiyoshi">住吉・長居エリア</a>
                 <a href="?area=bayarea">大阪ベイエリア</a>
                 <a href="?area=higashi">城北・城東・コリアンエリア</a>

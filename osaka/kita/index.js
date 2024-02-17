@@ -28,11 +28,29 @@ const osakaKita = {
             ],
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.523221947113, 34.71172464587356]
+            },
+            'properties': {
+                'title': '櫻宮御旅所',
+                'address': '境内にある「渡辺綱・駒つなぎの樟」と呼ばれるクスノキの大樹は、大阪府史蹟名勝天然記念物第一号。隣接する公園は桜の名所',
+                'date': '',
+                'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'feature': [
+                { 'month': 3 },
+                { 'month': 4 }
+            ],
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.52089606493735, 34.71124351717242]
             },
             'properties': {
                 'title': '飛翔橋',
-                'address': '大川（旧淀川）に架かる歩行者専用の橋。周辺は桜並木。',
+                'address': '他に例のない二重のアーチ橋（ニールセン・ローゼ桁）の歩行者専用橋。周辺は桜の名所',
                 'date': '',
                 'zoom': 14,
             }
@@ -71,7 +89,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'feature': [
                 { 'month': 4 }
             ],
@@ -83,12 +101,13 @@ const osakaKita = {
                 'title': '福島区野田',
                 'address': '福島区の花「のだふじ」は、例年4月中旬に見頃を迎えます。 ',
                 'date': '',
+                'iconSize': ['kita/icon/fukushima.gif', '2.5rem', '2.5rem'],
                 'zoom': 14,
             }
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
             'feature': [
                 { 'month': 5 },
                 { 'month': 10 },
@@ -102,6 +121,7 @@ const osakaKita = {
                 'title': '中之島公園',
                 'address': 'バラ園の見頃は、5月中旬~下旬・10月中旬~11月上旬',
                 'date': '',
+                'iconSize': ['kita/icon/kita.gif', '2.5rem', '2.5rem'],
                 'zoom': 14,
             }
         }

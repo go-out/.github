@@ -1,6 +1,6 @@
 'use strict'
 
-const osakaNamba = {
+const osakaMinami = {
     'type': 'FeatureCollection',
     'features': [
         {

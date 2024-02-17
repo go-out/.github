@@ -120,7 +120,7 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
             'feature': [
                 { 'month': 4 },
                 { 'month': 5 }
@@ -133,6 +133,7 @@ const osakaBayarea = {
                 'title': '千島公園',
                 'address': '公園内の築山「昭和山」の一帯には、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物などが植えられています。',
                 'date': '',
+                'iconSize': ['bayarea/icon/taisho.gif', '2.5rem', '2.5rem'],
                 'zoom': 16,
             }
         }

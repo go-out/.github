@@ -7,9 +7,6 @@
 https://www.543life.com/72seasons/uguisunaku.html
 ___
 
-3月20日 ~ 3月24日頃
-雀すずめ が 巣す を 構かま え 始はじ める
-
 [大阪府下のツバメの集団ねぐら](https://www.omnh.jp/wada/Roost/swallowroost.html)
 ___
 

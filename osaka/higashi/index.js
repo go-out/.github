@@ -29,8 +29,9 @@ const osakaHigashi = {
             },
             'properties': {
                 'title': '城北公園',
-                'address': '城北菖蒲園の見ごろは6月初旬頃',
+                'address': '6月初旬、旭区の花「ハナショウブ」が城北菖蒲園に咲く',
                 'date': '',
+                'iconSize': ['higashi/icon/asahi.gif', '2.5rem', '2.5rem'],
                 'zoom': 16,
             }
         },
