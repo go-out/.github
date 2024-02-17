@@ -57,7 +57,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
             'feature': [
                 { 'month': 3 },
                 { 'month': 4 }
@@ -69,6 +69,7 @@ const osakaKita = {
             'properties': {
                 'title': '大阪ふれあいの水辺',
                 'address': 'ピクニックで人気の川岸の草地。春になると桜並木が咲き誇る。',
+                'iconSize': ['kita/icon/miyakojima.gif', '3.21rem', '3.21rem'],
                 'date': '',
                 'zoom': 14,
             }

@@ -19,7 +19,7 @@ const osakaChuo = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
             'feature': [
                 { 'month': 2 }
             ],
@@ -31,6 +31,7 @@ const osakaChuo = {
                 'title': '高津梅林',
                 'address': '都会のオアシス「高津宮（こうづぐう）」に隣接する公園内、中央区の花「梅（2月中旬から下旬が見頃）」の名所',
                 'date': '',
+                'iconSize': ['chuo/icon/chuo.gif', '3.21rem', '3.21rem'],
                 'zoom': 16,
             }
         },
@@ -65,6 +66,26 @@ const osakaChuo = {
                 'title': '難波神社',
                 'address': '心斎橋・御堂筋沿いにある、花菖蒲（はなしょうぶ）をご神紋とする神社',
                 'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 5 },
+                { 'month': 6 },
+                { 'month': 10 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49409716476222, 34.68576978269506]
+            },
+            'properties': {
+                'title': '靱公園',
+                'address': 'バラは、西区を象徴',
+                'date': '',
+                'iconSize': ['chuo/icon/nishi.gif', '3.21rem', '3.21rem'],
                 'zoom': 16,
             }
         }
