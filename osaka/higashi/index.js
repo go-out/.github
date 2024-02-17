@@ -19,7 +19,7 @@ const osakaHigashi = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
             'feature': [
                 { 'month': 6 }
             ],

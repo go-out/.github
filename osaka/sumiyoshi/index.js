@@ -117,7 +117,7 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
-            'tags': 'spot',
+            'tags': 'draft',
             'feature': [
                 { 'month': 5 }
             ],
@@ -129,7 +129,6 @@ const osakaSumiyoshi = {
                 'title': '浅香中央公園',
                 'address': '５月中旬頃、住吉区の花「カキツバタ」が見られる',
                 'date': '',
-                'iconSize': ['sumiyoshi/icon/sumiyoshi.gif', '3.21rem', '3.21rem'],
                 'zoom': 15.5,
             }
         },
@@ -142,7 +141,7 @@ const osakaSumiyoshi = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.47405834443256, 34.61232291557338]
+                'coordinates': [135.47561189325947, 34.611269066903496]
             },
             'properties': {
                 'title': '住之江公園',
