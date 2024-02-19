@@ -92,52 +92,58 @@ const annualAll = [
 ]
 
 for (const eachAll of annualAll) {
-    if (eachAll.month === thismonth + 1 && eachAll.events) {
-        for (const next of eachAll.events) {
-            if (next.link) {
-                const h4 = document.createElement('h4');
-                h4.innerHTML = `
+    if (eachAll.month === thismonth + 1) {
+        if (eachAll.events) {
+            for (const next of eachAll.events) {
+                if (next.link) {
+                    const h4 = document.createElement('h4');
+                    h4.innerHTML = `
                 <small>${next.date}</small><br>
                 <u>${next.venue}</u><br>
                 <a href='${next.link}'>${next.title}</a>
                 `;
-                document.querySelector('#next').appendChild(h4);
+                    document.querySelector('#next').appendChild(h4);
+                }
             }
         }
 
         const strong = document.createElement('strong');
         strong.innerHTML = eachAll.month + '月 ' + eachAll.en;
         document.querySelector('#now').appendChild(strong);
-    } else if (eachAll.month === thismonth && eachAll.events) {
-        for (const present of eachAll.events) {
-            if (present.link) {
-                const h4 = document.createElement('h4');
-                h4.innerHTML = `
+    } else if (eachAll.month === thismonth) {
+        if (eachAll.events) {
+            for (const present of eachAll.events) {
+                if (present.link) {
+                    const h4 = document.createElement('h4');
+                    h4.innerHTML = `
                 <small>${present.date}</small><br>
                 <u>${present.venue}</u><br>
                 <a href='${present.link}'>${present.title}</a>
                 `;
-                document.querySelector('#present').appendChild(h4);
+                    document.querySelector('#present').appendChild(h4);
+                }
             }
         }
 
         const strong = document.createElement('strong');
         strong.innerHTML = eachAll.month + '月 ' + eachAll.en + ' & ';
         document.querySelector('#now').appendChild(strong);
-    } else if (eachAll.month === thismonth - 1 && eachAll.events) {
+    } else if (eachAll.month === thismonth - 1) {
         const h3 = document.createElement('h3');
         h3.innerHTML = '<strong>' + eachAll.month + '月 ' + eachAll.en + '</strong>';
         document.querySelector('#past').appendChild(h3);
 
-        for (const past of eachAll.events) {
-            if (past.link) {
-                const p = document.createElement('p');
-                p.innerHTML = `
+        if (eachAll.events) {
+            for (const past of eachAll.events) {
+                if (past.link) {
+                    const p = document.createElement('p');
+                    p.innerHTML = `
                 <small>${past.date}</small><br>
                 <u>${past.venue}</u><br>
                 <a href='${past.link}'>${past.title}</a>
                 `;
-                document.querySelector('#past').appendChild(p);
+                    document.querySelector('#past').appendChild(p);
+                }
             }
         }
     }
