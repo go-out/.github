@@ -3,15 +3,7 @@
 const annualAll = [
     {
         "month": 1,
-        "en": "January",
-        "events": [
-            {
-                "title": "人日の節句",
-                "venue": "毎年一月七日",
-                "date": "春の七草の入った「七草粥」を食べ、無病息災を願う",
-                "link": "#"
-            }
-        ]
+        "en": "January"
     },
     {
         "month": 2,
@@ -25,7 +17,7 @@ const annualAll = [
                 "title": "春のお彼岸",
                 "venue": "自然をたたえ、生物をいつくしむ",
                 "date": "春分の日を中日に、前後3日間あわせた7日",
-                "link": "#"
+                "link": "#season"
             }
         ]
     },
