@@ -41,7 +41,7 @@ const annual = [
             {
                 "title": "鵜殿のヨシ原焼き Udono Yoshiharayaki",
                 "venue": "高槻市鵜殿 Takatsuki Osaka",
-                "date": "毎年二月中頃 日曜日 Sunday of February",
+                "date": "毎年二月中頃 日曜日 Third Sunday of February",
                 "link": "../date/udono-yoshihara/"
             }
         ]
