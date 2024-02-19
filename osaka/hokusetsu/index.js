@@ -66,7 +66,7 @@ const osakaHokusetsu = {
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.62073550113382, 34.84871119124985]
+                'coordinates': [135.46717020000125, 34.77263274758202]
             },
             'properties': {
                 'title': 'レンタサイクル 阪急曽根駐輪センター',
