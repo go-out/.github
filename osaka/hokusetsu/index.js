@@ -5,14 +5,14 @@ const osakaHokusetsu = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.6563300094346, 34.8544115728934]
             },
             'properties': {
                 'title': '鵜殿のヨシ原',
-                'address': '「大阪みどりの百選」、「関西自然に親しむ風景100選」',
+                'address': '「大阪みどりの百選」「関西自然に親しむ風景100選」',
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=udono-yoshihara',
                 'youtube': '0ncmnMdeRCw',
@@ -29,6 +29,48 @@ const osakaHokusetsu = {
             'properties': {
                 'title': 'レンタサイクル 城北第一駐輪センター',
                 'address': '営業時間 6:30~22:00 | ◆普通車◆ 1日1回利用 320円 ◆電動車◆ 1日1回利用 420円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.45350971571364, 34.77095600443577]
+            },
+            'properties': {
+                'title': '千里川土手',
+                'address': '',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48807437094194, 34.77583204888152]
+            },
+            'properties': {
+                'title': '服部緑地',
+                'address': '「都市緑化植物園 温室」「中央工学校ＯＳＡＫＡ」',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.62073550113382, 34.84871119124985]
+            },
+            'properties': {
+                'title': 'レンタサイクル 阪急曽根駐輪センター',
+                'address': '営業時間 7:00～21:00 | ◆普通車◆ 1日320円 ◆電動車◆ 1日420円',
                 'date': '',
                 'zoom': 16.5,
             }
