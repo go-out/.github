@@ -134,6 +134,49 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.55489133439792, 34.628774773082284]
+            },
+            'properties': {
+                'title': '杭全神社',
+                'address': '',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.55051227356563, 34.627310959994205]
+            },
+            'properties': {
+                'title': '大念佛寺',
+                'address': '',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.57828087232733, 34.63003991196236]
+            },
+            'properties': {
+                'title': '無料レンタサイクル',
+                'address': '久宝寺緑地 管理事務所',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=kyuhouji',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'park',
             'feature': [
                 { 'month': 7 },
