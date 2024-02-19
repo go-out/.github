@@ -58,7 +58,7 @@ map.on('load', () => {
                     'properties': {
                         'title': '鵜殿のヨシ原焼き',
                         'date': '毎年二月中頃 日曜日',
-                        'link': 'date/udono-yoshihara/',
+                        'link': '../date/udono-yoshihara/',
                         'zoom': 14
                     }
                 }

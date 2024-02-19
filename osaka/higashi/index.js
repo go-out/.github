@@ -68,25 +68,6 @@ const osakaHigashi = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 7 },
-                { 'month': 8 }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.558498349879, 34.601169311617646]
-            },
-            'properties': {
-                'title': '区民わた畑',
-                'address': '区の花「わたの花」は7月下旬から8月下旬頃まで順次開花',
-                'date': '',
-                'iconSize': ['higashi/icon/hirano.png', '3.5rem', '3.5rem'],
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'park',
-            'feature': [
                 { 'month': 11 },
                 { 'month': 12 }
             ],
