@@ -79,9 +79,9 @@ const annualAll = [
     }
 ]
 
-for (const eachMonth of annualAll) {
-    if (eachMonth.month === thismonth + 1 && eachMonth.events) {
-        for (const next of eachMonth.events) {
+for (const eachAll of annualAll) {
+    if (eachAll.month === thismonth + 1 && eachAll.events) {
+        for (const next of eachAll.events) {
             if (next.link) {
                 const h4 = document.createElement('h4');
                 h4.innerHTML = `
@@ -94,10 +94,10 @@ for (const eachMonth of annualAll) {
         }
 
         const strong = document.createElement('strong');
-        strong.innerHTML = eachMonth.month + '月 ' + eachMonth.en;
+        strong.innerHTML = eachAll.month + '月 ' + eachAll.en;
         document.querySelector('#now').appendChild(strong);
-    } else if (eachMonth.month === thismonth && eachMonth.events) {
-        for (const present of eachMonth.events) {
+    } else if (eachAll.month === thismonth && eachAll.events) {
+        for (const present of eachAll.events) {
             if (present.link) {
                 const h4 = document.createElement('h4');
                 h4.innerHTML = `
@@ -110,14 +110,14 @@ for (const eachMonth of annualAll) {
         }
 
         const strong = document.createElement('strong');
-        strong.innerHTML = eachMonth.month + '月 ' + eachMonth.en + ' & ';
+        strong.innerHTML = eachAll.month + '月 ' + eachAll.en + ' & ';
         document.querySelector('#now').appendChild(strong);
-    } else if (eachMonth.month === thismonth - 1 && eachMonth.events) {
+    } else if (eachAll.month === thismonth - 1 && eachAll.events) {
         const h3 = document.createElement('h3');
-        h3.innerHTML = '<strong>' + eachMonth.month + '月 ' + eachMonth.en + '</strong>';
+        h3.innerHTML = '<strong>' + eachAll.month + '月 ' + eachAll.en + '</strong>';
         document.querySelector('#past').appendChild(h3);
 
-        for (const past of eachMonth.events) {
+        for (const past of eachAll.events) {
             if (past.link) {
                 const p = document.createElement('p');
                 p.innerHTML = `
