@@ -13,10 +13,6 @@ for (const eachMonth of annual) {
                 document.querySelector('#next').appendChild(h4);
             }
         }
-
-        const strong = document.createElement('strong');
-        strong.innerHTML = eachMonth.month + '月 ' + eachMonth.en;
-        document.querySelector('#now').appendChild(strong);
     } else if (eachMonth.month === thismonth && eachMonth.events) {
         for (const present of eachMonth.events) {
             if (present.link) {
@@ -29,15 +25,7 @@ for (const eachMonth of annual) {
                 document.querySelector('#present').appendChild(h4);
             }
         }
-
-        const strong = document.createElement('strong');
-        strong.innerHTML = eachMonth.month + '月 ' + eachMonth.en + ' & ';
-        document.querySelector('#now').appendChild(strong);
     } else if (eachMonth.month === thismonth - 1 && eachMonth.events) {
-        const h3 = document.createElement('h3');
-        h3.innerHTML = '<strong>' + eachMonth.month + '月 ' + eachMonth.en + '</strong>';
-        document.querySelector('#past').appendChild(h3);
-
         for (const past of eachMonth.events) {
             if (past.link) {
                 const p = document.createElement('p');
