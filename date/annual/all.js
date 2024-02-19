@@ -2,7 +2,8 @@
 
 const annualAll = [
     {
-        "month": "January",
+        "month": 1,
+        "en": "January",
         "events": [
             {
                 "title": "人日の節句",
@@ -13,10 +14,12 @@ const annualAll = [
         ]
     },
     {
-        "month": "February"
+        "month": 2,
+        "en": "February"
     },
     {
-        "month": "March",
+        "month": 3,
+        "en": "March",
         "events": [
             {
                 "title": "春のお彼岸",
@@ -27,10 +30,12 @@ const annualAll = [
         ]
     },
     {
-        "month": "April"
+        "month": 4,
+        "en": "April"
     },
     {
-        "month": "May",
+        "month": 5,
+        "en": "May",
         "events": [
             {
                 "title": "端午の節句",
@@ -41,16 +46,20 @@ const annualAll = [
         ]
     },
     {
-        "month": "June"
+        "month": 6,
+        "en": "June"
     },
     {
-        "month": "July"
+        "month": 7,
+        "en": "July"
     },
     {
-        "month": "August"
+        "month": 8,
+        "en": "August"
     },
     {
-        "month": "September",
+        "month": 9,
+        "en": "September",
         "events": [
             {
                 "title": "秋のお彼岸",
@@ -61,13 +70,16 @@ const annualAll = [
         ]
     },
     {
-        "month": "October"
+        "month": 10,
+        "en": "October"
     },
     {
-        "month": "November"
+        "month": 11,
+        "en": "November"
     },
     {
-        "month": "December",
+        "month": 12,
+        "en": "December",
         "events": [
             {
                 "title": "冬至の日",

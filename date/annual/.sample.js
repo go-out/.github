@@ -2,51 +2,51 @@
 
 const annual = [
     {
-        "month": "January",
-        "events": []
+        "month": 1,
+        "en": "January"
     },
     {
-        "month": "February",
-        "events": []
+        "month": 2,
+        "en": "February"
     },
     {
-        "month": "March",
-        "events": []
+        "month": 3,
+        "en": "March"
     },
     {
-        "month": "April",
-        "events": []
+        "month": 4,
+        "en": "April"
     },
     {
-        "month": "May",
-        "events": []
+        "month": 5,
+        "en": "May"
     },
     {
-        "month": "June",
-        "events": []
+        "month": 6,
+        "en": "June"
     },
     {
-        "month": "July",
-        "events": []
+        "month": 7,
+        "en": "July"
     },
     {
-        "month": "August",
-        "events": []
+        "month": 8,
+        "en": "August"
     },
     {
-        "month": "September",
-        "events": []
+        "month": 9,
+        "en": "September"
     },
     {
-        "month": "October",
-        "events": []
+        "month": 10,
+        "en": "October"
     },
     {
-        "month": "November",
-        "events": []
+        "month": 11,
+        "en": "November"
     },
     {
-        "month": "December",
-        "events": []
+        "month": 12,
+        "en": "December"
     }
 ]
