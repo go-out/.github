@@ -18,7 +18,7 @@ const annual = [
             {
                 "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
                 "venue": "難波八阪神社 Nambayasaka Shrine",
-                "date": "毎年一月第三日曜日 Third Sunday of January every year",
+                "date": "毎年一月第三日曜日 Third Sunday of January",
                 "link": "../date/tsunahiki-shingi/"
             }
         ]
@@ -39,9 +39,10 @@ const annual = [
                 "link": "../date/hyotanyama-hatsuushi/"
             },
             {
-                "title": "鵜殿（うどの）のヨシ原焼き",
-                "venue": "鵜殿のヨシ原",
-                "date": "2月中～下旬の日曜日 午前九時頃から"
+                "title": "鵜殿のヨシ原焼き Udono Yoshiharayaki",
+                "venue": "高槻市鵜殿 Takatsuki Osaka",
+                "date": "毎年二月中頃 日曜日 Sunday of February",
+                "link": "../date/udono-yoshihara/"
             }
         ]
     },

@@ -69,7 +69,7 @@ const osakaKita = {
             'properties': {
                 'title': '大阪ふれあいの水辺',
                 'address': 'ピクニックで人気の川岸の草地。春になると桜並木が咲き誇る。',
-                'iconSize': ['kita/icon/miyakojima.gif', '3.21rem', '3.21rem'],
+                'iconSize': ['kita/icon/miyakojima.gif', '3.5rem', '3.5rem'],
                 'date': '',
                 'zoom': 14,
             }
@@ -102,7 +102,7 @@ const osakaKita = {
                 'title': '福島区野田',
                 'address': '福島区の花「のだふじ」は、例年4月中旬に見頃を迎えます。 ',
                 'date': '',
-                'iconSize': ['kita/icon/fukushima.gif', '3.21rem', '3.21rem'],
+                'iconSize': ['kita/icon/fukushima.gif', '3.5rem', '3.5rem'],
                 'zoom': 14,
             }
         },
@@ -122,7 +122,7 @@ const osakaKita = {
                 'title': '中之島公園',
                 'address': 'バラ園の見頃は、5月中旬~下旬・10月中旬~11月上旬',
                 'date': '',
-                'iconSize': ['kita/icon/kita.gif', '3.21rem', '3.21rem'],
+                'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
                 'zoom': 14,
             }
         }

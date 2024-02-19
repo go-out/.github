@@ -31,7 +31,7 @@ const osakaHigashi = {
                 'title': '城北公園',
                 'address': '6月初旬、旭区の花「ハナショウブ」が城北菖蒲園に咲く',
                 'date': '',
-                'iconSize': ['higashi/icon/asahi.gif', '3.21rem', '3.21rem'],
+                'iconSize': ['higashi/icon/asahi.png', '3.5rem', '3.5rem'],
                 'zoom': 16,
             }
         },
@@ -66,19 +66,39 @@ const osakaHigashi = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
+            'feature': [
+                { 'month': 7 },
+                { 'month': 8 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.558498349879, 34.601169311617646]
+            },
+            'properties': {
+                'title': '区民わた畑',
+                'address': '区の花「わたの花」は7月下旬から8月下旬頃まで順次開花',
+                'date': '',
+                'iconSize': ['higashi/icon/hirano.png', '3.5rem', '3.5rem'],
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
             'feature': [
                 { 'month': 11 },
                 { 'month': 12 }
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.57953104285798, 34.71552805310158]
+                'coordinates': [135.57502064404602, 34.711793763367595]
             },
             'properties': {
                 'title': '鶴見緑地公園',
                 'address': '「緑地西橋」から西口に向けて約480mにわたりメタセコイアの並木道（136本）<br>「中央通」メタセコイアと沼杉の並木（11月下旬～12月上旬ごろ）',
                 'date': '',
+                'iconSize': ['higashi/icon/tsurumi.png', '3rem', '3rem'],
                 'zoom': 16,
             }
         }

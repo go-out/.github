@@ -1,0 +1,61 @@
+{
+    "date": "2024.2.18 (Sun)",
+    "url": "udono-yoshihara/",
+    "youtube": "0ncmnMdeRCw",
+    "directory": "https://archive.org/download/udono.yoshihara/",
+    "cover": "udono.yoshihara.thumbs/20240218/009_000001.jpg",
+    "video": [
+        {
+            "title": "二〇二四年二月十八日",
+            "src": "20240218/002.ia.mp4",
+            "track": "20240218/0000.vtt"
+        },
+        {
+            "title": "午前九時半",
+            "src": "20240218/004.ia.mp4",
+            "track": "20240218/0000.vtt"
+        },
+        {
+            "title": "鵜殿葭の原",
+            "src": "20240218/005.ia.mp4",
+            "track": "20240218/0000.vtt"
+        },
+        {
+            "title": "１.５ ㌖",
+            "src": "20240218/006.ia.mp4",
+            "track": "20240218/0000.vtt"
+        },
+        {
+            "title": "午前十一時",
+            "src": "20240218/008.ia.mp4",
+            "track": "20240218/0000.vtt"
+        },
+        {
+            "title": "ヨシ原焼き",
+            "src": "20240218/009.ia.mp4",
+            "track": "20240218/0000.vtt"
+        },
+        {
+            "title": "正午 完了",
+            "src": "20240218/010.ia.mp4",
+            "track": "20240218/0000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "鵜殿のヨシ原保存会",
+            "url": "https://www.udono-hozon.com/",
+            "target": "_blank"
+        },
+        {
+            "text": "鵜殿のヨシ原保存会(@udono.yoshihara) - Instagram",
+            "url": "https://www.instagram.com/udono.yoshihara/",
+            "target": "_blank"
+        },
+        {
+            "text": "鵜殿のヨシ原 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E9%B5%9C%E6%AE%BF%E3%81%AE%E3%83%A8%E3%82%B7%E5%8E%9F",
+            "target": "_blank"
+        }
+    ]
+}

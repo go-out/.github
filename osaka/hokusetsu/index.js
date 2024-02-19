@@ -5,7 +5,7 @@ const osakaHokusetsu = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.6563300094346, 34.8544115728934]
@@ -13,22 +13,10 @@ const osakaHokusetsu = {
             'properties': {
                 'title': '鵜殿のヨシ原',
                 'address': '「大阪みどりの百選」、「関西自然に親しむ風景100選」',
-                'date': '',
+                'date': 'More Info',
+                'href': 'date/udono-yoshihara/',
+                'youtube': '0ncmnMdeRCw',
                 'zoom': 14.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.62119206881914, 34.84962818220385]
-            },
-            'properties': {
-                'title': 'レンタサイクル グリーンフラッグ 高槻店',
-                'address': '営業時間 5:30~25:00 | 利用料 1日 100円',
-                'date': '',
-                'zoom': 16.5,
             }
         },
         {
@@ -106,23 +94,6 @@ const osakaHokusetsu = {
                 'address': '普通自転車 310円（翌日午前10時までの返却）| 電動アシスト自転車 420円（当日の午後9時までに返却）',
                 'date': '',
                 'zoom': 14,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'feature': [
-                { 'month': 9 }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.46792146441743, 34.77477910373536]
-            },
-            'properties': {
-                'title': '東光院 萩の寺',
-                'address': '毎年9月中旬から下旬は、萩の花が最盛りで多くの参拝者が訪れます。',
-                'date': '',
-                'zoom': 16,
             }
         }
     ]

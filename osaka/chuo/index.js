@@ -31,7 +31,7 @@ const osakaChuo = {
                 'title': '高津梅林',
                 'address': '都会のオアシス「高津宮（こうづぐう）」に隣接する公園内、中央区の花「梅（2月中旬から下旬が見頃）」の名所',
                 'date': '',
-                'iconSize': ['chuo/icon/chuo.jpg', '3.21rem', '3.21rem'],
+                'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
                 'zoom': 16,
             }
         },
@@ -85,7 +85,7 @@ const osakaChuo = {
                 'title': '靱公園',
                 'address': 'バラは、西区を象徴',
                 'date': '',
-                'iconSize': ['chuo/icon/nishi.gif', '3.21rem', '3.21rem'],
+                'iconSize': ['chuo/icon/nishi.gif', '2.75rem', '2.75rem'],
                 'zoom': 16,
             }
         }

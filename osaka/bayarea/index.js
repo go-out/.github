@@ -115,7 +115,7 @@ const osakaBayarea = {
                 'title': '大阪まいしまシーサイドパーク',
                 'address': '4～5月に開催される「ネモフィラ祭り」 此花区の区の花「チューリップ」',
                 'date': '',
-                'iconSize': ['bayarea/icon/konohana.gif', '3.21rem', '3.21rem'],
+                'iconSize': ['bayarea/icon/konohana.gif', '3.5rem', '3.5rem'],
                 'zoom': 14,
             }
         },
@@ -134,7 +134,7 @@ const osakaBayarea = {
                 'title': '千島公園',
                 'address': '公園内の築山「昭和山」の一帯には、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物などが植えられています。',
                 'date': '',
-                'iconSize': ['bayarea/icon/taisho.gif', '3.21rem', '3.21rem'],
+                'iconSize': ['bayarea/icon/taisho.gif', '3.5rem', '3.5rem'],
                 'zoom': 16,
             }
         }

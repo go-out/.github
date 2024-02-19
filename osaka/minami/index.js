@@ -53,7 +53,7 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
             'feature': [
                 { 'month': 3 },
                 { 'month': 4 }
@@ -67,6 +67,7 @@ const osakaMinami = {
                 'address': 'JR阪和線の列車の車窓からも見ることができるハナモモやサクラの名所（3月中旬~4月上旬）',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=momogaike',
+                'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
                 'zoom': 17,
             }
         },
@@ -130,6 +131,25 @@ const osakaMinami = {
                 'address': '',
                 'date': '',
                 'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                { 'month': 9 },
+                { 'month': 10 }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50086761936493, 34.64472975956409]
+            },
+            'properties': {
+                'title': '萩之茶屋（釜ヶ崎・あいりん地区）',
+                'address': '9月~10月中旬頃が見頃',
+                'date': '',
+                'iconSize': ['minami/icon/nnari.png', '3.5rem', '3.5rem'],
+                'zoom': 17,
             }
         }
     ]
