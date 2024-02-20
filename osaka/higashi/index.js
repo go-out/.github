@@ -42,7 +42,7 @@ const osakaHigashi = {
                 'address': '国際花と緑の博覧会（花の万博）の会場跡地、広大な都市公園',
                 'date': '',
                 'iconSize': ['higashi/icon/tsurumi.png', '3rem', '3rem'],
-                'zoom': 16,
+                'zoom': 14,
             }
         }
     ]

@@ -74,7 +74,7 @@ const osakaMinami = {
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=momogaike',
                 'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
-                'zoom': 17,
+                'zoom': 15,
             }
         },
         {
@@ -122,7 +122,7 @@ const osakaMinami = {
                 'title': '四天王寺',
                 'address': '',
                 'date': '',
-                'zoom': 16,
+                'zoom': 15.5,
             }
         },
         {
@@ -136,7 +136,7 @@ const osakaMinami = {
                 'title': '生根神社',
                 'address': '',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 17,
             }
         },
         {

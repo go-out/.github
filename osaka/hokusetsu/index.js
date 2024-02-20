@@ -58,7 +58,7 @@ const osakaHokusetsu = {
                 'title': '服部緑地',
                 'address': '「都市緑化植物園 温室」「中央工学校ＯＳＡＫＡ」',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 14,
             }
         },
         {
@@ -96,7 +96,7 @@ const osakaHokusetsu = {
                 'title': '千里東町公園',
                 'address': '千里ニュータウンのほぼ中央、公園の3分の1をしめる竹林は大阪みどりの百選',
                 'date': '',
-                'zoom': 16,
+                'zoom': 15.5,
             }
         },
         {
@@ -110,7 +110,7 @@ const osakaHokusetsu = {
                 'title': '五月山公園',
                 'address': 'ウォンバットやワラビーがいる動物園を併設する総合公園。<br>近くには五月山緑地都市緑化植物園も。',
                 'date': '',
-                'zoom': 16,
+                'zoom': 15,
             }
         },
         {
@@ -130,7 +130,7 @@ const osakaHokusetsu = {
                 'title': '水月公園',
                 'address': 'ダイナミックな人工滝と四季折々の花々が彩る「水の公園」',
                 'date': '',
-                'zoom': 16,
+                'zoom': 15.5,
             }
         },
         {
@@ -144,7 +144,7 @@ const osakaHokusetsu = {
                 'title': '池田市 レンタサイクル',
                 'address': '普通自転車 310円（翌日午前10時までの返却）| 電動アシスト自転車 420円（当日の午後9時までに返却）',
                 'date': '',
-                'zoom': 14,
+                'zoom': 16.5,
             }
         }
     ]

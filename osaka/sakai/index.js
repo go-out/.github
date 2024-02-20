@@ -70,7 +70,7 @@ const osakaSakai = {
                 'title': '浅香山緑道',
                 'address': '浅香山公園と大和川公園を結ぶ緑道',
                 'date': '',
-                'zoom': 16,
+                'zoom': 15.5,
             }
         },
         {
@@ -84,7 +84,7 @@ const osakaSakai = {
                 'title': '大浜公園',
                 'address': '山頂付近にソテツが植えられている築山「蘇鉄山」がある',
                 'date': '',
-                'zoom': 16,
+                'zoom': 15.5,
             }
         },
         {
@@ -99,7 +99,7 @@ const osakaSakai = {
                 'address': '貸出時間:午前9時から午後4時半（返却時間:午後5時迄） | 料金:大人用300円',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=oizumi',
-                'zoom': 14.5,
+                'zoom': 17.5,
             }
         },
         {

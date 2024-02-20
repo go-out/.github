@@ -8,13 +8,13 @@ const osakaSenshu = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.6033951996587, 34.479123978611675]
+                'coordinates': [135.60428536441003, 34.48073803406935]
             },
             'properties': {
                 'title': '佐備神社',
                 'address': '浪速神楽の伝承と指導',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 17.5,
             }
         },
         {
@@ -28,7 +28,7 @@ const osakaSenshu = {
                 'title': '日根神社',
                 'address': '「ゆ祭」の奉納踊りや、「まくら祭」で渡御の際に唄われる「五社音頭」、独自の唄が歌い継がれる',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 17,
             }
         },
         {
@@ -52,7 +52,7 @@ const osakaSenshu = {
                 'title': '美多彌神社',
                 'address': '美木多地区の産土神。境内にある鎮守の森はシリブカガシ、楠（くす、くすのき）・サカキ（榊）・アラカシ（粗樫）などの照葉樹林',
                 'date': '',
-                'zoom': 16,
+                'zoom': 16.5,
             }
         },
         {
@@ -72,7 +72,7 @@ const osakaSenshu = {
                 'title': '岩湧山',
                 'address': '大阪平野、大阪湾を臨むことができる山頂のススキの大草原は、大阪屈指の名スポット',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 14.5,
             }
         }
     ]

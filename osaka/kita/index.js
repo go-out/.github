@@ -30,7 +30,7 @@ const osakaKita = {
                 'title': '櫻宮御旅所',
                 'address': '境内にある「渡辺綱・駒つなぎの樟」と呼ばれるクスノキの大樹は、大阪府史蹟名勝天然記念物第一号',
                 'date': '',
-                'zoom': 14,
+                'zoom': 17.5,
             }
         },
         {
@@ -44,7 +44,7 @@ const osakaKita = {
                 'title': '飛翔橋',
                 'address': '他に例のない二重のアーチ橋（ニールセン・ローゼ桁）の歩行者専用橋',
                 'date': '',
-                'zoom': 14,
+                'zoom': 16.5,
             }
         },
         {
@@ -104,7 +104,7 @@ const osakaKita = {
                 'address': '春日社周辺は、福島区の花「野田藤（のだふじ）」発祥の地',
                 'date': '',
                 'iconSize': ['kita/icon/fukushima.gif', '3.5rem', '3.5rem'],
-                'zoom': 14,
+                'zoom': 15,
             }
         },
         {
@@ -133,7 +133,7 @@ const osakaKita = {
                 'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス。<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水',
                 'date': '',
                 'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
-                'zoom': 14,
+                'zoom': 17,
             }
         }
     ]

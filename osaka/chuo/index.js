@@ -14,7 +14,7 @@ const osakaChuo = {
                 'title': '大阪城',
                 'address': '梅林（1月~3月頃）桃園（3月中旬~4月下旬）あじさい・うつぎ園（5月末~7月上旬）',
                 'date': '',
-                'zoom': 16,
+                'zoom': 13.5,
             }
         },
         {
@@ -35,7 +35,7 @@ const osakaChuo = {
                 'address': '夏狂言の代表作「夏祭浪花鑑」、古典落語「高津の富」「高倉狐」「崇徳院」などの舞台<br>境内の参集殿「高津の富亭」では、落語の寄席や文楽などが定期的に開催されます',
                 'date': '',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
-                'zoom': 16,
+                'zoom': 17.5,
             }
         },
         {
@@ -55,7 +55,7 @@ const osakaChuo = {
                 'title': '坐摩神社',
                 'address': 'いかすりじんじゃ、通称ざまさん。番地が渡辺!?',
                 'date': '',
-                'zoom': 16,
+                'zoom': 18,
             }
         },
         {
@@ -69,7 +69,7 @@ const osakaChuo = {
                 'title': '難波神社',
                 'address': '心斎橋・御堂筋沿いにある、花菖蒲（はなしょうぶ）をご神紋とする神社',
                 'date': '',
-                'zoom': 16,
+                'zoom': 18,
             }
         },
         {
@@ -98,7 +98,7 @@ const osakaChuo = {
                 'address': '四季に彩られるケヤキ並木・国際大会にも利用できる靱テニスセンターがある、ビジネス街の憩いの場、スポーツの場',
                 'date': '',
                 'iconSize': ['chuo/icon/nishi.gif', '2.75rem', '2.75rem'],
-                'zoom': 16,
+                'zoom': 15,
             }
         }
     ]

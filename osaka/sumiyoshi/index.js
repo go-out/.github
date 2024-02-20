@@ -114,8 +114,8 @@ const osakaSumiyoshi = {
                 'title': '細江川のせせらぎ',
                 'address': '住吉の 細江の葦も 霜枯れて よそにもしろき みをつくしかな',
                 'date': '',
-                'iconSize': ['sumiyoshi/icon/sumiyoshi.png', '3.5rem', '3.5rem'],
-                'zoom': 15.5,
+                'iconSize': ['sumiyoshi/icon/sumiyoshi.png', '3.75rem', '3.75rem'],
+                'zoom': 16.5,
             }
         },
         {
@@ -164,7 +164,7 @@ const osakaSumiyoshi = {
                 'title': '大念佛寺',
                 'address': '融通念佛宗総本山。本堂は大阪府下最大の木造建築物',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 16,
             }
         },
         {
@@ -189,7 +189,7 @@ const osakaSumiyoshi = {
                 'address': '四季折々の植樹がなされた広々とした大阪市設霊園（8万平方メートル）',
                 'date': '',
                 'iconSize': ['higashi/icon/hirano.png', '3.5rem', '3.5rem'],
-                'zoom': 16,
+                'zoom': 15,
             }
         },
         {
@@ -229,7 +229,7 @@ const osakaSumiyoshi = {
                 'address': '貸出時間:午前8時30分から午後5時',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=suminoe',
-                'zoom': 15.5,
+                'zoom': 16.5,
             }
         }
     ]
