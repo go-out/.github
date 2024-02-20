@@ -74,6 +74,7 @@ function addMarker(arr) {
                         ${marker.properties.address}<br>
                         <strong>${peak.text}</strong>
                         `;
+                        document.querySelector('#season').prepend(p);
                     } else {
                         const p = document.createElement('p');
                         p.innerHTML = `
@@ -81,8 +82,8 @@ function addMarker(arr) {
                         ${marker.properties.address}<br>
                         <strong>${peak.text}</strong>
                         `;
+                        document.querySelector('#season').prepend(p);
                     }
-                    document.querySelector('#season').prepend(p);
                 }
             }
         }
