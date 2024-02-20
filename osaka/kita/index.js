@@ -133,7 +133,7 @@ const osakaKita = {
                 'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス。<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水',
                 'date': '',
                 'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
-                'zoom': 17,
+                'zoom': 15.5,
             }
         }
     ]

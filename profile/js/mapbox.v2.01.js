@@ -73,7 +73,7 @@ function addMarker(arr) {
                     ${marker.properties.address}<br>
                     <strong>${peak.text}</strong>
                     `;
-                    document.querySelector('#season').appendChild(p);
+                    document.querySelector('#season').prepend(p);
                 }
             }
         }
