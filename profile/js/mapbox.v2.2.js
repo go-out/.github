@@ -67,12 +67,21 @@ function addMarker(arr) {
         if (marker.feature) {
             for (const peak of marker.feature) {
                 if (peak.month === thismonth) {
-                    const p = document.createElement('p');
-                    p.innerHTML = `
-                    <a href='${directory}${marker.properties.href}'>${marker.properties.title}</a><br>
-                    ${marker.properties.address}<br>
-                    <strong>${peak.text}</strong>
-                    `;
+                    if (marker.properties.href) {
+                        const p = document.createElement('p');
+                        p.innerHTML = `
+                        <a href='${directory}${marker.properties.href}'>${marker.properties.title}</a><br>
+                        ${marker.properties.address}<br>
+                        <strong>${peak.text}</strong>
+                        `;
+                    } else {
+                        const p = document.createElement('p');
+                        p.innerHTML = `
+                        <a>${marker.properties.title}</a><br>
+                        ${marker.properties.address}<br>
+                        <strong>${peak.text}</strong>
+                        `;
+                    }
                     document.querySelector('#season').prepend(p);
                 }
             }
