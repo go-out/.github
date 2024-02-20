@@ -12,7 +12,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '住吉公園 花と水の広場',
-                'address': '公園を訪れる人を沈庄花壇・ウォーターカーテンが出迎える',
+                'address': '訪れる人たちを沈庄花壇・ウォーターカーテンが出迎える',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
                 'youtube': 'gfwP_viCeZg',
@@ -134,6 +134,21 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.57828087232733, 34.63003991196236]
+            },
+            'properties': {
+                'title': '無料レンタサイクル',
+                'address': '久宝寺緑地 管理事務所',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=kyuhouji',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
@@ -158,21 +173,6 @@ const osakaSumiyoshi = {
                 'address': '',
                 'date': '',
                 'zoom': 15.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.57828087232733, 34.63003991196236]
-            },
-            'properties': {
-                'title': '無料レンタサイクル',
-                'address': '久宝寺緑地 管理事務所',
-                'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=kyuhouji',
-                'zoom': 16.5,
             }
         },
         {
