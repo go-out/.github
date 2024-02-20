@@ -106,36 +106,11 @@ const osakaBayarea = {
             'feature': [
                 {
                     'month': 4,
-                    'text': ''
+                    'text': '公園内の築山「昭和山」の一帯、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物は、4月後半~5月が見頃'
                 },
                 {
                     'month': 5,
-                    'text': ''
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.38899180018413, 34.666380844084934]
-            },
-            'properties': {
-                'title': '大阪まいしまシーサイドパーク',
-                'address': '4月初旬～5月初旬「ネモフィラ祭り」が開催される大阪湾を望むロケーションに広がる',
-                'date': '',
-                'iconSize': ['bayarea/icon/konohana.gif', '3.5rem', '3.5rem'],
-                'zoom': 14,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'park',
-            'feature': [
-                {
-                    'month': 4,
-                    'text': ''
-                },
-                {
-                    'month': 5,
-                    'text': ''
+                    'text': '公園内の築山「昭和山」の一帯、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物は、4月後半~5月が見頃'
                 }
             ],
             'geometry': {
@@ -144,7 +119,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '千島公園',
-                'address': '公園内の築山「昭和山」の一帯には、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物などが植えられています。',
+                'address': '',
                 'date': '',
                 'iconSize': ['bayarea/icon/taisho.gif', '3.5rem', '3.5rem'],
                 'zoom': 16,
