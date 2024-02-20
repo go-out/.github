@@ -70,7 +70,8 @@ function addMarker(arr) {
                     const p = document.createElement('p');
                     p.innerHTML = `
                     ${marker.properties.title}<br>
-                    <strong>${marker.properties.address}</strong>
+                    <strong>${marker.properties.address}</strong><br>
+                    ${peak.text}
                     `;
                     document.querySelector('#season').appendChild(p);
                 }

@@ -12,7 +12,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '住吉公園 花と水の広場',
-                'address': '訪れる人たちを沈庄花壇・ウォーターカーテンが出迎える',
+                'address': 'ウォーターカーテン（噴水）は、毎日10:30・13:00・15:30の3回20分',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
                 'youtube': 'gfwP_viCeZg',
@@ -53,6 +53,21 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48928655561215, 34.61264254499003]
+            },
+            'properties': {
+                'title': '住吉公園 無料レンタサイクル',
+                'address': '貸出時間:午前8時30分から午後5時',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'park',
             'geometry': {
                 'type': 'Point',
@@ -60,7 +75,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '万代池公園',
-                'address': 'まんだいいけこうえん、ばんだいいけこうえん',
+                'address': '万代池を取り囲むように、遊歩道・花壇・遊具などが整備された気持ちの良い公園',
                 'date': '',
                 'youtube': '-7DEl_jxuW8',
                 'zoom': 16.5,
@@ -84,24 +99,12 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.48928655561215, 34.61264254499003]
-            },
-            'properties': {
-                'title': '住吉公園 無料レンタサイクル',
-                'address': '貸出時間:午前8時30分から午後5時',
-                'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'spot',
             'feature': [
-                { 'month': 5 }
+                {
+                    'month': 5,
+                    'text': '5月中旬頃、住吉区の花「カキツバタ」が見られる'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -109,7 +112,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '細江川のせせらぎ',
-                'address': '５月中旬頃、住吉区の花「カキツバタ」が見られる',
+                'address': '住吉の 細江の葦も 霜枯れて よそにもしろき みをつくしかな',
                 'date': '',
                 'iconSize': ['sumiyoshi/icon/sumiyoshi.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5,
@@ -119,7 +122,10 @@ const osakaSumiyoshi = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 5 }
+                {
+                    'month': 5,
+                    'text': '水上ステージ付近の「カキツバタ園」は、5月中旬頃が見頃'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -127,7 +133,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '浅香中央公園',
-                'address': '５月中旬頃、住吉区の花「カキツバタ」が見られる',
+                'address': '広々とした芝生広場「獅子が空を翔ぶ日に」',
                 'date': '',
                 'zoom': 15.5,
             }
@@ -152,25 +158,11 @@ const osakaSumiyoshi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.55489133439792, 34.628774773082284]
-            },
-            'properties': {
-                'title': '杭全神社',
-                'address': '',
-                'date': '',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.55051227356563, 34.627310959994205]
             },
             'properties': {
                 'title': '大念佛寺',
-                'address': '',
+                'address': '融通念佛宗総本山。本堂は大阪府下最大の木造建築物',
                 'date': '',
                 'zoom': 15.5,
             }
@@ -179,16 +171,22 @@ const osakaSumiyoshi = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 7 },
-                { 'month': 8 }
+                {
+                    'month': 7,
+                    'text': '7月下旬から8月下旬頃、隣接する「区民わた畑」に平野区の花「わたの花」が順次開花'
+                },
+                {
+                    'month': 8,
+                    'text': '7月下旬から8月下旬頃、隣接する「区民わた畑」に平野区の花「わたの花」が順次開花'
+                }
             ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.558498349879, 34.601169311617646]
             },
             'properties': {
-                'title': '区民わた畑',
-                'address': '区の花「わたの花」は7月下旬から8月下旬頃まで順次開花',
+                'title': '瓜破霊園',
+                'address': '四季折々の植樹がなされた広々とした大阪市設霊園（8万平方メートル）',
                 'date': '',
                 'iconSize': ['higashi/icon/hirano.png', '3.5rem', '3.5rem'],
                 'zoom': 16,
@@ -198,8 +196,14 @@ const osakaSumiyoshi = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 12 },
-                { 'month': 1 }
+                {
+                    'month': 12,
+                    'text': '住之江区の花「さざんか」、椿・ナンテン（南天）・蝋梅（ロウバイ）など、冬の植物が見頃'
+                },
+                {
+                    'month': 1,
+                    'text': '住之江区の花「さざんか」、椿・ナンテン（南天）・蝋梅（ロウバイ）など、冬の植物が見頃'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -207,7 +211,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '住之江公園',
-                'address': '住之江区の花「さざんか」や椿など、冬の花の名所。さざぴー',
+                'address': '花と緑とふれあう、スポーツを楽しめる公園',
                 'date': '',
                 'iconSize': ['sumiyoshi/icon/suminoe.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5,

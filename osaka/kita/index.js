@@ -22,17 +22,13 @@ const osakaKita = {
         {
             'type': 'Feature',
             'tags': 'draft',
-            'feature': [
-                { 'month': 3 },
-                { 'month': 4 }
-            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.523221947113, 34.71172464587356]
             },
             'properties': {
                 'title': '櫻宮御旅所',
-                'address': '境内にある「渡辺綱・駒つなぎの樟」と呼ばれるクスノキの大樹は、大阪府史蹟名勝天然記念物第一号。隣接する公園は桜の名所',
+                'address': '境内にある「渡辺綱・駒つなぎの樟」と呼ばれるクスノキの大樹は、大阪府史蹟名勝天然記念物第一号',
                 'date': '',
                 'zoom': 14,
             }
@@ -40,17 +36,13 @@ const osakaKita = {
         {
             'type': 'Feature',
             'tags': 'draft',
-            'feature': [
-                { 'month': 3 },
-                { 'month': 4 }
-            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.52089606493735, 34.71124351717242]
             },
             'properties': {
                 'title': '飛翔橋',
-                'address': '他に例のない二重のアーチ橋（ニールセン・ローゼ桁）の歩行者専用橋。周辺は桜の名所',
+                'address': '他に例のない二重のアーチ橋（ニールセン・ローゼ桁）の歩行者専用橋',
                 'date': '',
                 'zoom': 14,
             }
@@ -59,8 +51,14 @@ const osakaKita = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 3 },
-                { 'month': 4 }
+                {
+                    'month': 3,
+                    'text': '3月下旬~4月上旬、桜並木が咲き誇る'
+                },
+                {
+                    'month': 4,
+                    'text': '3月下旬~4月上旬、桜並木が咲き誇る'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -68,7 +66,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': '大阪ふれあいの水辺',
-                'address': 'ピクニックで人気の川岸の草地。春になると桜並木が咲き誇る。',
+                'address': 'ピクニックで人気の川岸の草地',
                 'iconSize': ['kita/icon/miyakojima.gif', '3.5rem', '3.5rem'],
                 'date': '',
                 'zoom': 14,
@@ -92,7 +90,10 @@ const osakaKita = {
             'type': 'Feature',
             'tags': 'vr',
             'feature': [
-                { 'month': 4 }
+                {
+                    'month': 4,
+                    'text': '見頃は例年4月中旬、春日神社・下福島公園・阪神野田駅前広場など'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -100,7 +101,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': '福島区野田',
-                'address': '福島区の花「のだふじ」は、例年4月中旬に見頃を迎えます。 ',
+                'address': '春日社周辺は、福島区の花「野田藤（のだふじ）」発祥の地',
                 'date': '',
                 'iconSize': ['kita/icon/fukushima.gif', '3.5rem', '3.5rem'],
                 'zoom': 14,
@@ -110,9 +111,18 @@ const osakaKita = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 5 },
-                { 'month': 10 },
-                { 'month': 11 }
+                {
+                    'month': 5,
+                    'text': '北区の花が咲き誇る「バラ園」の春の見頃は、5月中旬~下旬'
+                },
+                {
+                    'month': 10,
+                    'text': '北区の花が咲き誇る「バラ園」の秋の見頃は、10月中旬~11月上旬'
+                },
+                {
+                    'month': 11,
+                    'text': '北区の花が咲き誇る「バラ園」の秋の見頃は、10月中旬~11月上旬'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -120,7 +130,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': '中之島公園',
-                'address': 'バラ園の見頃は、5月中旬~下旬・10月中旬~11月上旬',
+                'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス。<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水',
                 'date': '',
                 'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
                 'zoom': 14,

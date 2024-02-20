@@ -68,7 +68,7 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'セブンイレブン　大阪三軒家東4丁目店',
+                'address': 'セブンイレブン 大阪三軒家東4丁目店',
                 'date': '<a href="https://maps.app.goo.gl/wJ2tP2Usp9vfYHSi9" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
@@ -218,6 +218,48 @@ const osakaCycling = {
             'tags': 'hello',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.49421088434414, 34.66720436101012]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'セブンイレブン 大阪OCAT前店',
+                'date': '<a href="https://maps.app.goo.gl/KT6HoQ86Ls8kVmUq7" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49383316799833, 34.66327330217262]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'URアーベインなんばウエスト',
+                'date': '<a href="https://maps.app.goo.gl/Bt3zALHCNLXjoGQm6" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50511659258112, 34.65392065976967]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'テニススクール・ノア　大阪通天閣前校',
+                'date': '<a href="https://maps.app.goo.gl/3gXedbvk4aST7tMB7" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.4955860387543, 34.63590749270175]
             },
             'properties': {
@@ -236,8 +278,78 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'セブンイレブン　大阪岸里東1丁目店',
+                'address': 'セブンイレブン 大阪岸里東1丁目店',
                 'date': '<a href="https://maps.app.goo.gl/SnNhUDPND4mH6hdZ7" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4844157504512, 34.68436602217986]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'シャトー江之子島',
+                'date': '<a href="https://maps.app.goo.gl/hVD7jvCUKrv3LNVA9" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47496443868317, 34.68892222072288]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'JR野田駅',
+                'date': '<a href="https://maps.app.goo.gl/oaBtSQ8zZEAss1BTA" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47697700923132, 34.69056374650388]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'JR野田駅高架下',
+                'date': '<a href="https://maps.app.goo.gl/YbbzoafMGwhN8TPp6" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49423754246595, 34.70299750070296]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'JR大阪駅',
+                'date': '<a href="https://maps.app.goo.gl/eMJZCpDx9k5ugWWR9" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50529338545218, 34.693251130934]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': '京阪電鉄なにわ橋駅',
+                'date': '<a href="https://maps.app.goo.gl/g7Kp5nNJyCXLrh1h8" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
         },

@@ -12,7 +12,7 @@ const osakaSakai = {
             },
             'properties': {
                 'title': '大仙公園',
-                'address': '世界最大の墳墓「大仙陵古墳（だいせんりょうこふん）」の南に位置する総合公園',
+                'address': '世界最大の墳墓「大仙陵古墳」の南に位置する総合公園',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=daisenkouen',
                 'youtube': 'wLRVVM-xAmg',
@@ -53,16 +53,22 @@ const osakaSakai = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 4 },
-                { 'month': 5 }
+                {
+                    'month': 4,
+                    'text': '例年4月下旬~5月頃、堺市の花木「つつじ（約2500株）」が見ごろを迎えます。'
+                },
+                {
+                    'month': 5,
+                    'text': '例年4月下旬~5月頃、堺市の花木「つつじ（約2500株）」が見ごろを迎えます。'
+                }
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49799894418132, 34.58891905129147]
+                'coordinates': [135.49776170369262, 34.58886908688086]
             },
             'properties': {
                 'title': '浅香山緑道',
-                'address': '浅香山公園と大和川公園を結ぶ緑道。例年4月下旬~5月頃、約2500株の堺市の花木「つつじ」が見ごろを迎えます。',
+                'address': '浅香山公園と大和川公園を結ぶ緑道',
                 'date': '',
                 'zoom': 16,
             }
@@ -76,7 +82,7 @@ const osakaSakai = {
             },
             'properties': {
                 'title': '大浜公園',
-                'address': '山頂付近にソテツが植えられている築山「蘇鉄山」がある。',
+                'address': '山頂付近にソテツが植えられている築山「蘇鉄山」がある',
                 'date': '',
                 'zoom': 16,
             }

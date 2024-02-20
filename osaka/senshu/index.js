@@ -26,7 +26,7 @@ const osakaSenshu = {
             },
             'properties': {
                 'title': '日根神社',
-                'address': '',
+                'address': '「ゆ祭」の奉納踊りや、「まくら祭」で渡御の際に唄われる「五社音頭」、独自の唄が歌い継がれる',
                 'date': '',
                 'zoom': 15.5,
             }
@@ -35,7 +35,14 @@ const osakaSenshu = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 9 }
+                {
+                    'month': 9,
+                    'text': 'シリブカガシの森（大阪府の天然記念物・大阪みどりの百選）の花が開花'
+                },
+                {
+                    'month': 10,
+                    'text': 'シリブカガシの森（大阪府の天然記念物・大阪みどりの百選）の花が開花'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -43,7 +50,7 @@ const osakaSenshu = {
             },
             'properties': {
                 'title': '美多彌神社',
-                'address': 'シリブカガシの森（大阪みどりの百選）の花は9月頃に開花',
+                'address': '美木多地区の産土神。境内にある鎮守の森はシリブカガシ、楠（くす、くすのき）・サカキ（榊）・アラカシ（粗樫）などの照葉樹林',
                 'date': '',
                 'zoom': 16,
             }
@@ -52,8 +59,10 @@ const osakaSenshu = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 10 },
-                { 'month': 11 }
+                {
+                    'month': 10,
+                    'text': '「キトラ」と呼ばれる花ススキの白い穂（花の集まり）が見頃'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -61,7 +70,7 @@ const osakaSenshu = {
             },
             'properties': {
                 'title': '岩湧山',
-                'address': '特に秋のススキの穂が広がる風景は大阪屈指の名スポット（9月下旬〜11月上旬）',
+                'address': '大阪平野、大阪湾を臨むことができる山頂のススキの大草原は、大阪屈指の名スポット',
                 'date': '',
                 'zoom': 17.5,
             }

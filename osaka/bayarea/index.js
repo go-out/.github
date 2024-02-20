@@ -104,8 +104,14 @@ const osakaBayarea = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 4 },
-                { 'month': 5 }
+                {
+                    'month': 4,
+                    'text': ''
+                },
+                {
+                    'month': 5,
+                    'text': ''
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -113,7 +119,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '大阪まいしまシーサイドパーク',
-                'address': '4～5月に開催される「ネモフィラ祭り」 此花区の区の花「チューリップ」',
+                'address': '4月初旬～5月初旬「ネモフィラ祭り」が開催される大阪湾を望むロケーションに広がる',
                 'date': '',
                 'iconSize': ['bayarea/icon/konohana.gif', '3.5rem', '3.5rem'],
                 'zoom': 14,
@@ -123,8 +129,14 @@ const osakaBayarea = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 4 },
-                { 'month': 5 }
+                {
+                    'month': 4,
+                    'text': ''
+                },
+                {
+                    'month': 5,
+                    'text': ''
+                }
             ],
             'geometry': {
                 'type': 'Point',

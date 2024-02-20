@@ -21,15 +21,18 @@ const osakaChuo = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 2 }
+                {
+                    'month': 2,
+                    'text': '北側に隣接する高津公園は、中央区の花「梅（2月中旬から下旬が見頃）」の名所'
+                }
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.51419051165627, 34.6692824538298]
+                'coordinates': [135.5138989318507, 34.66881262520526]
             },
             'properties': {
-                'title': '高津梅林',
-                'address': '都会のオアシス「高津宮（こうづぐう）」に隣接する公園内、中央区の花「梅（2月中旬から下旬が見頃）」の名所',
+                'title': '高津宮',
+                'address': '',
                 'date': '',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
                 'zoom': 16,
@@ -39,7 +42,10 @@ const osakaChuo = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 6 }
+                {
+                    'month': 6,
+                    'text': '紫陽花の名所（5月下旬から6月中旬が見頃）'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -47,7 +53,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '坐摩神社',
-                'address': 'いかすりじんじゃ、通称ざまさん。番地が渡辺!? 紫陽花の名所（5月下旬から6月中旬が見頃）',
+                'address': 'いかすりじんじゃ、通称ざまさん。番地が渡辺!?',
                 'date': '',
                 'zoom': 16,
             }
@@ -55,9 +61,6 @@ const osakaChuo = {
         {
             'type': 'Feature',
             'tags': 'draft',
-            'feature': [
-                { 'month': 6 }
-            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4999269853856, 34.67872004066121]
@@ -73,9 +76,18 @@ const osakaChuo = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 5 },
-                { 'month': 6 },
-                { 'month': 10 }
+                {
+                    'month': 5,
+                    'text': '西区を象徴する「バラ園」の春の見頃は、5月上旬から6月上旬'
+                },
+                {
+                    'month': 6,
+                    'text': '西区を象徴する「バラ園」の春の見頃は、5月上旬から6月上旬'
+                },
+                {
+                    'month': 10,
+                    'text': '西区を象徴する「バラ園」の秋の見頃は、10月上旬から10月下旬'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -83,7 +95,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '靱公園',
-                'address': 'バラは、西区を象徴',
+                'address': '四季に彩られるケヤキ並木・国際大会にも利用できる靱テニスセンターがある、ビジネス街の憩いの場、スポーツの場',
                 'date': '',
                 'iconSize': ['chuo/icon/nishi.gif', '2.75rem', '2.75rem'],
                 'zoom': 16,

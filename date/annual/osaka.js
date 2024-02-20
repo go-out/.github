@@ -11,9 +11,9 @@ const annual = [
                 "date": "一月十日"
             },
             {
-                "title": "修正会結願法要「どやどや」",
-                "venue": "四天王寺 南大門広場",
-                "date": " 毎年1月14日 14時〜15:30頃"
+                "title": "修正会結願法要「どやどや」 Doya Doya",
+                "venue": "四天王寺 南大門広場 Shitennoji Temple",
+                "date": " 毎年一月十四日 14時〜15:30頃"
             },
             {
                 "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
@@ -67,8 +67,8 @@ const annual = [
                 "date": "４月４日 浪速神楽を一日かけて奉奏"
             },
             {
-                "title": "聖霊会の舞楽",
-                "venue": "四天王寺",
+                "title": "聖霊会の舞楽 Shōryōe Gagaku",
+                "venue": "四天王寺 Shitennoji Temple",
                 "date": "毎年4月22日（聖徳太子の命日：本来は旧暦の2月22日）"
             },
             {
@@ -103,9 +103,14 @@ const annual = [
                 "date": "毎年5月4日・5日"
             },
             {
-                "title": "卯之葉神事",
-                "venue": "住吉大社",
-                "date": "5月初卯日13時"
+                "title": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
+                "venue": "住吉大社 Sumiyoshi Taisha",
+                "date": "五月初卯日 十三時 Early May"
+            },
+            {
+                "title": "帝塚山音楽祭 Tezukayama Music Festival",
+                "venue": "万代池公園 Mandaiike Park",
+                "date": "五月末 土日曜日 10:00 ~ 23:00"
             }
         ]
     },
@@ -143,11 +148,6 @@ const annual = [
                 "title": "生國魂祭",
                 "venue": "生國魂神社",
                 "date": "7月11日　16:30ごろ～22：0０ごろ | 7月12日　8:00ごろ～22：0０ごろ"
-            },
-            {
-                "title": "夏祭",
-                "venue": "杭全神社",
-                "date": "１１日・１４日には神輿と太鼓台、１２日・１３日にはだんじり が街を練り歩く"
             },
             {
                 "title": "夏季大祭（布団太鼓）",
@@ -297,9 +297,9 @@ const annual = [
                 "date": "9月14日ごろ 中秋の名月の前日"
             },
             {
-                "title": "観月祭",
-                "venue": "住吉大社",
-                "date": "中秋日午後6時"
+                "title": "観月祭 Kangetsu-sai (Moon-Viewing Festival)",
+                "venue": "住吉大社 Sumiyoshi Taisha",
+                "date": "中秋日午後6時 Around September and October"
             },
             {
                 "title": "放生会",

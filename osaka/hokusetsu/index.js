@@ -79,8 +79,14 @@ const osakaHokusetsu = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 5 },
-                { 'month': 6 }
+                {
+                    'month': 5,
+                    'text': '5月下旬〜6月上旬、千里の竹林新旧の葉が入れ替わる'
+                },
+                {
+                    'month': 6,
+                    'text': '5月下旬〜6月上旬、千里の竹林の新旧の葉が入れ替わる'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -88,7 +94,7 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': '千里東町公園',
-                'address': '5月下旬〜6月上旬、千里の竹林（大阪みどりの百選）の新旧の葉が入れ替わる。',
+                'address': '千里ニュータウンのほぼ中央、公園の3分の1をしめる竹林は大阪みどりの百選',
                 'date': '',
                 'zoom': 16,
             }
@@ -111,7 +117,10 @@ const osakaHokusetsu = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 6 }
+                {
+                    'month': 6,
+                    'text': '例年6月になると約60種6000株のハナショウブが見頃を迎える'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -119,7 +128,7 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': '水月公園',
-                'address': '例年6月になると約60種6000株のハナショウブが見頃を迎えます。',
+                'address': 'ダイナミックな人工滝と四季折々の花々が彩る「水の公園」',
                 'date': '',
                 'zoom': 16,
             }

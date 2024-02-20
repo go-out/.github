@@ -39,8 +39,14 @@ const osakaKawachi = {
             'type': 'Feature',
             'tags': 'draft',
             'feature': [
-                { 'month': 2 },
-                { 'month': 3 }
+                {
+                    'month': 2,
+                    'text': '枚岡梅林（かおり風景100選）は、2月中旬から3月中旬が見頃'
+                },
+                {
+                    'month': 3,
+                    'text': '枚岡梅林（かおり風景100選）は、2月中旬から3月中旬が見頃'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -48,7 +54,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '枚岡神社',
-                'address': '太古の聖域 河内国一宮。枚岡梅林（かおり風景100選）は、2月中旬から3月中旬が見頃',
+                'address': '太古の聖域 河内国一宮',
                 'date': '',
                 'zoom': 16,
             }
@@ -121,23 +127,6 @@ const osakaKawachi = {
                 'address': '',
                 'date': '',
                 'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'feature': [
-                { 'month': 11 }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.59857453053274, 34.5349739218227]
-            },
-            'properties': {
-                'title': '大阪府立環境農林水産総合研究所',
-                'address': '農林技術センターのイチョウ並木（大阪みどりの百選）',
-                'date': '',
-                'zoom': 17.5,
             }
         }
     ]

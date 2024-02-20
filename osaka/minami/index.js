@@ -12,7 +12,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '天神ノ森天満宮',
-                'address': '樹齢七百年ともいわれる楠木の大樹が境内に生い茂る、神聖な空気が漂う小さな天満宮。',
+                'address': '樹齢七百年ともいわれる楠木の大樹が境内に生い茂る、神聖な空気が漂う小さな天満宮',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=tenjinnomori',
                 'youtube': 'dZRBkoIMVg0',
@@ -28,7 +28,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '天下茶屋公園',
-                'address': '大きな樹木が茂る林に覆われた大阪市営公園。春は桜、秋にはハギの花が美しく咲く。',
+                'address': '大きな樹木が茂る林に覆われた大阪市営公園。春は桜、秋にはハギの花が美しく咲く',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=tengachaya',
                 'youtube': 'T3dnf2uGUw0',
@@ -44,7 +44,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '阿倍野神社',
-                'address': '境内にあるお茶室「中今亭庭園」とそのお庭が、毎月第1・第3日曜日に限定公開されます。',
+                'address': '境内にあるお茶室「中今亭庭園」とそのお庭は、毎月第1・第3日曜日に限定公開',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=abenojinja',
                 'youtube': 'Ctf_xTeaNFM',
@@ -55,8 +55,14 @@ const osakaMinami = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 3 },
-                { 'month': 4 }
+                {
+                    'month': 3,
+                    'text': '天王寺区の花「モモ」の見頃は、3月下旬~4月上旬'
+                },
+                {
+                    'month': 4,
+                    'text': '天王寺区の花「モモ」の見頃は、3月下旬~4月上旬'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -64,7 +70,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '桃ヶ池公園',
-                'address': 'JR阪和線の列車の車窓からも見ることができるハナモモやサクラの名所（3月中旬~4月上旬）',
+                'address': 'JR阪和線の列車の車窓からも見ることができるハナモモやサクラの名所',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=momogaike',
                 'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
@@ -137,8 +143,14 @@ const osakaMinami = {
             'type': 'Feature',
             'tags': 'park',
             'feature': [
-                { 'month': 9 },
-                { 'month': 10 }
+                {
+                    'month': 9,
+                    'text': '西成区の花「ハギ」の見頃は、9月~10月中旬頃'
+                },
+                {
+                    'month': 10,
+                    'text': '天王寺区の花「ハギ」の見頃は、9月~10月中旬頃'
+                }
             ],
             'geometry': {
                 'type': 'Point',
@@ -146,7 +158,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '萩之茶屋（釜ヶ崎・あいりん地区）',
-                'address': '9月~10月中旬頃が見頃',
+                'address': '',
                 'date': '',
                 'iconSize': ['minami/icon/nnari.png', '3.5rem', '3.5rem'],
                 'zoom': 17,
