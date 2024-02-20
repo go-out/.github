@@ -54,8 +54,9 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '枚岡神社',
-                'address': '太古の聖域 河内国一宮',
-                'date': '',
+                'address': '神津嶽をご神体とする、神様の御霊が一杯の「神気」満ち満ちた神社',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
                 'zoom': 16,
             }
         },

@@ -1,7 +1,7 @@
 JSON
 ```
 {
-    "title": "場所の名前",
+    "title": "場所の名前 よみ",
     "description": "場所の説明",
     "year": "YYYY",
     "month": "MM",
