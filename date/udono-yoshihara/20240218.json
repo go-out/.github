@@ -43,8 +43,8 @@
     ],
     "link": [
         {
-            "text": "鵜殿のヨシ原",
-            "url": "../relax/?id=spot&area=osaka&name=udono-yoshihara",
+            "text": "鵜殿のヨシ原 Udono Yoshihara",
+            "url": "../../relax/?id=spot&area=osaka&name=udono-yoshihara",
             "target": "_self"
         },
         {
