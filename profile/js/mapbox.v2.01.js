@@ -76,10 +76,6 @@ function addMarker(arr) {
                     document.querySelector('#season').appendChild(p);
                 }
             }
-        } else {
-            const p = document.createElement('p');
-            p.innerHTML = '???';
-            document.querySelector('#season').appendChild(p);
         }
 
         new mapboxgl.Marker(el, {
