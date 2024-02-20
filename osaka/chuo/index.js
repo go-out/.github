@@ -23,7 +23,7 @@ const osakaChuo = {
             'feature': [
                 {
                     'month': 2,
-                    'text': '北側に隣接する高津公園は、中央区の花「梅（2月中旬から下旬が見頃）」の名所'
+                    'text': '北側に隣接する高津公園は、中央区の花「梅」の名所。2月中旬から下旬が見頃'
                 }
             ],
             'geometry': {
@@ -32,7 +32,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '高津宮',
-                'address': '',
+                'address': '夏狂言の代表作「夏祭浪花鑑」、古典落語「高津の富」「高倉狐」「崇徳院」などの舞台<br>境内の参集殿「高津の富亭」では、落語の寄席や文楽などが定期的に開催されます',
                 'date': '',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
                 'zoom': 16,
