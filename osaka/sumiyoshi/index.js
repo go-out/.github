@@ -135,7 +135,7 @@ const osakaSumiyoshi = {
                 'title': '浅香中央公園',
                 'address': '広々とした芝生広場「獅子が空を翔ぶ日に」',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 16,
             }
         },
         {
