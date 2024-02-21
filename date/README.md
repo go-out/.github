@@ -1,6 +1,2 @@
-タイトル 🇯🇵 Title
-
-場所：場所の名前 ⛩️ Venue
-
-実施日：毎年 月 日 時 から 時
-Date of Month every year at AM to PM
+今月 の 出来事
+What will Happen in This Month

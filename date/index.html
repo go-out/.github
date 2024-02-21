@@ -52,10 +52,26 @@
     <script type="text/javascript" src="index.js"></script>
     <script>
         let now = new Date();
-        let thismonth = now.getMonth() + 2;
+        let thismonth = now.getMonth() + 1;
         let padNum = ('00' + thismonth).slice(-2);
 
-        indexJSON('annual/' + padNum + '.json')
+        const urlParam = location.search.substring(1)
+
+        // ?month=00
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+
+            if (paramArr.month) {
+                indexJSON(paramArr.month + ".json")
+            }
+        } else {
+            indexJSON(padNum + '.json')
+        } 
     </script>
 
     <link rel="stylesheet" href="style.css">
@@ -80,6 +96,7 @@
     </article>
 
     <article id="readme" hidden>
+        <header></header>
         <section></section>
         <footer></footer>
     </article>

@@ -26,6 +26,8 @@ function playThis(obj) {
         ogimg.content = ytimg;
         twimg.content = ytimg;
     }
+    
+    readmeMD("#readme header", "README.md")
 
     const ogurl = document.querySelector('[property="og:url"]');
     const twurl = document.querySelector('[property="twitter:url"]');
