@@ -5,7 +5,6 @@ async function indexJSON(requestURL) {
     const response = await fetch(request)
     const jsonIndex = await response.text()
     const index = JSON.parse(jsonIndex)
-
     playThis(index)
     videoAll(index)
 }
@@ -81,8 +80,8 @@ function videoAll(obj) {
 
     const chapter = document.querySelector('#readme section')
     const ol = document.createElement('ol')
-
     chapter.appendChild(ol);
+    
     for (let i = 0; i < obj.video.length; i++) {
         const li = document.createElement('li')
         li.textContent = obj.video[i].title;
