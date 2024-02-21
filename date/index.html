@@ -51,7 +51,7 @@
 
     <script type="text/javascript" src="index.js"></script>
     <script>
-        let now = new Date();
+        let now = new Date()
         let thismonth = now.getMonth() + 1;
         let padNum = ('00' + thismonth).slice(-2)
 
@@ -67,10 +67,10 @@
             }
 
             if (paramArr.month) {
-                indexJSON(paramArr.month + ".json")
+                indexJSON("annual/" + paramArr.month + "/index.json")
             }
         } else {
-            indexJSON(padNum + '.json')
+            indexJSON("annual/" + padNum + '/index.json')
         } 
     </script>
 
