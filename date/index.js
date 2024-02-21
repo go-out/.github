@@ -54,7 +54,7 @@ function playThis(obj) {
         }
     }
 
-    if (obj.title && obj.discription) {
+    if (obj.u && obj.strong) {
         const u = document.querySelector('h1 u')
         const strong = document.querySelector('h1 strong')
         u.textContent = obj.title;
