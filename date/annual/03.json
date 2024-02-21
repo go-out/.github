@@ -1,0 +1,30 @@
+{
+    "date": "3月 March",
+    "url": "?month=03",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "3月中旬 桃（モモ）",
+            "src": "https://lh3.googleusercontent.com/ggms/AF1QipM_TUQT25Py95sLDRZcS6tsIt8OOnorf7gGhf7U=m18",
+            "track": "000.vtt"
+        },
+        {
+            "title": "3月下旬 桜（サクラ）",
+            "src": "https://lh3.googleusercontent.com/ggms/AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18",
+            "track": "000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "阿倍野区南東部",
+            "url": "../osaka/vr/?area=namba&name=abeno-nantou",
+            "target": "_self"
+        },
+        {
+            "text": "毛馬桜之宮公園",
+            "url": "../osaka/vr/?area=kita&name=sakuranomiya",
+            "target": "_self"
+        }
+    ]
+}

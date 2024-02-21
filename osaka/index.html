@@ -76,13 +76,13 @@
         const now = new Date();
         let thismonth = now.getMonth() + 1;
 
-        // ?area=エリア
         const urlParam = location.search.substring(1)
         let directory = "../",
             center,
             bounds,
             zoom;
 
+        // ?area=エリア
         if (urlParam) {
             let paramArr = [],
                 param = urlParam.split('&')
@@ -272,8 +272,7 @@
                 });
             }
 
-            const today = new Date();
-            let year = today.getFullYear();
+            let year = now.getFullYear();
             document.querySelector('#copy time').innerHTML = year;
         });
     </script>
@@ -301,18 +300,28 @@
             最近 と もうすぐ の 出来事
         </nav>
         <hr>
-        <h3 class="ja" id="now"></h3>
+        <h3 class="ja">
+            <strong id="thismonth">This Month</strong> &
+            <strong id="nextmonth">Next Month</strong>
+        </h3>
         <section class="ja" id="next"></section>
         <section class="ja" id="present"></section>
         <hr>
+        <h3 class="ja">
+            <strong id="lastmonth">Last Month</strong>
+        </h3>
         <section class="ja" id="past"></section>
         <hr>
         <section class="ja" id="season">
-            <h3><a>More Info</a></h3>
+            <h3><a href="../date/japan/?area=osaka">More Info</a></h3>
         </section>
-        <script src="../date/annual/all.js"></script>
-        <script src="../date/annual/osaka.js"></script>
-        <script src="../date/annual/index.js"></script>
+
+        <script src="../date/past-present-next.js"></script>
+        <script>
+            annualJSON('../date/japan/all.json')
+            eventJSON('../date/japan/all.json')
+            eventJSON('../date/japan/osaka.json')
+        </script>
     </article>
 
     <main hidden>
@@ -333,10 +342,10 @@
                 <a href="?area=minami">なんば・天王寺・西成エリア</a>
                 <a href="?area=sumiyoshi">住吉・長居エリア</a>
                 <a href="?area=bayarea">大阪ベイエリア</a>
-                <a href="?area=higashi">城北・城東・コリアンエリア</a>
-                <a href="?area=sakai">堺・泉北エリア</a>
+                <a href="?area=higashi">城北・城東・生野エリア</a>
                 <a href="?area=kawachi">河内長野エリア</a>
                 <a href="?area=hokusetsu">北摂エリア</a>
+                <a href="?area=sakai">堺・泉北エリア</a>
                 <a href="?area=senshu">泉州エリア</a>
             </p>
         </details>

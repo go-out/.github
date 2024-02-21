@@ -1,0 +1,36 @@
+{
+  "title": "毛馬桜之宮公園",
+  "description": "Kema Sakuranomiya Park",
+  "year": "2024",
+  "month": "3",
+  "day": "_",
+  "info": [
+    "<u>ランドマーク・お気に入りの場所</u>",
+    "___ <small>___</small>",
+    "",
+    "<u>レンタサイクル</u>",
+    "<a href='https://maps.app.goo.gl/pbnWCDSDTYokEe5KA' target='_blank'>グリーンフラッグ 桜ノ宮店</a><br><small>営業時間 平日5:30~24:15 土日祝7時~19時 | 利用料 1日 150円<small>"
+  ],
+  "links": [
+    "<a href='https://www.osakapark.osgf.or.jp/kema_sakuranomiya/' target='_blank'>大阪市花と緑の情報サイト : 毛馬桜之宮公園</a>"
+  ],
+  "directory": "https://lh3.googleusercontent.com/ggms/",
+  "landscape": "repeat(1, 1fr)",
+  "portrait": "repeat(1, 1fr)",
+  "video": [
+    {
+      "id": "one",
+      "poster": "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d",
+      "src": [
+        "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18"
+      ]
+    },
+    {
+      "id": "two",
+      "poster": "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ",
+      "src": [
+        "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ=m18"
+      ]
+    }
+  ]
+}

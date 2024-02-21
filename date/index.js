@@ -19,11 +19,13 @@ async function readmeMD(query, url) {
 }
 
 function playThis(obj) {
-    const ytimg = 'https://i.ytimg.com/vi/' + obj.youtube + '/sddefault.jpg';
-    const ogimg = document.querySelector('[property="og:image"]');
-    const twimg = document.querySelector('[name="twitter:image"]');
-    ogimg.content = ytimg;
-    twimg.content = ytimg;
+    if (obj.youtube) {
+        const ytimg = 'https://i.ytimg.com/vi/' + obj.youtube + '/sddefault.jpg';
+        const ogimg = document.querySelector('[property="og:image"]');
+        const twimg = document.querySelector('[name="twitter:image"]');
+        ogimg.content = ytimg;
+        twimg.content = ytimg;
+    }
 
     const ogurl = document.querySelector('[property="og:url"]');
     const twurl = document.querySelector('[property="twitter:url"]');
@@ -37,8 +39,6 @@ function playThis(obj) {
     const captions = document.querySelector('#captions');
     captions.src = obj.video[0].track;
     video.load();
-
-    readmeMD("#readme header", "README.md")
 
     if (obj.link) {
         const footer = document.querySelector('footer');

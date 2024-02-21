@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="creative-community.space">
+
+    <title>___</title>
+    <meta property="og:title" content="___">
+    <meta name="twitter:title" content="___">
+
+    <meta name="description" content="___">
+    <meta property="og:description" content="___">
+    <meta name="twitter:description" content="___">
+
+    <meta property="og:url" content="https://creative-community.space/map/date/japan/">
+    <meta property="twitter:url" content="https://creative-community.space/map/date/japan/">
+    <meta property="og:image" content="https://creative-community.space/map/date/japan/___.png">
+    <meta name="twitter:image:src" content="https://creative-community.space/map/date/japan/___.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="../../profile/img/favicon.png">
+    <link rel="icon" href="../../profile/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../../profile/img/mobile.png" sizes="180x180">
+
+    <script src="../all.js"></script>
+    <script>
+        const urlParam = location.search.substring(1)
+        let directory = "../../";
+        annualJSON("all.json")
+
+        // ?area=エリア
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+
+            if (paramArr.area) {
+                eventsJSON(paramArr.area + ".json")
+            }
+        } else {
+            eventsJSON("all.json")
+            eventsJSON("nara.json")
+            eventsJSON("osaka.json")
+            eventsJSON("wakayama.json")
+        }
+    </script>
+</head>
+
+<body>
+    <nav></nav>
+    <article id="annual">
+        <section>
+            <h1>
+                <small>This Month</small><br>
+                <strong>今月</strong>の出来事
+            </h1>
+        </section>
+    </article>
+    <aside>
+        <a href="../japan/">すべて All</a>
+        <a href="?area=nara">奈良 Nara</a>
+        <a href="?area=osaka">大阪 Osaka</a>
+        <a href="?area=wakayama">和歌山 Wakayama</a>
+    </aside>
+</body>
+
+</html>

@@ -21,6 +21,42 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.53325636893396, 34.75198041554677]
+            },
+            'properties': {
+                'title': 'レンタサイクル 阪急上新庄駐輪センターはこべ館',
+                'address': '営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 4,
+                    'text': '東淀川区の花「こぶし」 見ごろは、４月上旬'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52918504347852, 34.74086344550958]
+            },
+            'properties': {
+                'title': 'こぶし通り 東淀川区役所前',
+                'address': '淀川と神崎川に挟まれた閑静な住宅街',
+                'iconSize': ['kita/icon/hyodogawa.png', '3.5rem', '3.5rem'],
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
+                'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
@@ -65,10 +101,11 @@ const osakaKita = {
                 'coordinates': [135.5213657152636, 34.7023205956932]
             },
             'properties': {
-                'title': '大阪ふれあいの水辺',
-                'address': 'ピクニックで人気の川岸の草地',
+                'title': '毛馬桜之宮公園',
+                'address': '大川の流れに沿ったプロムナード 全長4.2kmのリバーサイドパーク',
                 'iconSize': ['kita/icon/miyakojima.gif', '3.5rem', '3.5rem'],
-                'date': '',
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=kita&name=sakuranomiya',
                 'zoom': 14,
             }
         },
