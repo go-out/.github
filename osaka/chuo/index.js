@@ -32,8 +32,9 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '高津宮',
-                'address': '夏狂言の代表作「夏祭浪花鑑」、古典落語「高津の富」「高倉狐」「崇徳院」などの舞台<br>境内の参集殿「高津の富亭」では、落語の寄席や文楽などが定期的に開催されます',
-                'date': '',
+                'address': '難波津に咲くやこの花 冬ごもり 今は春べと 咲くやこの花',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=kouzu',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
                 'zoom': 17.5,
             }

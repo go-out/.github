@@ -38,8 +38,8 @@ const osakaKita = {
             'tags': 'park',
             'feature': [
                 {
-                    'month': 4,
-                    'text': '東淀川区の花「こぶし」 見ごろは、４月上旬'
+                    'month': 3,
+                    'text': '3月下旬から4月上旬、東淀川区の花「こぶし」が桜より少し早い早春に開花する'
                 }
             ],
             'geometry': {
@@ -47,9 +47,9 @@ const osakaKita = {
                 'coordinates': [135.52918504347852, 34.74086344550958]
             },
             'properties': {
-                'title': 'こぶし通り 東淀川区役所前',
+                'title': '東淀川区',
                 'address': '淀川と神崎川に挟まれた閑静な住宅街',
-                'iconSize': ['kita/icon/hyodogawa.png', '3.5rem', '3.5rem'],
+                'iconSize': ['kita/icon/hyodogawa.png', '3rem', '3rem'],
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
                 'zoom': 14,

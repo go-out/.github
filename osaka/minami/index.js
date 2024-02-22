@@ -53,32 +53,6 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
-            'feature': [
-                {
-                    'month': 3,
-                    'text': '天王寺区の花「モモ」の見頃は、3月下旬~4月上旬'
-                },
-                {
-                    'month': 4,
-                    'text': '天王寺区の花「モモ」の見頃は、3月下旬~4月上旬'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.52144594855437, 34.63073779442691]
-            },
-            'properties': {
-                'title': '桃ヶ池公園',
-                'address': 'JR阪和線の列車の車窓からも見ることができるハナモモやサクラの名所',
-                'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=momogaike',
-                'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
-                'zoom': 15,
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
@@ -105,10 +79,52 @@ const osakaMinami = {
                 'title': '阿倍野区南東部',
                 'address': '阿倍野元町・王子町・阪南町・昭和町・文の里・桃ケ池町・長池町',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=namba&name=abeno-nantou',
+                'href': 'osaka/vr/?area=minami&name=abeno-nantou',
                 'youtube': 'dWeIDI9cJXA',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 3,
+                    'text': '阿倍野区の花「モモ」の見頃は、3月下旬~4月上旬'
+                },
+                {
+                    'month': 4,
+                    'text': '阿倍野区の花「モモ」の見頃は、3月下旬~4月上旬'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52144594855437, 34.63073779442691]
+            },
+            'properties': {
+                'title': '桃ヶ池公園',
+                'address': 'JR阪和線の列車の車窓からも見ることができるハナモモ・サクラの名所',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=momogaike',
+                'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
+                'zoom': 15,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51939637196554, 34.66314279290713]
+            },
+            'properties': {
+                'title': '上本町（谷九・上六）',
+                'address': '上町台地の頂に達する位置、風情や緑が数多く残されている上町の中心',
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=minami&name=uehonmachi',
+                'iconSize': ['minami/icon/tennouji.png', '2.75rem', '2.75rem'],
+                'zoom': 15,
             }
         },
         {

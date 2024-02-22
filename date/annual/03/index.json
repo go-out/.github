@@ -1,8 +1,8 @@
 {
     "date": "3月 March",
-    "u": "自然をたたえ、生物をいつくしむ",
-    "strong": "春のお彼岸",
-    "readme": "03/README.md",
+    "u": "春のお彼岸",
+    "strong": "The Spring Equinox",
+    "readme": "annual/03/README.md",
     "url": "?month=03",
     "directory": "",
     "cover": "",
@@ -30,13 +30,43 @@
     ],
     "link": [
         {
-            "text": "阿倍野区南東部",
-            "url": "../osaka/vr/?area=namba&name=abeno-nantou",
+            "text": "春分の日",
+            "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html#shunbun",
+            "target": "_blank"
+        },
+        {
+            "text": "何年後かの春分の日・秋分の日はわかるの？",
+            "url": "https://www.nao.ac.jp/faq/a0301.html",
+            "target": "_blank"
+        },
+        {
+            "text": "上本町（谷九・上六）",
+            "url": "../osaka/vr/?area=minami&name=uehonmachi",
+            "target": "_self"
+        },
+        {
+            "text": "高津宮",
+            "url": "../relax/?id=legacy&area=osaka&name=kouzu",
             "target": "_self"
         },
         {
             "text": "毛馬桜之宮公園",
             "url": "../osaka/vr/?area=kita&name=sakuranomiya",
+            "target": "_self"
+        },
+        {
+            "text": "桃ヶ池公園",
+            "url": "../relax/?id=park&area=osaka&name=momogaike",
+            "target": "_self"
+        },
+        {
+            "text": "東淀川区",
+            "url": "../osaka/vr/?area=kita&name=higashi-yodogawa",
+            "target": "_self"
+        },
+        {
+            "text": "北港（桜島・舞洲）",
+            "url": "../osaka/vr/?area=bayarea&name=hokko",
             "target": "_self"
         }
     ]

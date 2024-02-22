@@ -102,6 +102,22 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'vr',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.41314550494397, 34.666530849980745]
+            },
+            'properties': {
+                'title': '北港（桜島・舞洲）',
+                'address': '',
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=bayarea&name=hokko',
+                'iconSize': ['bayarea/icon/konohana.gif', '3.75rem', '3.75rem'],
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'park',
             'feature': [
                 {

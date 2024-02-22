@@ -58,7 +58,7 @@ const osakaAlps = {
                 'title': '帝塚山',
                 'address': '帝塚山（てづかやま）古墳の墳丘。標高は19.88m。<br>関西を代表する高級住宅街の一つ。',
                 'date': 'more info',
-                'href': 'vr/?id=cycling&area=osaka&name=tezukayama',
+                'href': 'osaka/vr/?area=sumiyoshi&name=tezukayama',
                 'tags': 'legacy',
                 'youtube': 'KuYJ3IW7z4k',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],

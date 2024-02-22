@@ -1,0 +1,33 @@
+{
+    "title": "北港（桜島・舞洲）",
+    "description": "Osaka Hokko Port",
+    "info": [
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "___ <small>___</small>",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/uX93pMUjc84W1PJ5A' target='_blank'>天保山公園</a> <a href='https://maps.app.goo.gl/x1ct4zJCXANuUbe88' target='_blank'>北港緑地２丁目１</a>"
+    ],
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E6%B8%AF#%E5%8C%97%E6%B8%AF' target='_blank'>大阪港 - Wikipedia</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d",
+            "src": [
+                "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ",
+            "src": [
+                "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ=m18"
+            ]
+        }
+    ]
+}

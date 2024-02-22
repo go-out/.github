@@ -1,0 +1,44 @@
+{
+    "title": "高津宮 こうづぐう",
+    "description": "難波津に咲くやこの花 冬ごもり 今は春べと 咲くやこの花",
+    "info": {
+        "title": "Kouzugu 🇯🇵 Osaka, Japan",
+        "address": "大阪市中央区高津１丁目１−２９",
+        "google": "https://maps.app.goo.gl/VAJakjjcc6raUk959",
+        "text": [
+            "狂言・古典落語の舞台にもなったお宮<br>境内の参集殿「高津の富亭」では、落語の寄席や文楽などが定期的に開催されます",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「谷町九丁目」から徒歩約5分"
+        ]
+    },
+    "links": [
+        "<a href='https://kouzu.or.jp/' target='_blank'>高津宮（高津神社）～大阪市中央区高津～</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipPNyhxKKj5sMQ3Vo_CuMgNh0qp--N911jUebDLY",
+            "src": [
+                "AF1QipPNyhxKKj5sMQ3Vo_CuMgNh0qp--N911jUebDLY=m18",
+                "AF1QipMHU3tM_gqI2eCvSaOsa0IV7SvKgi43GfsD4axH=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipM_mR3F-hZ4m4A_ETCJ2duWMdU8c3pgNl6WWvlf",
+            "src": [
+                "AF1QipM_mR3F-hZ4m4A_ETCJ2duWMdU8c3pgNl6WWvlf=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "AF1QipMp_RLMazx3Dlr1zBZNtWn3yAaBYfEf3xAnEZmT",
+            "src": [
+                "AF1QipMp_RLMazx3Dlr1zBZNtWn3yAaBYfEf3xAnEZmT=m18"
+            ]
+        }
+    ]
+}
