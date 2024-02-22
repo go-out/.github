@@ -1,22 +1,29 @@
 {
     "title": "上本町（谷九・上六）",
-    "description": "上町台地の頂に達する位置、風情や緑が数多く残されている上町の中心",
+    "description": "上町台地の頂に達する、風情や緑が多く残されている上町の中心地",
     "info": [
+        "風情や緑が数多く残されている街「<ruby>上本町<rp>（</rp><rt>うえほんまち</rt><rp>）</rp></ruby>」",
+        "<small>上町筋と千日前通が交差する交差点の名称から、谷九（谷町九丁目）・上六（上本町六丁目）とも呼ばれるエリア</small>",
+        "",
+        "天王寺区の中心で、現在の大阪の基礎となる「<ruby>上町台地<rp>（</rp><rt>うえまちだいち</rt><rp>）</rp></ruby>」の頂に達する位置",
+        "緑が少ないと言われている大阪市の中でも、風情や緑が多く残る地域",
+        "",
         "<u>ランドマーク・お気に入りの場所</u>",
         "<a>うえほんまちハイハイタウン</a> <small>バラエティ豊かなショップ、昔ながらの居酒屋が入るシンプルなショッピングモール</small>",
         "<a>上本町YUFURA</a> <small>2010年8月、近鉄劇場跡地に建築された上本町の新しいランドマーク</small>",
         "<a>生國魂神社</a> <small>いくくにたまじんじゃ、別称「難波大社（なにわのおおやしろ）」</small>",
+        "<a>浄瑠璃神社(生國魂神社内)</a> <small>毎年春分、秋分の日 浄瑠璃神社の例祭</small>",
         "<a>上七泉街園</a> <small>「上町台地の名水と緑」街園</small>",
+        "<a>上汐公園</a> <small>3月中旬〜4月下旬 天王寺区の花「モモ」が咲く</small>",
+        "<a>大阪市立天王寺図書館周辺</a> <small>3月中旬〜4月下旬 天王寺区の花「モモ」が咲く</small>",
         "<a>真田山公園</a> <small>天王寺スポーツセンター、真田山プール(冬季：アイススケートリンク)などのスポーツ施設も整備されている総合公園</small>",
-        "<a>大阪ガス 実験集合住宅 NEXT21</a> <small>近未来の都市型住宅のあり方について、環境・エネルギー・暮らしの面から実証・提案することを目的とした実験集合住宅</small>",
-        "",
-        "<u>最寄りのHELLO CYCLING</u>",
-        "<a href='https://maps.app.goo.gl/4BKzNrmPHvirX9jk6' target='_blank'>セブンイレブン　大阪阪南町3丁目店</a><br><small>Osaka Metro 御堂筋線「昭和町」から徒歩約10分<small>"
+        "<a>大阪ガス 実験集合住宅 NEXT21</a> <small>近未来の都市型住宅のあり方について、環境・エネルギー・暮らしの面から実証・提案することを目的とした実験集合住宅</small>"
     ],
     "links": [
         "<a href='https://www.city.osaka.lg.jp/toshikeikaku/page/0000258471.html' target='_blank'>天王寺区の都市景観資源（わがまちナイススポット）</a>",
         "<a href='https://www.og-cel.jp/project/ucoro/pdf/style1.pdf' target='_blank'>上町台地の時空につながる扉から</a>",
-        "<a href='https://www.og-cel.jp/project/ucoro/pdf/style2.pdf' target='_blank'>緑と鳥の回廊と水の縁をめぐる</a>"
+        "<a href='https://www.og-cel.jp/project/ucoro/pdf/style2.pdf' target='_blank'>緑と鳥の回廊と水の縁をめぐる</a>",
+        "<a href='http://www.uemachi.net/' target='_blank'>上町ネット | INDEX</a>"
     ],
     "directory": "https://lh3.googleusercontent.com/ggs/",
     "landscape": "repeat(4, 1fr)",

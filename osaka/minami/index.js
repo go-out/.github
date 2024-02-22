@@ -113,6 +113,20 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51281756441597, 34.66505680252145]
+            },
+            'properties': {
+                'title': '生國魂神社',
+                'address': '',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'geometry': {
                 'type': 'Point',
@@ -124,7 +138,7 @@ const osakaMinami = {
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=minami&name=uehonmachi',
                 'iconSize': ['minami/icon/tennouji.png', '2.75rem', '2.75rem'],
-                'zoom': 15,
+                'zoom': 14,
             }
         },
         {

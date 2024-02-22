@@ -23,7 +23,7 @@ const osakaChuo = {
             'feature': [
                 {
                     'month': 2,
-                    'text': '北側に隣接する高津公園は、中央区の花「梅」の名所。2月中旬から下旬が見頃'
+                    'text': '北側に隣接する高津公園は、中央区の花「梅」の名所（例年2月中旬から下旬が見頃）'
                 }
             ],
             'geometry': {
@@ -32,7 +32,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '高津宮',
-                'address': '難波津に咲くやこの花 冬ごもり 今は春べと 咲くやこの花',
+                'address': '狂言・古典落語の舞台にもなった、由緒あるお宮',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=kouzu',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],

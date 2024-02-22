@@ -1,0 +1,43 @@
+{
+  "title": "淀川区・西淀川区",
+  "description": "Yodogawa, Nishi Yodogawa",
+  "info": [
+    "<u>ランドマーク・お気に入りの場所</u>",
+    "大野川緑陰道路 <small>西淀川区の花「サザンカ」が多く咲く</small>",
+    "五社神社 <small></small>",
+    "鼻川神社 <small></small>",
+    "姫里コミュニティ広場 <small></small>",
+    "三国本町公園 <small></small>",
+    "大阪マスジド <small>イスラム教の礼拝堂、大阪中央モスク</small>",
+    "",
+    "<u>毎年7月下旬から8月下旬</u>",
+    "<a href='https://yodogawaku.goguynet.jp/tag/%e5%a4%8f%e7%a5%ad%e3%82%8a/' target='_blank'>夏祭り</a>・<a href='https://yodogawaku.goguynet.jp/tag/%e7%9b%86%e8%b8%8a%e3%82%8a/' target='_blank'>盆踊り</a",
+    "",
+    "<u>レンタサイクル</u>",
+    "<a href='https://maps.app.goo.gl/vKkD2wfvtERinEDi9' target='_blank'>駅リンくん 塚本店</a><br><small>営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円<small>",
+    "<a href='https://maps.app.goo.gl/2gfqiJquXQ6mx5cW8' target='_blank'>駅リンくん 新大阪駅</a><br><small>営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円<small>",
+    "<a href='https://maps.app.goo.gl/2gfqiJquXQ6mx5cW8' target='_blank'>阪急三国駐輪センター</a><br><small>営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円<small>"
+  ],
+  "links": [
+    "<a href='' target='_blank'>___</a>"
+  ],
+  "directory": "https://lh3.googleusercontent.com/ggms/",
+  "landscape": "repeat(4, 1fr)",
+  "portrait": "repeat(2, 1fr)",
+  "video": [
+    {
+      "id": "one",
+      "poster": "AF1QipO4uzrg1-iQHnfMlBGU7o5OE_iQi6tFimu_6bDD",
+      "src": [
+        "AF1QipO4uzrg1-iQHnfMlBGU7o5OE_iQi6tFimu_6bDD=m18"
+      ]
+    },
+    {
+      "id": "two",
+      "poster": "AF1QipOOF_Gx6baMCbh7aBu1tPOmld-7NsjPrfi0gmky",
+      "src": [
+        "AF1QipOOF_Gx6baMCbh7aBu1tPOmld-7NsjPrfi0gmky=m18"
+      ]
+    }
+  ]
+}

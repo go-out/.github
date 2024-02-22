@@ -48,7 +48,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': '東淀川区',
-                'address': '淀川と神崎川に挟まれた閑静な住宅街',
+                'address': '大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街',
                 'iconSize': ['kita/icon/hyodogawa.png', '3rem', '3rem'],
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
