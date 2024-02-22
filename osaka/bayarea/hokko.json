@@ -3,7 +3,12 @@
     "description": "Osaka Hokko Port",
     "info": [
         "<u>ランドマーク・お気に入りの場所</u>",
-        "___ <small>___</small>",
+        "北港運河公園 <small>___</small>",
+        "此花西部臨港緑地 <small>___</small>",
+        "常吉臨港緑地 <small>___</small>",
+        "此花大橋 <small>___</small>",
+        "舞洲緑地 <small>___</small>",
+        "大阪広域環境施設組合 舞洲工場 <small>___</small>",
         "",
         "<u>最寄りのHELLO CYCLING</u>",
         "<a href='https://maps.app.goo.gl/uX93pMUjc84W1PJ5A' target='_blank'>天保山公園</a> <a href='https://maps.app.goo.gl/x1ct4zJCXANuUbe88' target='_blank'>北港緑地２丁目１</a>"
@@ -12,21 +17,35 @@
         "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E6%B8%AF#%E5%8C%97%E6%B8%AF' target='_blank'>大阪港 - Wikipedia</a>"
     ],
     "directory": "https://lh3.googleusercontent.com/ggms/",
-    "landscape": "repeat(1, 1fr)",
+    "landscape": "repeat(2, 1fr)",
     "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d",
+            "poster": "AF1QipPaFWVOO3rqezzmVNBNMyAUjleGr5KaVleeVvei",
             "src": [
-                "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18"
+                "AF1QipPaFWVOO3rqezzmVNBNMyAUjleGr5KaVleeVvei=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ",
+            "poster": "AF1QipMQd8-x_XzfIJxgt5RYlhbZ6FQ45KcWt6cTEemI",
             "src": [
-                "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ=m18"
+                "AF1QipMQd8-x_XzfIJxgt5RYlhbZ6FQ45KcWt6cTEemI=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "AF1QipNPeem6H63SSX-rkfQ57VRXEkv5UA7-H4pGvp7C",
+            "src": [
+                "AF1QipNPeem6H63SSX-rkfQ57VRXEkv5UA7-H4pGvp7C=m18"
+            ]
+        },
+        {
+            "id": "four",
+            "poster": "AF1QipOYH62KTE4Z335YAReFob7DUwhzJ6yq7fYA0pQH",
+            "src": [
+                "AF1QipOYH62KTE4Z335YAReFob7DUwhzJ6yq7fYA0pQH=m18"
             ]
         }
     ]

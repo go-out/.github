@@ -1,9 +1,6 @@
 {
   "title": "東淀川区",
   "description": "Higashi Yodogawa",
-  "year": "2024",
-  "month": "3",
-  "day": "_",
   "info": [
     "<u>ランドマーク・お気に入りの場所</u>",
     "こぶし通り <small>東淀川区役所前</small>",
@@ -24,21 +21,35 @@
     "<a href='https://www.city.osaka.lg.jp/higashiyodogawa/page/0000024137.html' target='_blank'>大阪市東淀川区：区のスポット</a>"
   ],
   "directory": "https://lh3.googleusercontent.com/ggms/",
-  "landscape": "repeat(1, 1fr)",
-  "portrait": "repeat(1, 1fr)",
+  "landscape": "repeat(4, 1fr)",
+  "portrait": "repeat(2, 1fr)",
   "video": [
     {
       "id": "one",
-      "poster": "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d",
+      "poster": "AF1QipMqvxMYpp0nF-d6VkVegnjOQG_D0YmvpVcGazaj",
       "src": [
-        "AF1QipM7MXDHvTn6uESpNYCelm53zNhEj7YCBeC5n_7d=m18"
+        "AF1QipMqvxMYpp0nF-d6VkVegnjOQG_D0YmvpVcGazaj=m18"
       ]
     },
     {
       "id": "two",
-      "poster": "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ",
+      "poster": "AF1QipO1Al7T_afdScvspdKTJGkvujmeZiXCRwpdH7n8",
       "src": [
-        "AF1QipM58U3sk9XtmnMA_Zi8Bw6gCYD93yjLfwNAKZtQ=m18"
+        "AF1QipO1Al7T_afdScvspdKTJGkvujmeZiXCRwpdH7n8=m18"
+      ]
+    },
+    {
+      "id": "three",
+      "poster": "AF1QipMwUdSYVDTOBLsEuXKJgsFi5-zuoI1nevmMCJXc",
+      "src": [
+        "AF1QipMwUdSYVDTOBLsEuXKJgsFi5-zuoI1nevmMCJXc=m18"
+      ]
+    },
+    {
+      "id": "four",
+      "poster": "AF1QipNVlMI14sRGiZ_Wh8Wna8c35Kk7ed22X9FP-6VO",
+      "src": [
+        "AF1QipNVlMI14sRGiZ_Wh8Wna8c35Kk7ed22X9FP-6VO=m18"
       ]
     }
   ]
