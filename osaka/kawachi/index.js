@@ -54,13 +54,13 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.64415797733582, 34.71874238862553]
+                'coordinates': [135.64499442747368, 34.7188448349019]
             },
             'properties': {
                 'title': '慈眼寺（野崎観音）',
                 'address': '境内から野崎城跡をへて吊り橋を通って飯盛山・飯盛山城跡などへ至る登山道がある。大阪みどりの百選に「野崎観音の緑」が選ばれている',
                 'date': '',
-                'zoom': 16,
+                'zoom': 17,
             }
         },
         {
@@ -85,7 +85,7 @@ const osakaKawachi = {
                 'address': '神津嶽をご神体とする、神様の御霊が一杯の「神気」に満ちた神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
-                'zoom': 16,
+                'zoom': 17,
             }
         },
         {
@@ -99,7 +99,7 @@ const osakaKawachi = {
                 'title': '玉祖神社',
                 'address': '',
                 'date': '',
-                'zoom': 16,
+                'zoom': 17,
             }
         },
         {
@@ -113,7 +113,7 @@ const osakaKawachi = {
                 'title': '恩智神社（天川山）',
                 'address': '',
                 'date': '',
-                'zoom': 14.5,
+                'zoom': 17,
             }
         },
         {
@@ -127,7 +127,7 @@ const osakaKawachi = {
                 'title': '鐸比古鐸比賣神社（高尾山）',
                 'address': '高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」',
                 'date': '',
-                'zoom': 14.5,
+                'zoom': 17,
             }
         },
         {
@@ -135,13 +135,13 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.6184131203561, 34.576344418114886]
+                'coordinates': [135.61835953497047, 34.576417353524135]
             },
             'properties': {
                 'title': '志貴縣主神社',
                 'address': '河内國総社',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 17.5,
             }
         },
         {
