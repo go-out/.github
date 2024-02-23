@@ -38,6 +38,34 @@ const osakaHokusetsu = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.54759195940795, 34.84746324592541]
+            },
+            'properties': {
+                'title': '新屋坐天照御魂神社',
+                'address': '創建以来二千百年を有する摂津国屈指の長い歴史と高い社格を誇る名神大社',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.56196057472113, 34.81535038139823]
+            },
+            'properties': {
+                'title': 'レンタサイクル 駅リンくん 茨木店',
+                'address': '営業時間 6:30～22:00 年末年始休 | 1回利用（翌日の10時まで）500円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.45350971571364, 34.77095600443577]
             },
             'properties': {
@@ -145,6 +173,76 @@ const osakaHokusetsu = {
                 'address': '普通自転車 310円（翌日午前10時までの返却）| 電動アシスト自転車 420円（当日の午後9時までに返却）',
                 'date': '',
                 'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50936893299647, 34.91759141859515]
+            },
+            'properties': {
+                'title': '希望ケ丘',
+                'address': '',
+                'date': '',
+                'zoom': 12.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4595416853438, 34.89015459309636]
+            },
+            'properties': {
+                'title': '水と緑の健康都市（箕面森町）',
+                'address': '',
+                'date': '',
+                'zoom': 12,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.44715988781155, 34.919216153073066]
+            },
+            'properties': {
+                'title': '八幡神社（吉川八幡神社）',
+                'address': '',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.65370134999105, 34.89226108992393]
+            },
+            'properties': {
+                'title': '若山神社',
+                'address': '大阪みどりの百選および大阪府指定天然記念物若山神社のツブラジイ林',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.61185565690656, 34.89445870837859]
+            },
+            'properties': {
+                'title': '神峯山の森',
+                'address': '神峯山の森 自然園 | 日本最初毘沙門天 大阪府高槻市 神峯山寺',
+                'date': '',
+                'zoom': 17.5,
             }
         }
     ]

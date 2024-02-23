@@ -5,6 +5,22 @@ const osakaSumiyoshi = {
     'features': [
         {
             'type': 'Feature',
+            'tags': 'legacy',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49237250787706, 34.6129733697545]
+            },
+            'properties': {
+                'title': '住吉大社',
+                'address': '全国に2300社ある住吉神社の総本社であり、摂津国一の宮',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
+                'youtube': 'wbOguTvuV0Q',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'park',
             'geometry': {
                 'type': 'Point',
@@ -33,22 +49,6 @@ const osakaSumiyoshi = {
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
                 'youtube': 'mkioDOspLbs',
                 'zoom': 17.25,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'legacy',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49237250787706, 34.6129733697545]
-            },
-            'properties': {
-                'title': '住吉大社',
-                'address': '全国に2300社ある住吉神社の総本社であり、摂津国一の宮',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
-                'youtube': 'wbOguTvuV0Q',
-                'zoom': 16.5,
             }
         },
         {
@@ -83,6 +83,23 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
+            'tags': 'legacy',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49682232943638, 34.621565133427865]
+            },
+            'properties': {
+                'title': '帝塚山',
+                'address': '帝塚山（てづかやま）古墳の墳丘。標高は19.88m。<br>関西を代表する高級住宅街の一つ。',
+                'date': 'more info',
+                'href': 'osaka/vr/?area=sumiyoshi&name=tezukayama',
+                'youtube': 'KuYJ3IW7z4k',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'geometry': {
                 'type': 'Point',
@@ -99,19 +116,56 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 12,
+                    'text': '住之江区の花「さざんか」、椿・ナンテン（南天）・蝋梅（ロウバイ）など、冬の植物が見頃'
+                },
+                {
+                    'month': 1,
+                    'text': '住之江区の花「さざんか」、椿・ナンテン（南天）・蝋梅（ロウバイ）など、冬の植物が見頃'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49682232943638, 34.621565133427865]
+                'coordinates': [135.47561189325947, 34.611269066903496]
             },
             'properties': {
-                'title': '帝塚山',
-                'address': '帝塚山（てづかやま）古墳の墳丘。標高は19.88m。<br>関西を代表する高級住宅街の一つ。',
-                'date': 'more info',
-                'href': 'osaka/vr/?area=sumiyoshi&name=tezukayama',
-                'tags': 'legacy',
-                'youtube': 'KuYJ3IW7z4k',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 16,
+                'title': '住之江公園',
+                'address': '花と緑とふれあう、スポーツを楽しめる公園',
+                'date': '',
+                'iconSize': ['sumiyoshi/icon/suminoe.png', '3.5rem', '3.5rem'],
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47405834443256, 34.61232291557338]
+            },
+            'properties': {
+                'title': '住之江公園 無料レンタサイクル',
+                'address': '貸出時間:午前8時30分から午後5時',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=suminoe',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4751648749464, 34.60246659776148]
+            },
+            'properties': {
+                'title': '加賀屋新田会所跡',
+                'address': '現在は「加賀屋緑地」として市民公園として一般開放されている大阪市指定文化財・史跡の会所跡',
+                'date': '',
+                'zoom': 16.5,
             }
         },
         {
@@ -153,6 +207,20 @@ const osakaSumiyoshi = {
                 'address': '広々とした芝生広場「獅子が空を翔ぶ日に」',
                 'date': '',
                 'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5210520566761, 34.61301414594781]
+            },
+            'properties': {
+                'title': '長居公園',
+                'address': '木々や花々が生い茂る広大な公園',
+                'date': '',
+                'zoom': 15.5,
             }
         },
         {
@@ -207,46 +275,6 @@ const osakaSumiyoshi = {
                 'date': '',
                 'iconSize': ['higashi/icon/hirano.png', '3.5rem', '3.5rem'],
                 'zoom': 15,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'park',
-            'feature': [
-                {
-                    'month': 12,
-                    'text': '住之江区の花「さざんか」、椿・ナンテン（南天）・蝋梅（ロウバイ）など、冬の植物が見頃'
-                },
-                {
-                    'month': 1,
-                    'text': '住之江区の花「さざんか」、椿・ナンテン（南天）・蝋梅（ロウバイ）など、冬の植物が見頃'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47561189325947, 34.611269066903496]
-            },
-            'properties': {
-                'title': '住之江公園',
-                'address': '花と緑とふれあう、スポーツを楽しめる公園',
-                'date': '',
-                'iconSize': ['sumiyoshi/icon/suminoe.png', '3.5rem', '3.5rem'],
-                'zoom': 15.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47405834443256, 34.61232291557338]
-            },
-            'properties': {
-                'title': '住之江公園 無料レンタサイクル',
-                'address': '貸出時間:午前8時30分から午後5時',
-                'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=suminoe',
-                'zoom': 16.5,
             }
         }
     ]

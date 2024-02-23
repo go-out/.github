@@ -129,6 +129,48 @@ const osakaKawachi = {
                 'date': '',
                 'zoom': 16,
             }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6184131203561, 34.576344418114886]
+            },
+            'properties': {
+                'title': '志貴縣主神社',
+                'address': '河内國総社',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6465681782596, 34.60500476210762]
+            },
+            'properties': {
+                'title': '恩智神社（天川山）',
+                'address': '',
+                'date': '',
+                'zoom': 14.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6465681782596, 34.60500476210762]
+            },
+            'properties': {
+                'title': '鐸比古鐸比賣神社（高尾山）',
+                'address': '高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」',
+                'date': '',
+                'zoom': 14.5,
+            }
         }
     ]
 }

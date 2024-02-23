@@ -21,38 +21,30 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'bicycle',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.53325636893396, 34.75198041554677]
+                'coordinates': [135.49015201516642, 34.70454139923444]
             },
             'properties': {
-                'title': 'レンタサイクル 阪急上新庄駐輪センターはこべ館',
-                'address': '営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円',
+                'title': '中自然の森',
+                'address': '「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 17.5,
             }
         },
         {
             'type': 'Feature',
-            'tags': 'park',
-            'feature': [
-                {
-                    'month': 3,
-                    'text': '3月下旬から4月上旬、東淀川区の花「こぶし」が桜より少し早い早春に開花する'
-                }
-            ],
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.52918504347852, 34.74086344550958]
+                'coordinates': [135.49247137036144, 34.69864019314251]
             },
             'properties': {
-                'title': '東淀川区',
-                'address': '大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街',
-                'iconSize': ['kita/icon/hyodogawa.png', '3rem', '3rem'],
-                'date': 'More Info',
-                'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
-                'zoom': 14,
+                'title': 'OSAKA GARDEN CITY',
+                'address': '「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所',
+                'date': '',
+                'zoom': 16.5,
             }
         },
         {
@@ -125,6 +117,42 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.53325636893396, 34.75198041554677]
+            },
+            'properties': {
+                'title': 'レンタサイクル 阪急上新庄駐輪センターはこべ館',
+                'address': '営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 3,
+                    'text': '3月下旬から4月上旬、東淀川区の花「こぶし」が桜より少し早い早春に開花する'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52918504347852, 34.74086344550958]
+            },
+            'properties': {
+                'title': '東淀川区',
+                'address': '大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街',
+                'iconSize': ['kita/icon/hyodogawa.png', '3rem', '3rem'],
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
+                'zoom': 14,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'feature': [
                 {
@@ -171,6 +199,105 @@ const osakaKita = {
                 'date': '',
                 'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48272530466483, 34.738223239605254]
+            },
+            'properties': {
+                'title': 'レンタサイクル 阪急三国駐輪センター',
+                'address': '営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49111174321513, 34.75373049002159]
+            },
+            'properties': {
+                'title': 'リーニュ・ブランシュの庭',
+                'address': '大野川緑陰道路',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48272530466483, 34.738223239605254]
+            },
+            'properties': {
+                'title': 'レンタサイクル 駅リンくん 新大阪店',
+                'address': '営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46940910661692, 34.71220704104989]
+            },
+            'properties': {
+                'title': 'レンタサイクル 駅リンくん 塚本店',
+                'address': '営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46940910661692, 34.71220704104989]
+            },
+            'properties': {
+                'title': 'レンタサイクル 駅リンくん 塚本店',
+                'address': '営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.45671120382073, 34.71068501127959]
+            },
+            'properties': {
+                'title': '西淀川区',
+                'address': '大野川緑陰道路',
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=kita&name=nishi-yodogawa',
+                'zoom': 14.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4449331455768, 34.70832661888589]
+            },
+            'properties': {
+                'title': '大阪マスジド',
+                'address': '',
+                'date': '',
+                'zoom': 16.5,
             }
         }
     ]

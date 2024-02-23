@@ -53,23 +53,6 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'legacy',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49671014738038, 34.66147827438952]
-            },
-            'properties': {
-                'title': '難波八阪神社',
-                'address': '大きな獅子の頭の形をした舞台「獅子殿（ししでん）」で知られる難波一帯の産土神',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
-                'tags': 'legacy',
-                'youtube': 'OO_7X8aM9BQ',
-                'zoom': 17.5,
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'vr',
             'geometry': {
                 'type': 'Point',
@@ -109,6 +92,59 @@ const osakaMinami = {
                 'href': 'relax/?id=park&area=osaka&name=momogaike',
                 'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
                 'zoom': 15,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50193869120898, 34.661370765013075]
+            },
+            'properties': {
+                'title': 'なんばパークス',
+                'address': '',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'legacy',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49671014738038, 34.66147827438952]
+            },
+            'properties': {
+                'title': '難波八阪神社',
+                'address': '大きな獅子の頭の形をした舞台「獅子殿（ししでん）」で知られる難波一帯の産土神',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
+                'tags': 'legacy',
+                'youtube': 'OO_7X8aM9BQ',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 2,
+                    'text': '北側に隣接する高津公園は、中央区の花「梅」の名所（例年2月中旬から下旬が見頃）'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5138989318507, 34.66881262520526]
+            },
+            'properties': {
+                'title': '高津宮',
+                'address': '狂言・古典落語の舞台にもなった、由緒あるお宮',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=kouzu',
+                'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
+                'zoom': 17.5,
             }
         },
         {
@@ -157,6 +193,21 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
+            'tags': 'park',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5359834816478, 34.654466425764554]
+            },
+            'properties': {
+                'title': '御勝山',
+                'address': '御勝山（おかちやま）古墳の後円部。標高14mの墳丘。<br>古墳の中央を勝山通が貫き、前方部は崩されて「御勝山南公園」になっています。',
+                'date': '',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
@@ -167,6 +218,20 @@ const osakaMinami = {
                 'address': '',
                 'date': '',
                 'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4820114395033, 34.64617335180633]
+            },
+            'properties': {
+                'title': '西成公園',
+                'address': '',
+                'date': '',
+                'zoom': 16.5,
             }
         },
         {

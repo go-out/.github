@@ -130,6 +130,7 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'vr',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.432590487285, 34.65732762031574]
@@ -139,7 +140,6 @@ const osakaBayarea = {
                 'address': '日本一低い山として知られる築山。標高4.53m。<br>周辺は、海遊館・大観覧車・遊覧船などがあるベイエリアを代表する観光スポット。',
                 'date': '',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'tags': 'vr',
                 'zoom': 14.5,
             }
         },
