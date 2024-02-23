@@ -52,6 +52,34 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4009426793867, 34.634856973620536]
+            },
+            'properties': {
+                'title': '大阪南港野鳥園',
+                'address': '人工干潟と緑地で環境を構成整備した野鳥のためのサンクチュアリー',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.40616297998545, 34.66911950841758]
+            },
+            'properties': {
+                'title': '舞洲スラッジセンター',
+                'address': '建物内の見学は事前予約制 | 1階エントランスホールは、月曜日から金曜日（年末年始、祝日は除く）の9時から17時のみ一般開放',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'spot',
             'geometry': {
                 'type': 'Point',
@@ -102,10 +130,25 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.432590487285, 34.65732762031574]
+            },
+            'properties': {
+                'title': '天保山',
+                'address': '日本一低い山として知られる築山。標高4.53m。<br>周辺は、海遊館・大観覧車・遊覧船などがあるベイエリアを代表する観光スポット。',
+                'date': '',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
+                'tags': 'vr',
+                'zoom': 14.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.41314550494397, 34.666530849980745]
+                'coordinates': [135.39155601976105, 34.665908874644536]
             },
             'properties': {
                 'title': '北港（桜島・舞洲）',
