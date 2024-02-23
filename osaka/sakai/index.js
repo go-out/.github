@@ -149,7 +149,7 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.44694462639703, 34.501204136736135]
+                'coordinates': [135.4469689504483, 34.50121272790052]
             },
             'properties': {
                 'title': '聖神社',
@@ -163,7 +163,7 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.41994968848613, 34.49690219963159]
+                'coordinates': [135.41978897117897, 34.4965670512322]
             },
             'properties': {
                 'title': '泉穴師神社',
@@ -177,7 +177,7 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.46076387784686, 34.53615323211596]
+                'coordinates': [135.4607763551536, 34.53681485880848]
             },
             'properties': {
                 'title': '大鳥大社',
@@ -191,7 +191,7 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.42778756170287, 34.48702163738295]
+                'coordinates': [135.42765432849285, 34.487059145798554]
             },
             'properties': {
                 'title': '泉井上神社',
