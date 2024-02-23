@@ -1,0 +1,38 @@
+{
+    "title": "野崎観音 のざきかんのん",
+    "description": "野崎観音 のざきかんのん 福聚山 ふくじゅさん 慈眼寺 じげんじ​",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "info": {
+        "title": "Nozaki Kannon ⛩ Daitō Osaka, Japan",
+        "address": "大阪府大東市野崎2丁目7-1",
+        "google": "https://maps.app.goo.gl/Pa26fnjDNkY5PoHz8",
+        "text": [
+            "JR野崎駅から徒歩約5分、数百段はあろうかという階段の上にある曹洞宗の禅寺",
+            "<small>境内のみはらし台からは大阪平野が一望でき、四條畷神社までつながる飯盛山のハイキングコースの入口があるため登山者の参詣も多い</small>",
+            "",
+            "<b>千日まいり</b><br><u>毎年7月9日</u> <small>一日で千日の御利益</small>",
+            "夜7時 万灯会<br>夜8時 盆おどり<br><small>大阪の夏、盆踊りシーズンの始まりをつげる盆踊り大会</small>",
+            "",
+            "<small>毎週日曜日に座禅会が開かれており、毎月18日には写経会が開かれる</small>",
+            "",
+            "<u>アクセス</u><br>JR東西線・学研都市線「野崎」から徒歩約5分<br>JR東西線・学研都市線 京橋→野崎（約20分）"
+        ]
+    },
+    "links": [
+        "<a href='https://www.nozakikannon.or.jp/' target='_blank'>野崎観音｜慈眼寺</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipPOEDzzQNuwr6dmAjsopU_tjS_UeLXk0kAw4RfV",
+            "src": [
+                "AF1QipPOEDzzQNuwr6dmAjsopU_tjS_UeLXk0kAw4RfV=m18"
+            ]
+        }
+    ]
+}

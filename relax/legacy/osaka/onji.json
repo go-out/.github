@@ -1,0 +1,32 @@
+{
+    "title": "恩智神社 おんじじんじゃ",
+    "description": "",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "info": {
+        "title": "Onji Jinja ⛰ Yao Osaka, Japan",
+        "address": "大阪府八尾市恩智中町５丁目１０",
+        "google": "https://maps.app.goo.gl/y5FDm3omK8mToymu5",
+        "text": [
+            "天川山(あまかわやま)・天川神社跡地（恩智神社奥宮）",
+            "",
+            "<u>アクセス</u><br>近鉄大阪線「恩智」から徒歩約20分<br>近鉄大阪難波→恩智（約30分）"
+        ]
+    },
+    "links": [
+        "<a href='http://www.onji.or.jp/' target='_blank'>恩智神社 – 厄除け・祓いの大社</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMEHt5D05M91W10iGfXEnoCzXNDnP-O0Py4Kz92",
+            "src": [
+                "AF1QipMEHt5D05M91W10iGfXEnoCzXNDnP-O0Py4Kz92=m18"
+            ]
+        }
+    ]
+}

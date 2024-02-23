@@ -1,0 +1,32 @@
+{
+    "title": "玉祖神社 たまのおやじんじゃ",
+    "description": "",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "info": {
+        "title": "Shikiagatanushi Jinja ⛰ Fujiidera Osaka, Japan",
+        "address": "大阪府藤井寺市惣社１丁目６−２３",
+        "google": "https://maps.app.goo.gl/jYgxN2ED1uJx6Yuo8",
+        "text": [
+            "延喜式内の古社、創建の年月不詳。河内国の総社とされている。",
+            "",
+            "<u>アクセス</u><br>近鉄南大阪線「土師ノ里」から徒歩約12分<br>近鉄南大阪線準急 大阪阿部野橋→土師ノ里（約12分）"
+        ]
+    },
+    "links": [
+        "<a href='https://www.kawati-tamanooya.net/' target='_blank'>河内国（大阪府八尾市）　玉祖神社</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3",
+            "src": [
+                "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3=m18"
+            ]
+        }
+    ]
+}

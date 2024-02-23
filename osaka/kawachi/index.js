@@ -54,12 +54,28 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.65348645663857, 34.726421477272304]
+            },
+            'properties': {
+                'title': '飯盛山 ハイキングコース',
+                'address': '野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=iimoriyama',
+                'zoom': 14.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.64499442747368, 34.7188448349019]
             },
             'properties': {
-                'title': '慈眼寺（野崎観音）',
-                'address': '境内から野崎城跡をへて吊り橋を通って飯盛山・飯盛山城跡などへ至る登山道がある。大阪みどりの百選に「野崎観音の緑」が選ばれている',
-                'date': '',
+                'title': '野崎観音 慈眼寺',
+                'address': 'JR野崎駅から徒歩約5分、数百段はあろうかという階段の上にある曹洞宗の禅寺',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=nozakikannon',
                 'zoom': 17,
             }
         },
@@ -98,6 +114,8 @@ const osakaKawachi = {
             'properties': {
                 'title': '玉祖神社',
                 'address': '',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
                 'date': '',
                 'zoom': 17,
             }
@@ -112,7 +130,8 @@ const osakaKawachi = {
             'properties': {
                 'title': '恩智神社（天川山）',
                 'address': '',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=onji',
                 'zoom': 17,
             }
         },
@@ -126,7 +145,8 @@ const osakaKawachi = {
             'properties': {
                 'title': '鐸比古鐸比賣神社（高尾山）',
                 'address': '高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
                 'zoom': 17,
             }
         },
@@ -140,7 +160,8 @@ const osakaKawachi = {
             'properties': {
                 'title': '志貴縣主神社',
                 'address': '河内國総社',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=shikiagatanushi',
                 'zoom': 17.5,
             }
         },

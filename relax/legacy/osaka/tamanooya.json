@@ -1,0 +1,33 @@
+{
+    "title": "玉祖神社 たまのおやじんじゃ",
+    "description": "",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "info": {
+        "title": "Tamanooya Jinja ⛰ Yao Osaka, Japan",
+        "address": "大阪府八尾市神立５丁目５−９３",
+        "google": "https://maps.app.goo.gl/ZFWsMC3w7ymTkYzP6",
+        "text": [
+            "八尾市屈指のパワースポット",
+            "境内に、国指定の天然記念物「長鳴鶏（ながなきどり）」が自由に歩き回っている",
+            "",
+            "<u>アクセス</u><br>近鉄信貴線「服部川」から徒歩約30分<br>近鉄 大阪難波→服部川（約25分）"
+        ]
+    },
+    "links": [
+        "<a href='https://www.kawati-tamanooya.net/' target='_blank'>河内国（大阪府八尾市）　玉祖神社</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3",
+            "src": [
+                "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3=m18"
+            ]
+        }
+    ]
+}
