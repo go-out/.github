@@ -56,7 +56,7 @@ const osakaSenshu = {
                 'title': '意賀美神社',
                 'address': '境内の社叢はコジイとミミズバイが優先する常緑広葉樹林で、ホルトノキ、タイミンタチバナ、ツルコウジなどの常緑樹もみられる',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 17.5,
             }
         },
         {
@@ -64,7 +64,7 @@ const osakaSenshu = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.37833294525942, 34.340904283503356]
+                'coordinates': [135.37815470783357, 34.341630929483834]
             },
             'properties': {
                 'title': '犬鳴山',
@@ -78,13 +78,13 @@ const osakaSenshu = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5296453997803, 34.42958357248811]
+                'coordinates': [135.52949397018588, 34.42939089973368]
             },
             'properties': {
                 'title': '金剛寺',
                 'address': '高野山が女人禁制だったのに対して女性も参詣ができたため、「女人高野」とも呼ばれる',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 15.5,
             }
         },
         {

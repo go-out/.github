@@ -149,13 +149,13 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4470217063711, 34.50076451066275]
+                'coordinates': [135.44694462639703, 34.501204136736135]
             },
             'properties': {
                 'title': '聖神社',
                 'address': '和泉国の三ノ宮。信太山丘陵一帯が境内地で、古くから「信太の森」と詠われた',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 16.5,
             }
         },
         {
@@ -163,7 +163,7 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.42065120406212, 34.49504984058913]
+                'coordinates': [135.41994968848613, 34.49690219963159]
             },
             'properties': {
                 'title': '泉穴師神社',
@@ -183,7 +183,7 @@ const osakaSakai = {
                 'title': '大鳥大社',
                 'address': '日本武尊（やまとたけるのみこと）をお祀りする和泉の国一宮',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 16.5,
             }
         },
         {
@@ -197,7 +197,7 @@ const osakaSakai = {
                 'title': '泉井上神社',
                 'address': '“和泉”の地名発祥の地 ～和泉国総社～',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 18,
             }
         },
         {
@@ -211,7 +211,7 @@ const osakaSakai = {
                 'title': '狭山池',
                 'address': '日本最古のダム式ため池（人工池）とされ、国の史跡に指定されている',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 17,
             }
         },
         {
@@ -225,7 +225,7 @@ const osakaSakai = {
                 'title': '近つ飛鳥',
                 'address': '奈良の飛鳥は「遠つ飛鳥」と言い、大阪・羽曳野市、太子町の二上山西側の山麓一帯を「近つ飛鳥」と言う',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 17,
             }
         }
     ]
