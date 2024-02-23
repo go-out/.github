@@ -127,7 +127,105 @@ const osakaSakai = {
                 'title': '浜寺公園 無料レンタサイクル',
                 'address': '営業時間 9:00~17:00 ※自転車のご利用は園内利用に限ります。',
                 'date': '',
-                'zoom': 14,
+                'zoom': 14.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.60428536441003, 34.48073803406935]
+            },
+            'properties': {
+                'title': '佐備神社',
+                'address': '浪速神楽の伝承と指導',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4470217063711, 34.50076451066275]
+            },
+            'properties': {
+                'title': '聖神社',
+                'address': '和泉国の三ノ宮。信太山丘陵一帯が境内地で、古くから「信太の森」と詠われた',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.42065120406212, 34.49504984058913]
+            },
+            'properties': {
+                'title': '泉穴師神社',
+                'address': '和泉国二宮で、旧社格は府社。「泉穴師神社の森」は「大阪みどりの百選」に選ばれている',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.46076387784686, 34.53615323211596]
+            },
+            'properties': {
+                'title': '大鳥大社',
+                'address': '日本武尊（やまとたけるのみこと）をお祀りする和泉の国一宮',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.42778756170287, 34.48702163738295]
+            },
+            'properties': {
+                'title': '泉井上神社',
+                'address': '“和泉”の地名発祥の地 ～和泉国総社～',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5517355002082, 34.50708188793665]
+            },
+            'properties': {
+                'title': '狭山池',
+                'address': '日本最古のダム式ため池（人工池）とされ、国の史跡に指定されている',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.64402828739443, 34.50082074663967]
+            },
+            'properties': {
+                'title': '近つ飛鳥',
+                'address': '奈良の飛鳥は「遠つ飛鳥」と言い、大阪・羽曳野市、太子町の二上山西側の山麓一帯を「近つ飛鳥」と言う',
+                'date': '',
+                'zoom': 15.5,
             }
         }
     ]

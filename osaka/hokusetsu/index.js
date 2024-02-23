@@ -44,7 +44,7 @@ const osakaHokusetsu = {
                 'title': '新屋坐天照御魂神社',
                 'address': '創建以来二千百年を有する摂津国屈指の長い歴史と高い社格を誇る名神大社',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 17,
             }
         },
         {
@@ -138,7 +138,7 @@ const osakaHokusetsu = {
                 'title': '五月山公園',
                 'address': 'ウォンバットやワラビーがいる動物園を併設する総合公園。<br>近くには五月山緑地都市緑化植物園も。',
                 'date': '',
-                'zoom': 15,
+                'zoom': 15.5,
             }
         },
         {
@@ -186,7 +186,7 @@ const osakaHokusetsu = {
                 'title': '希望ケ丘',
                 'address': '',
                 'date': '',
-                'zoom': 12.5,
+                'zoom': 15,
             }
         },
         {
@@ -200,7 +200,7 @@ const osakaHokusetsu = {
                 'title': '水と緑の健康都市（箕面森町）',
                 'address': '',
                 'date': '',
-                'zoom': 12,
+                'zoom': 15,
             }
         },
         {
@@ -242,7 +242,7 @@ const osakaHokusetsu = {
                 'title': '神峯山の森',
                 'address': '神峯山の森 自然園 | 日本最初毘沙門天 大阪府高槻市 神峯山寺',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 15,
             }
         }
     ]
