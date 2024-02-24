@@ -10,13 +10,14 @@
         "google": "https://maps.app.goo.gl/ZFWsMC3w7ymTkYzP6",
         "text": [
             "八尾市屈指のパワースポット",
-            "境内に、国指定の天然記念物「長鳴鶏（ながなきどり）」が自由に歩き回っている",
+            "境内で、国指定の天然記念物「<ruby>長鳴鶏<rp>（</rp><rt>ながなきどり</rt><rp>）</rp></ruby>」が飼われている",
             "",
             "<u>アクセス</u><br>近鉄信貴線「服部川」から徒歩約30分<br>近鉄 大阪難波→服部川（約25分）"
         ]
     },
     "links": [
-        "<a href='https://www.kawati-tamanooya.net/' target='_blank'>河内国（大阪府八尾市）　玉祖神社</a>"
+        "<a href='https://www.kawati-tamanooya.net/' target='_blank'>河内国（大阪府八尾市）　玉祖神社</a>",
+        "<a href='http://www.yaomania.jp/data/InfoDetail.asp?id=1442' target='_blank'>たまのおやじんじゃ 玉祖神社</a>"
     ],
     "width": "0.575",
     "height": "1",

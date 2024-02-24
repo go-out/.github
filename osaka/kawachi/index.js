@@ -109,29 +109,14 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.6526278839939, 34.63485636718433]
+                'coordinates': [135.64679168150087, 34.60504326912111]
             },
             'properties': {
-                'title': '玉祖神社',
-                'address': '',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
-                'zoom': 17,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.63864143081364, 34.606506469571634]
-            },
-            'properties': {
-                'title': '恩智神社（天川山）',
-                'address': '',
+                'title': '天川山',
+                'address': '恩智神社・天照大神高座神社・岩戸神社の神体山、神奈備の山',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
-                'zoom': 17,
+                'zoom': 15.5,
             }
         },
         {
@@ -158,7 +143,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '志貴縣主神社',
-                'address': '河内國総社',
+                'address': '世界遺産に登録された古墳が点在するエリア「古市古墳群」の北端に鎮座する河内國総社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=shikiagatanushi',
                 'zoom': 17.5,
@@ -188,6 +173,20 @@ const osakaKawachi = {
             'properties': {
                 'title': '志紀駅前自転車駐車場 レンタサイクル',
                 'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6232827357621, 34.58681423656017]
+            },
+            'properties': {
+                'title': '柏原駅東自転車・柏原駅西口第２駐輪場 レンタサイクル',
+                'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
                 'date': '',
                 'zoom': 16.5,
             }
