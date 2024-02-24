@@ -116,7 +116,6 @@ const osakaKawachi = {
                 'address': '',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
-                'date': '',
                 'zoom': 17,
             }
         },
