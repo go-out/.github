@@ -6,6 +6,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.48714829301508, 34.61643500323687]
@@ -20,6 +21,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47722843823783, 34.62360491707443]
@@ -34,6 +36,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4327054373283, 34.65756057444443]
@@ -48,6 +51,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.43561508622975, 34.65327525828587]
@@ -62,6 +66,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4793856742926, 34.66324891101114]
@@ -76,6 +81,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4758149813568, 34.650945663281405]
@@ -90,6 +96,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.41694068490813, 34.637270189434446]
@@ -104,6 +111,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.41224654589848, 34.638458524390046]
@@ -118,6 +126,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.42742249526572, 34.631541648142914]
@@ -132,6 +141,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.40136318459807, 34.66735012807329]
@@ -146,6 +156,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4672181579083, 34.60992977398145]
@@ -160,6 +171,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4722416402319, 34.6082822101027]
@@ -174,20 +186,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.46571318314668, 34.682470008700115]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '阪神西九条駅東棟B駐輪場',
-                'date': '<a href="https://maps.app.goo.gl/6yFMNfBWfFFQqAWP8" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.46042671655556, 34.66982106364067]
@@ -202,6 +201,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4612218445896, 34.67107463855454]
@@ -216,6 +216,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49421088434414, 34.66720436101012]
@@ -230,6 +231,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49383316799833, 34.66327330217262]
@@ -244,6 +246,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.50511659258112, 34.65392065976967]
@@ -258,6 +261,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4955860387543, 34.63590749270175]
@@ -272,6 +276,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4979288197241, 34.63386008368717]
@@ -286,76 +291,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4844157504512, 34.68436602217986]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'シャトー江之子島',
-                'date': '<a href="https://maps.app.goo.gl/hVD7jvCUKrv3LNVA9" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47496443868317, 34.68892222072288]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'JR野田駅',
-                'date': '<a href="https://maps.app.goo.gl/oaBtSQ8zZEAss1BTA" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47697700923132, 34.69056374650388]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'JR野田駅高架下',
-                'date': '<a href="https://maps.app.goo.gl/YbbzoafMGwhN8TPp6" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49423754246595, 34.70299750070296]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'JR大阪駅',
-                'date': '<a href="https://maps.app.goo.gl/eMJZCpDx9k5ugWWR9" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.50529338545218, 34.693251130934]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '京阪電鉄なにわ橋駅',
-                'date': '<a href="https://maps.app.goo.gl/g7Kp5nNJyCXLrh1h8" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51465136083283, 34.62886872201646]
@@ -370,6 +306,82 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4844157504512, 34.68436602217986]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'シャトー江之子島',
+                'date': '<a href="https://maps.app.goo.gl/hVD7jvCUKrv3LNVA9" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'kita',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47496443868317, 34.68892222072288]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'JR野田駅',
+                'date': '<a href="https://maps.app.goo.gl/oaBtSQ8zZEAss1BTA" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'kita',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47697700923132, 34.69056374650388]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'JR野田駅高架下',
+                'date': '<a href="https://maps.app.goo.gl/YbbzoafMGwhN8TPp6" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'kita',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49423754246595, 34.70299750070296]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'JR大阪駅',
+                'date': '<a href="https://maps.app.goo.gl/eMJZCpDx9k5ugWWR9" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'kita',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50529338545218, 34.693251130934]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': '京阪電鉄なにわ橋駅',
+                'date': '<a href="https://maps.app.goo.gl/g7Kp5nNJyCXLrh1h8" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51179788897088, 34.60781597738438]
@@ -384,6 +396,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.52839413388398, 34.60965568170268]
@@ -398,6 +411,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51296774737094, 34.59932319672176]
@@ -412,6 +426,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.55281641918594, 34.60802022487452]
@@ -426,6 +441,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.54846872221714, 34.621066469619606]
@@ -440,6 +456,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.5280508928695, 34.65858488743922]
@@ -454,6 +471,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.52277104745752, 34.64716788403719]
@@ -468,6 +486,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.53863644418288, 34.654900982093494]
@@ -482,6 +501,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.48350660329783, 34.57400137727092]
@@ -496,6 +516,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.48417657685388, 34.56025894065921]
@@ -510,6 +531,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.48097306439752, 34.55997540272989]
@@ -524,6 +546,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.48064008585237, 34.55615312950495]
@@ -538,6 +561,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.48823642434303, 34.55767960966507]
@@ -552,6 +576,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49214029486473, 34.56537928623838]
@@ -566,6 +591,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.50076256353805, 34.57109576454582]
@@ -580,6 +606,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49831246340426, 34.57017773732255]
@@ -594,34 +621,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51383468398967, 34.56696456108931]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '新金岡第一①',
-                'date': '<a href="https://maps.app.goo.gl/QomRbkD2NeZtZM6t8" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51432992046614, 34.567204771760174]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': '新金岡第一②',
-                'date': '<a href="https://maps.app.goo.gl/RqDRgidQ7VsD4e5L7" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.50549497973276, 34.55574906470024]
@@ -636,6 +636,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
+            'area': 'sakai',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.5272509383252, 34.559199480196355]
