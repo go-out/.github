@@ -193,21 +193,6 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5359834816478, 34.654466425764554]
-            },
-            'properties': {
-                'title': '御勝山',
-                'address': '御勝山（おかちやま）古墳の後円部。標高14mの墳丘。<br>古墳の中央を勝山通が貫き、前方部は崩されて「御勝山南公園」になっています。',
-                'date': '',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',

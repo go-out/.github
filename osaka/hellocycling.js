@@ -471,7 +471,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
-            'area': 'minami',
+            'area': 'higashi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.53863644418288, 34.654900982093494]
