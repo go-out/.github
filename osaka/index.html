@@ -193,13 +193,6 @@
                     addMarker(osakaSumiyoshi.features)
                 });
             }
-            
-            let targets = document.querySelectorAll(".hello")
-            for (let i of targets) {
-                if (!i.dataset.area === paramArr.area) {
-                    i.remove()
-                }
-            }
         } else {
             center = [135.5020763952882, 34.69376772507822];
             bounds = [
@@ -281,6 +274,13 @@
 
             let year = now.getFullYear();
             document.querySelector('#copy time').innerHTML = year;
+            
+            let targets = document.querySelectorAll(".hello")
+            for (let i of targets) {
+                if (!i.dataset.area === paramArr.area) {
+                    i.remove()
+                }
+            }
         });
     </script>
 
