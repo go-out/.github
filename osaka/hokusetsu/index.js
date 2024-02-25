@@ -44,7 +44,7 @@ const osakaHokusetsu = {
                 'title': '新屋坐天照御魂神社',
                 'address': '創建以来二千百年を有する摂津国屈指の長い歴史と高い社格を誇る名神大社',
                 'date': '',
-                'zoom': 17,
+                'zoom': 16.5,
             }
         },
         {
@@ -132,7 +132,7 @@ const osakaHokusetsu = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4259890914081, 34.82966840145135]
+                'coordinates': [135.42898848190222, 34.83124468416658]
             },
             'properties': {
                 'title': '五月山公園',
@@ -186,7 +186,7 @@ const osakaHokusetsu = {
                 'title': '希望ケ丘',
                 'address': '',
                 'date': '',
-                'zoom': 15,
+                'zoom': 15.5,
             }
         },
         {
@@ -228,7 +228,7 @@ const osakaHokusetsu = {
                 'title': '若山神社',
                 'address': '大阪みどりの百選および大阪府指定天然記念物若山神社のツブラジイ林',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 16.5,
             }
         },
         {
