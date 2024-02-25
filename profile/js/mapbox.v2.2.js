@@ -36,27 +36,24 @@ let gooutArr = {
     ]
 }
 
+const urlParam = location.search.substring(1)
+
 // 地図にマーカーを追加
 function addMarker(arr) {
     for (const marker of arr) {
         const el = document.createElement('div');
         el.className = marker.tags;
         
-        if (marker.area) {
-            el.dataset.area = marker.area;
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
             
-            const areaID = location.search.substring(1)
-            if (areaID) {
-                let paramArr = [],
-                    param = areaID.split('&')
-                for (arr = 0; arr < param.length; arr++) {
-                    var paramItem = param[arr].split('=')
-                    paramArr[paramItem[0]] = paramItem[1]
-                }
-                
-                if (!el.dataset.area === paramArr.area) {
-                    el.remove()
-                }
+            if (!marker.area = paramArr.area) {
+                el.remove()
             }
         }
 
