@@ -6,6 +6,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4683060723225, 34.63517731681553]
@@ -21,6 +22,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.47073127754817, 34.64277744246536]
@@ -36,6 +38,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.48766396762267, 34.63834738227604]
@@ -51,6 +54,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49069376910768, 34.605548721710136]
@@ -66,6 +70,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'minami',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49530083077474, 34.625889056290276]
@@ -81,6 +86,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'onsen',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.43268008593316, 34.66123908022925]
@@ -96,6 +102,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51980129329303, 34.59733330978709]
@@ -111,6 +118,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51014620373593, 34.595204532511346]
@@ -126,6 +134,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.50906767737246, 34.60605473126556]
@@ -141,6 +150,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51589014458102, 34.621186349484475]
@@ -156,6 +166,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51861626834585, 34.617401159047745]
@@ -171,6 +182,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'onsen',
+            'area': 'higashi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.56867114551738, 34.664600084206]
@@ -186,6 +198,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'yu',
+            'area': 'sumiyoshi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.53025982543926, 34.60995172893384]
@@ -201,6 +214,7 @@ const osaka268 = {
         {
             'type': 'Feature',
             'tags': 'onsen',
+            'area': 'kawachi',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.63503968540863, 34.67267079813112]

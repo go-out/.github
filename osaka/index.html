@@ -274,6 +274,25 @@
                 });
             }
 
+            if (urlParam) {
+                let paramArr = [],
+                    param = urlParam.split('&')
+                for (arr = 0; arr < param.length; arr++) {
+                    var paramItem = param[arr].split('=')
+                    paramArr[paramItem[0]] = paramItem[1]
+                }
+
+                const allMarker = document.querySelectorAll('.hello')
+                allMarker.forEach(areaThis => {
+                    if (areaThis.dataset.area == paramArr.area) {
+                        areaThis.hidden = false;
+                    } else {
+                        areaThis.hidden = true;
+                        areaThis.remove()
+                    }
+                })
+            }
+
             let year = now.getFullYear();
             document.querySelector('#copy time').innerHTML = year;
         });
@@ -342,7 +361,7 @@
                 <a href="?area=sumiyoshi">住吉・長居エリア</a>
                 <a href="?area=bayarea">大阪ベイエリア</a>
                 <a href="?area=higashi">城北・城東・生野エリア</a>
-                <a href="?area=kawachi">河内長野エリア</a>
+                <a href="?area=kawachi">河内エリア</a>
                 <a href="?area=hokusetsu">北摂エリア</a>
                 <a href="?area=sakai">堺・泉北エリア</a>
                 <a href="?area=senshu">泉州エリア</a>
