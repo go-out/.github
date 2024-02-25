@@ -36,25 +36,14 @@ let gooutArr = {
     ]
 }
 
-const urlParam = location.search.substring(1)
-
 // 地図にマーカーを追加
 function addMarker(arr) {
     for (const marker of arr) {
         const el = document.createElement('div');
         el.className = marker.tags;
         
-        if (urlParam) {
-            let paramArr = [],
-                param = urlParam.split('&')
-            for (arr = 0; arr < param.length; arr++) {
-                var paramItem = param[arr].split('=')
-                paramArr[paramItem[0]] = paramItem[1]
-            }
-            
-            if (!marker.area = paramArr.area) {
-                el.remove()
-            }
+        if (marker.area) {
+            el.dataset.area = marker.area
         }
 
         if (!marker.properties.iconSize && marker.properties.youtube) {
