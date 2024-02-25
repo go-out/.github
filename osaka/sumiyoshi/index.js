@@ -164,7 +164,8 @@ const osakaSumiyoshi = {
             'properties': {
                 'title': '加賀屋新田会所跡',
                 'address': '現在は「加賀屋緑地」として市民公園として一般開放されている大阪市指定文化財・史跡の会所跡',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=kagayashindenkaisyoato',
                 'zoom': 16.5,
             }
         },
