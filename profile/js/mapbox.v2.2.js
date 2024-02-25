@@ -41,9 +41,9 @@ function addMarker(arr) {
     for (const marker of arr) {
         const el = document.createElement('div');
         el.className = marker.tags;
-        
+
         if (marker.area) {
-            el.dataset.area = marker.area
+            el.dataset.area = marker.area;
         }
 
         if (!marker.properties.iconSize && marker.properties.youtube) {

@@ -72,6 +72,8 @@
     <script src="senshu/index.js"></script>
     <script src="sumiyoshi/index.js"></script>
 
+    <script src="hellocycling.js"></script>
+    <script src="../relax/268/osaka/index.js"></script>
     <script>
         const now = new Date();
         let thismonth = now.getMonth() + 1;
@@ -272,11 +274,28 @@
                 });
             }
 
+            if (urlParam) {
+                let paramArr = [],
+                    param = urlParam.split('&')
+                for (arr = 0; arr < param.length; arr++) {
+                    var paramItem = param[arr].split('=')
+                    paramArr[paramItem[0]] = paramItem[1]
+                }
+
+                const markerAll = document.querySelectorAll('.hello')
+                markerAll.forEach(marker => {
+                    if (marker.dataset.area == paramArr.area) {
+                        marker.hidden = false;
+                    } else {
+                        marker.hidden = false;
+                    }
+                })
+            }
+
             let year = now.getFullYear();
             document.querySelector('#copy time').innerHTML = year;
         });
     </script>
-    <script src="../relax/268/osaka/index.js"></script>
 </head>
 
 <body>

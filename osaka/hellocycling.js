@@ -21,21 +21,6 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
-            'area': 'sumiyoshi',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47722843823783, 34.62360491707443]
-            },
-            'properties': {
-                'title': 'HELLO CYCLING',
-                'address': 'サイクルベースあさひ北加賀屋店',
-                'date': '<a href="https://maps.app.goo.gl/H4ngonKhXimYdKEM6" target="_blank">Google Map</a>',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'hello',
             'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
