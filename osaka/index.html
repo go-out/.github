@@ -274,22 +274,6 @@
 
             let year = now.getFullYear();
             document.querySelector('#copy time').innerHTML = year;
-            
-            if (urlParam) {
-                let paramArr = [],
-                    param = urlParam.split('&')
-                for (arr = 0; arr < param.length; arr++) {
-                    var paramItem = param[arr].split('=')
-                    paramArr[paramItem[0]] = paramItem[1]
-                }
-                
-                let targets = document.querySelectorAll(".hello")
-                for (let i of targets) {
-                    if (!i.dataset.area === paramArr.area) {
-                        i.remove()
-                    }
-                }
-            }
         });
     </script>
 
