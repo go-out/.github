@@ -52,6 +52,7 @@ article section {
 }
 
 article h3,
+article h3 a,
 article h4,
 article p {
     padding: 0.5rem;
