@@ -194,12 +194,10 @@
                 });
             }
             
-            let targets = document.querySelectorAll(".mapboxgl-marker")
+            let targets = document.querySelectorAll(".hello")
             for (let i of targets) {
-                if (i.dataset.area) {
-                    if (!i.dataset.area === paramArr.area) {
-                        i.remove()
-                    }
+                if (!i.dataset.area === paramArr.area) {
+                    i.remove()
                 }
             }
         } else {
