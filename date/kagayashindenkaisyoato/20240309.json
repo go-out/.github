@@ -28,9 +28,9 @@
     ],
     "link": [
         {
-            "text": "『加賀屋緑地：加賀屋新田会所跡』 | Facebook",
-            "url": "https://www.facebook.com/kagayashindenkaisyoato/?locale=ja_JP",
-            "target": "_blank"
+            "text": "加賀屋新田会所跡 Kagaya Shinden Kaisyoato",
+            "url": "../../relax/?id=legacy&area=osaka&name=kagayashindenkaisyoato",
+            "target": "_self"
         },
         {
             "text": "「和」にふれる催し「会所会（かいしょえ）」",
