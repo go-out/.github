@@ -1,0 +1,42 @@
+{
+    "title": "加賀屋新田会所跡",
+    "description": "加賀屋緑地",
+    "info": {
+        "title": "Kagaya Shinden Kaisyoato 🏡 Osaka, Japan",
+        "address": "大阪市住之江区南加賀屋４丁目",
+        "google": "https://maps.app.goo.gl/6JCrKVeLKmqD8Hkc7",
+        "text": [
+            "江戸時代<ruby>1754年<rp>（</rp><rt>宝暦4年</rt><rp>）</rp></ruby>に開発した新田を管理するために開かれ、大阪市内にただ一つ残る新田会所跡",
+            "敷地面積は4,822平方メートル（約1,500坪）に及び、財を惜しまずつくりあげた屋敷と庭園からなり、当時の豪商の文化度の高さや粋人ぶりがうかがえます。",
+            "",
+            "<b>会所会</b><br><u>毎年3月初旬</u><br>「和」にふれる催し「会所会（かいしょえ）」",
+            "",
+            "<u>アクセス</u><br>Osaka Metro 四つ橋線「住之江公園」から徒歩約15分"
+        ]
+    },
+    "links": [
+        "<a href='https://www.facebook.com/kagayashindenkaisyoato/?locale=ja_JP' target='_blank'>『加賀屋緑地：加賀屋新田会所跡』 | Facebook</a>",
+        "<a href='https://www.city.osaka.lg.jp/kyoiku/page/0000008888.html' target='_blank'>大阪市：加賀屋新田会所跡</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipOY3jqri1nsQHx_xJLCmiyUHpld4uRbXbjzUt5M",
+            "src": [
+                "AF1QipOY3jqri1nsQHx_xJLCmiyUHpld4uRbXbjzUt5M=m18",
+                "AF1QipPV9x4bdrW605vLbJG8uJ_uKgIJeUUpK7D6hqge=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipNGfM5NTcjGVaHc5u96FMReg4kVpEZzePUlmkSL",
+            "src": [
+                "AF1QipNGfM5NTcjGVaHc5u96FMReg4kVpEZzePUlmkSL=m18",
+                "AF1QipPUalbeZuDfWoBfU4Q37VIzwwlMBdMGif-PSkIo=m18"
+            ]
+        }
+    ]
+}
