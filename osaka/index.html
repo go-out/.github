@@ -193,6 +193,15 @@
                     addMarker(osakaSumiyoshi.features)
                 });
             }
+            
+            let targets = document.querySelectorAll(".mapboxgl-marker")
+            for (let i of targets) {
+                if (i.dataset.area) {
+                    if (!i.dataset.area === paramArr.area) {
+                        i.remove()
+                    }
+                }
+            }
         } else {
             center = [135.5020763952882, 34.69376772507822];
             bounds = [
