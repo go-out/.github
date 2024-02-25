@@ -60,7 +60,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '住吉公園 無料レンタサイクル',
-                'address': '貸出時間:午前8時30分から午後5時',
+                'address': '貸出時間 午前8時30分から午後5時',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
                 'zoom': 16.5,
@@ -148,7 +148,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '住之江公園 無料レンタサイクル',
-                'address': '貸出時間:午前8時30分から午後5時',
+                'address': '貸出時間 午前8時30分から午後5時',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=suminoe',
                 'zoom': 16.5,
@@ -163,7 +163,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '加賀屋新田会所跡',
-                'address': '現在は「加賀屋緑地」として市民公園として一般開放されている大阪市指定文化財・史跡の会所跡',
+                'address': '現在は市民公園「加賀屋緑地」として一般開放されている大阪市指定文化財・史跡の会所跡',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=kagayashindenkaisyoato',
                 'zoom': 16.5,
