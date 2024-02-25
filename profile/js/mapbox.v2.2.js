@@ -70,7 +70,7 @@ function addMarker(arr) {
 
         if (marker.feature) {
             for (const peak of marker.feature) {
-                if (peak.month === thismonth) {
+                if (peak.month === thismonth && peak.month === thismonth + 1) {
                     if (marker.properties.href) {
                         const p = document.createElement('p');
                         p.innerHTML = `
