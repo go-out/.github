@@ -274,24 +274,6 @@
                 });
             }
 
-            if (urlParam) {
-                let paramArr = [],
-                    param = urlParam.split('&')
-                for (arr = 0; arr < param.length; arr++) {
-                    var paramItem = param[arr].split('=')
-                    paramArr[paramItem[0]] = paramItem[1]
-                }
-
-                const markerAll = document.querySelectorAll('.hello')
-                markerAll.forEach(marker => {
-                    if (marker.dataset.area == paramArr.area) {
-                        marker.hidden = false;
-                    } else {
-                        marker.hidden = false;
-                    }
-                })
-            }
-
             let year = now.getFullYear();
             document.querySelector('#copy time').innerHTML = year;
         });

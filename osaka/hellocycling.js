@@ -638,4 +638,22 @@ const osakaCycling = {
 
 window.addEventListener("DOMContentLoaded", () => {
     addMarker(osakaCycling.features)
+
+    if (urlParam) {
+        let paramArr = [],
+            param = urlParam.split('&')
+        for (arr = 0; arr < param.length; arr++) {
+            var paramItem = param[arr].split('=')
+            paramArr[paramItem[0]] = paramItem[1]
+        }
+
+        const helloAll = document.querySelectorAll('.hello')
+        helloAll.forEach(helloEach => {
+            if (helloEach.dataset.area == paramArr.area) {
+                helloEach.hidden = false;
+            } else {
+                helloEach.hidden = true;
+            }
+        })
+    }
 });
