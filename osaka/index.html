@@ -82,6 +82,7 @@
             zoom;
 
         // ?area=エリア
+        const urlParam = location.search.substring(1)
         if (urlParam) {
             let paramArr = [],
                 param = urlParam.split('&')
