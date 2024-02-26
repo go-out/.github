@@ -15,7 +15,7 @@ const osakaChuo = {
                 'address': '日本という国号・元号の使用が始まったとされる、大阪が日本の都であったことを示す宮殿の跡',
                 'date': '',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 12.5,
+                'zoom': 14.5,
             }
         },
         {
@@ -23,13 +23,27 @@ const osakaChuo = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5284776711643, 34.686730199292036]
+                'coordinates': [135.5258453437511, 34.687312513628626]
             },
             'properties': {
                 'title': '大阪城',
                 'address': '梅林（1月~3月頃）桃園（3月中旬~4月下旬）あじさい・うつぎ園（5月末~7月上旬）',
                 'date': '',
-                'zoom': 13.5,
+                'zoom': 14.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4999269853856, 34.67872004066121]
+            },
+            'properties': {
+                'title': '難波神社',
+                'address': '心斎橋・御堂筋沿いにある、花菖蒲（はなしょうぶ）をご神紋とする神社',
+                'date': '',
+                'zoom': 18,
             }
         },
         {
@@ -43,25 +57,11 @@ const osakaChuo = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49856467616738, 34.680878954731824]
+                'coordinates': [135.49858988412362, 34.68094346807953]
             },
             'properties': {
                 'title': '坐摩神社',
                 'address': 'いかすりじんじゃ、通称ざまさん。番地が渡辺!?',
-                'date': '',
-                'zoom': 18,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4999269853856, 34.67872004066121]
-            },
-            'properties': {
-                'title': '難波神社',
-                'address': '心斎橋・御堂筋沿いにある、花菖蒲（はなしょうぶ）をご神紋とする神社',
                 'date': '',
                 'zoom': 18,
             }

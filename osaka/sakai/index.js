@@ -205,7 +205,7 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5517355002082, 34.50708188793665]
+                'coordinates': [135.5516245634371, 34.50717541668306]
             },
             'properties': {
                 'title': '狭山池',
@@ -225,7 +225,7 @@ const osakaSakai = {
                 'title': '近つ飛鳥',
                 'address': '奈良の飛鳥は「遠つ飛鳥」と言い、大阪・羽曳野市、太子町の二上山西側の山麓一帯を「近つ飛鳥」と言う',
                 'date': '',
-                'zoom': 15,
+                'zoom': 14.5,
             }
         }
     ]

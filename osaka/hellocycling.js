@@ -141,7 +141,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
-            'area': 'sumiyoshi',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4672181579083, 34.60992977398145]
@@ -156,7 +156,7 @@ const osakaCycling = {
         {
             'type': 'Feature',
             'tags': 'hello',
-            'area': 'sumiyoshi',
+            'area': 'bayarea',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4722416402319, 34.6082822101027]

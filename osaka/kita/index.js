@@ -52,7 +52,7 @@ const osakaKita = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.523221947113, 34.71172464587356]
+                'coordinates': [135.52321201539763, 34.71184263555778]
             },
             'properties': {
                 'title': '櫻宮御旅所',
@@ -220,7 +220,7 @@ const osakaKita = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49111174321513, 34.75373049002159]
+                'coordinates': [135.4908352966768, 34.75406864163798]
             },
             'properties': {
                 'title': 'リーニュ・ブランシュの庭',

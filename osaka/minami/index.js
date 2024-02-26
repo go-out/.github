@@ -105,7 +105,7 @@ const osakaMinami = {
                 'title': 'なんばパークス',
                 'address': '',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 16,
             }
         },
         {
