@@ -53,19 +53,6 @@
     let month = ('0' + (today.getMonth() + 1)).slice(-2)
     let day = today.getDate()
 
-    csvtojson('profile/01.csv')
-    csvtojson('profile/02.csv')
-    csvtojson('profile/03.csv')
-    csvtojson('profile/04.csv')
-    csvtojson('profile/05.csv')
-    csvtojson('profile/06.csv')
-    csvtojson('profile/07.csv')
-    csvtojson('profile/08.csv')
-    csvtojson('profile/09.csv')
-    csvtojson('profile/10.csv')
-    csvtojson('profile/11.csv')
-    csvtojson('profile/12.csv')
-
     document.addEventListener("readystatechange", (event) => {
       if (event.target.readyState === "interactive") {
         addMarker(gooutArr.features)
@@ -75,7 +62,6 @@
         eventsJSON("date/japan/osaka.json")
         eventsJSON("date/japan/nara.json")
         eventsJSON("date/japan/wakayama.json")
-        weWere()
       }
     })
   </script>
