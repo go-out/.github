@@ -40,19 +40,31 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
 
   <script src="profile/js/index.js"></script>
-  <script src="profile/js/mapbox.v2.2.js"></script>
   <script src="profile/js/findme.v1.js"></script>
-  <script src="profile/js/csvtojson.v1.js"></script>
+  <script src="profile/js/mapbox.v2.2.js"></script>
+  <script src="profile/js/csvtojson.v2.js"></script>
   <script src="date/all.js"></script>
   <script>
     let directory = "";
     annualJSON('date/japan/all.json')
-    csvtojson('profile/date/2024.csv')
 
     const today = new Date()
     let year = today.getFullYear()
     let month = ('0' + (today.getMonth() + 1)).slice(-2)
     let day = today.getDate()
+
+    csvtojson('profile/01.csv')
+    csvtojson('profile/02.csv')
+    csvtojson('profile/03.csv')
+    csvtojson('profile/04.csv')
+    csvtojson('profile/05.csv')
+    csvtojson('profile/06.csv')
+    csvtojson('profile/07.csv')
+    csvtojson('profile/08.csv')
+    csvtojson('profile/09.csv')
+    csvtojson('profile/10.csv')
+    csvtojson('profile/11.csv')
+    csvtojson('profile/12.csv')
 
     document.addEventListener("readystatechange", (event) => {
       if (event.target.readyState === "interactive") {

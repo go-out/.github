@@ -2,9 +2,8 @@
 mb_language("ja");
 mb_internal_encoding("UTF-8");
 
-$month = date("Ym");
-
-$source_file = 'profile/date/' . $month . '.csv';
+$month = date("m");
+$source_file = 'profile/' . $month . '.csv';
 $data = json_decode(file_get_contents("php://input"), true);
 $output = array(
     '"' . $data["timestamp"] . '"',
