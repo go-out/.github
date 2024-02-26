@@ -31,3 +31,15 @@ async function csvtojson(csv) {
             submitJson.features.push(thisMarker);
         });
 };
+
+function weWere() {
+    for (const weWere of submitJson.features) {
+        const storageOl = document.querySelector('#weWere')
+        const storageLi = document.createElement('li')
+        storageLi.innerHTML = `
+        <u class="goout">${weWere.properties.title}</u><br>
+        <p class="ja">${weWere.properties.date}</p>
+        `;
+        storageOl.appendChild(storageLi)
+    }
+}

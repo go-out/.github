@@ -59,15 +59,6 @@ function addMarker(arr) {
             el.style.backgroundImage = `url(${url})`;
         }
 
-        if (marker.tags === 'submit') {
-            const p = document.createElement('p');
-            document.querySelector('#list').appendChild(p);
-            p.innerHTML = `
-            <u>${marker.properties.title}</u><br>
-            <strong>${marker.properties.date}</strong>
-            `;
-        }
-
         if (marker.feature) {
             for (const peak of marker.feature) {
                 if (peak.month === thismonth) {

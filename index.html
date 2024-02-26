@@ -42,10 +42,12 @@
   <script src="profile/js/index.js"></script>
   <script src="profile/js/mapbox.v2.2.js"></script>
   <script src="profile/js/findme.v1.js"></script>
+  <script src="profile/js/csvtojson.v1.js"></script>
   <script src="date/all.js"></script>
   <script>
     let directory = "";
-    annualJSON("date/japan/all.json")
+    annualJSON('date/japan/all.json')
+    csvtojson('profile/date/2024.csv')
 
     const today = new Date()
     let year = today.getFullYear()
@@ -57,12 +59,56 @@
         addMarker(gooutArr.features)
         document.querySelector('#copy time').innerHTML = year;
       } else if (event.target.readyState === "complete") {
+        addMarker(submitJson.features)
         eventsJSON("date/japan/osaka.json")
         eventsJSON("date/japan/nara.json")
         eventsJSON("date/japan/wakayama.json")
+        weWere()
       }
     })
   </script>
+  <style>
+    ol li::marker,
+    ol li.goout::before {
+      color: lightskyblue;
+    }
+
+    ol li::marker {
+      font-family: "Kristina", "KikaiChokoku", cursive;
+    }
+
+    ol {
+      padding: 0.25rem;
+      margin: 0;
+    }
+
+    ol li {
+      padding: 0.5rem;
+    }
+
+    ol li::marker,
+    ol li.goout::before {
+      font-size: 150%;
+    }
+
+    ol li p {
+      font-size: 125%;
+    }
+
+    ol {
+      display: flex;
+      flex-flow: row-reverse;
+      list-style: decimal inside;
+      overflow-x: auto;
+      width: 100%;
+      max-height: 100vw;
+    }
+
+    ol li {
+      flex: 0 0 auto;
+      writing-mode: vertical-rl;
+    }
+  </style>
 </head>
 
 <body>
@@ -89,12 +135,13 @@
   <div id="map"></div>
 
   <article id="annual">
-    <nav class="goout"></nav>
     <h4 id="thismonth" class="goout">
       <small>What will Happen on This Month</small><br>
       <strong>今月</strong> の 出来事
     </h4>
+    <nav class="goout"></nav>
   </article>
+  <ol id="weWere"></ol>
   <p>
     <small id="copy" class="goout">
       Copyright © 2021 -
