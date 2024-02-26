@@ -61,6 +61,7 @@
         document.querySelector('#copy time').innerHTML = year;
       } else if (event.target.readyState === "complete") {
         addMarker(submitJson.features)
+        eventsJSON("date/japan/all.json")
         eventsJSON("date/japan/osaka.json")
         eventsJSON("date/japan/nara.json")
         eventsJSON("date/japan/wakayama.json")
