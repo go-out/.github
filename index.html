@@ -47,6 +47,7 @@
   <script>
     let directory = "";
     annualJSON('date/japan/all.json')
+    csvtojson('profile/02.csv')
 
     const today = new Date()
     let year = today.getFullYear()
@@ -62,6 +63,7 @@
         eventsJSON("date/japan/osaka.json")
         eventsJSON("date/japan/nara.json")
         eventsJSON("date/japan/wakayama.json")
+        weWere()
       }
     })
   </script>
