@@ -1,0 +1,31 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "url": "shoryue/",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "4月22日 12時30分～ 聖霊会",
+            "url": "https://www.shitennoji.or.jp/%E8%81%96%E9%9C%8A%E4%BC%9A%E8%88%9E%E6%A5%BD%E5%A4%A7%E6%B3%95%E8%A6%81/",
+            "target": "_blank"
+        },
+        {
+            "text": "聖霊会の舞楽｜文化遺産データベース",
+            "url": "https://bunka.nii.ac.jp/db/heritages/detail/136637",
+            "target": "_blank"
+        },
+        {
+            "text": "聖霊会の舞楽｜文化デジタルライブラリー",
+            "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc27/genre/toraigei-butaigei/bugaku/arts09.html",
+            "target": "_blank"
+        }
+    ]
+}

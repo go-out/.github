@@ -16,6 +16,10 @@ article h3 strong {
     text-decoration: lightskyblue wavy underline;
 }
 
+nav {
+    font-size: 200%;
+}
+
 article h4 {
     font-size: 150%;
 }

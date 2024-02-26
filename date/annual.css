@@ -1,0 +1,101 @@
+nav {
+    position: sticky;
+    top: 0;
+}
+
+#annual article,
+nav {
+    display: flex;
+    flex-flow: wrap;
+    gap: 0.25rem;
+}
+
+#annual section {
+    flex: 1 450px;
+}
+
+#thismonth {
+    width: 100%;
+}
+
+h1#thismonth,
+aside {
+    padding: 1rem;
+    margin: 0;
+}
+
+#thismonth,
+nav,
+#annual,
+#annual section {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+#annual section u,
+nav label {
+    padding: 0.25rem;
+}
+
+#annual section p,
+#annual section h3 {
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+#annual section {
+    line-height: 200%;
+}
+
+nav label {
+    letter-spacing: 0.1rem;
+}
+
+#thismonth strong {
+    letter-spacing: 0.25rem;
+}
+
+#thismonth {
+    font-size: 175%;
+}
+
+aside b {
+    font-size: 150%;
+}
+
+#thismonth small {
+    color: skyblue;
+    text-decoration: underline wavy skyblue;
+}
+
+#annual section u,
+nav label {
+    background: lemonchiffon;
+    border: 0.1rem solid skyblue;
+    border-radius: 0.25rem;
+}
+
+
+#annual section a,
+#annual section u {
+    text-decoration: none;
+}
+
+#annual section u {
+    color: skyblue;
+
+}
+
+#annual article[hidden],
+nav input {
+    display: none;
+}
+
+nav label:hover {
+    cursor: pointer;
+}
+
+nav input:checked+label {
+    background: skyblue;
+    color: lemonchiffon;
+}

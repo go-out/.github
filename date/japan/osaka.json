@@ -11,13 +11,13 @@
                 },
                 {
                     "title": "修正会結願法要「どやどや」 Doya Doya",
-                    "venue": "四天王寺 南大門広場 Shitennoji Temple",
-                    "date": " 毎年一月十四日 14時〜15:30頃"
+                    "venue": "四天王寺 Shitennoji",
+                    "date": " 一月十四日 January 14th"
                 },
                 {
                     "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
                     "venue": "難波八阪神社 Nambayasaka Shrine",
-                    "date": "毎年一月第三日曜日 Third Sunday of January",
+                    "date": "一月第三日曜日 Third Sunday of January",
                     "link": "date/tsunahiki-shingi/"
                 }
             ]
@@ -29,18 +29,18 @@
                 {
                     "title": "節分やくよけ星まつり祈願祭（火渡り供養）",
                     "venue": "聖天山正圓寺 Shoenji",
-                    "date": "毎年二月一日 十四時から"
+                    "date": "二月一日 十四時から"
                 },
                 {
                     "title": "初牛大祭「音頭奉納・福餅まき」 Ondo Hōnō and Mochi-maki",
                     "venue": "瓢箪山稲荷神社 Hyoutan-yama Inari",
-                    "date": "毎年二月初午 Day of the horse in February (Hatsuuma)",
+                    "date": "二月初午 Day of the horse in February (Hatsuuma)",
                     "link": "date/hyotanyama-hatsuushi/"
                 },
                 {
                     "title": "鵜殿のヨシ原焼き Udono Yoshiharayaki",
                     "venue": "高槻市鵜殿 Takatsuki Osaka",
-                    "date": "毎年二月中頃 日曜日 Third Sunday of February",
+                    "date": "二月中頃 日曜日 Third Sunday of February",
                     "link": "date/udono-yoshihara/"
                 }
             ]
@@ -52,7 +52,7 @@
                 {
                     "title": "会所会 Kaisyoe",
                     "venue": "加賀屋新田会所跡 Kagaya Shinden Kaisyoato",
-                    "date": "毎年三月初旬 Early March",
+                    "date": "三月初旬 Early March",
                     "link": "date/kagayashindenkaisyoato/"
                 }
             ]
@@ -62,24 +62,24 @@
             "en": "April",
             "events": [
                 {
-                    "title": "神楽祭",
-                    "venue": "佐備神社",
-                    "date": "４月４日 浪速神楽を一日かけて奉奏"
+                    "title": "神楽祭 Kagura Festival",
+                    "venue": "佐備神社 Sabi Jinja",
+                    "date": "四月四日 April 4th"
                 },
                 {
-                    "title": "聖霊会の舞楽 Shōryōe Gagaku",
-                    "venue": "四天王寺 Shitennoji Temple",
-                    "date": "毎年4月22日（聖徳太子の命日：本来は旧暦の2月22日）"
+                    "title": "聖霊会の舞楽 Shoryoe Bugaku",
+                    "venue": "四天王寺 Shitennoji",
+                    "date": "四月二十二日 April 22th"
                 },
                 {
-                    "title": "鎮花祭",
-                    "venue": "大阪天満宮",
-                    "date": "４月２５日 榊講有志奉納舞（１３：００）"
+                    "title": "鎮花祭 Chinka Festival",
+                    "venue": "大阪天満宮 Osaka Temmangu",
+                    "date": "四月二十五日 April 25th"
                 },
                 {
                     "title": "大般若会（八尾地蔵お練供養）",
-                    "venue": "常光寺",
-                    "date": "毎年４月最終日曜日午後3時より開催（予定）"
+                    "venue": "常光寺 Jyokouji",
+                    "date": "四月最終日曜日 Last Sunday of April"
                 }
             ]
         },
@@ -90,17 +90,17 @@
                 {
                     "title": "春季大法要大般若六百巻転読法要（火渡り供養）",
                     "venue": "聖天山正圓寺 Shoenji",
-                    "date": "毎年五月一日 十四時から"
+                    "date": "五月一日 十四時から"
                 },
                 {
-                    "title": "万部おねり",
-                    "venue": "大念佛寺",
-                    "date": "毎年5月1日から5日"
+                    "title": "万部おねり Manbu Oneri",
+                    "venue": "大念佛寺 Dai Nenbutsu-ji",
+                    "date": "五月一日から五日 May 1st to 5th"
                 },
                 {
                     "title": "まくらまつり",
                     "venue": "日根神社",
-                    "date": "毎年5月4日・5日"
+                    "date": "五月四日・五日"
                 },
                 {
                     "title": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
@@ -121,12 +121,12 @@
                 {
                     "title": "菖蒲神事 しょうぶしんじ（あやめ祭）",
                     "venue": "難波神社",
-                    "date": "６月８日 １１：００ 菖蒲を刈り取る所作のある神楽「菖蒲刈り」が二人の巫女によって舞われます。"
+                    "date": "六月八日 １１：００ 菖蒲を刈り取る所作のある神楽「菖蒲刈り」が二人の巫女によって舞われます。"
                 },
                 {
                     "title": "愛染まつり",
                     "venue": "愛染堂勝鬘院",
-                    "date": "毎年6月30日から7月2日"
+                    "date": "六月三十日"
                 }
             ]
         },
@@ -137,12 +137,12 @@
                 {
                     "title": "愛染まつり",
                     "venue": "愛染堂勝鬘院",
-                    "date": "毎年6月30日から7月2日"
+                    "date": "七月一日・二日"
                 },
                 {
                     "title": "千日まいり",
                     "venue": "野崎観音",
-                    "date": "毎年7月9日"
+                    "date": "七月九日"
                 },
                 {
                     "title": "生國魂祭",
@@ -152,22 +152,22 @@
                 {
                     "title": "夏季大祭（布団太鼓）",
                     "venue": "玉祖神社（たまのおやじんじゃ）",
-                    "date": "毎年7月中頃(15日、16日に近い土日)"
+                    "date": "七月中頃 (15日、16日に近い土日)"
                 },
                 {
                     "title": "ひょうたん山音頭大会",
                     "venue": "瓢箪山稲荷神社",
-                    "date": "毎年7月17日～7月18日 17:00~21:00"
+                    "date": "七月十七日・十八日 17:00~21:00"
                 },
                 {
                     "title": "住之江区民まつり",
                     "venue": "住之江区役所北側広場",
-                    "date": "毎年7月第二土曜日 18:30 区民総おどり"
+                    "date": "七月第二土曜日 18:30 区民総おどり"
                 },
                 {
                     "title": "太平寺夏まつり",
                     "venue": "石神社",
-                    "date": "7月第2土日曜日（7月中旬）"
+                    "date": "七月第二土日曜日（7月中旬）"
                 },
                 {
                     "title": "サマーフェスタ（盆踊り）",

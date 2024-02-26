@@ -1,0 +1,14 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "url": "chinka/",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 'use strict'
 
-const now = new Date();
+const now = new Date()
 let thismonth = now.getMonth() + 1;
 
 async function annualJSON(requestURL) {
@@ -30,7 +30,7 @@ function annualAll(obj) {
 
         const label = document.createElement('label')
         label.setAttribute('for', eachMonth.en)
-        label.textContent = eachMonth.month + '月'
+        label.textContent = eachMonth.month + '月';
         document.querySelector('nav').appendChild(label)
 
         const article = document.createElement('article')
@@ -50,8 +50,8 @@ function annualAll(obj) {
 
     for (let i of filter) {
         i.addEventListener('change', () => {
-            let thisMonth = document.querySelector("h1 strong")
-            let thisEn = document.querySelector("h1 small")
+            let thisMonth = document.querySelector("#thismonth strong")
+            let thisEn = document.querySelector("#thismonth small")
             let thiLabel = document.querySelector(`nav label[for='${i.value}']`)
             for (let ii of targets) {
                 if (i.value === ii.dataset.id) {
@@ -74,12 +74,21 @@ function eventAll(obj) {
                 document.querySelector(`article[data-id="${eachMonth.en}"]`).appendChild(section)
 
                 const p = document.createElement('p')
+                p.className = 'ja';
                 section.appendChild(p)
-                p.innerHTML = `<u>${eachEvent.date}</u><br>${eachEvent.venue}`;
+                p.innerHTML = `<u>${eachEvent.date}</u><br><i>${eachEvent.venue}</i>`;
 
-                const h2 = document.createElement('h2')
-                section.appendChild(h2)
-                h2.textContent = eachEvent.title;
+                const h3 = document.createElement('h3')
+                h3.className = 'goout';
+                section.appendChild(h3)
+                if (eachEvent.link) {
+                    const a = document.createElement('a')
+                    a.href = directory + eachEvent.link;
+                    a.textContent = eachEvent.title;
+                    h3.appendChild(a)
+                } else {
+                    h3.textContent = eachEvent.title;
+                }
             }
         }
     }

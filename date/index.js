@@ -114,7 +114,7 @@ function videoAll(obj) {
         captions.src = obj.video[n].track;
         video.load()
         video.play()
-        playBtn.value = '▶️ ' + obj.video[n].title;
+        playBtn.value = '⏸️ ' + obj.video[n].title;
     }, false);
 
     playBtn.addEventListener('click', function () {

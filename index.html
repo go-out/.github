@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="profile/css/index.css">
   <link rel="stylesheet" href="profile/css/marker.css">
   <link rel="stylesheet" href="profile/css/popup.css">
-  <link rel="stylesheet" href="profile/css/article.css">
+  <link rel="stylesheet" href="date/annual.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,25 +42,24 @@
   <script src="profile/js/index.js"></script>
   <script src="profile/js/mapbox.v2.2.js"></script>
   <script src="profile/js/findme.v1.js"></script>
-  <script src="profile/js/csvtojson.v1.js"></script>
+  <script src="date/all.js"></script>
   <script>
-    let directory = ""
+    let directory = "";
+    annualJSON("date/japan/all.json")
 
     const today = new Date()
     let year = today.getFullYear()
     let month = ('0' + (today.getMonth() + 1)).slice(-2)
     let day = today.getDate()
 
-    // CSVファイルの情報をJSONに追加 (csvtojson.js)
-    csvtojson('profile/date/2023.csv')
-    csvtojson('profile/date/2024.csv')
-
     document.addEventListener("readystatechange", (event) => {
       if (event.target.readyState === "interactive") {
+        addMarker(gooutArr.features)
         document.querySelector('#copy time').innerHTML = year;
       } else if (event.target.readyState === "complete") {
-        addMarker(gooutArr.features)
-        addMarker(submitJson.features)
+        eventsJSON("date/japan/osaka.json")
+        eventsJSON("date/japan/nara.json")
+        eventsJSON("date/japan/wakayama.json")
       }
     })
   </script>
@@ -89,10 +88,20 @@
 
   <div id="map"></div>
 
-  <article>
-    <nav class="ja">私（わたしたち）がいた場所</nav>
-    <section id="list" class="goout"></section>
+  <article id="annual">
+    <nav class="goout"></nav>
+    <h4 id="thismonth" class="goout">
+      <small>What will Happen on This Month</small><br>
+      <strong>今月</strong> の 出来事
+    </h4>
   </article>
+  <p>
+    <small id="copy" class="goout">
+      Copyright © 2021 -
+      <time></time>
+      You. (Not) All Rights Reserved.
+    </small>
+  </p>
 
   <main hidden>
     <div id="player"></div>
@@ -109,12 +118,6 @@
         <small>このウェブサイトに投稿された位置情報を使って、私（わたしたち）がいた場所を集めた様々な地図を作成します。</small>
       </summary>
       <ul></ul>
-      <small>
-        Site Development by
-        <strong>
-          <a href="https://creative-community.space/">creative-community.space</a>
-        </strong>
-      </small>
     </details>
 
     <h3 class="relax">
@@ -140,11 +143,12 @@
       <label class="relax" for="comment">Add A Comment コメントを追加</label>
       <textarea name="comment" id="comment" class="goout" rows="7.5"
         placeholder="現在地情報にコメントを追加する場合は、ここにコメントを入力ください。"></textarea>
-
-      <small id="copy" class="goout">
-        Copyright © 2021 -
-        <time></time>
-        You. (Not) All Rights Reserved.
+      <br>
+      <small class="goout">
+        Site Development by
+        <strong>
+          <a href="https://creative-community.space/">creative-community.space</a>
+        </strong>
       </small>
     </form>
   </dialog>

@@ -1,0 +1,31 @@
+{
+    "date": "YYYY.MM.DD (WEEK)",
+    "url": "sabijinja/",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "チャプタータイトル",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "祭典・年中行事 | 佐備神社",
+            "url": "https://sabijinja.site/%E7%A5%AD%E4%BA%8B%E3%81%A8%E5%B9%B4%E4%B8%AD%E8%A1%8C%E4%BA%8B",
+            "target": "_blank"
+        },
+        {
+            "text": "冨永流浪速神楽",
+            "url": "https://sabijinja.site/%E7%A5%9E%E5%89%8D%E7%A5%9E%E6%A5%BD",
+            "target": "_blank"
+        },
+        {
+            "text": "神楽いろいろ",
+            "url": "https://sabijinja.site/archives/350",
+            "target": "_blank"
+        }
+    ]
+}
