@@ -54,6 +54,21 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.65056489437342, 34.66990689214751]
+            },
+            'properties': {
+                'title': '枚岡神社',
+                'address': '神津嶽をご神体とする、神様の御霊が一杯の「神気」に満ちた神社',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.65348645663857, 34.726421477272304]
             },
             'properties': {
@@ -76,31 +91,6 @@ const osakaKawachi = {
                 'address': 'JR野崎駅から徒歩約5分、数百段はあろうかという階段の上にある曹洞宗の禅寺',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nozakikannon',
-                'zoom': 17,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'feature': [
-                {
-                    'month': 2,
-                    'text': '境内にある枚岡梅林（かおり風景100選）は、2月中旬から3月中旬が見頃'
-                },
-                {
-                    'month': 3,
-                    'text': '境内にある枚岡梅林（かおり風景100選）は、2月中旬から3月中旬が見頃'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.65056489437342, 34.66990689214751]
-            },
-            'properties': {
-                'title': '枚岡神社',
-                'address': '神津嶽をご神体とする、神様の御霊が一杯の「神気」に満ちた神社',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
                 'zoom': 17,
             }
         },
