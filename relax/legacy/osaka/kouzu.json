@@ -1,5 +1,5 @@
 {
-    "title": "高津宮 こうづぐう",
+    "title": "高津宮・高津公園",
     "description": "2024年2月27日 の 高津宮・高津公園",
     "year": "2024",
     "month": "2",
@@ -9,6 +9,8 @@
         "address": "大阪市中央区高津１丁目１−２９",
         "google": "https://maps.app.goo.gl/VAJakjjcc6raUk959",
         "text": [
+            "<ruby>1921年<rp>（</rp><rt>大正10年</rt><rp>）</rp></ruby>に制定された大阪市歌の一番「高津の宮の昔より……」で歌われる、由緒あるお宮",
+            "<small>高津宮の境内には、大阪市歌の碑があります。</small><br>",
             "狂言・古典落語の舞台にもなった、由緒あるお宮<br><small>境内の参集殿「高津の富亭」では、落語の寄席や文楽などが定期的に開催されます</small>",
             "北側に隣接する高津公園は、中央区の花「梅」の名所（例年2月中旬から下旬が見頃）",
             "",
@@ -16,7 +18,8 @@
         ]
     },
     "links": [
-        "<a href='https://kouzu.or.jp/' target='_blank'>高津宮（高津神社）～大阪市中央区高津～</a>"
+        "<a href='https://kouzu.or.jp/' target='_blank'>高津宮（高津神社）～大阪市中央区高津～</a>",
+        "<a href='https://www.city.osaka.lg.jp/seisakukikakushitsu/page/0000028864.html' target='_blank'>大阪市：市歌 </a>"
     ],
     "width": "0.575",
     "height": "1",
