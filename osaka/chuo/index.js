@@ -5,6 +5,32 @@ const osakaChuo = {
     'features': [
         {
             'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 2,
+                    'text': '高津宮の北側に隣接する高津公園の梅林は、中央区の花「梅」の名所（例年2月中旬から3月中旬が見頃）'
+                },
+                {
+                    'month': 3,
+                    'text': '高津宮の北側に隣接する高津公園の梅林は、中央区の花「梅」の名所（例年2月中旬から3月中旬が見頃）'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5138989318507, 34.66881262520526]
+            },
+            'properties': {
+                'title': '高津宮',
+                'address': '大阪市歌の一番で歌われる、由緒あるお宮<br>「高津の宮の昔より、よよの栄を重ねきて、民のかまどに立つ煙」',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=kouzu',
+                'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'geometry': {
                 'type': 'Point',
