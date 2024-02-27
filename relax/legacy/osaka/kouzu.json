@@ -6,20 +6,24 @@
     "day": "27",
     "info": {
         "title": "Kouzugu 🇯🇵 Osaka, Japan",
-        "address": "大阪市中央区高津１丁目１−２９",
+        "address": "大阪市中央区高津１丁目１",
         "google": "https://maps.app.goo.gl/VAJakjjcc6raUk959",
         "text": [
-            "<ruby>1921年<rp>（</rp><rt>大正10年</rt><rp>）</rp></ruby>に制定された大阪市歌の一番「高津の宮の昔より……」で歌われる、由緒あるお宮",
-            "<small>高津宮の境内には、大阪市歌の碑があります。</small><br>",
-            "狂言・古典落語の舞台にもなった、由緒あるお宮<br><small>境内の参集殿「高津の富亭」では、落語の寄席や文楽などが定期的に開催されます</small>",
-            "北側に隣接する高津公園は、中央区の花「梅」の名所（例年2月中旬から下旬が見頃）",
+            "<ruby>1921年<rp>（</rp><rt>大正10年</rt><rp>）</rp></ruby>に制定された大阪市歌の一番で歌われる、由緒あるお宮",
+            "<small>高津宮の境内には、大阪市歌の碑があります。</small><br>高津の宮の昔より、よよの栄を重ねきて、民のかまどに立つ煙<br>にぎわいまさる 大阪市、にぎわいまさる 大阪市<br>",
+            "古典落語「高津の富」「高倉狐」「祟徳院」や、夏狂言の代表作「<ruby>夏祭浪花鑑<rp>（</rp><rt>なつまつりなにわかがみ</rt><rp>）</rp></ruby>」の舞台としても知られる、古典文化の中心地",
+            "<small>境内の参集殿「高津の富亭」では、落語の寄席や文楽などが定期的に開催されます。</small><br>",
+            "高津宮の北側に隣接する高津公園の梅林は、中央区の花「梅」の名所（例年2月中旬から3月中旬が見頃）",
             "",
             "<u>アクセス</u><br>Osaka Metro「谷町九丁目」から徒歩約5分"
         ]
     },
     "links": [
         "<a href='https://kouzu.or.jp/' target='_blank'>高津宮（高津神社）～大阪市中央区高津～</a>",
-        "<a href='https://www.city.osaka.lg.jp/seisakukikakushitsu/page/0000028864.html' target='_blank'>大阪市：市歌 </a>"
+        "<a href='https://kouzu.or.jp/naniwa/' target='_blank'>なにわのこてん｜高津宮（高津神社）</a>",
+        "<a href='https://www.city.osaka.lg.jp/seisakukikakushitsu/page/0000028864.html' target='_blank'>大阪市：市歌</a>",
+        "<a href='https://www.youtube.com/watch?v=Pe770VqIa0w' target='_blank'>桂文枝　「高津の富」 - YouTube</a>",
+        "<a href='https://www.ntj.jac.go.jp/bunraku.html' target='_blank'>国立文楽劇場 | 独立行政法人 日本芸術文化振興会</a>"
     ],
     "width": "0.575",
     "height": "1",
