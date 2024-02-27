@@ -96,20 +96,6 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.50193869120898, 34.661370765013075]
-            },
-            'properties': {
-                'title': 'なんばパークス',
-                'address': '',
-                'date': '',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
@@ -127,24 +113,16 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
-            'feature': [
-                {
-                    'month': 2,
-                    'text': '北側に隣接する高津公園は、中央区の花「梅」の名所（例年2月中旬から下旬が見頃）'
-                }
-            ],
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.5138989318507, 34.66881262520526]
+                'coordinates': [135.50193869120898, 34.661370765013075]
             },
             'properties': {
-                'title': '高津宮',
-                'address': '狂言・古典落語の舞台にもなった、由緒あるお宮',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=kouzu',
-                'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
-                'zoom': 17.5,
+                'title': 'なんばパークス',
+                'address': '',
+                'date': '',
+                'zoom': 16,
             }
         },
         {
