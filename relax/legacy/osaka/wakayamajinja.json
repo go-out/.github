@@ -1,0 +1,33 @@
+{
+    "title": "若山神社 わかやまじんじゃ",
+    "description": "",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "info": {
+        "title": "Wakayama Jinja ⛩ Mishima-gun Osaka, Japan",
+        "address": "大阪府三島郡島本町大字広瀬1497",
+        "google": "https://maps.app.goo.gl/oa6PofDoPrWT9C8j7",
+        "text": [
+            "",
+            "<u>アクセス</u><br>___「___」から徒歩約__分<br>___ __ から約25分"
+        ]
+    },
+    "links": [
+        "<a href='https://bunka.nii.ac.jp/heritages/detail/417342' target='_blank'>若山神社本殿 文化遺産オンライン</a>",
+        "<a href='https://www.pref.osaka.lg.jp/hokubunm/youkoso/wakayama.html' target='_blank'>大阪府／若山神社《自然環境保全地域》</a>",
+        "<a href='https://www.pref.osaka.lg.jp/bunkazaihogo/bunkazai/wakayamajinja_tubura.html' target='_blank'>大阪府指定天然記念物若山神社のツブラジイ林</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3",
+            "src": [
+                "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3=m18"
+            ]
+        }
+    ]
+}
