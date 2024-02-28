@@ -99,6 +99,34 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.68963273959443, 34.865412108695224]
+            },
+            'properties': {
+                'title': '鏡伝池緑地',
+                'address': '「緑と太陽と文化のまち」のスローガンのもと枚方市市政35年を記念して造成された、住宅地に囲まれた地域密着型の緑地公園',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.65170046385452, 34.79146002035211]
+            },
+            'properties': {
+                'title': '香里ケ丘中央公園',
+                'address': 'かつて「東洋一のニュータウン」と呼ばれた香里団地の至近にある住宅街の中の公園',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.65348645663857, 34.726421477272304]
             },
             'properties': {
@@ -166,6 +194,20 @@ const osakaKawachi = {
                 'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
                 'date': '',
                 'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.59808627093332, 34.63034143734834]
+            },
+            'properties': {
+                'title': '常光寺',
+                'address': '河内最古之音頭発祥地',
+                'date': '',
+                'zoom': 17.5,
             }
         },
         {
