@@ -5,15 +5,11 @@ const osakaChuo = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'legacy',
             'feature': [
                 {
-                    'month': 2,
-                    'text': '高津宮の北側に隣接する高津公園の梅林は、中央区の花「梅」の名所（例年2月中旬から3月中旬が見頃）'
-                },
-                {
-                    'month': 3,
-                    'text': '高津宮の北側に隣接する高津公園の梅林は、中央区の花「梅」の名所（例年2月中旬から3月中旬が見頃）'
+                    'month': 4,
+                    'text': '桜が見頃を迎える4月上旬、境内および高津公園に雪洞を立てて夜桜を公開'
                 }
             ],
             'geometry': {
@@ -23,6 +19,32 @@ const osakaChuo = {
             'properties': {
                 'title': '高津宮',
                 'address': '大阪市歌の一番で歌われる、由緒あるお宮<br>「高津の宮の昔より、よよの栄を重ねきて、民のかまどに立つ煙」',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=kouzu',
+                'youtube': 'oYLY36voXiw',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 2,
+                    'text': '例年2月中旬（献梅祭の時期）から、梅の花が見頃を迎えます'
+                },
+                {
+                    'month': 3,
+                    'text': '3月中旬までは梅、3月下旬からは桜が見頃を迎えます'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51418805483095, 34.66927185332906]
+            },
+            'properties': {
+                'title': '高津公園',
+                'address': '「高津宮」に隣接する公園。公園内の梅林は、中央区の花「梅」の名所',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=kouzu',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],

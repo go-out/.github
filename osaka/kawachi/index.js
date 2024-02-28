@@ -51,16 +51,17 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.65056489437342, 34.66990689214751]
+                'coordinates': [135.6500490969876, 34.669904870570086]
             },
             'properties': {
                 'title': '枚岡神社',
                 'address': '神津嶽をご神体とする、神様の御霊が一杯の「神気」に満ちた神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
+                'youtube': 'idRqIhTm66Y',
                 'zoom': 17,
             }
         },
@@ -128,7 +129,7 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.63423024659778, 34.58978427192656]
+                'coordinates': [135.6352076462621, 34.58979757372273]
             },
             'properties': {
                 'title': '鐸比古鐸比賣神社（高尾山）',
