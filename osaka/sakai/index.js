@@ -217,6 +217,26 @@ const osakaSakai = {
         {
             'type': 'Feature',
             'tags': 'draft',
+            'feature': [
+                {
+                    'month': 11,
+                    'text': '例年11月上旬、メタセコイア並木が見ごろを迎える'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47722872096247, 34.47748046887124]
+            },
+            'properties': {
+                'title': '新檜尾公園',
+                'address': '公園面積約11万平方メートルの風致公園',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.60037073873772, 34.51799469079775]
