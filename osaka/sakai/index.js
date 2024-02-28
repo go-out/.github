@@ -135,6 +135,20 @@ const osakaSakai = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.40479476892133, 34.54153448936968]
+            },
+            'properties': {
+                'title': '大阪ガス科学館',
+                'address': '※見学はフルアテンド・完全予約制 | 開催日 第2・第4土曜日（お盆及び年末年始・特別に定める臨時休館日を除く） 開始時間 10:00、13:30',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.60428536441003, 34.48073803406935]
             },
             'properties': {
@@ -198,6 +212,20 @@ const osakaSakai = {
                 'address': '“和泉”の地名発祥の地 ～和泉国総社～',
                 'date': '',
                 'zoom': 18,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.60037073873772, 34.51799469079775]
+            },
+            'properties': {
+                'title': '美具久留御魂神社',
+                'address': '「眞名井ヶ原」と称する山そのものを御神体とする自然そのままの緑豊かなお宮',
+                'date': '',
+                'zoom': 16.5,
             }
         },
         {
