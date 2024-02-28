@@ -42,7 +42,7 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': '新屋坐天照御魂神社',
-                'address': '創建以来二千百年を有する摂津国屈指の長い歴史と高い社格を誇る名神大社',
+                'address': '神・自然・人の共生 心身再生の神をまつる',
                 'date': '',
                 'zoom': 16.5,
             }
@@ -226,7 +226,7 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': '若山神社',
-                'address': '大阪みどりの百選および大阪府指定天然記念物若山神社のツブラジイ林',
+                'address': '',
                 'date': '',
                 'zoom': 16.5,
             }
