@@ -219,6 +219,26 @@ const osakaSakai = {
             'tags': 'draft',
             'feature': [
                 {
+                    'month': 9,
+                    'text': 'シリブカガシの森（大阪みどりの百選）の花は9月頃に開花'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48560289268246, 34.47511383464941]
+            },
+            'properties': {
+                'title': '美多彌神社',
+                'address': '泉北ニュータウン光明池地区の住宅街の中にある みたみじんじゃ',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'feature': [
+                {
                     'month': 11,
                     'text': '例年11月上旬、メタセコイア並木が見ごろを迎える'
                 }
@@ -230,6 +250,30 @@ const osakaSakai = {
             'properties': {
                 'title': '新檜尾公園',
                 'address': '公園面積約11万平方メートルの風致公園',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'feature': [
+                {
+                    'month': 10,
+                    'text': '例年10月下旬、イチョウ並木が見ごろを迎える'
+                },
+                {
+                    'month': 11,
+                    'text': '例年11月上旬、イチョウ並木が見ごろを迎える'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.59853530429857, 34.53530582012381]
+            },
+            'properties': {
+                'title': '大阪府立環境農林水産総合研究所',
+                'address': '「大阪みどりの百選」指定の観光名所',
                 'date': '',
                 'zoom': 16.5,
             }
