@@ -69,6 +69,35 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.64679168150087, 34.60504326912111]
+            },
+            'properties': {
+                'title': '天川山',
+                'address': '恩智神社・天照大神高座神社・岩戸神社の神体山、神奈備の山',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=onji',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.62602058514537, 34.610434822951476]
+            },
+            'properties': {
+                'title': '近鉄恩智駅自転車駐車場 レンタサイクル',
+                'address': '当日 250円 一泊 350円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.65348645663857, 34.726421477272304]
             },
             'properties': {
@@ -92,21 +121,6 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nozakikannon',
                 'zoom': 17,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.64679168150087, 34.60504326912111]
-            },
-            'properties': {
-                'title': '天川山',
-                'address': '恩智神社・天照大神高座神社・岩戸神社の神体山、神奈備の山',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=onji',
-                'zoom': 15.5,
             }
         },
         {
@@ -144,6 +158,20 @@ const osakaKawachi = {
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.6232827357621, 34.58681423656017]
+            },
+            'properties': {
+                'title': '柏原駅東自転車・柏原駅西口第２駐輪場 レンタサイクル',
+                'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.59846163994365, 34.61704064962767]
             },
             'properties': {
@@ -158,25 +186,11 @@ const osakaKawachi = {
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.61630828316626, 34.600687149404806]
+                'coordinates': [135.60603580517628, 34.628910255666064]
             },
             'properties': {
-                'title': '志紀駅前自転車駐車場 レンタサイクル',
-                'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
-                'date': '',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.6232827357621, 34.58681423656017]
-            },
-            'properties': {
-                'title': '柏原駅東自転車・柏原駅西口第２駐輪場 レンタサイクル',
-                'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
+                'title': '近鉄八尾駅東自転車駐車場 レンタサイクル',
+                'address': '当日 250円 一泊 350円',
                 'date': '',
                 'zoom': 16.5,
             }
