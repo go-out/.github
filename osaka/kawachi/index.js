@@ -92,7 +92,7 @@ const osakaKawachi = {
                 'address': '御神体は一帯の岩山全体 原始信仰を起源とする2つの神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=amaterasu-iwato',
-                'zoom': 16.5,
+                'zoom': 17.5,
             }
         },
         {
@@ -107,7 +107,7 @@ const osakaKawachi = {
                 'address': 'ご祭神・創建・由緒いずれも謎だらけの河内国随一の社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
-                'zoom': 15.5,
+                'zoom': 14.5,
             }
         },
         {
@@ -177,7 +177,7 @@ const osakaKawachi = {
                 'title': '鏡伝池緑地',
                 'address': '「緑と太陽と文化のまち」のスローガンのもと枚方市市政35年を記念して造成された、住宅地に囲まれた地域密着型の緑地公園',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 15.5,
             }
         },
         {
@@ -236,7 +236,7 @@ const osakaKawachi = {
                 'address': '高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
-                'zoom': 17,
+                'zoom': 16.5,
             }
         },
         {
@@ -251,7 +251,7 @@ const osakaKawachi = {
                 'address': '世界遺産に登録された古墳が点在するエリア「古市古墳群」の北端に鎮座する河内國総社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=shikiagatanushi',
-                'zoom': 17.5,
+                'zoom': 18,
             }
         },
         {
