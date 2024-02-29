@@ -70,11 +70,41 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.65266200096255, 34.63446821302176]
+            },
+            'properties': {
+                'title': '玉祖神社',
+                'address': '高安山の山麓中腹辺り、地名は神立 境内で長鳴鶏が飼われている',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.64004442128004, 34.61267755221649]
+            },
+            'properties': {
+                'title': '天照大神高座神社・岩戸神社',
+                'address': '御神体は一帯の岩山全体 原始信仰を起源とする2つの神社',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=amaterasu-iwato',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.64679168150087, 34.60504326912111]
             },
             'properties': {
-                'title': '天川山',
-                'address': '恩智神社・天照大神高座神社・岩戸神社の神体山、神奈備の山',
+                'title': '恩智神社',
+                'address': 'ご祭神・創建・由緒いずれも謎だらけの河内国随一の社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
                 'zoom': 15.5,
@@ -89,6 +119,48 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '近鉄恩智駅自転車駐車場 レンタサイクル',
+                'address': '当日 250円 一泊 350円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.59808627093332, 34.63034143734834]
+            },
+            'properties': {
+                'title': '常光寺',
+                'address': '河内最古之音頭発祥地',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.59846163994365, 34.61704064962767]
+            },
+            'properties': {
+                'title': 'ＪＲ八尾駅東自転車駐車場 レンタサイクル',
+                'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.60603580517628, 34.628910255666064]
+            },
+            'properties': {
+                'title': '近鉄八尾駅東自転車駐車場 レンタサイクル',
                 'address': '当日 250円 一泊 350円',
                 'date': '',
                 'zoom': 16.5,
@@ -192,48 +264,6 @@ const osakaKawachi = {
             'properties': {
                 'title': '柏原駅東自転車・柏原駅西口第２駐輪場 レンタサイクル',
                 'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
-                'date': '',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.59808627093332, 34.63034143734834]
-            },
-            'properties': {
-                'title': '常光寺',
-                'address': '河内最古之音頭発祥地',
-                'date': '',
-                'zoom': 17.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.59846163994365, 34.61704064962767]
-            },
-            'properties': {
-                'title': 'ＪＲ八尾駅東自転車駐車場 レンタサイクル',
-                'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
-                'date': '',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.60603580517628, 34.628910255666064]
-            },
-            'properties': {
-                'title': '近鉄八尾駅東自転車駐車場 レンタサイクル',
-                'address': '当日 250円 一泊 350円',
                 'date': '',
                 'zoom': 16.5,
             }

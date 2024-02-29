@@ -1,0 +1,49 @@
+{
+    "title": "天照大神高座神社・岩戸神社",
+    "description": "あまてらすおおみかみたかくらじんじゃ いわとじんじゃ",
+    "year": "YYYY",
+    "month": "MM",
+    "day": "DD",
+    "info": {
+        "title": "Iwato Jinja ⛩ Yao Osaka, Japan",
+        "address": "大阪府八尾市教興寺５５０",
+        "google": "https://maps.app.goo.gl/Pect8eYbHiDsBGE66",
+        "text": [
+            "<ruby>天照大神高座神社<rp>（</rp><rt>あまてらすおおみかみたかくらじんじゃ</rt><rp>）</rp></ruby>・<ruby>岩戸神社<rp>（</rp><rt>いわとじんじゃ</rt><rp>）</rp></ruby>",
+            "境界線もはっきりせずほとんど同じ境内に隣接する、原始信仰を起源とする2つの神社。御神体は一帯の岩山全体",
+            "住吉大社の真東に位置することから、｢日｣を祀る神聖であったと考えられる（住吉大社の真西は日祀りの聖地、淡路島の「石屋神社」）",
+            "森林に囲まれ、静寂で厳かな景色。多くの権利者が我が物にしたいと願うほどの地で、歴史の移り変わりとともに様々な歴史の干渉を受けて来た神社",
+            "",
+            "弁財天奥ノ院、コリアン寺院の滝行場、古墳利用の祠、お四国さんを模した石仏群、いろんなものが混然一体となって、独特の雰囲気を醸し出す場所",
+            "奥院・高安山まで登山可？<br>",
+            "<u>毎年7月第一日曜日</u><br><b>祭礼日</b><br>",
+            "<u>アクセス</u><br>近鉄信貴線「信貴山口」から徒歩約15分<br>近鉄 大阪難波から約40分",
+            "<u>最寄りのレンタサイクル</u><br>近鉄恩智駅自転車駐車場<br><small>当日 250円 一泊 350円</small>"
+        ]
+    },
+    "links": [
+        "<a href='http://www.yaomania.jp/data/InfoDetail.asp?id=1436' target='_blank'>あまてらすおおみかみたかくらじんじゃ 天照大神高座神社</a>",
+        "<a href='http://www.yaomania.jp/data/InfoDetail.asp?id=1222' target='_blank'>いわとじんじゃ 岩戸神社</a>",
+        "<a href='https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%85%A7%E5%A4%A7%E7%A5%9E%E9%AB%98%E5%BA%A7%E7%A5%9E%E7%A4%BE%E3%83%BB%E5%B2%A9%E6%88%B8%E7%A5%9E%E7%A4%BE' target='_blank'>天照大神高座神社・岩戸神社 - Wikipedia</a>",
+        "<a href='https://www.yao-citynet.co.jp/work_rental.htm' target='_blank'>レンタサイクル 八尾シティネット株式会社／自転車駐輪場</a>"
+    ],
+    "width": "1.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipOV0XN4UqtmJeEsTGRkHFHvittlS13KyHyjfinp",
+            "src": [
+                "AF1QipOV0XN4UqtmJeEsTGRkHFHvittlS13KyHyjfinp=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipOt9DzDP2uSUL8OXnVCqScV2REPpZfh5NmaRaPH",
+            "src": [
+                "AF1QipOt9DzDP2uSUL8OXnVCqScV2REPpZfh5NmaRaPH=m18"
+            ]
+        }
+    ]
+}
