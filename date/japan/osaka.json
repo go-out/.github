@@ -5,9 +5,9 @@
             "en": "January",
             "events": [
                 {
-                    "title": "十日戎 本えびす",
-                    "venue": "今宮戎神社",
-                    "date": "一月十日"
+                    "title": "千本搗餅つき",
+                    "venue": "水間寺",
+                    "date": "一月二・三日 午前10時からと午後1時からの2回"
                 },
                 {
                     "title": "修正会結願法要「どやどや」 Doya Doya",
@@ -54,6 +54,16 @@
                     "venue": "加賀屋新田会所跡 Kagaya Shinden Kaisyoato",
                     "date": "三月初旬 Early March",
                     "link": "date/kaishoe/"
+                },
+                {
+                    "title": "例祭",
+                    "venue": "浄瑠璃神社（生國魂神社内）",
+                    "date": "春分の日 Day of the Spring Equinox"
+                },
+                {
+                    "title": "春季彼岸会 Shunki Higan-E",
+                    "venue": "四天王寺 Shitennoji",
+                    "date": "春分の日と前後三日間 Week of the Spring Equinox"
                 }
             ]
         },
@@ -88,24 +98,29 @@
             "en": "May",
             "events": [
                 {
-                    "title": "春季大法要大般若六百巻転読法要（火渡り供養）",
-                    "venue": "聖天山正圓寺 Shoenji",
-                    "date": "五月一日 十四時から"
-                },
-                {
                     "title": "万部おねり Manbu Oneri",
                     "venue": "大念佛寺 Dai Nenbutsu-ji",
                     "date": "五月一日から五日 May 1st to 5th"
                 },
                 {
+                    "title": "春季大法要大般若六百巻転読法要（火渡り供養）",
+                    "venue": "聖天山正圓寺 Shoenji",
+                    "date": "五月一日 十四時から"
+                },
+                {
                     "title": "まくらまつり",
                     "venue": "日根神社",
-                    "date": "五月四日・五日"
+                    "date": "五月四・五日"
                 },
                 {
                     "title": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
                     "venue": "住吉大社 Sumiyoshi Taisha",
                     "date": "五月初卯日 十三時 Early May"
+                },
+                {
+                    "title": "いけだ薪能",
+                    "venue": "池田城跡公園（特設水上能舞台）",
+                    "date": "五月中旬 土曜日 午後五時開演"
                 },
                 {
                     "title": "帝塚山音楽祭 Tezukayama Music Festival",
@@ -124,8 +139,13 @@
                     "date": "六月八日 １１：００ 菖蒲を刈り取る所作のある神楽「菖蒲刈り」が二人の巫女によって舞われます。"
                 },
                 {
+                    "title": "御田植神事 Otaue Shinji (Sacred Rice Planting)",
+                    "venue": "住吉大社 第一本宮~御田 Sumiyoshi Taisha",
+                    "date": "六月十四日 十三時 June  14"
+                },
+                {
                     "title": "愛染まつり",
-                    "venue": "愛染堂勝鬘院",
+                    "venue": "四天王寺別院・愛染堂勝鬘院",
                     "date": "六月三十日"
                 }
             ]
@@ -136,8 +156,8 @@
             "events": [
                 {
                     "title": "愛染まつり",
-                    "venue": "愛染堂勝鬘院",
-                    "date": "七月一日・二日"
+                    "venue": "四天王寺別院・愛染堂勝鬘院",
+                    "date": "七月一・二日"
                 },
                 {
                     "title": "千日まいり",
@@ -147,7 +167,7 @@
                 {
                     "title": "生國魂祭",
                     "venue": "生國魂神社",
-                    "date": "7月11日　16:30ごろ～22：0０ごろ | 7月12日　8:00ごろ～22：0０ごろ"
+                    "date": "毎年七月十一・十二日"
                 },
                 {
                     "title": "夏季大祭（布団太鼓）",
@@ -157,7 +177,7 @@
                 {
                     "title": "ひょうたん山音頭大会",
                     "venue": "瓢箪山稲荷神社",
-                    "date": "七月十七日・十八日 17:00~21:00"
+                    "date": "七月十七・十八日 17:00~21:00"
                 },
                 {
                     "title": "住之江区民まつり",
@@ -315,6 +335,16 @@
                     "title": "法善寺夏まつり",
                     "venue": "鐸比古鐸比賣神社",
                     "date": "毎年9月中旬 土日"
+                },
+                {
+                    "title": "例祭",
+                    "venue": "浄瑠璃神社（生國魂神社内）",
+                    "date": "秋分の日 Day of the Autumnal Equinox"
+                },
+                {
+                    "title": "秋季彼岸会 Shuuki Higan-E",
+                    "venue": "四天王寺 Shitennoji",
+                    "date": "秋分の日と前後三日間 Week of the Autumnal Equinox"
                 },
                 {
                     "title": "がじまるの会・エイサー祭り",
