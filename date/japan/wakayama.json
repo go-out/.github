@@ -10,11 +10,25 @@
         },
         {
             "month": 3,
-            "en": "March"
+            "en": "March",
+            "events": [
+                {
+                    "title": "雛流し",
+                    "venue": "淡島神社",
+                    "date": "毎年三月三日 正午より"
+                }
+            ]
         },
         {
             "month": 4,
-            "en": "April"
+            "en": "April",
+            "events": [
+                {
+                    "title": "大社例大祭",
+                    "venue": "熊野本宮",
+                    "date": "四月十三・十四・十五日"
+                }
+            ]
         },
         {
             "month": 5,
@@ -22,7 +36,14 @@
         },
         {
             "month": 6,
-            "en": "June"
+            "en": "June",
+            "events": [
+                {
+                    "title": "青葉まつり",
+                    "venue": "高野山",
+                    "date": "毎年六月十五日直前の土・日曜日"
+                }
+            ]
         },
         {
             "month": 7,
