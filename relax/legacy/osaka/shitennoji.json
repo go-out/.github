@@ -1,0 +1,34 @@
+{
+    "title": "四天王寺 してんのうじ",
+    "description": "Grand head temple SHITENNOUJI Temple",
+    "info": {
+        "title": "Shitennouji ⛩ Osaka, Japan",
+        "address": "大阪市天王寺区四天王寺１丁目１１−１８",
+        "google": "https://maps.app.goo.gl/HzhsZkL853o9JkV49",
+        "text": [
+            "<u>毎年一月十四日 十四時 から 十五時半</u><br><b>修正会結願法要「どやどや」</b><br>梁の上から牛王宝印（ごおうほういん）という護符が投入れられ、高校生がふんどし・はちまき姿で奪い合う",
+            "<u>毎年春分の日と前後三日間</u><br><b>春季彼岸会</b><br>期間中、諸堂にてご先祖供養が行われる。また、境内には多くの露店が出店",
+            "<u>毎年四月二十二日</u><br><b>聖霊会の舞楽</b><br>聖徳太子の御忌にその聖霊をまつる法会",
+            "<u>毎年秋分の日と前後三日間</u><br><b>秋季彼岸会</b><br>期間中、諸堂にてご先祖供養が行われる。また、境内には多くの露店が出店",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「四天王寺前夕陽ヶ丘」から徒歩すぐ<br>JR・Osaka Metro「天王寺」から徒歩約15分"
+        ]
+    },
+    "links": [
+        "<a href='https://www.shitennoji.or.jp/' target='_blank'>和宗総本山 四天王寺 - 日本仏法最初の官寺</a>"
+    ],
+    "width": "0.7525",
+    "height": "1",
+    "directory": "https://ia601206.us.archive.org/24/items/abeno-osaka/",
+    "video": [
+        {
+            "id": "abenooujijinjya",
+            "poster": "abeno-osaka.thumbs/abenomotomachi/001_000001.jpg",
+            "src": [
+                "abenomotomachi/001.mp4",
+                "abenomotomachi/002.mp4",
+                "abenomotomachi/003.mp4"
+            ]
+        }
+    ]
+}
