@@ -90,44 +90,6 @@ const osakaSenshu = {
         {
             'type': 'Feature',
             'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51147144623982, 34.39284056360941]
-            },
-            'properties': {
-                'title': '施福寺',
-                'address': '入山料500円 拝観料500円 | 南海本線「泉大津駅」よりバス「槙尾山口」行（約1時間）',
-                'date': '',
-                'zoom': 15.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'feature': [
-                {
-                    'month': 9,
-                    'text': 'シリブカガシの森（大阪府の天然記念物・大阪みどりの百選）の花が開花'
-                },
-                {
-                    'month': 10,
-                    'text': 'シリブカガシの森（大阪府の天然記念物・大阪みどりの百選）の花が開花'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.48558280674766, 34.47509394406207]
-            },
-            'properties': {
-                'title': '美多彌神社',
-                'address': '美木多地区の産土神。境内にある鎮守の森はシリブカガシ、楠（くす、くすのき）・サカキ（榊）・アラカシ（粗樫）などの照葉樹林',
-                'date': '',
-                'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
             'feature': [
                 {
                     'month': 10,
