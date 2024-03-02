@@ -5,9 +5,9 @@
             "en": "January",
             "events": [
                 {
-                    "title": "千本搗餅つき",
-                    "venue": "水間寺",
-                    "date": "一月二・三日 午前10時からと午後1時からの2回"
+                    "title": "千本搗餅つき Senbonzuki Mochi Festival",
+                    "venue": "水間寺 Mizumadera",
+                    "date": "一月二・三日 January 2nd, 3rd 午前10時からと午後1時からの2回"
                 },
                 {
                     "title": "修正会結願法要「どやどや」 Doya Doya",
@@ -29,7 +29,7 @@
                 {
                     "title": "節分やくよけ星まつり祈願祭（火渡り供養）",
                     "venue": "聖天山正圓寺 Shoenji",
-                    "date": "二月一日 十四時から"
+                    "date": "二月一日 February 1st 十四時から"
                 },
                 {
                     "title": "初牛大祭「音頭奉納・福餅まき」 Ondo Hōnō and Mochi-maki",
@@ -50,14 +50,14 @@
             "en": "March",
             "events": [
                 {
-                    "title": "会所会 Kaisyoe",
+                    "title": "会所会 Kaisyo-E",
                     "venue": "加賀屋新田会所跡 Kagaya Shinden Kaisyoato",
                     "date": "三月初旬 Early March",
                     "link": "date/kaishoe/"
                 },
                 {
-                    "title": "例祭",
-                    "venue": "浄瑠璃神社（生國魂神社内）",
+                    "title": "例祭 Joruri-Jinja",
+                    "venue": "浄瑠璃神社（生國魂神社内） Ikutama Jinja",
                     "date": "春分の日 Day of the Spring Equinox"
                 },
                 {
@@ -87,7 +87,7 @@
                     "date": "四月二十五日 April 25th"
                 },
                 {
-                    "title": "大般若会（八尾地蔵お練供養）",
+                    "title": "大般若会（八尾地蔵お練供養） Dai Hannya-E",
                     "venue": "常光寺 Jyokouji",
                     "date": "四月最終日曜日 Last Sunday of April"
                 }
@@ -98,34 +98,29 @@
             "en": "May",
             "events": [
                 {
+                    "title": "春季大法要大般若六百巻転読法要（火渡り供養）",
+                    "venue": "聖天山正圓寺 Shoenji",
+                    "date": "五月一日 May 1st 十四時から"
+                },
+                {
                     "title": "万部おねり Manbu Oneri",
                     "venue": "大念佛寺 Dai Nenbutsu-ji",
                     "date": "五月一日から五日 May 1st to 5th"
                 },
                 {
-                    "title": "春季大法要大般若六百巻転読法要（火渡り供養）",
-                    "venue": "聖天山正圓寺 Shoenji",
-                    "date": "五月一日 十四時から"
-                },
-                {
-                    "title": "まくらまつり",
-                    "venue": "日根神社",
-                    "date": "五月四・五日"
+                    "title": "まくらまつり Makura Matsuri",
+                    "venue": "日根神社 Hine Jinja",
+                    "date": "五月四・五日 May 4th, 5th"
                 },
                 {
                     "title": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
                     "venue": "住吉大社 Sumiyoshi Taisha",
-                    "date": "五月初卯日 十三時 Early May"
+                    "date": "五月初卯日 Early May 十三時"
                 },
                 {
-                    "title": "いけだ薪能",
-                    "venue": "池田城跡公園（特設水上能舞台）",
-                    "date": "五月中旬 土曜日 午後五時開演"
-                },
-                {
-                    "title": "帝塚山音楽祭 Tezukayama Music Festival",
-                    "venue": "万代池公園 Mandaiike Park",
-                    "date": "五月末 土日曜日 10:00 ~ 23:00"
+                    "title": "いけだ薪能 Ikeda Takigi-Noh",
+                    "venue": "池田城跡公園（特設水上能舞台） Ikeda Castle Remains Park",
+                    "date": "五月中頃 土曜日 Saturday of Mid-May 午後五時開演"
                 }
             ]
         },
@@ -134,19 +129,14 @@
             "en": "June",
             "events": [
                 {
-                    "title": "菖蒲神事 しょうぶしんじ（あやめ祭）",
-                    "venue": "難波神社",
-                    "date": "六月八日 １１：００ 菖蒲を刈り取る所作のある神楽「菖蒲刈り」が二人の巫女によって舞われます。"
+                    "title": "菖蒲神事 Shoubu (Iris flower) Shinji",
+                    "venue": "難波神社 Namba Jinja",
+                    "date": "六月八日 June 8th 午前十一時"
                 },
                 {
                     "title": "御田植神事 Otaue Shinji (Sacred Rice Planting)",
                     "venue": "住吉大社 第一本宮~御田 Sumiyoshi Taisha",
-                    "date": "六月十四日 十三時 June  14"
-                },
-                {
-                    "title": "愛染まつり",
-                    "venue": "四天王寺別院・愛染堂勝鬘院",
-                    "date": "六月三十日"
+                    "date": "六月十四日 June 14th　十三時"
                 }
             ]
         },
@@ -155,89 +145,29 @@
             "en": "July",
             "events": [
                 {
-                    "title": "愛染まつり",
-                    "venue": "四天王寺別院・愛染堂勝鬘院",
-                    "date": "七月一・二日"
-                },
-                {
-                    "title": "千日まいり",
-                    "venue": "野崎観音",
-                    "date": "七月九日"
-                },
-                {
-                    "title": "生國魂祭",
-                    "venue": "生國魂神社",
-                    "date": "七月十一・十二日"
+                    "title": "千日まいり 1000 Days Mairi (Bon Odori)",
+                    "venue": "野崎観音 Nozaki Kannon",
+                    "date": "七月九日 July 9th 午後七時"
                 },
                 {
                     "title": "夏祭・船渡御",
                     "venue": "難波八阪神社 Nambayasaka Shrine",
-                    "date": "七月十三・十四日"
+                    "date": "七月十三・十四日 July 13th, 14th"
                 },
                 {
-                    "title": "夏季大祭（布団太鼓）",
-                    "venue": "玉祖神社（たまのおやじんじゃ）",
-                    "date": "七月中頃 (15日、16日に近い土日)"
+                    "title": "氷室祭 Himuro Matsuri",
+                    "venue": "難波神社 Namba Jinja",
+                    "date": "七月二十・二十一日 July 20th, 21st 夕方からかちわり氷を授与 夜七時から奉納太鼓演奏"
                 },
                 {
-                    "title": "ひょうたん山音頭大会",
-                    "venue": "瓢箪山稲荷神社",
-                    "date": "七月十七・十八日 17:00~21:00"
+                    "title": "だいがく祭り Daigaku Matsuri",
+                    "venue": "生根神社 Ikune Jinja",
+                    "date": "七月二十四・二十五日 July 24th, 25st 午後七時から十時"
                 },
                 {
-                    "title": "住之江区民まつり",
-                    "venue": "住之江区役所北側広場",
-                    "date": "七月第二土曜日 18:30 区民総おどり"
-                },
-                {
-                    "title": "太平寺夏まつり",
-                    "venue": "石神社",
-                    "date": "七月第二土日曜日（7月中旬）"
-                },
-                {
-                    "title": "サマーフェスタ（盆踊り）",
-                    "venue": "加賀屋公園",
-                    "date": "16日頃 18時～22時頃"
-                },
-                {
-                    "title": "地車ふれあい盆踊り大会",
-                    "venue": "野作第一公園",
-                    "date": "20日頃 18時～22時頃"
-                },
-                {
-                    "title": "夏祭り",
-                    "venue": "山阪神社",
-                    "date": "毎年7月20日宵宮、21日本宮"
-                },
-                {
-                    "title": "氷室祭 ひむろまつり",
-                    "venue": "難波神社",
-                    "date": "宵宮７月２０日、本宮７月２１日 夕方から参拝者にはかちわり氷を授与、夜には奉納太鼓演奏。"
-                },
-                {
-                    "title": "だいがく祭り",
-                    "venue": "生根神社",
-                    "date": "毎年7月24日、25日 19時30分～22時"
-                },
-                {
-                    "title": "大県神社夏祭り",
-                    "venue": "鐸比古鐸比賣神社",
-                    "date": "毎年7月30日・31日"
-                },
-                {
-                    "title": "ゆ祭り",
-                    "venue": "日根神社",
-                    "date": "毎年7月第3土曜日 19:30時～"
-                },
-                {
-                    "title": "地車ふれあい盆踊り大会",
-                    "venue": "野作第一公園",
-                    "date": "毎年7月第3土曜日 16:00~22:30"
-                },
-                {
-                    "title": "小山田納涼盆踊り大会",
-                    "venue": "小山田コミュニティセンター",
-                    "date": "毎年7月第4土曜日 16:00~22:30"
+                    "title": "ゆ祭り Yu Matsuri",
+                    "venue": "日根神社 Hine Jinja",
+                    "date": "七月第三土曜日 Third Saturday of July 午後七時半から"
                 }
             ]
         },
@@ -246,64 +176,24 @@
             "en": "August",
             "events": [
                 {
-                    "title": "中大江校下盆踊り大会",
-                    "venue": "中大江公園",
-                    "date": "毎年8月第1週目 https://nakaooe.net/"
-                },
-                {
-                    "title": "夏祭り 多数開催",
-                    "venue": "大阪市東淀川区",
-                    "date": "毎年8月第1週目の土・日"
-                },
-                {
-                    "title": "八尾駐屯地 盆踊り花火大会",
-                    "venue": "陸上自衛隊 八尾駐屯地 (八尾空港)",
-                    "date": "8月8日 17:30～21:00"
-                },
-                {
-                    "title": "泉州音頭",
-                    "venue": "岸和田市・貝塚市各地",
-                    "date": "毎年8月12~16日"
+                    "title": "葛城踊り（大阪府無形民俗文化財）",
+                    "venue": "弥勒寺",
+                    "date": "八月十四日 August 14th 夕方"
                 },
                 {
                     "title": "貝塚市東盆踊り・貝塚の東盆踊り（大阪府無形民俗文化財）",
-                    "venue": "円光寺境内（貝塚）",
-                    "date": "8月14日から16日 午後8時から12時近くまで"
-                },
-                {
-                    "title": "葛城踊り（大阪府無形民俗文化財）",
-                    "venue": "弥勒寺（岸和田）",
-                    "date": "毎年8月14日の夕方"
-                },
-                {
-                    "title": "金岡町盆踊り大会",
-                    "venue": "金岡神社",
-                    "date": "８月１４・１５日 午後８時３０分ごろから踊り始め"
-                },
-                {
-                    "title": "御霊祭",
-                    "venue": "大阪護国神社",
-                    "date": "毎年八月十四、十五日の二日間 午後６時半から献灯みたま祭り（７時から奉納民謡大会）"
-                },
-                {
-                    "title": "夏祭り 多数開催",
-                    "venue": "大阪市西淀川区",
-                    "date": "毎年8月第3週目の金・土・日"
+                    "venue": "円光寺境内",
+                    "date": "八月十四から十六日 August 14th - 16th 午後八時から十二時近くまで"
                 },
                 {
                     "title": "山門施餓鬼会（八尾地蔵盆踊り）",
-                    "venue": "常光寺",
-                    "date": "毎年８月２３、２４日 夜７時から９時（※残したい日本の音風景１００選）"
-                },
-                {
-                    "title": "北御堂盆おどり",
-                    "venue": "本願寺津村別院（北御堂）",
-                    "date": "8月下旬 １７時"
+                    "venue": "常光寺（※残したい日本の音風景１００選）",
+                    "date": "八月二十三・二十四日 August 23rd, 24th 午後七時から九時"
                 },
                 {
                     "title": "枚岡燈明祭",
-                    "venue": "枚岡神社",
-                    "date": "8月第4日曜日 午後5時から"
+                    "venue": "枚岡神社 Hiraoka Jinja",
+                    "date": "八月第四日曜日 Fourth Sunday of August 午後五時から"
                 }
             ]
         },
@@ -312,38 +202,28 @@
             "en": "September",
             "events": [
                 {
-                    "title": "八朔祭",
-                    "venue": "能勢妙見山",
-                    "date": "9月第1日曜日 9:00～15:30 本殿（開運殿）にて「御祈祷」・11:00「落語」喜怒家哀楽"
-                },
-                {
-                    "title": "八朔祭",
-                    "venue": "開口神社",
-                    "date": "9月12日までの金曜・土曜〜"
-                },
-                {
                     "title": "例大祭",
                     "venue": "枯木八幡宮",
-                    "date": "9月14日ごろ 中秋の名月の前日"
+                    "date": "中秋の名月の前日（9月14日頃）"
                 },
                 {
                     "title": "観月祭 Kangetsu-sai (Moon-Viewing Festival)",
                     "venue": "住吉大社 Sumiyoshi Taisha",
-                    "date": "中秋日午後6時 Around September and October"
+                    "date": "中秋日 Around September and October 午後六時"
                 },
                 {
-                    "title": "放生会",
-                    "venue": "八幡神社（吉川八幡神社）",
-                    "date": "9月中頃 11:00〜 祭典・神楽 11:50〜 福餅撒き 12:00〜 奉納演芸"
+                    "title": "放生会 Houjo-Ya",
+                    "venue": "吉川八幡神社 Yoshikawa Hachiman Jinjya",
+                    "date": "九月中旬 Mid-September 午前十一時から"
                 },
                 {
                     "title": "法善寺夏まつり",
-                    "venue": "鐸比古鐸比賣神社",
-                    "date": "毎年9月中旬 土日"
+                    "venue": "鐸比古鐸比賣神社 Nudehiko-Nudehime Jinja",
+                    "date": "九月中旬 土日曜日 Saturday and Sunday of Mid-September"
                 },
                 {
-                    "title": "例祭",
-                    "venue": "浄瑠璃神社（生國魂神社内）",
+                    "title": "例祭 Joruri-Jinja",
+                    "venue": "浄瑠璃神社（生國魂神社内） Ikutama Jinja",
                     "date": "秋分の日 Day of the Autumnal Equinox"
                 },
                 {
@@ -352,24 +232,9 @@
                     "date": "秋分の日と前後三日間 Week of the Autumnal Equinox"
                 },
                 {
-                    "title": "がじまるの会・エイサー祭り",
-                    "venue": "大正区千島公園グラウンド",
-                    "date": "http://okinawabunko.com/ １２：００～２０：００"
-                },
-                {
-                    "title": "八尾河内音頭まつり",
-                    "venue": "みせるばやお（リノアス8階）、アリオ八尾、ファミリーロード商店街・城正会商店街、大信寺",
-                    "date": "https://www.yaokawachiondo.com/"
-                },
-                {
-                    "title": "布施まつり",
-                    "venue": "布施駅北口交通広場",
-                    "date": "https://fuse.osaka.jp/fusematsuri/ 18時～21時頃"
-                },
-                {
-                    "title": "枚岡薪能(ひらおか薪能実行委員会主催)",
-                    "venue": "枚岡神社",
-                    "date": "9月末"
+                    "title": "ひらおか薪能 Hiraoka Takigi-Noh",
+                    "venue": "枚岡神社 Hiraoka Jinja",
+                    "date": "九月末 土曜日 Late September 午後六時半"
                 }
             ]
         },
@@ -378,23 +243,13 @@
             "en": "October",
             "events": [
                 {
-                    "title": "上神谷のこおどり（大阪府無形民俗文化財）",
-                    "venue": "櫻井神社（堺）",
-                    "date": "１０月の第１日曜日 １１：００~"
+                    "title": "上神谷のこおどり Niwadani no Koodori",
+                    "venue": "櫻井神社 Sakurai Jinja",
+                    "date": "十月第一日曜日 First Sunday of October 午前十一時から"
                 },
                 {
-                    "title": "例祭",
-                    "venue": "式内楯原神社",
-                    "date": "毎年10月15日"
-                },
-                {
-                    "title": "秋季大祭",
-                    "venue": "石切劔箭神社",
-                    "date": "10月21日 18時30分斎行 どなたでもご昇殿頂けます。・10月22日 11時斎行(一般の方のご参列はできません)"
-                },
-                {
-                    "title": "川口フェスタ（パイプオルガンコンサート）",
-                    "venue": "川口基督教会",
+                    "title": "川口フェスタ Pipe Organ Concert",
+                    "venue": "川口基督教会 Nippon Sei Ko Kai (Kawaguchi Christ Church, Cathedral)",
                     "date": "毎年秋（生きた建築ミュージアムフェスティバル大阪と同時開催）"
                 }
             ]
@@ -405,8 +260,8 @@
             "events": [
                 {
                     "title": "秋季例祭宵宮祭・秋季例祭本宮祭",
-                    "venue": "恩智神社",
-                    "date": "11月25日・26日 午後2時から午後9時まで拝殿にて御神楽を奉納"
+                    "venue": "恩智神社 Onji Jinja",
+                    "date": "十一月二十五・二十六日 November 25th, 26th 午後2時から午後9時まで拝殿にて御神楽を奉納"
                 }
             ]
         },
@@ -415,14 +270,14 @@
             "en": "December",
             "events": [
                 {
-                    "title": "やっさいほっさい",
-                    "venue": "石津太神社",
-                    "date": "12月14日 20:00より"
+                    "title": "やっさいほっさい Yassai Hossai",
+                    "venue": "石津太神社 Iwatsuta Jinja",
+                    "date": "十二月十四日 December 14th 午後八時より"
                 },
                 {
                     "title": "御火焚の饗神事（大阪府無形民俗文化財）",
-                    "venue": "海老江八坂（えびえやさか）神社",
-                    "date": "12月15日 日没から"
+                    "venue": "海老江八坂神社 Ebie-Yasaka Jinja",
+                    "date": "十二月十五日 December 15th 日没から"
                 }
             ]
         }
