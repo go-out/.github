@@ -161,6 +161,30 @@ const osakaSakai = {
         {
             'type': 'Feature',
             'tags': 'draft',
+            'feature': [
+                {
+                    'month': 5,
+                    'text': '西除川沿いでは、多くのヒメボタルが鑑賞できます。'
+                },
+                {
+                    'month': 6,
+                    'text': '西除川沿いでは、多くのヒメボタルが鑑賞できます。'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5516245634371, 34.50717541668306]
+            },
+            'properties': {
+                'title': '狭山池',
+                'address': '日本最古のダム式ため池（人工池）とされ、国の史跡に指定されている',
+                'date': '',
+                'zoom': 17,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4469689504483, 34.50121272790052]
@@ -237,21 +261,15 @@ const osakaSakai = {
         {
             'type': 'Feature',
             'tags': 'draft',
-            'feature': [
-                {
-                    'month': 11,
-                    'text': '例年11月上旬、メタセコイア並木が見ごろを迎える'
-                }
-            ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.47722872096247, 34.47748046887124]
+                'coordinates': [135.5062313663865, 34.4853365213979]
             },
             'properties': {
-                'title': '新檜尾公園',
-                'address': '公園面積約11万平方メートルの風致公園',
+                'title': '櫻井神社（山井神社・国神社）',
+                'address': '上神谷の八幡さんと呼ばれる市内唯一の国宝（法道寺の東、山井神社・国神社の跡地の小さな社がある）',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 17.5,
             }
         },
         {
@@ -290,20 +308,6 @@ const osakaSakai = {
                 'address': '「眞名井ヶ原」と称する山そのものを御神体とする自然そのままの緑豊かなお宮',
                 'date': '',
                 'zoom': 16.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5516245634371, 34.50717541668306]
-            },
-            'properties': {
-                'title': '狭山池',
-                'address': '日本最古のダム式ため池（人工池）とされ、国の史跡に指定されている',
-                'date': '',
-                'zoom': 17,
             }
         },
         {
