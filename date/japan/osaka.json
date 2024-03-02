@@ -72,6 +72,11 @@
             "en": "April",
             "events": [
                 {
+                    "title": "松岳山春まつり Matsuokayama Spring Festival",
+                    "venue": "河内国分 Kawachi Kokubu",
+                    "date": "四月第一日曜日 First Sunday of April 午前十一時から"
+                },
+                {
                     "title": "神楽祭 Kagura Festival",
                     "venue": "佐備神社 Sabi Jinja",
                     "date": "四月四日 April 4th"
@@ -111,6 +116,11 @@
                     "title": "まくらまつり Makura Matsuri",
                     "venue": "日根神社 Hine Jinja",
                     "date": "五月四・五日 May 4th, 5th"
+                },
+                {
+                    "title": "こいのぼりフェスタ 1000 Koinobori Festa",
+                    "venue": "芥川桜堤公園 Akutagawa Sakurazutsumi Park",
+                    "date": "五月五日まで until May 5th"
                 },
                 {
                     "title": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
@@ -184,6 +194,11 @@
                     "title": "貝塚市東盆踊り・貝塚の東盆踊り（大阪府無形民俗文化財）",
                     "venue": "円光寺境内",
                     "date": "八月十四から十六日 August 14th - 16th 午後八時から十二時近くまで"
+                },
+                {
+                    "title": "献灯祭（火上） Kentōsai",
+                    "venue": "新屋坐天照御魂神社（新屋神社）",
+                    "date": "八月十六日 August 16th 夕方"
                 },
                 {
                     "title": "山門施餓鬼会（八尾地蔵盆踊り）",
