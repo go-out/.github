@@ -199,6 +199,62 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.68157792683772, 34.76429566683236]
+            },
+            'properties': {
+                'title': '大阪公立大学附属植物園',
+                'address': '植物学の研究を目的とし、日本の代表的な11種類の樹林型を再現する植物園',
+                'date': '',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.68531866155413, 34.75288722426604]
+            },
+            'properties': {
+                'title': '府民の森ほしだ園地',
+                'address': '全長280m、高さ50mの巨大吊橋「星のブランコ」、天孫降臨伝説のある「哮が峰（たけるがみね）」をはじめ多くの巨石が散在するアクティビティと冒険の森',
+                'date': '',
+                'zoom': 15.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.69321294304805, 34.747826033767396]
+            },
+            'properties': {
+                'title': '磐船神社',
+                'address': '高さ12メートルにもなる巨大な磐座「天の磐船」を御神体とする聖地',
+                'date': '',
+                'zoom': 17.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6640980725063, 34.767576646761526]
+            },
+            'properties': {
+                'title': 'レンタサイクル 駅リンくん 星田店',
+                'address': '時間 6:30～22:00 1回利用（翌日10時まで） 500円',
+                'date': '',
+                'zoom': 16.5,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.65348645663857, 34.726421477272304]
             },
             'properties': {
