@@ -95,9 +95,9 @@ const osakaKita = {
             'properties': {
                 'title': '毛馬桜之宮公園',
                 'address': '大川の流れに沿ったプロムナード 全長4.2kmのリバーサイドパーク',
-                'iconSize': ['kita/icon/miyakojima.gif', '3.5rem', '3.5rem'],
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=sakuranomiya',
+                'iconSize': ['kita/icon/miyakojima.gif', '3.5rem', '3.5rem'],
                 'zoom': 14
             }
         },
@@ -131,8 +131,8 @@ const osakaKita = {
             'properties': {
                 'title': '福島区野田',
                 'address': '春日社周辺は、福島区の花「野田藤」発祥の地',
-                'iconSize': ['kita/icon/fukushima.gif', '3.5rem', '3.5rem'],
                 'date': '',
+                'iconSize': ['kita/icon/fukushima.gif', '3.5rem', '3.5rem'],
                 'zoom': 15
             }
         },
@@ -160,8 +160,8 @@ const osakaKita = {
             'properties': {
                 'title': '中之島公園',
                 'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水する',
-                'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
                 'date': '',
+                'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5
             }
         },
@@ -195,10 +195,10 @@ const osakaKita = {
             'properties': {
                 'title': '東淀川区',
                 'address': '大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街',
-                'iconSize': ['kita/icon/hyodogawa.png', '3rem', '3rem'],
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
-                'zoom': 14
+                'iconSize': ['kita/icon/hyodogawa.png', '3rem', '3rem'],
+                'zoom': 13.5
             }
         },
         {
@@ -263,10 +263,10 @@ const osakaKita = {
             'properties': {
                 'title': '淀川区・西淀川区',
                 'address': '淀川と神崎川に挟まれた中州の地域<br>淀川区の東端に大阪の玄関口「新大阪駅」があり、西淀川区の西端は大阪湾に面する',
-                'iconSize': ['kita/icon/nyodo.gif', '3.5rem', '3.5rem'],
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=nishi-yodogawa',
-                'zoom': 12.5
+                'iconSize': ['kita/icon/nyodo.gif', '3.5rem', '3.5rem'],
+                'zoom': 12
             }
         },
         {
