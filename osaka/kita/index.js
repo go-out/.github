@@ -181,7 +181,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'park',
+            'tags': 'vr',
             'feature': [
                 {
                     'month': 3,
@@ -245,7 +245,7 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'feature': [
                 {
                     'month': 1,
