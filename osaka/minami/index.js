@@ -126,25 +126,11 @@ const osakaMinami = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.50193869120898, 34.661370765013075]
-            },
-            'properties': {
-                'title': 'なんばパークス',
-                'address': '',
-                'date': '',
-                'zoom': 16
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.51281756441597, 34.66505680252145]
             },
             'properties': {
                 'title': '生國魂神社',
-                'address': '',
+                'address': '約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ 通称「いくたまさん」',
                 'date': '',
                 'zoom': 16.5
             }
@@ -245,7 +231,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '萩之茶屋（釜ヶ崎・あいりん地区）',
-                'address': '',
+                'address': '日本最大の日雇い労働者の街（ドヤ街）<br>11時・17時 萩之茶屋中公園（通称：四角公園）で炊き出し、17時30分 あいりん総合センターでシェルター利用券の配布',
                 'date': '',
                 'iconSize': ['minami/icon/nnari.png', '3.5rem', '3.5rem'],
                 'zoom': 17
