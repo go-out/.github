@@ -16,7 +16,7 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=yao-airport',
                 'youtube': 'geqXiPdwMvw',
-                'zoom': 14.5,
+                'zoom': 14.5
             }
         },
         {
@@ -30,7 +30,7 @@ const osakaKawachi = {
                 'title': '地下鉄八尾南駅北自転車駐車場 レンタサイクル',
                 'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -42,11 +42,11 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '瓢箪山稲荷神社',
-                'address': '瓢箪形の古墳を背にまつられた稲荷社。辻占の総本山。',
+                'address': '瓢箪形の古墳を背にまつられた稲荷社 辻占の総本山',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=hyotanyama-inari',
                 'youtube': '20slOEsjpt0',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -62,7 +62,7 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
                 'youtube': 'idRqIhTm66Y',
-                'zoom': 17,
+                'zoom': 17
             }
         },
         {
@@ -77,7 +77,7 @@ const osakaKawachi = {
                 'address': '高安山の山麓中腹辺り、地名は神立 境内で長鳴鶏が飼われている',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -92,7 +92,7 @@ const osakaKawachi = {
                 'address': '御神体は一帯の岩山全体 原始信仰を起源とする2つの神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=amaterasu-iwato',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -107,7 +107,7 @@ const osakaKawachi = {
                 'address': 'ご祭神・創建・由緒いずれも謎だらけの河内国随一の社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
-                'zoom': 14.5,
+                'zoom': 14.5
             }
         },
         {
@@ -121,7 +121,7 @@ const osakaKawachi = {
                 'title': '近鉄恩智駅自転車駐車場 レンタサイクル',
                 'address': '当日 250円 一泊 350円',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -135,7 +135,7 @@ const osakaKawachi = {
                 'title': '常光寺',
                 'address': '河内最古之音頭発祥地',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -149,7 +149,7 @@ const osakaKawachi = {
                 'title': 'ＪＲ八尾駅東自転車駐車場 レンタサイクル',
                 'address': '営業時間 7:00~19:00 料金 200円/1日（1回）',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -163,7 +163,7 @@ const osakaKawachi = {
                 'title': '近鉄八尾駅東自転車駐車場 レンタサイクル',
                 'address': '当日 250円 一泊 350円',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -175,23 +175,33 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '鏡伝池緑地',
-                'address': '「緑と太陽と文化のまち」のスローガンのもと枚方市市政35年を記念して造成された、住宅地に囲まれた地域密着型の緑地公園',
+                'address': '「緑と太陽と文化のまち」のスローガンのもと枚方市市政35年を記念して造成された地域密着型の緑地公園',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
             'type': 'Feature',
             'tags': 'draft',
+            'feature': [
+                {
+                    'month': 4,
+                    'text': '春の桜の時期、香里ケ丘中央公園・こもれび水路などの桜が見頃を迎え、日本庭園「以楽公園」が 1~2週間のみ（10~16時）一般開放される'
+                },
+                {
+                    'month': 11,
+                    'text': '秋の紅葉期、いちょう・けやき通りが見頃を迎え、日本庭園「以楽公園」が 1~2週間のみ（10~16時）一般開放される'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.65170046385452, 34.79146002035211]
             },
             'properties': {
-                'title': '香里ケ丘中央公園',
-                'address': 'かつて「東洋一のニュータウン」と呼ばれた香里団地の至近にある住宅街の中の公園',
+                'title': '香里団地',
+                'address': 'かつて「東洋一のマンモス団地」と呼ばれたニュータウン',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -203,9 +213,9 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '大阪公立大学附属植物園',
-                'address': '植物学の研究を目的とし、日本の代表的な11種類の樹林型を再現する植物園',
+                'address': '植物学の研究を目的に、日本の代表的な11種類の樹林型を再現する植物園',
                 'date': '',
-                'zoom': 15,
+                'zoom': 15
             }
         },
         {
@@ -217,9 +227,9 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '府民の森ほしだ園地',
-                'address': '全長280m、高さ50mの巨大吊橋「星のブランコ」、天孫降臨伝説のある「哮が峰（たけるがみね）」をはじめ多くの巨石が散在するアクティビティと冒険の森',
+                'address': '全長280m・高さ50mの巨大吊橋「星のブランコ」、天孫降臨伝説のある「哮が峰（たけるがみね）」をはじめ、多くの巨石が散在するアクティビティと冒険の森',
                 'date': '',
-                'zoom': 14,
+                'zoom': 14
             }
         },
         {
@@ -233,7 +243,7 @@ const osakaKawachi = {
                 'title': '磐船神社',
                 'address': '高さ12メートルにもなる巨大な磐座「天の磐船」を御神体とする聖地',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -247,7 +257,7 @@ const osakaKawachi = {
                 'title': 'レンタサイクル 駅リンくん 星田店',
                 'address': '時間 6:30～22:00 1回利用（翌日10時まで） 500円',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -262,22 +272,7 @@ const osakaKawachi = {
                 'address': '野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=iimoriyama',
-                'zoom': 14.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.64499442747368, 34.7188448349019]
-            },
-            'properties': {
-                'title': '野崎観音 慈眼寺',
-                'address': 'JR野崎駅から徒歩約5分、数百段はあろうかという階段の上にある曹洞宗の禅寺',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=nozakikannon',
-                'zoom': 17,
+                'zoom': 14.5
             }
         },
         {
@@ -292,7 +287,7 @@ const osakaKawachi = {
                 'address': '高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -307,7 +302,7 @@ const osakaKawachi = {
                 'address': '世界遺産に登録された古墳が点在するエリア「古市古墳群」の北端に鎮座する河内國総社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=shikiagatanushi',
-                'zoom': 18,
+                'zoom': 18
             }
         },
         {
@@ -321,7 +316,7 @@ const osakaKawachi = {
                 'title': '柏原駅東自転車・柏原駅西口第２駐輪場 レンタサイクル',
                 'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         }
     ]

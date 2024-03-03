@@ -63,7 +63,17 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
+            'feature': [
+                {
+                    'month': 3,
+                    'text': '例年3月中旬、桃ヶ池公園に阿倍野区の花「ハナモモ」が咲き始める'
+                },
+                {
+                    'month': 4,
+                    'text': '例年4月上旬、桃ヶ池公園の「モモ」「サクラ」が見頃を迎える'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51504980889422, 34.63029823255289]
@@ -73,34 +83,9 @@ const osakaMinami = {
                 'address': '阿倍野元町・王子町・阪南町・昭和町・文の里・桃ケ池町・長池町',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=minami&name=abeno-nantou',
+                'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
                 'youtube': 'dWeIDI9cJXA',
                 'zoom': 14
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'park',
-            'feature': [
-                {
-                    'month': 3,
-                    'text': '例年3月中旬、阿倍野区の花「モモ」が咲き始め、3月下旬「サクラ」が咲き始める'
-                },
-                {
-                    'month': 4,
-                    'text': '例年4月上旬、「モモ」「サクラ」が見頃を迎える'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.52144594855437, 34.63073779442691]
-            },
-            'properties': {
-                'title': '桃ヶ池公園',
-                'address': 'JR阪和線の列車の車窓からも見ることができるハナモモ・サクラの名所',
-                'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=momogaike',
-                'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
-                'zoom': 15
             }
         },
         {

@@ -21,6 +21,21 @@ const osakaKita = {
         },
         {
             'type': 'Feature',
+            'tags': 'vr',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49247137036144, 34.69864019314251]
+            },
+            'properties': {
+                'title': 'OSAKA GARDEN CITY',
+                'address': '「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所',
+                'date': '',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
@@ -31,20 +46,6 @@ const osakaKita = {
                 'address': '「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所',
                 'date': '',
                 'zoom': 17.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49247137036144, 34.69864019314251]
-            },
-            'properties': {
-                'title': 'OSAKA GARDEN CITY',
-                'address': '「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所',
-                'date': '',
-                'zoom': 16.5
             }
         },
         {

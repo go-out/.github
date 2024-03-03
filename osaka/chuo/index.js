@@ -5,7 +5,7 @@ const osakaChuo = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.52296085487433, 34.67992404080561]
@@ -14,6 +14,7 @@ const osakaChuo = {
                 'title': '難波宮跡',
                 'address': '日本という国号・元号の使用が始まったとされる、大阪が日本の都であったことを示す宮殿の跡',
                 'date': '',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14.5
             }
         },

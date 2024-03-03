@@ -16,7 +16,7 @@ const osakaSakai = {
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=daisenkouen',
                 'youtube': 'wLRVVM-xAmg',
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -30,7 +30,7 @@ const osakaSakai = {
                 'title': '堺観光レンタサイクル 大仙公園観光案内所',
                 'address': '普通:500円 電動アシスト:1000円 | 営業時間 9:00~17:30',
                 'date': '',
-                'zoom': 15,
+                'zoom': 15
             }
         },
         {
@@ -46,7 +46,7 @@ const osakaSakai = {
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sainvarierkanaoka',
                 'youtube': 'UhG3l8F5rE4',
-                'zoom': 19,
+                'zoom': 19
             }
         },
         {
@@ -55,11 +55,11 @@ const osakaSakai = {
             'feature': [
                 {
                     'month': 4,
-                    'text': '例年4月下旬~5月頃、堺市の花木「つつじ（約2500株）」が見ごろを迎えます。'
+                    'text': '例年4月下旬~5月頃、堺市の花木「つつじ（約2500株）」が見ごろを迎える'
                 },
                 {
                     'month': 5,
-                    'text': '例年4月下旬~5月頃、堺市の花木「つつじ（約2500株）」が見ごろを迎えます。'
+                    'text': '例年4月下旬~5月頃、堺市の花木「つつじ（約2500株）」が見ごろを迎える'
                 }
             ],
             'geometry': {
@@ -70,7 +70,7 @@ const osakaSakai = {
                 'title': '浅香山緑道',
                 'address': '浅香山公園と大和川公園を結ぶ緑道',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -84,7 +84,7 @@ const osakaSakai = {
                 'title': '大浜公園',
                 'address': '山頂付近にソテツが植えられている築山「蘇鉄山」がある',
                 'date': '',
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -99,7 +99,7 @@ const osakaSakai = {
                 'address': '貸出時間:午前9時から午後4時半（返却時間:午後5時迄） | 料金:大人用300円',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=oizumi',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -113,7 +113,7 @@ const osakaSakai = {
                 'title': '堺観光レンタサイクル 堺駅観光案内所',
                 'address': '普通:500円 電動アシスト:1000円 | 営業時間 9:00~17:30',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -127,7 +127,7 @@ const osakaSakai = {
                 'title': '浜寺公園 無料レンタサイクル',
                 'address': '営業時間 9:00~17:00 ※自転車のご利用は園内利用に限ります。',
                 'date': '',
-                'zoom': 14.5,
+                'zoom': 14.5
             }
         },
         {
@@ -141,7 +141,7 @@ const osakaSakai = {
                 'title': '大阪ガス科学館',
                 'address': '※見学はフルアテンド・完全予約制 | 開催日 第2・第4土曜日（お盆及び年末年始・特別に定める臨時休館日を除く） 開始時間 10:00、13:30',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -155,7 +155,7 @@ const osakaSakai = {
                 'title': '佐備神社',
                 'address': '浪速神楽の伝承と指導',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -164,11 +164,11 @@ const osakaSakai = {
             'feature': [
                 {
                     'month': 5,
-                    'text': '西除川沿いでは、多くのヒメボタルが鑑賞できます。'
+                    'text': '西除川沿いでは、多くのヒメボタルが鑑賞できる'
                 },
                 {
                     'month': 6,
-                    'text': '西除川沿いでは、多くのヒメボタルが鑑賞できます。'
+                    'text': '西除川沿いでは、多くのヒメボタルが鑑賞できる'
                 }
             ],
             'geometry': {
@@ -179,7 +179,7 @@ const osakaSakai = {
                 'title': '狭山池',
                 'address': '日本最古のダム式ため池（人工池）とされ、国の史跡に指定されている',
                 'date': '',
-                'zoom': 17,
+                'zoom': 17
             }
         },
         {
@@ -191,9 +191,9 @@ const osakaSakai = {
             },
             'properties': {
                 'title': '聖神社',
-                'address': '和泉国の三ノ宮。信太山丘陵一帯が境内地で、古くから「信太の森」と詠われた',
+                'address': '和泉国の三ノ宮、信太山丘陵一帯が境内地で古くから「信太の森」と詠われた',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -207,7 +207,7 @@ const osakaSakai = {
                 'title': '泉穴師神社',
                 'address': '和泉国二宮で、旧社格は府社。「泉穴師神社の森」は「大阪みどりの百選」に選ばれている',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -221,7 +221,7 @@ const osakaSakai = {
                 'title': '大鳥大社',
                 'address': '日本武尊（やまとたけるのみこと）をお祀りする和泉の国一宮',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -235,7 +235,7 @@ const osakaSakai = {
                 'title': '泉井上神社',
                 'address': '“和泉”の地名発祥の地 ～和泉国総社～',
                 'date': '',
-                'zoom': 18,
+                'zoom': 18
             }
         },
         {
@@ -255,7 +255,7 @@ const osakaSakai = {
                 'title': '美多彌神社',
                 'address': '泉北ニュータウン光明池地区の住宅街の中にある みたみじんじゃ',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -269,7 +269,7 @@ const osakaSakai = {
                 'title': '櫻井神社（山井神社・国神社）',
                 'address': '上神谷の八幡さんと呼ばれる市内唯一の国宝（法道寺の東、山井神社・国神社の跡地の小さな社がある）',
                 'date': '',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -293,7 +293,7 @@ const osakaSakai = {
                 'title': '大阪府立環境農林水産総合研究所',
                 'address': '「大阪みどりの百選」指定の観光名所',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -307,7 +307,7 @@ const osakaSakai = {
                 'title': '美具久留御魂神社',
                 'address': '「眞名井ヶ原」と称する山そのものを御神体とする自然そのままの緑豊かなお宮',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -321,7 +321,7 @@ const osakaSakai = {
                 'title': '近つ飛鳥',
                 'address': '奈良の飛鳥は「遠つ飛鳥」と言い、大阪・羽曳野市、太子町の二上山西側の山麓一帯を「近つ飛鳥」と言う',
                 'date': '',
-                'zoom': 14.5,
+                'zoom': 14.5
             }
         }
     ]
