@@ -266,7 +266,7 @@ const osakaKita = {
                 'iconSize': ['kita/icon/nyodo.gif', '3.5rem', '3.5rem'],
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=nishi-yodogawa',
-                'zoom': 14.5
+                'zoom': 12.5
             }
         },
         {
