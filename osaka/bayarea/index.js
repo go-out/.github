@@ -16,7 +16,7 @@ const osakaBayarea = {
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=seaside-cosmo',
                 'youtube': 'EoFg1eMWADg',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -32,7 +32,7 @@ const osakaBayarea = {
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=wtc-cosmotower',
                 'youtube': '9E8UZio4SJM',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -47,7 +47,7 @@ const osakaBayarea = {
                 'address': '何をする訳でもなく、ただぼーっと過ごした記録映像（25分36秒）',
                 'date': '',
                 'youtube': 'O84LelQJNbA',
-                'zoom': 17,
+                'zoom': 17
             }
         },
         {
@@ -61,7 +61,7 @@ const osakaBayarea = {
                 'title': '大阪南港野鳥園',
                 'address': '人工干潟と緑地で環境を構成整備した野鳥のためのサンクチュアリー',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -75,7 +75,7 @@ const osakaBayarea = {
                 'title': '舞洲スラッジセンター',
                 'address': '建物内の見学は事前予約制 | 1階エントランスホールは、月曜日から金曜日（年末年始、祝日は除く）の9時から17時のみ一般開放',
                 'date': '',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -91,7 +91,7 @@ const osakaBayarea = {
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=nankou-uotsuri-en',
                 'youtube': '9DRiQ5CVcjE',
-                'zoom': 16,
+                'zoom': 16
             }
         },
         {
@@ -103,12 +103,12 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '南港ポートタウン',
-                'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にある住宅地、ニュータウン。',
+                'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にあるニュータウン',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=bayarea&name=port-town',
                 'youtube': '8az_VW2ssbs',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -125,7 +125,7 @@ const osakaBayarea = {
                 'href': 'osaka/vr/?area=bayarea&name=container_berth',
                 'youtube': 'rlfyH_v-fTk',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -137,10 +137,10 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '天保山',
-                'address': '日本一低い山として知られる築山。標高4.53m。<br>周辺は、海遊館・大観覧車・遊覧船などがあるベイエリアを代表する観光スポット。',
+                'address': '日本一低い山として知られる築山（標高4.53m）<br>周辺は、海遊館・大観覧車・遊覧船などがあるベイエリアを代表する観光スポット',
                 'date': '',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 14.5,
+                'zoom': 14.5
             }
         },
         {
@@ -156,7 +156,7 @@ const osakaBayarea = {
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=bayarea&name=hokko',
                 'iconSize': ['bayarea/icon/konohana.gif', '3.75rem', '3.75rem'],
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -165,11 +165,11 @@ const osakaBayarea = {
             'feature': [
                 {
                     'month': 4,
-                    'text': '公園内の築山「昭和山」の一帯、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物は、4月後半~5月が見頃'
+                    'text': '4月後半~5月、公園内の築山「昭和山」一帯で大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物が見頃を迎える'
                 },
                 {
                     'month': 5,
-                    'text': '公園内の築山「昭和山」の一帯、大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物は、4月後半~5月が見頃'
+                    'text': '4月後半~5月、公園内の築山「昭和山」一帯で大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物が見頃を迎える'
                 }
             ],
             'geometry': {
@@ -181,7 +181,7 @@ const osakaBayarea = {
                 'address': '',
                 'date': '',
                 'iconSize': ['bayarea/icon/taisho.gif', '3.5rem', '3.5rem'],
-                'zoom': 16,
+                'zoom': 16
             }
         }
     ]
