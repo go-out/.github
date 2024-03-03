@@ -16,7 +16,7 @@ const osakaSumiyoshi = {
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
                 'youtube': 'wbOguTvuV0Q',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -32,7 +32,7 @@ const osakaSumiyoshi = {
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
                 'youtube': 'gfwP_viCeZg',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -48,7 +48,7 @@ const osakaSumiyoshi = {
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
                 'youtube': 'mkioDOspLbs',
-                'zoom': 17.25,
+                'zoom': 17.25
             }
         },
         {
@@ -63,7 +63,7 @@ const osakaSumiyoshi = {
                 'address': '貸出時間 午前8時30分から午後5時',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -78,7 +78,7 @@ const osakaSumiyoshi = {
                 'address': '万代池を取り囲むように、遊歩道・花壇・遊具などが整備された気持ちの良い公園',
                 'date': '',
                 'youtube': '-7DEl_jxuW8',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -90,17 +90,17 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '帝塚山',
-                'address': '帝塚山（てづかやま）古墳の墳丘。標高は19.88m。<br>関西を代表する高級住宅街の一つ。',
+                'address': '帝塚山古墳の墳丘（標高は19.88m）<br>関西を代表する高級住宅街の一つ。',
                 'date': 'more info',
                 'href': 'osaka/vr/?area=sumiyoshi&name=tezukayama',
-                'youtube': 'KuYJ3IW7z4k',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 16,
+                'youtube': 'KuYJ3IW7z4k',
+                'zoom': 16
             }
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.5020826573068, 34.600576317924755]
@@ -110,8 +110,7 @@ const osakaSumiyoshi = {
                 'address': '墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=sumiyoshi&name=nanbu',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 13.5,
+                'zoom': 13.5
             }
         },
         {
@@ -136,7 +135,7 @@ const osakaSumiyoshi = {
                 'address': '花と緑とふれあう、スポーツを楽しめる公園',
                 'date': '',
                 'iconSize': ['sumiyoshi/icon/suminoe.png', '3.5rem', '3.5rem'],
-                'zoom': 15.5,
+                'zoom': 15.5
             }
         },
         {
@@ -151,7 +150,7 @@ const osakaSumiyoshi = {
                 'address': '貸出時間 午前8時30分から午後5時',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=suminoe',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -166,7 +165,7 @@ const osakaSumiyoshi = {
                 'address': '現在は市民公園「加賀屋緑地」として一般開放されている大阪市指定文化財・史跡の会所跡',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=kagayashindenkaisyoato',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -175,7 +174,7 @@ const osakaSumiyoshi = {
             'feature': [
                 {
                     'month': 5,
-                    'text': '5月中旬頃、住吉区の花「カキツバタ」が見られる'
+                    'text': '5月中旬頃、住吉区の花「カキツバタ」が咲く'
                 }
             ],
             'geometry': {
@@ -187,7 +186,7 @@ const osakaSumiyoshi = {
                 'address': '住吉の 細江の葦も 霜枯れて よそにもしろき みをつくしかな',
                 'date': '',
                 'iconSize': ['sumiyoshi/icon/sumiyoshi.png', '3.75rem', '3.75rem'],
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -196,7 +195,7 @@ const osakaSumiyoshi = {
             'feature': [
                 {
                     'month': 5,
-                    'text': '水上ステージ付近の「カキツバタ園」は、5月中旬頃が見頃'
+                    'text': '5月中旬頃、水上ステージ付近の「カキツバタ園」が見頃を迎える'
                 }
             ],
             'geometry': {
@@ -207,21 +206,7 @@ const osakaSumiyoshi = {
                 'title': '浅香中央公園',
                 'address': '広々とした芝生広場「獅子が空を翔ぶ日に」',
                 'date': '',
-                'zoom': 16,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5210520566761, 34.61301414594781]
-            },
-            'properties': {
-                'title': '長居公園',
-                'address': '木々や花々が生い茂る広大な公園',
-                'date': '',
-                'zoom': 15.5,
+                'zoom': 16
             }
         },
         {
@@ -236,7 +221,7 @@ const osakaSumiyoshi = {
                 'address': '久宝寺緑地 管理事務所',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=kyuhouji',
-                'zoom': 16.5,
+                'zoom': 16.5
             }
         },
         {
@@ -250,7 +235,7 @@ const osakaSumiyoshi = {
                 'title': '大念佛寺',
                 'address': '「万部おねり（阿弥陀経万部読誦聖聚来迎会）」で知られる寺院（融通念仏宗の総本山） 本堂は大阪府下最大の木造建築物',
                 'date': '',
-                'zoom': 16,
+                'zoom': 16
             }
         },
         {
@@ -259,11 +244,11 @@ const osakaSumiyoshi = {
             'feature': [
                 {
                     'month': 7,
-                    'text': '7月下旬から8月下旬頃、隣接する「区民わた畑」に平野区の花「わたの花」が順次開花'
+                    'text': '7月下旬から8月下旬、隣接する「区民わた畑」に平野区の花「わたの花」が開花する'
                 },
                 {
                     'month': 8,
-                    'text': '7月下旬から8月下旬頃、隣接する「区民わた畑」に平野区の花「わたの花」が順次開花'
+                    'text': '7月下旬から8月下旬、隣接する「区民わた畑」に平野区の花「わたの花」が開花する'
                 }
             ],
             'geometry': {
@@ -275,7 +260,7 @@ const osakaSumiyoshi = {
                 'address': '四季折々の植樹がなされた広々とした大阪市設霊園（8万平方メートル）',
                 'date': '',
                 'iconSize': ['higashi/icon/hirano.png', '3.5rem', '3.5rem'],
-                'zoom': 15,
+                'zoom': 15
             }
         }
     ]
