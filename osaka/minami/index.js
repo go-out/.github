@@ -63,7 +63,7 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'vr',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.51504980889422, 34.63029823255289]
@@ -74,7 +74,6 @@ const osakaMinami = {
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=minami&name=abeno-nantou',
                 'youtube': 'dWeIDI9cJXA',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14
             }
         },
@@ -116,7 +115,6 @@ const osakaMinami = {
                 'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
-                'tags': 'legacy',
                 'youtube': 'OO_7X8aM9BQ',
                 'zoom': 17.5
             }
