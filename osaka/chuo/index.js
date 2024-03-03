@@ -5,6 +5,20 @@ const osakaChuo = {
     'features': [
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52296085487433, 34.67992404080561]
+            },
+            'properties': {
+                'title': '難波宮跡',
+                'address': '日本という国号・元号の使用が始まったとされる、大阪が日本の都であったことを示す宮殿の跡',
+                'date': '',
+                'zoom': 14.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'legacy',
             'feature': [
                 {
@@ -22,7 +36,7 @@ const osakaChuo = {
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=kouzu',
                 'youtube': 'oYLY36voXiw',
-                'zoom': 17.5,
+                'zoom': 17.5
             }
         },
         {
@@ -31,11 +45,7 @@ const osakaChuo = {
             'feature': [
                 {
                     'month': 2,
-                    'text': '例年2月中旬（献梅祭の時期）から、梅の花が見頃を迎えます'
-                },
-                {
-                    'month': 3,
-                    'text': '3月中旬までは梅、3月下旬からは桜が見頃を迎えます'
+                    'text': '例年2月中旬（献梅祭の時期）から、梅の花が咲き始める'
                 }
             ],
             'geometry': {
@@ -44,54 +54,11 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '高津公園',
-                'address': '「高津宮」に隣接する公園。公園内の梅林は、中央区の花「梅」の名所',
+                'address': '「高津宮」に隣接する公園<br>公園内の梅林は、中央区の花「梅」の名所',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=kouzu',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
-                'zoom': 17.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'vr',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.52296085487433, 34.67992404080561]
-            },
-            'properties': {
-                'title': '難波宮跡',
-                'address': '日本という国号・元号の使用が始まったとされる、大阪が日本の都であったことを示す宮殿の跡',
-                'date': '',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 14.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5258453437511, 34.687312513628626]
-            },
-            'properties': {
-                'title': '大阪城',
-                'address': '梅林（1月~3月頃）桃園（3月中旬~4月下旬）あじさい・うつぎ園（5月末~7月上旬）',
-                'date': '',
-                'zoom': 14.5,
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4999269853856, 34.67872004066121]
-            },
-            'properties': {
-                'title': '難波神社',
-                'address': '心斎橋・御堂筋沿いにある、花菖蒲（はなしょうぶ）をご神紋とする神社',
-                'date': '',
-                'zoom': 18,
+                'zoom': 17.5
             }
         },
         {
@@ -109,7 +76,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '坐摩神社',
-                'address': 'いかすりじんじゃ、通称ざまさん。番地が渡辺!?',
+                'address': '摂津国一之宮 いかすりじんじゃ、通称ざまさん。番地が渡辺!?',
                 'date': '',
                 'zoom': 18,
             }
@@ -120,15 +87,15 @@ const osakaChuo = {
             'feature': [
                 {
                     'month': 5,
-                    'text': '西区を象徴する「バラ園」の春の見頃は、5月上旬から6月上旬'
+                    'text': '5月上旬から6月上旬、「バラ園」が春の見頃を迎える'
                 },
                 {
                     'month': 6,
-                    'text': '西区を象徴する「バラ園」の春の見頃は、5月上旬から6月上旬'
+                    'text': '5月上旬から6月上旬、「バラ園」が春の見頃を迎える'
                 },
                 {
                     'month': 10,
-                    'text': '西区を象徴する「バラ園」の秋の見頃は、10月上旬から10月下旬'
+                    'text': '10月上旬から10月下旬、「バラ園」が秋の見頃を迎える'
                 }
             ],
             'geometry': {
@@ -137,7 +104,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '靱公園',
-                'address': '四季に彩られるケヤキ並木・国際大会にも利用できる靱テニスセンターがある、ビジネス街の憩いの場、スポーツの場',
+                'address': '四季に彩られるケヤキ並木・西区を象徴する「バラ園」がある、ビジネス街の憩いの場・スポーツの場',
                 'date': '',
                 'iconSize': ['chuo/icon/nishi.gif', '2.75rem', '2.75rem'],
                 'zoom': 15,
