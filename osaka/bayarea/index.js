@@ -87,7 +87,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '南港魚つり園護岸',
-                'address': '大きな空と海を一望できる気持ちのいい場所',
+                'address': '南港南の西の果て 大きな空と海を一望できる気持ちのいい場所',
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=nankou-uotsuri-en',
                 'youtube': '9DRiQ5CVcjE',
