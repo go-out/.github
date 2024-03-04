@@ -89,7 +89,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '天照大神高座神社・岩戸神社',
-                'address': '御神体は一帯の岩山全体 原始信仰を起源とする2つの神社',
+                'address': '一帯の岩山全体がご神体 原始信仰を起源とする2つの神社と古墳群',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=amaterasu-iwato',
                 'zoom': 17.5
@@ -100,14 +100,14 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.64679168150087, 34.60504326912111]
+                'coordinates': [135.6400280798243, 34.60645434423541]
             },
             'properties': {
                 'title': '恩智神社',
-                'address': 'ご祭神・創建・由緒いずれも謎だらけの河内国随一の社',
+                'address': '河内の総鎮守 入口の石段の横、右側の道から神社の裏にある総池へ',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
-                'zoom': 14.5
+                'zoom': 15.5
             }
         },
         {
