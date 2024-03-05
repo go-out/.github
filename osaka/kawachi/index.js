@@ -74,7 +74,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '玉祖神社',
-                'address': '高安山の山麓中腹辺り、地名は神立 境内で長鳴鶏が飼われている',
+                'address': '高安山の山麓中腹 地名は神立 境内で長鳴鶏が飼われている',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
                 'zoom': 17.5
@@ -105,7 +105,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '恩智神社',
-                'address': '河内の総鎮守<br>入口の石段の横、右側の道から神社の裏にある総池へ抜けると「恩智神社奥宮（天川山）」への入口',
+                'address': '河内の総鎮守 石段の横の道から神社の裏にある総池へ抜けると「恩智神社奥宮（天川山）」への入口',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
                 'youtube': 'IsJIYQ720Od0JWqB',
@@ -286,7 +286,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '鐸比古鐸比賣神社（高尾山）',
-                'address': '高尾山を神体山・磐座とする「ぬでひこ ぬでひめ じんじゃ」',
+                'address': '高尾山を神体山とする「ぬでひこ ぬでひめ じんじゃ」',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
                 'zoom': 16.5
@@ -301,7 +301,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '志貴縣主神社',
-                'address': '世界遺産に登録された古墳が点在するエリア「古市古墳群」の北端に鎮座する河内國総社',
+                'address': '世界遺産に登録された古墳が点在するエリア「古市古墳群」の北端に位置する河内國総社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=shikiagatanushi',
                 'zoom': 18
