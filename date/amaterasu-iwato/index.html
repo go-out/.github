@@ -9,16 +9,16 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="creative-community.space">
 
-    <title>どやどや 🇯🇵 Doya Doya</title>
-    <meta property="og:title" content="どやどや 🇯🇵 Doya Doya">
-    <meta name="twitter:title" content="どやどや 🇯🇵 Doya Doya">
+    <title>天照大神高座神社 🇯🇵 岩戸神社</title>
+    <meta property="og:title" content="天照大神高座神社 🇯🇵 岩戸神社">
+    <meta name="twitter:title" content="天照大神高座神社 🇯🇵 岩戸神社">
 
-    <meta name="description" content="場所：四天王寺 六時礼讃堂・仁王門前 ⛩️ Shitennoji | 実施日：毎年一月十四日 十四時 から 十五時半">
-    <meta property="og:description" content="場所：四天王寺 六時礼讃堂・仁王門前 ⛩️ Shitennoji | 実施日：毎年一月十四日 十四時 から 十五時半">
-    <meta name="twitter:description" content="場所：四天王寺 六時礼讃堂・仁王門前 ⛩️ Shitennoji | 実施日：毎年一月十四日 十四時 から 十五時半">
+    <meta name="description" content="大阪府八尾市教興寺 ⛩️ Kyokoji Yao Osaka, Japan">
+    <meta property="og:description" content="大阪府八尾市教興寺 ⛩️ Kyokoji Yao Osaka, Japan">
+    <meta name="twitter:description" content="大阪府八尾市教興寺 ⛩️ Kyokoji Yao Osaka, Japan">
 
-    <meta property="og:url" content="https://creative-community.space/map/date/doya-doya/">
-    <meta property="twitter:url" content="https://creative-community.space/map/date/doya-doya/">
+    <meta property="og:url" content="https://creative-community.space/map/date/">
+    <meta property="twitter:url" content="https://creative-community.space/map/date/">
     <meta property="og:image" content="https://i.ytimg.com/vi/___/sddefault.jpg">
     <meta name="twitter:image" content="https://i.ytimg.com/vi/___/sddefault.jpg">
 
@@ -51,7 +51,13 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        indexJSON("index.json")
+        const hash = location.hash;
+        if (hash) {
+            let thisDate = hash.replace('#', '')
+            indexJSON(thisDate + "/index.json")
+        } else {
+            indexJSON("kohun/index.json")
+        }
     </script>
 
     <link rel="stylesheet" href="../style.css">
@@ -69,12 +75,12 @@
     <article id="cover">
         <section>
             <h1>
-                <u>どやどや 🇯🇵 四天王寺</u><br>
-                <strong>Doya Doya</strong>
+                <u>天照大神高座神社 🇯🇵 岩戸神社</u><br>
+                <strong><small>Amaterasu-Okami Takakura Jinja and Iwato Jinja</small></strong>
             </h1>
             <h2>
-                毎年一月十四日 十四時 から 十五時半<br>
-                <small>Date: Every year on January 14th at 2PM to 3:30PM</small>
+                大阪府八尾市教興寺<br>
+                <small>Kyokoji Yao Osaka, Japan</small>
             </h2>
         </section>
     </article>

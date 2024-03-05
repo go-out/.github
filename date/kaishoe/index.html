@@ -51,7 +51,13 @@
 
     <script type="text/javascript" src="../index.js"></script>
     <script>
-        indexJSON("20240309.json")
+        const hash = location.hash;
+        if (hash) {
+            let thisDate = hash.replace('#','')
+            indexJSON(thisDate + "/index.json")
+        } else {
+            indexJSON("20240309/index.json")
+        }
     </script>
 
     <link rel="stylesheet" href="../style.css">
@@ -73,7 +79,7 @@
                 <strong>Kaisyoe</strong>
             </h1>
             <h2>
-                毎年三月初旬<br>
+                実施日 毎年三月初旬<br>
                 <small>Date: Early March every year</small>
             </h2>
         </section>

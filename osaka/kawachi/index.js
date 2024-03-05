@@ -82,7 +82,7 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.64004442128004, 34.61267755221649]
@@ -92,6 +92,7 @@ const osakaKawachi = {
                 'address': '一帯の岩山全体がご神体 原始信仰を起源とする2つの神社と古墳群',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=amaterasu-iwato',
+                'youtube': '_lX5gXzLS5c',
                 'zoom': 17.5
             }
         },
@@ -104,7 +105,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '恩智神社',
-                'address': '河内の総鎮守 入口の石段の横、右側の道から神社の裏にある総池へ',
+                'address': '河内の総鎮守<br>入口の石段の横、右側の道から神社の裏にある総池へ抜けると「恩智神社奥宮（天川山）」への入口',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
                 'zoom': 15.5

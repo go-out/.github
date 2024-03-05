@@ -1,9 +1,6 @@
 {
     "date": "YYYY.MM.DD (WEEK)",
-    "u": "タイトル 🇯🇵 場所",
-    "strong": "Title <small>Venue</small>",
-    "readme": "README.md",
-    "url": ".sample/",
+    "url": "temmangu/",
     "youtube": "___",
     "directory": "",
     "cover": "",
@@ -16,8 +13,8 @@
     ],
     "link": [
         {
-            "text": "リンク",
-            "url": "___",
+            "text": "鎮花祭 🇯🇵 Chinka Festival",
+            "url": "#chinka",
             "target": "_self"
         }
     ]

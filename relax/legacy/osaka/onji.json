@@ -1,18 +1,19 @@
 {
     "title": "恩智神社 おんじじんじゃ",
-    "description": "天川山・天川神社跡地（恩智神社奥宮）",
-    "year": "YYYY",
-    "month": "MM",
-    "day": "DD",
+    "description": "2024年2月4日 の 恩智神社",
+    "year": "2024",
+    "month": "2",
+    "day": "4",
     "info": {
         "title": "Onji Jinja ⛩ Yao Osaka, Japan",
         "address": "大阪府八尾市恩智",
         "google": "https://maps.app.goo.gl/KfyLUGbrnr5fDGbA7",
         "text": [
-            "ご祭神・創建・由緒いずれも謎が残る、河内の総鎮守",
+            "ご祭神・創建・由緒いずれも謎が残る 河内の総鎮守",
             "",
-            "入口の石段の横、右側の道から神社の裏にある総池へ抜けると、旧ハイキングコース（谷道）「天川道」の入口がある",
-            "「天川山」の山頂近く「恩智神社奥宮（天川山）」の周辺には、岩に対する信仰の依り代だったと思われる磐座群があるらしい",
+            "<a href='../date/onji/'>天川山 ⛰️ 恩智総池遊歩道</a>",
+            "入口の石段の横、右側の道から神社の裏にある総池へ抜けると、旧ハイキングコース（谷道）「天川道」の入口",
+            "「恩智神社奥宮（天川山の山頂）」の周辺には、岩に対する信仰の依り代だったと思われる磐座群があるらしい",
             "",
             "<u>アクセス</u><br>近鉄大阪線「恩智」から徒歩約20分<br>近鉄大阪線各停 大阪難波から約30分",
             "<u>最寄りのレンタサイクル</u><br>近鉄恩智駅自転車駐車場<br>志紀駅前自転車駐車場<br><small>当日 250円 一泊 350円</small>"
@@ -21,19 +22,33 @@
     "links": [
         "<a href='http://www.onji.or.jp/' target='_blank'>恩智神社 – 厄除け・祓いの大社</a>",
         "<a href='http://www.yaomania.jp/data/InfoDetail.asp?id=1225' target='_blank'>おんぢじんじゃ 恩智神社</a>",
-        "<a href='https://arakan60.com/trek/370/' target='_blank'>恩智越え【天川道（谷道）】ルートの詳細</a>",
-        "<a href='https://www.google.com/maps/d/viewer?mid=1xfvd8vtOjswTJgbaGp5-bmloDO3JqCy2' target='_blank'>恩智越え-代替裏ルート - Google マイマップ</a>",
         "<a href='https://www.yao-citynet.co.jp/work_rental.htm' target='_blank'>レンタサイクル 八尾シティネット株式会社／自転車駐輪場</a>"
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipNk7NMWtHxBdJOkaFC2sJDLWo-9pEY1h6_ymK1D",
+            "poster": "AF1QipNnd0BGJteuSZZSIaKN-RvhCJ0aWBclJbTJ3VlT",
             "src": [
-                "AF1QipNk7NMWtHxBdJOkaFC2sJDLWo-9pEY1h6_ymK1D=m18"
+                "AF1QipNnd0BGJteuSZZSIaKN-RvhCJ0aWBclJbTJ3VlT=m18",
+                "AF1QipO7fqkiCkcaSR13DOpErflOy560huF924UdRg9r=m18",
+                "AF1QipMlPmDAcxObq59C2pcwjxXJlu9B6k4TQiookmEC=m18",
+                "AF1QipNHlpdXdeDaj5ers-ikfRgLYkVVxksjY3_jabYL=m18",
+                "AF1QipO-AalfM4pbLIRjaP3FQQmR7z82J0SIL6DmSo1h=m18",
+                "AF1QipNe_uRE_vh6QsgtAkiRGXUQmuuF6YaCFBMRaYwH=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipO7fqkiCkcaSR13DOpErflOy560huF924UdRg9r",
+            "src": [
+                "AF1QipNZQwSEzQvpOr9xTEs9hKJgd97NMefSrqmdcALe=m18",
+                "AF1QipMo9X6eo1NtEKxmCZsjtvWORJjTCXSUVCl_QkaM=m18",
+                "AF1QipNfbq8eLsAHY50BhzP54vCof0gTU13w5w80VVpA=m18",
+                "AF1QipN-OqcpDr0ssxcPXbcfEoYDcdAaoAWO2vPqLaDx=m18",
+                "AF1QipODTCX91SJlQMoDuhZMxkK5Xs1EOna7kD1xQbg_=m18"
             ]
         }
     ]
