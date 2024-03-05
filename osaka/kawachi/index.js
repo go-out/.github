@@ -42,7 +42,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': 'ジンジャモール瓢箪山',
-                'address': '近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街<br>マスコットキャラクターは、お稲荷さんのおつかいキツネ「ひょこタン」',
+                'address': '近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街',
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=jinjamall',
                 'youtube': '20slOEsjpt0',
@@ -58,11 +58,11 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '枚岡神社',
-                'address': '神津嶽がご神体 神様の御霊が一杯の「神気」に満ちた神社',
+                'address': 'ご神体は背後の山「神津嶽」 神様の御霊が一杯の「神気」に満ちた神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
                 'youtube': 'idRqIhTm66Y',
-                'zoom': 17
+                'zoom': 15
             }
         },
         {
@@ -135,7 +135,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '常光寺',
-                'address': '河内最古之音頭発祥地',
+                'address': '河内最古之音頭発祥地 通称「八尾地蔵尊（やおじぞうそん）」',
                 'date': '',
                 'zoom': 17.5
             }
@@ -290,21 +290,6 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
                 'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.61835953497047, 34.576417353524135]
-            },
-            'properties': {
-                'title': '志貴縣主神社',
-                'address': '世界遺産に登録された古墳が点在するエリア「古市古墳群」の北端に位置する河内國総社',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=shikiagatanushi',
-                'zoom': 18
             }
         },
         {
