@@ -42,7 +42,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': 'ジンジャモール瓢箪山',
-                'address': '近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街',
+                'address': '近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街 音頭・盆踊りの街',
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=jinjamall',
                 'youtube': '20slOEsjpt0',
