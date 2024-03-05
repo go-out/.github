@@ -131,6 +131,35 @@ const osakaKawachi = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.6352076462621, 34.58979757372273]
+            },
+            'properties': {
+                'title': '鐸比古鐸比賣神社（高尾山）',
+                'address': '高尾山を神体山とする「ぬでひこ ぬでひめ じんじゃ」',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.6232827357621, 34.58681423656017]
+            },
+            'properties': {
+                'title': '柏原駅東自転車・柏原駅西口第２駐輪場 レンタサイクル',
+                'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
+                'date': '',
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.59808627093332, 34.63034143734834]
             },
             'properties': {
@@ -275,35 +304,6 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=iimoriyama',
                 'zoom': 14.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.6352076462621, 34.58979757372273]
-            },
-            'properties': {
-                'title': '鐸比古鐸比賣神社（高尾山）',
-                'address': '高尾山を神体山とする「ぬでひこ ぬでひめ じんじゃ」',
-                'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.6232827357621, 34.58681423656017]
-            },
-            'properties': {
-                'title': '柏原駅東自転車・柏原駅西口第２駐輪場 レンタサイクル',
-                'address': '営業時間 7:00~19:00（返却は22:00まで） 料金 200円/1日（1回）',
-                'date': '',
-                'zoom': 16.5
             }
         }
     ]
