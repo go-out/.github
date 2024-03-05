@@ -35,18 +35,18 @@ const osakaKawachi = {
         },
         {
             'type': 'Feature',
-            'tags': 'legacy',
+            'tags': 'spot',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.64199593817986, 34.66071942897367]
+                'coordinates': [135.64005808226997, 34.661448009492766]
             },
             'properties': {
-                'title': '瓢箪山稲荷神社',
-                'address': '瓢箪形の古墳を背にまつられた稲荷社 辻占の総本山',
+                'title': 'ジンジャモール瓢箪山',
+                'address': '近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街<br>マスコットキャラクターは、お稲荷さんのおつかいキツネ「ひょこタン」',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=hyotanyama-inari',
+                'href': 'relax/?id=spot&area=osaka&name=jinjamall',
                 'youtube': '20slOEsjpt0',
-                'zoom': 17.5
+                'zoom': 15.5
             }
         },
         {
@@ -54,11 +54,11 @@ const osakaKawachi = {
             'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.6500490969876, 34.669904870570086]
+                'coordinates': [135.65356787433632, 34.669403772141465]
             },
             'properties': {
                 'title': '枚岡神社',
-                'address': '神津嶽をご神体とする、神様の御霊が一杯の「神気」に満ちた神社',
+                'address': '神津嶽がご神体 神様の御霊が一杯の「神気」に満ちた神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
                 'youtube': 'idRqIhTm66Y',
