@@ -108,6 +108,7 @@ const osakaKawachi = {
                 'address': '河内の総鎮守<br>入口の石段の横、右側の道から神社の裏にある総池へ抜けると「恩智神社奥宮（天川山）」への入口',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=onji',
+                'youtube': 'IsJIYQ720Od0JWqB',
                 'zoom': 15.5
             }
         },
