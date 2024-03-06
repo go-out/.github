@@ -212,13 +212,23 @@ const osakaHokusetsu = {
         {
             'type': 'Feature',
             'tags': 'draft',
+            'feature': [
+                {
+                    'month': 5,
+                    'text': '例年5月~6月、社叢林のコジイ（ツブラジイ）の花が咲く'
+                },
+                {
+                    'month': 6,
+                    'text': '例年5月~6月、社叢林のコジイ（ツブラジイ）の花が咲く'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.65370134999105, 34.89226108992393]
             },
             'properties': {
                 'title': '若山神社',
-                'address': '大阪府北部から京都府南部までを広く見渡すことができる景勝の地',
+                'address': '自然環境保全地域となっている千年以上の森の中にある神社',
                 'date': '',
                 'zoom': 16.5
             }

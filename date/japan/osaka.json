@@ -7,7 +7,7 @@
                 {
                     "title": "千本搗餅つき Senbonzuki Mochi Festival",
                     "venue": "水間寺 Mizumadera",
-                    "date": "一月二・三日 January 2nd, 3rd 午前10時からと午後1時からの2回"
+                    "date": "一月二・三日 January 2nd, 3rd 午前十時時・午後一時 一日二回"
                 },
                 {
                     "title": "修正会結願法要「どやどや」 Doya Doya",
@@ -30,6 +30,11 @@
                     "title": "節分やくよけ星まつり祈願祭（火渡り供養）",
                     "venue": "聖天山正圓寺 Shoenji",
                     "date": "二月一日 February 1st 十四時から"
+                },
+                {
+                    "title": "献梅祭 Keibansai",
+                    "venue": "高津宮 Kouzugu",
+                    "date": "二月十一日 February 11st"
                 },
                 {
                     "title": "初牛大祭「音頭奉納・福餅まき」 Ondo Hōnō and Mochi-maki",
@@ -72,6 +77,11 @@
             "en": "April",
             "events": [
                 {
+                    "title": "高倉社初午大祭",
+                    "venue": "高津宮 Kouzugu",
+                    "date": "四月初午 Day of the horse in April (Hatsuuma)"
+                },
+                {
                     "title": "松岳山春まつり Matsuokayama Spring Festival",
                     "venue": "河内国分 Kawachi Kokubu",
                     "date": "四月第一日曜日 First Sunday of April 午前十一時から"
@@ -80,6 +90,12 @@
                     "title": "神楽祭 Kagura Festival",
                     "venue": "佐備神社 Sabi Jinja",
                     "date": "四月四日 April 4th"
+                },
+                {
+                    "title": "春の大祭",
+                    "venue": "難波八阪神社 Nambayasaka Shrine",
+                    "date": "四月第二日曜日 Second Sunday of April",
+                    "link": "relax/?id=legacy&area=osaka&name=nambayasaka"
                 },
                 {
                     "title": "聖霊会の舞楽 Shoryoe Bugaku",
@@ -111,6 +127,12 @@
                     "title": "万部おねり Manbu Oneri",
                     "venue": "大念佛寺 Dai Nenbutsu-ji",
                     "date": "五月一日から五日 May 1st to 5th"
+                },
+                {
+                    "title": "子供石見神楽奉納 Kids Iwami Kagura",
+                    "venue": "若山神社 Wakayama Jinja",
+                    "date": "五月四・五日 May 4th, 5th",
+                    "link": "relax/?id=legacy&area=osaka&name=wakayamajinja"
                 },
                 {
                     "title": "まくらまつり Makura Matsuri",
@@ -155,6 +177,12 @@
             "en": "July",
             "events": [
                 {
+                    "title": "教興寺まつり Kyoukoji Summer Festival",
+                    "venue": "岩戸神社 Iwato Jinja",
+                    "date": "七月第一日曜日 First Sunday of July",
+                    "link": "relax/?id=legacy&area=osaka&name=amaterasu-iwato"
+                },
+                {
                     "title": "千日まいり 1000 Days Mairi",
                     "venue": "野崎観音 Nozaki Kannon",
                     "date": "七月九日 July 9th 午後七時"
@@ -170,14 +198,37 @@
                     "date": "七月二十・二十一日 July 20th, 21st 夕方からかちわり氷を授与 夜七時から奉納太鼓演奏"
                 },
                 {
+                    "title": "夏祭り",
+                    "venue": "阿部野神社 Abeno Jinja",
+                    "date": "七月二十一・二十二日 July 21st, 22nd",
+                    "link": "relax/?id=legacy&area=osaka&name=abenojinja"
+                },
+                {
+                    "title": "夏祭り",
+                    "venue": "天神ノ森天満宮 Tenjinnomori Tenmangu",
+                    "date": "七月二十四・二十五日 July 24th, 25st"
+                },
+                {
                     "title": "だいがく祭り Daigaku Matsuri",
                     "venue": "生根神社 Ikune Jinja",
                     "date": "七月二十四・二十五日 July 24th, 25st 午後七時から十時"
                 },
                 {
+                    "title": "氏子大祭",
+                    "venue": "阿倍王子神社 Abeouji Jinja",
+                    "date": "七月二十七・二十八日 July 27th, 28th",
+                    "link": "relax/?id=legacy&area=osaka&name=abeouji"
+                },
+                {
                     "title": "ゆ祭り Yu Matsuri",
                     "venue": "日根神社 Hine Jinja",
                     "date": "七月第三土曜日 Third Saturday of July 午後七時半から"
+                },
+                {
+                    "title": "大県神社夏祭り",
+                    "venue": "鐸比古鐸比賣神社 Nudehiko Nudehime Jinja",
+                    "date": "七月三十・三十一日 July 30th, 31st",
+                    "link": "relax/?id=legacy&area=osaka&name=nudehiko-nudehime"
                 }
             ]
         },
@@ -194,6 +245,12 @@
                     "title": "貝塚市東盆踊り・貝塚の東盆踊り（大阪府無形民俗文化財）",
                     "venue": "円光寺境内",
                     "date": "八月十四から十六日 August 14th - 16th 午後八時から十二時近くまで"
+                },
+                {
+                    "title": "萬燈会お経木流し法要・盂蘭盆施餓鬼法要",
+                    "venue": "聖天山正圓寺 Shoenji",
+                    "date": "八月十五・十六日 August 15th, 16th",
+                    "link": "relax/?id=legacy&area=osaka&name=shoutenyama"
                 },
                 {
                     "title": "献灯祭（火上） Kentōsai",
@@ -234,7 +291,8 @@
                 {
                     "title": "法善寺夏まつり",
                     "venue": "鐸比古鐸比賣神社 Nudehiko-Nudehime Jinja",
-                    "date": "九月中旬 土日曜日 Saturday and Sunday of Mid-September"
+                    "date": "九月中旬 土日曜日 Saturday and Sunday of Mid-September",
+                    "link": "relax/?id=legacy&area=osaka&name=nudehiko-nudehime"
                 },
                 {
                     "title": "例祭 Joruri-Jinja",
@@ -261,6 +319,22 @@
                     "title": "上神谷のこおどり Niwadani no Koodori",
                     "venue": "櫻井神社 Sakurai Jinja",
                     "date": "十月第一日曜日 First Sunday of October 午前十一時から"
+                },
+                {
+                    "title": "高安薪能 Takayasu Takigi-Noh",
+                    "venue": "恩智神社 Onji Jinja",
+                    "date": "十月上旬 Early October"
+                },
+                {
+                    "title": "秋の大祭",
+                    "venue": "難波八阪神社 Nambayasaka Shrine",
+                    "date": "十月十四 October 14th"
+                },
+                {
+                    "title": "奉納芸能大会",
+                    "venue": "阿倍王子神社 Abeouji Jinja",
+                    "date": "十月十四・十五日 October 14th, 15th",
+                    "link": "relax/?id=legacy&area=osaka&name=abeouji"
                 },
                 {
                     "title": "川口フェスタ Pipe Organ Concert",
