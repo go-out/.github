@@ -12,7 +12,14 @@ July 16 and 17 every year start at around 6:30PM
 
 ___
 
-河内国分 🇯🇵 大和川児童遊園
+ふれあい祭り 🇯🇵 大和川児童遊園
 
 実施日：毎年八月上旬 午後五時から午後十時
 Early August at 5PM to 10PM
+
+___
+
+柏原市民総合フェスティバル（河内音頭おどり全国大会） 🇯🇵 大和川児童遊園
+
+実施日：毎年十一月上旬 午後五時から午後九時
+Early November at 10AM to 9PM

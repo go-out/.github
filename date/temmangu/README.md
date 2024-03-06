@@ -1,6 +1,7 @@
-タイトル 🇯🇵 Title
+鎮花祭 🇯🇵 Chinka Festival
 
-場所：場所の名前 ⛩️ Venue
+実施日：毎年四月二十五日 午後一時 から
+Every year on April 25th start at 1PM
 
-実施日：毎年 月 日 時 から 時
-Date of Month every year at AM to PM
+鎮花祭（はなしずめのまつり）とも言う
+百花の散る、気候の移り変わりが激しく疫病が流行する頃に、疫病の霊を鎮めて健康を祈願したことが起源とする祭

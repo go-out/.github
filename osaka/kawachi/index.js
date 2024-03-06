@@ -60,7 +60,7 @@ const osakaKawachi = {
                 'title': '枚岡神社',
                 'address': 'ご神体は背後の山「神津嶽」 神様の御霊が一杯の「神気」に満ちた神社',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=hiraoka-jinja',
+                'href': 'date/hiraoka/',
                 'youtube': 'idRqIhTm66Y',
                 'zoom': 15
             }
@@ -107,8 +107,8 @@ const osakaKawachi = {
                 'title': '恩智神社',
                 'address': '河内の総鎮守 石段の横の道から神社の裏にある総池へ抜けると「恩智神社奥宮（天川山）」への入口',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=onji',
-                'youtube': 'IsJIYQ720Od0JWqB',
+                'href': 'date/amakawa-yama/',
+                'youtube': 'koRG-kG7KeE',
                 'zoom': 15.5
             }
         },

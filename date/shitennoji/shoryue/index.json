@@ -5,13 +5,13 @@
     "strong": "Shouryoue Bugaku",
     "readme": "shoryue/README.md",
     "youtube": "___",
-    "directory": "",
-    "cover": "",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "cover": "AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD",
     "video": [
         {
-            "title": "チャプタータイトル",
-            "src": "___.mp4",
-            "track": "___/000.vtt"
+            "title": "とんど焼き",
+            "src": "AF1QipMYfmkuocIBykKJ86DN5kYtkgjsOsubevU6XyKD=m18",
+            "track": "../000.vtt"
         }
     ],
     "link": [

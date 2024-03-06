@@ -1,37 +1,37 @@
 {
     "date": "2024.3.4 (Mon)",
     "readme": "README.md",
-    "u": "垣内・教興寺古墳群",
-    "strong": "Hike at Kyokoji",
+    "u": "Iwato Oku-no-In",
+    "strong": "岩谷奥之院",
     "url": "amaterasu-iwato/",
-    "youtube": "___",
+    "youtube": "vdHhpqCRcbI",
     "directory": "https://ia600204.us.archive.org/27/items/amaterasu-iwato/",
     "cover": "amaterasu-iwato.thumbs/kohun/003_000057.jpg",
     "video": [
         {
-            "title": "岩屋弘法大師",
+            "title": "神山です",
             "src": "kohun/001.ia.mp4",
-            "track": "kohun/000.vtt"
+            "track": "oku-no-in/001.vtt"
         },
         {
-            "title": "廃屋〜滝行場",
+            "title": "廃屋 滝行場",
             "src": "kohun/002.ia.mp4",
-            "track": "kohun/000.vtt"
+            "track": "oku-no-in/002.vtt"
         },
         {
-            "title": "祭祀場 不動明王",
+            "title": "祭祀場",
             "src": "kohun/003.ia.mp4",
-            "track": "kohun/000.vtt"
+            "track": "oku-no-in/003.vtt"
         },
         {
-            "title": "垣内・教興寺古墳群",
+            "title": "二つの鳥居",
             "src": "kohun/004.ia.mp4",
-            "track": "kohun/000.vtt"
+            "track": "oku-no-in/004.vtt"
         },
         {
-            "title": "最高所 仮称3号墳",
+            "title": "岩屋弘法大師",
             "src": "kohun/005.ia.mp4",
-            "track": "kohun/000.vtt"
+            "track": "oku-no-in/000.vtt"
         }
     ],
     "link": [
