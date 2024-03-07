@@ -16,7 +16,7 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=yao-airport',
                 'youtube': 'geqXiPdwMvw',
-                'zoom': 14.5
+                'zoom': 14
             }
         },
         {
@@ -46,7 +46,7 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=jinjamall',
                 'youtube': '20slOEsjpt0',
-                'zoom': 15.5
+                'zoom': 16
             }
         },
         {
@@ -62,7 +62,7 @@ const osakaKawachi = {
                 'date': 'More Info',
                 'href': 'date/hiraoka/',
                 'youtube': 'idRqIhTm66Y',
-                'zoom': 15
+                'zoom': 14.5
             }
         },
         {
@@ -74,7 +74,7 @@ const osakaKawachi = {
             },
             'properties': {
                 'title': '玉祖神社',
-                'address': '高安山の山麓中腹 地名は神立 境内で長鳴鶏が飼われている',
+                'address': '社頭から一望する大阪平野は絶景 境内で長鳴鶏が飼育されている',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
                 'zoom': 17.5
@@ -138,7 +138,7 @@ const osakaKawachi = {
                 'address': '高尾山を神体山とする「ぬでひこ ぬでひめ じんじゃ」',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
-                'zoom': 16.5
+                'zoom': 16
             }
         },
         {
@@ -232,7 +232,7 @@ const osakaKawachi = {
                 'title': '香里団地',
                 'address': 'かつて「東洋一のマンモス団地」と呼ばれたニュータウン',
                 'date': '',
-                'zoom': 15.5
+                'zoom': 14.5
             }
         },
         {
@@ -260,7 +260,7 @@ const osakaKawachi = {
                 'title': '府民の森ほしだ園地',
                 'address': '全長280m・高さ50mの巨大吊橋「星のブランコ」、天孫降臨伝説のある「哮が峰（たけるがみね）」をはじめ、多くの巨石が散在するアクティビティと冒険の森',
                 'date': '',
-                'zoom': 14
+                'zoom': 14.5
             }
         },
         {
@@ -303,7 +303,7 @@ const osakaKawachi = {
                 'address': '野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社',
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=iimoriyama',
-                'zoom': 14.5
+                'zoom': 14
             }
         }
     ]

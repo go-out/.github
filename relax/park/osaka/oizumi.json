@@ -1,12 +1,14 @@
 {
     "title": "大泉緑地 おおいずみりょくち",
-    "description": "",
+    "description": "約200種32万本もの樹木が植えられた一大森林公園",
+    "url": "relax/?id=park&area=osaka&name=oizumi",
     "info": {
         "title": "Oizumi Ryokuchi Park 🇯🇵 Sakai Osaka, Japan",
         "address": "堺市北区金岡町128",
         "google": "https://maps.app.goo.gl/FuCDBhFNDFxyXbUL9",
         "text": [
-            "",
+            "壇、大泉池、大芝生広場などの憩いのゾーンと、スポーツゾーンなどからなる園内",
+            "3つの池は鳥たちの水飲み場や遊び場となっていて、バードウォッチングにも最適",
             "",
             "管理事務所には、レンタサイクル（大人用15台、小人用4台）が用意されています。<br><small>料金:大人用300円、小人用100円<br>貸出時間:午前9時から午後4時半（返却時間:午後5時迄）</small>"
         ]

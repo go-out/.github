@@ -34,7 +34,8 @@
                 {
                     "title": "献梅祭 Keibansai",
                     "venue": "高津宮 Kouzugu",
-                    "date": "二月十一日 February 11st"
+                    "date": "二月十一日 February 11st",
+                    "link": "relax/?id=legacy&area=osaka&name=kouzu"
                 },
                 {
                     "title": "初牛大祭「音頭奉納・福餅まき」 Ondo Hōnō and Mochi-maki",
@@ -79,7 +80,8 @@
                 {
                     "title": "高倉社初午大祭",
                     "venue": "高津宮 Kouzugu",
-                    "date": "四月初午 Day of the horse in April (Hatsuuma)"
+                    "date": "四月初午 Day of the horse in April (Hatsuuma)",
+                    "link": "relax/?id=legacy&area=osaka&name=kouzu"
                 },
                 {
                     "title": "松岳山春まつり Matsuokayama Spring Festival",
@@ -193,6 +195,12 @@
                     "date": "七月十三・十四日 July 13th, 14th"
                 },
                 {
+                    "title": "夏祭 Keibansai",
+                    "venue": "高津宮 Kouzugu",
+                    "date": "七月十七・十八日 July 17th, 18th",
+                    "link": "relax/?id=legacy&area=osaka&name=kouzu"
+                },
+                {
                     "title": "氷室祭 Himuro Matsuri",
                     "venue": "難波神社 Namba Jinja",
                     "date": "七月二十・二十一日 July 20th, 21st 夕方からかちわり氷を授与 夜七時から奉納太鼓演奏"
@@ -255,7 +263,8 @@
                 {
                     "title": "献灯祭（火上） Kentōsai",
                     "venue": "新屋坐天照御魂神社（新屋神社）",
-                    "date": "八月十六日 August 16th 夕方"
+                    "date": "八月十六日 August 16th 夕方",
+                    "link": "relax/?id=legacy&area=osaka&name=niiyajinja"
                 },
                 {
                     "title": "山門施餓鬼会（八尾地蔵盆踊り）",
@@ -316,14 +325,20 @@
             "en": "October",
             "events": [
                 {
+                    "title": "高安薪能 Takayasu Takigi-Noh",
+                    "venue": "恩智神社 Onji Jinja",
+                    "date": "十月上旬 Early October"
+                },
+                {
                     "title": "上神谷のこおどり Niwadani no Koodori",
                     "venue": "櫻井神社 Sakurai Jinja",
                     "date": "十月第一日曜日 First Sunday of October 午前十一時から"
                 },
                 {
-                    "title": "高安薪能 Takayasu Takigi-Noh",
-                    "venue": "恩智神社 Onji Jinja",
-                    "date": "十月上旬 Early October"
+                    "title": "秋季大祭",
+                    "venue": "新屋坐天照御魂神社（新屋神社）",
+                    "date": "体育の日の前日の日曜日 Second Sunday of October",
+                    "link": "relax/?id=legacy&area=osaka&name=niiyajinja"
                 },
                 {
                     "title": "秋の大祭",
@@ -335,6 +350,12 @@
                     "venue": "阿倍王子神社 Abeouji Jinja",
                     "date": "十月十四・十五日 October 14th, 15th",
                     "link": "relax/?id=legacy&area=osaka&name=abeouji"
+                },
+                {
+                    "title": "例祭",
+                    "venue": "新屋坐天照御魂神社（西河原・宿久庄）",
+                    "date": "十月十五日 October 15th",
+                    "link": "relax/?id=legacy&area=osaka&name=niiyajinja"
                 },
                 {
                     "title": "川口フェスタ Pipe Organ Concert",

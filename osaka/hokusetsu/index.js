@@ -44,7 +44,7 @@ const osakaHokusetsu = {
                 'title': '新屋坐天照御魂神社',
                 'address': '神・自然・人の共生 心身再生の神をまつる',
                 'date': '',
-                'zoom': 16.5
+                'zoom': 15.5
             }
         },
         {
@@ -134,7 +134,7 @@ const osakaHokusetsu = {
                 'title': '千里ニュータウン',
                 'address': '1962年にまちびらきを開始した日本初の大規模ニュータウン',
                 'date': '',
-                'zoom': 15.5
+                'zoom': 14.5
             }
         },
         {
@@ -204,9 +204,9 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': '北大阪ネオポリス',
-                'address': '大阪府豊能町に位置する郊外型ニュータウン 別称「希望ケ丘」',
+                'address': '別称「希望ケ丘」 郊外型ニュータウン',
                 'date': '',
-                'zoom': 15.5
+                'zoom': 14.5
             }
         },
         {
@@ -230,21 +230,21 @@ const osakaHokusetsu = {
                 'title': '若山神社',
                 'address': '自然環境保全地域となっている千年以上の森の中にある神社',
                 'date': '',
-                'zoom': 16.5
+                'zoom': 17
             }
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.61185565690656, 34.89445870837859]
+                'coordinates': [135.66911964548615, 34.87900389186791]
             },
             'properties': {
-                'title': '神峯山の森',
-                'address': '神峯山の森 自然園 | 日本最初毘沙門天 大阪府高槻市 神峯山寺',
+                'title': '阪急レンタサイクル 阪急水無瀬駐輪センター',
+                'address': '◆普通車◆ 1日1回利用 320円 ◆電動車◆ 1日1回利用 420円 | 営業時間 6:30～22:00 年末年始休',
                 'date': '',
-                'zoom': 15
+                'zoom': 16.5
             }
         }
     ]

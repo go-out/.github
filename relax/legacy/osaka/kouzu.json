@@ -1,6 +1,7 @@
 {
     "title": "高津宮 こうづぐう",
     "description": "2024年2月27日 の 高津宮・高津公園",
+    "url": "relax/?id=legacy&area=osaka&name=kouzu",
     "year": "2024",
     "month": "2",
     "day": "27",
@@ -40,7 +41,7 @@
     "video": [
         {
             "id": "one",
-            "poster": "p/AF1QipNS50c3tC8KHDuBX2W5OVF_xCJ6I0hTxSJJGJhe=s0",
+            "poster": "ggms/AF1QipM0cPNglSyKQn2XBJCkeeHN4V8LKhKN8CYNPEPu",
             "src": [
                 "ggms/AF1QipM0cPNglSyKQn2XBJCkeeHN4V8LKhKN8CYNPEPu=m18",
                 "ggms/AF1QipMC8yizR3i5P3dxZHKkva2IQ4fE2_1YrgBY75Qu=m18",
@@ -53,7 +54,7 @@
         },
         {
             "id": "two",
-            "poster": "p/AF1QipN7EGrJlV1NvLVOKv768fhad7kSsY_9Qfny-y9q=s0",
+            "poster": "ggms/AF1QipOFIVMNk1TfKg1L28VxE58O7mvAmipXeB9ChUMv",
             "src": [
                 "ggms/AF1QipMcEy3DGzXAEhY4tZ5HPV4ysql46WSf0I-Q5daN=m18",
                 "ggms/AF1QipPNEhNPb7GVc8hPXdKA1NqImS6_ykp9Qu8WjwPe=m18",
@@ -67,7 +68,7 @@
         },
         {
             "id": "three",
-            "poster": "p/AF1QipMFcgwChmnmeLZMsAIRqqPsAxjpcGQM42JByms3=s0",
+            "poster": "ggms/AF1QipPlBhaBuJnsSCg87SLYEzV9eA1D5X7IjAH1cF54",
             "src": [
                 "ggms/AF1QipOKiDrDafZwNl864Sgi2HJ0TNTtH7MtNCp8n-mw=m18",
                 "ggms/AF1QipNzAsEcSRzNcUq5ySusoJBOpb6yApzAE6uYqaZC=m18",

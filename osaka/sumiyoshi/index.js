@@ -213,6 +213,16 @@ const osakaSumiyoshi = {
         {
             'type': 'Feature',
             'tags': 'bicycle',
+            'feature': [
+                {
+                    'month': 4,
+                    'text': '約45品種2000株の色とりどりのシャクヤクが咲き誇るシャクヤク園が開園する'
+                },
+                {
+                    'month': 5,
+                    'text': '約45品種2000株の色とりどりのシャクヤクが咲き誇るシャクヤク園が開園する'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.57828087232733, 34.63003991196236]

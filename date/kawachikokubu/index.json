@@ -1,6 +1,6 @@
 {
-    "date": "YYYY.MM.DD (WEEK)",
-    "url": ".sample/",
+    "date": "Whach The Video",
+    "url": "kawachikokubu/",
     "youtube": "___",
     "directory": "",
     "cover": "",
@@ -13,14 +13,19 @@
     ],
     "link": [
         {
-            "text": "河内かしわら/国分ふれあい祭り実行委員会 | Facebook",
-            "url": "https://www.facebook.com/fureaimatsuri/",
-            "target": "_blank"
+            "text": "松岳山春まつり Matsuokayama Spring Festival",
+            "url": "../kawachikokubu/?id=spring&date=2024",
+            "target": "_self"
         },
         {
-            "text": "河内音頭 国分会 | Facebook",
-            "url": "https://www.facebook.com/kawachiond/",
-            "target": "_blank"
+            "text": "国分神社の夏祭り Kokubu Summer Festival",
+            "url": "../kawachikokubu/?id=summer&date=2024",
+            "target": "_self"
+        },
+        {
+            "text": "国分ふれあい祭り Kokubu Fureai Festival",
+            "url": "../kawachikokubu/?id=fureai&date=2024",
+            "target": "_self"
         }
     ]
 }

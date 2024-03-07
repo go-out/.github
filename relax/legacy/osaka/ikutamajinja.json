@@ -1,12 +1,19 @@
 {
     "title": "生國魂神社 いくたまじんじゃ",
     "description": "いくたまさん 別称「難波（なにわ）大社」",
+    "url": "relax/?id=legacy&area=osaka&name=ikutamajinja",
     "info": {
         "title": "Ikutama Jinja ⛩ Osaka, Japan",
         "address": "大阪市天王寺区生玉町１３−９",
         "google": "https://maps.app.goo.gl/LcBafd7QNzqpowscA",
         "text": [
-            "<u>毎年七月十一・十二日</u><br><b>生國魂祭</b><br><small>十一日 午後四時半から十時頃</small> 子供太鼓・金銀神輿のお練り<br><small>十二日 午前九時半時から</small> 生國魂神社から大阪城まで枕太鼓を先頭に2時間をかけて練り歩き、大阪城公園大手前芝生広場にある御旅所跡で伝統の手締め「生国魂締め」<br><small>十二日 夕刻から午後十時頃</small> 境内でそれぞれの山車や神輿が、競り合うかのように各々の奉納演奏や舞を披露<br>",
+            "約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ 通称「いくたまさん」",
+            "",
+            "<u>毎年七月十一・十二日</u><br><b>生國魂祭</b>",
+            "<small>十一日 午後四時半から十時頃</small> 子供太鼓・金銀神輿のお練り",
+            "<small>十二日 午前九時半時から</small> 生國魂神社から大阪城まで枕太鼓を先頭に2時間をかけて練り歩く<br><small>大阪城公園大手前芝生広場にある御旅所跡で伝統の手締め「生国魂締め」</small>",
+            "<small>十二日 夕刻から午後十時頃</small> 境内でそれぞれの山車や神輿が、競り合うかのように各々の奉納演奏や舞を披露",
+            "",
             "<u>毎年春分・秋分の日</u><br><b>浄瑠璃神社 例祭</b><br>浄瑠璃関係者が多数参拝し、その発展と加護を祈願する<br>",
             "<u>毎年九月 第一土・日曜日</u><br><b>彦八まつり</b><br>上方落語協会が年に一度開催するファン感謝イベント<br>",
             "<u>毎年八月十一・十二日</u><br><b>大阪薪能</b><br>戦災・風災害からの復興を祝い大阪で始まった野外能<br>",
@@ -20,15 +27,13 @@
     ],
     "width": "0.7525",
     "height": "1",
-    "directory": "https://ia601206.us.archive.org/24/items/abeno-osaka/",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
     "video": [
         {
-            "id": "abenooujijinjya",
-            "poster": "abeno-osaka.thumbs/abenomotomachi/001_000001.jpg",
+            "id": "one",
+            "poster": "AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR",
             "src": [
-                "abenomotomachi/001.mp4",
-                "abenomotomachi/002.mp4",
-                "abenomotomachi/003.mp4"
+                "AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR=m18"
             ]
         }
     ]

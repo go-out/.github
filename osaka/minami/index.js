@@ -67,7 +67,7 @@ const osakaMinami = {
             'feature': [
                 {
                     'month': 3,
-                    'text': '例年3月中旬、桃ヶ池公園に阿倍野区の花「ハナモモ」が咲き始める'
+                    'text': '例年3月中旬、桃ヶ池公園に阿倍野区の花「モモ」が咲き始める'
                 },
                 {
                     'month': 4,
@@ -76,7 +76,7 @@ const osakaMinami = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.51504980889422, 34.63029823255289]
+                'coordinates': [135.52145867952675, 34.630879917621115]
             },
             'properties': {
                 'title': '阿倍野区南東部',
@@ -120,6 +120,21 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51638139543317, 34.654855400360255]
+            },
+            'properties': {
+                'title': '四天王寺',
+                'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=shitennoji',
+                'zoom': 16
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'feature': [
                 {
@@ -150,23 +165,23 @@ const osakaMinami = {
             'feature': [
                 {
                     'month': 3,
-                    'text': '例年3月下旬、「サクラ」「ツバキ」が咲き始める'
+                    'text': '例年3月下旬、天王寺公園全域の「サクラ」「ツバキ」が見頃を迎える'
                 },
                 {
                     'month': 4,
-                    'text': '例年4月上旬、「サクラ」「ツバキ」が見頃を迎える'
+                    'text': '例年4月上旬、天王寺公園全域の「サクラ」「ツバキ」が見頃を迎える'
                 },
                 {
                     'month': 6,
                     'text': '例年6月上旬頃、日本庭園「慶沢園」の「スイレン」「アジサイ」「サツキ」「ハナショウブ」などが見頃を迎える'
                 },
                 {
-                    'month': 10,
-                    'text': '例年10月から11月、冬に見頃を迎える「ツバキ」が咲く'
+                    'month': 11,
+                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
                 },
                 {
-                    'month': 11,
-                    'text': '例年10月から11月、冬に見頃を迎える「ツバキ」が咲く'
+                    'month': 12,
+                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
                 }
             ],
             'geometry': {
@@ -175,22 +190,29 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '茶臼山',
-                'address': '天王寺公園内にある茶臼山（ちゃうすやま）古墳の墳丘（標高26m）<br>古墳の側には、茶室を構えた純日本風の林泉回遊式庭園「慶沢園」があります',
-                'date': '',
+                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>池を挟んだ古墳の南側は純日本風の林泉回遊式庭園「慶沢園」',
+                'date': 'More Info',
+                'href': 'relax/?id=park&area=osaka&name=tennoji',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 16
+                'zoom': 15.5
             }
         },
         {
             'type': 'Feature',
             'tags': 'draft',
+            'feature': [
+                {
+                    'month': 11,
+                    'text': '例年11月下旬から12月上旬、メタセコイアの並木が美しく紅葉する'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4820114395033, 34.64617335180633]
             },
             'properties': {
                 'title': '西成公園',
-                'address': '',
+                'address': '東側は学生や地域の人たちの憩いの場<br>西側は不法投棄ゴミやブルーシートハウスの不法占拠家屋群',
                 'date': '',
                 'zoom': 16.5
             }

@@ -1,6 +1,7 @@
 {
     "title": "難波八阪神社 なんばやさかじんじゃ",
-    "description": "大きな獅子の頭の形をした舞台「獅子殿（ししでん）」で知られる難波一帯の産土神",
+    "description": "大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神",
+    "url": "relax/?id=legacy&area=osaka&name=nambayasaka",
     "year": "2024",
     "month": "1",
     "day": "21",
@@ -11,7 +12,7 @@
         "text": [
             "大きな獅子の頭の形をした舞台「<ruby>獅子殿<rp>（</rp><rt>ししでん</rt><rp>）</rp></ruby>」で知られる難波一帯の産土神",
             "",
-            "<u>祭事</u>",
+            "<u>主な祭事</u>",
             "<u>一月第三日曜日</u><br><b><a href='/map/date/tsunahiki-shingi/'>綱引神事</a></b> <small>※ 大阪市指定 無形民俗文化財</small>",
             "<u>二月節分日</u><br><b>節分祭</b>",
             "<u>四月第二日曜日</u><br><b>春の大祭</b>",

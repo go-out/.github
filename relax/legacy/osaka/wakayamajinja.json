@@ -1,6 +1,7 @@
 {
     "title": "若山神社 わかやまじんじゃ",
-    "description": "",
+    "description": "大阪府北部から京都府南部までを広く見渡すことができる景勝の地",
+    "url": "relax/?id=legacy&area=osaka&name=wakayamajinja",
     "year": "YYYY",
     "month": "MM",
     "day": "DD",
@@ -9,15 +10,15 @@
         "address": "大阪府三島郡島本町広瀬１４９７",
         "google": "https://maps.app.goo.gl/ZRcch2QTuL6nMLZj9",
         "text": [
-            "若山台住宅地を抜けた西天王山の山麓 自然環境保全地域となっている千年以上の森の中にある神社",
-            "<small>境内西側に自生する42本のツブラジイの巨樹は大阪府の天然記念物指定</small>",
+            "自然環境保全地域となっている千年以上の森の中にある神社",
+            "境内西側に自生する42本のツブラジイの巨樹は大阪府の天然記念物指定",
+            "本殿・神像は、国・島本町の有形文化財 境内の一角には岩に対する信仰の依り代「大岩大明神」がいる",
             "",
-            "秋は紅葉・春は桜の名所 大阪府北部から京都府南部までを広く見渡すことができる景勝の地",
-            "本殿・神像は、国・島本町の有形文化財 境内の一角には磐座「大岩大明神」がある",
+            "<u>五月四・五日</u><br><b><ruby>子供石見神楽奉納<rp>（</rp><rt>こどもいわみかぐらほうのう</rt><rp>）</rp></ruby></b>",
+            "宵宮 午後六時から八時<br>本宮 午前十時から十二時",
             "",
-            "五月四・五日「<ruby>子供石見神楽奉納<rp>（</rp><rt>こどもいわみかぐらほうのう</rt><rp>）</rp></ruby>」<br>宵宮 午後六時から八時<br>本宮 午前十時から十二時",
-            "",
-            "<u>アクセス</u><br>JR「島本」から徒歩約30分<br>阪急「水無瀬」から徒歩35分<br>JR・阪急京都線 大阪・梅田 から約30分"
+            "<u>アクセス</u><br>JR「島本」から徒歩約30分・阪急「水無瀬」から徒歩35分<br><small>JR・阪急京都線 大阪・梅田 から約30分</small>",
+            "<u>最寄りのレンタサイクル</u><br>阪急レンタサイクル 阪急水無瀬駐輪センター<br><small>◆普通車◆ 1日1回利用 320円 ◆電動車◆ 1日1回利用 420円 | 営業時間 6:30～22:00 年末年始休</small>"
         ]
     },
     "links": [
@@ -32,9 +33,17 @@
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3",
+            "poster": "AF1QipMExjsQz0EGmq7sTNY8rAiBka1hcvYs1zE5nqAP",
             "src": [
-                "AF1QipMmHWZCgHI6jJ4BGSv69vds4SCh5svwPEgALDP3=m18"
+                "AF1QipNsBd3zS8zs2g8RPOmHyvD8x7Z-0bDi5uqaOZfk=m18",
+                "AF1QipMExjsQz0EGmq7sTNY8rAiBka1hcvYs1zE5nqAP=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipPtAE2l9sea_yni7VCXoFcI9_9tWqbhAScAojyb",
+            "src": [
+                "AF1QipPtAE2l9sea_yni7VCXoFcI9_9tWqbhAScAojyb=m18"
             ]
         }
     ]
