@@ -28,7 +28,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '大阪府咲洲庁舎（さきしまコスモタワー）',
-                'address': '南港北（咲洲）にある高さ256.0m、地上55階・地下3階建ての超高層ビル',
+                'address': '1階広場「フェスパ」 何をする訳でもなく、ただぼーっと過ごす',
                 'date': 'More Info',
                 'href': 'relax/?id=spot&area=osaka&name=wtc-cosmotower',
                 'youtube': '9E8UZio4SJM',
@@ -44,7 +44,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': 'ATC（アジア太平洋トレードセンター）',
-                'address': '何をする訳でもなく、ただぼーっと過ごした記録映像（25分36秒）',
+                'address': '大阪南港の大型複合施設 海辺のテラスから大阪湾を一望できる',
                 'date': '',
                 'youtube': 'O84LelQJNbA',
                 'zoom': 17
@@ -73,7 +73,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '舞洲スラッジセンター',
-                'address': '建物内の見学は事前予約制 | 1階エントランスホールは、月曜日から金曜日（年末年始、祝日は除く）の9時から17時のみ一般開放',
+                'address': '建物内の見学は事前予約制<br>1階エントランスホールは月曜日から金曜日（年末年始、祝日は除く）9時から17時のみ一般開放',
                 'date': '',
                 'zoom': 16.5
             }
@@ -103,7 +103,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '南港ポートタウン',
-                'address': '大阪南港の人工島「咲洲（さきしま）」の中央部にあるニュータウン',
+                'address': '大阪南港の人工島「咲洲」の中央部にあるニュータウン',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=bayarea&name=port-town',
                 'youtube': '8az_VW2ssbs',
@@ -120,7 +120,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '咲洲コンテナターミナル',
-                'address': '咲洲（さきしま）の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
+                'address': '咲洲の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=bayarea&name=container_berth',
                 'youtube': 'rlfyH_v-fTk',
@@ -146,13 +146,19 @@ const osakaBayarea = {
         {
             'type': 'Feature',
             'tags': 'vr',
+            'feature': [
+                {
+                    'month': 4,
+                    'text': '4月上旬から、此花区の花「サクラ」「チューリップ」が見頃を迎える'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.39155601976105, 34.665908874644536]
             },
             'properties': {
                 'title': '北港（桜島・舞洲）',
-                'address': '',
+                'address': '此花区の新淀川・安治川間 ~ 人工島「舞洲」、常吉大橋と此花大橋で結ばれるエリア',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=bayarea&name=hokko',
                 'iconSize': ['bayarea/icon/konohana.gif', '3.75rem', '3.75rem'],
