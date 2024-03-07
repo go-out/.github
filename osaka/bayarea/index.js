@@ -66,20 +66,6 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.40616297998545, 34.66911950841758]
-            },
-            'properties': {
-                'title': '舞洲スラッジセンター',
-                'address': '建物内の見学は事前予約制<br>1階エントランスホールは月曜日から金曜日（年末年始、祝日は除く）9時から17時のみ一般開放',
-                'date': '',
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'spot',
             'geometry': {
                 'type': 'Point',
@@ -145,6 +131,20 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.40616297998545, 34.66911950841758]
+            },
+            'properties': {
+                'title': '舞洲スラッジセンター',
+                'address': '建物内の見学は事前予約制<br>1階エントランスホールは月曜日から金曜日（年末年始、祝日は除く）9時から17時のみ一般開放',
+                'date': '',
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'feature': [
                 {
@@ -154,7 +154,7 @@ const osakaBayarea = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.39155601976105, 34.665908874644536]
+                'coordinates': [135.39572648489252, 34.664439624148315]
             },
             'properties': {
                 'title': '北港（桜島・舞洲）',
@@ -167,15 +167,29 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4724489929233, 34.66372194488258]
+            },
+            'properties': {
+                'title': '泉光園',
+                'address': '大阪市内には珍しい20,000㎡(6,000坪)という広大かつ手入れのよく行き届いた庭園',
+                'date': '',
+                'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'park',
             'feature': [
                 {
                     'month': 4,
-                    'text': '4月後半~5月、公園内の築山「昭和山」一帯で大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物が見頃を迎える'
+                    'text': '4月後半~5月、公園内の築山「昭和山」一帯で大正区の花「ツツジ」が見頃を迎える'
                 },
                 {
                     'month': 5,
-                    'text': '4月後半~5月、公園内の築山「昭和山」一帯で大正区の花「ツツジ」やソテツをはじめとした亜熱帯植物が見頃を迎える'
+                    'text': '4月後半~5月、公園内の築山「昭和山」一帯で大正区の花「ツツジ」が見頃を迎える'
                 }
             ],
             'geometry': {
