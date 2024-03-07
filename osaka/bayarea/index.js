@@ -161,7 +161,7 @@ const osakaBayarea = {
                 'address': '此花区の新淀川・安治川間 ~ 人工島「舞洲」、常吉大橋と此花大橋で結ばれるエリア',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=bayarea&name=hokko',
-                'iconSize': ['bayarea/icon/konohana.gif', '3.75rem', '3.75rem'],
+                'iconSize': ['bayarea/icon/konohana.png', '3.75rem', '3.75rem'],
                 'zoom': 15.5
             }
         },
