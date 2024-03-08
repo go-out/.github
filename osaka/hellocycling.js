@@ -238,7 +238,7 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'テニススクール・ノア　大阪通天閣前校',
+                'address': 'テニススクール・ノア 大阪通天閣前校',
                 'date': '<a href="https://maps.app.goo.gl/3gXedbvk4aST7tMB7" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
@@ -253,7 +253,7 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'テニススクール・ノア　大阪天下茶屋校',
+                'address': 'テニススクール・ノア 大阪天下茶屋校',
                 'date': '<a href="https://maps.app.goo.gl/gXENm43Zp6DUvQrn9" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
@@ -283,8 +283,53 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'セブンイレブン　大阪阪南町3丁目店',
+                'address': 'コーナン天王寺店',
+                'date': '<a href="https://maps.app.goo.gl/XRUmaERpiERrp9rs5" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'minami',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51465136083283, 34.62886872201646]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'セブンイレブン 大阪阪南町3丁目店',
                 'date': '<a href="https://maps.app.goo.gl/4BKzNrmPHvirX9jk6" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.53383638853688, 34.680383297671995]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'JR森ノ宮駅',
+                'date': '<a href="https://maps.app.goo.gl/1Cvj1jr2TYmzeqLQA" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'chuo',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5295481816614, 34.68046251552606]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'もりのみやキューズモールBASE',
+                'date': '<a href="https://maps.app.goo.gl/W3WUedh8pyYo9wda6" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
         },
@@ -373,7 +418,7 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'セブンイレブン　大阪長居東4丁目店',
+                'address': 'セブンイレブン 大阪長居東4丁目店',
                 'date': '<a href="https://maps.app.goo.gl/wQSeH9pv7a86eEJ7A" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
@@ -418,7 +463,7 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'セブンイレブン　喜連瓜破駅南店',
+                'address': 'セブンイレブン 喜連瓜破駅南店',
                 'date': '<a href="https://maps.app.goo.gl/1Uuk26hwqQHzRhqt5" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
@@ -433,8 +478,23 @@ const osakaCycling = {
             },
             'properties': {
                 'title': 'HELLO CYCLING',
-                'address': 'セブンイレブン　大阪平野駅前店',
+                'address': 'セブンイレブン 大阪平野駅前店',
                 'date': '<a href="https://maps.app.goo.gl/1rMBaMcyUPCF4eYc7" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'minami',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52039064869842, 34.64389124448186]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': 'コーナン天王寺店',
+                'date': '<a href="https://maps.app.goo.gl/XRUmaERpiERrp9rs5" target="_blank">Google Map</a>',
                 'zoom': 16,
             }
         },

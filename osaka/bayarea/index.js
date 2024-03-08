@@ -167,6 +167,20 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4661778899321, 34.681913616122515]
+            },
+            'properties': {
+                'title': 'レンタサイクル 駅リンくん 西九条店',
+                'address': '営業時間 6:30～21:00 一回利用 500円（当日限り）',
+                'date': '',
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',

@@ -1,0 +1,33 @@
+{
+    "date": "2024.3.31 (Sun) 10:30~",
+    "url": "easter/?id=st-andrew-osaka&date=2024",
+    "u": "復活祭礼拝 🇯🇵 大阪聖アンデレ教会",
+    "strong": "St Andrew Osaka",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "10:30~12:00",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        },
+        {
+            "title": "13:00頃～「祝会」",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "日本聖公会大阪教区 大阪聖アンデレ教会",
+            "url": "https://st-andrew-osaka.com/",
+            "target": "_blank"
+        },
+        {
+            "text": "桃山学院中学校高等学校聖歌隊",
+            "url": "https://momoyama-choir.jimdofree.com/%E5%B9%B4%E9%96%93%E6%B4%BB%E5%8B%95%E4%BA%88%E5%AE%9A/",
+            "target": "_blank"
+        }
+    ]
+}

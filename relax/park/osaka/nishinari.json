@@ -7,21 +7,25 @@
         "address": "大阪市西成区津守１丁目１３",
         "google": "https://maps.app.goo.gl/vkCsB1csNEcp4AQX6",
         "text": [
-            "東側は学生や地域の人たちの憩いの場 西側は不法投棄ゴミやブルーシートハウスの不法占拠家屋群"
+            "東側は学生や地域の人たちの憩いの場 西側は不法投棄ゴミ・不法占拠家屋群"
         ]
     },
-    "links": [
-        "<a href='https://www.tennoji-park.jp/' target='_blank'>大阪天王寺公園エントランスエリア“てんしば”</a>"
-    ],
     "width": "0.575",
     "height": "1",
     "directory": "https://lh3.googleusercontent.com/ggms/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipNBVHf3ANP8MGo4-r1OL18YCsRg73Ghsm1D2qG7",
+            "poster": "AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi",
             "src": [
-                "AF1QipMfERhHmu8snxoNIdXDgZJ-vLOXHiKo4kr4tojB=m18"
+                "AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k",
+            "src": [
+                "AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k=m18"
             ]
         }
     ]

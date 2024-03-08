@@ -1,0 +1,57 @@
+{
+    "title": "難波宮周辺",
+    "description": "Naniwa-no-Miya",
+    "href": "osaka/vr/?area=chuo&name=naniwa-no-miya",
+    "info": [
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/ceqrRSuhJXrA8rhZ9'>難波宮跡</a> <small>大阪が日本の都であったことを示す宮殿の跡</small>",
+        "<a href='https://maps.app.goo.gl/2nqoKaMCkudhx5fF6'>森之宮遺跡</a> <small>森ノ宮ピロティホール地下 森之宮遺跡展示室 開館時間は11時～15時</small>",
+        "<a href='https://maps.app.goo.gl/Ne6m9z4j5Qt1dqgC6'>大阪府庁</a> <small>5F 大阪府庁食堂 営業時間は11:00〜15:00（平日のみ）</small>",
+        "<a href='https://maps.app.goo.gl/HGH39Fm3HDna7nLX7'>大阪歴史博物館</a> <small>最上階は大阪城天守閣とその向こうに立ち並ぶビル群を一望できるビュースポット</small>",
+        "<a href='https://maps.app.goo.gl/TxyDem4wFqkQE4hQ6'>ピースおおさか 大阪国際平和センター</a> <small>大阪空襲を語り継ぐ平和ミュージアム</small>",
+        "",
+        "<u>アクセス</u>",
+        "Osaka Metro「谷町四丁目」",
+        "Osaka Metro・JR「森ノ宮」",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/1Cvj1jr2TYmzeqLQA' target='_blank'>JR森ノ宮駅</a> <a href='https://maps.app.goo.gl/W3WUedh8pyYo9wda6' target='_blank'>もりのみやキューズモールBASE</a>"
+    ],
+    "links": [
+        "<a href='https://ja.wikipedia.org/wiki/%E9%9B%A3%E6%B3%A2%E5%AE%AE' target='_blank'>難波宮 - Wikipedia</a>",
+        "<a href='https://naniwanomiya1400.com/' target='_blank'>難波宮跡公園でみんなのやりたいが叶う｜なにわのみや1400プロジェクト</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R",
+            "src": [
+                "AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipP-Cw03QILHI-upu3594M03hTuz9CdFkTYtDxRA",
+            "src": [
+                "AF1QipP-Cw03QILHI-upu3594M03hTuz9CdFkTYtDxRA=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "AF1QipOgNJ8wg97PaVYWWrDK3cpRp_p4hn6mKJDR6z20",
+            "src": [
+                "AF1QipOgNJ8wg97PaVYWWrDK3cpRp_p4hn6mKJDR6z20=m18"
+            ]
+        },
+        {
+            "id": "four",
+            "poster": "AF1QipOA-yCqUTDCp6h2sVzQAJtq_cKLz0DBHaNgWMBv",
+            "src": [
+                "AF1QipOA-yCqUTDCp6h2sVzQAJtq_cKLz0DBHaNgWMBv=m18"
+            ]
+        }
+    ]
+}

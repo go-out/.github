@@ -166,7 +166,7 @@ const osakaSumiyoshi = {
                 'address': '現在は市民公園「加賀屋緑地」として一般開放されている大阪市指定文化財・史跡の会所跡',
                 'date': 'More Info',
                 'href': 'relax/?id=park&area=osaka&name=kagayaryokuchi',
-                'zoom': 16.5
+                'zoom': 18
             }
         },
         {

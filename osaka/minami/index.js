@@ -63,6 +63,22 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
+            'tags': 'legacy',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49671014738038, 34.66147827438952]
+            },
+            'properties': {
+                'title': '難波八阪神社',
+                'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
+                'date': 'More Info',
+                'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
+                'youtube': 'OO_7X8aM9BQ',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'feature': [
                 {
@@ -79,29 +95,65 @@ const osakaMinami = {
                 'coordinates': [135.52145867952675, 34.630879917621115]
             },
             'properties': {
-                'title': '阿倍野区南東部',
-                'address': '阿倍野元町・王子町・阪南町・昭和町・文の里・桃ケ池町・長池町',
-                'date': 'More Info',
-                'href': 'osaka/vr/?area=minami&name=abeno-nantou',
+                'title': '阿倍野区',
+                'address': '阪堺上町線より東・南海通より北・阪和線より西',
+                'date': '',
                 'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
-                'youtube': 'dWeIDI9cJXA',
-                'zoom': 14
+                'zoom': 14.5
             }
         },
         {
             'type': 'Feature',
-            'tags': 'legacy',
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49671014738038, 34.66147827438952]
+                'coordinates': [135.51033088655373, 34.640090916357146]
             },
             'properties': {
-                'title': '難波八阪神社',
-                'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
+                'title': 'やすらぎ天空館',
+                'address': '大阪市設 南霊園',
+                'date': '',
+                'zoom': 15.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50902324235545, 34.6309516823175]
+            },
+            'properties': {
+                'title': '阿倍王子神社・安倍晴明神社',
+                'address': '大阪府下に唯一現存する熊野権現の王子社',
+                'date': '',
+                'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                {
+                    'month': 3,
+                    'text': '例年3月中旬、上汐公園・大阪市立天王寺図書館周辺などで天王寺区の花「モモ」が咲き始め'
+                },
+                {
+                    'month': 4,
+                    'text': '例年4月上旬、上汐公園・大阪市立天王寺図書館周辺などで天王寺区の花「モモ」が見頃を迎える'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51965841029406, 34.66546417416421]
+            },
+            'properties': {
+                'title': '上本町（谷九・上六）',
+                'address': '上町台地の頂に達する位置、風情や緑が数多く残されている上町の中心',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
-                'youtube': 'OO_7X8aM9BQ',
-                'zoom': 17.5
+                'href': 'osaka/vr/?area=minami&name=uehonmachi',
+                'iconSize': ['minami/icon/tennouji.png', '2.75rem', '2.75rem'],
+                'zoom': 14.5
             }
         },
         {
@@ -131,32 +183,6 @@ const osakaMinami = {
                 'date': 'More Info',
                 'href': 'relax/?id=legacy&area=osaka&name=shitennoji',
                 'zoom': 16
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'vr',
-            'feature': [
-                {
-                    'month': 3,
-                    'text': '例年3月中旬、「上汐公園」「大阪市立天王寺図書館周辺」などで天王寺区の花「モモ」が咲き始め'
-                },
-                {
-                    'month': 4,
-                    'text': '例年4月上旬、「上汐公園」「大阪市立天王寺図書館周辺」などで天王寺区の花「モモ」が見頃を迎える'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51939637196554, 34.66314279290713]
-            },
-            'properties': {
-                'title': '上本町（谷九・上六）',
-                'address': '上町台地の頂に達する位置、風情や緑が数多く残されている上町の中心',
-                'date': 'More Info',
-                'href': 'osaka/vr/?area=minami&name=uehonmachi',
-                'iconSize': ['minami/icon/tennouji.png', '2.75rem', '2.75rem'],
-                'zoom': 14
             }
         },
         {
@@ -199,27 +225,7 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
-            'feature': [
-                {
-                    'month': 11,
-                    'text': '例年11月下旬から12月上旬、メタセコイアの並木が美しく紅葉する'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.4820114395033, 34.64617335180633]
-            },
-            'properties': {
-                'title': '西成公園',
-                'address': '東側は学生や地域の人たちの憩いの場<br>西側は不法投棄ゴミやブルーシートハウスの不法占拠家屋群',
-                'date': '',
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'park',
+            'tags': 'vr',
             'feature': [
                 {
                     'month': 9,
@@ -236,10 +242,35 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '萩之茶屋（釜ヶ崎・あいりん地区）',
-                'address': '日本最大の日雇い労働者の街（ドヤ街）<br>11時・17時 萩之茶屋中公園（通称：四角公園）で炊き出し、17時30分 あいりん総合センターでシェルター利用券の配布',
-                'date': '',
+                'address': '日本最大の日雇い労働者の街（ドヤ街）',
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=minami&name=haginochaya',
                 'iconSize': ['minami/icon/nnari.png', '3.5rem', '3.5rem'],
                 'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'feature': [
+                {
+                    'month': 11,
+                    'text': '例年11月下旬から12月上旬、メタセコイアの並木が美しく紅葉する'
+                },
+                {
+                    'month': 12,
+                    'text': '例年11月下旬から12月上旬、メタセコイアの並木が美しく紅葉する'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4820114395033, 34.64617335180633]
+            },
+            'properties': {
+                'title': '西成公園',
+                'address': '東側は学生や地域の人たちの憩いの場 西側は不法投棄ゴミ・不法占拠家屋群',
+                'date': '',
+                'zoom': 16.5
             }
         }
     ]

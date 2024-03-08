@@ -11,11 +11,26 @@ const osakaChuo = {
                 'coordinates': [135.52296085487433, 34.67992404080561]
             },
             'properties': {
-                'title': '難波宮跡',
+                'title': '難波宮',
                 'address': '日本という国号・元号の使用が始まったとされる、大阪が日本の都であったことを示す宮殿の跡',
-                'date': '',
+                'date': 'More Info',
+                'href': 'osaka/vr/?area=chuo&name=naniwa-no-miya',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52168463501457, 34.67483293882476]
+            },
+            'properties': {
+                'title': '大阪ガス実験集合住宅 NEXT21',
+                'address': '近未来の都市型住宅のあり方について、環境・エネルギー・暮らしの面から実証・提案することを目的とした実験集合住宅',
+                'date': '',
+                'zoom': 18
             }
         },
         {
@@ -65,21 +80,85 @@ const osakaChuo = {
         {
             'type': 'Feature',
             'tags': 'draft',
-            'feature': [
-                {
-                    'month': 6,
-                    'text': '紫陽花の名所（5月下旬から6月中旬が見頃）'
-                }
-            ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.49858988412362, 34.68094346807953]
+                'coordinates': [135.49891632788336, 34.690970561171525]
             },
             'properties': {
-                'title': '坐摩神社',
-                'address': '摂津国一之宮 いかすりじんじゃ、通称ざまさん。番地が渡辺!?',
+                'title': '大阪倶楽部',
+                'address': '「知の交流と心のふれあいの場」として大阪で設立された伝統と歴史のある会員制社交倶楽部',
                 'date': '',
-                'zoom': 18,
+                'zoom': 18
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5003017289354, 34.688056935194446]
+            },
+            'properties': {
+                'title': '大阪ガスビルディング',
+                'address': '大阪のシンボル・ストリート御堂筋に面して建つガスビル',
+                'date': '',
+                'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50419163259318, 34.68704094879135]
+            },
+            'properties': {
+                'title': '船場ビルディング',
+                'address': 'ユニークな中庭・屋上庭園がある1925年頃に建てられたオフィスビル（来館には予約が必要）',
+                'date': '',
+                'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48217316740693, 34.68212301550381]
+            },
+            'properties': {
+                'title': '日本聖公会 川口基督教会',
+                'address': '創立120周年記念に設置されたパイプオルガンがある',
+                'date': '',
+                'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50377142797495, 34.68949937920177]
+            },
+            'properties': {
+                'title': '日本基督教団 浪花教会',
+                'address': '教会の3Fにはパイプオルガン 礼拝堂にはリードオルガンがある',
+                'date': '',
+                'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49353508094396, 34.689391369622015]
+            },
+            'properties': {
+                'title': '日本基督教団 大阪教会',
+                'address': '国の登録有形文化財 生きた建築ミュージアム・大阪セレクション 大阪府指定有形文化財 ',
+                'date': '',
+                'zoom': 18
             }
         },
         {
@@ -109,6 +188,54 @@ const osakaChuo = {
                 'date': '',
                 'iconSize': ['chuo/icon/nishi.gif', '2.75rem', '2.75rem'],
                 'zoom': 15,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'feature': [
+                {
+                    'month': 6,
+                    'text': '紫陽花の名所（5月下旬から6月中旬が見頃）'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49858988412362, 34.68094346807953]
+            },
+            'properties': {
+                'title': '坐摩神社',
+                'address': '摂津国一之宮 いかすりじんじゃ、通称ざまさん。番地が渡辺!?',
+                'date': '',
+                'zoom': 18,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.50259778038802, 34.680880014402234]
+            },
+            'properties': {
+                'title': '丼池繊維会館',
+                'address': '',
+                'date': '',
+                'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.486595777065, 34.67605160655378]
+            },
+            'properties': {
+                'title': '細野ビルヂング',
+                'address': '',
+                'date': '',
+                'zoom': 18.5
             }
         }
     ]

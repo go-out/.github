@@ -1,0 +1,28 @@
+{
+    "date": "2024.3.31 (Sun) 10:30~",
+    "url": "easter/?id=osakachurch&date=2024",
+    "u": "イースター礼拝 🇯🇵 日本基督教団 大阪教会",
+    "strong": "Osaka Church",
+    "youtube": "___",
+    "directory": "",
+    "cover": "",
+    "video": [
+        {
+            "title": "10:30",
+            "src": "___.mp4",
+            "track": "___/000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "日本基督教団 大阪教会 | 大阪市西区 | Osaka",
+            "url": "https://www.osaka-church.net/",
+            "target": "_blank"
+        },
+        {
+            "text": "日本基督教団大阪教会 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E5%9F%BA%E7%9D%A3%E6%95%99%E5%9B%A3%E5%A4%A7%E9%98%AA%E6%95%99%E4%BC%9A",
+            "target": "_blank"
+        }
+    ]
+}

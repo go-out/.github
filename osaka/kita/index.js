@@ -111,7 +111,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': 'レンタサイクル グリーンフラッグ 桜ノ宮店',
-                'address': '営業時間 平日5:30~24:15 土日祝7時~19時 | 利用料 1日 150円',
+                'address': '営業時間 平日5:30~24:15 土日祝7時~19時 利用料 1日 150円',
                 'date': '',
                 'zoom': 16.5
             }
@@ -175,7 +175,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': 'レンタサイクル 阪急上新庄駐輪センターはこべ館',
-                'address': '営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円',
+                'address': '営業時間 6:30～22:00 年末年始休 ◆普通車◆ 1日1回利用 320円',
                 'date': '',
                 'zoom': 16.5
             }
@@ -198,7 +198,7 @@ const osakaKita = {
                 'address': '大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街',
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
-                'iconSize': ['kita/icon/hyodogawa.png', '3rem', '3rem'],
+                'iconSize': ['kita/icon/hyodo.png', '3rem', '3rem'],
                 'zoom': 13.5
             }
         },
@@ -211,7 +211,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': 'レンタサイクル 駅リンくん 新大阪店',
-                'address': '営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円',
+                'address': '営業時間 6:30～21:00 一回利用 500円（当日限り）',
                 'date': '',
                 'zoom': 16.5
             }
@@ -225,7 +225,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': 'レンタサイクル 駅リンくん 塚本店',
-                'address': '営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円',
+                'address': '営業時間 6:30～21:00 一回利用 500円（当日限り）',
                 'date': '',
                 'zoom': 16.5
             }
@@ -239,7 +239,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': 'レンタサイクル 駅リンくん 塚本店',
-                'address': '営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円',
+                'address': '営業時間 6:30～21:00 一回利用 500円（当日限り）',
                 'date': '',
                 'zoom': 16.5
             }
@@ -267,7 +267,7 @@ const osakaKita = {
                 'date': 'More Info',
                 'href': 'osaka/vr/?area=kita&name=nishi-yodogawa',
                 'iconSize': ['kita/icon/nyodo.gif', '3.5rem', '3.5rem'],
-                'zoom': 12
+                'zoom': 13
             }
         },
         {
@@ -293,7 +293,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': 'レンタサイクル 阪急三国駐輪センター',
-                'address': '営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円',
+                'address': '営業時間 6:30～22:00 年末年始休 ◆普通車◆ 1日1回利用 320円',
                 'date': '',
                 'zoom': 16.5
             }
@@ -323,7 +323,7 @@ const osakaKita = {
                 'title': 'リーニュ・ブランシュの庭',
                 'address': '彫刻家マルタ・パンによる「都市と自然の美しい調和」をテーマとした３つの作品が展示されている、近現代彫刻作品の美術館「スキュルチュール江坂」をとりまく庭',
                 'date': '',
-                'zoom': 15.5
+                'zoom': 17.5
             }
         }
     ]

@@ -50,6 +50,7 @@ const osakaAlps = {
         },
         {
             'type': 'Feature',
+            'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49682232943638, 34.621565133427865]
@@ -59,7 +60,6 @@ const osakaAlps = {
                 'address': '帝塚山（てづかやま）古墳の墳丘。標高は19.88m。<br>関西を代表する高級住宅街の一つ。',
                 'date': 'more info',
                 'href': 'osaka/vr/?area=sumiyoshi&name=tezukayama',
-                'tags': 'legacy',
                 'youtube': 'KuYJ3IW7z4k',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 16,
