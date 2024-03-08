@@ -181,7 +181,7 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4569471986814, 34.66444189673407]
