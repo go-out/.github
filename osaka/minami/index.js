@@ -63,7 +63,7 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49039156126494, 34.66484424824761]
@@ -72,6 +72,7 @@ const osakaMinami = {
                 'title': '浪速区',
                 'address': '',
                 'date': '',
+                'iconSize': ['minami/icon/naniwa.gif', '3rem', '3rem'],
                 'zoom': 14.5
             }
         },

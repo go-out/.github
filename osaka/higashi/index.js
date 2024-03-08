@@ -22,7 +22,7 @@ const osakaHigashi = {
             },
             'properties': {
                 'title': '城北公園',
-                'address': '',
+                'address': '旧淀川の河川敷を利用して造られた、大きな池と菖蒲園のある公園',
                 'date': '',
                 'iconSize': ['higashi/icon/asahi.png', '3.5rem', '3.5rem'],
                 'zoom': 16
@@ -71,7 +71,7 @@ const osakaHigashi = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'feature': [
                 {
                     'month': 3,
@@ -90,12 +90,13 @@ const osakaHigashi = {
                 'title': '城東区',
                 'address': '',
                 'date': '',
+                'iconSize': ['higashi/icon/joto.png', '3rem', '3rem'],
                 'zoom': 15
             }
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'vr',
             'feature': [
                 {
                     'month': 4,
@@ -110,6 +111,7 @@ const osakaHigashi = {
                 'title': '東成区',
                 'address': '',
                 'date': '',
+                'iconSize': ['higashi/icon/hnari.gif', '3rem', '3rem'],
                 'zoom': 15
             }
         },
@@ -128,7 +130,7 @@ const osakaHigashi = {
             },
             'properties': {
                 'title': '御勝山',
-                'address': '御勝山（おかちやま）古墳の後円部（標高14mの墳丘）<br>古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」になっています',
+                'address': '御勝山（おかちやま）古墳の後円部（標高14mの墳丘）<br>古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」',
                 'date': '',
                 'iconSize': ['higashi/icon/ikuno.gif', '3.5rem', '3.5rem'],
                 'zoom': 16
