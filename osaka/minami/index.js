@@ -63,6 +63,20 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49039156126494, 34.66484424824761]
+            },
+            'properties': {
+                'title': '浪速区',
+                'address': '',
+                'date': '',
+                'zoom': 14.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'legacy',
             'geometry': {
                 'type': 'Point',
