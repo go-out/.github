@@ -75,11 +75,11 @@ const osakaHigashi = {
             'feature': [
                 {
                     'month': 3,
-                    'text': '3月中旬、城東区の花「モクレン」が、「中浜公園」などで咲き始める'
+                    'text': '3月中旬、城東区の花「モクレン」が咲き始める'
                 },
                 {
-                    'month': 4,
-                    'text': '城東区の花「モクレン」が、「中浜公園」などで見頃を迎える'
+                    'month': 7,
+                    'text': '初夏、大きな藤棚が美しい花を咲かせる'
                 }
             ],
             'geometry': {
@@ -87,8 +87,8 @@ const osakaHigashi = {
                 'coordinates': [135.5421042130831, 34.68696836838546]
             },
             'properties': {
-                'title': '城東区',
-                'address': '',
+                'title': '中浜公園',
+                'address': '花の名所公園 緑のやさしい憩いの場',
                 'date': '',
                 'iconSize': ['higashi/icon/joto.png', '3rem', '3rem'],
                 'zoom': 15
