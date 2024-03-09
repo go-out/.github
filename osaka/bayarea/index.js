@@ -181,6 +181,21 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'vr',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.4569471986814, 34.66444189673407]
+            },
+            'properties': {
+                'title': '弁天町',
+                'address': '',
+                'date': '',
+                'iconSize': ['bayarea/icon/minato.gif', '3.75rem', '3.75rem'],
+                'zoom': 14.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',

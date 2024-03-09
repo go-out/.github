@@ -22,60 +22,10 @@ const osakaHigashi = {
             },
             'properties': {
                 'title': '城北公園',
-                'address': '',
+                'address': '旧淀川の河川敷を利用して造られた、大きな池と菖蒲園のある公園',
                 'date': '',
                 'iconSize': ['higashi/icon/asahi.png', '3.5rem', '3.5rem'],
                 'zoom': 16
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'vr',
-            'feature': [
-                {
-                    'month': 6,
-                    'text': '生野区の花「あじさい」が、「生野東公園」などで見頃を迎える'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5359834816478, 34.654466425764554]
-            },
-            'properties': {
-                'title': '御勝山',
-                'address': '御勝山（おかちやま）古墳の後円部（標高14mの墳丘）<br>古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」になっています',
-                'date': '',
-                'iconSize': ['higashi/icon/ikuno.gif', '3.5rem', '3.5rem'],
-                'zoom': 16
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'vr',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.53926217864876, 34.661002343046945]
-            },
-            'properties': {
-                'title': '大阪コリアタウン',
-                'address': '在日韓国・朝鮮人はじめ地元の人々の生活スペースでありながら、観光客が多く訪れる大規模なコリアタウン',
-                'date': '',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5998086141279, 34.69826713506951]
-            },
-            'properties': {
-                'title': '鴻池新田会所跡',
-                'address': '国史跡・重要文化財 令和5年3月31日をもって休館（工事終了後のリニューアルオープンは令和7年度中を予定）',
-                'date': '',
-                'zoom': 17.5
             }
         },
         {
@@ -117,6 +67,102 @@ const osakaHigashi = {
                 'date': '',
                 'iconSize': ['higashi/icon/tsurumi.png', '3rem', '3rem'],
                 'zoom': 14
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                {
+                    'month': 3,
+                    'text': '3月中旬、城東区の花「モクレン」が咲き始める'
+                },
+                {
+                    'month': 7,
+                    'text': '初夏、大きな藤棚が美しい花を咲かせる'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5421042130831, 34.68696836838546]
+            },
+            'properties': {
+                'title': '中浜公園',
+                'address': '花の名所公園 緑のやさしい憩いの場',
+                'date': '',
+                'iconSize': ['higashi/icon/joto.png', '3rem', '3rem'],
+                'zoom': 15
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                {
+                    'month': 4,
+                    'text': '東成区の花「バラ」「パンジー」が、「東成区役所」などで見頃を迎える'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.54129687845824, 34.66991179182996]
+            },
+            'properties': {
+                'title': '東成区',
+                'address': '',
+                'date': '',
+                'iconSize': ['higashi/icon/hnari.gif', '3rem', '3rem'],
+                'zoom': 15
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                {
+                    'month': 6,
+                    'text': '生野区の花「あじさい」が、「生野東公園」などで見頃を迎える'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5359834816478, 34.654466425764554]
+            },
+            'properties': {
+                'title': '御勝山',
+                'address': '御勝山（おかちやま）古墳の後円部（標高14mの墳丘）<br>古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」',
+                'date': '',
+                'iconSize': ['higashi/icon/ikuno.gif', '3.5rem', '3.5rem'],
+                'zoom': 16
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.53926217864876, 34.661002343046945]
+            },
+            'properties': {
+                'title': '大阪コリアタウン',
+                'address': '在日韓国・朝鮮人はじめ地元の人々の生活スペースでありながら、観光客が多く訪れる大規模なコリアタウン',
+                'date': '',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5998086141279, 34.69826713506951]
+            },
+            'properties': {
+                'title': '鴻池新田会所跡',
+                'address': '国史跡・重要文化財 令和5年3月31日をもって休館（工事終了後のリニューアルオープンは令和7年度中を予定）',
+                'date': '',
+                'zoom': 17.5
             }
         }
     ]

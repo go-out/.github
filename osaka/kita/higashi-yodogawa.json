@@ -3,14 +3,14 @@
   "description": "Higashi Yodogawa",
   "info": [
     "大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街",
-    "区の花「辛夷（コブシ）」の開花時期は、3月下旬から4月上旬、桜より少し早い早春に開花（花言葉は「友情」「歓迎」）",
+    "区の花「辛夷（コブシ）」の開花時期は、3月中旬から4月上旬、桜より少し早い早春に開花（花言葉は「友情」「歓迎」）",
     "",
     "<u>ランドマーク・お気に入りの場所</u>",
-    "こぶし通り <small>東淀川区役所前</small>",
-    "瑞光寺公園 <small>こぶしの花の名所公園</small>",
-    "なにわ自転車道 <small>水とみどりのふれあい広場</small>",
-    "阪急相川駅東西通り <small></small>",
-    "松山神社 <small>梅の名所 2月末には、毎年梅花祭が開催</small>",
+    "<a>こぶし通り</a> <small>東淀川区役所前</small>",
+    "<a>瑞光寺公園</a> <small>こぶしの花の名所公園</small>",
+    "<a>なにわ自転車道</a> <small>水とみどりのふれあい広場</small>",
+    "<a>阪急相川駅東西通り</a> <small></small>",
+    "<a>松山神社</a> <small>梅の名所 2月末には、毎年梅花祭が開催</small>",
     "",
     "<u>毎年7月下旬から8月下旬</u>",
     "<a href='https://higashiyodogawaku.goguynet.jp/tag/%e5%a4%8f%e7%a5%ad%e3%82%8a/' target='_blank'>夏祭り</a>・<a href='https://higashiyodogawaku.goguynet.jp/tag/%E7%9B%86%E8%B8%8A%E3%82%8A/' target='_blank'>盆踊り</a",
@@ -21,7 +21,8 @@
   "links": [
     "<a href='https://www.city.osaka.lg.jp/higashiyodogawa/page/0000000428.html' target='_blank'>大阪市東淀川区： 区の花・キャラクター</a>",
     "<a href='https://www.osakacommunity.jp/higashiyodogawa/machi_flower.html' target='_blank'>区の花｜大阪市コミュニティ協会 東淀川区支部協議会</a>",
-    "<a href='https://www.city.osaka.lg.jp/higashiyodogawa/page/0000024137.html' target='_blank'>大阪市東淀川区：区のスポット</a>"
+    "<a href='https://www.city.osaka.lg.jp/higashiyodogawa/page/0000024137.html' target='_blank'>大阪市東淀川区：区のスポット</a>",
+    "<a href='https://higashiyodogawaku.goguynet.jp/' target='_blank'>号外NET 東淀川区 | 大阪市東淀川区のニュースサイト</a>"
   ],
   "directory": "https://lh3.googleusercontent.com/ggms/",
   "landscape": "repeat(4, 1fr)",

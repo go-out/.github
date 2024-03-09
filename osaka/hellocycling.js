@@ -534,6 +534,21 @@ const osakaCycling = {
             'area': 'higashi',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.54581536920918, 34.69118206985849]
+            },
+            'properties': {
+                'title': 'HELLO CYCLING',
+                'address': '新・鴫野西駐輪場',
+                'date': '<a href="https://maps.app.goo.gl/Po1wP1USBZTztYHDA" target="_blank">Google Map</a>',
+                'zoom': 16,
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'hello',
+            'area': 'higashi',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.53863644418288, 34.654900982093494]
             },
             'properties': {
