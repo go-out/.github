@@ -156,16 +156,17 @@ const osakaSumiyoshi = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'park',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.4751648749464, 34.60246659776148]
             },
             'properties': {
-                'title': '加賀屋新田会所跡',
-                'address': '現在は市民公園「加賀屋緑地」として一般開放されている大阪市指定文化財・史跡の会所跡',
+                'title': '加賀屋新田会所跡・加賀屋緑地',
+                'address': '開館時間 10:00 ~ 16:30（最終入館時間 16:00） 休園日 毎週月曜日',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=kagayaryokuchi',
+                'href': 'date/kagaya-shinden-kaisho/',
+                'youtube': 'zAZUC1x1-H0',
                 'zoom': 18
             }
         },
