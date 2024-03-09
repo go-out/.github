@@ -43,9 +43,7 @@ const osakaSakai = {
             'properties': {
                 'title': '金岡団地スターハウスメモリアル',
                 'address': 'UR賃貸住宅の第1号となった｢金岡団地｣の跡地にある記念碑',
-                'date': 'More Info',
-                'href': 'park/?area=osaka&name=sainvarierkanaoka',
-                'youtube': 'UhG3l8F5rE4',
+                'date': '',
                 'zoom': 19
             }
         },
