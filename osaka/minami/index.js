@@ -14,7 +14,7 @@ const osakaMinami = {
                 'title': '天神ノ森天満宮',
                 'address': '樹齢七百年ともいわれる楠木の大樹が境内に生い茂る、神聖な空気が漂う小さな天満宮',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=tenjinnomori',
+                'href': 'legacy/?area=osaka&name=tenjinnomori',
                 'youtube': 'dZRBkoIMVg0',
                 'zoom': 18
             }
@@ -40,7 +40,7 @@ const osakaMinami = {
                 'title': '天下茶屋公園',
                 'address': '大きな樹木が茂る林に覆われた大阪市営公園',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=tengachaya',
+                'href': 'park/?area=osaka&name=tengachaya',
                 'youtube': 'T3dnf2uGUw0',
                 'zoom': 17.5
             }
@@ -56,7 +56,7 @@ const osakaMinami = {
                 'title': '阿倍野神社',
                 'address': '境内にあるお茶室「中今亭庭園」とそのお庭は、毎月第1・第3日曜日に限定公開',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=abenojinja',
+                'href': 'legacy/?area=osaka&name=abenojinja',
                 'youtube': 'Ctf_xTeaNFM',
                 'zoom': 17.5
             }
@@ -87,7 +87,7 @@ const osakaMinami = {
                 'title': '難波八阪神社',
                 'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=nambayasaka',
+                'href': 'legacy/?area=osaka&name=nambayasaka',
                 'youtube': 'OO_7X8aM9BQ',
                 'zoom': 17.5
             }
@@ -196,7 +196,7 @@ const osakaMinami = {
                 'title': '四天王寺',
                 'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=shitennoji',
+                'href': 'legacy/?area=osaka&name=shitennoji',
                 'zoom': 16
             }
         },
@@ -233,7 +233,7 @@ const osakaMinami = {
                 'title': '茶臼山',
                 'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>池を挟んだ古墳の南側は純日本風の林泉回遊式庭園「慶沢園」',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=tennoji',
+                'href': 'park/?area=osaka&name=tennoji',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5
             }

@@ -1,0 +1,32 @@
+{
+    "title": "西成公園 にしなりこうえん",
+    "description": "",
+    "url": "park/?area=osaka&name=nishinari",
+    "info": {
+        "title": "Nishinari Park 🇯🇵 Osaka, Japan",
+        "address": "大阪市西成区津守１丁目１３",
+        "google": "https://maps.app.goo.gl/vkCsB1csNEcp4AQX6",
+        "text": [
+            "東側は学生や地域の人たちの憩いの場 西側は不法投棄ゴミ・不法占拠家屋群"
+        ]
+    },
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi",
+            "src": [
+                "AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k",
+            "src": [
+                "AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k=m18"
+            ]
+        }
+    ]
+}

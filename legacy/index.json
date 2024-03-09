@@ -1,0 +1,26 @@
+{
+    "title": "神聖なる場所",
+    "description": "Legacies and Sanctuaries",
+    "url": "legacy/",
+    "info": {
+        "title": "〔先祖や過去からの〕伝来のもの、遺産",
+        "address": "Watch a Playlist on YouTube",
+        "google": "https://www.youtube.com/playlist?list=PLNxErRQ8jPVbkUxqgLDG5QLJ2cavxkFGz"
+    },
+    "links": [
+        "<a href='osaka/' target='_self'>大阪 Osaka</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "video": [
+        {
+            "id": "jinja",
+            "poster": "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y",
+            "src": [
+                "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y=m18",
+                "AF1QipN83vYdxhjxPxvTZPgwiIKTIZAURdjFcxhGPpG5=m18"
+            ]
+        }
+    ]
+}

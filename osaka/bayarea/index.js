@@ -14,7 +14,7 @@ const osakaBayarea = {
                 'title': 'シーサイドコスモ（コスモスクエア海浜緑地）',
                 'address': 'コスモスクエア駅のすぐ北側にある全長1.4kmにも及ぶ海辺の遊歩道',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=seaside-cosmo',
+                'href': 'park/?area=osaka&name=seaside-cosmo',
                 'youtube': 'EoFg1eMWADg',
                 'zoom': 16.5
             }
@@ -30,7 +30,7 @@ const osakaBayarea = {
                 'title': '大阪府咲洲庁舎（さきしまコスモタワー）',
                 'address': '1階広場「フェスパ」 何をする訳でもなく、ただぼーっと過ごす',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=wtc-cosmotower',
+                'href': 'relax/?area=osaka&name=wtc-cosmotower',
                 'youtube': '9E8UZio4SJM',
                 'zoom': 17.5
             }
@@ -75,7 +75,7 @@ const osakaBayarea = {
                 'title': '南港魚つり園護岸',
                 'address': '南港南の西の果て 大きな空と海を一望できる気持ちのいい場所',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=nankou-uotsuri-en',
+                'href': 'relax/?area=osaka&name=nankou-uotsuri-en',
                 'youtube': '9DRiQ5CVcjE',
                 'zoom': 16
             }

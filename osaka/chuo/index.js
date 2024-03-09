@@ -27,7 +27,7 @@ const osakaChuo = {
                 'coordinates': [135.52168463501457, 34.67483293882476]
             },
             'properties': {
-                'title': '大阪ガス実験集合住宅 NEXT21',
+                'title': 'NEXT21',
                 'address': '近未来の都市型住宅のあり方について、環境・エネルギー・暮らしの面から実証・提案することを目的とした実験集合住宅',
                 'date': '',
                 'zoom': 18
@@ -50,7 +50,7 @@ const osakaChuo = {
                 'title': '高津宮',
                 'address': '大阪市歌の一番で歌われる、由緒あるお宮<br>「高津の宮の昔より、よよの栄を重ねきて、民のかまどに立つ煙」',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=kouzu',
+                'href': 'legacy/?area=osaka&name=kouzu',
                 'youtube': 'oYLY36voXiw',
                 'zoom': 17.5
             }
@@ -72,7 +72,7 @@ const osakaChuo = {
                 'title': '高津公園',
                 'address': '「高津宮」に隣接する公園<br>公園内の梅林は、中央区の花「梅」の名所',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=kouzu',
+                'href': 'legacy/?area=osaka&name=kouzu',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],
                 'zoom': 17.5
             }

@@ -14,7 +14,7 @@ const osakaHokusetsu = {
                 'title': '鵜殿のヨシ原',
                 'address': '「大阪みどりの百選」「関西自然に親しむ風景100選」「美しい日本の歩きたくなるみち500選」',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=udono-yoshihara',
+                'href': 'relax/?area=osaka&name=udono-yoshihara',
                 'youtube': '0ncmnMdeRCw',
                 'zoom': 14.5
             }

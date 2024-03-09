@@ -14,12 +14,12 @@
     "link": [
         {
             "text": "どやどや Doya Doya",
-            "url": "#doyadoya",
+            "url": "../shitennoji/#doyadoya",
             "target": "_self"
         },
         {
             "text": "聖霊会の舞楽 Shouryoue Bugaku",
-            "url": "#shoryue",
+            "url": "../shitennoji/#shoryue",
             "target": "_self"
         }
     ]

@@ -1,0 +1,34 @@
+{
+    "title": "公園緑地",
+    "description": "Parks and Open Space",
+    "url": "park/",
+    "info": {
+        "title": "Parks and Open Space",
+        "address": "Watch a Playlist on YouTube",
+        "google": "https://www.youtube.com/playlist?list=PLNxErRQ8jPVYz3Wm1JeCwdve26BWJR96B"
+    },
+    "links": [
+        "<a href='osaka/' target='_self'>大阪 Osaka</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E",
+            "src": [
+                "AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E=m18",
+                "AF1QipNAFy-HwpSjsMEtNJnIV7WJpxpJUpjS_6T0a3s4=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc",
+            "src": [
+                "AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=m18",
+                "AF1QipO17NfO4FjPrrL-dfKSbztTVuwlZv_98WHADeUO=m18"
+            ]
+        }
+    ]
+}

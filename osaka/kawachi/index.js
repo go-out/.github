@@ -14,7 +14,7 @@ const osakaKawachi = {
                 'title': '八尾空港',
                 'address': '定期便の就航はない「その他の空港」に位置づけられる国管理空港',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=yao-airport',
+                'href': 'relax/?area=osaka&name=yao-airport',
                 'youtube': 'geqXiPdwMvw',
                 'zoom': 14
             }
@@ -44,7 +44,7 @@ const osakaKawachi = {
                 'title': 'ジンジャモール瓢箪山',
                 'address': '近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街 音頭・盆踊りの街',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=jinjamall',
+                'href': 'relax/?area=osaka&name=jinjamall',
                 'youtube': '20slOEsjpt0',
                 'zoom': 16
             }
@@ -76,7 +76,7 @@ const osakaKawachi = {
                 'title': '玉祖神社',
                 'address': '社頭から一望する大阪平野は絶景 境内で長鳴鶏が飼育されている',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=tamanooya',
+                'href': 'legacy/?area=osaka&name=tamanooya',
                 'zoom': 17.5
             }
         },
@@ -91,7 +91,7 @@ const osakaKawachi = {
                 'title': '天照大神高座神社・岩戸神社',
                 'address': '一帯の岩山全体がご神体 原始信仰を起源とする2つの神社と古墳群',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=amaterasu-iwato',
+                'href': 'legacy/?area=osaka&name=amaterasu-iwato',
                 'youtube': '_lX5gXzLS5c',
                 'zoom': 17.5
             }
@@ -137,7 +137,7 @@ const osakaKawachi = {
                 'title': '鐸比古鐸比賣神社（高尾山）',
                 'address': '高尾山を神体山とする「ぬでひこ ぬでひめ じんじゃ」',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=nudehiko-nudehime',
+                'href': 'legacy/?area=osaka&name=nudehiko-nudehime',
                 'zoom': 16
             }
         },
@@ -302,7 +302,7 @@ const osakaKawachi = {
                 'title': '飯盛山 ハイキングコース',
                 'address': '野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=iimoriyama',
+                'href': 'legacy/?area=osaka&name=iimoriyama',
                 'zoom': 14
             }
         }

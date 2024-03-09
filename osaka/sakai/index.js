@@ -14,7 +14,7 @@ const osakaSakai = {
                 'title': '大仙公園',
                 'address': '世界最大の墳墓「大仙陵古墳」の南に位置する総合公園',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=daisenkouen',
+                'href': 'park/?area=osaka&name=daisenkouen',
                 'youtube': 'wLRVVM-xAmg',
                 'zoom': 15.5
             }
@@ -44,7 +44,7 @@ const osakaSakai = {
                 'title': '金岡団地スターハウスメモリアル',
                 'address': 'UR賃貸住宅の第1号となった｢金岡団地｣の跡地にある記念碑',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=sainvarierkanaoka',
+                'href': 'park/?area=osaka&name=sainvarierkanaoka',
                 'youtube': 'UhG3l8F5rE4',
                 'zoom': 19
             }
@@ -98,7 +98,7 @@ const osakaSakai = {
                 'title': '大泉緑地 レンタサイクル',
                 'address': '貸出時間:午前9時から午後4時半（返却時間:午後5時迄） | 料金:大人用300円',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=oizumi',
+                'href': 'park/?area=osaka&name=oizumi',
                 'zoom': 17.5
             }
         },

@@ -1,0 +1,40 @@
+{
+    "title": "生國魂神社 いくたまじんじゃ",
+    "description": "いくたまさん 別称「難波（なにわ）大社」",
+    "url": "legacy/?area=osaka&name=ikutamajinja",
+    "info": {
+        "title": "Ikutama Jinja ⛩ Osaka, Japan",
+        "address": "大阪市天王寺区生玉町１３−９",
+        "google": "https://maps.app.goo.gl/LcBafd7QNzqpowscA",
+        "text": [
+            "約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ 通称「いくたまさん」",
+            "",
+            "<u>毎年七月十一・十二日</u><br><b>生國魂祭</b>",
+            "<small>十一日 午後四時半から十時頃</small> 子供太鼓・金銀神輿のお練り",
+            "<small>十二日 午前九時半時から</small> 生國魂神社から大阪城まで枕太鼓を先頭に2時間をかけて練り歩く<br><small>大阪城公園大手前芝生広場にある御旅所跡で伝統の手締め「生国魂締め」</small>",
+            "<small>十二日 夕刻から午後十時頃</small> 境内でそれぞれの山車や神輿が、競り合うかのように各々の奉納演奏や舞を披露",
+            "",
+            "<u>毎年春分・秋分の日</u><br><b>浄瑠璃神社 例祭</b><br>浄瑠璃関係者が多数参拝し、その発展と加護を祈願する<br>",
+            "<u>毎年九月 第一土・日曜日</u><br><b>彦八まつり</b><br>上方落語協会が年に一度開催するファン感謝イベント<br>",
+            "<u>毎年八月十一・十二日</u><br><b>大阪薪能</b><br>戦災・風災害からの復興を祝い大阪で始まった野外能<br>",
+            "",
+            "<u>アクセス</u><br>Osaka Metro「谷町九丁目」から徒歩約5分<br>近鉄「大阪上本町」から徒歩約10分"
+        ]
+    },
+    "links": [
+        "<a href='https://ikutamajinja.jp/' target='_blank'>難波大社 生國魂神社</a>",
+        "<a href='https://www.city.osaka.lg.jp/chuo/cmsfiles/contents/0000508/508145/nabi2omote.pdf' target='_blank'>人・まち・歴史 神農さんと生國魂さんのお祭りと伝承</a>"
+    ],
+    "width": "0.7525",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR",
+            "src": [
+                "AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR=m18"
+            ]
+        }
+    ]
+}

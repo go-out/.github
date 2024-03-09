@@ -14,7 +14,7 @@ const osakaSumiyoshi = {
                 'title': '住吉大社',
                 'address': '全国に2300社ある住吉神社の総本社であり、摂津国一の宮',
                 'date': 'More Info',
-                'href': 'relax/?id=legacy&area=osaka&name=sumiyoshitaisha',
+                'href': 'legacy/?area=osaka&name=sumiyoshitaisha',
                 'youtube': 'wbOguTvuV0Q',
                 'zoom': 16.5
             }
@@ -30,7 +30,7 @@ const osakaSumiyoshi = {
                 'title': '住吉公園 花と水の広場',
                 'address': 'ウォーターカーテン（噴水）は、毎日10:30・13:00・15:30の3回20分',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
+                'href': 'park/?area=osaka&name=sumiyoshi',
                 'youtube': 'gfwP_viCeZg',
                 'zoom': 17.5
             }
@@ -46,7 +46,7 @@ const osakaSumiyoshi = {
                 'title': '住吉公園 心字池',
                 'address': 'かつて浜であった公園開設当初の佇まいを今に伝える場所',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
+                'href': 'park/?area=osaka&name=sumiyoshi',
                 'youtube': 'mkioDOspLbs',
                 'zoom': 17.25
             }
@@ -62,7 +62,7 @@ const osakaSumiyoshi = {
                 'title': '住吉公園 無料レンタサイクル',
                 'address': '貸出時間 午前8時30分から午後5時',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=sumiyoshi',
+                'href': 'park/?area=osaka&name=sumiyoshi',
                 'zoom': 16.5
             }
         },
@@ -134,7 +134,8 @@ const osakaSumiyoshi = {
             'properties': {
                 'title': '住之江公園',
                 'address': '花と緑とふれあう、スポーツを楽しめる公園',
-                'date': '',
+                'date': 'More Info',
+                'href': 'park/?area=osaka&name=suminoe',
                 'iconSize': ['sumiyoshi/icon/suminoe.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5
             }
@@ -150,7 +151,7 @@ const osakaSumiyoshi = {
                 'title': '住之江公園 無料レンタサイクル',
                 'address': '貸出時間 午前8時30分から午後5時',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=suminoe',
+                'href': 'park/?area=osaka&name=suminoe',
                 'zoom': 16.5
             }
         },
@@ -232,7 +233,7 @@ const osakaSumiyoshi = {
                 'title': '無料レンタサイクル',
                 'address': '久宝寺緑地 管理事務所',
                 'date': 'More Info',
-                'href': 'relax/?id=park&area=osaka&name=kyuhouji',
+                'href': 'park/?area=osaka&name=kyuhouji',
                 'zoom': 16.5
             }
         },
