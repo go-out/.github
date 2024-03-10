@@ -70,7 +70,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '浪速区',
-                'address': '道頓堀より南 木津川より東 御堂筋より西 環状線より北',
+                'address': '道頓堀より南 木津川より東 南海線より西 環状線より北',
                 'date': '',
                 'iconSize': ['minami/icon/naniwa.gif', '3rem', '3rem'],
                 'zoom': 14.5

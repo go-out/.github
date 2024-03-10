@@ -51,7 +51,9 @@
                 paramArr[paramItem[0]] = paramItem[1]
             }
             if (paramArr.area) {
-                eventsJSON("japan/" + paramArr.area + ".json")
+                document.addEventListener("readystatechange", (event) => {
+                    eventsJSON("japan/" + paramArr.area + ".json")
+                })
             }
         } else {
             document.addEventListener("readystatechange", (event) => {
