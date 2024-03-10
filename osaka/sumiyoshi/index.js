@@ -92,7 +92,7 @@ const osakaSumiyoshi = {
                 'title': '帝塚山',
                 'address': '帝塚山古墳の墳丘（標高は19.88m）<br>関西を代表する高級住宅街の一つ',
                 'date': 'more info',
-                'href': 'osaka/vr/?area=sumiyoshi&name=tezukayama',
+                'href': 'vr/?id=osaka&area=sumiyoshi&name=tezukayama',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'youtube': 'KuYJ3IW7z4k',
                 'zoom': 16
@@ -109,7 +109,7 @@ const osakaSumiyoshi = {
                 'title': '住吉区南部',
                 'address': '墨江・清水丘・遠里小野・殿辻・沢之町・南住吉・山之内',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=sumiyoshi&name=nanbu',
+                'href': 'vr/?id=osaka&area=sumiyoshi&name=nanbu',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 13.5
             }

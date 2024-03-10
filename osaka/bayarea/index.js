@@ -91,7 +91,7 @@ const osakaBayarea = {
                 'title': '南港ポートタウン',
                 'address': '大阪南港の人工島「咲洲」の中央部にあるニュータウン',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=bayarea&name=port-town',
+                'href': 'vr/?id=osaka&area=bayarea&name=port-town',
                 'youtube': '8az_VW2ssbs',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5
@@ -108,7 +108,7 @@ const osakaBayarea = {
                 'title': '咲洲コンテナターミナル',
                 'address': '咲洲の東側一帯は、コンテナ埠頭と呼ばれるエリアの一部らしい',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=bayarea&name=container_berth',
+                'href': 'vr/?id=osaka&area=bayarea&name=container_berth',
                 'youtube': 'rlfyH_v-fTk',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5
@@ -160,7 +160,7 @@ const osakaBayarea = {
                 'title': '北港（桜島・舞洲）',
                 'address': '此花区の新淀川・安治川間 ~ 人工島「舞洲」、常吉大橋と此花大橋で結ばれるエリア',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=bayarea&name=hokko',
+                'href': 'vr/?id=osaka&area=bayarea&name=hokko',
                 'iconSize': ['bayarea/icon/konohana.png', '3.75rem', '3.75rem'],
                 'zoom': 15.5
             }

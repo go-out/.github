@@ -1,7 +1,7 @@
 {
     "title": "大阪市阿倍野区",
     "description": "阪堺上町線より東・南海通より北・阪和線より西",
-    "href": "osaka/vr/?area=minami&name=abeno-nantou",
+    "href": "vr/?id=osaka&area=minami&name=abeno-nantou",
     "info": [
         "阿倍野元町・王子町・阪南町・昭和町・桃ケ池町・長池町・文の里・松崎町",
         "",

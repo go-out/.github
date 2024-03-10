@@ -14,7 +14,7 @@ const osakaChuo = {
                 'title': '難波宮',
                 'address': '日本という国号・元号の使用が始まったとされる、大阪が日本の都であったことを示す宮殿の跡',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=chuo&name=naniwa-no-miya',
+                'href': 'vr/?id=osaka&area=chuo&name=naniwa-no-miya',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 14.5
             }

@@ -70,7 +70,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '浪速区',
-                'address': '',
+                'address': '道頓堀より南 木津川より東 御堂筋より西 環状線より北',
                 'date': '',
                 'iconSize': ['minami/icon/naniwa.gif', '3rem', '3rem'],
                 'zoom': 14.5
@@ -166,7 +166,7 @@ const osakaMinami = {
                 'title': '上本町（谷九・上六）',
                 'address': '上町台地の頂に達する位置、風情や緑が数多く残されている上町の中心',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=minami&name=uehonmachi',
+                'href': 'vr/?id=osaka&area=minami&name=uehonmachi',
                 'iconSize': ['minami/icon/tennouji.png', '2.75rem', '2.75rem'],
                 'zoom': 14.5
             }
@@ -259,7 +259,7 @@ const osakaMinami = {
                 'title': '萩之茶屋（釜ヶ崎・あいりん地区）',
                 'address': '日本最大の日雇い労働者の街（ドヤ街）',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=minami&name=haginochaya',
+                'href': 'vr/?id=osaka&area=minami&name=haginochaya',
                 'iconSize': ['minami/icon/nnari.png', '3.5rem', '3.5rem'],
                 'zoom': 17
             }

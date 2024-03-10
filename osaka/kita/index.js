@@ -28,7 +28,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': 'OSAKA GARDEN CITY',
-                'address': '「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所',
+                'address': '西梅田地区の大半を占める、オフィスビル・商業施設・ホテル・専門学校などで構成される超高層ビル群',
                 'date': '',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 16.5
@@ -97,7 +97,7 @@ const osakaKita = {
                 'title': '毛馬桜之宮公園',
                 'address': '大川の流れに沿ったプロムナード 全長4.2kmのリバーサイドパーク',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=kita&name=sakuranomiya',
+                'href': 'vr/?id=osaka&area=kita&name=sakuranomiya',
                 'iconSize': ['kita/icon/miyakojima.gif', '3.5rem', '3.5rem'],
                 'zoom': 14
             }
@@ -197,7 +197,7 @@ const osakaKita = {
                 'title': '東淀川区',
                 'address': '大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=kita&name=higashi-yodogawa',
+                'href': 'vr/?id=osaka&area=kita&name=higashi-yodogawa',
                 'iconSize': ['kita/icon/hyodo.png', '3rem', '3rem'],
                 'zoom': 13.5
             }
@@ -265,7 +265,7 @@ const osakaKita = {
                 'title': '淀川区・西淀川区',
                 'address': '淀川と神崎川に挟まれた中州の地域<br>淀川区の東端に大阪の玄関口「新大阪駅」があり、西淀川区の西端は大阪湾に面する',
                 'date': 'More Info',
-                'href': 'osaka/vr/?area=kita&name=nishi-yodogawa',
+                'href': 'vr/?id=osaka&area=kita&name=nishi-yodogawa',
                 'iconSize': ['kita/icon/nyodo.gif', '3.5rem', '3.5rem'],
                 'zoom': 13
             }

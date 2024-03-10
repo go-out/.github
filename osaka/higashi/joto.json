@@ -1,7 +1,7 @@
 {
     "title": "城東区",
     "description": "Joto",
-    "href": "osaka/vr/?area=higashi&name=joto",
+    "href": "vr/?id=osaka&area=higashi&name=joto",
     "info": [
         "<u>ランドマーク・お気に入りの場所</u>",
         "<a href='https://maps.app.goo.gl/eGndSHYLhQGLn3qd9' target='_blank'>城東区役所</a> <small>大阪市城東区中央3-5-45（城東区複合庁舎）</small>",
