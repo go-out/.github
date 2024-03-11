@@ -32,11 +32,11 @@ function geoFindMe() {
         const longitude = position.coords.longitude;
         let center = [longitude, latitude];
         submitButton.id = 'submit';
-        submitButton.textContent = 'Submit This';
+        submitButton.textContent = 'Submit';
         submitButton.setAttribute('onclick', 'submitThis()')
         const notice = document.querySelector('#notice');
         notice.innerHTML = `
-        <strong>Submit This</strong>
+        <strong>Submit</strong>
         を クリックすると、地図上に追加されたピンの位置情報などが記録されます。
         `;
 
