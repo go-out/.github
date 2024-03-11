@@ -31,11 +31,11 @@ const osakaMinami = {
             'feature': [
                 {
                     'month': 4,
-                    'text': '春は「サクラ」、秋には「ハギ」の花が美しく咲く'
+                    'text': '春には「サクラ」の花が美しく咲く'
                 },
                 {
                     'month': 9,
-                    'text': '春は「サクラ」、秋には「ハギ」の花が美しく咲く'
+                    'text': '秋には「ハギ」の花が美しく咲く'
                 }
             ],
             'geometry': {
@@ -76,8 +76,9 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '浪速区',
-                'address': '道頓堀より南 木津川より東 南海線より西 環状線より北',
-                'date': '',
+                'address': '道頓堀より南・木津川より東・南海線より西・環状線より北',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=minami&name=naniwa',
                 'iconSize': ['minami/icon/naniwa.gif', '3rem', '3rem'],
                 'zoom': 14.5
             }
@@ -118,7 +119,8 @@ const osakaMinami = {
             'properties': {
                 'title': '阿倍野区',
                 'address': '阪堺上町線より東・南海通より北・阪和線より西',
-                'date': '',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=minami&name=abeno',
                 'iconSize': ['minami/icon/abeno.gif', '3.5rem', '3.5rem'],
                 'zoom': 14.5
             }
@@ -132,8 +134,9 @@ const osakaMinami = {
             },
             'properties': {
                 'title': 'やすらぎ天空館',
-                'address': '大阪市設 南霊園',
-                'date': '',
+                'address': '穏やかでやすらぎに満ちた天空に飛び立てるようにとの願いが込められた大阪市の公営斎場',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=tennkukan',
                 'zoom': 15.5
             }
         },
@@ -147,7 +150,8 @@ const osakaMinami = {
             'properties': {
                 'title': '阿倍王子神社・安倍晴明神社',
                 'address': '大阪府下に唯一現存する熊野権現の王子社',
-                'date': '',
+                'date': 'More Info',
+                'href': 'legacy/?area=osaka&name=abeouji',
                 'zoom': 17
             }
         },
@@ -187,7 +191,8 @@ const osakaMinami = {
             'properties': {
                 'title': '生國魂神社',
                 'address': '約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ 通称「いくたまさん」',
-                'date': '',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=minami&name=ikutamajinja',
                 'zoom': 16.5
             }
         },
@@ -220,7 +225,7 @@ const osakaMinami = {
                 },
                 {
                     'month': 6,
-                    'text': '例年6月上旬頃、日本庭園「慶沢園」の「スイレン」「アジサイ」「サツキ」「ハナショウブ」などが見頃を迎える'
+                    'text': '例年6月上旬頃、慶沢園の「スイレン」「アジサイ」「サツキ」などが見頃を迎える'
                 },
                 {
                     'month': 11,
@@ -237,7 +242,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '茶臼山',
-                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>池を挟んだ古墳の南側は純日本風の林泉回遊式庭園「慶沢園」',
+                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>古墳の南側には純日本風の林泉回遊式庭園「慶沢園」がある',
                 'date': 'More Info',
                 'href': 'park/?area=osaka&name=tennoji',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
@@ -250,11 +255,11 @@ const osakaMinami = {
             'feature': [
                 {
                     'month': 9,
-                    'text': '例年9月~10月中旬頃、西成区の花「ハギ」の見頃を迎える'
+                    'text': '例年9月~10月中旬頃、西成区の花「ハギ」が見頃を迎える'
                 },
                 {
                     'month': 10,
-                    'text': '例年9月~10月中旬頃、西成区の花「ハギ」の見頃を迎える'
+                    'text': '例年9月~10月中旬頃、西成区の花「ハギ」が見頃を迎える'
                 }
             ],
             'geometry': {
@@ -290,7 +295,8 @@ const osakaMinami = {
             'properties': {
                 'title': '西成公園',
                 'address': '東側は学生や地域の人たちの憩いの場 西側は不法投棄ゴミ・不法占拠家屋群',
-                'date': '',
+                'date': 'More Info',
+                'href': 'park/?area=osaka&name=nishinari',
                 'zoom': 16.5
             }
         }

@@ -124,26 +124,13 @@ const osakaChuo = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.48217316740693, 34.68212301550381]
-            },
-            'properties': {
-                'title': '日本聖公会 川口基督教会',
-                'address': '創立120周年記念に設置されたパイプオルガンがある',
-                'date': '',
-                'zoom': 17
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.50377142797495, 34.68949937920177]
             },
             'properties': {
                 'title': '日本基督教団 浪花教会',
                 'address': '教会の3Fにはパイプオルガン 礼拝堂にはリードオルガンがある',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=naniwachurch',
                 'zoom': 18.5
             }
         },
@@ -157,7 +144,8 @@ const osakaChuo = {
             'properties': {
                 'title': '日本基督教団 大阪教会',
                 'address': '国の登録有形文化財 生きた建築ミュージアム・大阪セレクション 大阪府指定有形文化財 ',
-                'date': '',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=osaka-church',
                 'zoom': 18
             }
         },
@@ -184,7 +172,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '靱公園',
-                'address': '四季に彩られるケヤキ並木・西区を象徴する「バラ園」がある、ビジネス街の憩いの場・スポーツの場',
+                'address': '西区を象徴する「バラ園」がある、ビジネス街の憩いの場・スポーツの場',
                 'date': '',
                 'iconSize': ['chuo/icon/nishi.gif', '2.75rem', '2.75rem'],
                 'zoom': 15,
@@ -236,6 +224,21 @@ const osakaChuo = {
                 'address': '',
                 'date': '',
                 'zoom': 18.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48217316740693, 34.68212301550381]
+            },
+            'properties': {
+                'title': '日本聖公会 川口基督教会',
+                'address': '創立120周年記念に設置されたパイプオルガンがある',
+                'date': 'More Info',
+                'href': 'relax/?id=spot&area=osaka&name=kawaguchi-church',
+                'zoom': 17
             }
         }
     ]

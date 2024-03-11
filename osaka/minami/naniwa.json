@@ -1,0 +1,37 @@
+{
+    "title": "大阪市浪速区",
+    "description": "道頓堀より南・木津川より東・南海線より西・環状線より北",
+    "href": "vr/?id=osaka&area=minami&name=naniwa",
+    "info": [
+        "　幸町・桜川・立葉・稲荷・塩草・元町・難波中・敷津西・敷津東・大国・戎本町",
+        "",
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/U7PD7SPhwWT9a7jb7' target='_blank'>浪速公園</a> <small>___</small>",
+        "<a href='https://maps.app.goo.gl/1fozAsb8m77Sg7DX9' target='_blank'>浪速スポーツセンター</a> <small>屋内プール・トレーニングジム・アイススケート場</small>",
+        "<a href='https://maps.app.goo.gl/GoxvxXhLCUEqBS8p6' target='_blank'>道頓堀川水門</a> <small>___</small>",
+        "<a href='https://maps.app.goo.gl/X6a2RBf8Miwmj4kz7' target='_blank'>OCAT（オーキャット）</a> <small>大阪シティエアターミナルビル</small>",
+        "<a href='https://maps.app.goo.gl/P5RvEBJsPpAZjeUG8' target='_blank'>汐見橋駅</a> <small>___</small>",
+        "<a href='https://maps.app.goo.gl/1LtCQQz7qeSveZpy7' target='_blank'>新桜川ビル</a> <small>___</small>",
+        "<a href='../../legacy/?area=osaka&name=nambayasaka'>難波八阪神社</a> <small>大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神</small>",
+        "<a href='https://maps.app.goo.gl/sP5UecY1UJQSbx3r5' target='_blank'>願泉寺</a> <small>茶室・日本庭園がある【拝観の際はチャイムを鳴らし一声お掛けください】</small>",
+        "<a href='https://maps.app.goo.gl/ydgY8NQkPk3BWdnH8' target='_blank'>551蓬莱 パンチャン店</a> <small>___</small>",
+        "",
+        "<u>最寄りのHELLO CYCLING</u>",
+        "<a href='https://maps.app.goo.gl/KT6HoQ86Ls8kVmUq7' target='_blank'>セブンイレブン 大阪OCAT前店</a> <a href='https://maps.app.goo.gl/Bt3zALHCNLXjoGQm6' target='_blank'>URアーベインなんばウエスト</a>"
+    ],
+    "links": [
+        "<a href='https://www.city.osaka.lg.jp/toshikeikaku/page/0000363622.html' target='_blank'>阿倍野区の都市景観資源紹介（わがまちナイススポット）</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "landscape": "repeat(1, 1fr)",
+    "portrait": "repeat(1, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipMkJkzYUZ2FEuo_yUkxJtvVNhkdSnxQCLHZSYTN",
+            "src": [
+                "AF1QipMkJkzYUZ2FEuo_yUkxJtvVNhkdSnxQCLHZSYTN=m18"
+            ]
+        }
+    ]
+}
