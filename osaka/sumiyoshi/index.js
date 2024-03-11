@@ -90,7 +90,7 @@ const osakaSumiyoshi = {
             },
             'properties': {
                 'title': '帝塚山',
-                'address': '帝塚山古墳の墳丘（標高は19.88m）<br>関西を代表する高級住宅街の一つ',
+                'address': '帝塚山古墳の墳丘（標高は19.88m） 関西を代表する高級住宅街の一つ',
                 'date': 'more info',
                 'href': 'vr/?id=osaka&area=sumiyoshi&name=tezukayama',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
