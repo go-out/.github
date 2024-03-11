@@ -6,6 +6,12 @@ const osakaMinami = {
         {
             'type': 'Feature',
             'tags': 'legacy',
+            'feature': [
+                {
+                    'month': 7,
+                    'text': '毎年七月二十四・二十五日 夏祭り'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49782230114397, 34.62993304358395]

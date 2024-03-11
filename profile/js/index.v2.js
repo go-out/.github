@@ -67,6 +67,8 @@ document.addEventListener("readystatechange", (event) => {
             menu.hidden = false;
             dialog.close();
             geoFindMe();
+        }, {
+            'once': true // 1度だけのイベントリスナーにするオプション
         })
 
         close.addEventListener('click', function () {

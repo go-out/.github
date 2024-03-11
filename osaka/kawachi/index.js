@@ -14,7 +14,7 @@ const osakaKawachi = {
                 'title': '八尾空港',
                 'address': '定期便の就航はない「その他の空港」に位置づけられる国管理空港',
                 'date': 'More Info',
-                'href': 'relax/?area=osaka&name=yao-airport',
+                'href': 'relax/?id=spot&area=osaka&name=yao-airport',
                 'youtube': 'geqXiPdwMvw',
                 'zoom': 14
             }
@@ -44,7 +44,7 @@ const osakaKawachi = {
                 'title': 'ジンジャモール瓢箪山',
                 'address': '近鉄瓢箪山駅前 瓢箪山稲荷神社の門前商店街 音頭・盆踊りの街',
                 'date': 'More Info',
-                'href': 'relax/?area=osaka&name=jinjamall',
+                'href': 'relax/?id=spot&area=osaka&name=jinjamall',
                 'youtube': '20slOEsjpt0',
                 'zoom': 16
             }
@@ -205,7 +205,7 @@ const osakaKawachi = {
                 'coordinates': [135.68963273959443, 34.865412108695224]
             },
             'properties': {
-                'title': '鏡伝池緑地',
+                'title': '鏡伝池緑地（市民の森）',
                 'address': '「緑と太陽と文化のまち」のスローガンのもと枚方市市政35年を記念して造成された地域密着型の緑地公園',
                 'date': '',
                 'zoom': 15.5
@@ -301,8 +301,7 @@ const osakaKawachi = {
             'properties': {
                 'title': '飯盛山 ハイキングコース',
                 'address': '野崎観音 - 野崎城跡 - 飯盛山城跡 - 山頂 - 四條畷神社',
-                'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=iimoriyama',
+                'date': '',
                 'zoom': 14
             }
         }

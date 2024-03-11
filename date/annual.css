@@ -18,29 +18,29 @@ nav {
     width: 100%;
 }
 
-h1#thismonth,
-aside {
+h1#thismonth {
     padding: 1rem;
     margin: 0;
 }
 
-article h4,
-nav,
 article,
+article h2,
+article h4,
+article nav,
 #annual section {
     padding: 0.5rem;
     margin: 0;
 }
 
+#annual section h3,
+#annual section p {
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
 #annual section u,
 nav label {
     padding: 0.25rem;
-}
-
-#annual section p,
-#annual section h3 {
-    padding: 0;
-    margin: 0.5rem 0;
 }
 
 #annual section {
@@ -67,27 +67,29 @@ nav label {
     font-size: 125%;
 }
 
+#annual section u {
+    color: lightskyblue;
+}
+
+nav input:checked+label {
+    background: lightskyblue;
+    color: lemonchiffon;
+}
+
 article h4 small {
-    color: skyblue;
-    text-decoration: underline wavy skyblue;
+    color: lightskyblue;
+    text-decoration: underline wavy lightskyblue;
 }
 
 #annual section u,
 nav label {
     background: lemonchiffon;
-    border: 0.1rem solid skyblue;
+    border: 0.1rem solid lightskyblue;
     border-radius: 0.25rem;
 }
 
-
-#annual section a,
-#annual section u {
-    text-decoration: none;
-}
-
-#annual section u {
-    color: skyblue;
-
+nav label:hover {
+    cursor: pointer;
 }
 
 #annual article[hidden],
@@ -95,11 +97,7 @@ nav input {
     display: none;
 }
 
-nav label:hover {
-    cursor: pointer;
-}
-
-nav input:checked+label {
-    background: skyblue;
-    color: lemonchiffon;
+#annual section a,
+#annual section u {
+    text-decoration: none;
 }

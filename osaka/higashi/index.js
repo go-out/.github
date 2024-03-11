@@ -90,7 +90,7 @@ const osakaHigashi = {
                 'title': '中浜公園',
                 'address': '花の名所公園 緑のやさしい憩いの場',
                 'date': '',
-                'iconSize': ['higashi/icon/joto.png', '3rem', '3rem'],
+                'iconSize': ['higashi/icon/joto.png', '4.75rem', '4.75rem'],
                 'zoom': 15
             }
         },
@@ -111,7 +111,7 @@ const osakaHigashi = {
                 'title': '東成区',
                 'address': '',
                 'date': '',
-                'iconSize': ['higashi/icon/hnari.gif', '3rem', '3rem'],
+                'iconSize': ['higashi/icon/hnari.gif', '4.25rem', '4.25rem'],
                 'zoom': 15
             }
         },
@@ -130,9 +130,9 @@ const osakaHigashi = {
             },
             'properties': {
                 'title': '御勝山',
-                'address': '御勝山（おかちやま）古墳の後円部（標高14mの墳丘）<br>古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」',
+                'address': '御勝山（おかちやま）古墳の後円部（標高14mの墳丘）<br>古墳の中央を勝山通が貫き、前方部は崩され「御勝山南公園」として整備されている',
                 'date': '',
-                'iconSize': ['higashi/icon/ikuno.gif', '3.5rem', '3.5rem'],
+                'iconSize': ['higashi/icon/ikuno.gif', '4rem', '4rem'],
                 'zoom': 16
             }
         },

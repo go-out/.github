@@ -12,7 +12,8 @@
                 {
                     "title": "修正会結願法要「どやどや」 Doya Doya",
                     "venue": "四天王寺 Shitennoji",
-                    "date": " 一月十四日 January 14th"
+                    "date": " 一月十四日 January 14th",
+                    "link": "legacy/?area=osaka&name=shitennoji"
                 },
                 {
                     "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
@@ -58,13 +59,13 @@
                 {
                     "title": "例祭 Joruri-Jinja",
                     "venue": "浄瑠璃神社（生國魂神社内） Ikutama Jinja",
-                    "date": "春分の日 Day of the Spring Equinox",
+                    "date": "春分の日 Day of the March Equinox",
                     "link": "legacy/?area=osaka&name=ikutamajinja"
                 },
                 {
                     "title": "春季彼岸会 Shunki Higan-E",
                     "venue": "四天王寺 Shitennoji",
-                    "date": "春分の日と前後三日間 Week of the Spring Equinox",
+                    "date": "春分の日と前後三日間 Week of the March Equinox",
                     "link": "legacy/?area=osaka&name=shitennoji"
                 }
             ]
@@ -74,7 +75,12 @@
             "en": "April",
             "events": [
                 {
-                    "title": "高倉社初午大祭",
+                    "title": "神楽祭 Kagura Festival",
+                    "venue": "佐備神社 Sabi Jinja",
+                    "date": "四月四日 April 4th"
+                },
+                {
+                    "title": "高倉社初午大祭 Hatsuuma Taisai",
                     "venue": "高津宮 Kouzugu",
                     "date": "四月初午 Day of the horse in April (Hatsuuma)",
                     "link": "legacy/?area=osaka&name=kouzu"
@@ -85,11 +91,6 @@
                     "date": "四月第一日曜日 First Sunday of April 午前十一時から"
                 },
                 {
-                    "title": "神楽祭 Kagura Festival",
-                    "venue": "佐備神社 Sabi Jinja",
-                    "date": "四月四日 April 4th"
-                },
-                {
                     "title": "春の大祭",
                     "venue": "難波八阪神社 Nambayasaka Shrine",
                     "date": "四月第二日曜日 Second Sunday of April",
@@ -98,7 +99,8 @@
                 {
                     "title": "聖霊会の舞楽 Shoryoe Bugaku",
                     "venue": "四天王寺 Shitennoji",
-                    "date": "四月二十二日 April 22th"
+                    "date": "四月二十二日 April 22th",
+                    "link": "legacy/?area=osaka&name=shitennoji"
                 },
                 {
                     "title": "鎮花祭 Chinka Festival",
@@ -188,7 +190,8 @@
                 {
                     "title": "夏祭・船渡御",
                     "venue": "難波八阪神社 Nambayasaka Shrine",
-                    "date": "七月十三・十四日 July 13th, 14th"
+                    "date": "七月十三・十四日 July 13th, 14th",
+                    "link": "legacy/?area=osaka&name=nambayasaka"
                 },
                 {
                     "title": "夏祭 Keibansai",
@@ -206,11 +209,6 @@
                     "venue": "阿部野神社 Abeno Jinja",
                     "date": "七月二十一・二十二日 July 21st, 22nd",
                     "link": "legacy/?area=osaka&name=abenojinja"
-                },
-                {
-                    "title": "夏祭り",
-                    "venue": "天神ノ森天満宮 Tenjinnomori Tenmangu",
-                    "date": "七月二十四・二十五日 July 24th, 25st"
                 },
                 {
                     "title": "だいがく祭り Daigaku Matsuri",
@@ -258,17 +256,17 @@
                 },
                 {
                     "title": "献灯祭（火上） Kentōsai",
-                    "venue": "新屋坐天照御魂神社（新屋神社）",
+                    "venue": "新屋坐天照御魂神社（新屋神社） Niiya Jinja",
                     "date": "八月十六日 August 16th 夕方",
                     "link": "legacy/?area=osaka&name=niiyajinja"
                 },
                 {
-                    "title": "山門施餓鬼会（八尾地蔵盆踊り）",
-                    "venue": "常光寺（※残したい日本の音風景１００選）",
+                    "title": "山門施餓鬼会 Sanmon Segaki-E",
+                    "venue": "常光寺 Jyokouji",
                     "date": "八月二十三・二十四日 August 23rd, 24th 午後七時から九時"
                 },
                 {
-                    "title": "枚岡燈明祭",
+                    "title": "枚岡燈明祭 Toumyou (Lantern) Festival",
                     "venue": "枚岡神社 Hiraoka Jinja",
                     "date": "八月第四日曜日 Fourth Sunday of August 午後五時から"
                 }
@@ -280,8 +278,8 @@
             "events": [
                 {
                     "title": "例大祭",
-                    "venue": "枯木八幡宮",
-                    "date": "中秋の名月の前日（9月14日頃）"
+                    "venue": "枯木八幡宮 Kareki Hachiman-gu",
+                    "date": "中秋の名月の前日 Around September and October"
                 },
                 {
                     "title": "観月祭 Kangetsu-sai (Moon-Viewing Festival)",
@@ -302,12 +300,14 @@
                 {
                     "title": "例祭 Joruri-Jinja",
                     "venue": "浄瑠璃神社（生國魂神社内） Ikutama Jinja",
-                    "date": "秋分の日 Day of the Autumnal Equinox"
+                    "date": "秋分の日 Day of the September Equinox",
+                    "link": "legacy/?area=osaka&name=ikutamajinja"
                 },
                 {
                     "title": "秋季彼岸会 Shuuki Higan-E",
                     "venue": "四天王寺 Shitennoji",
-                    "date": "秋分の日と前後三日間 Week of the Autumnal Equinox"
+                    "date": "秋分の日と前後三日間 Week of the September Equinox",
+                    "link": "legacy/?area=osaka&name=shitennoji"
                 },
                 {
                     "title": "ひらおか薪能 Hiraoka Takigi-Noh",
@@ -332,7 +332,7 @@
                 },
                 {
                     "title": "秋季大祭",
-                    "venue": "新屋坐天照御魂神社（新屋神社）",
+                    "venue": "新屋坐天照御魂神社（新屋神社） Niiya Jinja",
                     "date": "体育の日の前日の日曜日 Second Sunday of October",
                     "link": "legacy/?area=osaka&name=niiyajinja"
                 },
@@ -355,7 +355,7 @@
                 },
                 {
                     "title": "川口フェスタ Pipe Organ Concert",
-                    "venue": "川口基督教会 Nippon Sei Ko Kai (Kawaguchi Christ Church, Cathedral)",
+                    "venue": "川口基督教会 Kawaguchi Christ Church",
                     "date": "毎年秋（生きた建築ミュージアムフェスティバル大阪と同時開催）"
                 }
             ]

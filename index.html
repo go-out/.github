@@ -32,8 +32,8 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
 
-  <script src="profile/js/index.js"></script>
-  <script src="profile/js/findme.v1.js"></script>
+  <script src="profile/js/index.v2.js"></script>
+  <script src="profile/js/findme.v2.js"></script>
   <script src="profile/js/mapbox.v2.2.js"></script>
   <script src="profile/js/csvtojson.v2.js"></script>
   <script src="date/all.js"></script>
@@ -188,9 +188,10 @@
       </small>
     </h3>
 
-    <p class="goout">
+    <p class="goout" id="notice">
       <strong>I'm here !</strong>
-      を クリックすると、地図上に あなたの現在地情報 を 印す ピンが追加されます。
+      を クリックすると、地図上に あなたの現在地情報 を 印す ピンが追加されます。<br>
+      <small>正確な位置にピンが表示されなかった場合は、あなたが投稿したい場所へピンを移動してください。</small>
     </p>
 
     <form method="dialog">

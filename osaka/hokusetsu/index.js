@@ -14,7 +14,7 @@ const osakaHokusetsu = {
                 'title': '鵜殿のヨシ原',
                 'address': '「大阪みどりの百選」「関西自然に親しむ風景100選」「美しい日本の歩きたくなるみち500選」',
                 'date': 'More Info',
-                'href': 'relax/?area=osaka&name=udono-yoshihara',
+                'href': 'relax/?id=spot&area=osaka&name=udono-yoshihara',
                 'youtube': '0ncmnMdeRCw',
                 'zoom': 14.5
             }
@@ -156,7 +156,7 @@ const osakaHokusetsu = {
             },
             'properties': {
                 'title': '五月山公園',
-                'address': 'ウォンバットやワラビーがいる動物園を併設する総合公園<br>近くには五月山緑地都市緑化植物園も',
+                'address': 'ウォンバットやワラビーがいる動物園を併設する総合公園 近くには五月山緑地都市緑化植物園も',
                 'date': '',
                 'zoom': 15.5
             }

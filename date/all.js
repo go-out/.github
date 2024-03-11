@@ -74,13 +74,14 @@ function eventAll(obj) {
                 document.querySelector(`article[data-id="${eachMonth.en}"]`).appendChild(section)
 
                 const p = document.createElement('p')
+                p.innerHTML = `<u>${eachEvent.date}</u><br><i>${eachEvent.venue}</i>`;
                 p.className = 'ja';
                 section.appendChild(p)
-                p.innerHTML = `<u>${eachEvent.date}</u><br><i>${eachEvent.venue}</i>`;
 
                 const h3 = document.createElement('h3')
                 h3.className = 'goout';
                 section.appendChild(h3)
+
                 if (eachEvent.link) {
                     const a = document.createElement('a')
                     a.href = directory + eachEvent.link;

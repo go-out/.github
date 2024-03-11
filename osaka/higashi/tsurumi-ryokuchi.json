@@ -1,7 +1,7 @@
 {
-    "title": "東成区",
-    "description": "Higashinari",
-    "href": "vr/?id=osaka&area=higashi&name=higashinari",
+    "title": "鶴見緑地公園",
+    "description": "Tsurumi Ryokuchi",
+    "href": "vr/?id=osaka&area=higashi&name=tsurumi-ryokuchi",
     "info": [
         "<u>ランドマーク・お気に入りの場所</u>",
         "<a href='https://maps.app.goo.gl/___' target='_blank'>___</a> <small>___</small>",
@@ -10,7 +10,7 @@
         "Osaka Metro・JR「__」から徒歩約__分",
         "",
         "<u>最寄りのHELLO CYCLING</u>",
-        "<a href='https://maps.app.goo.gl/___' target='_blank'>___</a>"
+        "<a href='https://maps.app.goo.gl/Po1wP1USBZTztYHDA' target='_blank'>新・鴫野西駐輪場</a>"
     ],
     "links": [
         "<a href='___' target='_blank'>___</a>"
@@ -21,9 +21,9 @@
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipNA1f2ksGJtL_1yz9nYOAPBysLtDu_VDpkElh7k",
+            "poster": "AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2",
             "src": [
-                "AF1QipNA1f2ksGJtL_1yz9nYOAPBysLtDu_VDpkElh7k=m18"
+                "AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2=m18"
             ]
         }
     ]

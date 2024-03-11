@@ -30,7 +30,7 @@ const osakaBayarea = {
                 'title': '大阪府咲洲庁舎（さきしまコスモタワー）',
                 'address': '1階広場「フェスパ」 何をする訳でもなく、ただぼーっと過ごす',
                 'date': 'More Info',
-                'href': 'relax/?area=osaka&name=wtc-cosmotower',
+                'href': 'relax/?id=spot&area=osaka&name=wtc-cosmotower',
                 'youtube': '9E8UZio4SJM',
                 'zoom': 17.5
             }
@@ -75,7 +75,7 @@ const osakaBayarea = {
                 'title': '南港魚つり園護岸',
                 'address': '南港南の西の果て 大きな空と海を一望できる気持ちのいい場所',
                 'date': 'More Info',
-                'href': 'relax/?area=osaka&name=nankou-uotsuri-en',
+                'href': 'relax/?id=spot&area=osaka&name=nankou-uotsuri-en',
                 'youtube': '9DRiQ5CVcjE',
                 'zoom': 16
             }
@@ -83,6 +83,24 @@ const osakaBayarea = {
         {
             'type': 'Feature',
             'tags': 'vr',
+            'feature': [
+                {
+                    'month': 7,
+                    'text': '毎年7月 南港花のまち公園 で 夏祭り が開催される'
+                },
+                {
+                    'month': 8,
+                    'text': '毎年8月 南港太陽のまち公園 で 納涼大会 が開催される'
+                },
+                {
+                    'month': 9,
+                    'text': '毎年9月または10月 南港緑公園 で 緑フェスタ が開催される'
+                },
+                {
+                    'month': 11,
+                    'text': '毎年11月 南港海のまち公園 で 秋まつり が開催される'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.42281018597942, 34.63336377556088]
@@ -161,7 +179,7 @@ const osakaBayarea = {
                 'address': '此花区の新淀川・安治川間 ~ 人工島「舞洲」、常吉大橋と此花大橋で結ばれるエリア',
                 'date': 'More Info',
                 'href': 'vr/?id=osaka&area=bayarea&name=hokko',
-                'iconSize': ['bayarea/icon/konohana.png', '3.75rem', '3.75rem'],
+                'iconSize': ['bayarea/icon/konohana.png', '4rem', '4rem'],
                 'zoom': 15.5
             }
         },
@@ -187,11 +205,50 @@ const osakaBayarea = {
                 'coordinates': [135.4569471986814, 34.66444189673407]
             },
             'properties': {
-                'title': '弁天町',
-                'address': '',
+                'title': '弁天町エリア',
+                'address': '築港・海岸通を除く港区',
                 'date': '',
-                'iconSize': ['bayarea/icon/minato.gif', '3.75rem', '3.75rem'],
+                'iconSize': ['bayarea/icon/minato.gif', '5.5rem', '5.5rem'],
                 'zoom': 14.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47218432924157, 34.650908279167524]
+            },
+            'properties': {
+                'title': '大正区コミュニティセンター レンタサイクル',
+                'address': '利用時間 午前9時半から午後5時まで 料金 1日300円',
+                'date': '',
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'feature': [
+                {
+                    'month': 8,
+                    'text': '毎年8月 第4日曜日 平尾公園（平尾商店街近く）にて「River大正エイサーまつり」が開催される'
+                },
+                {
+                    'month': 9,
+                    'text': '毎年9月 第2日曜日 千島公園グランド（大正区役所近く）にて「エイサー祭り」が開催される'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47267405968358, 34.639780543989126]
+            },
+            'properties': {
+                'title': 'サンクス平尾（平尾商店街）',
+                'address': '大阪市のリトル沖縄 大正区の中でも沖縄の雰囲気が特に色濃い地域',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=bayarea&name=hirao',
+                'zoom': 15.5
             }
         },
         {
@@ -203,7 +260,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '泉光園',
-                'address': '大阪市内には珍しい20,000㎡(6,000坪)という広大かつ手入れのよく行き届いた庭園',
+                'address': '金光教泉尾会の敷地内にある、20,000㎡(6,000坪)という広大かつ手入れのよく行き届いた庭園',
                 'date': '',
                 'zoom': 17
             }
@@ -227,7 +284,7 @@ const osakaBayarea = {
             },
             'properties': {
                 'title': '千島公園',
-                'address': '',
+                'address': '大正区役所のすぐ隣に整備されている大きな公園 港の見える丘',
                 'date': '',
                 'iconSize': ['bayarea/icon/taisho.gif', '3.5rem', '3.5rem'],
                 'zoom': 16

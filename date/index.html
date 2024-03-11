@@ -36,6 +36,23 @@
             font-size: 150%;
         }
     </style>
+</head>
+
+<body>
+    <h1 id="thismonth" class="goout">
+        <small>What will Happen on This Month</small><br>
+        <strong>今月</strong> の 出来事
+    </h1>
+    <article id="annual">
+        <nav class="goout"></nav>
+        <h2 class="goout" hidden>
+            <a href="../date/">すべて <b>All</b></a>
+            <a href="?area=nara">奈良 <b>Nara</b></a>
+            <a href="?area=osaka">大阪 <b>Osaka</b></a>
+            <a href="?area=wakayama">和歌山 <b>Wakayama</b></a>
+        </h2>
+    </article>
+
     <script src="all.js"></script>
     <script>
         let directory = "../";
@@ -51,34 +68,14 @@
                 paramArr[paramItem[0]] = paramItem[1]
             }
             if (paramArr.area) {
-                document.addEventListener("readystatechange", (event) => {
-                    eventsJSON("japan/" + paramArr.area + ".json")
-                })
+                eventsJSON("japan/" + paramArr.area + ".json")
             }
         } else {
-            document.addEventListener("readystatechange", (event) => {
-                eventsJSON("japan/osaka.json")
-                eventsJSON("japan/nara.json")
-                eventsJSON("japan/wakayama.json")
-            })
+            eventsJSON("japan/osaka.json")
+            eventsJSON("japan/nara.json")
+            eventsJSON("japan/wakayama.json")
         }
     </script>
-</head>
-
-<body>
-    <aside class="goout" hidden>
-        <a href="../date/">すべて <b>All</b></a>
-        <a href="?area=nara">奈良 <b>Nara</b></a>
-        <a href="?area=osaka">大阪 <b>Osaka</b></a>
-        <a href="?area=wakayama">和歌山 <b>Wakayama</b></a>
-    </aside>
-    <h1 id="thismonth" class="goout">
-        <small>What will Happen on This Month</small><br>
-        <strong>今月</strong> の 出来事
-    </h1>
-    <article id="annual">
-        <nav class="goout"></nav>
-    </article>
 </body>
 
 </html>
