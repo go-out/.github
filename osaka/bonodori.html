@@ -61,10 +61,11 @@
 
     <script src="../profile/js/mapbox.v2.2.js"></script>
     <script src="chuo/bonodori.js"></script>
+    <script src="higashi/bonodori.js"></script>
     <script src="kawachi/bonodori.js"></script>
     <script src="kita/bonodori.js"></script>
-    <script src="higashi/bonodori.js"></script>
     <script src="minami/bonodori.js"></script>
+    <script src="sakai/bonodori.js"></script>
     <script src="sumiyoshi/bonodori.js"></script>
     <script>
         const now = new Date();
@@ -163,7 +164,7 @@
                 ]
                 zoom = 12.5;
                 window.addEventListener("DOMContentLoaded", () => {
-                    addMarker(osakaSakai.features)
+                    addMarker(sakaiBonodori.features)
                 });
             } else if (paramArr.area === 'senshu') {
                 center = [135.31714877542356, 34.41112732960826];
@@ -195,10 +196,11 @@
             zoom = 10.5;
             window.addEventListener("DOMContentLoaded", () => {
                 addMarker(chuoBonodori.features)
+                addMarker(higashiBonodori.features)
                 addMarker(kawachiBonodori.features)
                 addMarker(kitaBonodori.features)
-                addMarker(higashiBonodori.features)
                 addMarker(minamiBonodori.features)
+                addMarker(sakaiBonodori.features)
                 addMarker(sumiyoshiBonodori.features)
             });
         }
@@ -264,26 +266,50 @@
 
 <body>
     <h1 id="title">
-        <strong class="goout">Osaka Map</strong>
-        <button type="button" class="goout">大阪観光マップ</button>
+        <strong class="goout">Bon Odori</strong>
+        <button type="button" class="goout">in Osaka</button>
     </h1>
 
     <header>
-        <h2 id="latlng" class="goout shadow">This is a Collection of Our Favorite Spots in Osaka</h2>
-        <address id="address" class="goout">私（わたしたち）のお気に入りの場所</address>
-        <h3 id="datetime" class="goout"></h3>
+        <h2 id="latlng" class="goout shadow"></h2>
+        <h3 id="address" class="goout"></h3>
+        <address id="datetime" class="goout"></address>
     </header>
 
     <div id="map"></div>
     <article>
-        <nav class="goout">
-            <u>What will Happen in Osaka, Japan</u><br>
-            最近 と もうすぐ の 出来事
-        </nav>
-        <hr>
-        <section class="ja" id="season">
-            <h3><a href="../date/?area=osaka">More Info</a></h3>
-        </section>
+        <fieldset id="area" class="goout">
+            <legend>エリアを選択する Select a Area of Map</legend>
+            <p>
+                <a href="?area=kita">梅田・中之島・淀川エリア</a>
+                <a href="?area=chuo">心斎橋・本町・大阪城エリア</a>
+                <a href="?area=minami">なんば・天王寺・西成エリア</a>
+                <a href="?area=sumiyoshi">住吉・長居エリア</a>
+                <a href="?area=higashi">城北・城東・生野エリア</a>
+                <a href="?area=kawachi">河内エリア</a>
+            </p>
+        </fieldset>
+        <fieldset id="week" class="goout">
+            <legend>日程</legend>
+            <input type="radio" name="week" value="early-july" id="early-july">
+            <label for="early-july">七月上旬 Early July</label>
+            <input type="radio" name="week" value="mid-july" id="mid-july">
+            <label for="mid-july">七月中旬 Mid-July</label>
+            <input type="radio" name="week" value="end-july" id="end-july">
+            <label for="end-july">七月下旬 Late July</label>
+            <br>
+            <input type="radio" name="week" value="first-august" id="first-august">
+            <label for="first-august">八月第一週 First week of August</label>
+            <input type="radio" name="week" value="second-august" id="second-august">
+            <label for="second-august">八月第二週 Second week of August</label>
+            <input type="radio" name="week" value="third-august" id="third-august">
+            <label for="third-august">八月第三週 Third week of August</label>
+            <input type="radio" name="week" value="mid-august" id="mid-august">
+            <label for="mid-august">八月中旬 Mid-August</label>
+            <input type="radio" name="week" value="end-august" id="end-august">
+            <label for="end-august">八月下旬 End of August</label>
+        </fieldset>
+
     </article>
 
     <footer>
@@ -292,36 +318,6 @@
 
     <dialog>
         <input type="button" id="close" value="×">
-        <details class="goout">
-            <summary>エリアを選択する Select a Area of Map</summary>
-            <p>
-                <a href="?area=kita">梅田・中之島・淀川エリア</a>
-                <a href="?area=chuo">心斎橋・本町・大阪城エリア</a>
-                <a href="?area=sumiyoshi">住吉・長居エリア</a>
-                <a href="?area=kawachi">河内エリア</a>
-            </p>
-        </details>
-        <fieldset id="week">
-            <legend>週</legend>
-            <input type="radio" name="week" value="early-july" id="early-july">
-            <label for="early-july">七月上旬</label>
-            <input type="radio" name="week" value="mid-july" id="mid-july">
-            <label for="mid-july">七月中旬</label>
-            <input type="radio" name="week" value="end-july" id="end-july">
-            <label for="end-july">七月下旬</label>
-            <br>
-            <input type="radio" name="week" value="first-august" id="first-august">
-            <label for="first-august">八月第一週</label>
-            <input type="radio" name="week" value="second-august" id="second-august">
-            <label for="second-august">八月第二週</label>
-            <input type="radio" name="week" value="third-august" id="third-august">
-            <label for="third-august">八月第三週</label>
-            <input type="radio" name="week" value="mid-august" id="mid-august">
-            <label for="mid-august">八月中旬</label>
-            <input type="radio" name="week" value="end-august" id="end-august">
-            <label for="end-august">八月下旬</label>
-        </fieldset>
-
         <h3 class="goout">
             ???
             <b>???</b>

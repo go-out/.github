@@ -41,19 +41,7 @@
         },
         {
             "month": 7,
-            "en": "July",
-            "events": [
-                {
-                    "title": "地車ふれあい盆踊り大会",
-                    "venue": "野作第一公園",
-                    "date": "七月第三土曜日 Third Saturday of July　16:00~22:30"
-                },
-                {
-                    "title": "小山田納涼盆踊り大会",
-                    "venue": "小山田コミュニティセンター",
-                    "date": "七月最終土曜日 Last Saturday of July 16:00~22:30"
-                }
-            ]
+            "en": "July"
         },
         {
             "month": 8,

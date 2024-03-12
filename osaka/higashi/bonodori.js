@@ -36,6 +36,34 @@ const higashiBonodori = {
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
+                'coordinates': [135.61133522613488, 34.64711476465791]
+            },
+            'properties': {
+                'title': '納涼盆踊り大会',
+                'address': '高砂住宅中央公園',
+                'date': '七月下旬金・土曜日 Weekend of Late July',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft end-july',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5444217755359, 34.659333297748866]
+            },
+            'properties': {
+                'title': '中川納涼盆踊り大会',
+                'address': '中川小学校',
+                'date': '七月下旬土曜日 Satuday of Late July',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft end-july',
+            'geometry': {
+                'type': 'Point',
                 'coordinates': [135.52786197745593, 34.65371258446496]
             },
             'properties': {

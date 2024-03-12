@@ -19,6 +19,34 @@ const sumiyoshiBonodori = {
         },
         {
             'type': 'Feature',
+            'tags': 'draft min-july',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52095994875882, 34.6037101028813]
+            },
+            'properties': {
+                'title': 'ほほえみ盆踊り大会',
+                'address': 'ほほえみ盆踊り大会',
+                'date': '七月第二土曜日 Satuday of Mid-July 午後五時半',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft min-july',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5804974, 34.61004702091367]
+            },
+            'properties': {
+                'title': '長吉東部の盆踊り大会',
+                'address': '長吉六反さくら公園',
+                'date': '七月第二土・日曜日 Satuday and Sunday of Mid-July 午後五時半',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',

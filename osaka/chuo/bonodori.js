@@ -5,20 +5,6 @@ const chuoBonodori = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'draft end-july',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5046298462545, 34.664043878127245]
-            },
-            'properties': {
-                'title': '河原盆おどり大会',
-                'address': '難波千日前公園',
-                'date': '七月最終日曜日 Last Sunday of July 18:00~21:00',
-                'zoom': 17.5
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
