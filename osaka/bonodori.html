@@ -80,7 +80,7 @@
             for (const eventEach of arr) {
                 const el = document.createElement('section')
                 document.querySelector(`article[data-id="${eventEach.week}"]`).appendChild(el)
-                const title = document.createElement('h3')
+                const title = document.createElement('h4')
                 title.innerHTML = `
                 <u>${eventEach.properties.date}</u>
                 ${eventEach.properties.title}`;
