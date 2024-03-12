@@ -256,20 +256,6 @@
                 dialog.close();
             })
 
-            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                const main = document.querySelector('main')
-                const thisLatLng = document.querySelector('#latlng');
-                const thisAddress = document.querySelector('#address');
-                const thisDate = document.querySelector('#datetime');
-                main.addEventListener('click', function () {
-                    main.hidden = true;
-                    thisLatLng.textContent = "";
-                    thisAddress.textContent = "";
-                    thisDate.textContent = "";
-                    player.pauseVideo()
-                });
-            }
-
             if (urlParam) {
                 let paramArr = [],
                     param = urlParam.split('&')
