@@ -5,6 +5,22 @@ const chuoBonodori = {
     'features': [
         {
             'type': 'Feature',
+            'week': 'mid-july',
+            'tags': 'draft mid-july',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51387671779165, 34.66876276214509]
+            },
+            'properties': {
+                'title': '夏祭 奉納演奏・奉納舞踊',
+                'address': '高津宮',
+                'date': '七月十七・十八日 July 17th, 18th 午後六時から八時',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -19,6 +35,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -33,6 +50,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -47,6 +65,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -61,6 +80,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -75,6 +95,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -89,6 +110,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -103,6 +125,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -117,6 +140,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-august',
             'tags': 'draft end-august',
             'geometry': {
                 'type': 'Point',
@@ -131,6 +155,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-august',
             'tags': 'draft end-august',
             'geometry': {
                 'type': 'Point',
@@ -145,6 +170,7 @@ const chuoBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-august',
             'tags': 'draft end-august',
             'geometry': {
                 'type': 'Point',

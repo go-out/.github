@@ -6,15 +6,7 @@
         },
         {
             "month": 2,
-            "en": "February",
-            "events": [
-                {
-                    "title": "初牛大祭「音頭奉納・福餅まき」 Ondo Hōnō and Mochi-maki",
-                    "venue": "瓢箪山稲荷神社 Hyoutan-yama Inari",
-                    "date": "二月初午 Day of the horse in February (Hatsuuma)",
-                    "link": "date/hyotanyama-hatsuushi/"
-                }
-            ]
+            "en": "February"
         },
         {
             "month": 3,
@@ -22,14 +14,7 @@
         },
         {
             "month": 4,
-            "en": "April",
-            "events": [
-                {
-                    "title": "松岳山春まつり Matsuokayama Spring Festival",
-                    "venue": "河内国分 Kawachi Kokubu",
-                    "date": "四月第一日曜日 First Sunday of April 午前十一時から"
-                }
-            ]
+            "en": "April"
         },
         {
             "month": 5,
@@ -61,11 +46,6 @@
                     "title": "貝塚市東盆踊り・貝塚の東盆踊り（大阪府無形民俗文化財）",
                     "venue": "円光寺境内",
                     "date": "八月十四から十六日 August 14th - 16th 午後8時から12時近くまで"
-                },
-                {
-                    "title": "金岡町盆踊り大会",
-                    "venue": "金岡神社",
-                    "date": "八月十四・十五日 August 14th, 15th 午後八時半 踊り始め"
                 }
             ]
         },

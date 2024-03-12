@@ -5,6 +5,7 @@ const sakaiBonodori = {
     'features': [
         {
             'type': 'Feature',
+            'week': 'mid-july',
             'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
@@ -19,6 +20,7 @@ const sakaiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -33,6 +35,7 @@ const sakaiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',

@@ -5,6 +5,7 @@ const kitaBonodori = {
     'features': [
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -19,6 +20,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -33,6 +35,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -47,6 +50,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -61,6 +65,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -68,13 +73,14 @@ const kitaBonodori = {
             },
             'properties': {
                 'title': '田川夕べの集い',
-                'address': '大阪市立田川小学校',
+                'address': '田川小学校',
                 'date': '七月最終土日曜日 Last Saturday and Sunday of July 午後六時',
                 'zoom': 17.5
             }
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -89,6 +95,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -103,6 +110,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -117,6 +125,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -131,6 +140,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -145,6 +155,22 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
+            'tags': 'draft end-july',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52094050926704, 34.721774410776675]
+            },
+            'properties': {
+                'title': '淀川盆踊り大会',
+                'address': '淀川小学校',
+                'date': '七月最終土・日曜日 Last Satuday and Sunday of July',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -159,6 +185,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -173,6 +200,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -187,6 +215,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -201,6 +230,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -215,6 +245,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -229,6 +260,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -243,6 +275,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -257,6 +290,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -271,6 +305,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -285,6 +320,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -299,6 +335,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -313,6 +350,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -327,6 +365,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -341,6 +380,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -355,6 +395,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -369,6 +410,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -383,6 +425,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -397,6 +440,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -411,6 +455,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -425,6 +470,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'second-august',
             'tags': 'draft second-august',
             'geometry': {
                 'type': 'Point',
@@ -439,6 +485,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'second-august',
             'tags': 'draft second-august',
             'geometry': {
                 'type': 'Point',
@@ -453,6 +500,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -467,6 +515,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -481,6 +530,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -495,6 +545,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -509,6 +560,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -523,6 +575,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -537,6 +590,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -551,6 +605,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -565,6 +620,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -579,6 +635,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -593,6 +650,7 @@ const kitaBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'third-august',
             'tags': 'draft third-august',
             'geometry': {
                 'type': 'Point',
@@ -602,6 +660,21 @@ const kitaBonodori = {
                 'title': '野里 納涼の夕べ',
                 'address': '大阪市立野里小学校',
                 'date': '八月第三土日曜日 Third Saturday and Sunday of August',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'week': 'end-august',
+            'tags': 'draft end-august',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.5250983872812, 34.723228374484584]
+            },
+            'properties': {
+                'title': 'ふれあい盆おどり大会',
+                'address': '大東小学校',
+                'date': '八月下旬 Late August 午後八時',
                 'zoom': 17.5
             }
         }

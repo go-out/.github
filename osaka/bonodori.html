@@ -76,6 +76,16 @@
             bounds,
             zoom;
 
+        // #list articleにイベントを追加
+        function addEvent(arr) {
+            for (const eventEach of arr) {
+                const el = document.createElement('section')
+                el.textContent = eventEach.properties.title;
+                document.querySelector(`article[data-id="${eventEach.week}"]`).appendChild(el)
+
+            }
+        }
+
         // ?area=エリア
         const urlParam = location.search.substring(1)
         if (urlParam) {
@@ -105,6 +115,7 @@
                 zoom = 14.5;
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(chuoBonodori.features)
+                    addEvent(chuoBonodori.features)
                 });
             } else if (paramArr.area === 'higashi') {
                 center = [135.5598338602805, 34.68751557507677];
@@ -115,6 +126,7 @@
                 zoom = 14;
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(higashiBonodori.features)
+                    addEvent(higashiBonodori.features)
                 });
             } else if (paramArr.area === 'hokusetsu') {
                 center = [135.55905251463872, 34.830078046438615];
@@ -135,6 +147,7 @@
                 zoom = 12.5;
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(kawachiBonodori.features)
+                    addEvent(kawachiBonodori.features)
                 });
             } else if (paramArr.area === 'kita') {
                 center = [135.49768172955453, 34.703197524345484];
@@ -145,6 +158,7 @@
                 zoom = 13.5;
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(kitaBonodori.features)
+                    addEvent(kitaBonodori.features)
                 });
             } else if (paramArr.area === 'minami') {
                 center = [135.5062480893037, 34.652403484554824];
@@ -155,6 +169,7 @@
                 zoom = 14.5;
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(minamiBonodori.features)
+                    addEvent(minamiBonodori.features)
                 });
             } else if (paramArr.area === 'sakai') {
                 center = [135.50012524849802, 34.5239972993108];
@@ -165,6 +180,7 @@
                 zoom = 12.5;
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(sakaiBonodori.features)
+                    addEvent(sakaiBonodori.features)
                 });
             } else if (paramArr.area === 'senshu') {
                 center = [135.31714877542356, 34.41112732960826];
@@ -185,6 +201,7 @@
                 zoom = 13.5;
                 window.addEventListener("DOMContentLoaded", () => {
                     addMarker(sumiyoshiBonodori.features)
+                    addEvent(sumiyoshiBonodori.features)
                 });
             }
         } else {
@@ -196,12 +213,19 @@
             zoom = 10.5;
             window.addEventListener("DOMContentLoaded", () => {
                 addMarker(chuoBonodori.features)
+                addEvent(chuoBonodori.features)
                 addMarker(higashiBonodori.features)
+                addEvent(higashiBonodori.features)
                 addMarker(kawachiBonodori.features)
+                addEvent(kawachiBonodori.features)
                 addMarker(kitaBonodori.features)
+                addEvent(kitaBonodori.features)
                 addMarker(minamiBonodori.features)
+                addEvent(minamiBonodori.features)
                 addMarker(sakaiBonodori.features)
+                addEvent(sakaiBonodori.features)
                 addMarker(sumiyoshiBonodori.features)
+                addEvent(sumiyoshiBonodori.features)
             });
         }
 
@@ -277,7 +301,7 @@
     </header>
 
     <div id="map"></div>
-    <article>
+    <article id="list">
         <fieldset id="area" class="goout">
             <legend>エリアを選択する Select a Area of Map</legend>
             <p>
@@ -287,6 +311,7 @@
                 <a href="?area=sumiyoshi">住吉・長居エリア</a>
                 <a href="?area=higashi">城北・城東・生野エリア</a>
                 <a href="?area=kawachi">河内エリア</a>
+                <a href="?area=sakai">堺・泉北エリア</a>
             </p>
         </fieldset>
         <fieldset id="week" class="goout">
@@ -309,7 +334,31 @@
             <input type="radio" name="week" value="end-august" id="end-august">
             <label for="end-august">八月下旬 End of August</label>
         </fieldset>
-
+        <article data-id="early-july"></article>
+        <article data-id="mid-july"></article>
+        <article data-id="end-july"></article>
+        <article data-id="first-august"></article>
+        <article data-id="second-august"></article>
+        <article data-id="third-august"></article>
+        <article data-id="mid-august"></article>
+        <article data-id="end-august"></article>
+        <script>
+            window.addEventListener("load", () => {
+                let weeks = document.querySelectorAll("#week input[type='radio']")
+                let lists = document.querySelectorAll("#list article")
+                for (let week of weeks) {
+                    week.addEventListener('change', () => {
+                        for (let list of lists) {
+                            if (week.value === list.dataset.id) {
+                                list.hidden = false;
+                            } else {
+                                list.hidden = true;
+                            }
+                        }
+                    }, false)
+                }
+            }, false)
+        </script>
     </article>
 
     <footer>

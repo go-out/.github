@@ -5,6 +5,7 @@ const kawachiBonodori = {
     'features': [
         {
             'type': 'Feature',
+            'week': 'early-july',
             'tags': 'draft early-july',
             'geometry': {
                 'type': 'Point',
@@ -19,6 +20,7 @@ const kawachiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-july',
             'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
@@ -33,6 +35,7 @@ const kawachiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-july',
             'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
@@ -47,6 +50,7 @@ const kawachiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'second-august',
             'tags': 'draft second-august',
             'geometry': {
                 'type': 'Point',
@@ -61,6 +65,7 @@ const kawachiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -75,6 +80,7 @@ const kawachiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-august',
             'tags': 'draft end-august',
             'geometry': {
                 'type': 'Point',

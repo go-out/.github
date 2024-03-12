@@ -5,6 +5,7 @@ const sumiyoshiBonodori = {
     'features': [
         {
             'type': 'Feature',
+            'week': 'mid-july',
             'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
@@ -19,7 +20,8 @@ const sumiyoshiBonodori = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft min-july',
+            'week': 'mid-july',
+            'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.52095994875882, 34.6037101028813]
@@ -33,7 +35,8 @@ const sumiyoshiBonodori = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft min-july',
+            'week': 'mid-july',
+            'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.5804974, 34.61004702091367]
@@ -47,6 +50,7 @@ const sumiyoshiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-july',
             'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
@@ -61,6 +65,7 @@ const sumiyoshiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -75,6 +80,7 @@ const sumiyoshiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -89,6 +95,7 @@ const sumiyoshiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',

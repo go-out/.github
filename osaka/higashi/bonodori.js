@@ -5,7 +5,8 @@ const higashiBonodori = {
     'features': [
         {
             'type': 'Feature',
-            'tags': 'draft min-july',
+            'week': 'mid-july',
+            'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.58143472433946, 34.70064353332139]
@@ -19,7 +20,8 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft min-july',
+            'week': 'mid-july',
+            'tags': 'draft mid-july',
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.56541587301766, 34.711351633328995]
@@ -33,6 +35,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -47,6 +50,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -61,6 +65,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -75,6 +80,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -89,6 +95,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -103,6 +110,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -117,6 +125,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -131,20 +140,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft end-july',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.52094050926704, 34.721774410776675]
-            },
-            'properties': {
-                'title': '淀川盆踊り大会',
-                'address': '淀川小学校',
-                'date': '七月最終土・日曜日 Last Satuday and Sunday of July',
-                'zoom': 17.5
-            }
-        },
-        {
-            'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -159,6 +155,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -173,6 +170,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -187,6 +185,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -201,6 +200,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -215,6 +215,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -229,6 +230,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -243,6 +245,7 @@ const higashiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -252,20 +255,6 @@ const higashiBonodori = {
                 'title': '大成盆踊り大会',
                 'address': '大成小学校',
                 'date': '八月中旬 Mid-August 午後六時半',
-                'zoom': 17.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft end-august',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5250983872812, 34.723228374484584]
-            },
-            'properties': {
-                'title': 'ふれあい盆おどり大会',
-                'address': '大東小学校',
-                'date': '八月下旬 Late August 午後八時',
                 'zoom': 17.5
             }
         }

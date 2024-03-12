@@ -5,6 +5,7 @@ const minamiBonodori = {
     'features': [
         {
             'type': 'Feature',
+            'week': 'end-july',
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
@@ -19,6 +20,7 @@ const minamiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -33,6 +35,7 @@ const minamiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -47,6 +50,7 @@ const minamiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'first-august',
             'tags': 'draft first-august',
             'geometry': {
                 'type': 'Point',
@@ -61,6 +65,7 @@ const minamiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'mid-august',
             'tags': 'draft mid-august',
             'geometry': {
                 'type': 'Point',
@@ -75,6 +80,7 @@ const minamiBonodori = {
         },
         {
             'type': 'Feature',
+            'week': 'end-august',
             'tags': 'draft end-august',
             'geometry': {
                 'type': 'Point',
