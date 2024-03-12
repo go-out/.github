@@ -80,9 +80,16 @@
         function addEvent(arr) {
             for (const eventEach of arr) {
                 const el = document.createElement('section')
-                el.textContent = eventEach.properties.title;
                 document.querySelector(`article[data-id="${eventEach.week}"]`).appendChild(el)
-
+                const title = document.createElement('h3')
+                title.textContent = eventEach.properties.title;
+                el.appendChild(title)
+                const date = document.createElement('u')
+                date.textContent = eventEach.properties.date;
+                el.appendChild(date)
+                const address = document.createElement('p')
+                address.innerHTML = eventEach.properties.address;
+                el.appendChild(address)
             }
         }
 
@@ -296,8 +303,8 @@
 
     <header>
         <h2 id="latlng" class="goout shadow"></h2>
-        <h3 id="address" class="goout"></h3>
         <address id="datetime" class="goout"></address>
+        <h3 id="address" class="goout"></h3>
     </header>
 
     <div id="map"></div>
