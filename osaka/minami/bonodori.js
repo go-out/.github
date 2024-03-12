@@ -77,21 +77,6 @@ const minamiBonodori = {
                 'date': '八月十一・十二日 August 11st, 12nd 午後六時半',
                 'zoom': 17.5
             }
-        },
-        {
-            'type': 'Feature',
-            'week': 'end-august',
-            'tags': 'draft end-august',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.5250983872812, 34.723228374484584]
-            },
-            'properties': {
-                'title': 'ふれあい盆おどり大会',
-                'address': '大東小学校',
-                'date': '八月下旬 Late August 午後八時',
-                'zoom': 17.5
-            }
         }
     ]
 }
