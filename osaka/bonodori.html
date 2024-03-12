@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="creative-community.space">
+
+    <title>Osaka Map | 大阪観光マップ</title>
+    <meta property="og:title" content="___">
+    <meta name="twitter:title" content="___">
+
+    <meta name="description" content="優雅にゆっくり憩える場所 | This is the Collection of Fancy and Relaxin' Spot in Osaka">
+    <meta property="og:description" content="___">
+    <meta name="twitter:description" content="___">
+
+    <meta property="og:url" content="https://creative-community.space/map/osaka/bonodori.html">
+    <meta property="twitter:url" content="https://creative-community.space/map/osaka/bonodori.html">
+    <meta property="og:image" content="https://creative-community.space/map/osaka/bonodori.png">
+    <meta name="twitter:image:src" content="https://creative-community.space/map/osaka/bonodori.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="../profile/img/favicon.png">
+    <link rel="icon" href="../profile/img/mobile.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="../profile/img/mobile.png" sizes="180x180">
+
+    <link rel="stylesheet" href="../profile/css/style.css">
+    <link rel="stylesheet" href="../profile/css/index.css">
+    <link rel="stylesheet" href="../profile/css/marker.css">
+    <link rel="stylesheet" href="../profile/css/popup.css">
+    <link rel="stylesheet" href="../profile/css/article.css">
+
+    <style>
+        #title strong {
+            display: block;
+            transform: scale(0.75, 5);
+            pointer-events: none;
+            user-select: none;
+        }
+
+        header address a {
+            font-size: 150%;
+        }
+
+        header h3 a {
+            margin-top: 1rem;
+            font-size: 175%;
+        }
+    </style>
+
+    <!-- Mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+
+    <script src="../profile/js/mapbox.v2.2.js"></script>
+    <script src="chuo/bonodori.js"></script>
+    <script src="kawachi/bonodori.js"></script>
+    <script src="kita/bonodori.js"></script>
+    <script src="higashi/bonodori.js"></script>
+    <script src="minami/bonodori.js"></script>
+    <script src="sumiyoshi/bonodori.js"></script>
+    <script>
+        const now = new Date();
+        let thismonth = now.getMonth() + 1;
+
+        let directory = "../",
+            center,
+            bounds,
+            zoom;
+
+        // ?area=エリア
+        const urlParam = location.search.substring(1)
+        if (urlParam) {
+            let paramArr = [],
+                param = urlParam.split('&')
+            for (arr = 0; arr < param.length; arr++) {
+                var paramItem = param[arr].split('=')
+                paramArr[paramItem[0]] = paramItem[1]
+            }
+
+            if (paramArr.area === 'bayarea') {
+                center = [135.42872404242706, 34.65462309365647];
+                bounds = [
+                    [135.3437243596614, 34.60829846093506], // 南西座標
+                    [135.48218612903673, 34.68547442174669] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaBayarea.features)
+                });
+            } else if (paramArr.area === 'chuo') {
+                center = [135.50987338526778, 34.681187142064886];
+                bounds = [
+                    [135.47958780746262, 34.667871638990064], // 南西座標
+                    [135.535959773211, 34.69576884875232] // 北東座標
+                ]
+                zoom = 14.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(chuoBonodori.features)
+                });
+            } else if (paramArr.area === 'higashi') {
+                center = [135.5598338602805, 34.68751557507677];
+                bounds = [
+                    [135.52373491013066, 34.63311462122401], // 南西座標
+                    [135.60260767024874, 34.742944833281726] // 北東座標
+                ]
+                zoom = 14;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(higashiBonodori.features)
+                });
+            } else if (paramArr.area === 'hokusetsu') {
+                center = [135.55905251463872, 34.830078046438615];
+                bounds = [
+                    [135.35370889521238, 34.736950169429704], // 南西座標
+                    [135.73123768093225, 35.02741818806101] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaHokusetsu.features)
+                });
+            } else if (paramArr.area === 'kawachi') {
+                center = [135.65072330853974, 34.66994460100712];
+                bounds = [
+                    [135.58371367188641, 34.571122022], // 南西座標
+                    [135.74940772762903, 34.89676688490299] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(kawachiBonodori.features)
+                });
+            } else if (paramArr.area === 'kita') {
+                center = [135.49768172955453, 34.703197524345484];
+                bounds = [
+                    [135.40982161628477, 34.670631768604935], // 南西座標
+                    [135.56077328151952, 34.7573560429971] // 北東座標
+                ]
+                zoom = 13.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(kitaBonodori.features)
+                });
+            } else if (paramArr.area === 'minami') {
+                center = [135.5062480893037, 34.652403484554824];
+                bounds = [
+                    [135.47596673180095, 34.620797469125364], // 南西座標
+                    [135.53350023221066, 34.67560335965379] // 北東座標
+                ]
+                zoom = 14.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(minamiBonodori.features)
+                });
+            } else if (paramArr.area === 'sakai') {
+                center = [135.50012524849802, 34.5239972993108];
+                bounds = [
+                    [135.38526278033711, 34.40613068725279], // 南西座標
+                    [135.6752160271494, 34.60276528719615] // 北東座標
+                ]
+                zoom = 12.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaSakai.features)
+                });
+            } else if (paramArr.area === 'senshu') {
+                center = [135.31714877542356, 34.41112732960826];
+                bounds = [
+                    [135.0948588569328, 34.27236024823], // 南西座標
+                    [135.67799380900885, 34.52583422863785] // 北東座標
+                ]
+                zoom = 11.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(osakaSenshu.features)
+                });
+            } else if (paramArr.area === 'sumiyoshi') {
+                center = [135.52014912493667, 34.61246680749784];
+                bounds = [
+                    [135.4632947758127, 34.58751531219775], // 南西座標
+                    [135.58565488963143, 34.645628700753576] // 北東座標
+                ]
+                zoom = 13.5;
+                window.addEventListener("DOMContentLoaded", () => {
+                    addMarker(sumiyoshiBonodori.features)
+                });
+            }
+        } else {
+            center = [135.5020763952882, 34.69376772507822];
+            bounds = [
+                [135.0948588569328, 34.27236024823], // 南西座標
+                [135.73123768093225, 35.02741818806101] // 北東座標
+            ]
+            zoom = 10.5;
+            window.addEventListener("DOMContentLoaded", () => {
+                addMarker(chuoBonodori.features)
+                addMarker(kawachiBonodori.features)
+                addMarker(kitaBonodori.features)
+                addMarker(higashiBonodori.features)
+                addMarker(minamiBonodori.features)
+                addMarker(sumiyoshiBonodori.features)
+            });
+        }
+
+        window.addEventListener("load", () => {
+            const goout = document.querySelector('#map');
+            const title = document.querySelector('#title');
+            const dialog = document.querySelector("dialog");
+            const close = document.querySelector('dialog #close');
+            const menu = document.querySelector('footer button');
+
+            goout.style.pointerEvents = 'auto';
+            goout.style.userSelect = 'auto';
+            title.hidden = true;
+            menu.hidden = false;
+
+            menu.addEventListener('click', function () {
+                dialog.showModal();
+            })
+
+            close.addEventListener('click', function () {
+                dialog.close();
+            })
+
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                const main = document.querySelector('main')
+                const thisLatLng = document.querySelector('#latlng');
+                const thisAddress = document.querySelector('#address');
+                const thisDate = document.querySelector('#datetime');
+                main.addEventListener('click', function () {
+                    main.hidden = true;
+                    thisLatLng.textContent = "";
+                    thisAddress.textContent = "";
+                    thisDate.textContent = "";
+                    player.pauseVideo()
+                });
+            }
+
+            if (urlParam) {
+                let paramArr = [],
+                    param = urlParam.split('&')
+                for (arr = 0; arr < param.length; arr++) {
+                    var paramItem = param[arr].split('=')
+                    paramArr[paramItem[0]] = paramItem[1]
+                }
+
+                const allMarker = document.querySelectorAll('.hello, .yu, .onsen')
+                allMarker.forEach(areaThis => {
+                    if (areaThis.dataset.area == paramArr.area) {
+                        areaThis.hidden = false;
+                    } else {
+                        areaThis.hidden = true;
+                        areaThis.remove()
+                    }
+                })
+            }
+
+            let year = now.getFullYear();
+            document.querySelector('#copy time').innerHTML = year;
+        });
+    </script>
+</head>
+
+<body>
+    <h1 id="title">
+        <strong class="goout">Osaka Map</strong>
+        <button type="button" class="goout">大阪観光マップ</button>
+    </h1>
+
+    <header>
+        <h2 id="latlng" class="goout shadow">This is a Collection of Our Favorite Spots in Osaka</h2>
+        <address id="address" class="goout">私（わたしたち）のお気に入りの場所</address>
+        <h3 id="datetime" class="goout"></h3>
+    </header>
+
+    <div id="map"></div>
+    <article>
+        <nav class="goout">
+            <u>What will Happen in Osaka, Japan</u><br>
+            最近 と もうすぐ の 出来事
+        </nav>
+        <hr>
+        <section class="ja" id="season">
+            <h3><a href="../date/?area=osaka">More Info</a></h3>
+        </section>
+    </article>
+
+    <footer>
+        <button type="button" hidden></button>
+    </footer>
+
+    <dialog>
+        <input type="button" id="close" value="×">
+        <details class="goout">
+            <summary>エリアを選択する Select a Area of Map</summary>
+            <p>
+                <a href="?area=kita">梅田・中之島・淀川エリア</a>
+                <a href="?area=chuo">心斎橋・本町・大阪城エリア</a>
+                <a href="?area=sumiyoshi">住吉・長居エリア</a>
+                <a href="?area=kawachi">河内エリア</a>
+            </p>
+        </details>
+        <fieldset id="week">
+            <legend>週</legend>
+            <input type="radio" name="week" value="early-july" id="early-july">
+            <label for="early-july">七月上旬</label>
+            <input type="radio" name="week" value="mid-july" id="mid-july">
+            <label for="mid-july">七月中旬</label>
+            <input type="radio" name="week" value="end-july" id="end-july">
+            <label for="end-july">七月下旬</label>
+            <br>
+            <input type="radio" name="week" value="first-august" id="first-august">
+            <label for="first-august">八月第一週</label>
+            <input type="radio" name="week" value="second-august" id="second-august">
+            <label for="second-august">八月第二週</label>
+            <input type="radio" name="week" value="third-august" id="third-august">
+            <label for="third-august">八月第三週</label>
+            <input type="radio" name="week" value="mid-august" id="mid-august">
+            <label for="mid-august">八月中旬</label>
+            <input type="radio" name="week" value="end-august" id="end-august">
+            <label for="end-august">八月下旬</label>
+        </fieldset>
+
+        <h3 class="goout">
+            ???
+            <b>???</b>
+            ???
+            <u>???</u>
+        </h3>
+
+        <form>
+            <small id="copy" class="goout">
+                Copyright &copy; 2024 -
+                <time></time>
+                creative-community.space
+            </small>
+        </form>
+    </dialog>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicGVodSIsImEiOiJja3R4Y3diNmIybTg5Mm9waWgwYTdsc3FyIn0.lVvnPZ3aa6332EaWJIxPaQ';
+        let css = 'mapbox://styles/pehu/ckx1e2xhw13kw14s4rjhaiv17';
+
+        const map = new mapboxgl.Map({
+            container: 'map',
+            center: center,
+            style: css,
+            zoom: zoom,
+            scrollZoom: true,
+            projection: 'globe',
+            attributionControl: false,
+            maxBounds: bounds
+        })
+
+        map.addControl(
+            new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                // デバイスの位置の変更に応じて位置情報を更新
+                trackUserLocation: true,
+                // デバイスが向いている方向を矢印で描画
+                showUserHeading: true
+            })
+        )
+        map.addControl(new mapboxgl.NavigationControl())
+        map.addControl(new mapboxgl.FullscreenControl())
+    </script>
+</body>
+
+</html>

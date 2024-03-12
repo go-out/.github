@@ -1,0 +1,50 @@
+{
+    "title": "中之島公園 なかのしまこうえん",
+    "description": "",
+    "url": "park/?area=osaka&name=nakanoshima",
+    "info": {
+        "title": "Nakanoshima Park 🌹 Osaka, Japan",
+        "address": "大阪市北区中之島１丁目１",
+        "google": "https://maps.app.goo.gl/hWY1o2iRoH1PkYSp6",
+        "text": [
+            "堂島川と土佐堀川に挟まれた中洲「中之島」に造られた大阪市初の市営公園 緑あふれる都心のオアシス",
+            "<small>中之島は、大阪市役所や日本銀行大阪支店などの重要な公的機関、行政・経済・文化施設が集中するエリア</small>",
+            "",
+            "例年5月中旬~下旬・10月中旬~11月上旬、北区の花が咲き誇る「バラ園」が見頃を迎える",
+            "芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水する",
+            "",
+            "みおつくしプロムナード"
+        ]
+    },
+    "links": [
+        "<a href='https://www.osakapark.osgf.or.jp/nakanoshima/'>大阪市花と緑の情報サイト : 中之島公園</a>",
+        "<a href='https://www.pref.osaka.lg.jp/nishiosaka/shore/light-up.html'>大阪府／水の回廊ライトアップ</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipN3aph3gNc0Nq0D-qi_gD7vp9smqLRF663a7xdD",
+            "src": [
+                "AF1QipN3aph3gNc0Nq0D-qi_gD7vp9smqLRF663a7xdD=m18",
+                "AF1QipNDyCsXEBnh-8zLISwMbEWApJ8AaHhTfMH8Ni40=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipNxb0ADY5EePyIfxqxIIvGeLoDOU1HL5Pp31QTz",
+            "src": [
+                "AF1QipNxb0ADY5EePyIfxqxIIvGeLoDOU1HL5Pp31QTz=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "AF1QipMtiDh1Odz1HMCSTH7ncRQ16izFZyFROjGXe9AJ",
+            "src": [
+                "AF1QipMtiDh1Odz1HMCSTH7ncRQ16izFZyFROjGXe9AJ=m18"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "title": "淀川区",
+    "description": "Yodogawa 🇯🇵 Osaka, Japan",
+    "href": "vr/?id=osaka&area=kita&name=yodogawa",
+    "info": [
+        "<u>ランドマーク・お気に入りの場所</u>",
+        "<a href='https://maps.app.goo.gl/EHbTUHc67Vf9Zmqx7' target='_blank'>十三大橋</a> <small>日本では珍しい5連のタイドアーチ橋</small>",
+        "<a href='https://maps.app.goo.gl/Zbx3ixY1vvdaHxds5' target='_blank'>新十三大橋</a> <small>本格的な2主桁構造を採用した橋としては日本初</small>",
+        "<a href='https://maps.app.goo.gl/dbMgkZJZ3w65147v5' target='_blank'>新淀川大橋</a> <small>国道423号・Osaka Metro御堂筋線の橋梁 浪速の名橋50選</small>",
+        "",
+        "<u>毎年7月下旬から8月下旬</u>",
+        "<a href='https://yodogawaku.goguynet.jp/tag/%e5%a4%8f%e7%a5%ad%e3%82%8a/' target='_blank'>夏祭り</a>・<a href='https://yodogawaku.goguynet.jp/tag/%e7%9b%86%e8%b8%8a%e3%82%8a/' target='_blank'>盆踊り</a",
+        "",
+        "<u>レンタサイクル</u>",
+        "<a href='https://maps.app.goo.gl/2gfqiJquXQ6mx5cW8' target='_blank'>駅リンくん 新大阪駅</a><br><small>営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円<small>",
+        "<a href='https://maps.app.goo.gl/2gfqiJquXQ6mx5cW8' target='_blank'>阪急三国駐輪センター</a><br><small>営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円<small>"
+    ],
+    "links": [
+        "<a href='' target='_blank'>___</a>"
+    ],
+    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "landscape": "repeat(2, 1fr)",
+    "portrait": "repeat(2, 1fr)",
+    "video": [
+        {
+            "id": "one",
+            "poster": "AF1QipOK3kt2i-eZjppp1tkxFJf4JG3w-BJLSePxuh7o",
+            "src": [
+                "AF1QipOK3kt2i-eZjppp1tkxFJf4JG3w-BJLSePxuh7o=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "AF1QipM7NjFvpk07E4tDTNw-G0Dw9bp_sbPn5rr1ItWP",
+            "src": [
+                "AF1QipM7NjFvpk07E4tDTNw-G0Dw9bp_sbPn5rr1ItWP=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "AF1QipN5uB0FbEX32cgRYsNLgXXkIT6OcKeyKwk3A6SI",
+            "src": [
+                "AF1QipN5uB0FbEX32cgRYsNLgXXkIT6OcKeyKwk3A6SI=m18"
+            ]
+        },
+        {
+            "id": "four",
+            "poster": "AF1QipO7-CObXC6SFl1FWp7mU0OfCDk4cG66m6FGyQ0B",
+            "src": [
+                "AF1QipO7-CObXC6SFl1FWp7mU0OfCDk4cG66m6FGyQ0B=m18"
+            ]
+        }
+    ]
+}

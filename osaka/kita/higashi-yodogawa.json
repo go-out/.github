@@ -1,17 +1,17 @@
 {
   "title": "東淀川区",
-  "description": "Higashi Yodogawa",
+  "description": "Higashi Yodogawa 🇯🇵 Osaka, Japan",
   "href": "vr/?id=osaka&area=kita&name=higashi-yodogawa",
   "info": [
-    "大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街",
-    "区の花「辛夷（コブシ）」の開花時期は、3月中旬から4月上旬、桜より少し早い早春に開花（花言葉は「友情」「歓迎」）",
+    "大阪市の北東部 最北端 淀川と神崎川に挟まれた閑静な住宅街",
+    "3月中旬から4月上旬、区の花「辛夷（コブシ）」が桜より少し早い早春に開花する（花言葉は「友情」「歓迎」）",
     "",
     "<u>ランドマーク・お気に入りの場所</u>",
-    "<a>こぶし通り</a> <small>東淀川区役所前</small>",
-    "<a>瑞光寺公園</a> <small>こぶしの花の名所公園</small>",
-    "<a>なにわ自転車道</a> <small>水とみどりのふれあい広場</small>",
-    "<a>阪急相川駅東西通り</a> <small></small>",
-    "<a>松山神社</a> <small>梅の名所 2月末には、毎年梅花祭が開催</small>",
+    "<a href='https://maps.app.goo.gl/omS7vqx6wHnLbhm48' target='_blank'>こぶし通り</a> <small>東淀川区役所前</small>",
+    "<a href='https://maps.app.goo.gl/HDQesyuAtND1kPqPA' target='_blank'>瑞光寺公園</a> <small>こぶしの花の名所公園</small>",
+    "<a href='https://maps.app.goo.gl/TRMq1QKDzFpYv2LQ6' target='_blank'>なにわ自転車道</a> <small>水とみどりのふれあい広場</small>",
+    "<a href='https://maps.app.goo.gl/YhSr37kVRkUdETV36' target='_blank'>阪急相川駅東西通り</a> <small></small>",
+    "<a href='https://maps.app.goo.gl/eT64dWerje79bs8i6' target='_blank'>松山神社</a> <small>梅の名所 2月末には、毎年梅花祭が開催</small>",
     "",
     "<u>毎年7月下旬から8月下旬</u>",
     "<a href='https://higashiyodogawaku.goguynet.jp/tag/%e5%a4%8f%e7%a5%ad%e3%82%8a/' target='_blank'>夏祭り</a>・<a href='https://higashiyodogawaku.goguynet.jp/tag/%E7%9B%86%E8%B8%8A%E3%82%8A/' target='_blank'>盆踊り</a",
@@ -26,35 +26,35 @@
     "<a href='https://higashiyodogawaku.goguynet.jp/' target='_blank'>号外NET 東淀川区 | 大阪市東淀川区のニュースサイト</a>"
   ],
   "directory": "https://lh3.googleusercontent.com/ggms/",
-  "landscape": "repeat(4, 1fr)",
+  "landscape": "repeat(2, 1fr)",
   "portrait": "repeat(2, 1fr)",
   "video": [
     {
       "id": "one",
-      "poster": "AF1QipMqvxMYpp0nF-d6VkVegnjOQG_D0YmvpVcGazaj",
+      "poster": "AF1QipPnxLaZuuqzO6zLxPn4i-iw_u0xXtX6REdtLYBV",
       "src": [
-        "AF1QipMqvxMYpp0nF-d6VkVegnjOQG_D0YmvpVcGazaj=m18"
+        "AF1QipPnxLaZuuqzO6zLxPn4i-iw_u0xXtX6REdtLYBV=m18"
       ]
     },
     {
       "id": "two",
-      "poster": "AF1QipO1Al7T_afdScvspdKTJGkvujmeZiXCRwpdH7n8",
+      "poster": "AF1QipOc24GaV2cWuDwLkisUPcqrBRXlDXA1LHRdckRJ",
       "src": [
-        "AF1QipO1Al7T_afdScvspdKTJGkvujmeZiXCRwpdH7n8=m18"
+        "AF1QipOc24GaV2cWuDwLkisUPcqrBRXlDXA1LHRdckRJ=m18"
       ]
     },
     {
       "id": "three",
-      "poster": "AF1QipMwUdSYVDTOBLsEuXKJgsFi5-zuoI1nevmMCJXc",
+      "poster": "AF1QipN6EWCn1xFoHffJTR_KwbitQ_c51GKbjVptzjFM",
       "src": [
-        "AF1QipMwUdSYVDTOBLsEuXKJgsFi5-zuoI1nevmMCJXc=m18"
+        "AF1QipN6EWCn1xFoHffJTR_KwbitQ_c51GKbjVptzjFM=m18"
       ]
     },
     {
       "id": "four",
-      "poster": "AF1QipNVlMI14sRGiZ_Wh8Wna8c35Kk7ed22X9FP-6VO",
+      "poster": "AF1QipNuKEoGHaKbgmUcsKPoCS8LDKgGRVpgZxZS-Nq1",
       "src": [
-        "AF1QipNVlMI14sRGiZ_Wh8Wna8c35Kk7ed22X9FP-6VO=m18"
+        "AF1QipNuKEoGHaKbgmUcsKPoCS8LDKgGRVpgZxZS-Nq1=m18"
       ]
     }
   ]

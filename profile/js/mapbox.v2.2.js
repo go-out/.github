@@ -135,3 +135,20 @@ function chengeHeader(e) {
         thisDate.innerHTML = e.properties.date.replace(/\n/g, '<br>');
     }
 }
+
+window.addEventListener("load", () => {
+    let filter = document.querySelectorAll("#week input[type='radio']")
+    let targets = document.querySelectorAll(".mapboxgl-marker")
+
+    for (let i of filter) {
+        i.addEventListener('change', () => {
+            for (let ii of targets) {
+                if (ii.classList.contains(i.value) == true) {
+                    ii.hidden = false;
+                } else {
+                    ii.hidden = true;
+                }
+            }
+        }, false)
+    }
+}, false)

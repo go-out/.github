@@ -29,7 +29,8 @@ const osakaKita = {
             'properties': {
                 'title': 'OSAKA GARDEN CITY',
                 'address': '西梅田地区の大半を占める、オフィスビル・商業施設・ホテル・専門学校などで構成される超高層ビル群',
-                'date': '',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=kita&name=gardencity',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 16.5
             }
@@ -37,14 +38,25 @@ const osakaKita = {
         {
             'type': 'Feature',
             'tags': 'draft',
+            'feature': [
+                {
+                    'month': 5,
+                    'text': '5月下旬から6月上旬になると、流れるせせらぎにホタルが舞う'
+                },
+                {
+                    'month': 6,
+                    'text': '5月下旬から6月上旬になると、流れるせせらぎにホタルが舞う'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
                 'coordinates': [135.49015201516642, 34.70454139923444]
             },
             'properties': {
                 'title': '中自然の森',
-                'address': '「自然との共存」をテーマに開発された、緑にあふれたやすらぎの場所',
-                'date': '',
+                'address': '新梅田シティの敷地内にある庭園施設 都会に生まれた鎮守の森',
+                'date': 'More Info',
+                'href': 'park/?area=osaka&name=skybldg',
                 'zoom': 17.5
             }
         },
@@ -82,11 +94,11 @@ const osakaKita = {
             'feature': [
                 {
                     'month': 3,
-                    'text': '3月下旬~4月上旬、桜並木が咲き誇る'
+                    'text': '3月下旬、大川沿全域に都島区の花「サクラ」が咲き始める'
                 },
                 {
                     'month': 4,
-                    'text': '3月下旬~4月上旬、桜並木が咲き誇る'
+                    'text': '4月中旬日曜日、櫻宮（桜宮神社）で 櫻花祭（おうかさい）が開催される'
                 }
             ],
             'geometry': {
@@ -130,9 +142,10 @@ const osakaKita = {
                 'coordinates': [135.47983788186522, 34.68980343022029]
             },
             'properties': {
-                'title': '福島区野田',
-                'address': '春日社周辺は、福島区の花「野田藤」発祥の地',
-                'date': '',
+                'title': '福島区',
+                'address': '野田・玉川一帯は、日本の三大名藤「野田藤」発祥の地',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=kita&name=noda',
                 'iconSize': ['kita/icon/fukushima.gif', '3.5rem', '3.5rem'],
                 'zoom': 15
             }
@@ -161,7 +174,8 @@ const osakaKita = {
             'properties': {
                 'title': '中之島公園',
                 'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水する',
-                'date': '',
+                'date': 'More Info',
+                'href': 'park/?area=osaka&name=nakanoshima',
                 'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5
             }
@@ -195,7 +209,7 @@ const osakaKita = {
             },
             'properties': {
                 'title': '東淀川区',
-                'address': '大阪市市の北東部最北端、淀川と神崎川に挟まれた閑静な住宅街',
+                'address': '大阪市の北東部 最北端 淀川と神崎川に挟まれた閑静な住宅街',
                 'date': 'More Info',
                 'href': 'vr/?id=osaka&area=kita&name=higashi-yodogawa',
                 'iconSize': ['kita/icon/hyodo.png', '3rem', '3rem'],
@@ -207,7 +221,7 @@ const osakaKita = {
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.48272530466483, 34.738223239605254]
+                'coordinates': [135.50081591534484, 34.733588073183974]
             },
             'properties': {
                 'title': 'レンタサイクル 駅リンくん 新大阪店',
@@ -221,13 +235,28 @@ const osakaKita = {
             'tags': 'bicycle',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.46940910661692, 34.71220704104989]
+                'coordinates': [135.48272530466483, 34.738223239605254]
             },
             'properties': {
-                'title': 'レンタサイクル 駅リンくん 塚本店',
-                'address': '営業時間 6:30～21:00 一回利用 500円（当日限り）',
+                'title': 'レンタサイクル 阪急三国駐輪センター',
+                'address': '営業時間 6:30～22:00 年末年始休 ◆普通車◆ 1日1回利用 320円',
                 'date': '',
                 'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49903070142145, 34.72263836673182]
+            },
+            'properties': {
+                'title': '淀川区',
+                'address': '大阪の玄関口「新大阪駅」 新淀川大橋 十三大橋 新十三大橋',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=kita&name=yodogawa',
+                'zoom': 14
             }
         },
         {
@@ -259,15 +288,15 @@ const osakaKita = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.45671120382073, 34.71068501127959]
+                'coordinates': [135.4517040627458, 34.70558070017778]
             },
             'properties': {
-                'title': '淀川区・西淀川区',
-                'address': '淀川と神崎川に挟まれた中州の地域<br>淀川区の東端に大阪の玄関口「新大阪駅」があり、西淀川区の西端は大阪湾に面する',
+                'title': '西淀川区',
+                'address': '淀川と神崎川に挟まれた中州の地域 西端は大阪湾に面する',
                 'date': 'More Info',
                 'href': 'vr/?id=osaka&area=kita&name=nishi-yodogawa',
                 'iconSize': ['kita/icon/nyodo.gif', '3.5rem', '3.5rem'],
-                'zoom': 13
+                'zoom': 14
             }
         },
         {
@@ -281,21 +310,7 @@ const osakaKita = {
                 'title': '大阪マスジド',
                 'address': 'パキスタン・インドネシア・エジプト・スーダンなど、世界各国にルーツを持つイスラム教徒が集う西日本最大級のモスク',
                 'date': '',
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.48272530466483, 34.738223239605254]
-            },
-            'properties': {
-                'title': 'レンタサイクル 阪急三国駐輪センター',
-                'address': '営業時間 6:30～22:00 年末年始休 ◆普通車◆ 1日1回利用 320円',
-                'date': '',
-                'zoom': 16.5
+                'zoom': 18
             }
         },
         {
@@ -317,7 +332,7 @@ const osakaKita = {
             ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.4908352966768, 34.75406864163798]
+                'coordinates': [135.4908943905528, 34.75389767240482]
             },
             'properties': {
                 'title': 'リーニュ・ブランシュの庭',

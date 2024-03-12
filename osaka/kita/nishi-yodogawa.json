@@ -1,23 +1,19 @@
 {
-  "title": "淀川区・西淀川区",
-  "description": "Yodogawa, Nishi Yodogawa",
+  "title": "西淀川区",
+  "description": "Nishi Yodogawa 🇯🇵 Osaka, Japan",
   "href": "vr/?id=osaka&area=kita&name=nishi-yodogawa",
   "info": [
     "<u>ランドマーク・お気に入りの場所</u>",
-    "大野川緑陰道路 <small>西淀川区の花「サザンカ」が多く咲く</small>",
-    "五社神社 <small></small>",
-    "鼻川神社 <small></small>",
-    "姫里コミュニティ広場 <small></small>",
-    "三国本町公園 <small></small>",
-    "大阪マスジド <small>イスラム教の礼拝堂、大阪中央モスク</small>",
+    "<a href='https://maps.app.goo.gl/ckDVpvBwc89dMrhc7' target='_blank'>大野川緑陰道路</a> <small>西淀川区の花「サザンカ」が多く咲く歩行者・自転車専用道路</small>",
+    "<a href='https://maps.app.goo.gl/LD9yHmKMdifHcBSJ8' target='_blank'>大阪マスジド</a> <small>イスラム教の礼拝堂 大阪中央モスク</small>",
+    "<a href='https://maps.app.goo.gl/CzzhF8uXozgmEG5B9' target='_blank'>伝法大橋</a> <small></small>",
+    "<a href='https://maps.app.goo.gl/KKjFTZkBtPBciYaK6' target='_blank'>矢倉緑地公園</a> <small></small>",
     "",
     "<u>毎年7月下旬から8月下旬</u>",
     "<a href='https://yodogawaku.goguynet.jp/tag/%e5%a4%8f%e7%a5%ad%e3%82%8a/' target='_blank'>夏祭り</a>・<a href='https://yodogawaku.goguynet.jp/tag/%e7%9b%86%e8%b8%8a%e3%82%8a/' target='_blank'>盆踊り</a",
     "",
     "<u>レンタサイクル</u>",
-    "<a href='https://maps.app.goo.gl/vKkD2wfvtERinEDi9' target='_blank'>駅リンくん 塚本店</a><br><small>営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円<small>",
-    "<a href='https://maps.app.goo.gl/2gfqiJquXQ6mx5cW8' target='_blank'>駅リンくん 新大阪駅</a><br><small>営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円<small>",
-    "<a href='https://maps.app.goo.gl/2gfqiJquXQ6mx5cW8' target='_blank'>阪急三国駐輪センター</a><br><small>営業時間 6:30～22:00 年末年始休 | ◆普通車◆ 1日1回利用 320円<small>"
+    "<a href='https://maps.app.goo.gl/vKkD2wfvtERinEDi9' target='_blank'>駅リンくん 塚本店</a><br><small>営業時間 6:30～21:00 年末年始休 | 1回利用（翌日の10時まで）500円<small>"
   ],
   "links": [
     "<a href='' target='_blank'>___</a>"
@@ -38,6 +34,20 @@
       "poster": "AF1QipOOF_Gx6baMCbh7aBu1tPOmld-7NsjPrfi0gmky",
       "src": [
         "AF1QipOOF_Gx6baMCbh7aBu1tPOmld-7NsjPrfi0gmky=m18"
+      ]
+    },
+    {
+      "id": "three",
+      "poster": "AF1QipPd75pwZhgxgeAZRCUmdB7ymlY7sAEcNW_WVh18",
+      "src": [
+        "AF1QipPd75pwZhgxgeAZRCUmdB7ymlY7sAEcNW_WVh18=m18"
+      ]
+    },
+    {
+      "id": "four",
+      "poster": "AF1QipMHkZFQoMwn518WMMMTv9DHGd0WjixCWF6omfPO",
+      "src": [
+        "AF1QipMHkZFQoMwn518WMMMTv9DHGd0WjixCWF6omfPO=m18"
       ]
     }
   ]
