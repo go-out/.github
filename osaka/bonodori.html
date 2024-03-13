@@ -305,7 +305,7 @@
                 <a href="?area=sakai">堺・泉北エリア</a>
             </p>
         </fieldset>
-        <fieldset id="week" class="goout">
+        <fieldset id="filter" class="goout">
             <legend>日程</legend>
             <input type="radio" name="week" value="early-july" id="early-july">
             <label for="early-july">七月上旬 Early July</label>
@@ -335,7 +335,7 @@
         <article data-id="end-august"></article>
         <script>
             window.addEventListener("load", () => {
-                let weeks = document.querySelectorAll("#week input[type='radio']")
+                let weeks = document.querySelectorAll("#filter input[type='radio']")
                 let lists = document.querySelectorAll("#list article")
                 for (let week of weeks) {
                     week.addEventListener('change', () => {

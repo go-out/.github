@@ -70,7 +70,7 @@ const osakaChuo = {
             },
             'properties': {
                 'title': '高津公園',
-                'address': '「高津宮」に隣接する公園<br>公園内の梅林は、中央区の花「梅」の名所',
+                'address': '「高津宮」に隣接する公園 公園内の梅林は、中央区の花「梅」の名所',
                 'date': 'More Info',
                 'href': 'legacy/?area=osaka&name=kouzu',
                 'iconSize': ['chuo/icon/chuo.png', '3.5rem', '3.5rem'],

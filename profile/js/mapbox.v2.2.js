@@ -137,7 +137,7 @@ function chengeHeader(e) {
 }
 
 window.addEventListener("load", () => {
-    let filter = document.querySelectorAll("#week input[type='radio']")
+    let filter = document.querySelectorAll("#filter input[type='radio']")
     let targets = document.querySelectorAll(".mapboxgl-marker")
     for (let i of filter) {
         i.addEventListener('change', () => {
