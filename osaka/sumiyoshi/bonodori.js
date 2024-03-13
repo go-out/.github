@@ -28,7 +28,7 @@ const sumiyoshiBonodori = {
             },
             'properties': {
                 'title': 'ほほえみ盆踊り大会',
-                'address': 'ほほえみ盆踊り大会',
+                'address': '苅田北小学校',
                 'date': '七月第二土曜日 Satuday of Mid-July 午後五時半',
                 'zoom': 17.5
             }
