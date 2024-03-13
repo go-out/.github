@@ -21,7 +21,7 @@
     "video": [
         {
             "id": "one",
-            "poster": "p/AF1QipM7O7oCl4zhryZqFbhTR4_G7kemJqo8lEmsJhLT",
+            "poster": "p/AF1QipM7O7oCl4zhryZqFbhTR4_G7kemJqo8lEmsJhLT=w575-h325-p-k-no",
             "src": [
                 "ggs/AF1QipM7O7oCl4zhryZqFbhTR4_G7kemJqo8lEmsJhLT=m18",
                 "ggs/AF1QipPMeKiSU0BU2QERaG7LB7MRNOeVIy762HEKQjT6=m18"
@@ -29,14 +29,14 @@
         },
         {
             "id": "two",
-            "poster": "p/AF1QipMFpj2r0rmbtetOoyrLWgfzaux1gSmDEtsnmEtj",
+            "poster": "p/AF1QipMFpj2r0rmbtetOoyrLWgfzaux1gSmDEtsnmEtj=w575-h325-p-k-no",
             "src": [
                 "ggs/AF1QipMFpj2r0rmbtetOoyrLWgfzaux1gSmDEtsnmEtj=m18"
             ]
         },
         {
             "id": "three",
-            "poster": "p/AF1QipMgXJK2yb9vJ0Q-SH2cJfAPOxUiqD94nnRy7TjS",
+            "poster": "p/AF1QipMgXJK2yb9vJ0Q-SH2cJfAPOxUiqD94nnRy7TjS=w575-h325-p-k-no",
             "src": [
                 "ggs/AF1QipMgXJK2yb9vJ0Q-SH2cJfAPOxUiqD94nnRy7TjS=m18",
                 "ggs/AF1QipOXyRRmantuMl5rs8vO_dFAbr6KKV_eHQcldFSS=m18"
@@ -44,7 +44,7 @@
         },
         {
             "id": "four",
-            "poster": "p/AF1QipPQJAmDZEFjLrOrXuoOMrwN1D-E2UH0mSN-0_5J",
+            "poster": "p/AF1QipPQJAmDZEFjLrOrXuoOMrwN1D-E2UH0mSN-0_5J=w575-h325-p-k-no",
             "src": [
                 "ggs/AF1QipPQJAmDZEFjLrOrXuoOMrwN1D-E2UH0mSN-0_5J=m18"
             ]

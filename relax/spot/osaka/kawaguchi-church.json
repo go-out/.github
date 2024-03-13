@@ -22,20 +22,20 @@
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipODjj1Q2CgIl6ErhJZr9e_OSkwTCyhmHWn0TcGv",
+            "poster": "p/AF1QipODjj1Q2CgIl6ErhJZr9e_OSkwTCyhmHWn0TcGv=w575-h325-p-k-no",
             "src": [
-                "AF1QipODjj1Q2CgIl6ErhJZr9e_OSkwTCyhmHWn0TcGv=m18"
+                "ggs/AF1QipODjj1Q2CgIl6ErhJZr9e_OSkwTCyhmHWn0TcGv=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipPU9l0GbHvwttJphdZnwKzUWRo_PPbCO5EPs4y1",
+            "poster": "p/AF1QipPU9l0GbHvwttJphdZnwKzUWRo_PPbCO5EPs4y1=w575-h325-p-k-no",
             "src": [
-                "AF1QipPU9l0GbHvwttJphdZnwKzUWRo_PPbCO5EPs4y1=m18"
+                "ggs/AF1QipPU9l0GbHvwttJphdZnwKzUWRo_PPbCO5EPs4y1=m18"
             ]
         }
     ]

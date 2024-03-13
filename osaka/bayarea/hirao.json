@@ -24,39 +24,39 @@
         "<a href='https://osaka-uchinanchu.com/' target='_blank'>大阪うちなーんちゅライフ | 大阪の沖縄情報発信 ローカルガイド</a>",
         "<a href='http://okinawabunko.com/' target='_blank'>関西沖縄文庫 | 大正区から沖縄をみつめる！琉球人が交流できる沖縄空間★</a>"
     ],
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(2, 1fr)",
     "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipMsEKJfIwU4YnxeOTUA1dE8zFv4N50mSto8p16R",
+            "poster": "p/AF1QipMsEKJfIwU4YnxeOTUA1dE8zFv4N50mSto8p16R=w575-h325-p-k-no",
             "src": [
-                "AF1QipMsEKJfIwU4YnxeOTUA1dE8zFv4N50mSto8p16R=m18"
+                "ggms/AF1QipMsEKJfIwU4YnxeOTUA1dE8zFv4N50mSto8p16R=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipNr4DFCTqGfh0ierdR05DTQtPQgyjoOvP0z0byZ",
+            "poster": "p/AF1QipNr4DFCTqGfh0ierdR05DTQtPQgyjoOvP0z0byZ=w575-h325-p-k-no",
             "src": [
                 "AF1QipNr4DFCTqGfh0ierdR05DTQtPQgyjoOvP0z0byZ=m18",
-                "AF1QipOfXOj35rInNgOAp1zz11dIEjRIfW98GsQjY8lU=m18"
+                "ggms/AF1QipOfXOj35rInNgOAp1zz11dIEjRIfW98GsQjY8lU=m18"
             ]
         },
         {
             "id": "three",
-            "poster": "AF1QipMSafQ41AMawwo3mL0QXCxJXt8TQKDdotoXCYV3",
+            "poster": "p/AF1QipMSafQ41AMawwo3mL0QXCxJXt8TQKDdotoXCYV3=w575-h325-p-k-no",
             "src": [
-                "AF1QipMSafQ41AMawwo3mL0QXCxJXt8TQKDdotoXCYV3=m18",
-                "AF1QipPB1YtwOTJKxWeDtRY02gsvraVu1G61KXi3Vvs2=m18"
+                "ggms/AF1QipMSafQ41AMawwo3mL0QXCxJXt8TQKDdotoXCYV3=m18",
+                "ggms/AF1QipPB1YtwOTJKxWeDtRY02gsvraVu1G61KXi3Vvs2=m18"
             ]
         },
         {
             "id": "four",
-            "poster": "AF1QipPWAHbrNtaAGyxSljwEU23Z0gSlvEubbS6npijV",
+            "poster": "p/AF1QipPWAHbrNtaAGyxSljwEU23Z0gSlvEubbS6npijV=w575-h325-p-k-no",
             "src": [
-                "AF1QipPWAHbrNtaAGyxSljwEU23Z0gSlvEubbS6npijV=m18",
-                "AF1QipP0NoX5q9mONMJ3x58sUwIkbPkenZcWGqS4fcAb=m18"
+                "ggms/AF1QipPWAHbrNtaAGyxSljwEU23Z0gSlvEubbS6npijV=m18",
+                "ggms/AF1QipP0NoX5q9mONMJ3x58sUwIkbPkenZcWGqS4fcAb=m18"
             ]
         }
     ]

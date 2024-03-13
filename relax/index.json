@@ -2,44 +2,34 @@
     "title": "優雅にゆっくり憩える場所",
     "description": "Fancy and Relaxin'",
     "info": {
-        "title": "私（わたしたち）の好きな場所",
-        "address": "creative, community space ∧° ┐",
-        "google": "https://www.google.com/maps/contrib/104493917977768716042/",
+        "title": "優雅にゆっくり憩える場所",
+        "address": "Watch a Playlist on YouTube",
+        "google": "https://www.youtube.com/playlist?list=PLNxErRQ8jPVaks03Jn9b-X5uKCkhMFG9G",
         "text": []
     },
+    "links": [
+        "<a href='https://www.google.com/maps/contrib/104493917977768716042' target='_blank'>creative, community space ∧° ┐ - Google Map</a>",
+        "<a href='https://www.are.na/go-out/local-infomation' target='_blank'>Local Infomation 🇯🇵 | Are.na</a>",
+        "<a href='https://www.are.na/go-out/cafe-bar-and-restaurant' target='_blank'>Cafe, Bar and Restaurant | Are.na</a>",
+        "<a href='https://www.are.na/go-out/sento-onsen-1010' target='_blank'>ゆ ♨ Sentō & Onsen 🧖 1010 | Are.na</a>"
+    ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "1010",
-            "poster": "AF1QipPM-9MRl9SxwlvXLkTOSIp0QtAM8QSxqTxiakzz",
+            "poster": "p/AF1QipPM-9MRl9SxwlvXLkTOSIp0QtAM8QSxqTxiakzz=w575-h325-p-k-no",
             "src": [
-                "AF1QipPM-9MRl9SxwlvXLkTOSIp0QtAM8QSxqTxiakzz=m18"
-            ]
-        },
-        {
-            "id": "legacy",
-            "poster": "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y",
-            "src": [
-                "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y=m18",
-                "AF1QipPSS49Mg6luEzE9OmxLYoeEW8_z0R1nirlMwdrV=m18"
+                "ggms/AF1QipPM-9MRl9SxwlvXLkTOSIp0QtAM8QSxqTxiakzz=m18"
             ]
         },
         {
             "id": "park",
-            "poster": "AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr",
+            "poster": "p/AF1QipMjDcQBVYqzp03X7kJY3QqEV8aBGxUnVUEsub4e=w575-h325-p-k-no",
             "src": [
-                "AF1QipO8_IEF-KxWFwK-fWxKCpeZPBN25zR2Rhgs3Ezr=m18",
-                "AF1QipOlC0XPv0aFtOnypH-8neLFBAi1loFLJcUC40SG=m18"
-            ]
-        },
-        {
-            "id": "spot",
-            "poster": "AF1QipPKoE95sPgSmaZ5pnusxACGIlNTAEkTrUZeBwLh",
-            "src": [
-                "AF1QipPKoE95sPgSmaZ5pnusxACGIlNTAEkTrUZeBwLh=m18",
-                "AF1QipMI9Aa-Xz_uEhxn6XcgjqadZsOjLuBpbH2R_eeK=m18"
+                "ggms/AF1QipMjDcQBVYqzp03X7kJY3QqEV8aBGxUnVUEsub4e=m18",
+                "ggms/AF1QipN2K9kSpC3pkQE2HKWytr26oqkNNXOj2pQq0hBe=m18"
             ]
         }
     ]

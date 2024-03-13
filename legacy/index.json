@@ -1,25 +1,41 @@
 {
-    "title": "神聖なる場所",
-    "description": "Legacies and Sanctuaries",
+    "title": "日本の神聖なる場所",
+    "description": "（Shinto）shrines and（Buddhist）temples and more",
     "url": "legacy/",
     "info": {
-        "title": "〔先祖や過去からの〕伝来のもの、遺産",
+        "title": "神聖なる場所 🎌 Holy Sites in Japan",
         "address": "Watch a Playlist on YouTube",
-        "google": "https://www.youtube.com/playlist?list=PLNxErRQ8jPVbkUxqgLDG5QLJ2cavxkFGz"
+        "google": "https://youtube.com/playlist?list=PLNxErRQ8jPVbkUxqgLDG5QLJ2cavxkFGz",
+        "text": [
+            "神社仏閣 [神社や寺院の社殿や堂塔] ⛩️ (Shinto) shrines and (Buddhist) temples and more<br>と",
+            "山・岩・木々などの自然に宿る無数の土着の神々に対する古代の信仰が残る場所"
+        ]
     },
     "links": [
-        "<a href='osaka/' target='_self'>大阪 Osaka</a>"
+        "<a href='https://www.google.com/maps/contrib/104493917977768716042' target='_blank'>creative, community space ∧° ┐ - Google Map</a>",
+        "<a href='https://www.are.na/go-out/matsuri-shinji-jinja' target='_blank'>祭 Matsuri 🎌 Shinji ⛩ Jinja 神社 | Are.na</a>"
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
-            "id": "jinja",
-            "poster": "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y",
+            "id": "one",
+            "poster": "p/AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y=w575-h325-p-k-no",
             "src": [
-                "AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y=m18",
-                "AF1QipN83vYdxhjxPxvTZPgwiIKTIZAURdjFcxhGPpG5=m18"
+                "ggms/AF1QipOhncKDsPjMuUDoTZm7R4UiOoUpzvE3-KjFuC6Y=m18",
+                "ggms/AF1QipPsrOcNf3FylUSq-mEuhn55lbolZImSFzVqEjaV=m18",
+                "ggms/AF1QipMPUcP39tFyhMUF8OGMcq7h6OuUHidUy0ZHQQ0v=m18",
+                "ggms/AF1QipPKoE95sPgSmaZ5pnusxACGIlNTAEkTrUZeBwLh=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipN83vYdxhjxPxvTZPgwiIKTIZAURdjFcxhGPpG5=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipOoyP_dS-7X_CpA316TrjRr-m7koeMNPOxX_VQB=m18",
+                "ggms/AF1QipP3ozR7jnyirqcISZ2WsA4yTbd5AC8RxYyuHDU-=m18",
+                "ggms/AF1QipN83vYdxhjxPxvTZPgwiIKTIZAURdjFcxhGPpG5=m18"
             ]
         }
     ]

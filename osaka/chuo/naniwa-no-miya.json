@@ -20,36 +20,36 @@
         "<a href='https://ja.wikipedia.org/wiki/%E9%9B%A3%E6%B3%A2%E5%AE%AE' target='_blank'>難波宮 - Wikipedia</a>",
         "<a href='https://naniwanomiya1400.com/' target='_blank'>難波宮跡公園でみんなのやりたいが叶う｜なにわのみや1400プロジェクト</a>"
     ],
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(2, 1fr)",
     "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R",
+            "poster": "p/AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R=w575-h325-p-k-no",
             "src": [
-                "AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R=m18"
+                "ggms/AF1QipPpZ6GaQDkxOa6qK1zpw16KRWA936SSdYbeNT8R=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipP-Cw03QILHI-upu3594M03hTuz9CdFkTYtDxRA",
+            "poster": "p/AF1QipP-Cw03QILHI-upu3594M03hTuz9CdFkTYtDxRA=w575-h325-p-k-no",
             "src": [
-                "AF1QipP-Cw03QILHI-upu3594M03hTuz9CdFkTYtDxRA=m18"
+                "ggms/AF1QipP-Cw03QILHI-upu3594M03hTuz9CdFkTYtDxRA=m18"
             ]
         },
         {
             "id": "three",
-            "poster": "AF1QipOgNJ8wg97PaVYWWrDK3cpRp_p4hn6mKJDR6z20",
+            "poster": "p/AF1QipOgNJ8wg97PaVYWWrDK3cpRp_p4hn6mKJDR6z20=w575-h325-p-k-no",
             "src": [
-                "AF1QipOgNJ8wg97PaVYWWrDK3cpRp_p4hn6mKJDR6z20=m18"
+                "ggms/AF1QipOgNJ8wg97PaVYWWrDK3cpRp_p4hn6mKJDR6z20=m18"
             ]
         },
         {
             "id": "four",
-            "poster": "AF1QipOA-yCqUTDCp6h2sVzQAJtq_cKLz0DBHaNgWMBv",
+            "poster": "p/AF1QipOA-yCqUTDCp6h2sVzQAJtq_cKLz0DBHaNgWMBv=w575-h325-p-k-no",
             "src": [
-                "AF1QipOA-yCqUTDCp6h2sVzQAJtq_cKLz0DBHaNgWMBv=m18"
+                "ggms/AF1QipOA-yCqUTDCp6h2sVzQAJtq_cKLz0DBHaNgWMBv=m18"
             ]
         }
     ]

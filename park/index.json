@@ -3,31 +3,43 @@
     "description": "Parks and Open Space",
     "url": "park/",
     "info": {
-        "title": "Parks and Open Space",
+        "title": "公園緑地や都市のみどり",
         "address": "Watch a Playlist on YouTube",
-        "google": "https://www.youtube.com/playlist?list=PLNxErRQ8jPVYz3Wm1JeCwdve26BWJR96B"
+        "google": "https://www.youtube.com/playlist?list=PLNxErRQ8jPVaks03Jn9b-X5uKCkhMFG9G",
+        "text": [
+            ""
+        ]
     },
     "links": [
-        "<a href='osaka/' target='_self'>大阪 Osaka</a>"
+        "<a href='https://www.google.com/maps/contrib/104493917977768716042' target='_blank'>creative, community space ∧° ┐ - Google Map</a>",
+        "<a href='https://www.are.na/go-out/parks-and-open-space' target='_blank'>🌲 Parks and 🏞 Open Space 🌳 | Are.na</a>"
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E",
+            "poster": "p/AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E=w575-h325-p-k-no",
             "src": [
-                "AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E=m18",
-                "AF1QipNAFy-HwpSjsMEtNJnIV7WJpxpJUpjS_6T0a3s4=m18"
+                "ggms/AF1QipN-2P3uDjooaClqReWUROrOtdl2KanbMPz2bC5E=m18",
+                "ggms/AF1QipNAFy-HwpSjsMEtNJnIV7WJpxpJUpjS_6T0a3s4=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc",
+            "poster": "p/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=w575-h325-p-k-no",
             "src": [
-                "AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=m18",
-                "AF1QipO17NfO4FjPrrL-dfKSbztTVuwlZv_98WHADeUO=m18"
+                "ggms/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=m18",
+                "ggms/AF1QipO17NfO4FjPrrL-dfKSbztTVuwlZv_98WHADeUO=m18"
+            ]
+        },
+        {
+            "id": "three",
+            "poster": "p/AF1QipMu5AFsfHHwLqAzQMjrUkZk141_-FazvmrCqUIC=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipMu5AFsfHHwLqAzQMjrUkZk141_-FazvmrCqUIC=m18",
+                "ggms/AF1QipPDZEThFgW9r3dZQsmsz1wn2cgyknT8pfmkQiBa=m18"
             ]
         }
     ]

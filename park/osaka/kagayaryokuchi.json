@@ -24,28 +24,28 @@
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipMyctapozcwquYZIXOOGbMPazWmQRbl6K2YOfdH",
+            "poster": "p/AF1QipMyctapozcwquYZIXOOGbMPazWmQRbl6K2YOfdH=w575-h325-p-k-no",
             "src": [
-                "AF1QipMyctapozcwquYZIXOOGbMPazWmQRbl6K2YOfdH=m18",
-                "AF1QipO17NfO4FjPrrL-dfKSbztTVuwlZv_98WHADeUO=m18",
-                "AF1QipPdaMnleuFkEM236HYdBXnQ_HNrYNz8MFGYg7uJ=m18",
-                "AF1QipNrOZyoJ_5CAdze-JVT5pkpsqg9vaNTihzQyjED=m18",
-                "AF1QipPFVDCNG_Z-uXFkS0J98pIrZ9QXo_g72MzZNI_d=m18"
+                "ggs/AF1QipMyctapozcwquYZIXOOGbMPazWmQRbl6K2YOfdH=m18",
+                "ggs/AF1QipO17NfO4FjPrrL-dfKSbztTVuwlZv_98WHADeUO=m18",
+                "ggs/AF1QipPdaMnleuFkEM236HYdBXnQ_HNrYNz8MFGYg7uJ=m18",
+                "ggs/AF1QipNrOZyoJ_5CAdze-JVT5pkpsqg9vaNTihzQyjED=m18",
+                "ggs/AF1QipPFVDCNG_Z-uXFkS0J98pIrZ9QXo_g72MzZNI_d=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc",
+            "poster": "p/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=w575-h325-p-k-no",
             "src": [
-                "AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=m18",
-                "AF1QipNwB2zfvf2DQ7sZ6iFUZFv9bHkF-BbJQ0ZptO6l=m18",
-                "AF1QipMk7GR-S_XHITSW6rIJ0AoyjyiaFkz-2GAKlXVT=m18",
-                "AF1QipM2j8ZjpOEBWRnqGmIZXjoTxR9OkyEg9_1l1yYv=m18",
-                "AF1QipOWN-8yM4nOspH2s33emLkqya3gCWVsxthjpty4=m18"
+                "ggs/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=m18",
+                "ggs/AF1QipNwB2zfvf2DQ7sZ6iFUZFv9bHkF-BbJQ0ZptO6l=m18",
+                "ggs/AF1QipMk7GR-S_XHITSW6rIJ0AoyjyiaFkz-2GAKlXVT=m18",
+                "ggs/AF1QipM2j8ZjpOEBWRnqGmIZXjoTxR9OkyEg9_1l1yYv=m18",
+                "ggs/AF1QipOWN-8yM4nOspH2s33emLkqya3gCWVsxthjpty4=m18"
             ]
         }
     ]

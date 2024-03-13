@@ -39,19 +39,8 @@ fieldset button {
         url("../profile/fonts/KikaiChokokuJIS-XCnKn.otf") format("opentype");
 }
 
-header h2,
-article p {
-    font-family: "Kristina", 'Kikai', 'Zen Maru Gothic', cursive;
-}
-
-.relax,
-header h1,
-header button,
-article address,
-article p a,
-article section,
-#randomdraggable button {
-    font-family: "DiaPro", sans-serif;
+article address {
+    font-style: normal;
 }
 
 #title a,
@@ -77,17 +66,22 @@ article section a {
     transition: all 1s;
 }
 
-#title a,
-article p u,
-article section a:hover {
-    color: #ebd809;
-    background-color: #111;
+header h1,
+header button {
+    text-align: left;
 }
 
-#title a:hover,
-article p a:hover {
-    color: #111;
-    background-color: #ebd809;
+article address {
+    text-align: center;
+}
+
+header h1 strong,
+fieldset button {
+    color: #ebd809;
+}
+
+header h1 small {
+    color: #fff;
 }
 
 article section a {
@@ -95,8 +89,9 @@ article section a {
     color: #111;
 }
 
-article p a {
-    color: #111;
+main,
+main fieldset label {
+    background: #111;
 }
 
 fieldset button:hover {
@@ -113,28 +108,9 @@ article address {
     text-align: center;
 }
 
-main,
-main fieldset label {
-    background: #111;
-}
-
 article,
 footer {
-    background: #ebd809;
     padding: 1rem;
-}
-
-header h1 strong,
-fieldset button {
-    color: #ebd809;
-}
-
-header h1 small {
-    color: #fff;
-}
-
-article p {
-    background: #fff;
 }
 
 header h1,
@@ -350,7 +326,7 @@ article p {
 
 article p {
     border-radius: 1rem;
-    max-width: 1000px;
+    font-size: 125%;
 }
 
 article section {

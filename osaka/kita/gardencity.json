@@ -16,36 +16,36 @@
         "<a href='https://ogc-nishiumeda.jp/' target='_blank'>オオサカガーデンシティ|大阪西梅田のビジネスイベントを成功に導く街</a>",
         "<a href='https://www.herbis.jp/' target='_blank'>HERBIS ハービス｜大阪梅田のショッピングセンター</a>"
     ],
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(2, 1fr)",
     "portrait": "repeat(2, 1fr)",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipMewkMvisdJh5wiIMJ5P-mBa_FJrUCpfhSqAeQn",
+            "poster": "p/AF1QipMewkMvisdJh5wiIMJ5P-mBa_FJrUCpfhSqAeQn=w575-h325-p-k-no",
             "src": [
-                "AF1QipMewkMvisdJh5wiIMJ5P-mBa_FJrUCpfhSqAeQn=m18"
+                "ggms/AF1QipMewkMvisdJh5wiIMJ5P-mBa_FJrUCpfhSqAeQn=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipPX1mNRBmOCSqJkt_HGB_HvWOxmJ6czlA6PA2Lr",
+            "poster": "p/AF1QipPX1mNRBmOCSqJkt_HGB_HvWOxmJ6czlA6PA2Lr=w575-h325-p-k-no",
             "src": [
-                "AF1QipPX1mNRBmOCSqJkt_HGB_HvWOxmJ6czlA6PA2Lr=m18"
+                "ggms/AF1QipPX1mNRBmOCSqJkt_HGB_HvWOxmJ6czlA6PA2Lr=m18"
             ]
         },
         {
             "id": "three",
-            "poster": "AF1QipP9cgKxZBhELO5D5u_WoJq_roKQpUHxLrLEugjz",
+            "poster": "p/AF1QipP9cgKxZBhELO5D5u_WoJq_roKQpUHxLrLEugjz=w575-h325-p-k-no",
             "src": [
-                "AF1QipP9cgKxZBhELO5D5u_WoJq_roKQpUHxLrLEugjz=m18"
+                "ggms/AF1QipP9cgKxZBhELO5D5u_WoJq_roKQpUHxLrLEugjz=m18"
             ]
         },
         {
             "id": "four",
-            "poster": "AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0",
+            "poster": "p/AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0=w575-h325-p-k-no",
             "src": [
-                "AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0=m18"
+                "ggms/AF1QipNBySnUyJPAG3Ywr0JpRMGt97gq2fzFwuGu5aq0=m18"
             ]
         }
     ]

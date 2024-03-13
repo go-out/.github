@@ -15,15 +15,15 @@
     "links": [
         "<a href='___' target='_blank'>___</a>"
     ],
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "landscape": "repeat(1, 1fr)",
     "portrait": "repeat(1, 1fr)",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2",
+            "poster": "p/AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2=w575-h325-p-k-no",
             "src": [
-                "AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2=m18"
+                "ggms/AF1QipMlYvHyK3RnmOl_nhOq8BFeme-TmxnudJ5Z_vZ2=m18"
             ]
         }
     ]

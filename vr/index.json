@@ -1,9 +1,10 @@
 {
     "title": "🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹",
-    "description": "【VR】ドライブ・サイクリング映像 | #車窓動画 #画面分割",
+    "description": "【VR】ウォーキング・サイクリング・ドライブ映像 | #車窓動画 #画面分割",
     "markdown": "README.md",
     "links": [
-        "<a href='../osaka/ferry/'>【大阪・日本】 渡し船に乗ろう 〰️ Osaka Ferry Virtual Cruise 〰️ </a>"
+        "<a href='https://www.are.na/go-out/virtual-street-drive-road-way' target='_blank'>🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹 | Are.na</a>",
+        "<a href='https://www.youtube.com/playlist?list=PLNxErRQ8jPVauFoKkIC1eME0G7t-97RdK' target='_blank'>🌐 Virtual 🛣️ Street Drive 🛤️ Road Way 📹 - YouTube</a>"
     ],
     "directory": "",
     "landscape": "repeat(1, 1fr)",
