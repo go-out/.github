@@ -75,7 +75,7 @@ const osakaHigashi = {
             'feature': [
                 {
                     'month': 3,
-                    'text': '3月中旬、城東区の花「モクレン」が咲き始める'
+                    'text': '3月下旬、城東区の花「モクレン」が咲き始める'
                 },
                 {
                     'month': 7,
