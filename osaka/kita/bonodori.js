@@ -12,7 +12,7 @@ const kitaBonodori = {
                 'coordinates': [135.48067239477268, 34.72792759053073]
             },
             'properties': {
-                'title': '野中盆踊り大会',
+                'title': '野中 盆踊り大会',
                 'address': '大阪市立野中小学校',
                 'date': '七月最終金土曜日 Last Weekend of July 午後六時半 ※20時から抽選会あり',
                 'zoom': 15
@@ -27,7 +27,7 @@ const kitaBonodori = {
                 'coordinates': [135.4924011745556, 34.726693344110835]
             },
             'properties': {
-                'title': '木川納涼盆踊り',
+                'title': '木川 納涼盆踊り',
                 'address': '大阪市立木川小学校',
                 'date': '七月最終金土曜日 Last Weekend of July 午後七時',
                 'zoom': 15
@@ -42,7 +42,7 @@ const kitaBonodori = {
                 'coordinates': [135.43794327524617, 34.69452020325023]
             },
             'properties': {
-                'title': '盆踊り大会',
+                'title': '大野百島 盆踊り大会',
                 'address': '新淀川公園',
                 'date': '七月最終金土曜日 Last Weekend of July 午後七時',
                 'zoom': 15
@@ -57,7 +57,7 @@ const kitaBonodori = {
                 'coordinates': [135.42953703498267, 34.704442539276876]
             },
             'properties': {
-                'title': '川北夏まつり',
+                'title': '川北 夏まつり',
                 'address': '大阪市立川北小学校',
                 'date': '七月最終土曜日 Last Saturday of July 午後五時',
                 'zoom': 15
@@ -72,8 +72,8 @@ const kitaBonodori = {
                 'coordinates': [135.4700912238964, 34.72132700978457]
             },
             'properties': {
-                'title': '田川夕べの集い',
-                'address': '田川小学校',
+                'title': '田川 夕べの集い',
+                'address': '大阪市立田川小学校',
                 'date': '七月最終土日曜日 Last Saturday and Sunday of July 午後六時',
                 'zoom': 15
             }
@@ -117,7 +117,7 @@ const kitaBonodori = {
                 'coordinates': [135.50732396377194, 34.73254644848446]
             },
             'properties': {
-                'title': 'けいはつ地域夏まつり',
+                'title': 'けいはつ地域 夏まつり',
                 'address': 'むくのき学園 大阪市立啓発小学校',
                 'date': '七月最終土曜日 Last Saturday of July 16:00~20:30',
                 'zoom': 15
@@ -132,7 +132,7 @@ const kitaBonodori = {
                 'coordinates': [135.5148737512589, 34.74043556555447]
             },
             'properties': {
-                'title': '淡路地域夏祭り',
+                'title': '淡路地域 夏祭り',
                 'address': '淡路4公園',
                 'date': '七月最終日曜日 Last Sunday of July 17:00~22:00',
                 'zoom': 15
@@ -147,7 +147,7 @@ const kitaBonodori = {
                 'coordinates': [135.55006793824572, 34.74278716632887]
             },
             'properties': {
-                'title': '大道南地域コミュニティまつり',
+                'title': '大道南地域 コミュニティまつり',
                 'address': '大阪市立大道南小学校',
                 'date': '七月最終土日曜日 Last Saturday and Sunday of July 18:00~22:00',
                 'zoom': 15
@@ -162,7 +162,7 @@ const kitaBonodori = {
                 'coordinates': [135.52094050926704, 34.721774410776675]
             },
             'properties': {
-                'title': '淀川盆踊り大会',
+                'title': '淀川 盆踊り大会',
                 'address': '淀川小学校',
                 'date': '七月最終土・日曜日 Last Satuday and Sunday of July',
                 'zoom': 15
@@ -372,7 +372,7 @@ const kitaBonodori = {
                 'coordinates': [135.4858006240063, 34.72350578628535]
             },
             'properties': {
-                'title': '十三連合 盆踊り大会',
+                'title': '十三連合盆踊り大会',
                 'address': '大阪市立十三小学校',
                 'date': '八月第一土日曜日 First Saturday and Sunday of August 午後五時',
                 'zoom': 15
@@ -582,7 +582,7 @@ const kitaBonodori = {
                 'coordinates': [135.45229719575644, 34.71099814511195]
             },
             'properties': {
-                'title': '千舟ふれあい祭り',
+                'title': '千舟 ふれあい祭り',
                 'address': '千舟公園',
                 'date': '八月第三土曜日 Third Saturday of August',
                 'zoom': 15
