@@ -142,8 +142,8 @@ const osakaKita = {
                 'coordinates': [135.47983788186522, 34.68980343022029]
             },
             'properties': {
-                'title': '福島区',
-                'address': '野田・玉川一帯は、日本の三大名藤「野田藤」発祥の地',
+                'title': '福島区 野田・玉川',
+                'address': '日本の三大名藤「野田藤」発祥の地',
                 'date': 'More Info',
                 'href': 'vr/?id=osaka&area=kita&name=noda',
                 'iconSize': ['kita/icon/fukushima.gif', '3.5rem', '3.5rem'],
@@ -175,7 +175,7 @@ const osakaKita = {
                 'title': '中之島公園',
                 'address': '堂島川と土佐掘川にはさまれた緑あふれる都心のオアシス<br>芝生広場の先にある剣先噴水は、10時～20時30分までの毎時0分・30分に約5分間放水する',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=nakanoshima',
+                'href': 'vr/?id=osaka&area=kita&name=nakanoshima',
                 'iconSize': ['kita/icon/kita.png', '3.5rem', '3.5rem'],
                 'zoom': 15.5
             }

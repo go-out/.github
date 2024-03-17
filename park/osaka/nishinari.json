@@ -7,25 +7,33 @@
         "address": "大阪市西成区津守１丁目１３",
         "google": "https://maps.app.goo.gl/vkCsB1csNEcp4AQX6",
         "text": [
+            "南海汐見橋線「津守」から徒歩すぐ 渡船場「落合上」「落合下」まで徒歩圏内",
+            "<small>渡し船で木津川を渡った「大正区 千島〜平尾」は、沖縄の雰囲気が特に色濃い地域 大阪市のリトル沖縄</small>",
+            "",
+            "例年11月下旬から12月上旬、メタセコイアの並木が美しく紅葉する",
             "東側は学生や地域の人たちの憩いの場 西側は不法投棄ゴミ・不法占拠家屋群"
         ]
     },
+    "links": [
+        "<a href='../osaka/ferry/'>渡し船に乗ろう Osaka Ferry Virtual Cruise</a>",
+        "<a href='../vr/?id=osaka&area=bayarea&name=hirao'>大正区 平尾 Hirao Taisho, Osaka</a>"
+    ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi=w575-h325-p-k-no",
+            "poster": "p/AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi=w575-h325-p-k-no",
             "src": [
-                "AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi=m18"
+                "ggms/AF1QipMV8r7BoxNzEPBfu4wxfGVPTEA-G3GUVQAY-MMi=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k=w575-h325-p-k-no",
+            "poster": "p/AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k=w575-h325-p-k-no",
             "src": [
-                "AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k=m18"
+                "ggms/AF1QipOsbl-jTWq__MJGhF8AeqjNdns2iuBq4juzk38k=m18"
             ]
         }
     ]

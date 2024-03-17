@@ -1,0 +1,45 @@
+{
+    "title": "千島公園 ちしまこうえん",
+    "description": "",
+    "url": "park/?area=osaka&name=chishima",
+    "info": {
+        "title": "Chishima Park 🇯🇵 Osaka, Japan",
+        "address": "大阪市大正区千島２丁目７",
+        "google": "https://maps.app.goo.gl/8x6gtjQqueSkFzdn8",
+        "text": [
+            "大正区役所のすぐ隣に整備されている大きな公園",
+            "公園内の築山「昭和山」一帯は、大正区の花「ツツジ」の名所（例年4月後半~5月が見頃）",
+            "",
+            "毎年9月 第2日曜日 千島公園グランド（大正区役所近く）にて「エイサー祭り」が開催される",
+            "",
+            "<u>最寄りのレンタサイクル</u>",
+            "<a href='https://maps.app.goo.gl/yFoRHxYYkyXP4cQK6' target='_blank'>大正区コミュニティセンター</a>",
+            "<small>利用時間 午前9時半から午後5時まで<br>利用料金 1日300円（申込時に、別途保証金700円が必要 自転車返却時に返金）</small>"
+        ]
+    },
+    "links": [
+        "<a href='../osaka/ferry/'>渡し船に乗ろう Osaka Ferry Virtual Cruise</a>",
+        "<a href='../vr/?id=osaka&area=bayarea&name=hirao'>大正区 平尾 Hirao Taisho, Osaka</a>",
+        "<a href='https://www.osakacommunity.jp/taisho/renntasaikuru.html' target='_blank'>レンタサイクル｜大阪市コミュニティ協会 大正区支部協議会</a>"
+    ],
+    "width": "0.575",
+    "height": "1",
+    "directory": "https://lh3.googleusercontent.com/",
+    "video": [
+        {
+            "id": "one",
+            "poster": "p/AF1QipPrnR5IrL0jcz0Knj3y54bq5LGqFZs9c_3eTX13=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPrnR5IrL0jcz0Knj3y54bq5LGqFZs9c_3eTX13=m18",
+                "ggms/AF1QipOlDuj_Qp7n9uYA8Kz8pNtP14BT5m3z--cXLWA7=m18"
+            ]
+        },
+        {
+            "id": "two",
+            "poster": "p/AF1QipPyXZOj-VdBF5LbHEbSwO9IZK-zwadiT3zTrJUx=w575-h325-p-k-no",
+            "src": [
+                "ggms/AF1QipPyXZOj-VdBF5LbHEbSwO9IZK-zwadiT3zTrJUx=m18"
+            ]
+        }
+    ]
+}

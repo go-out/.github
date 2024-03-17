@@ -12,7 +12,9 @@
             "書院や茶室には、今ではとても手に入らないような貴重な木材が使われ、匠の技が至る所に用いられている名建築",
             "庭園では、四季折々の景観を楽しむことができる",
             "",
-            "<u>毎年3月初旬 Early March every year</u><br><b>会所会（かいしょえ）</b><br>平成29年度から年に一度、区役所主催で開催される「和」にふれる催し",
+            "<u>毎年3月初旬 Early March every year</u>",
+            "<a href='../date/kagaya-shinden-kaisho/'>会所会</a>（かいしょえ）<br>平成29年度から年に一度、区役所主催で開催される「和」にふれる催し",
+            "<small>落語・漫才の披露や加賀屋新田会所跡の見どころ紹介などが行われる</small>",
             "",
             "<u>アクセス</u><br>Osaka Metro 四つ橋線「住之江公園」から徒歩約15分",
             "<u>無料レンタサイクル</u><br><a href='https://maps.app.goo.gl/poayp1BqUkgbty2G6' target='_blank'>住之江公園 管理事務所</a> <small>貸出時間は午前8時30分から午後5時</small>"
@@ -20,7 +22,8 @@
     },
     "links": [
         "<a href='https://www.facebook.com/kagayashindenkaisyoato/?locale=ja_JP' target='_blank'>『加賀屋緑地：加賀屋新田会所跡』 | Facebook</a>",
-        "<a href='https://www.city.osaka.lg.jp/kyoiku/page/0000008888.html' target='_blank'>大阪市：加賀屋新田会所跡</a>"
+        "<a href='https://www.city.osaka.lg.jp/kyoiku/page/0000008888.html' target='_blank'>大阪市：加賀屋新田会所跡</a>",
+        "<a href='https://www.city.osaka.lg.jp/kyoiku/page/0000008951.html' target='_blank'>大阪市：旧加賀屋新田会所　鳳鳴亭・書院・居宅　3棟</a>"
     ],
     "width": "0.575",
     "height": "1",

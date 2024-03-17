@@ -159,21 +159,6 @@ const kitaBonodori = {
             'tags': 'draft end-july',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.52094050926704, 34.721774410776675]
-            },
-            'properties': {
-                'title': '淀川 盆踊り大会',
-                'address': '淀川小学校',
-                'date': '七月最終土・日曜日 Last Satuday and Sunday of July',
-                'zoom': 15
-            }
-        },
-        {
-            'type': 'Feature',
-            'week': 'end-july',
-            'tags': 'draft end-july',
-            'geometry': {
-                'type': 'Point',
                 'coordinates': [135.49008026526528, 34.70529196676741]
             },
             'properties': {
@@ -388,7 +373,7 @@ const kitaBonodori = {
             },
             'properties': {
                 'title': '西中島地域 盆踊り大会',
-                'address': '大阪市立十三小学校',
+                'address': '大阪市立西中島小学校',
                 'date': '八月第一土日曜日 First Saturday and Sunday of August 午後五時半',
                 'zoom': 15
             }
@@ -660,7 +645,22 @@ const kitaBonodori = {
                 'title': '野里 納涼の夕べ',
                 'address': '大阪市立野里小学校',
                 'date': '八月第三土日曜日 Third Saturday and Sunday of August',
-                'zoom': 15
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'week': 'end-august',
+            'tags': 'draft end-august',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.52833018742763, 34.72252652716182]
+            },
+            'properties': {
+                'title': '蕪村おどり Buson Dance and Lantern Festival',
+                'address': '蕪村商店街 Buson Shopping Street',
+                'date': '八月下旬 Late August 午後七時',
+                'zoom': 17.5
             }
         },
         {
@@ -675,7 +675,7 @@ const kitaBonodori = {
                 'title': 'ふれあい盆おどり大会',
                 'address': '大東小学校',
                 'date': '八月下旬 Late August 午後八時',
-                'zoom': 15
+                'zoom': 17.5
             }
         }
     ]

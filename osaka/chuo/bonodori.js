@@ -72,7 +72,7 @@ const chuoBonodori = {
                 'coordinates': [135.48998495042608, 34.67443870434719]
             },
             'properties': {
-                'title': '堀江納涼盆踊り大会',
+                'title': '堀江納涼 盆踊り大会',
                 'address': '堀江小学校',
                 'date': '八月中旬 Mid-August 午後七時',
                 'zoom': 17.5
@@ -87,9 +87,9 @@ const chuoBonodori = {
                 'coordinates': [135.4928435617792, 34.67634853259329]
             },
             'properties': {
-                'title': '西六納涼大会',
+                'title': '西六納涼 盆踊り大会',
                 'address': '新町南公園',
-                'date': '八月中旬 Mid-August 午後六時',
+                'date': '八月中旬 Weekend of Mid-August 午後六時',
                 'zoom': 17.5
             }
         },
@@ -102,7 +102,7 @@ const chuoBonodori = {
                 'coordinates': [135.48966013124286, 34.68565594371215]
             },
             'properties': {
-                'title': '江戸堀納涼盆踊り大会',
+                'title': '江戸堀納涼 盆踊り大会',
                 'address': '花乃井公園',
                 'date': '八月中旬 Mid-August 午後六時',
                 'zoom': 17.5
@@ -117,7 +117,7 @@ const chuoBonodori = {
                 'coordinates': [135.4854700431341, 34.67947086275357]
             },
             'properties': {
-                'title': '広教納涼盆踊り大会',
+                'title': '広教納涼盆 踊り大会',
                 'address': '島津公園',
                 'date': '八月中旬 Mid-August 午後七時',
                 'zoom': 17.5
@@ -132,9 +132,9 @@ const chuoBonodori = {
                 'coordinates': [135.4842781987462, 34.671121189810734]
             },
             'properties': {
-                'title': '日吉地域盆踊り大会',
+                'title': '日吉地域 盆踊り大会',
                 'address': '日吉小学校',
-                'date': '八月中旬 Mid-August 午後七時',
+                'date': '八月中旬 Weekend of Mid-August 午後七時',
                 'zoom': 17.5
             }
         },

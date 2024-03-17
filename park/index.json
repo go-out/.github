@@ -1,14 +1,12 @@
 {
     "title": "公園緑地",
-    "description": "Parks and Open Space",
+    "description": "🌲 Parks and 🏞 Open Space 🌳",
     "url": "park/",
     "info": {
         "title": "公園緑地や都市のみどり",
         "address": "Watch a Playlist on YouTube",
         "google": "https://www.youtube.com/playlist?list=PLNxErRQ8jPVaks03Jn9b-X5uKCkhMFG9G",
-        "text": [
-            ""
-        ]
+        "markdown": "README.md"
     },
     "links": [
         "<a href='https://www.google.com/maps/contrib/104493917977768716042' target='_blank'>creative, community space ∧° ┐ - Google Map</a>",
@@ -28,9 +26,9 @@
         },
         {
             "id": "two",
-            "poster": "p/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=w575-h325-p-k-no",
+            "poster": "p/AF1QipMNaZPL3Jp6Yb585CewTeVOxD61hg5AYIFZ1bVA=w575-h325-p-k-no",
             "src": [
-                "ggms/AF1QipM_MIz478WehfgmZrOyVmbZW8kGP-aECA9lxyUc=m18",
+                "ggms/AF1QipMNaZPL3Jp6Yb585CewTeVOxD61hg5AYIFZ1bVA=m18",
                 "ggms/AF1QipO17NfO4FjPrrL-dfKSbztTVuwlZv_98WHADeUO=m18"
             ]
         },

@@ -69,6 +69,22 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
+            'tags': 'park',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.48446852567756, 34.66987890602696]
+            },
+            'properties': {
+                'title': '西区南堀江４丁目６',
+                'address': '「道頓堀川水門」付近から汐見橋まで続く、道頓堀川沿の遊歩道',
+                'date': 'More Info',
+                'href': 'park/?area=osaka&name=minamihorie-4-6',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'vr',
             'geometry': {
                 'type': 'Point',
@@ -217,7 +233,7 @@ const osakaMinami = {
             'feature': [
                 {
                     'month': 3,
-                    'text': '例年3月下旬、天王寺公園全域の「サクラ」「ツバキ」が見頃を迎える'
+                    'text': '例年3月下旬、天王寺公園全域の「サクラ」「ツバキ」が咲き始める'
                 },
                 {
                     'month': 4,

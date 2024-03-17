@@ -214,45 +214,6 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
-            'tags': 'bicycle',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47218432924157, 34.650908279167524]
-            },
-            'properties': {
-                'title': '大正区コミュニティセンター レンタサイクル',
-                'address': '利用時間 午前9時半から午後5時まで 料金 1日300円',
-                'date': '',
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'feature': [
-                {
-                    'month': 8,
-                    'text': '毎年8月 第4日曜日 平尾公園（平尾商店街近く）にて「River大正エイサーまつり」が開催される'
-                },
-                {
-                    'month': 9,
-                    'text': '毎年9月 第2日曜日 千島公園グランド（大正区役所近く）にて「エイサー祭り」が開催される'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.47267405968358, 34.639780543989126]
-            },
-            'properties': {
-                'title': 'サンクス平尾（平尾商店街）',
-                'address': '大阪市のリトル沖縄 大正区の中でも沖縄の雰囲気が特に色濃い地域',
-                'date': 'More Info',
-                'href': 'vr/?id=osaka&area=bayarea&name=hirao',
-                'zoom': 15.5
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
@@ -267,6 +228,28 @@ const osakaBayarea = {
         },
         {
             'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                {
+                    'month': 8,
+                    'text': '毎年8月 第4日曜日 平尾公園（平尾商店街近く）にて「River大正エイサーまつり」が開催される'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47267405968358, 34.639780543989126]
+            },
+            'properties': {
+                'title': '大正区 平尾',
+                'address': '大阪市のリトル沖縄 大正区の中でも沖縄の雰囲気が特に色濃い地域',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=bayarea&name=hirao',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
+                'zoom': 15.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'park',
             'feature': [
                 {
@@ -276,6 +259,10 @@ const osakaBayarea = {
                 {
                     'month': 5,
                     'text': '4月後半~5月、公園内の築山「昭和山」一帯で大正区の花「ツツジ」が見頃を迎える'
+                },
+                {
+                    'month': 9,
+                    'text': '毎年9月 第2日曜日 千島公園グランドにて「エイサー祭り」が開催される'
                 }
             ],
             'geometry': {
@@ -285,9 +272,24 @@ const osakaBayarea = {
             'properties': {
                 'title': '千島公園',
                 'address': '大正区役所のすぐ隣に整備されている大きな公園 港の見える丘',
-                'date': '',
+                'date': 'More Info',
+                'href': 'park/?area=osaka&name=chishima',
                 'iconSize': ['bayarea/icon/taisho.gif', '3.5rem', '3.5rem'],
                 'zoom': 16
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'bicycle',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.47218432924157, 34.650908279167524]
+            },
+            'properties': {
+                'title': '大正区コミュニティセンター レンタサイクル',
+                'address': '利用時間 午前9時半から午後5時まで 料金 1日300円',
+                'date': '',
+                'zoom': 16.5
             }
         }
     ]
