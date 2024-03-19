@@ -1,0 +1,54 @@
+{
+    "date": "2024.3.18 (Mon)",
+    "u": "なにわ自転車道 🚲 淀川右岸",
+    "strong": "Naniwa Cycling Load",
+    "readme": "README.md",
+    "url": "naniwa-cycling-load/?id=yodogawa",
+    "youtube": "CDfqGiXwjcc",
+    "directory": "https://ia600207.us.archive.org/1/items/naniwa-cycling-load/",
+    "cover": "naniwa-cycling-load.thumbs/yodogawa/001_000064.jpg",
+    "video": [
+        {
+            "title": "赤川鉄橋（おおさか東線淀川橋梁）",
+            "src": "yodogawa/001.ia.mp4",
+            "track": "yodogawa/001.vtt"
+        },
+        {
+            "title": "菅原城北大橋",
+            "src": "yodogawa/002.ia.mp4",
+            "track": "yodogawa/002.vtt"
+        },
+        {
+            "title": "豊里地区",
+            "src": "yodogawa/003.ia.mp4",
+            "track": "yodogawa/003.vtt"
+        },
+        {
+            "title": "駐車場・バーベキュー広場",
+            "src": "yodogawa/004.ia.mp4",
+            "track": "yodogawa/004.vtt"
+        },
+        {
+            "title": "東淀川区・摂津市",
+            "src": "yodogawa/005.ia.mp4",
+            "track": "yodogawa/005.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "なにわ自転車道 🚲 Naniwa Cycling Load",
+            "url": "../naniwa-cycling-load/",
+            "target": "_self"
+        },
+        {
+            "text": "淀川橋梁 (おおさか東線) - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%B7%80%E5%B7%9D%E6%A9%8B%E6%A2%81_(%E3%81%8A%E3%81%8A%E3%81%95%E3%81%8B%E6%9D%B1%E7%B7%9A)",
+            "target": "_blank"
+        },
+        {
+            "text": "豊里地区 | 淀川河川公園",
+            "url": "https://www.yodogawa-park.jp/annai/toyosato/",
+            "target": "_blank"
+        }
+    ]
+}

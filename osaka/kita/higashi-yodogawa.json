@@ -29,7 +29,7 @@
     "<a href='https://higashiyodogawaku.goguynet.jp/tag/%E7%9B%86%E8%B8%8A%E3%82%8A/' target='_blank'>盆踊り | 号外NET 東淀川区</a>"
   ],
   "directory": "https://lh3.googleusercontent.com/ggms/",
-  "landscape": "repeat(3, 1fr)",
+  "landscape": "repeat(4, 1fr)",
   "portrait": "repeat(2, 1fr)",
   "video": [
     {
@@ -46,6 +46,22 @@
       "src": [
         "AF1QipP9vBKKyQjrNCO6qFrN1Uk1qB4gnM45wI7KSeas=m18",
         "AF1QipNBG470m-NyUk08Sa2IdTIA9wpYNirdBcUfFFWt=m18"
+      ]
+    },
+    {
+      "id": "cycling1",
+      "poster": "AF1QipMiMJyWo7Yix036N5MS_ypOAlue3vZyDt5P4hs-=w575-h325-p-k-no",
+      "src": [
+        "AF1QipMiMJyWo7Yix036N5MS_ypOAlue3vZyDt5P4hs-=m18",
+        "AF1QipOJQ66cDhxssJhCzaKHFaY7BHb3C7bc6DGfn8Pk=m18"
+      ]
+    },
+    {
+      "id": "cycling2",
+      "poster": "AF1QipO9IyeocUZkQS3DE5lJJ3irzvsah7wZoU32Xn8D=w575-h325-p-k-no",
+      "src": [
+        "AF1QipO9IyeocUZkQS3DE5lJJ3irzvsah7wZoU32Xn8D=m18",
+        "AF1QipMXcgTOUVYD5T6Yxg09U8TowZQPmBbnn4Be2QW5=m18"
       ]
     },
     {
