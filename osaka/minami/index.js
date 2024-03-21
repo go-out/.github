@@ -143,16 +143,39 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'draft',
+            'tags': 'legacy',
+            'feature': [
+                {
+                    'month': 3,
+                    'text': '例年3月下旬、天王寺公園全域の「サクラ」「ツバキ」が咲き始める'
+                },
+                {
+                    'month': 4,
+                    'text': '例年4月上旬、天王寺公園全域の「サクラ」「ツバキ」が見頃を迎える'
+                },
+                {
+                    'month': 6,
+                    'text': '例年6月上旬頃、慶沢園の「スイレン」「アジサイ」「サツキ」などが見頃を迎える'
+                },
+                {
+                    'month': 11,
+                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
+                },
+                {
+                    'month': 12,
+                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
+                }
+            ],
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.51033088655373, 34.640090916357146]
+                'coordinates': [135.51144553780236, 34.65181702169076]
             },
             'properties': {
-                'title': 'やすらぎ天空館',
-                'address': '穏やかでやすらぎに満ちた天空に飛び立てるようにとの願いが込められた大阪市の公営斎場',
+                'title': '茶臼山',
+                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>古墳の南側には林泉回遊式庭園「慶沢園」がある（入園料 大人150円）',
                 'date': 'More Info',
-                'href': 'relax/?id=spot&area=osaka&name=tennkukan',
+                'href': 'park/?area=osaka&name=tennoji',
+                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
                 'zoom': 15.5
             }
         },
@@ -161,14 +184,14 @@ const osakaMinami = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.50902324235545, 34.6309516823175]
+                'coordinates': [135.51638139543317, 34.654855400360255]
             },
             'properties': {
-                'title': '阿倍王子神社・安倍晴明神社',
-                'address': '大阪府下に唯一現存する熊野権現の王子社',
+                'title': '四天王寺',
+                'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=abeouji',
-                'zoom': 17
+                'href': 'legacy/?area=osaka&name=shitennoji',
+                'zoom': 16
             }
         },
         {
@@ -217,52 +240,29 @@ const osakaMinami = {
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.51638139543317, 34.654855400360255]
+                'coordinates': [135.51033088655373, 34.640090916357146]
             },
             'properties': {
-                'title': '四天王寺',
-                'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
+                'title': 'やすらぎ天空館',
+                'address': '穏やかでやすらぎに満ちた天空に飛び立てるようにとの願いが込められた大阪市の公営斎場',
                 'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=shitennoji',
-                'zoom': 16
+                'href': 'relax/?id=spot&area=osaka&name=tennkukan',
+                'zoom': 15.5
             }
         },
         {
             'type': 'Feature',
-            'tags': 'legacy',
-            'feature': [
-                {
-                    'month': 3,
-                    'text': '例年3月下旬、天王寺公園全域の「サクラ」「ツバキ」が咲き始める'
-                },
-                {
-                    'month': 4,
-                    'text': '例年4月上旬、天王寺公園全域の「サクラ」「ツバキ」が見頃を迎える'
-                },
-                {
-                    'month': 6,
-                    'text': '例年6月上旬頃、慶沢園の「スイレン」「アジサイ」「サツキ」などが見頃を迎える'
-                },
-                {
-                    'month': 11,
-                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
-                },
-                {
-                    'month': 12,
-                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
-                }
-            ],
+            'tags': 'draft',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [135.51234003447854, 34.651695429506546]
+                'coordinates': [135.50902324235545, 34.6309516823175]
             },
             'properties': {
-                'title': '茶臼山',
-                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>古墳の南側には純日本風の林泉回遊式庭園「慶沢園」がある',
+                'title': '阿倍王子神社・安倍晴明神社',
+                'address': '大阪府下に唯一現存する熊野権現の王子社',
                 'date': 'More Info',
-                'href': 'park/?area=osaka&name=tennoji',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 15.5
+                'href': 'legacy/?area=osaka&name=abeouji',
+                'zoom': 17
             }
         },
         {
