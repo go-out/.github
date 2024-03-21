@@ -46,6 +46,11 @@
     ],
     "link": [
         {
+            "text": "天王寺公園 🇯🇵 Tennoji Park",
+            "url": "../../park/?area=osaka&name=tennoji",
+            "target": "_self"
+        },
+        {
             "text": "大阪市：慶沢園 | 大阪市指定文化財",
             "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008995.html",
             "target": "_blank"
