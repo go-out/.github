@@ -106,7 +106,7 @@ map.on('load', () => {
             'type': 'LineString',
             'coordinates': [
               [135.5223698235587, 34.73361104448734],
-              [135.5287156727804, 34.735331360511914],
+              [135.52729971881092, 34.73532756466886],
               [135.54774490612857, 34.73732181777264],
               [135.55294403432947, 34.74205982771849],
               [135.55329780752066, 34.74852774965018],
@@ -119,6 +119,7 @@ map.on('load', () => {
             'address': 'Naniwa Cycling Load',
             'date': 'More Info',
             'href': 'date/naniwa-cycling-load/?id=yodogawa',
+            'youtube': 'CDfqGiXwjcc',
             'zoom': 14.5
           }
         },
@@ -160,6 +161,7 @@ map.on('load', () => {
             'address': 'Naniwa Cycling Load',
             'date': 'More Info',
             'href': 'date/naniwa-cycling-load/?id=kanzakigawa',
+            'youtube': 'zUF-oI-MHHk',
             'zoom': 14.5
           }
         },

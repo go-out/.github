@@ -1,12 +1,12 @@
 {
     "date": "2024.3.18 (Mon)",
     "u": "なにわ自転車道 🚲 神崎川左岸",
-    "strong": "Naniwa Cycling Load",
+    "strong": "Naniwa Cycling Load<br><small>(the left bank of Kanzakigawa)</small>",
     "readme": "README.md",
     "url": "naniwa-cycling-load/?id=kanzakigawa",
     "youtube": "zUF-oI-MHHk",
     "directory": "https://ia600207.us.archive.org/1/items/naniwa-cycling-load/",
-    "cover": "naniwa-cycling-load.thumbs/kanzakigawa/006_000029.jpg",
+    "cover": "naniwa-cycling-load.thumbs/kanzakigawa/006_000177.jpg",
     "video": [
         {
             "title": "大阪­広域環境施­設組合",
@@ -19,7 +19,7 @@
             "track": "kanzakigawa/002.vtt"
         },
         {
-            "title": "JRおおさか東西線・京都線",
+            "title": "JRおおさか東線・京都線",
             "src": "kanzakigawa/003.ia.mp4",
             "track": "kanzakigawa/003.vtt"
         },
