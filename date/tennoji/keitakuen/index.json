@@ -2,7 +2,7 @@
     "date": "2024.3.20 (Wed)",
     "u": "天王寺公園 🇯🇵 Tennoji Park",
     "strong": "<small>keitakuen</small><br>慶沢園",
-    "readme": "README.md",
+    "readme": "keitakuen/README.md",
     "url": "tennoji/#keitakuen",
     "youtube": "___",
     "directory": "https://lh3.googleusercontent.com/",
@@ -51,13 +51,13 @@
             "target": "_self"
         },
         {
-            "text": "大阪市：慶沢園 | 大阪市指定文化財",
-            "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008995.html",
+            "text": "慶沢園 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%85%B6%E6%B2%A2%E5%9C%92",
             "target": "_blank"
         },
         {
-            "text": "慶沢園 - Wikipedia",
-            "url": "https://ja.wikipedia.org/wiki/%E6%85%B6%E6%B2%A2%E5%9C%92",
+            "text": "大阪市：慶沢園 | 大阪市指定文化財",
+            "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008995.html",
             "target": "_blank"
         },
         {
