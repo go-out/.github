@@ -69,6 +69,22 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
+            'tags': 'legacy',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.49671014738038, 34.66147827438952]
+            },
+            'properties': {
+                'title': '難波八阪神社',
+                'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
+                'date': 'More Info',
+                'href': 'legacy/?area=osaka&name=nambayasaka',
+                'youtube': 'OO_7X8aM9BQ',
+                'zoom': 17.5
+            }
+        },
+        {
+            'type': 'Feature',
             'tags': 'park',
             'geometry': {
                 'type': 'Point',
@@ -97,22 +113,6 @@ const osakaMinami = {
                 'href': 'vr/?id=osaka&area=minami&name=naniwa',
                 'iconSize': ['minami/icon/naniwa.gif', '3rem', '3rem'],
                 'zoom': 14.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'legacy',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.49671014738038, 34.66147827438952]
-            },
-            'properties': {
-                'title': '難波八阪神社',
-                'address': '大きな獅子の頭の形をした舞台「獅子殿」で知られる難波一帯の産土神',
-                'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=nambayasaka',
-                'youtube': 'OO_7X8aM9BQ',
-                'zoom': 17.5
             }
         },
         {
@@ -172,7 +172,7 @@ const osakaMinami = {
             },
             'properties': {
                 'title': '茶臼山',
-                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>古墳の南側には林泉回遊式庭園「慶沢園」がある（入園料 大人150円）',
+                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>南側には林泉回遊式庭園「慶沢園」がある（入園料 大人150円）',
                 'date': 'More Info',
                 'href': 'park/?area=osaka&name=tennoji',
                 'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],

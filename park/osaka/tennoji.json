@@ -1,17 +1,21 @@
 {
-    "title": "天王寺公園 てんのうじこうえん",
-    "description": "通天閣を望む、浪速情緒あふれる憩いの場",
+    "title": "慶沢園・茶臼山",
+    "description": "2024年3月20日 の 慶沢園・茶臼山",
     "url": "park/?area=osaka&name=tennoji",
+    "year": "2024",
+    "month": "3",
+    "day": "20",
     "info": {
-        "title": "Tennoji Park 🇯🇵 Osaka, Japan",
-        "address": "天王寺区茶臼山町",
+        "title": "Chausuyama-cho Tennoji-ku 🇯🇵 Osaka, Japan",
+        "address": "大阪市天王寺区茶臼山町",
         "google": "https://maps.app.goo.gl/UmxAiETR1fpCb9XG6",
         "text": [
-            "地名の由来になった茶臼山古墳の墳丘（標高は26m）は、「大阪五低山」の一つ",
-            "公園本体と古墳の間には池があり、古墳周辺には遊歩道が整備されている",
+            "茶臼山古墳の墳丘 茶臼山（標高は26m）は、「大阪五低山」の一つ",
+            "公園と古墳の間には池があり、茶臼山山頂まで遊歩道が整備されている",
             "<small>一心寺の講堂 <a href='https://maps.app.goo.gl/bJvVquKGfEer6g4N9' target='_blank'>三千佛堂</a> で「茶臼山登頂証明書」が発行できる（発行料100円）</small>",
             "",
-            "純日本風の林泉回遊式庭園「<a href='../date/tennoji/#keitakuen' target='_self'>慶沢園</a>」は、大阪市指定文化財 入園料は大人150円"
+            "茶臼山の南側、大阪市立美術館に燐する林泉回遊式庭園「<a href='../date/tennoji/#keitakuen' target='_self'>慶沢園</a>」は、大阪市指定文化財（入園料 大人150円）",
+            "<small>リニューアル工事のため、令和6年4月1日（月曜日）から令和7年春（予定）まで休園</small>"
         ]
     },
     "links": [

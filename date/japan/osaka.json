@@ -57,16 +57,15 @@
             "en": "March",
             "events": [
                 {
-                    "title": "例祭 Joruri-Jinja",
-                    "venue": "浄瑠璃神社（生國魂神社内） Ikutama Jinja",
-                    "date": "春分の日 Day of the March Equinox",
-                    "link": "legacy/?area=osaka&name=ikutamajinja"
-                },
-                {
                     "title": "春季彼岸会 Shunki Higan-E",
                     "venue": "四天王寺 Shitennoji",
                     "date": "春分の日と前後三日間 Week of the March Equinox",
                     "link": "legacy/?area=osaka&name=shitennoji"
+                },
+                {
+                    "title": "復活祭 Easter",
+                    "venue": "日本基督教団 南大阪教会・大阪聖アンデレ教会",
+                    "date": "春分の日の後の最初の満月の次の日曜日"
                 }
             ]
         },
