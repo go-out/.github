@@ -22,21 +22,22 @@
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "spring",
-            "poster": "AF1QipOYk5Ca03SefHjvTRCMso1uUl5t53ySVSsy592W",
+            "poster": "p/AF1QipOYk5Ca03SefHjvTRCMso1uUl5t53ySVSsy592W=w575-h325-p-k-no",
             "src": [
-                "AF1QipPo2K6YC3a1EAFK_3FZn57XQyJX-3TLnKTJ8kY-=m18"
+                "ggs/AF1QipMRMCcS5fgB0kJyo4dDZdMKjqng_VTGnnJvXnO3=m18",
+                "ggs/AF1QipPdDLox99BGnDcRYxnNzaUnKWaW7R7w3CXTAsMg=m18"
             ]
         },
         {
             "id": "fall",
-            "poster": "AF1QipNqhK3rgQwKpR5c7Ok5k_O2i1Gk5rNPGGe_EgJm",
+            "poster": "p/AF1QipNqhK3rgQwKpR5c7Ok5k_O2i1Gk5rNPGGe_EgJm=w575-h325-p-k-no",
             "src": [
-                "AF1QipNqhK3rgQwKpR5c7Ok5k_O2i1Gk5rNPGGe_EgJm=m18",
-                "AF1QipOYk5Ca03SefHjvTRCMso1uUl5t53ySVSsy592W=m18"
+                "ggs/AF1QipNqhK3rgQwKpR5c7Ok5k_O2i1Gk5rNPGGe_EgJm=m18",
+                "ggs/AF1QipOYk5Ca03SefHjvTRCMso1uUl5t53ySVSsy592W=m18"
             ]
         }
     ]
