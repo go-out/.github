@@ -1,0 +1,64 @@
+{
+    "date": "2024.3.20 (Wed)",
+    "u": "天王寺公園 🇯🇵 Tennoji Park",
+    "strong": "<small>keitakuen</small><br>慶沢園",
+    "readme": "README.md",
+    "url": "tennoji/#keitakuen",
+    "youtube": "___",
+    "directory": "keitakuen/",
+    "cover": "",
+    "video": [
+        {
+            "title": "住友家 茶臼山本邸庭園",
+            "src": "001.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "林泉回遊式庭園",
+            "src": "002.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "四阿（あずまや）",
+            "src": "003.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "大阪市立美術館",
+            "src": "004.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "築山・園路",
+            "src": "005.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "滝・飛石・橋",
+            "src": "006.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "茶室「長生庵」",
+            "src": "007.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "大阪市：慶沢園 | 大阪市指定文化財",
+            "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008995.html",
+            "target": "_blank"
+        },
+        {
+            "text": "慶沢園 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%85%B6%E6%B2%A2%E5%9C%92",
+            "target": "_blank"
+        },
+        {
+            "text": "慶沢園 | 庭園情報メディア【おにわさん】",
+            "url": "https://oniwa.garden/keitakuen-garden-%E6%85%B6%E6%B2%A2%E5%9C%92/",
+            "target": "_blank"
+        }
+    ]
+}

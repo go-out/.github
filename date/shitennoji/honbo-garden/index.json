@@ -1,0 +1,54 @@
+{
+    "date": "2024.3.20 (Wed)",
+    "u": "四天王寺 🇯🇵 本坊庭園",
+    "strong": "<small>Shitennoji Honbo Garden</small><br>極楽浄土の庭",
+    "readme": "honbo-garden/README.md",
+    "url": "shitennoji/#honbo-garden",
+    "youtube": "___",
+    "directory": "honbo-garden/",
+    "cover": "___",
+    "video": [
+        {
+            "title": "二河白道",
+            "src": "001.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "瑠璃光の池",
+            "src": "002.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "荒陵稲荷",
+            "src": "003.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "極楽の池",
+            "src": "004.mp4",
+            "track": "../000.vtt"
+        },
+        {
+            "title": "補陀落の庭",
+            "src": "005.mp4",
+            "track": "../000.vtt"
+        }
+    ],
+    "link": [
+        {
+            "text": "四天王寺本坊庭園 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%E6%9C%AC%E5%9D%8A%E5%BA%AD%E5%9C%92",
+            "target": "_blank"
+        },
+        {
+            "text": "四天王寺 極楽浄土の庭 - 庭園ガイド",
+            "url": "https://garden-guide.jp/spot.php?i=shitennoji",
+            "target": "_blank"
+        },
+        {
+            "text": "四天王寺本坊庭園 | 庭園情報メディア【おにわさん】",
+            "url": "https://oniwa.garden/shitennoji-temple-honbo-garden-%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%E6%9C%AC%E5%9D%8A%E5%BA%AD%E5%9C%92/",
+            "target": "_blank"
+        }
+    ]
+}

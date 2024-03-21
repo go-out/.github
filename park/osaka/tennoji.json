@@ -23,30 +23,35 @@
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggms/",
+    "directory": "../date/tennoji/",
     "video": [
         {
             "id": "chausuyama",
-            "poster": "AF1QipOrvWAonO4Td7fzBLHIIqfk0n_ky-BPH7mC5Pny=w575-h325-p-k-no",
+            "poster": "___",
             "src": [
-                "AF1QipOrvWAonO4Td7fzBLHIIqfk0n_ky-BPH7mC5Pny=m18",
-                "AF1QipOYjSsYWWDauRCTPZ_qQX_v4Uqi4inE6T0uXtRP=m18"
+                "chausuyama/001.mp4",
+                "chausuyama/002.mp4",
+                "chausuyama/003.mp4",
+                "chausuyama/004.mp4"
             ]
         },
         {
-            "id": "keitakuen",
-            "poster": "AF1QipNmqARb9-vS71MkmG95E_MqleLm_q2jQTesbpBe=w575-h325-p-k-no",
+            "id": "keitakuen1",
+            "poster": "___",
             "src": [
-                "AF1QipNmqARb9-vS71MkmG95E_MqleLm_q2jQTesbpBe=m18",
-                "AF1QipPU58mhRO6L33MoDYgb0DMm2eg1UKn1BRRQnMwe=m18"
+                "keitakuen/001.mp4",
+                "keitakuen/003.mp4",
+                "keitakuen/005.mp4",
+                "keitakuen/007.mp4"
             ]
         },
         {
-            "id": "three",
-            "poster": "AF1QipNBVHf3ANP8MGo4-r1OL18YCsRg73Ghsm1D2qG7=w575-h325-p-k-no",
+            "id": "keitakuen2",
+            "poster": "___",
             "src": [
-                "AF1QipNBVHf3ANP8MGo4-r1OL18YCsRg73Ghsm1D2qG7=m18",
-                "AF1QipMfERhHmu8snxoNIdXDgZJ-vLOXHiKo4kr4tojB=m18"
+                "keitakuen/002.mp4",
+                "keitakuen/004.mp4",
+                "keitakuen/006.mp4"
             ]
         }
     ]
