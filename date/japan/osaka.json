@@ -63,7 +63,7 @@
                 },
                 {
                     "title": "イースター礼拝 復活祭礼拝",
-                    "venue": "日本基督教団 南大阪教会・大阪聖アンデレ教会",
+                    "venue": "日本基督教団南大阪教会・大阪聖アンデレ教会",
                     "date": "春分の日の後の最初の満月の次の日曜日"
                 }
             ]
@@ -75,8 +75,7 @@
                 {
                     "title": "神楽祭 Kagura Festival",
                     "venue": "佐備神社 Sabi Jinja",
-                    "date": "四月四日 April 4th",
-                    "link": "date/naniwa-kagura/"
+                    "date": "四月四日 April 4th"
                 },
                 {
                     "title": "高倉社初午大祭 Hatsuuma Taisai",
@@ -87,8 +86,7 @@
                 {
                     "title": "松岳山春まつり Matsuokayama Spring Festival",
                     "venue": "河内国分 Kawachi Kokubu",
-                    "date": "四月第一日曜日 First Sunday of April 午前十一時から",
-                    "link": "date/kawachikokubu/?id=spring"
+                    "date": "四月第一日曜日 First Sunday of April 午前十一時から"
                 },
                 {
                     "title": "春の大祭",
