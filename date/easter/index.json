@@ -13,6 +13,16 @@
     ],
     "link": [
         {
+            "text": "イースター礼拝 🇯🇵 日本基督教団 南大阪教会",
+            "url": "?id=mochurch&date=2024",
+            "target": "_self"
+        },
+        {
+            "text": "復活祭礼拝 🇯🇵 大阪聖アンデレ教会",
+            "url": "?id=st-andrew-osaka&date=2024",
+            "target": "_self"
+        },
+        {
             "text": "復活祭 - Wikipedia",
             "url": "https://ja.wikipedia.org/wiki/%E5%BE%A9%E6%B4%BB%E7%A5%AD",
             "target": "_blank"

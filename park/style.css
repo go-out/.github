@@ -26,6 +26,11 @@ article p a {
     color: lightskyblue;
 }
 
+hr {
+    border: none;
+    border-bottom: dotted lightblue 0.25rem;
+}
+
 #title,
 #title a:hover,
 article p u,

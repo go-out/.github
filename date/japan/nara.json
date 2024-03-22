@@ -38,7 +38,8 @@
                 {
                     "title": "春の大神祭",
                     "venue": "大神神社",
-                    "date": "四月八・九・十日"
+                    "date": "四月八・九・十日",
+                    "link": "legacy/?area=nara&name=oomiwa/"
                 }
             ]
         },
@@ -74,7 +75,8 @@
                 {
                     "title": "おんぱら祭（おんぱら祭奉納花火大会）",
                     "venue": "大神神社",
-                    "date": "七月三十一日 午前十時 綱越神社 | 午後七時半 花火打上"
+                    "date": "七月三十一日 午前十時 綱越神社 | 午後七時半 花火打上",
+                    "link": "legacy/?area=nara&name=oomiwa/"
                 }
             ]
         },
@@ -100,7 +102,15 @@
         },
         {
             "month": 10,
-            "en": "October"
+            "en": "October",
+            "events": [
+                {
+                    "title": "秋の大神祭",
+                    "venue": "大神神社",
+                    "date": "十月二十三・二十四・二十五日",
+                    "link": "legacy/?area=nara&name=oomiwa/"
+                }
+            ]
         },
         {
             "month": 11,

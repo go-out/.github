@@ -48,7 +48,17 @@
         {
             "text": "東淀工場 - 大阪­広域環境施­設組合",
             "url": "https://www.osaka-env-paa.jp/kojo/higashiyodo/index.html",
-            "target": "_self"
+            "target": "_blank"
+        },
+        {
+            "text": "阪急レンタサイクル営業場所 | 上新庄駐輪センターはこべ館・三国北駐輪センター",
+            "url": "https://www.hankyu.co.jp/station/service/rental02.html",
+            "target": "_blank"
+        },
+        {
+            "text": "レンタサイクル 駅リンくん 新大阪店",
+            "url": "https://www.ekiren.com/ekirinkun",
+            "target": "_blank"
         }
     ]
 }

@@ -5,15 +5,14 @@
             "en": "January",
             "events": [
                 {
-                    "title": "千本搗餅つき Senbonzuki Mochi Festival",
+                    "title": "千本搗餅つき Senbon Mochi-tsuki Festival",
                     "venue": "水間寺 Mizumadera",
                     "date": "一月二・三日 January 2nd, 3rd 午前十時時・午後一時 一日二回"
                 },
                 {
                     "title": "修正会結願法要「どやどや」 Doya Doya",
                     "venue": "四天王寺 Shitennoji",
-                    "date": " 一月十四日 January 14th",
-                    "link": "legacy/?area=osaka&name=shitennoji"
+                    "date": " 一月十四日 January 14th"
                 },
                 {
                     "title": "綱引神事 Tsunahiki Shinji (Great Tug-of-War Festival)",
@@ -76,7 +75,8 @@
                 {
                     "title": "神楽祭 Kagura Festival",
                     "venue": "佐備神社 Sabi Jinja",
-                    "date": "四月四日 April 4th"
+                    "date": "四月四日 April 4th",
+                    "link": "date/naniwa-kagura/"
                 },
                 {
                     "title": "高倉社初午大祭 Hatsuuma Taisai",
@@ -87,7 +87,8 @@
                 {
                     "title": "松岳山春まつり Matsuokayama Spring Festival",
                     "venue": "河内国分 Kawachi Kokubu",
-                    "date": "四月第一日曜日 First Sunday of April 午前十一時から"
+                    "date": "四月第一日曜日 First Sunday of April 午前十一時から",
+                    "link": "date/kawachikokubu/?id=spring"
                 },
                 {
                     "title": "春の大祭",
@@ -125,7 +126,8 @@
                 {
                     "title": "万部おねり Manbu Oneri",
                     "venue": "大念佛寺 Dai Nenbutsu-ji",
-                    "date": "五月一日から五日 May 1st to 5th"
+                    "date": "五月一日から五日 May 1st to 5th",
+                    "link": "date/manbu-oneri/"
                 },
                 {
                     "title": "子供石見神楽奉納 Kids Iwami Kagura",
@@ -146,7 +148,8 @@
                 {
                     "title": "卯之葉神事 Unoha Shinji (Rabbit Flower Rite)",
                     "venue": "住吉大社 Sumiyoshi Taisha",
-                    "date": "五月初卯日 Early May 十三時"
+                    "date": "五月初卯日 Early May 十三時",
+                    "link": "legacy/?area=osaka&name=sumiyoshitaisha"
                 },
                 {
                     "title": "いけだ薪能 Ikeda Takigi-Noh",
@@ -167,7 +170,8 @@
                 {
                     "title": "御田植神事 Otaue Shinji (Sacred Rice Planting)",
                     "venue": "住吉大社 第一本宮~御田 Sumiyoshi Taisha",
-                    "date": "六月十四日 June 14th 十三時"
+                    "date": "六月十四日 June 14th 十三時",
+                    "link": "legacy/?area=osaka&name=sumiyoshitaisha"
                 }
             ]
         },
@@ -244,8 +248,13 @@
                 },
                 {
                     "title": "貝塚市東盆踊り・貝塚の東盆踊り（大阪府無形民俗文化財）",
-                    "venue": "円光寺境内",
+                    "venue": "円光寺",
                     "date": "八月十四から十六日 August 14th - 16th 午後八時から十二時近くまで"
+                },
+                {
+                    "title": "十七夜法会 盆踊り",
+                    "venue": "水間寺",
+                    "date": "八月十七日 August 17th 午後七時"
                 },
                 {
                     "title": "萬燈会お経木流し法要・盂蘭盆施餓鬼法要",
@@ -288,7 +297,8 @@
                 {
                     "title": "観月祭 Kangetsu-sai (Moon-Viewing Festival)",
                     "venue": "住吉大社 Sumiyoshi Taisha",
-                    "date": "中秋日 Around September and October 午後六時"
+                    "date": "中秋日 Around September and October 午後六時",
+                    "link": "legacy/?area=osaka&name=sumiyoshitaisha"
                 },
                 {
                     "title": "放生会 Houjo-Ya",
@@ -300,12 +310,6 @@
                     "venue": "鐸比古鐸比賣神社 Nudehiko-Nudehime Jinja",
                     "date": "九月中旬 土日曜日 Saturday and Sunday of Mid-September",
                     "link": "legacy/?area=osaka&name=nudehiko-nudehime"
-                },
-                {
-                    "title": "例祭 Joruri-Jinja",
-                    "venue": "浄瑠璃神社（生國魂神社内） Ikutama Jinja",
-                    "date": "秋分の日 Day of the September Equinox",
-                    "link": "legacy/?area=osaka&name=ikutamajinja"
                 },
                 {
                     "title": "秋季彼岸会 Shuuki Higan-E",
@@ -343,7 +347,8 @@
                 {
                     "title": "秋の大祭",
                     "venue": "難波八阪神社 Nambayasaka Shrine",
-                    "date": "十月十四 October 14th"
+                    "date": "十月十四 October 14th",
+                    "link": "legacy/?area=osaka&name=nambayasaka"
                 },
                 {
                     "title": "奉納芸能大会",

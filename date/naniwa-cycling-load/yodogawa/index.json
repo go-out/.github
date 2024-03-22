@@ -9,7 +9,7 @@
     "cover": "naniwa-cycling-load.thumbs/yodogawa/001_000001.jpg",
     "video": [
         {
-            "title": "赤川鉄橋",
+            "title": "淀川橋梁 (おおさか東線)",
             "src": "yodogawa/001.ia.mp4",
             "track": "yodogawa/001.vtt"
         },
@@ -46,8 +46,28 @@
             "target": "_blank"
         },
         {
+            "text": "おおさか東線,大阪外環状鉄道株式会社",
+            "url": "http://www.osr.co.jp/",
+            "target": "_blank"
+        },
+        {
+            "text": "大阪市：菅原城北大橋（すがはらしろきたおおはし）",
+            "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000023537.html",
+            "target": "_blank"
+        },
+        {
+            "text": "大阪市：豊里大橋（とよさとおおはし）",
+            "url": "https://www.city.osaka.lg.jp/kensetsu/page/0000023750.html",
+            "target": "_blank"
+        },
+        {
             "text": "豊里地区 | 淀川河川公園",
             "url": "https://www.yodogawa-park.jp/annai/toyosato/",
+            "target": "_blank"
+        },
+        {
+            "text": "阪急レンタサイクル営業場所 | 上新庄駐輪センターはこべ館",
+            "url": "https://www.hankyu.co.jp/station/service/rental02.html",
             "target": "_blank"
         }
     ]

@@ -40,27 +40,27 @@
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "niiya",
-            "poster": "AF1QipMAurVIcPJjdVRM_6bFo6WuNE6Wz8xiBbbIOwl0",
+            "poster": "p/AF1QipMAurVIcPJjdVRM_6bFo6WuNE6Wz8xiBbbIOwl0=w575-h325-p-k-no",
             "src": [
-                "AF1QipMAurVIcPJjdVRM_6bFo6WuNE6Wz8xiBbbIOwl0=m18"
+                "ggs/AF1QipMAurVIcPJjdVRM_6bFo6WuNE6Wz8xiBbbIOwl0=m18"
             ]
         },
         {
             "id": "nisigawara",
-            "poster": "AF1QipNtEPyvChye3JQ5Vn97AB-_seVThV9i8n7y7g_P",
+            "poster": "p/AF1QipNtEPyvChye3JQ5Vn97AB-_seVThV9i8n7y7g_P=w575-h325-p-k-no",
             "src": [
-                "AF1QipNtEPyvChye3JQ5Vn97AB-_seVThV9i8n7y7g_P=m18"
+                "ggs/AF1QipNtEPyvChye3JQ5Vn97AB-_seVThV9i8n7y7g_P=m18"
             ]
         },
         {
             "id": "sukunosyou",
-            "poster": "AF1QipOoeJBUf9fkGCTOnakwsG9vWE3KlE16Xyc7H1Ej",
+            "poster": "p/AF1QipOoeJBUf9fkGCTOnakwsG9vWE3KlE16Xyc7H1Ej=w575-h325-p-k-no",
             "src": [
-                "AF1QipOoeJBUf9fkGCTOnakwsG9vWE3KlE16Xyc7H1Ej=m18"
+                "ggs/AF1QipOoeJBUf9fkGCTOnakwsG9vWE3KlE16Xyc7H1Ej=m18"
             ]
         }
     ]

@@ -1,14 +1,14 @@
 {
-    "date": "YYYY.MM.DD (WEEK)",
+    "date": "毎年四月四日（佳き月の佳き日）",
     "url": "naniwa-kagura/",
     "youtube": "___",
     "directory": "",
     "cover": "",
     "video": [
         {
-            "title": "チャプタータイトル",
+            "title": "午前十時半の祭典より",
             "src": "___.mp4",
-            "track": "___/000.vtt"
+            "track": "../000.vtt"
         }
     ],
     "link": [
@@ -25,6 +25,11 @@
         {
             "text": "神楽いろいろ",
             "url": "https://sabijinja.site/archives/350",
+            "target": "_blank"
+        },
+        {
+            "text": "神楽のお稽古",
+            "url": "https://sabijinja.site/%e6%b5%aa%e9%80%9f%e7%a5%9e%e6%a5%bd%e3%81%ae%e6%8c%87%e5%b0%8e",
             "target": "_blank"
         }
     ]

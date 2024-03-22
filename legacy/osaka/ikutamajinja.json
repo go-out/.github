@@ -14,9 +14,8 @@
             "<small>十二日 午前九時半時から</small> 生國魂神社から大阪城まで枕太鼓を先頭に2時間をかけて練り歩く<br><small>大阪城公園大手前芝生広場にある御旅所跡で伝統の手締め「生国魂締め」</small>",
             "<small>十二日 夕刻から午後十時頃</small> 境内でそれぞれの山車や神輿が、競り合うかのように各々の奉納演奏や舞を披露",
             "",
-            "<u>毎年春分・秋分の日</u><br><b>浄瑠璃神社 例祭</b><br>浄瑠璃関係者が多数参拝し、その発展と加護を祈願する<br>",
-            "<u>毎年九月 第一土・日曜日</u><br><b>彦八まつり</b><br>上方落語協会が年に一度開催するファン感謝イベント<br>",
-            "<u>毎年八月十一・十二日</u><br><b>大阪薪能</b><br>戦災・風災害からの復興を祝い大阪で始まった野外能<br>",
+            "<u>毎年八月十一・十二日</u><br><b>大阪薪能</b><br>戦災・風災害からの復興を祝い大阪で始まった野外能",
+            "<u>毎年九月 第一土・日曜日</u><br><b>彦八まつり</b><br>上方落語協会が年に一度開催するファン感謝イベント",
             "",
             "<u>アクセス</u><br>Osaka Metro「谷町九丁目」から徒歩約5分<br>近鉄「大阪上本町」から徒歩約10分"
         ]
@@ -27,13 +26,13 @@
     ],
     "width": "0.7525",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR",
+            "poster": "p/AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR=w575-h325-p-k-no",
             "src": [
-                "AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR=m18"
+                "ggs/AF1QipNxyMedYNpJNykhdTdcITlAm0S0VE_6IRbzN-UR=m18"
             ]
         }
     ]

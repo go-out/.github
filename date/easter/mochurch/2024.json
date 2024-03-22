@@ -20,6 +20,11 @@
     ],
     "link": [
         {
+            "text": "復活祭 🐣 Easter",
+            "url": "../easter/",
+            "target": "_self"
+        },
+        {
             "text": "日本基督教団 南大阪教会 | 大阪市",
             "url": "https://www.mochurch.net/",
             "target": "_blank"

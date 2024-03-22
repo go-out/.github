@@ -60,8 +60,11 @@
                 var paramItem = param[arr].split('=')
                 paramArr[paramItem[0]] = paramItem[1]
             }
-            const json = paramArr.id + "/" + paramArr.date + '.json'
-            indexJSON(json)
+            if (paramArr.id && paramArr.date) {
+                indexJSON(paramArr.id + "/" + paramArr.date + ".json")
+            } else if (paramArr.id) {
+                indexJSON(paramArr.id + "/index.json")
+            }
         } else {
             indexJSON("index.json")
         }

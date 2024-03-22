@@ -29,21 +29,21 @@
     ],
     "width": "0.575",
     "height": "1",
-    "directory": "https://lh3.googleusercontent.com/ggs/",
+    "directory": "https://lh3.googleusercontent.com/",
     "video": [
         {
             "id": "one",
-            "poster": "AF1QipMExjsQz0EGmq7sTNY8rAiBka1hcvYs1zE5nqAP",
+            "poster": "p/AF1QipMExjsQz0EGmq7sTNY8rAiBka1hcvYs1zE5nqAP=w575-h325-p-k-no",
             "src": [
-                "AF1QipNsBd3zS8zs2g8RPOmHyvD8x7Z-0bDi5uqaOZfk=m18",
-                "AF1QipMExjsQz0EGmq7sTNY8rAiBka1hcvYs1zE5nqAP=m18"
+                "ggs/AF1QipNsBd3zS8zs2g8RPOmHyvD8x7Z-0bDi5uqaOZfk=m18",
+                "ggs/AF1QipMExjsQz0EGmq7sTNY8rAiBka1hcvYs1zE5nqAP=m18"
             ]
         },
         {
             "id": "two",
-            "poster": "AF1QipPtAE2l9sea_yni7VCXoFcI9_9tWqbhAScAojyb",
+            "poster": "p/AF1QipPtAE2l9sea_yni7VCXoFcI9_9tWqbhAScAojyb=w575-h325-p-k-no",
             "src": [
-                "AF1QipPtAE2l9sea_yni7VCXoFcI9_9tWqbhAScAojyb=m18"
+                "ggs/AF1QipPtAE2l9sea_yni7VCXoFcI9_9tWqbhAScAojyb=m18"
             ]
         }
     ]

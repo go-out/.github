@@ -1,6 +1,6 @@
 松岳山春まつり 🇯🇵 河内国分
-実施日：毎年四月上旬 午前十一時から
-Date of Month every year start at 11AM
+実施日：毎年四月第一日曜日 午前十一時から
+First Sunday of April every year start at 11AM
 
 
 国分神社の夏祭り 🇯🇵 国分神社

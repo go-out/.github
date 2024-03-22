@@ -143,100 +143,6 @@ const osakaMinami = {
         },
         {
             'type': 'Feature',
-            'tags': 'legacy',
-            'feature': [
-                {
-                    'month': 3,
-                    'text': '例年3月下旬、天王寺公園全域の「サクラ」「ツバキ」が咲き始める'
-                },
-                {
-                    'month': 4,
-                    'text': '例年4月上旬、天王寺公園全域の「サクラ」「ツバキ」が見頃を迎える'
-                },
-                {
-                    'month': 6,
-                    'text': '例年6月上旬頃、慶沢園の「スイレン」「アジサイ」「サツキ」などが見頃を迎える'
-                },
-                {
-                    'month': 11,
-                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
-                },
-                {
-                    'month': 12,
-                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51144553780236, 34.65181702169076]
-            },
-            'properties': {
-                'title': '茶臼山',
-                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>南側には林泉回遊式庭園「慶沢園」がある（入園料 大人150円）',
-                'date': 'More Info',
-                'href': 'park/?area=osaka&name=tennoji',
-                'iconSize': ['https://creative-community.space/map/profile/img/mobile.png', '4rem', '4rem'],
-                'zoom': 15.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51638139543317, 34.654855400360255]
-            },
-            'properties': {
-                'title': '四天王寺',
-                'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
-                'date': 'More Info',
-                'href': 'legacy/?area=osaka&name=shitennoji',
-                'zoom': 16
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'vr',
-            'feature': [
-                {
-                    'month': 3,
-                    'text': '例年3月中旬、上汐公園・大阪市立天王寺図書館周辺などで天王寺区の花「モモ」が咲き始め'
-                },
-                {
-                    'month': 4,
-                    'text': '例年4月上旬、上汐公園・大阪市立天王寺図書館周辺などで天王寺区の花「モモ」が見頃を迎える'
-                }
-            ],
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51965841029406, 34.66546417416421]
-            },
-            'properties': {
-                'title': '上本町（谷九・上六）',
-                'address': '上町台地の頂に達する位置、風情や緑が数多く残されている上町の中心',
-                'date': 'More Info',
-                'href': 'vr/?id=osaka&area=minami&name=uehonmachi',
-                'iconSize': ['minami/icon/tennouji.png', '2.75rem', '2.75rem'],
-                'zoom': 14.5
-            }
-        },
-        {
-            'type': 'Feature',
-            'tags': 'draft',
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [135.51281756441597, 34.66505680252145]
-            },
-            'properties': {
-                'title': '生國魂神社',
-                'address': '約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ 通称「いくたまさん」',
-                'date': 'More Info',
-                'href': 'vr/?id=osaka&area=minami&name=ikutamajinja',
-                'zoom': 16.5
-            }
-        },
-        {
-            'type': 'Feature',
             'tags': 'draft',
             'geometry': {
                 'type': 'Point',
@@ -263,6 +169,107 @@ const osakaMinami = {
                 'date': 'More Info',
                 'href': 'legacy/?area=osaka&name=abeouji',
                 'zoom': 17
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'draft',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51281756441597, 34.66505680252145]
+            },
+            'properties': {
+                'title': '生國魂神社',
+                'address': '約2700年の歴史を有する大阪最古の神社 いくくにたまじんじゃ 通称「いくたまさん」',
+                'date': 'More Info',
+                'href': 'legacy/?area=osaka&name=ikutamajinja',
+                'zoom': 16.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'vr',
+            'feature': [
+                {
+                    'month': 3,
+                    'text': '例年3月中旬、上汐公園・大阪市立天王寺図書館周辺などで天王寺区の花「モモ」が咲き始め'
+                },
+                {
+                    'month': 4,
+                    'text': '例年4月上旬、上汐公園・大阪市立天王寺図書館周辺などで天王寺区の花「モモ」が見頃を迎える'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51965841029406, 34.66546417416421]
+            },
+            'properties': {
+                'title': '上本町（谷九・上六）',
+                'address': '現在の大阪の基礎となる上町台地の頂 風情や緑が数多く残る上町の中心',
+                'date': 'More Info',
+                'href': 'vr/?id=osaka&area=minami&name=uehonmachi',
+                'iconSize': ['minami/icon/tennouji.png', '2.75rem', '2.75rem'],
+                'zoom': 14.5
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'legacy',
+            'feature': [
+                {
+                    'month': 8,
+                    'text': '例年8月中旬~9月中旬、本坊庭園の極楽の池に蓮の花が咲く'
+                },
+                {
+                    'month': 9,
+                    'text': '例年8月中旬~9月中旬、本坊庭園の極楽の池に蓮の花が咲く'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51638139543317, 34.654855400360255]
+            },
+            'properties': {
+                'title': '四天王寺',
+                'address': '「日本仏教の祖」である聖徳太子が建立した日本最古の寺院',
+                'date': 'More Info',
+                'href': 'legacy/?area=osaka&name=shitennoji',
+                'youtube': 'oIKZdbq4isU',
+                'zoom': 16
+            }
+        },
+        {
+            'type': 'Feature',
+            'tags': 'park',
+            'feature': [
+                {
+                    'month': 5,
+                    'text': '例年5月、慶沢園の「アヤメ」「アジサイ」などが見頃を迎える'
+                },
+                {
+                    'month': 6,
+                    'text': '例年6月上旬頃、慶沢園の「スイレン」「アジサイ」「サツキ」などが見頃を迎える'
+                },
+                {
+                    'month': 11,
+                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
+                },
+                {
+                    'month': 12,
+                    'text': '例年11月から12月、茶臼山周辺の「ツバキ」が冬の見頃を迎える'
+                }
+            ],
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [135.51144553780236, 34.65181702169076]
+            },
+            'properties': {
+                'title': '茶臼山',
+                'address': '天王寺公園内にある茶臼山古墳の墳丘（標高26m）<br>南側には林泉回遊式庭園「慶沢園」がある（入園料 大人150円）',
+                'date': 'More Info',
+                'href': 'park/?area=osaka&name=tennoji',
+                'youtube': 'Xcv4Ti0HmvE',
+                'zoom': 15.5
             }
         },
         {

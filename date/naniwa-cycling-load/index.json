@@ -9,7 +9,7 @@
     "cover": "naniwa-cycling-load.thumbs/yodogawa/001_000001.jpg",
     "video": [
         {
-            "title": "赤川鉄橋",
+            "title": "淀川橋梁 (おおさか東線)",
             "src": "yodogawa/001.ia.mp4",
             "track": "yodogawa/001.vtt"
         },
@@ -66,12 +66,12 @@
     ],
     "link": [
         {
-            "text": "淀川右岸",
+            "text": "淀川右岸 (the Right bank of Yodogawa)",
             "url": "../naniwa-cycling-load/?id=yodogawa",
             "target": "_self"
         },
         {
-            "text": "神崎川左岸",
+            "text": "神崎川左岸 (the left bank of Kanzakigawa)",
             "url": "../naniwa-cycling-load/?id=kanzakigawa",
             "target": "_self"
         },

@@ -51,18 +51,38 @@
             "target": "_self"
         },
         {
-            "text": "慶沢園 - Wikipedia",
-            "url": "https://ja.wikipedia.org/wiki/%E6%85%B6%E6%B2%A2%E5%9C%92",
-            "target": "_blank"
-        },
-        {
             "text": "大阪市：慶沢園 | 大阪市指定文化財",
             "url": "https://www.city.osaka.lg.jp/kyoiku/page/0000008995.html",
             "target": "_blank"
         },
         {
+            "text": "慶沢園 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E6%85%B6%E6%B2%A2%E5%9C%92",
+            "target": "_blank"
+        },
+        {
+            "text": "住友家 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E4%BD%8F%E5%8F%8B%E5%AE%B6",
+            "target": "_blank"
+        },
+        {
+            "text": "小川治兵衛 - Wikipedia",
+            "url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B7%9D%E6%B2%BB%E5%85%B5%E8%A1%9B",
+            "target": "_blank"
+        },
+        {
             "text": "慶沢園 | 庭園情報メディア【おにわさん】",
             "url": "https://oniwa.garden/keitakuen-garden-%E6%85%B6%E6%B2%A2%E5%9C%92/",
+            "target": "_blank"
+        },
+        {
+            "text": "七代目小川治兵衛の庭園一覧 | 庭園情報メディア【おにわさん】",
+            "url": "https://oniwa.garden/tag/%E4%B8%83%E4%BB%A3%E7%9B%AE%E5%B0%8F%E5%B7%9D%E6%B2%BB%E5%85%B5%E8%A1%9B/",
+            "target": "_blank"
+        },
+        {
+            "text": "木津聿斎（木津宗詮）の庭園一覧 | 庭園情報メディア【おにわさん】",
+            "url": "https://oniwa.garden/tag/%E6%9C%A8%E6%B4%A5%E8%81%BF%E6%96%8E/",
             "target": "_blank"
         }
     ]

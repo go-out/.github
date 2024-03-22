@@ -20,6 +20,11 @@
     ],
     "link": [
         {
+            "text": "復活祭 🐣 Easter",
+            "url": "../easter/",
+            "target": "_self"
+        },
+        {
             "text": "日本聖公会大阪教区 大阪聖アンデレ教会",
             "url": "https://st-andrew-osaka.com/",
             "target": "_blank"
