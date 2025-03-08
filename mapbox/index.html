@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="../profile/favicon.png" />
+
+    <!--og:meta-->
+    <title>Go Out | 行ったことのない場所へ行く</title>
+    <meta content="知っていることの 外へ わからないところまで 出かける" name="description" />
+
+    <!-- Mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+
+    <!-- Mapbox geocoder -->
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css"
+        type="text/css">
+
+    <link rel="stylesheet" href="../profile/fonts/style.css" />
+    <link rel="stylesheet" href="../index.css" />
+</head>
+
+<body>
+    <main>
+        <section>
+            <div id="geocoder" class="geocoder"></div>
+            <h1 hidden>Go Out</h1>
+            <h2>
+                <b id="latlng"></b><br>
+                <u id="address"></u>
+            </h2>
+        </section>
+        <div id="map"></div>
+    </main>
+    <footer>
+        <fieldset id="styles">
+          <legend>Mapbox Styles API <code id="url">スタイルURL</code></legend>
+        </fieldset>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./style.js"></script>
+    <script src="./rotating.js"></script>
+    <script src="./geocoder/search.js"></script>
+</body>
+
+</html>

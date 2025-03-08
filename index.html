@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" href="./profile/favicon.png" />
+    <link rel="icon" href="./profile/mobile.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="./profile/mobile.png" sizes="180x180" />
+
+    <!--og:meta-->
+    <title>Go Out | 行ったことのない場所へ行く</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta content="Go Out | 行ったことのない場所へ行く" property="og:title" />
+    <meta content="知っていることの 外へ わからないところまで 出かける" name="description" />
+    <meta content="知っていることの 外へ わからないところまで 出かける" property="og:description" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="./profile/card.png" />
+    <meta property="og:image" content="./profile/card.png" />
+
+    <!-- Mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+
+    <link rel="stylesheet" href="./profile/fonts/style.css" />
+    <link rel="stylesheet" href="./mapbox/popup/style.css" />
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <main>
+        <h1>
+            <strong>Go Out</strong>
+            <button type="button" onclick="enter()">Let's have some fun</button>
+        </h1>
+        <section>
+            <h2>
+                <b id="latlng">Life is precious. Every minute. And more precious with you in it.</b><br>
+                <u id="address">from "Jon Brion - Little Person"</u>
+            </h2>
+            <h3>
+                <u>知っていることの</u>
+                <b>外へ</b>
+                <u>わからないところまで</u>
+                <b>出かける</b>
+            </h3>
+        </section>
+        <div id="map"></div>
+    </main>
+    <script src="./mapbox/script.js"></script>
+    <script src="./mapbox/rotating.js"></script>
+    <script src="./mapbox/popup/index.js"></script>
+    <script src="./mapbox/polygon/heard.js"></script>
+    <script src="./mapbox/polygon/do.js"></script>
+    <script src="./mapbox/geocoder/search.js"></script>
+
+    <script>
+        function enter() {
+            document.querySelector("main h1").hidden = true;
+            document.querySelector("main h3").hidden = true;
+            userInteracting = !0
+        };
+    </script>
+</body>
+
+</html>

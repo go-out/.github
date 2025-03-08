@@ -1,0 +1,28 @@
+{
+    "name": "Go Out",
+    "short_name": "Go Out",
+    "display": "fullscreen",
+    "background_color": "lightskyblue",
+    "description": "行ったことのない場所へ行く",
+    "icons": [
+        {
+            "src": "./profile/mobile.png",
+            "sizes": "200x200",
+            "type": "image/png"
+        },
+        {
+            "src": "./profile/logo.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./profile/card.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "index"
+        }
+    ]
+}
